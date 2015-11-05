@@ -1,0 +1,86 @@
+src/fileformats/ocd_types.h:747: warning: no uniquely matching class member found for 
+  template < F >
+  const QByteArray OcdFile< F >::operator[](const typename OcdFile< F >::Ocd::ParameterStringIndexEntry &string) const
+Possible candidates:
+  const char & OcdFile< F >::operator[](quint32 file_pos) const ' at line 442 of file src/fileformats/ocd_types.h
+  const QByteArray OcdFile< F >::operator[](const typename StringIndex::EntryType &string) const ' at line 457 of file src/fileformats/ocd_types.h
+  const F::Object & OcdFile< F >::operator[](const typename ObjectIndex::EntryType &object_entry) const ' at line 472 of file src/fileformats/ocd_types.h
+
+src/fileformats/ocd_types.h:768: warning: no uniquely matching class member found for 
+  template < F >
+  const F::Object & OcdFile< F >::operator[](const typename OcdFile< F >::typename F::Object::IndexEntryType &object_entry) const
+Possible candidates:
+  const char & OcdFile< F >::operator[](quint32 file_pos) const ' at line 442 of file src/fileformats/ocd_types.h
+  const QByteArray OcdFile< F >::operator[](const typename StringIndex::EntryType &string) const ' at line 457 of file src/fileformats/ocd_types.h
+  const F::Object & OcdFile< F >::operator[](const typename ObjectIndex::EntryType &object_entry) const ' at line 472 of file src/fileformats/ocd_types.h
+
+src/printsupport/advanced_pdf_printer.cpp:26: warning: no matching class member found for 
+  AdvancedPdfPrinter::AdvancedPdfPrinter(QPrinter::PrinterMode mode)
+Possible candidates:
+  AdvancedPdfPrinter::AdvancedPdfPrinter(PrinterMode mode=ScreenResolution)
+  AdvancedPdfPrinter::AdvancedPdfPrinter(const QPrinterInfo &printer, PrinterMode mode=ScreenResolution)
+
+src/printsupport/advanced_pdf_printer.cpp:34: warning: no matching class member found for 
+  AdvancedPdfPrinter::AdvancedPdfPrinter(const QPrinterInfo &printer, QPrinter::PrinterMode mode)
+Possible candidates:
+  AdvancedPdfPrinter::AdvancedPdfPrinter(PrinterMode mode=ScreenResolution)
+  AdvancedPdfPrinter::AdvancedPdfPrinter(const QPrinterInfo &printer, PrinterMode mode=ScreenResolution)
+
+src/symbol_line.cpp:245: warning: no uniquely matching class member found for 
+  void LineSymbol::createRenderables(const Object *object, const VirtualCoordVector &coords, ObjectRenderables &output, RenderableOptions options) const
+Possible candidates:
+  void LineSymbol::createRenderables(const Object *object, const VirtualCoordVector &coords, ObjectRenderables &output, Symbol::RenderableOptions options) const override' at line 97 of file src/symbol_line.h
+  void LineSymbol::createRenderables(const PathObject *object, const PathPartVector &path_parts, ObjectRenderables &output, Symbol::RenderableOptions options) const override' at line 103 of file src/symbol_line.h
+
+src/symbol_line.cpp:259: warning: no uniquely matching class member found for 
+  void LineSymbol::createRenderables(const PathObject *object, const PathPartVector &path_parts, ObjectRenderables &output, RenderableOptions options) const
+Possible candidates:
+  void LineSymbol::createRenderables(const Object *object, const VirtualCoordVector &coords, ObjectRenderables &output, Symbol::RenderableOptions options) const override' at line 97 of file src/symbol_line.h
+  void LineSymbol::createRenderables(const PathObject *object, const PathPartVector &path_parts, ObjectRenderables &output, Symbol::RenderableOptions options) const override' at line 103 of file src/symbol_line.h
+
+warning: Included by graph for 'map.h' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Include graph for 'map_editor.cpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Included by graph for 'object.h' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+src/map_part.h:215: warning: Found unknown command `\copyetails'
+warning: Included by graph for 'util.h' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+src/gui/widgets/action_grid_bar.h:46: warning: The following parameters of ActionGridBar::ActionGridBar(Direction direction, int height_items, QWidget *parent=NULL) are not documented:
+  parameter 'parent'
+src/gui/autosave_dialog.h:47: warning: The following parameters of AutosaveDialog::AutosaveDialog(QString original_path, QString autosave_path, QString actual_path, MainWindow *parent=NULL, Qt::WindowFlags f=0) are not documented:
+  parameter 'f'
+src/gui/autosave_dialog.h:108: warning: Found unknown command `\override'
+src/gui/autosave_dialog.h:76: warning: Found unknown command `\override'
+src/tool_edit.h:221: warning: The following parameters of EditTool::drawBoundingBox(QPainter *painter, MapWidget *widget, const QRectF &bounding_box, const QRgb &color) are not documented:
+  parameter 'painter'
+  parameter 'widget'
+  parameter 'color'
+src/tool_edit.h:228: warning: argument 'bounding_box' of command @param is not found in the argument list of EditTool::drawBoundingPath(QPainter *painter, MapWidget *widget, const std::vector< QPointF > &bounding_path, const QRgb &color)
+src/tool_edit.h:228: warning: The following parameters of EditTool::drawBoundingPath(QPainter *painter, MapWidget *widget, const std::vector< QPointF > &bounding_path, const QRgb &color) are not documented:
+  parameter 'painter'
+  parameter 'widget'
+  parameter 'bounding_path'
+  parameter 'color'
+src/tool.h:86: warning: argument 'type' of command @param is not found in the argument list of MapEditorTool::MapEditorTool(MapEditorController *editor, Type tool_type, QAction *tool_action=nullptr)
+src/tool.h:86: warning: The following parameters of MapEditorTool::MapEditorTool(MapEditorController *editor, Type tool_type, QAction *tool_action=nullptr) are not documented:
+  parameter 'tool_type'
+src/map_part.h:208: warning: Found unknown command `\copyetails'
+src/map_part.h:215: warning: Found unknown command `\copyetails'
+src/map_part.h:222: warning: Found unknown command `\copyetails'
+src/map_part.h:215: warning: Found unknown command `\copyetails'
+src/map_part.h:222: warning: Found unknown command `\copyetails'
+src/map_part.h:208: warning: Found unknown command `\copyetails'
+src/tool_edit.h:99: warning: The following parameters of ObjectMover::move(const MapCoordF &cursor_pos, bool move_opposite_handles, qint32 *out_dx=NULL, qint32 *out_dy=NULL) are not documented:
+  parameter 'cursor_pos'
+src/tool_edit.h:43: warning: The following parameters of ObjectSelector::selectAt(MapCoordF position, double tolerance, bool toggle) are not documented:
+  parameter 'position'
+src/tool_edit.h:54: warning: The following parameters of ObjectSelector::selectBox(MapCoordF corner1, MapCoordF corner2, bool toggle) are not documented:
+  parameter 'corner1'
+  parameter 'corner2'
+src/object_undo.h:111: warning: explicit link request to 'loadImpl()' could not be resolved
+src/symbol_point_editor.h:55: warning: The following parameters of PointSymbolEditorWidget::PointSymbolEditorWidget(MapEditorController *controller, PointSymbol *symbol, float offset_y=0, bool permanent_preview=false, QWidget *parent=0) are not documented:
+  parameter 'parent'
+src/symbol_properties_widget.h:40: warning: The following parameters of SymbolPropertiesWidget::SymbolPropertiesWidget(Symbol *symbol, SymbolSettingDialog *dialog) are not documented:
+  parameter 'dialog'
+src/util/item_delegates.h:211: warning: Found unknown command `\override'
+src/util/item_delegates.h:218: warning: Found unknown command `\override'
+src/util.h:149: warning: The following parameters of Util::showHelp(QWidget *dialog_parent, QString filename=QStringLiteral("index.html"), QString fragment=QString()) are not documented:
+  parameter 'dialog_parent'

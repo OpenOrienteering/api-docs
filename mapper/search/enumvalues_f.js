@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['raster',['Raster',['../classMapPrinterOptions.html#a177ed1999b5050c9c73e9d5e978361e3a7b08b4e930e05cf49d8c1472515d0bc6',1,'MapPrinterOptions']]],
+  ['rect',['Rect',['../classCutHoleTool.html#a438a1f92f6358c833749f16d45054f35a4b669ffd298a40fea8ea79f69d1b6ad9',1,'CutHoleTool']]],
+  ['rectangletool_5fhelpercrossradiusmm',['RectangleTool_HelperCrossRadiusMM',['../classSettings.html#adc10a2a81016a34f8220eff0657d7f3aa6e5ec683323200572ba16e8acce25138',1,'Settings']]],
+  ['rectangletool_5fpreviewlinewidth',['RectangleTool_PreviewLineWidth',['../classSettings.html#adc10a2a81016a34f8220eff0657d7f3aad4c7aa001e94a62747efe4cb83e37788',1,'Settings']]],
+  ['registration',['Registration',['../classMapColor.html#a2a9ed854357f963c28554fb3ab8f48f3a7ef437368241279ea30ee72bb534ca81',1,'MapColor']]],
+  ['removemappart',['RemoveMapPart',['../classMapPartUndoStep.html#ad130b66c884d74916af388ad085c13bea7cd2570d3466eb6b4a3d596dd9d5053d',1,'MapPartUndoStep']]],
+  ['renderareashatched',['RenderAreasHatched',['../classSymbol.html#a5b652bed078d8a64b4af93f8e98aa88ba1dce3443055f0e8bd729fff884aeb90a',1,'Symbol']]],
+  ['renderbaselines',['RenderBaselines',['../classSymbol.html#a5b652bed078d8a64b4af93f8e98aa88ba29c8ef289ec3582091b862e8940e5849',1,'Symbol']]],
+  ['rendernormal',['RenderNormal',['../classSymbol.html#a5b652bed078d8a64b4af93f8e98aa88bab040f7fa6cdc516244b0ec7b6d40881f',1,'Symbol']]],
+  ['repeat',['Repeat',['../qt-5_82_81_2qfontsubset_8cpp.html#aa705cf7e79a21c2352b00ffe20cd295fa93634d32da4cb8f0204b4f8929fda514',1,'Repeat():&#160;qfontsubset.cpp'],['../qt-5_85_81_2qfontsubset_8cpp.html#aa705cf7e79a21c2352b00ffe20cd295fa93634d32da4cb8f0204b4f8929fda514',1,'Repeat():&#160;qfontsubset.cpp']]],
+  ['replaceobjectsundosteptype',['ReplaceObjectsUndoStepType',['../classUndoStep.html#a18600ea1e7741e158962ed6923c7bd66a11984621d9bd567e3224ebb5e7f3cb51',1,'UndoStep']]],
+  ['requirespotcolor',['RequireSpotColor',['../classRenderConfig.html#a27c5d055cb58879e93027eaed5844ec7af72ec018dd0f32e4e83a6646e2394492',1,'RenderConfig']]],
+  ['reserved',['Reserved',['../classMapColor.html#a2a9ed854357f963c28554fb3ab8f48f3a6f654c96fac9cd5083cc986f9ad4c2f5',1,'MapColor::Reserved()'],['../classPainterConfig.html#a0e0adcc6aa2eda138946ee6fdbacbfecaecdeddaad58842e99acfa288c90310be',1,'PainterConfig::Reserved()']]],
+  ['rgbcolor',['RgbColor',['../classMapColor.html#ac92533ad09b4288f68960bd80653e62caf5c7b6ab6b71f09d8c26931263251d2b',1,'MapColor']]],
+  ['rightborder',['RightBorder',['../classPrintTool.html#a73d94b3e59890446779a6028175e2baba4e16f1d0ffc976f65d94f57f6aff966d',1,'PrintTool']]],
+  ['rightneighbor',['RightNeighbor',['../classSegmentedButtonLayout.html#a8ba019aece1c70c21a1bd5b1cdf1ed56a8b0afe91e0f18d1d95f8c8a2da67a435',1,'SegmentedButtonLayout']]],
+  ['rotationchange',['RotationChange',['../classMapView.html#a0fb5b578c907df9a052fc64a2ce01810a704fc54b09c463747eae8322c76c4598',1,'MapView']]],
+  ['roundcap',['RoundCap',['../classLineSymbol.html#ae80afcf8c1e5f2ba909330cb2c2f9d90aadbef4be9e0ef2c1e24e94ea653c374b',1,'LineSymbol']]],
+  ['roundjoin',['RoundJoin',['../classLineSymbol.html#a1e20de380b4be9928ae6d4706b022e42a4e84122f27bbe75b4b16c749307856ce',1,'LineSymbol']]],
+  ['roundjoin_5fpointedcap',['RoundJoin_PointedCap',['../structOcd_1_1LineSymbolV11.html#a249cf044bd07c8189ccf38eae52601f6a7fe1e5913c27dd2605d01c8eacc5fa57',1,'Ocd::LineSymbolV11::RoundJoin_PointedCap()'],['../structOcd_1_1LineSymbolV8.html#a162a0523971fa5007cf6a1756687049fad5af238c98f224aadc43b0d299fec247',1,'Ocd::LineSymbolV8::RoundJoin_PointedCap()'],['../structOcd_1_1LineSymbolV9.html#aca96da285d29465a025ef9db96cf7e6da0197ab552fc376ace70c7c7555ae476e',1,'Ocd::LineSymbolV9::RoundJoin_PointedCap()']]],
+  ['roundjoin_5froundcap',['RoundJoin_RoundCap',['../structOcd_1_1LineSymbolV11.html#a249cf044bd07c8189ccf38eae52601f6a7646cc3eb7040251752c73abcc742385',1,'Ocd::LineSymbolV11::RoundJoin_RoundCap()'],['../structOcd_1_1LineSymbolV8.html#a162a0523971fa5007cf6a1756687049fa6fb074f7be0fcf35107b78637c30db35',1,'Ocd::LineSymbolV8::RoundJoin_RoundCap()'],['../structOcd_1_1LineSymbolV9.html#aca96da285d29465a025ef9db96cf7e6da6aa75d2a443c5ff32757a0e704d7376f',1,'Ocd::LineSymbolV9::RoundJoin_RoundCap()']]]
+];

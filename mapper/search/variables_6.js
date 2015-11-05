@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['g',['g',['../structMapColorRgb.html#a4167d02879654c316b21b45643bda77b',1,'MapColorRgb']]],
+  ['g_5fedit',['g_edit',['../classColorDialog.html#ad63c0f17f905b5a6a8b62d609bf0394e',1,'ColorDialog']]],
+  ['geometries',['geometries',['../classPieMenu.html#a2f77e2b6d2caeba512342c985ca42f60',1,'PieMenu']]],
+  ['georef',['georef',['../classTemplateImage.html#a7012567b932baa37022ae5519ccb7670',1,'TemplateImage']]],
+  ['georef_5foffset_5fadjusted',['georef_offset_adjusted',['../classXMLFileImporter.html#a5ca751f45a18dba16e7395e8d19f16fc',1,'XMLFileImporter']]],
+  ['gestureflags',['GestureFlags',['http://doc.qt.io/qt-5/qt.html#GestureFlag-enum',1,'Qt']]],
+  ['glyph_5findices',['glyph_indices',['../classQFontSubset.html#a2c24732257a2c5ad79d70628e74a580c',1,'QFontSubset']]],
+  ['glyphrunflags',['GlyphRunFlags',['http://doc.qt.io/qt-5/qglyphrun.html#GlyphRunFlag-enum',1,'QGlyphRun']]],
+  ['gps_5fadjustment',['gps_adjustment',['../structOcd_1_1SetupV8.html#a8f9f9291db4f6a55f1cfbae73e1b2b1e',1,'Ocd::SetupV8']]],
+  ['gps_5fangle',['gps_angle',['../structOcd_1_1SetupV8.html#a68deaf4eb5635fbc2803e796601c7a72',1,'Ocd::SetupV8']]],
+  ['gps_5fcoord',['gps_coord',['../structTrackPoint.html#a66b29e44dc5e9829ed8d6de25929e29c',1,'TrackPoint']]],
+  ['graphicsitemflags',['GraphicsItemFlags',['http://doc.qt.io/qt-5/qgraphicsitem.html#GraphicsItemFlag-enum',1,'QGraphicsItem']]],
+  ['graphicstates',['graphicStates',['../classAdvancedPdfPage.html#acf17ddc77a525a4b0faca8fdcb820ca1',1,'AdvancedPdfPage']]],
+  ['grayscale',['grayscale',['../classAdvancedPdfEnginePrivate.html#abdfd6226f8b830f15f9d670ac7835503',1,'AdvancedPdfEnginePrivate']]],
+  ['grid_5fcolor',['grid_color',['../structOcd_1_1PrintSetupV8.html#abc6b7a1461bc1472e204323382729907',1,'Ocd::PrintSetupV8']]],
+  ['grid_5fdist',['grid_dist',['../structOcd_1_1SetupV8.html#a1b531e96b62c24556bd3e7ea5c4f1002',1,'Ocd::SetupV8']]],
+  ['grid_5fenabled',['grid_enabled',['../structOcd_1_1PrintSetupV8.html#aa3be342d2913b884e77cb6be47ee31bc',1,'Ocd::PrintSetupV8']]],
+  ['grid_5fflags',['grid_flags',['../structOcd_1_1RectangleSymbolV10.html#a937eccc1157ff5197057328c42e7b448',1,'Ocd::RectangleSymbolV10::grid_flags()'],['../structOcd_1_1RectangleSymbolV11.html#a4b5dcb4b03e1c3c95bdd5516e0fda642',1,'Ocd::RectangleSymbolV11::grid_flags()'],['../structOcd_1_1RectangleSymbolV8.html#abc30182e26db0c3f7d81c8b228efd863',1,'Ocd::RectangleSymbolV8::grid_flags()'],['../structOcd_1_1RectangleSymbolV9.html#a060961e82842969e5ea304d73d7251a5',1,'Ocd::RectangleSymbolV9::grid_flags()']]],
+  ['group',['group',['../structOcd_1_1BaseSymbolV11.html#a3f9f35233b6c8fabb81b2c3c54fa41aa',1,'Ocd::BaseSymbolV11::group()'],['../structOcd_1_1ObjectIndexEntryV11.html#ac89dce9229f676042ed2af1c9a4a42d0',1,'Ocd::ObjectIndexEntryV11::group()'],['../structOcd_1_1BaseSymbolV9.html#a5b38a1533e5800b2303f900a2bffc7d0',1,'Ocd::BaseSymbolV9::group()']]]
+];

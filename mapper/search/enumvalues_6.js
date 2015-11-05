@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['gappoint',['GapPoint',['../classMapCoord.html#a45b3e0f985966f062b81c3f0fe7c1d39a39ea7b6fa76fc7d12af5e313520ffd96',1,'MapCoord']]],
+  ['general_5fautosaveinterval',['General_AutosaveInterval',['../classSettings.html#adc10a2a81016a34f8220eff0657d7f3aa3e41618ba6c435e185ca9791552810aa',1,'Settings']]],
+  ['general_5flanguage',['General_Language',['../classSettings.html#adc10a2a81016a34f8220eff0657d7f3aa3de2c9b10f4c6f4ddee8bdb1db0f7046',1,'Settings']]],
+  ['general_5flocal8bitencoding',['General_Local8BitEncoding',['../classSettings.html#adc10a2a81016a34f8220eff0657d7f3aa12eebf4cd730b7fe69499f0913ca4ae6',1,'Settings']]],
+  ['general_5fnewocd8implementation',['General_NewOcd8Implementation',['../classSettings.html#adc10a2a81016a34f8220eff0657d7f3aab00ae19d234a66ec60f2eb32ad4c5447',1,'Settings']]],
+  ['general_5fopenmrufile',['General_OpenMRUFile',['../classSettings.html#adc10a2a81016a34f8220eff0657d7f3aa8e74e14d905fa7dd60a6b07cb71d06f0',1,'Settings']]],
+  ['general_5fpixelsperinch',['General_PixelsPerInch',['../classSettings.html#adc10a2a81016a34f8220eff0657d7f3aad9ec5ab2aabec50337fe186b1698fb62',1,'Settings']]],
+  ['general_5frecentfileslist',['General_RecentFilesList',['../classSettings.html#adc10a2a81016a34f8220eff0657d7f3aaf1d332e68c102beb5a2b1bd08600449b',1,'Settings']]],
+  ['general_5fretaincompatiblity',['General_RetainCompatiblity',['../classSettings.html#adc10a2a81016a34f8220eff0657d7f3aab196993ceca19badb516ddf3ae125ec8',1,'Settings']]],
+  ['general_5fstartdragdistance',['General_StartDragDistance',['../classSettings.html#adc10a2a81016a34f8220eff0657d7f3aad21220af84d602dd0298c573d552ae04',1,'Settings']]],
+  ['general_5ftranslationfile',['General_TranslationFile',['../classSettings.html#adc10a2a81016a34f8220eff0657d7f3aad2c0ea7b276930e9c44cc35e4a180f13',1,'Settings']]],
+  ['geographic',['Geographic',['../classSelectCRSDialog.html#a0de7f0d7759b30754b0183edeabf00c3a37cb8ba6501ffa0db2e2d7bf97685469',1,'SelectCRSDialog']]],
+  ['geographic_5fcoords',['GEOGRAPHIC_COORDS',['../classMapWidget.html#a158226eb705ef66b6817974c0f3f8718ad5d9e21c8ebf7e6be6a4be8af737314e',1,'MapWidget']]],
+  ['geographic_5fcoords_5fdms',['GEOGRAPHIC_COORDS_DMS',['../classMapWidget.html#a158226eb705ef66b6817974c0f3f8718a4ff562c30f50a16e5f055d1818908bf6',1,'MapWidget']]],
+  ['georeferencing_5fgeotiff',['Georeferencing_GeoTiff',['../classTemplateImage.html#aae420b8c48cf59f1d34408965c13656da9b4e5c14bb4f0a95ae3eeef4de91aecc',1,'TemplateImage']]],
+  ['georeferencing_5fnone',['Georeferencing_None',['../classTemplateImage.html#aae420b8c48cf59f1d34408965c13656dad3e515fcdb40a758835c27bbe2b5d2bc',1,'TemplateImage']]],
+  ['georeferencing_5fworldfile',['Georeferencing_WorldFile',['../classTemplateImage.html#aae420b8c48cf59f1d34408965c13656dacca34aa57fb1354f9a6fdf98ab0eeaa0',1,'TemplateImage']]],
+  ['gridcorners',['GridCorners',['../classSnappingToolHelper.html#a5d6b1bf297e911a9e0eb2669b196f5e1af8127197fa6d4ff7c0b58e378c5da496',1,'SnappingToolHelper']]],
+  ['gridnorth',['GridNorth',['../classMapGrid.html#ab71b075d95a66dcb36020826a97c3911ae7a4ee1a9e9da1f26041a35e1f304003',1,'MapGrid']]]
+];
