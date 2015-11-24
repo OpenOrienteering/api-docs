@@ -42,5 +42,6 @@ var searchData=
   ['attributesmap',['AttributesMap',['http://doc.qt.io/qt-5/qnetworkcachemetadata.html#AttributesMap-typedef',1,'QNetworkCacheMetaData']]],
   ['autoformatting',['AutoFormatting',['http://doc.qt.io/qt-5/qtextedit.html#AutoFormattingFlag-enum',1,'QTextEdit']]],
   ['autosave_5finterval',['autosave_interval',['../classAutosaveTest.html#a5ba4913bd0596d900327e26542488e05',1,'AutosaveTest']]],
-  ['available_5fgeoref',['available_georef',['../classTemplateImage.html#a685c723160bf12d778f6061879c5f48e',1,'TemplateImage']]]
+  ['available_5fgeoref',['available_georef',['../classTemplateImage.html#a685c723160bf12d778f6061879c5f48e',1,'TemplateImage']]],
+  ['azimuth',['azimuth',['../classCompassDisplay.html#a76744fe9abf7d11b146420170f51f60d',1,'CompassDisplay']]]
 ];

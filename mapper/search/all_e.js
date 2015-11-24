@@ -153,7 +153,7 @@ var searchData=
   ['number_5ffrom_5fbottom',['number_from_bottom',['../structOcdFileImport_1_1RectangleInfo.html#a615f197d13e9695c6b19cd0d7f76283b',1,'OcdFileImport::RectangleInfo']]],
   ['numberchanged',['numberChanged',['../classCombinedSymbolSettings.html#a2ba0b1f0985abcc3de9cb09b45c909f3',1,'CombinedSymbolSettings::numberChanged()'],['../classSymbolPropertiesWidget.html#a19ca46e3ed65409cf862e8c3dfb478c6',1,'SymbolPropertiesWidget::numberChanged()']]],
   ['numberequals',['numberEquals',['../classSymbol.html#ab8b3cc005b24be6960c6c843c87302d3',1,'Symbol']]],
-  ['numberflags',['NumberFlags',['http://doc.qt.io/qt-5/qtextstream.html#NumberFlag-enum',1,'QTextStream::NumberFlags()'],['http://doc.qt.io/qt-5/qtextstream.html#numberFlags',1,'QTextStream::numberFlags() const']]],
+  ['numberflags',['numberFlags',['http://doc.qt.io/qt-5/qtextstream.html#numberFlags',1,'QTextStream::numberFlags() const'],['http://doc.qt.io/qt-5/qtextstream.html#NumberFlag-enum',1,'QTextStream::NumberFlags()']]],
   ['numberofhmetrics',['numberOfHMetrics',['../structqttf__hhea__table.html#a8c9d8b7a8c774103d13a3f216d2f98e9',1,'qttf_hhea_table']]],
   ['numberoptions',['numberOptions',['http://doc.qt.io/qt-5/qlocale.html#numberOptions',1,'QLocale::numberOptions() const'],['http://doc.qt.io/qt-5/qlocale.html#NumberOption-enum',1,'QLocale::NumberOptions()']]],
   ['numberprefix',['numberPrefix',['http://doc.qt.io/qt-5/qtextlistformat.html#numberPrefix',1,'QTextListFormat']]],

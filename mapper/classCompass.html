@@ -90,6 +90,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="classCompass-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -244,13 +245,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:disconnect-5 inherit pub_static_methods_qobject"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5//" href="http://doc.qt.io/qt-5/qobject.html#disconnect-5">disconnect</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5//" href="http://doc.qt.io/qt-5/qobject.html">QObject</a> *<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5//" href="http://doc.qt.io/qt-5/qobject.html#sender">sender</a>, PointerToMemberFunction signal, const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5//" href="http://doc.qt.io/qt-5/qobject.html">QObject</a> *receiver, PointerToMemberFunction method)</td></tr>
 <tr class="separator:disconnect-5 inherit pub_static_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
-Friends</h2></td></tr>
-<tr class="memitem:a3c78eae8563c79f1c7339a398351f333"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCompass.html#a3c78eae8563c79f1c7339a398351f333">CompassPrivate</a></td></tr>
-<tr class="separator:a3c78eae8563c79f1c7339a398351f333"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a97ec686a95bce6968c3300b027d8b19c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCompass.html#a97ec686a95bce6968c3300b027d8b19c">connectNotify</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5//" href="http://doc.qt.io/qt-5/qmetamethod.html">QMetaMethod</a> &amp;signal) override</td></tr>
+<tr class="separator:a97ec686a95bce6968c3300b027d8b19c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae372598646e4944e40506bf9dd225968"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCompass.html#ae372598646e4944e40506bf9dd225968">disconnectNotify</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5//" href="http://doc.qt.io/qt-5/qmetamethod.html">QMetaMethod</a> &amp;signal) override</td></tr>
+<tr class="separator:ae372598646e4944e40506bf9dd225968"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_qobject"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_qobject')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td></tr>
 <tr class="memitem:sender inherit pro_methods_qobject"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5//" href="http://doc.qt.io/qt-5/qobject.html">QObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5//" href="http://doc.qt.io/qt-5/qobject.html#sender">sender</a> () const</td></tr>
 <tr class="separator:sender inherit pro_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -266,10 +266,14 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:childEvent inherit pro_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:customEvent inherit pro_methods_qobject"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5//" href="http://doc.qt.io/qt-5/qobject.html#customEvent">customEvent</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5//" href="http://doc.qt.io/qt-5/qevent.html">QEvent</a> *<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5//" href="http://doc.qt.io/qt-5/qobject.html#event">event</a>)</td></tr>
 <tr class="separator:customEvent inherit pro_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:connectNotify inherit pro_methods_qobject"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5//" href="http://doc.qt.io/qt-5/qobject.html#connectNotify">connectNotify</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5//" href="http://doc.qt.io/qt-5/qmetamethod.html">QMetaMethod</a> &amp;signal)</td></tr>
-<tr class="separator:connectNotify inherit pro_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:disconnectNotify inherit pro_methods_qobject"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5//" href="http://doc.qt.io/qt-5/qobject.html#disconnectNotify">disconnectNotify</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5//" href="http://doc.qt.io/qt-5/qmetamethod.html">QMetaMethod</a> &amp;signal)</td></tr>
-<tr class="separator:disconnectNotify inherit pro_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a3c78eae8563c79f1c7339a398351f333"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCompass.html#a3c78eae8563c79f1c7339a398351f333">CompassPrivate</a></td></tr>
+<tr class="separator:a3c78eae8563c79f1c7339a398351f333"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header properties_qobject"><td colspan="2" onclick="javascript:toggleInherit('properties_qobject')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td></tr>
 <tr class="memitem:objectName-prop inherit properties_qobject"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5//" href="http://doc.qt.io/qt-5/qobject.html#objectName-prop">objectName</a></td></tr>
 <tr class="separator:objectName-prop inherit properties_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -321,6 +325,32 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a97ec686a95bce6968c3300b027d8b19c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Compass::connectNotify </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5//" href="http://doc.qt.io/qt-5/qmetamethod.html">QMetaMethod</a> &amp;&#160;</td>
+          <td class="paramname"><em>signal</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5//" href="http://doc.qt.io/qt-5/qobject.html#connectNotify">QObject</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ad636bf14d79599cf184b8b3774932dc0"></a>
 <div class="memitem">
 <div class="memproto">
@@ -365,6 +395,32 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Disconnects the given receiver from azimuth changes. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae372598646e4944e40506bf9dd225968"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Compass::disconnectNotify </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5//" href="http://doc.qt.io/qt-5/qmetamethod.html">QMetaMethod</a> &amp;&#160;</td>
+          <td class="paramname"><em>signal</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5//" href="http://doc.qt.io/qt-5/qobject.html#disconnectNotify">QObject</a>.</p>
 
 </div>
 </div>
@@ -469,8 +525,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/<a class="el" href="compass_8h.html">compass.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/63105d0/src/compass.h"><tt>63105d0</tt></a> on 3 Jan 2014)</li>
-<li>src/<a class="el" href="compass_8cpp.html">compass.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/c6d1a7c/src/compass.cpp"><tt>c6d1a7c</tt></a> on 3 Nov 2015)</li>
+<li>src/<a class="el" href="compass_8h.html">compass.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/314930e/src/compass.h"><tt>314930e</tt></a> on 15 Nov 2015)</li>
+<li>src/<a class="el" href="compass_8cpp.html">compass.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/314930e/src/compass.cpp"><tt>314930e</tt></a> on 15 Nov 2015)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

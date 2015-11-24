@@ -80,7 +80,7 @@ var searchData=
   ['start_5ffrom_5fcenter',['start_from_center',['../classDrawCircleTool.html#ad79367e49072190d852249f06e4969b1',1,'DrawCircleTool']]],
   ['start_5findex',['start_index',['../classTextObjectPartInfo.html#a7c04d57a3bf69a87f530f5784739e2e0',1,'TextObjectPartInfo::start_index()'],['../structTextObjectLineInfo.html#adbbf8f4147360c3bab19224042b83ee0',1,'TextObjectLineInfo::start_index()']]],
   ['start_5fsymbol',['start_symbol',['../classLineSymbol.html#a1509cda4133721f28449bbca02102e89',1,'LineSymbol']]],
-  ['state',['State',['http://doc.qt.io/qt-5/qstyle.html#StateFlag-enum',1,'QStyle::State()'],['../classAdvancedPdfPrintEngine.html#af3c8a27bcf99849a53304effc91b62cb',1,'AdvancedPdfPrintEngine::state()']]],
+  ['state',['state',['../classAdvancedPdfPrintEngine.html#af3c8a27bcf99849a53304effc91b62cb',1,'AdvancedPdfPrintEngine::state()'],['http://doc.qt.io/qt-5/qstyle.html#StateFlag-enum',1,'QStyle::State()']]],
   ['stateflags',['StateFlags',['http://doc.qt.io/qt-5/qnetworkconfiguration.html#StateFlag-enum',1,'QNetworkConfiguration']]],
   ['status',['status',['../structOcd_1_1BaseSymbolV11.html#a07e09b9cb5e41b262d03ad6a20795be1',1,'Ocd::BaseSymbolV11::status()'],['../structOcd_1_1ObjectIndexEntryV11.html#aeb39d0689927ab92f20305b26d9ada34',1,'Ocd::ObjectIndexEntryV11::status()'],['../structOcd_1_1BaseSymbolV8.html#acbf0d61ec51f9565c41952e943900ea2',1,'Ocd::BaseSymbolV8::status()'],['../structOcd_1_1BaseSymbolV9.html#a886ff092f5e7509821fa0767d18bc77f',1,'Ocd::BaseSymbolV9::status()'],['../structOcd_1_1ObjectIndexEntryV9.html#aad6cf69777cecc09426612d15982b247',1,'Ocd::ObjectIndexEntryV9::status()']]],
   ['step',['step',['../namespaceliteral.html#a792305890560c11d50151ef8e963524d',1,'literal']]],
