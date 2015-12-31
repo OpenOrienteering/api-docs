@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.5.99</span>
+   &#160;<span id="projectnumber">0.6.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -386,11 +386,15 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a60724e1dd0b443c86d2260c3320d5b6f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classTemplate.html">Template</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a60724e1dd0b443c86d2260c3320d5b6f">loadTemplateConfiguration</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5//" href="http://doc.qt.io/qt-5/qxmlstreamreader.html">QXmlStreamReader</a> &amp;xml, <a class="el" href="classMap.html">Map</a> &amp;<a class="el" href="classTemplate.html#a2f342fbc57e8f0944b137747e0b6abc9">map</a>, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> &amp;open)</td></tr>
-<tr class="separator:a60724e1dd0b443c86d2260c3320d5b6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd80a309f94f810a9056abc66c9d683b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classTemplate.html">Template</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#abd80a309f94f810a9056abc66c9d683b">templateForFile</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5//" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;path, <a class="el" href="classMap.html">Map</a> *<a class="el" href="classTemplate.html#a2f342fbc57e8f0944b137747e0b6abc9">map</a>)</td></tr>
-<tr class="memdesc:abd80a309f94f810a9056abc66c9d683b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to find a matching template subclass for the given path by looking at the file extension.  <a href="#abd80a309f94f810a9056abc66c9d683b">More...</a><br/></td></tr>
-<tr class="separator:abd80a309f94f810a9056abc66c9d683b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3800dafabe5a41f7e0fc1f1374551167"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="classTemplate.html">Template</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a3800dafabe5a41f7e0fc1f1374551167">loadTemplateConfiguration</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5//" href="http://doc.qt.io/qt-5/qxmlstreamreader.html">QXmlStreamReader</a> &amp;xml, <a class="el" href="classMap.html">Map</a> &amp;<a class="el" href="classTemplate.html#a2f342fbc57e8f0944b137747e0b6abc9">map</a>, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> &amp;open)</td></tr>
+<tr class="separator:a3800dafabe5a41f7e0fc1f1374551167"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89fd26fdae237e287c2d4ea66cbf10e7"><td class="memItemLeft" align="right" valign="top">static const std::vector<br class="typebreak"/>
+&lt; <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5//" href="http://doc.qt.io/qt-5/qbytearray.html">QByteArray</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a89fd26fdae237e287c2d4ea66cbf10e7">supportedExtensions</a> ()</td></tr>
+<tr class="memdesc:a89fd26fdae237e287c2d4ea66cbf10e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the filename extensions supported by known subclasses.  <a href="#a89fd26fdae237e287c2d4ea66cbf10e7">More...</a><br/></td></tr>
+<tr class="separator:a89fd26fdae237e287c2d4ea66cbf10e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e50674ed15c3cc2d8b1a2921071d2bc"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="classTemplate.html">Template</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a5e50674ed15c3cc2d8b1a2921071d2bc">templateForFile</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5//" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;path, <a class="el" href="classMap.html">Map</a> *<a class="el" href="classTemplate.html#a2f342fbc57e8f0944b137747e0b6abc9">map</a>)</td></tr>
+<tr class="memdesc:a5e50674ed15c3cc2d8b1a2921071d2bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classTemplate.html" title="Abstract base class for templates. ">Template</a> instance for the given path.  <a href="#a5e50674ed15c3cc2d8b1a2921071d2bc">More...</a><br/></td></tr>
+<tr class="separator:a5e50674ed15c3cc2d8b1a2921071d2bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_methods_qobject"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_qobject')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td></tr>
 <tr class="memitem:tr inherit pub_static_methods_qobject"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5//" href="http://doc.qt.io/qt-5/qstring.html">QString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5//" href="http://doc.qt.io/qt-5/qobject.html#tr">tr</a> (const char *sourceText, const char *disambiguation, int n)</td></tr>
 <tr class="separator:tr inherit pub_static_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1637,7 +1641,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a60724e1dd0b443c86d2260c3320d5b6f"></a>
+<a class="anchor" id="a3800dafabe5a41f7e0fc1f1374551167"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1645,7 +1649,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classTemplate.html">Template</a> * Template::loadTemplateConfiguration </td>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="classTemplate.html">Template</a> &gt; Template::loadTemplateConfiguration </td>
           <td>(</td>
           <td class="paramtype"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5//" href="http://doc.qt.io/qt-5/qxmlstreamreader.html">QXmlStreamReader</a> &amp;&#160;</td>
           <td class="paramname"><em>xml</em>, </td>
@@ -2415,6 +2419,31 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a89fd26fdae237e287c2d4ea66cbf10e7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::vector&lt; <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5//" href="http://doc.qt.io/qt-5/qbytearray.html">QByteArray</a> &gt; &amp; Template::supportedExtensions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the filename extensions supported by known subclasses. </p>
+
+</div>
+</div>
 <a class="anchor" id="a1c4646a7b58b9d27bb0263c10585ef62"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2461,7 +2490,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="abd80a309f94f810a9056abc66c9d683b"></a>
+<a class="anchor" id="a5e50674ed15c3cc2d8b1a2921071d2bc"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2469,7 +2498,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classTemplate.html">Template</a> * Template::templateForFile </td>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="classTemplate.html">Template</a> &gt; Template::templateForFile </td>
           <td>(</td>
           <td class="paramtype">const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5//" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;&#160;</td>
           <td class="paramname"><em>path</em>, </td>
@@ -2493,7 +2522,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Tries to find a matching template subclass for the given path by looking at the file extension. </p>
+<p>Creates a <a class="el" href="classTemplate.html" title="Abstract base class for templates. ">Template</a> instance for the given path. </p>
+<p>This function tries to find a matching template subclass by looking at the file extension. It may return nullptr if no subclass supports the extension. </p>
 
 </div>
 </div>
@@ -3059,8 +3089,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/<a class="el" href="template_8h.html">template.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/ca78a2e/src/template.h"><tt>ca78a2e</tt></a> on 2 Jul 2015)</li>
-<li>src/<a class="el" href="template_8cpp.html">template.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/3875b6b/src/template.cpp"><tt>3875b6b</tt></a> on 23 Oct 2015)</li>
+<li>src/<a class="el" href="template_8h.html">template.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/83fc905/src/template.h"><tt>83fc905</tt></a> on 9 Dec 2015)</li>
+<li>src/<a class="el" href="template_8cpp.html">template.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/ec9ad1a/src/template.cpp"><tt>ec9ad1a</tt></a> on 20 Dec 2015)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

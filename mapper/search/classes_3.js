@@ -33,7 +33,7 @@ var searchData=
   ['coordxmltest',['CoordXmlTest',['../classCoordXmlTest.html',1,'']]],
   ['crsparameterwidgetobserver',['CRSParameterWidgetObserver',['../classCRSParameterWidgetObserver.html',1,'']]],
   ['crsselector',['CRSSelector',['../classCRSSelector.html',1,'']]],
-  ['crstemplate',['CRSTemplate',['../structCRSTemplate.html',1,'']]],
+  ['crstemplate',['CRSTemplate',['../classCRSTemplate.html',1,'']]],
   ['crstemplateparameter',['CRSTemplateParameter',['../classCRSTemplateParameter.html',1,'']]],
   ['crstemplateregistry',['CRSTemplateRegistry',['../classCRSTemplateRegistry.html',1,'']]],
   ['custom8bitencoding',['Custom8BitEncoding',['../structOcd_1_1Custom8BitEncoding.html',1,'Ocd']]],

@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.5.99</span>
+   &#160;<span id="projectnumber">0.6.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -537,6 +537,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7f921bcfb29c52f180dfc57b85443810"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a7f921bcfb29c52f180dfc57b85443810">insertRenderablesOfObject</a> (const <a class="el" href="classObject.html">Object</a> *object)</td></tr>
 <tr class="memdesc:a7f921bcfb29c52f180dfc57b85443810"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts the renderables of the given object, so they will be displayed.  <a href="#a7f921bcfb29c52f180dfc57b85443810">More...</a><br/></td></tr>
 <tr class="separator:a7f921bcfb29c52f180dfc57b85443810"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f2e6e76635230361a39f1e5b66b895e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a7f2e6e76635230361a39f1e5b66b895e">markAsIrregular</a> (<a class="el" href="classObject.html">Object</a> *object)</td></tr>
+<tr class="memdesc:a7f2e6e76635230361a39f1e5b66b895e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks an object as irregular.  <a href="#a7f2e6e76635230361a39f1e5b66b895e">More...</a><br/></td></tr>
+<tr class="separator:a7f2e6e76635230361a39f1e5b66b895e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71a5cf015eacdaf4feb5bdad3e662974"><td class="memItemLeft" align="right" valign="top">const std::set&lt; <a class="el" href="classObject.html">Object</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a71a5cf015eacdaf4feb5bdad3e662974">irregularObjects</a> () const </td></tr>
+<tr class="memdesc:a71a5cf015eacdaf4feb5bdad3e662974"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the list of objects marked as irregular.  <a href="#a71a5cf015eacdaf4feb5bdad3e662974">More...</a><br/></td></tr>
+<tr class="separator:a71a5cf015eacdaf4feb5bdad3e662974"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a40abaa99db88d6f8d67f46dbfed990"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a5a40abaa99db88d6f8d67f46dbfed990">deleteIrregularObjects</a> ()</td></tr>
+<tr class="memdesc:a5a40abaa99db88d6f8d67f46dbfed990"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes the irregular objects.  <a href="#a5a40abaa99db88d6f8d67f46dbfed990">More...</a><br/></td></tr>
+<tr class="separator:a5a40abaa99db88d6f8d67f46dbfed990"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b9a294d3780bc9c918ee62578dd685b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classMap.html#a48593991684d7ab88f5eb8a05c560f06">ObjectSelection</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a0b9a294d3780bc9c918ee62578dd685b">selectedObjects</a> () const </td></tr>
 <tr class="separator:a0b9a294d3780bc9c918ee62578dd685b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15a43dd68e810af3a4334bc26df1715c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a15a43dd68e810af3a4334bc26df1715c">getNumSelectedObjects</a> () const </td></tr>
@@ -1842,6 +1851,25 @@ template&lt;typename Operation , typename Condition &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a5a40abaa99db88d6f8d67f46dbfed990"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t Map::deleteIrregularObjects </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Deletes the irregular objects. </p>
+<p>This function deletes the objects which were previously marked as irregular. Only objects which are actually member of map parts are deleted. Objects in undo steps or similar are ignored.</p>
+<dl class="section return"><dt>Returns</dt><dd>The number of deleted objects. </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="aa529bc2444724291b504a70918678d28"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2427,7 +2455,7 @@ template&lt;typename Condition &gt; </div>
 <p>Exports the map to the given file and format. </p>
 <p>If a <a class="el" href="classMapView.html" title="Stores view position, zoom, rotation and grid / template visibilities to define a view onto a map...">MapView</a> is given, is state will be saved. If a <a class="el" href="classFileFormat.html" title="Describes a file format understood by this application. ">FileFormat</a> is given, it will be used, otherwise the file format is determined from the filename.</p>
 <p>If the map was modified, it will still be considered modified after successful export. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000017">Todo:</a></b></dt><dd>: Switch to the latter when translated. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000020">Todo:</a></b></dt><dd>: Switch to the latter when translated. </dd></dl>
 
 </div>
 </div>
@@ -3909,6 +3937,23 @@ template&lt;typename Condition &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a71a5cf015eacdaf4feb5bdad3e662974"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::set&lt; <a class="el" href="classObject.html">Object</a> * &gt; Map::irregularObjects </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the list of objects marked as irregular. </p>
+
+</div>
+</div>
 <a class="anchor" id="a6819b828ea4fb9fe975d797ca3e19228"></a>
 <div class="memitem">
 <div class="memproto">
@@ -4167,6 +4212,24 @@ template&lt;typename Condition &gt; </div>
 </div><div class="memdoc">
 
 <p>Emitted when a part is removed from the map. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7f2e6e76635230361a39f1e5b66b895e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Map::markAsIrregular </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classObject.html">Object</a> *&#160;</td>
+          <td class="paramname"><em>object</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Marks an object as irregular. </p>
 
 </div>
 </div>
@@ -6198,8 +6261,8 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/<a class="el" href="map_8h.html">map.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/ad72fd2/src/map.h"><tt>ad72fd2</tt></a> on 10 Nov 2015)</li>
-<li>src/<a class="el" href="map_8cpp.html">map.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/ad72fd2/src/map.cpp"><tt>ad72fd2</tt></a> on 10 Nov 2015)</li>
+<li>src/<a class="el" href="map_8h.html">map.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/67ba1be/src/map.h"><tt>67ba1be</tt></a> on 20 Dec 2015)</li>
+<li>src/<a class="el" href="map_8cpp.html">map.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/67ba1be/src/map.cpp"><tt>67ba1be</tt></a> on 20 Dec 2015)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

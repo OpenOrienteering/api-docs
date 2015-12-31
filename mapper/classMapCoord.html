@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.5.99</span>
+   &#160;<span id="projectnumber">0.6.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -182,6 +182,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a17afd7864949c0c4c44b030ed3c7b958"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapCoord.html#a17afd7864949c0c4c44b030ed3c7b958">setFlags</a> (int <a class="el" href="classMapCoord.html#afb149e1f1d7af64e9d9671a4e05104ef">flags</a>)</td></tr>
 <tr class="memdesc:a17afd7864949c0c4c44b030ed3c7b958"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the flags as retrieved by <a class="el" href="classMapCoord.html#afb149e1f1d7af64e9d9671a4e05104ef" title="Returns the coord&#39;s flags separately, merged into the lowest 8 bits of an int. ">flags()</a>.  <a href="#a17afd7864949c0c4c44b030ed3c7b958">More...</a><br/></td></tr>
 <tr class="separator:a17afd7864949c0c4c44b030ed3c7b958"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a3cefbcb23b5f9c9a94c1c49467a6b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapCoord.html#a8a3cefbcb23b5f9c9a94c1c49467a6b3">isRegular</a> () const </td></tr>
+<tr class="memdesc:a8a3cefbcb23b5f9c9a94c1c49467a6b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff the coordinates are within "regular" bounds.  <a href="#a8a3cefbcb23b5f9c9a94c1c49467a6b3">More...</a><br/></td></tr>
+<tr class="separator:a8a3cefbcb23b5f9c9a94c1c49467a6b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad807d055ad172978d37784d933aa511e"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapCoord.html#ad807d055ad172978d37784d933aa511e">length</a> () const </td></tr>
 <tr class="memdesc:ad807d055ad172978d37784d933aa511e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the length of this coord, seen as a vector from the origin to the given coordinate, in millimeters on the map.  <a href="#ad807d055ad172978d37784d933aa511e">More...</a><br/></td></tr>
 <tr class="separator:ad807d055ad172978d37784d933aa511e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -955,6 +958,23 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns if this coord's position is equal to that of the other one. </p>
+
+</div>
+</div>
+<a class="anchor" id="a8a3cefbcb23b5f9c9a94c1c49467a6b3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> MapCoord::isRegular </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true iff the coordinates are within "regular" bounds. </p>
 
 </div>
 </div>
@@ -1965,8 +1985,8 @@ Friends</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/core/<a class="el" href="map__coord_8h.html">map_coord.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/86cb043/src/core/map_coord.h"><tt>86cb043</tt></a> on 3 Oct 2015)</li>
-<li>src/core/<a class="el" href="map__coord_8cpp.html">map_coord.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/f011156/src/core/map_coord.cpp"><tt>f011156</tt></a> on 5 Nov 2015)</li>
+<li>src/core/<a class="el" href="map__coord_8h.html">map_coord.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/67ba1be/src/core/map_coord.h"><tt>67ba1be</tt></a> on 20 Dec 2015)</li>
+<li>src/core/<a class="el" href="map__coord_8cpp.html">map_coord.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/67ba1be/src/core/map_coord.cpp"><tt>67ba1be</tt></a> on 20 Dec 2015)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

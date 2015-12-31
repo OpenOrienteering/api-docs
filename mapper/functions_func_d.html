@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.5.99</span>
+   &#160;<span id="projectnumber">0.6.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -204,6 +204,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>deleteHighlightObject()
 : <a class="el" href="classEditLineTool.html#a680221695617d36efa71b44825de11db">EditLineTool</a>
 </li>
+<li>deleteIrregularObjects()
+: <a class="el" href="classMap.html#a5a40abaa99db88d6f8d67f46dbfed990">Map</a>
+</li>
 <li>deleteObject()
 : <a class="el" href="classMap.html#aa529bc2444724291b504a70918678d28">Map</a>
 , <a class="el" href="classMapPart.html#a7ced74ec48b86a7e14a90abc1b790a16">MapPart</a>
@@ -249,7 +252,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>deleteTemplate()
 : <a class="el" href="classMap.html#a19000a1006cb48ea648b292ab3f1e822">Map</a>
-, <a class="el" href="classTemplateWidget.html#ac7ca27c877c2fd2b2241ca451b6dd1ed">TemplateWidget</a>
+, <a class="el" href="classTemplateListWidget.html#ad7c57796c1b420552b58c12bd551db08">TemplateListWidget</a>
 </li>
 <li>deleteTemplateVisibility()
 : <a class="el" href="classMapView.html#a920f1e7639edcee0d6bbffb97ad98472">MapView</a>
@@ -470,14 +473,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>drawingParallelTo()
 : <a class="el" href="classDrawRectangleTool.html#aa81c779ec32f00d8b63399c3477cf57e">DrawRectangleTool</a>
 </li>
-<li>drawLeftSeparatorLine()
-: <a class="el" href="classMapperProxyStyle.html#a2603ab663e3792dfb98e0033d83a1ab4">MapperProxyStyle</a>
-</li>
 <li>DrawLineAndAreaTool()
 : <a class="el" href="classDrawLineAndAreaTool.html#a531f889c12781bf838dfa21c3236457d">DrawLineAndAreaTool</a>
 </li>
 <li>drawLines()
-: <a class="el" href="classAdvancedPdfEngine.html#a0d4739ab5a9d9b5cfec6a3b101540893">AdvancedPdfEngine</a>
+: <a class="el" href="classAdvancedPdfEngine.html#ae5f5668d9854f611adcb6d152f642487">AdvancedPdfEngine</a>
 </li>
 <li>drawObjectIDs()
 : <a class="el" href="classFillTool.html#a5c81fc84056b01fc5da704691ad5a11e">FillTool</a>
@@ -504,7 +504,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classMapPrinter.html#a5b06a2cd31df6271cbb58c4ca22a1745">MapPrinter</a>
 </li>
 <li>drawPath()
-: <a class="el" href="classAdvancedPdfEngine.html#abe61ac3e67c1b4181878ca684712b5d6">AdvancedPdfEngine</a>
+: <a class="el" href="classAdvancedPdfEngine.html#a0b24191c0936d7ab46b45526662e7cc1">AdvancedPdfEngine</a>
 </li>
 <li>drawPathClicked()
 : <a class="el" href="classMapEditorController.html#a015bb038897d0f571ea5dabdca9236d8">MapEditorController</a>
@@ -531,13 +531,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classDrawPointTool.html#aa48284f2033a29d263d023360dcc6565">DrawPointTool</a>
 </li>
 <li>drawPolygon()
-: <a class="el" href="classAdvancedPdfEngine.html#a1ac008af77c8147781fb3b7af3b6f118">AdvancedPdfEngine</a>
+: <a class="el" href="classAdvancedPdfEngine.html#a3f4bfb0d29f1d5f41256352482969e3b">AdvancedPdfEngine</a>
 </li>
 <li>drawPreviewObjects()
 : <a class="el" href="classDrawLineAndAreaTool.html#a60b3ec1f433e82ac204987a3c9063556">DrawLineAndAreaTool</a>
 </li>
 <li>drawPrimitive()
-: <a class="el" href="classMapperProxyStyle.html#a0ced543ea271d5d41bf26bee061aaf68">MapperProxyStyle</a>
+: <a class="el" href="classMapperProxyStyle.html#a7ab0ae032c2f25a477422db7650aaa71">MapperProxyStyle</a>
 </li>
 <li>drawRectangleClicked()
 : <a class="el" href="classMapEditorController.html#a8a3df5c832fb6f1d4c0b0bc90377baf6">MapEditorController</a>
@@ -547,9 +547,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>drawRects()
 : <a class="el" href="classAdvancedPdfEngine.html#a9bb17d066cc27859c5bf3b163d51253d">AdvancedPdfEngine</a>
-</li>
-<li>drawRightSeparatorLine()
-: <a class="el" href="classMapperProxyStyle.html#aa52cab5af0e02d3bc0617b0d3a2b6d05">MapperProxyStyle</a>
 </li>
 <li>drawSelection()
 : <a class="el" href="classMap.html#a363d2b92fd5c4c0b151a75f683879101">Map</a>
@@ -639,7 +636,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classSymbolRenderWidget.html#a135e8176d15653b76b7a44777847dd84">SymbolRenderWidget</a>
 </li>
 <li>duplicateTemplate()
-: <a class="el" href="classTemplateWidget.html#ab9e6dad53f5a9ab4019fe553d267ab69">TemplateWidget</a>
+: <a class="el" href="classTemplateListWidget.html#a062f07acd120d70fdc96c0c62f230083">TemplateListWidget</a>
 </li>
 <li>DXFCoordinate()
 : <a class="el" href="structDXFCoordinate.html#a7735ba71c3dde0a9360d0690a6fca51f">DXFCoordinate</a>

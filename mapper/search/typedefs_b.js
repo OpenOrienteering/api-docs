@@ -1,8 +1,8 @@
 var searchData=
 [
   ['param_5ftype',['param_type',['../classPathCoord.html#a5fa8bcd9c0f9fbb172505b9615eca285',1,'PathCoord']]],
-  ['parameter',['Parameter',['../structCRSTemplate.html#a75aeadc06c4141da04339ef376c4fb5b',1,'CRSTemplate']]],
-  ['parameterlist',['ParameterList',['../structCRSTemplate.html#ab6767508e8717796a3320c035d9abc05',1,'CRSTemplate']]],
+  ['parameter',['Parameter',['../classCRSTemplate.html#a75aeadc06c4141da04339ef376c4fb5b',1,'CRSTemplate']]],
+  ['parameterlist',['ParameterList',['../classCRSTemplate.html#ab6767508e8717796a3320c035d9abc05',1,'CRSTemplate']]],
   ['partinfocontainer',['PartInfoContainer',['../structTextObjectLineInfo.html#af01348a6f24cad689b2819e172dcdf99',1,'TextObjectLineInfo']]],
   ['partset',['PartSet',['../classUndoStep.html#aa66305c2db3e0afc7b6cb8bf2e743573',1,'UndoStep']]],
   ['pascaldouble',['PascalDouble',['../namespaceOcd.html#a8839c7e8653aba524a1dafaa11ea141f',1,'Ocd']]],

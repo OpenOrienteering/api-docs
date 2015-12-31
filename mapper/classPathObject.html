@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.5.99</span>
+   &#160;<span id="projectnumber">0.6.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -152,6 +152,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2a60ee490cf28706cbe407afd7d6f5a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classObject.html">Object</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathObject.html#a2a60ee490cf28706cbe407afd7d6f5a5">operator=</a> (const <a class="el" href="classObject.html">Object</a> &amp;other) override</td></tr>
 <tr class="memdesc:a2a60ee490cf28706cbe407afd7d6f5a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces this object's contents by those of the other.  <a href="#a2a60ee490cf28706cbe407afd7d6f5a5">More...</a><br/></td></tr>
 <tr class="separator:a2a60ee490cf28706cbe407afd7d6f5a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56e49abbe6031c72bf5acb2d3a9f2c96"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathObject.html#a56e49abbe6031c72bf5acb2d3a9f2c96">normalize</a> ()</td></tr>
+<tr class="memdesc:a56e49abbe6031c72bf5acb2d3a9f2c96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks the path for valid flags, and makes corrections as neccessary.  <a href="#a56e49abbe6031c72bf5acb2d3a9f2c96">More...</a><br/></td></tr>
+<tr class="separator:a56e49abbe6031c72bf5acb2d3a9f2c96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4ceb5c6be29a84e20581f835a8a3408"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathObject.html#ae4ceb5c6be29a84e20581f835a8a3408">intersectsBox</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5//" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> box) const override</td></tr>
 <tr class="memdesc:ae4ceb5c6be29a84e20581f835a8a3408"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a path point (excluding curve control points) is included in the given box.  <a href="#ae4ceb5c6be29a84e20581f835a8a3408">More...</a><br/></td></tr>
 <tr class="separator:ae4ceb5c6be29a84e20581f835a8a3408"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -779,7 +782,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Calculates and adds all intersections with the other path to out. </p>
 <p>Note: intersections are not sorted and may contain duplicates! To clean them up, call clean() on the <a class="el" href="classPathObject_1_1Intersections.html" title="std::vector of Intersection with the ability to sort them and remove duplicates. ">Intersections</a> object after adding all intersections with objects you are interested in. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000024">Todo:</a></b></dt><dd>FIXME: part_index or other_part_index ??? </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>FIXME: part_index or other_part_index ??? </dd></dl>
 
 </div>
 </div>
@@ -1027,7 +1030,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Calculates the closest control point coordinate to the given coordiante, returns the squared distance of these points and the index of the control point. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd><p class="startdd">Convert out_distance_sq to double (so avoiding conversions). </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000030">Todo:</a></b></dt><dd><p class="startdd">Convert out_distance_sq to double (so avoiding conversions). </p>
 <p class="enddd">Return index rather than writing to the provided reference. </p>
 </dd></dl>
 
@@ -1077,10 +1080,10 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Calculates the closest point on the path to the given coordinate, returns the squared distance of these points and <a class="el" href="classPathCoord.html" title="A PathCoord represents a node in a polygonal approximation of a path. ">PathCoord</a> information for the point on the path. </p>
 <p>This does not need to be an existing path coordinate. This method is usually called to find the position on the path the user clicked on. part_index can be set to a valid part index to constrain searching to this specific path part.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000026">Todo:</a></b></dt><dd><p class="startdd">Convert out_distance_sq to double (so avoiding conversions). </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo:</a></b></dt><dd><p class="startdd">Convert out_distance_sq to double (so avoiding conversions). </p>
 <p class="enddd">Return <a class="el" href="classPathCoord.html" title="A PathCoord represents a node in a polygonal approximation of a path. ">PathCoord</a> rather than writing to the provided reference. </p>
 </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000023">Todo:</a></b></dt><dd>Legacy compatibility, review/remove </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000026">Todo:</a></b></dt><dd>Legacy compatibility, review/remove </dd></dl>
 
 </div>
 </div>
@@ -1189,7 +1192,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Replaces the path with a range of it starting and ending at the given lengths. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo:</a></b></dt><dd>Partially duplicated in LineSymbol::calculatePathCoordinates() </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000032">Todo:</a></b></dt><dd>Partially duplicated in LineSymbol::calculatePathCoordinates() </dd></dl>
 
 </div>
 </div>
@@ -1254,7 +1257,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Returns if the objects were connected (if so, you can delete the other object). </p>
 <p>If one of the paths has to be reversed, it is done for the "other" path. Otherwise, the "other" path is not changed.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>Review documentation, container usage, </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000031">Todo:</a></b></dt><dd>Review documentation, container usage, </dd></dl>
 
 </div>
 </div>
@@ -1536,7 +1539,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Finds the path part containing the given coord index. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000025">Todo:</a></b></dt><dd>Review where this signature can be replace by the one returning an iterator. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>Review where this signature can be replace by the one returning an iterator. </dd></dl>
 
 </div>
 </div>
@@ -1794,6 +1797,23 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>See <a class="el" href="classObject.html#a0d13b76cff29811c25ff62322b8c5a51" title="Checks if the given coord, with the given tolerance, is on this object; with extended_selection, the coord is on point objects always if it is whithin their extent, otherwise it has to be close to their midpoint. ">Object::isPointOnObject()</a> </p>
+
+</div>
+</div>
+<a class="anchor" id="a56e49abbe6031c72bf5acb2d3a9f2c96"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PathObject::normalize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Checks the path for valid flags, and makes corrections as neccessary. </p>
 
 </div>
 </div>
@@ -2301,8 +2321,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/<a class="el" href="object_8h.html">object.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/2185213/src/object.h"><tt>2185213</tt></a> on 15 Nov 2015)</li>
-<li>src/<a class="el" href="object_8cpp.html">object.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/2185213/src/object.cpp"><tt>2185213</tt></a> on 15 Nov 2015)</li>
+<li>src/<a class="el" href="object_8h.html">object.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/be14b6c/src/object.h"><tt>be14b6c</tt></a> on 21 Dec 2015)</li>
+<li>src/<a class="el" href="object_8cpp.html">object.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/be14b6c/src/object.cpp"><tt>be14b6c</tt></a> on 21 Dec 2015)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

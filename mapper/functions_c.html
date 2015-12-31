@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.5.99</span>
+   &#160;<span id="projectnumber">0.6.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -318,10 +318,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>cellChange()
 : <a class="el" href="classColorWidget.html#aaf7ec081b2f556eec6caa590e30d9ea5">ColorWidget</a>
 , <a class="el" href="classTagsWidget.html#ab76e935e54f611d512dd4b32d44d1837">TagsWidget</a>
-, <a class="el" href="classTemplateWidget.html#a7101709e1e236eb89471480698e095c8">TemplateWidget</a>
+, <a class="el" href="classTemplateListWidget.html#a77d70d61e751c5068b273eec63e392cc">TemplateListWidget</a>
 </li>
-<li>cellDoubleClick()
-: <a class="el" href="classTemplateWidget.html#a1066b89b287a5a8b71e6564a41d9c28e">TemplateWidget</a>
+<li>cellClicked()
+: <a class="el" href="classTemplateListWidget.html#a2bc58fa80a284f2c7baa809fe50cb285">TemplateListWidget</a>
+</li>
+<li>cellDoubleClicked()
+: <a class="el" href="classTemplateListWidget.html#adc6f5af3d5dbd85ce8c98aeb8e0a5705">TemplateListWidget</a>
 </li>
 <li>center()
 : <a class="el" href="classMapView.html#a01972cb606d846b56f10c44b9a6a0a0d">MapView</a>
@@ -386,7 +389,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classMap.html#a9f76760592e5d5bc92246a64a3e9182b">Map</a>
 </li>
 <li>changeTemplateFile()
-: <a class="el" href="classTemplateWidget.html#a6b77ea22c6fcc5e718c210e4505569ae">TemplateWidget</a>
+: <a class="el" href="classTemplateListWidget.html#aa5a36f2399133357c1cc386251f4ed19">TemplateListWidget</a>
 </li>
 <li>char_spacing
 : <a class="el" href="structOcd_1_1LineTextSymbolV10.html#afd7ec480ef4c788bc1458dbca9df33f0">Ocd::LineTextSymbolV10</a>
@@ -435,7 +438,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classDrawCircleTool.html#a050773de0108b24e2101dbfb3cd9e800">DrawCircleTool</a>
 </li>
 <li>circleRadius()
-: <a class="el" href="classOcdFileImport.html#aecfc11726de8ab9e06c62aa1ad8b64d3">OcdFileImport</a>
+: <a class="el" href="classOcdFileImport.html#a59e1f5b68ef99379afb117106f873acf">OcdFileImport</a>
 </li>
 <li>CircleRenderable()
 : <a class="el" href="classCircleRenderable.html#aac1d223be325bc20d5729ec86cc1fd73">CircleRenderable</a>
@@ -574,6 +577,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>closeClicked()
 : <a class="el" href="classPrintWidget.html#ab59c32afa2292c6feae133c4feda639f">PrintWidget</a>
+, <a class="el" href="classTemplateListWidget.html#abe2dc3e691674c9a9fb03af4ed503e1e">TemplateListWidget</a>
 </li>
 <li>closed
 : <a class="el" href="classDXFPath.html#a2dad6d15fd3dd20474583ccef60027c9">DXFPath</a>
@@ -928,7 +932,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classOcdFileImport.html#aaed1ccbb2171e161548b6b288d75d8b8">OcdFileImport</a>
 </li>
 <li>convertOcdString()
-: <a class="el" href="classOcdFileImport.html#a449e3a5d4b297ac4010d522f1f078861">OcdFileImport</a>
+: <a class="el" href="classOcdFileImport.html#a5700f67ef9e210de8bba0c51a95168e5">OcdFileImport</a>
 </li>
 <li>convertPascalString()
 : <a class="el" href="classOCAD8FileExport.html#ac14ef73842640b52c556ff229decc7f6">OCAD8FileExport</a>
@@ -970,7 +974,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classSnappingToolHelperSnapInfo.html#a1d0fcda78619b4ba02393863ba726e89">SnappingToolHelperSnapInfo</a>
 </li>
 <li>coordinatesName()
-: <a class="el" href="structCRSTemplate.html#a923ea576ca5e70fce64cd0a3a5361c88">CRSTemplate</a>
+: <a class="el" href="classCRSTemplate.html#a923ea576ca5e70fce64cd0a3a5361c88">CRSTemplate</a>
 </li>
 <li>coords
 : <a class="el" href="struct__Path.html#af3e0672143d85791691cf0dd80d695e1">_Path</a>
@@ -1143,10 +1147,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="classTextSymbol.html#aa351fad5b65ff21deb8c3db184586e66">TextSymbol</a>
 </li>
 <li>createRenderables()
-: <a class="el" href="classAreaSymbol.html#a83a8f417527a428786b26712766d1b02">AreaSymbol</a>
+: <a class="el" href="classAreaSymbol.html#ac676e53d616832f33eb5ba3581aba535">AreaSymbol</a>
 , <a class="el" href="structAreaSymbol_1_1FillPattern.html#a09c0e4acd7a925305567e0d957684d31">AreaSymbol::FillPattern</a>
 , <a class="el" href="classCombinedSymbol.html#af8488f8c1c13155d934b80a059ac5c1e">CombinedSymbol</a>
-, <a class="el" href="classLineSymbol.html#a85863543286af3b7ccd6129ce208d7d3">LineSymbol</a>
+, <a class="el" href="classLineSymbol.html#ad9024ac042067b8331120e1a73e98142">LineSymbol</a>
 , <a class="el" href="classObject.html#a56f246330f704ce6b94449fd8de0fd5f">Object</a>
 , <a class="el" href="classPathObject.html#ab2546ade0c9cd696561d6c1f7f890cd0">PathObject</a>
 , <a class="el" href="classPointSymbol.html#a52e7ff910a0a727a0bddb9cbe75e7c04">PointSymbol</a>
@@ -1194,7 +1198,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classCRSSelector.html#a5a04ea1df0df8b7f72592bc3395ba698">CRSSelector</a>
 </li>
 <li>CRSTemplate()
-: <a class="el" href="structCRSTemplate.html#af7df0261194ae1b5fa8be003277f437d">CRSTemplate</a>
+: <a class="el" href="classCRSTemplate.html#af7df0261194ae1b5fa8be003277f437d">CRSTemplate</a>
 </li>
 <li>CRSTemplateParameter()
 : <a class="el" href="classCRSTemplateParameter.html#a422d00bf7a0f6107f83ab6ec6889fb08">CRSTemplateParameter</a>
@@ -1248,7 +1252,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>currentCellChange()
 : <a class="el" href="classColorWidget.html#a81123f30fb2b05aba7597f478c7870c5">ColorWidget</a>
-, <a class="el" href="classTemplateWidget.html#ac1999d7c850d617ab6015ee8baae7850">TemplateWidget</a>
 </li>
 <li>currentCRSSpec()
 : <a class="el" href="classCRSSelector.html#aee123528cc3580d841bfa6a51b5f91ff">CRSSelector</a>

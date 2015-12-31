@@ -1,10 +1,22 @@
 var searchData=
 [
-  ['px_5fctl1',['PX_CTL1',['../libocad_8h.html#afab0fe9a523d6ed8db73dd10a0dccf19',1,'libocad.h']]],
-  ['px_5fctl2',['PX_CTL2',['../libocad_8h.html#ae1cfd4227e169efec0bf4b593fe26667',1,'libocad.h']]],
-  ['px_5fleft',['PX_LEFT',['../libocad_8h.html#a07fe687b668037422d768571e2970074',1,'libocad.h']]],
-  ['py_5fcorner',['PY_CORNER',['../libocad_8h.html#a7403c8d30e8dcbc47753821ad00e7af6',1,'libocad.h']]],
-  ['py_5fdash',['PY_DASH',['../libocad_8h.html#add52799e90bab2e5f92181fa2ed4ba93',1,'libocad.h']]],
-  ['py_5fhole',['PY_HOLE',['../libocad_8h.html#a934664544560bd3459d5975e2c56ab7d',1,'libocad.h']]],
-  ['py_5fright',['PY_RIGHT',['../libocad_8h.html#a2600eb41b4e8f58fdc2f3eba6d9e3431',1,'libocad.h']]]
+  ['o_5fbinary',['O_BINARY',['../libocad_8h.html#a36fa9b2e726512bc17a7a6d3e39002be',1,'libocad.h']]],
+  ['ocad_5farea_5felement',['OCAD_AREA_ELEMENT',['../libocad_8h.html#ac60024ca86e9e0db3dc51bcc40570700',1,'libocad.h']]],
+  ['ocad_5farea_5fsymbol',['OCAD_AREA_SYMBOL',['../libocad_8h.html#a525a2760987cdd08607cf54f20c870d8',1,'libocad.h']]],
+  ['ocad_5fcircle_5felement',['OCAD_CIRCLE_ELEMENT',['../libocad_8h.html#a4c5e449bf60aac69a29b3446d7266bfa',1,'libocad.h']]],
+  ['ocad_5fdot_5felement',['OCAD_DOT_ELEMENT',['../libocad_8h.html#aba55ab07632981feb4e70b20375966fd',1,'libocad.h']]],
+  ['ocad_5ffile_5fwas_5freadonly',['OCAD_FILE_WAS_READONLY',['../libocad_8h.html#acd6213f9ffec3f8842f09e549868d49b',1,'libocad.h']]],
+  ['ocad_5finvalid_5fformat',['OCAD_INVALID_FORMAT',['../libocad_8h.html#a1c12a60c94d42dbdd13d076a16e22f38',1,'libocad.h']]],
+  ['ocad_5fline_5felement',['OCAD_LINE_ELEMENT',['../libocad_8h.html#adabab0b5bef0a21b575b40596471b96d',1,'libocad.h']]],
+  ['ocad_5fline_5fsymbol',['OCAD_LINE_SYMBOL',['../libocad_8h.html#a5aa5c3f4ecdac54efd8155bf989bbca2',1,'libocad.h']]],
+  ['ocad_5fmax_5fobject_5fpts',['OCAD_MAX_OBJECT_PTS',['../libocad_8h.html#aea3cae1528242f1215123925bafac31f',1,'libocad.h']]],
+  ['ocad_5fmmap_5ffailed',['OCAD_MMAP_FAILED',['../libocad_8h.html#a10c29dc34530bcf054d78daded743061',1,'libocad.h']]],
+  ['ocad_5fmmap_5fnot_5fsupported',['OCAD_MMAP_NOT_SUPPORTED',['../libocad_8h.html#a21aadeb27072cd1a82a891ae0bcf58e3',1,'libocad.h']]],
+  ['ocad_5fok',['OCAD_OK',['../libocad_8h.html#a8583ccf0fcbabeb7285406344cadbe73',1,'libocad.h']]],
+  ['ocad_5fout_5fof_5fmemory',['OCAD_OUT_OF_MEMORY',['../libocad_8h.html#a2fa7948f573575dced502bc4192b43b3',1,'libocad.h']]],
+  ['ocad_5fpoint_5fsymbol',['OCAD_POINT_SYMBOL',['../libocad_8h.html#a9df1b523f48b80138b08e9ccf0c79377',1,'libocad.h']]],
+  ['ocad_5frect_5fsymbol',['OCAD_RECT_SYMBOL',['../libocad_8h.html#a0e9bfb227eca46db6a849c4402c4c2f8',1,'libocad.h']]],
+  ['ocad_5ftext_5fsymbol',['OCAD_TEXT_SYMBOL',['../libocad_8h.html#a9de9e14872574d6885197d8948941d1a',1,'libocad.h']]],
+  ['ocadexportoptions_5fcommon',['OCADExportOptions_COMMON',['../libocad_8h.html#ac604ce6683c1a4c9f3e9850c5c06d3b8',1,'libocad.h']]],
+  ['ocadsymbol_5fcommon',['OCADSymbol_COMMON',['../libocad_8h.html#a522a09b63846798e591d8005b9b27b3c',1,'libocad.h']]]
 ];

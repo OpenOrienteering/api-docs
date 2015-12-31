@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.5.99</span>
+   &#160;<span id="projectnumber">0.6.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -135,7 +135,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a60bd5b74d23510b771e245db45699fcf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCRSSelector.html#a60bd5b74d23510b771e245db45699fcf">addCustomItem</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5//" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;text, unsigned short id)</td></tr>
 <tr class="memdesc:a60bd5b74d23510b771e245db45699fcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a custom item with the given text and id at the top of the list.  <a href="#a60bd5b74d23510b771e245db45699fcf">More...</a><br/></td></tr>
 <tr class="separator:a60bd5b74d23510b771e245db45699fcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62e8ac381b9245bebdeebf6268ef5bc3"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structCRSTemplate.html">CRSTemplate</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCRSSelector.html#a62e8ac381b9245bebdeebf6268ef5bc3">currentCRSTemplate</a> () const </td></tr>
+<tr class="memitem:a62e8ac381b9245bebdeebf6268ef5bc3"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classCRSTemplate.html">CRSTemplate</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCRSSelector.html#a62e8ac381b9245bebdeebf6268ef5bc3">currentCRSTemplate</a> () const </td></tr>
 <tr class="memdesc:a62e8ac381b9245bebdeebf6268ef5bc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the selected CRS template, or nullptr if a custom item is selected.  <a href="#a62e8ac381b9245bebdeebf6268ef5bc3">More...</a><br/></td></tr>
 <tr class="separator:a62e8ac381b9245bebdeebf6268ef5bc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee123528cc3580d841bfa6a51b5f91ff"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5//" href="http://doc.qt.io/qt-5/qstring.html">QString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCRSSelector.html#aee123528cc3580d841bfa6a51b5f91ff">currentCRSSpec</a> () const </td></tr>
@@ -144,7 +144,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a25a53068dcacad6c90db2d570e311906"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCRSSelector.html#a25a53068dcacad6c90db2d570e311906">currentCustomItem</a> () const </td></tr>
 <tr class="memdesc:a25a53068dcacad6c90db2d570e311906"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the id of the selected custom item, or -1 if a normal item is selected.  <a href="#a25a53068dcacad6c90db2d570e311906">More...</a><br/></td></tr>
 <tr class="separator:a25a53068dcacad6c90db2d570e311906"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1f80873ccb6adbb416ce0402cded6e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCRSSelector.html#ac1f80873ccb6adbb416ce0402cded6e8">setCurrentCRS</a> (const <a class="el" href="structCRSTemplate.html">CRSTemplate</a> *crs, const std::vector&lt; <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5//" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &gt; &amp;values)</td></tr>
+<tr class="memitem:ac1f80873ccb6adbb416ce0402cded6e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCRSSelector.html#ac1f80873ccb6adbb416ce0402cded6e8">setCurrentCRS</a> (const <a class="el" href="classCRSTemplate.html">CRSTemplate</a> *crs, const std::vector&lt; <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5//" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &gt; &amp;values)</td></tr>
 <tr class="memdesc:ac1f80873ccb6adbb416ce0402cded6e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects the given standard item, and sets the parameters.  <a href="#ac1f80873ccb6adbb416ce0402cded6e8">More...</a><br/></td></tr>
 <tr class="separator:ac1f80873ccb6adbb416ce0402cded6e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2caba5eff0b433ee82140d9ba823ab06"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCRSSelector.html#a2caba5eff0b433ee82140d9ba823ab06">setCurrentItem</a> (unsigned short id)</td></tr>
@@ -904,10 +904,10 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a1d064edac58511d80bea304b330084aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCRSSelector.html#a1d064edac58511d80bea304b330084aa">configureParameterFields</a> ()</td></tr>
 <tr class="memdesc:a1d064edac58511d80bea304b330084aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the parameter fields in the dialog_layout, according to the selected CRS.  <a href="#a1d064edac58511d80bea304b330084aa">More...</a><br/></td></tr>
 <tr class="separator:a1d064edac58511d80bea304b330084aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6f7a4f55d7441bd4049bcccc190fd3e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCRSSelector.html#ae6f7a4f55d7441bd4049bcccc190fd3e">configureParameterFields</a> (const <a class="el" href="structCRSTemplate.html">CRSTemplate</a> *crs, const std::vector&lt; <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5//" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &gt; &amp;values)</td></tr>
+<tr class="memitem:ae6f7a4f55d7441bd4049bcccc190fd3e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCRSSelector.html#ae6f7a4f55d7441bd4049bcccc190fd3e">configureParameterFields</a> (const <a class="el" href="classCRSTemplate.html">CRSTemplate</a> *crs, const std::vector&lt; <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5//" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &gt; &amp;values)</td></tr>
 <tr class="memdesc:ae6f7a4f55d7441bd4049bcccc190fd3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the parameter fields in the dialog_layout, according to the given CRS and values.  <a href="#ae6f7a4f55d7441bd4049bcccc190fd3e">More...</a><br/></td></tr>
 <tr class="separator:ae6f7a4f55d7441bd4049bcccc190fd3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad52364648b28ddbb0a0d641c9f94e372"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCRSSelector.html#ad52364648b28ddbb0a0d641c9f94e372">addParameterFields</a> (const <a class="el" href="structCRSTemplate.html">CRSTemplate</a> *crs)</td></tr>
+<tr class="memitem:ad52364648b28ddbb0a0d641c9f94e372"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCRSSelector.html#ad52364648b28ddbb0a0d641c9f94e372">addParameterFields</a> (const <a class="el" href="classCRSTemplate.html">CRSTemplate</a> *crs)</td></tr>
 <tr class="memdesc:ad52364648b28ddbb0a0d641c9f94e372"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds parameter fields to the dialog_layout, according to the given crs.  <a href="#ad52364648b28ddbb0a0d641c9f94e372">More...</a><br/></td></tr>
 <tr class="separator:ad52364648b28ddbb0a0d641c9f94e372"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad71ee594352c5f6f8f3f52d87f29a5b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCRSSelector.html#ad71ee594352c5f6f8f3f52d87f29a5b9">removeParameterFields</a> ()</td></tr>
@@ -1305,7 +1305,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void CRSSelector::addParameterFields </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structCRSTemplate.html">CRSTemplate</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="classCRSTemplate.html">CRSTemplate</a> *&#160;</td>
           <td class="paramname"><em>crs</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1385,7 +1385,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void CRSSelector::configureParameterFields </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structCRSTemplate.html">CRSTemplate</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="classCRSTemplate.html">CRSTemplate</a> *&#160;</td>
           <td class="paramname"><em>crs</em>, </td>
         </tr>
         <tr>
@@ -1510,7 +1510,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="structCRSTemplate.html">CRSTemplate</a> * CRSSelector::currentCRSTemplate </td>
+          <td class="memname">const <a class="el" href="classCRSTemplate.html">CRSTemplate</a> * CRSSelector::currentCRSTemplate </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1615,7 +1615,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void CRSSelector::setCurrentCRS </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structCRSTemplate.html">CRSTemplate</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="classCRSTemplate.html">CRSTemplate</a> *&#160;</td>
           <td class="paramname"><em>crs</em>, </td>
         </tr>
         <tr>
