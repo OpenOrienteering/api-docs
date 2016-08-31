@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['hoverflag',['HoverFlag',['../classCutTool.html#a3273203151b352b3b661a84060dde4b3',1,'CutTool']]],
-  ['hoverstate',['HoverState',['../classCutTool.html#a6b02450a3ae5be4124502a1a583e1df9',1,'CutTool']]]
+  ['glyphid',['GlyphID',['../qt-5_82_81_2qfontsubset_8cpp.html#abe5e4b8f28b508be929b870eebd9f69d',1,'GlyphID():&#160;qfontsubset.cpp'],['../qt-5_85_81_2qfontsubset_8cpp.html#abe5e4b8f28b508be929b870eebd9f69d',1,'GlyphID():&#160;qfontsubset.cpp']]]
 ];

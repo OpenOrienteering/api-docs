@@ -12,7 +12,7 @@ var searchData=
   ['windowflags',['WindowFlags',['http://doc.qt.io/qt-5/qt.html#WindowType-enum',1,'Qt']]],
   ['windowstates',['WindowStates',['http://doc.qt.io/qt-5/qt.html#WindowState-enum',1,'Qt']]],
   ['wizardoptions',['WizardOptions',['http://doc.qt.io/qt-5/qwizard.html#WizardOption-enum',1,'QWizard']]],
-  ['word_5fspacing',['word_spacing',['../structOcd_1_1TextSymbolV10.html#a568421888860d01514ca1a4b6943f75b',1,'Ocd::TextSymbolV10::word_spacing()'],['../structOcd_1_1LineTextSymbolV10.html#afe95d94073163bc4b62afd4db9df53a3',1,'Ocd::LineTextSymbolV10::word_spacing()'],['../structOcd_1_1TextSymbolV11.html#adb22578171695e5895b0786d8abb5719',1,'Ocd::TextSymbolV11::word_spacing()'],['../structOcd_1_1LineTextSymbolV11.html#aed744a203e0bc4c62cf231b8b79c7c7f',1,'Ocd::LineTextSymbolV11::word_spacing()'],['../structOcd_1_1TextSymbolV8.html#aa80e57f98ffdab357487ea40374959fb',1,'Ocd::TextSymbolV8::word_spacing()'],['../structOcd_1_1LineTextSymbolV8.html#ad4a0ea57fe06962b6728bd9c41ce6c73',1,'Ocd::LineTextSymbolV8::word_spacing()'],['../structOcd_1_1TextSymbolV9.html#aa1ba00aebee899ba9862d213a64ae4e3',1,'Ocd::TextSymbolV9::word_spacing()'],['../structOcd_1_1LineTextSymbolV9.html#a54264ab2bb43726a77d53b1ee25f40e4',1,'Ocd::LineTextSymbolV9::word_spacing()']]],
+  ['word_5fspacing',['word_spacing',['../structOcd_1_1BasicTextAttributesV8.html#a5b6c877678df95e6179696907f8656d3',1,'Ocd::BasicTextAttributesV8']]],
   ['work_5fmode',['work_mode',['../structOcd_1_1SetupV8.html#af879d3705341a09077d714062c3d2ff7',1,'Ocd::SetupV8']]],
   ['writefunc',['WriteFunc',['http://doc.qt.io/qt-5/qsettings.html#WriteFunc-typedef',1,'QSettings']]]
 ];

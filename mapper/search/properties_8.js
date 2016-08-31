@@ -11,6 +11,7 @@ var searchData=
   ['informativetext',['informativeText',['http://doc.qt.io/qt-5/qmessagebox.html#informativeText-prop',1,'QMessageBox']]],
   ['initialstate',['initialState',['http://doc.qt.io/qt-5/qstate.html#initialState-prop',1,'QState']]],
   ['inputdirection',['inputDirection',['http://doc.qt.io/qt-5/qinputmethod.html#inputDirection-prop',1,'QInputMethod']]],
+  ['inputitemcliprectangle',['inputItemClipRectangle',['http://doc.qt.io/qt-5/qinputmethod.html#inputItemClipRectangle-prop',1,'QInputMethod']]],
   ['inputmask',['inputMask',['http://doc.qt.io/qt-5/qlineedit.html#inputMask-prop',1,'QLineEdit']]],
   ['inputmethodhints',['inputMethodHints',['http://doc.qt.io/qt-5/qwidget.html#inputMethodHints-prop',1,'QWidget']]],
   ['inputmode',['inputMode',['http://doc.qt.io/qt-5/qinputdialog.html#inputMode-prop',1,'QInputDialog']]],

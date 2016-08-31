@@ -1,6 +1,7 @@
 var searchData=
 [
   ['gappoint',['GapPoint',['../classMapCoord.html#a45b3e0f985966f062b81c3f0fe7c1d39a39ea7b6fa76fc7d12af5e313520ffd96',1,'MapCoord']]],
+  ['gdal_5fdata',['GDAL_DATA',['../namespaceMapperResource.html#a5b7343a122f471c31387fa218f4fb8d9a265931ab58d80192603ae7a0eba49a44',1,'MapperResource']]],
   ['general_5fautosaveinterval',['General_AutosaveInterval',['../classSettings.html#adc10a2a81016a34f8220eff0657d7f3aa3e41618ba6c435e185ca9791552810aa',1,'Settings']]],
   ['general_5flanguage',['General_Language',['../classSettings.html#adc10a2a81016a34f8220eff0657d7f3aa3de2c9b10f4c6f4ddee8bdb1db0f7046',1,'Settings']]],
   ['general_5flocal8bitencoding',['General_Local8BitEncoding',['../classSettings.html#adc10a2a81016a34f8220eff0657d7f3aa12eebf4cd730b7fe69499f0913ca4ae6',1,'Settings']]],
@@ -17,6 +18,8 @@ var searchData=
   ['georeferencing_5fgeotiff',['Georeferencing_GeoTiff',['../classTemplateImage.html#aae420b8c48cf59f1d34408965c13656da9b4e5c14bb4f0a95ae3eeef4de91aecc',1,'TemplateImage']]],
   ['georeferencing_5fnone',['Georeferencing_None',['../classTemplateImage.html#aae420b8c48cf59f1d34408965c13656dad3e515fcdb40a758835c27bbe2b5d2bc',1,'TemplateImage']]],
   ['georeferencing_5fworldfile',['Georeferencing_WorldFile',['../classTemplateImage.html#aae420b8c48cf59f1d34408965c13656dacca34aa57fb1354f9a6fdf98ab0eeaa0',1,'TemplateImage']]],
+  ['gpx',['GPX',['../classGdalManager.html#a1a87ceb6be4d242ab44bd21f7db00e6aa7554c3278cf2b464ab4680e6f5591260',1,'GdalManager']]],
   ['gridcorners',['GridCorners',['../classSnappingToolHelper.html#a5d6b1bf297e911a9e0eb2669b196f5e1af8127197fa6d4ff7c0b58e378c5da496',1,'SnappingToolHelper']]],
-  ['gridnorth',['GridNorth',['../classMapGrid.html#ab71b075d95a66dcb36020826a97c3911ae7a4ee1a9e9da1f26041a35e1f304003',1,'MapGrid']]]
+  ['gridnorth',['GridNorth',['../classMapGrid.html#ab71b075d95a66dcb36020826a97c3911ae7a4ee1a9e9da1f26041a35e1f304003',1,'MapGrid']]],
+  ['gridvisible',['GridVisible',['../classMapView.html#a042cb075e1917bd3b5ece328152e032ba2e72f08f1d4ed5b02cbf893a6b72dc13',1,'MapView']]]
 ];

@@ -3,7 +3,6 @@ var searchData=
   ['realmeters',['RealMeters',['../structUtil_1_1RealMeters.html',1,'Util']]],
   ['recordingtranslator',['RecordingTranslator',['../classRecordingTranslator.html',1,'']]],
   ['rectangleinfo',['RectangleInfo',['../structOcdFileImport_1_1RectangleInfo.html',1,'OcdFileImport']]],
-  ['rectanglesymbolv10',['RectangleSymbolV10',['../structOcd_1_1RectangleSymbolV10.html',1,'Ocd']]],
   ['rectanglesymbolv11',['RectangleSymbolV11',['../structOcd_1_1RectangleSymbolV11.html',1,'Ocd']]],
   ['rectanglesymbolv8',['RectangleSymbolV8',['../structOcd_1_1RectangleSymbolV8.html',1,'Ocd']]],
   ['rectanglesymbolv9',['RectangleSymbolV9',['../structOcd_1_1RectangleSymbolV9.html',1,'Ocd']]],

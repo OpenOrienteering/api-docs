@@ -26,6 +26,7 @@ var searchData=
   ['showgrid',['showGrid',['http://doc.qt.io/qt-5/qtableview.html#showGrid-prop',1,'QTableView']]],
   ['showgroupseparator',['showGroupSeparator',['http://doc.qt.io/qt-5/qabstractspinbox.html#showGroupSeparator-prop',1,'QAbstractSpinBox']]],
   ['showisfullscreen',['showIsFullScreen',['http://doc.qt.io/qt-5/qstylehints.html#showIsFullScreen-prop',1,'QStyleHints']]],
+  ['showismaximized',['showIsMaximized',['http://doc.qt.io/qt-5/qstylehints.html#showIsMaximized-prop',1,'QStyleHints']]],
   ['showsortindicator',['showSortIndicator',['http://doc.qt.io/qt-5/qheaderview.html#showSortIndicator-prop',1,'QHeaderView']]],
   ['signal',['signal',['http://doc.qt.io/qt-5/qsignaltransition.html#signal-prop',1,'QSignalTransition']]],
   ['singleclickactivation',['singleClickActivation',['http://doc.qt.io/qt-5/qstylehints.html#singleClickActivation-prop',1,'QStyleHints']]],
@@ -70,5 +71,6 @@ var searchData=
   ['subtitle',['subTitle',['http://doc.qt.io/qt-5/qwizardpage.html#subTitle-prop',1,'QWizardPage']]],
   ['subtitleformat',['subTitleFormat',['http://doc.qt.io/qt-5/qwizard.html#subTitleFormat-prop',1,'QWizard']]],
   ['suffix',['suffix',['http://doc.qt.io/qt-5/qspinbox.html#suffix-prop',1,'QSpinBox::suffix()'],['http://doc.qt.io/qt-5/qdoublespinbox.html#suffix-prop',1,'QDoubleSpinBox::suffix()']]],
+  ['supportedschemes',['supportedSchemes',['http://doc.qt.io/qt-5/qfiledialog.html#supportedSchemes-prop',1,'QFileDialog']]],
   ['swipeangle',['swipeAngle',['http://doc.qt.io/qt-5/qswipegesture.html#swipeAngle-prop',1,'QSwipeGesture']]]
 ];

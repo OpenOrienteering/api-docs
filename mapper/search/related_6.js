@@ -9,6 +9,5 @@ var searchData=
   ['operator_2f',['operator/',['../classMapCoord.html#af6a4c667ae69e8ca10b61ae5061d6c08',1,'MapCoord']]],
   ['operator_3c',['operator&lt;',['../classPainterConfig.html#a38578495d8ac4433b6023bc3aecdf0c0',1,'PainterConfig']]],
   ['operator_3c_3c',['operator&lt;&lt;',['../classGeoreferencing.html#a78f58252107c5d5ced57861de815db8c',1,'Georeferencing::operator&lt;&lt;()'],['../classLatLon.html#adfb8018059598659ccbeb2d7c043a9d0',1,'LatLon::operator&lt;&lt;()']]],
-  ['operator_3d_3d',['operator==',['../classMapCoord.html#ab68600fd5885935f593da728f1f9b75d',1,'MapCoord::operator==()'],['../classMapGrid.html#a602460eb59b76407e665fece554bec0a',1,'MapGrid::operator==()'],['../classPainterConfig.html#a3af26865588ca37f007148cf65d9625f',1,'PainterConfig::operator==()']]],
-  ['operator_3e_3e',['operator&gt;&gt;',['../classMapCoord.html#a19d3ddd6c38e35bccb511b42ebfaaa4b',1,'MapCoord']]]
+  ['operator_3d_3d',['operator==',['../classMapCoord.html#ab68600fd5885935f593da728f1f9b75d',1,'MapCoord::operator==()'],['../classMapGrid.html#a602460eb59b76407e665fece554bec0a',1,'MapGrid::operator==()'],['../classPainterConfig.html#a3af26865588ca37f007148cf65d9625f',1,'PainterConfig::operator==()']]]
 ];

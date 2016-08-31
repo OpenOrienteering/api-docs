@@ -2,7 +2,7 @@ var searchData=
 [
   ['editlinetool',['EditLineTool',['../classEditLineTool.html',1,'']]],
   ['editordockwidget',['EditorDockWidget',['../classEditorDockWidget.html',1,'']]],
-  ['editorpage',['EditorPage',['../classEditorPage.html',1,'']]],
+  ['editorsettingspage',['EditorSettingsPage',['../classEditorSettingsPage.html',1,'']]],
   ['editpointtool',['EditPointTool',['../classEditPointTool.html',1,'']]],
   ['edittool',['EditTool',['../classEditTool.html',1,'']]],
   ['element',['Element',['http://doc.qt.io/qt-5/qpainterpath-element.html',1,'QPainterPath']]],

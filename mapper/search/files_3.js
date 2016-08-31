@@ -1,20 +1,7 @@
 var searchData=
 [
-  ['file_2ec',['file.c',['../file_8c.html',1,'']]],
-  ['file_5fformat_2ecpp',['file_format.cpp',['../file__format_8cpp.html',1,'']]],
-  ['file_5fformat_2eh',['file_format.h',['../file__format_8h.html',1,'']]],
-  ['file_5fformat_5fnative_2ecpp',['file_format_native.cpp',['../file__format__native_8cpp.html',1,'']]],
-  ['file_5fformat_5fnative_2eh',['file_format_native.h',['../file__format__native_8h.html',1,'']]],
-  ['file_5fformat_5focad8_2ecpp',['file_format_ocad8.cpp',['../file__format__ocad8_8cpp.html',1,'']]],
-  ['file_5fformat_5focad8_2eh',['file_format_ocad8.h',['../file__format__ocad8_8h.html',1,'']]],
-  ['file_5fformat_5focad8_5fp_2eh',['file_format_ocad8_p.h',['../file__format__ocad8__p_8h.html',1,'']]],
-  ['file_5fformat_5fregistry_2ecpp',['file_format_registry.cpp',['../file__format__registry_8cpp.html',1,'']]],
-  ['file_5fformat_5fregistry_2eh',['file_format_registry.h',['../file__format__registry_8h.html',1,'']]],
-  ['file_5fformat_5ft_2ecpp',['file_format_t.cpp',['../file__format__t_8cpp.html',1,'']]],
-  ['file_5fformat_5ft_2eh',['file_format_t.h',['../file__format__t_8h.html',1,'']]],
-  ['file_5fformat_5fxml_2ecpp',['file_format_xml.cpp',['../file__format__xml_8cpp.html',1,'']]],
-  ['file_5fformat_5fxml_2eh',['file_format_xml.h',['../file__format__xml_8h.html',1,'']]],
-  ['file_5fformat_5fxml_5fp_2eh',['file_format_xml_p.h',['../file__format__xml__p_8h.html',1,'']]],
-  ['file_5fimport_5fexport_2ecpp',['file_import_export.cpp',['../file__import__export_8cpp.html',1,'']]],
-  ['file_5fimport_5fexport_2eh',['file_import_export.h',['../file__import__export_8h.html',1,'']]]
+  ['duplicate_5fequals_5ft_2ecpp',['duplicate_equals_t.cpp',['../duplicate__equals__t_8cpp.html',1,'']]],
+  ['duplicate_5fequals_5ft_2eh',['duplicate_equals_t.h',['../duplicate__equals__t_8h.html',1,'']]],
+  ['dxfparser_2ecpp',['dxfparser.cpp',['../dxfparser_8cpp.html',1,'']]],
+  ['dxfparser_2eh',['dxfparser.h',['../dxfparser_8h.html',1,'']]]
 ];

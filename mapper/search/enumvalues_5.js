@@ -11,5 +11,9 @@ var searchData=
   ['flagright',['FlagRight',['../structOcd_1_1OcdPoint32.html#aaa859d5707ff6ab1310b977776c7490ba08a4bbf373c80f0e4cde092148967d84',1,'Ocd::OcdPoint32']]],
   ['flatcap',['FlatCap',['../classLineSymbol.html#ae80afcf8c1e5f2ba909330cb2c2f9d90ad4a65cfc8a4264a3797cb96a7b73e8b6',1,'LineSymbol']]],
   ['forceminsize',['ForceMinSize',['../classRenderConfig.html#a27c5d055cb58879e93027eaed5844ec7ada3d9e713c2e59aa9165011d00df152b',1,'RenderConfig']]],
+  ['framingline',['FramingLine',['../namespaceOcd.html#ab13230604271171800589b3f2d45ce43a51b223ac686e880fee88d7e1f466cd92',1,'Ocd']]],
+  ['framingnone',['FramingNone',['../namespaceOcd.html#ab13230604271171800589b3f2d45ce43ad3026b29ffa73727e88b29b6e1d08869',1,'Ocd']]],
+  ['framingrectangle',['FramingRectangle',['../namespaceOcd.html#ab13230604271171800589b3f2d45ce43aceb9f0737f3fe96be28a439c98f24b35',1,'Ocd']]],
+  ['framingshadow',['FramingShadow',['../namespaceOcd.html#ab13230604271171800589b3f2d45ce43a73713618b7da60ddddcfa2bb1c82cec8',1,'Ocd']]],
   ['fullvisibility',['FullVisibility',['../classMap.html#a29734bb88ef665cc099338fbb6e6fca9a7352b94a3e478ae506a700fe67acc70c',1,'Map']]]
 ];

@@ -15,7 +15,7 @@ var searchData=
   ['zoomoption',['ZoomOption',['../classMapWidget.html#ae2425b564406676bce9c644ea531cb36',1,'MapWidget']]],
   ['zoomout',['zoomOut',['http://doc.qt.io/qt-5/qplaintextedit.html#zoomOut',1,'QPlainTextEdit::zoomOut()'],['http://doc.qt.io/qt-5/qtextedit.html#zoomOut',1,'QTextEdit::zoomOut()'],['http://doc.qt.io/qt-5/qprintpreviewwidget.html#zoomOut',1,'QPrintPreviewWidget::zoomOut()'],['../classMapEditorController.html#ab7e7b9ff75b37df7892b5b3dfbbaacd4',1,'MapEditorController::zoomOut()']]],
   ['zoomrectv8',['ZoomRectV8',['../structOcd_1_1ZoomRectV8.html',1,'Ocd']]],
-  ['zoomsteps',['zoomSteps',['../classMapView.html#a9c465bd52058e5fad108708ae90f40e6',1,'MapView']]],
+  ['zoomsteps',['zoomSteps',['../classMapView.html#a7350a1c293f798a1659c37bc0f04e41e',1,'MapView::zoomSteps(double num_steps, QPointF cursor_pos_view)'],['../classMapView.html#a954e3684855b4ec1107cc506c82423e1',1,'MapView::zoomSteps(double num_steps)']]],
   ['zscale',['zScale',['http://doc.qt.io/qt-5/qgraphicsscale.html#zScale-prop',1,'QGraphicsScale::zScale()'],['http://doc.qt.io/qt-5/qgraphicsscale.html#zScale-prop',1,'QGraphicsScale::zScale() const']]],
   ['zscalechanged',['zScaleChanged',['http://doc.qt.io/qt-5/qgraphicsscale.html#zScaleChanged',1,'QGraphicsScale']]],
   ['zvalue',['zValue',['http://doc.qt.io/qt-5/qgraphicsitem.html#zValue',1,'QGraphicsItem']]]

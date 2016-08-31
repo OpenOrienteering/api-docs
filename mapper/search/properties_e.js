@@ -20,7 +20,7 @@ var searchData=
   ['preferredsize',['preferredSize',['http://doc.qt.io/qt-5/qgraphicswidget.html#preferredSize-prop',1,'QGraphicsWidget']]],
   ['prefix',['prefix',['http://doc.qt.io/qt-5/qspinbox.html#prefix-prop',1,'QSpinBox::prefix()'],['http://doc.qt.io/qt-5/qdoublespinbox.html#prefix-prop',1,'QDoubleSpinBox::prefix()']]],
   ['primaryorientation',['primaryOrientation',['http://doc.qt.io/qt-5/qscreen.html#primaryOrientation-prop',1,'QScreen']]],
-  ['primaryscreen',['primaryScreen',['http://doc.qt.io/qt-5/qdesktopwidget.html#primaryScreen-prop',1,'QDesktopWidget']]],
+  ['primaryscreen',['primaryScreen',['http://doc.qt.io/qt-5/qguiapplication.html#primaryScreen-prop',1,'QGuiApplication::primaryScreen()'],['http://doc.qt.io/qt-5/qdesktopwidget.html#primaryScreen-prop',1,'QDesktopWidget::primaryScreen()']]],
   ['priority',['priority',['http://doc.qt.io/qt-5/qaction.html#priority-prop',1,'QAction']]],
   ['propertyname',['propertyName',['http://doc.qt.io/qt-5/qpropertyanimation.html#propertyName-prop',1,'QPropertyAnimation']]]
 ];

@@ -12,12 +12,13 @@ var searchData=
   ['disableantialiasing',['DisableAntialiasing',['../classRenderConfig.html#a27c5d055cb58879e93027eaed5844ec7a8f164ff8c5fbe3ef9383cf5f818213f4',1,'RenderConfig']]],
   ['disabledhandlestate',['DisabledHandleState',['../classPointHandles.html#a1885565fde35bb98ee4253f3cabdc2dfae609a26ca335bf4106591e14e5193dfe',1,'PointHandles']]],
   ['discretezoom',['DiscreteZoom',['../classMapWidget.html#ae2425b564406676bce9c644ea531cb36ab09a5e01c191b6dd22e4830694a72569',1,'MapWidget']]],
-  ['doublebackgroundcoloron',['DoubleBackgroundColorOn',['../structOcd_1_1LineSymbolV11.html#a4f3a69855cad4355e05d6a3130a3c008a5450bbc9f31269ca79de0221fc01ae85',1,'Ocd::LineSymbolV11::DoubleBackgroundColorOn()'],['../structOcd_1_1LineSymbolV8.html#a195670d1f9b97c904b77b7c76c489aa6ac6f2573c5a49c6cf6055f826605ff50d',1,'Ocd::LineSymbolV8::DoubleBackgroundColorOn()'],['../structOcd_1_1LineSymbolV9.html#a089f5fc4ed13af4e614f44d68654d014ac9638b64d1663b386bb406c31f4e91b0',1,'Ocd::LineSymbolV9::DoubleBackgroundColorOn()']]],
-  ['doublefillcoloron',['DoubleFillColorOn',['../structOcd_1_1LineSymbolV11.html#a4f3a69855cad4355e05d6a3130a3c008ac05dd20fb321ce84e630109da9effe55',1,'Ocd::LineSymbolV11::DoubleFillColorOn()'],['../structOcd_1_1LineSymbolV8.html#a195670d1f9b97c904b77b7c76c489aa6a08c08b574e55507495327cd2edb38ae9',1,'Ocd::LineSymbolV8::DoubleFillColorOn()'],['../structOcd_1_1LineSymbolV9.html#a089f5fc4ed13af4e614f44d68654d014a63882ec623433845cb3fa1b57f60a2dc',1,'Ocd::LineSymbolV9::DoubleFillColorOn()']]],
+  ['doublebackgroundcoloron',['DoubleBackgroundColorOn',['../structOcd_1_1LineSymbolCommonV8.html#a42bf3323515995ad4d0e4c2de7ab2be2a82b4a4be051734137197a995898d5f49',1,'Ocd::LineSymbolCommonV8']]],
+  ['doublefillcoloron',['DoubleFillColorOn',['../structOcd_1_1LineSymbolCommonV8.html#a42bf3323515995ad4d0e4c2de7ab2be2a82fe696cf57282f354ae0ac6b0efff1e',1,'Ocd::LineSymbolCommonV8']]],
   ['drawcircle',['DrawCircle',['../classMapEditorTool.html#a6ee2f78342333dc7cf189b2f4ed5d3c8a1a52817c06fc97da71e5afed5964c8e5',1,'MapEditorTool']]],
   ['drawfreehand',['DrawFreehand',['../classMapEditorTool.html#a6ee2f78342333dc7cf189b2f4ed5d3c8a32ba4ac45466fb86a348db2840a78364',1,'MapEditorTool']]],
   ['drawpath',['DrawPath',['../classMapEditorTool.html#a6ee2f78342333dc7cf189b2f4ed5d3c8a3325de45d5dc16379afb2f2b19ba0a12',1,'MapEditorTool']]],
   ['drawpoint',['DrawPoint',['../classMapEditorTool.html#a6ee2f78342333dc7cf189b2f4ed5d3c8a70240e2a7109e515a9d6146fcddba52d',1,'MapEditorTool']]],
   ['drawrectangle',['DrawRectangle',['../classMapEditorTool.html#a6ee2f78342333dc7cf189b2f4ed5d3c8abe787c73705b28a65ef6496ac86f783d',1,'MapEditorTool']]],
-  ['drawtext',['DrawText',['../classMapEditorTool.html#a6ee2f78342333dc7cf189b2f4ed5d3c8a4243f48a266849481adf0b8268da968b',1,'MapEditorTool']]]
+  ['drawtext',['DrawText',['../classMapEditorTool.html#a6ee2f78342333dc7cf189b2f4ed5d3c8a4243f48a266849481adf0b8268da968b',1,'MapEditorTool']]],
+  ['dxf',['DXF',['../classGdalManager.html#a1a87ceb6be4d242ab44bd21f7db00e6aa805386779632523ebbb43ecd7cf1d2bb',1,'GdalManager']]]
 ];

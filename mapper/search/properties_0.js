@@ -16,6 +16,7 @@ var searchData=
   ['allcolumnsshowfocus',['allColumnsShowFocus',['http://doc.qt.io/qt-5/qtreeview.html#allColumnsShowFocus-prop',1,'QTreeView']]],
   ['allowedareas',['allowedAreas',['http://doc.qt.io/qt-5/qdockwidget.html#allowedAreas-prop',1,'QDockWidget::allowedAreas()'],['http://doc.qt.io/qt-5/qtoolbar.html#allowedAreas-prop',1,'QToolBar::allowedAreas()']]],
   ['alternatingrowcolors',['alternatingRowColors',['http://doc.qt.io/qt-5/qabstractitemview.html#alternatingRowColors-prop',1,'QAbstractItemView']]],
+  ['anchorrectangle',['anchorRectangle',['http://doc.qt.io/qt-5/qinputmethod.html#anchorRectangle-prop',1,'QInputMethod']]],
   ['angle',['angle',['http://doc.qt.io/qt-5/qgraphicsrotation.html#angle-prop',1,'QGraphicsRotation']]],
   ['animated',['animated',['http://doc.qt.io/qt-5/qstatemachine.html#animated-prop',1,'QStateMachine::animated()'],['http://doc.qt.io/qt-5/qtreeview.html#animated-prop',1,'QTreeView::animated()'],['http://doc.qt.io/qt-5/qmainwindow.html#animated-prop',1,'QMainWindow::animated()']]],
   ['animating',['animating',['http://doc.qt.io/qt-5/qinputmethod.html#animating-prop',1,'QInputMethod']]],

@@ -1,6 +1,9 @@
 var searchData=
 [
-  ['generalpage',['GeneralPage',['../classGeneralPage.html',1,'']]],
+  ['gdalmanager',['GdalManager',['../classGdalManager.html',1,'']]],
+  ['gdalmanagerprivate',['GdalManagerPrivate',['../classGdalManager_1_1GdalManagerPrivate.html',1,'GdalManager']]],
+  ['gdalsettingspage',['GdalSettingsPage',['../classGdalSettingsPage.html',1,'']]],
+  ['generalsettingspage',['GeneralSettingsPage',['../classGeneralSettingsPage.html',1,'']]],
   ['georeferencing',['Georeferencing',['../classGeoreferencing.html',1,'']]],
   ['georeferencingdialog',['GeoreferencingDialog',['../classGeoreferencingDialog.html',1,'']]],
   ['georeferencingtest',['GeoreferencingTest',['../classGeoreferencingTest.html',1,'']]],

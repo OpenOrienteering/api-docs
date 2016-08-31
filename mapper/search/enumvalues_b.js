@@ -15,15 +15,17 @@ var searchData=
   ['mapeditor_5fzoomoutawayfromcursor',['MapEditor_ZoomOutAwayFromCursor',['../classSettings.html#adc10a2a81016a34f8220eff0657d7f3aa9f57b658e25ac6e2baaf30ca8f28e6ed',1,'Settings']]],
   ['mapfile',['MapFile',['../classFileFormat.html#a027a5f6d0a2fe08b2e2a63dcb1fcc815a2437c1d66109a5bec67f0d539cc2ffbd',1,'FileFormat']]],
   ['mappartundosteptype',['MapPartUndoStepType',['../classUndoStep.html#a18600ea1e7741e158962ed6923c7bd66ad7fcc976e8499fc26c42afc1fa7a793e',1,'UndoStep']]],
+  ['mapvisible',['MapVisible',['../classMapView.html#a042cb075e1917bd3b5ece328152e032ba5172967880986c00f41b7a538262ca29',1,'MapView']]],
   ['mergeholes',['MergeHoles',['../classBooleanTool.html#a34e3df14f673a50f265ff8108ebc72f0a095f567f9816f9d2ebc29ec304564953',1,'BooleanTool']]],
   ['metersinterrain',['MetersInTerrain',['../classMapGrid.html#afd7ae74a8d3dd3328cc25c081269a26ca471d0c608bd70d4d271438ccc195af0d',1,'MapGrid']]],
   ['millimetersonmap',['MillimetersOnMap',['../classMapGrid.html#afd7ae74a8d3dd3328cc25c081269a26caf2ab2f38ae0d5a5cfb8bb7dba20057cf',1,'MapGrid']]],
   ['minimalobjectimport',['MinimalObjectImport',['../classMap.html#a283edaa8acc41b3ffe990ef99a9f6037a64291ee77114e0e6972857dd05562610',1,'Map']]],
   ['minimalsymbolimport',['MinimalSymbolImport',['../classMap.html#a283edaa8acc41b3ffe990ef99a9f6037a3888f67bb3b9d7b3a931bae4dbc9f21b',1,'Map']]],
   ['miterjoin',['MiterJoin',['../classLineSymbol.html#a1e20de380b4be9928ae6d4706b022e42aa5972f3293e536e581d1d7446b79131e',1,'LineSymbol']]],
-  ['miterjoin_5fflatcap',['MiterJoin_FlatCap',['../structOcd_1_1LineSymbolV11.html#a249cf044bd07c8189ccf38eae52601f6a6b0dee7ccc6ef38986c18acc03b56d68',1,'Ocd::LineSymbolV11::MiterJoin_FlatCap()'],['../structOcd_1_1LineSymbolV8.html#a162a0523971fa5007cf6a1756687049fa28ad7e3bd52aac649cf57a88ed573a55',1,'Ocd::LineSymbolV8::MiterJoin_FlatCap()'],['../structOcd_1_1LineSymbolV9.html#aca96da285d29465a025ef9db96cf7e6da8de0cda2ca7818d89210a58946f0e0af',1,'Ocd::LineSymbolV9::MiterJoin_FlatCap()']]],
-  ['miterjoin_5fpointedcap',['MiterJoin_PointedCap',['../structOcd_1_1LineSymbolV11.html#a249cf044bd07c8189ccf38eae52601f6ae52b47d33c5d7c43dffdc26c7ba7fa88',1,'Ocd::LineSymbolV11::MiterJoin_PointedCap()'],['../structOcd_1_1LineSymbolV8.html#a162a0523971fa5007cf6a1756687049fa1675b063015e0d13a013a1d40f75347f',1,'Ocd::LineSymbolV8::MiterJoin_PointedCap()'],['../structOcd_1_1LineSymbolV9.html#aca96da285d29465a025ef9db96cf7e6dac4967df310473cd3279138eda25d49a5',1,'Ocd::LineSymbolV9::MiterJoin_PointedCap()']]],
+  ['miterjoin_5fflatcap',['MiterJoin_FlatCap',['../structOcd_1_1LineSymbolCommonV8.html#a168c058084a037ab57b1992f32cba61fa480223947a8862f1fee03a8870982f41',1,'Ocd::LineSymbolCommonV8']]],
+  ['miterjoin_5fpointedcap',['MiterJoin_PointedCap',['../structOcd_1_1LineSymbolCommonV8.html#a168c058084a037ab57b1992f32cba61fae4e99fa88d963522aa0b7598b0c5cdb3',1,'Ocd::LineSymbolCommonV8']]],
   ['modifymappart',['ModifyMapPart',['../classMapPartUndoStep.html#ad130b66c884d74916af388ad085c13bea0a888dc43e322905013a718fe1d103b0',1,'MapPartUndoStep']]],
   ['moveto',['MoveTo',['../libocad_8h.html#a1fb54a218a6decbab97714c09830ceb1a820e17d26e153463c30b3f1c1c78fbcf',1,'libocad.h']]],
-  ['multipage_5fflag',['MULTIPAGE_FLAG',['../classPrintWidget.html#afa0c2a3ebede4ae45757e9a5f9189148aa8d4cf692c940be5fab21671e923fcd3',1,'PrintWidget']]]
+  ['multipage_5fflag',['MULTIPAGE_FLAG',['../classPrintWidget.html#afa0c2a3ebede4ae45757e9a5f9189148aa8d4cf692c940be5fab21671e923fcd3',1,'PrintWidget']]],
+  ['multiplefeatures',['MultipleFeatures',['../classMapView.html#a042cb075e1917bd3b5ece328152e032ba336350c0b2caa4bbf338fd15f4073da6',1,'MapView']]]
 ];

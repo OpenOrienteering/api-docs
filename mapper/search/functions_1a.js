@@ -7,7 +7,7 @@ var searchData=
   ['zoomin',['zoomIn',['http://doc.qt.io/qt-5/qplaintextedit.html#zoomIn',1,'QPlainTextEdit::zoomIn()'],['http://doc.qt.io/qt-5/qtextedit.html#zoomIn',1,'QTextEdit::zoomIn()'],['http://doc.qt.io/qt-5/qprintpreviewwidget.html#zoomIn',1,'QPrintPreviewWidget::zoomIn()'],['../classMapEditorController.html#ae3612ef20a0e109ca0cac511143b6b2e',1,'MapEditorController::zoomIn()']]],
   ['zoommode',['zoomMode',['http://doc.qt.io/qt-5/qprintpreviewwidget.html#zoomMode',1,'QPrintPreviewWidget']]],
   ['zoomout',['zoomOut',['http://doc.qt.io/qt-5/qplaintextedit.html#zoomOut',1,'QPlainTextEdit::zoomOut()'],['http://doc.qt.io/qt-5/qtextedit.html#zoomOut',1,'QTextEdit::zoomOut()'],['http://doc.qt.io/qt-5/qprintpreviewwidget.html#zoomOut',1,'QPrintPreviewWidget::zoomOut()'],['../classMapEditorController.html#ab7e7b9ff75b37df7892b5b3dfbbaacd4',1,'MapEditorController::zoomOut()']]],
-  ['zoomsteps',['zoomSteps',['../classMapView.html#a9c465bd52058e5fad108708ae90f40e6',1,'MapView']]],
+  ['zoomsteps',['zoomSteps',['../classMapView.html#a7350a1c293f798a1659c37bc0f04e41e',1,'MapView::zoomSteps(double num_steps, QPointF cursor_pos_view)'],['../classMapView.html#a954e3684855b4ec1107cc506c82423e1',1,'MapView::zoomSteps(double num_steps)']]],
   ['zscale',['zScale',['http://doc.qt.io/qt-5/qgraphicsscale.html#zScale-prop',1,'QGraphicsScale']]],
   ['zscalechanged',['zScaleChanged',['http://doc.qt.io/qt-5/qgraphicsscale.html#zScaleChanged',1,'QGraphicsScale']]],
   ['zvalue',['zValue',['http://doc.qt.io/qt-5/qgraphicsitem.html#zValue',1,'QGraphicsItem']]]

@@ -1,14 +1,21 @@
 var searchData=
 [
   ['objectcorners',['ObjectCorners',['../classSnappingToolHelper.html#a5d6b1bf297e911a9e0eb2669b196f5e1a54c5599a44946e02406fb6d7c165bd86',1,'SnappingToolHelper']]],
+  ['objectdeleted',['ObjectDeleted',['../namespaceOcd.html#a61d68872e8092f87bef03e00fc797e07a303ccee821341013186c1a8fcb96a17a',1,'Ocd']]],
+  ['objectdeletedforundo',['ObjectDeletedForUndo',['../namespaceOcd.html#a61d68872e8092f87bef03e00fc797e07a92d7b78f6c0edf876937c0fd945f6d0c',1,'Ocd']]],
+  ['objecthidden',['ObjectHidden',['../namespaceOcd.html#a61d68872e8092f87bef03e00fc797e07aec537192d40a028f1a3f0a100fde4fb2',1,'Ocd']]],
+  ['objectnormal',['ObjectNormal',['../namespaceOcd.html#a61d68872e8092f87bef03e00fc797e07a5526faf7b5aa85f0551bdc7887690aca',1,'Ocd']]],
   ['objectpaths',['ObjectPaths',['../classSnappingToolHelper.html#a5d6b1bf297e911a9e0eb2669b196f5e1a9ad07ce2ab897ca536d1eda0233921cb',1,'SnappingToolHelper']]],
   ['objecttagsundosteptype',['ObjectTagsUndoStepType',['../classUndoStep.html#a18600ea1e7741e158962ed6923c7bd66a0a6366ddbfd33539e4ea31e797875cae',1,'UndoStep']]],
   ['offcurve',['OffCurve',['../qt-5_82_81_2qfontsubset_8cpp.html#aa705cf7e79a21c2352b00ffe20cd295fa5c7f5c88000d939c7122b2dedafdd2d7',1,'OffCurve():&#160;qfontsubset.cpp'],['../qt-5_85_81_2qfontsubset_8cpp.html#aa705cf7e79a21c2352b00ffe20cd295fa5c7f5c88000d939c7122b2dedafdd2d7',1,'OffCurve():&#160;qfontsubset.cpp']]],
+  ['ogrfile',['OgrFile',['../classFileFormat.html#a027a5f6d0a2fe08b2e2a63dcb1fcc815a1e123bc0223e9e9640b38fa95a6a03b8',1,'FileFormat']]],
   ['oncurve',['OnCurve',['../qt-5_82_81_2qfontsubset_8cpp.html#aa705cf7e79a21c2352b00ffe20cd295fa70206f886812cbcd1b3185247eeb5c16',1,'OnCurve():&#160;qfontsubset.cpp'],['../qt-5_85_81_2qfontsubset_8cpp.html#aa705cf7e79a21c2352b00ffe20cd295fa70206f886812cbcd1b3185247eeb5c16',1,'OnCurve():&#160;qfontsubset.cpp']]],
+  ['osm',['OSM',['../classGdalManager.html#a1a87ceb6be4d242ab44bd21f7db00e6aa78e5b47a4a9ca9efa4eed0a2a915f412',1,'GdalManager']]],
   ['other',['Other',['../classMapEditorTool.html#a6ee2f78342333dc7cf189b2f4ed5d3c8a572d0129875ae5fae441760fff7dc5e5',1,'MapEditorTool']]],
   ['outside',['Outside',['../classPrintTool.html#a73d94b3e59890446779a6028175e2baba25fb4c8ec51fca2263be058909935ed5',1,'PrintTool']]],
   ['overframe',['OverFrame',['../classEditTool.html#a1790abc4aefe2723ba6f60d2c024f7a0ac4aaf40298040f20bee0cd4f661666ac',1,'EditTool']]],
   ['overnothing',['OverNothing',['../classEditTool.html#a1790abc4aefe2723ba6f60d2c024f7a0ab1da4ce1ba52f5c0b3e6f00b96a2ec18',1,'EditTool']]],
   ['overobjectnode',['OverObjectNode',['../classEditTool.html#a1790abc4aefe2723ba6f60d2c024f7a0a9c56b026679289ce59e5ad81974cdaa2',1,'EditTool']]],
-  ['overpathedge',['OverPathEdge',['../classEditTool.html#a1790abc4aefe2723ba6f60d2c024f7a0ad7ec09035782d0552d2daf5d543b103e',1,'EditTool']]]
+  ['overpathedge',['OverPathEdge',['../classEditTool.html#a1790abc4aefe2723ba6f60d2c024f7a0ad7ec09035782d0552d2daf5d543b103e',1,'EditTool']]],
+  ['overprintingenabled',['OverprintingEnabled',['../classMapView.html#a042cb075e1917bd3b5ece328152e032ba020b5cbe949312d6ad94042cb8498b43',1,'MapView']]]
 ];

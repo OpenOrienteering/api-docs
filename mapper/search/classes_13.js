@@ -24,6 +24,7 @@ var searchData=
   ['testmapeditor',['TestMapEditor',['../structTestMapEditor.html',1,'']]],
   ['textbrowserdialog',['TextBrowserDialog',['../classTextBrowserDialog.html',1,'']]],
   ['textdocitemdelegate',['TextDocItemDelegate',['../classTextDocItemDelegate.html',1,'']]],
+  ['textframingrenderable',['TextFramingRenderable',['../classTextFramingRenderable.html',1,'']]],
   ['textobject',['TextObject',['../classTextObject.html',1,'']]],
   ['textobjectalignmentdockwidget',['TextObjectAlignmentDockWidget',['../classTextObjectAlignmentDockWidget.html',1,'']]],
   ['textobjecteditorhelper',['TextObjectEditorHelper',['../classTextObjectEditorHelper.html',1,'']]],
@@ -33,7 +34,6 @@ var searchData=
   ['textrenderable',['TextRenderable',['../classTextRenderable.html',1,'']]],
   ['textsymbol',['TextSymbol',['../classTextSymbol.html',1,'']]],
   ['textsymbolsettings',['TextSymbolSettings',['../classTextSymbolSettings.html',1,'']]],
-  ['textsymbolv10',['TextSymbolV10',['../structOcd_1_1TextSymbolV10.html',1,'Ocd']]],
   ['textsymbolv11',['TextSymbolV11',['../structOcd_1_1TextSymbolV11.html',1,'Ocd']]],
   ['textsymbolv8',['TextSymbolV8',['../structOcd_1_1TextSymbolV8.html',1,'Ocd']]],
   ['textsymbolv9',['TextSymbolV9',['../structOcd_1_1TextSymbolV9.html',1,'Ocd']]],
@@ -44,5 +44,6 @@ var searchData=
   ['track',['Track',['../classTrack.html',1,'']]],
   ['trackpoint',['TrackPoint',['../structTrackPoint.html',1,'']]],
   ['translationutil',['TranslationUtil',['../classTranslationUtil.html',1,'']]],
+  ['tst_5fqglobal',['tst_QGlobal',['../classtst__QGlobal.html',1,'']]],
   ['ttf_5fpoint',['TTF_POINT',['../structTTF__POINT.html',1,'']]]
 ];

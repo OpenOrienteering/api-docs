@@ -1,6 +1,27 @@
 var searchData=
 [
-  ['image_5ftransparency_5ffixup_2eh',['image_transparency_fixup.h',['../image__transparency__fixup_8h.html',1,'']]],
-  ['item_5fdelegates_2ecpp',['item_delegates.cpp',['../item__delegates_8cpp.html',1,'']]],
-  ['item_5fdelegates_2eh',['item_delegates.h',['../item__delegates_8h.html',1,'']]]
+  ['gdal_5fmanager_2ecpp',['gdal_manager.cpp',['../gdal__manager_8cpp.html',1,'']]],
+  ['gdal_5fmanager_2eh',['gdal_manager.h',['../gdal__manager_8h.html',1,'']]],
+  ['gdal_5fsettings_5fpage_2ecpp',['gdal_settings_page.cpp',['../gdal__settings__page_8cpp.html',1,'']]],
+  ['gdal_5fsettings_5fpage_2eh',['gdal_settings_page.h',['../gdal__settings__page_8h.html',1,'']]],
+  ['general_5fsettings_5fpage_2ecpp',['general_settings_page.cpp',['../general__settings__page_8cpp.html',1,'']]],
+  ['general_5fsettings_5fpage_2eh',['general_settings_page.h',['../general__settings__page_8h.html',1,'']]],
+  ['geometry_2ec',['geometry.c',['../geometry_8c.html',1,'']]],
+  ['geometry_2eh',['geometry.h',['../geometry_8h.html',1,'']]],
+  ['georeferencing_2ecpp',['georeferencing.cpp',['../georeferencing_8cpp.html',1,'']]],
+  ['georeferencing_2eh',['georeferencing.h',['../georeferencing_8h.html',1,'']]],
+  ['georeferencing_5fdialog_2ecpp',['georeferencing_dialog.cpp',['../georeferencing__dialog_8cpp.html',1,'']]],
+  ['georeferencing_5fdialog_2eh',['georeferencing_dialog.h',['../georeferencing__dialog_8h.html',1,'']]],
+  ['georeferencing_5ft_2ecpp',['georeferencing_t.cpp',['../georeferencing__t_8cpp.html',1,'']]],
+  ['georeferencing_5ft_2eh',['georeferencing_t.h',['../georeferencing__t_8h.html',1,'']]],
+  ['global_2ecpp',['global.cpp',['../global_8cpp.html',1,'']]],
+  ['global_2eh',['global.h',['../global_8h.html',1,'']]],
+  ['gps_5fdisplay_2ecpp',['gps_display.cpp',['../gps__display_8cpp.html',1,'']]],
+  ['gps_5fdisplay_2eh',['gps_display.h',['../gps__display_8h.html',1,'']]],
+  ['gps_5ftemporary_5fmarkers_2ecpp',['gps_temporary_markers.cpp',['../gps__temporary__markers_8cpp.html',1,'']]],
+  ['gps_5ftemporary_5fmarkers_2eh',['gps_temporary_markers.h',['../gps__temporary__markers_8h.html',1,'']]],
+  ['gps_5ftrack_2ecpp',['gps_track.cpp',['../gps__track_8cpp.html',1,'']]],
+  ['gps_5ftrack_2eh',['gps_track.h',['../gps__track_8h.html',1,'']]],
+  ['gps_5ftrack_5frecorder_2ecpp',['gps_track_recorder.cpp',['../gps__track__recorder_8cpp.html',1,'']]],
+  ['gps_5ftrack_5frecorder_2eh',['gps_track_recorder.h',['../gps__track__recorder_8h.html',1,'']]]
 ];

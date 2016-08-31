@@ -1,28 +1,6 @@
 var searchData=
 [
-  ['object',['Object',['../structOcd_1_1FormatV10.html#ac6904e1445c25b63928e6febeccf3d17',1,'Ocd::FormatV10::Object()'],['../structOcd_1_1FormatV11.html#a3fe37c4584fcaff29bab311945686845',1,'Ocd::FormatV11::Object()'],['../structOcd_1_1FormatV8.html#aa7038ea7a63399a61df4b70f5161d56e',1,'Ocd::FormatV8::Object()'],['../structOcd_1_1FormatV9.html#abf5ad88a03ebab3c871277999d2d8071',1,'Ocd::FormatV9::Object()']]],
-  ['objectindex',['ObjectIndex',['../classOcdFile.html#a020e24049fedcf8e38972c1b80eb610e',1,'OcdFile']]],
-  ['objectindexentryv10',['ObjectIndexEntryV10',['../namespaceOcd.html#aeedf41dea63c88ab947e4a6c48be403f',1,'Ocd']]],
-  ['objectlist',['ObjectList',['../classObjectModifyingUndoStep.html#afeaac2f927f07d89db63cb93cf84daf4',1,'ObjectModifyingUndoStep']]],
-  ['objectrenderablesmap',['ObjectRenderablesMap',['../renderable_8h.html#a53539f12fdebd0ea8aacd10aa65d66c2',1,'renderable.h']]],
-  ['objectselection',['ObjectSelection',['../classMap.html#a48593991684d7ab88f5eb8a05c560f06',1,'Map']]],
-  ['objectset',['ObjectSet',['../classUndoStep.html#a2e136766f5069335853b2967394845d0',1,'UndoStep']]],
-  ['objecttagsmap',['ObjectTagsMap',['../classObjectTagsUndoStep.html#a4ecab90715ac63798f350eb4ea6418d0',1,'ObjectTagsUndoStep']]],
-  ['ocad_5ffile_5fbounds_5fdata',['ocad_file_bounds_data',['../file_8c.html#af37ebdb1f5b9bfe5128eae9d6622f212',1,'file.c']]],
-  ['ocadbackground',['OCADBackground',['../libocad_8h.html#a072dd700d950e1c6d6e7f0831e79173e',1,'libocad.h']]],
-  ['ocadexportoptions',['OCADExportOptions',['../libocad_8h.html#a33889c56af6faf3ef378c1a077ca455b',1,'libocad.h']]],
-  ['ocadfile',['OCADFile',['../libocad_8h.html#a89e544f18c7e4831e7506b7f259f69a1',1,'libocad.h']]],
-  ['ocadobjectcallback',['OCADObjectCallback',['../libocad_8h.html#ad7caddf9dfa86216c3794a59f5f9d019',1,'libocad.h']]],
-  ['ocadobjectentrycallback',['OCADObjectEntryCallback',['../libocad_8h.html#a2b3d71c62125f69ffc69512998d51fcf',1,'libocad.h']]],
-  ['ocadobjectindex',['OCADObjectIndex',['../libocad_8h.html#a6062350ecd6038efcbbb8446f09bc105',1,'libocad.h']]],
-  ['ocadpaintcallback',['OCADPaintCallback',['../libocad_8h.html#a639523210cf1eb2d637aec0f012bc9a2',1,'libocad.h']]],
-  ['ocadpaintcolorindex',['OCADPaintColorIndex',['../libocad_8h.html#a5996f8ba8a92c869433c4f0b31c83ecf',1,'libocad.h']]],
-  ['ocadpaintdata',['OCADPaintData',['../libocad_8h.html#ad16a3579c0a86659f05cc4658da3c409',1,'libocad.h']]],
-  ['ocadpaintsymbolindex',['OCADPaintSymbolIndex',['../libocad_8h.html#aacbabe87f17f78ba34c412f5c1568333',1,'libocad.h']]],
-  ['ocadstring',['OCADString',['../libocad_8h.html#ae6cbf1af30df8c738be9b870b4eae73c',1,'libocad.h']]],
-  ['ocadstringentrycallback',['OCADStringEntryCallback',['../libocad_8h.html#a8bd4ba683617a3a68a9f7d7ce7c988c3',1,'libocad.h']]],
-  ['ocadsymbolcallback',['OCADSymbolCallback',['../libocad_8h.html#a48533974594a7c597c2edbe058f20d07',1,'libocad.h']]],
-  ['ocadsymbolelementcallback',['OCADSymbolElementCallback',['../libocad_8h.html#a8c22c14eb7dfc1da3dc4444dda7e97c2',1,'libocad.h']]],
-  ['offset',['Offset',['../qt-5_82_81_2qfontsubset_8cpp.html#ad3776d6f2799f988848a50fbd98e5720',1,'Offset():&#160;qfontsubset.cpp'],['../qt-5_85_81_2qfontsubset_8cpp.html#ad3776d6f2799f988848a50fbd98e5720',1,'Offset():&#160;qfontsubset.cpp']]],
-  ['outputlist',['OutputList',['../classCRSTemplates_1_1IntRangeParameter.html#a268d14b08fc3c8ba86351339b7301783',1,'CRSTemplates::IntRangeParameter']]]
+  ['mapcoordconstructor',['MapCoordConstructor',['../classOgrFileImport.html#abdadaaecbc19bdd27978a300a02075d8',1,'OgrFileImport']]],
+  ['mapcoordvector',['MapCoordVector',['../map__coord_8h.html#af1641b855a79e4b54a4a3b789056521c',1,'MapCoordVector():&#160;map_coord.h'],['../xml__stream__util_8h.html#af1641b855a79e4b54a4a3b789056521c',1,'MapCoordVector():&#160;xml_stream_util.h']]],
+  ['mapcoordvectorf',['MapCoordVectorF',['../map__coord_8h.html#a2304a71cff9b25b3e0a1dd22f54daa0e',1,'map_coord.h']]]
 ];
