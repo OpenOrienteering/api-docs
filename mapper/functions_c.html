@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.6.5</span>
+   &#160;<span id="projectnumber">0.6.7</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -163,9 +163,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>calcClosestPointOnPath()
 : <a class="el" href="classPathObject.html#af555d27ecd3f0191968b3d4ae74aeb80">PathObject</a>
 </li>
-<li>calcConstrainedPositions()
-: <a class="el" href="classMapEditorToolBase.html#aac021f810b385496391b0e81df21c8aa">MapEditorToolBase</a>
-</li>
 <li>calcMapToTextTransform()
 : <a class="el" href="classTextObject.html#a46ac133560ae2b37b2fc3cdcf26d865f">TextObject</a>
 </li>
@@ -214,6 +211,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="classLineSymbol.html#a3c061252c5317f4787ae3cceb4616985">LineSymbol</a>
 , <a class="el" href="classSymbol.html#a847e4ea1ae7ff5e87f2df0fdb9145472">Symbol</a>
 </li>
+<li>calculateLetterHeight()
+: <a class="el" href="classTextSymbolSettings.html#a967e020c868109585b74fcbfa34bcf0d">TextSymbolSettings</a>
+</li>
 <li>calculateLocalGeoreferencing()
 : <a class="el" href="classTemplateTrack.html#a667ce5b266fc88143f4b0cfabfd29019">TemplateTrack</a>
 </li>
@@ -239,6 +239,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>calculateTemplateBoundingBox()
 : <a class="el" href="classTemplate.html#a160d0b42562db5e2a5407a89254086f8">Template</a>
 , <a class="el" href="classTemplateTrack.html#a3ed8cc7db64422e4fd11e45376e7bed4">TemplateTrack</a>
+</li>
+<li>calculateTransformation()
+: <a class="el" href="classTemplateMap.html#a40dc8fa4323450e223a2401ba222c0ec">TemplateMap</a>
 </li>
 <li>calculateUTMZone()
 : <a class="el" href="classCRSTemplates_1_1UTMZoneParameter.html#a74df7d489550052254bc70085dd86494">CRSTemplates::UTMZoneParameter</a>
@@ -539,6 +542,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="classFillTool.html#a4d2ccf9f8b76eab9471095cf1c4c0b1e">FillTool</a>
 , <a class="el" href="classMapEditorToolBase.html#ad6353e4ece34366c1bf39018d8bf59bc">MapEditorToolBase</a>
 , <a class="el" href="classPanTool.html#af9c3c4508e31155643411f3d9d513cd2">PanTool</a>
+, <a class="el" href="classRotatePatternTool.html#a101392bca8f7bf384b17331f9cab98d8">RotatePatternTool</a>
 </li>
 <li>clickRelease()
 : <a class="el" href="classCutoutTool.html#acbd6f16d715055fe1fc23874001d90ef">CutoutTool</a>
@@ -548,6 +552,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="classEditLineTool.html#a5fd0c04617d56540379934d932757529">EditLineTool</a>
 , <a class="el" href="classEditPointTool.html#abeea254bbbaa5ae705a28e4a7e33ad91">EditPointTool</a>
 , <a class="el" href="classMapEditorToolBase.html#a66fba74f4186810772d10db6048c1a3d">MapEditorToolBase</a>
+, <a class="el" href="classRotatePatternTool.html#ac2917c0eae15c245a4c35cc232d0400f">RotatePatternTool</a>
 , <a class="el" href="classRotateTool.html#a2895d3613da0a29d7245880bf60b4310">RotateTool</a>
 </li>
 <li>clickTolerance()
@@ -630,6 +635,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>cmykValueChanged()
 : <a class="el" href="classColorDialog.html#a649da70dcb987a3c76c790137e9a6319">ColorDialog</a>
+</li>
+<li>code()
+: <a class="el" href="classTranslationUtil.html#a3c1f19a97e8f1f8a702d60625eaf0309">TranslationUtil</a>
+, <a class="el" href="structTranslationUtil_1_1Language.html#ae3fdf69ce9ad8eb296f35674a9b936c2">TranslationUtil::Language</a>
 </li>
 <li>col
 : <a class="el" href="structActionGridBar_1_1GridItem.html#ac3c834f87282957a31aa770f5393f05c">ActionGridBar::GridItem</a>
@@ -834,7 +843,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classConfigureGridDialog.html#a3b4d86ffa33a52fb119c3141af50b467">ConfigureGridDialog</a>
 </li>
 <li>configureParameterFields()
-: <a class="el" href="classCRSSelector.html#a1d064edac58511d80bea304b330084aa">CRSSelector</a>
+: <a class="el" href="classCRSSelector.html#ae6f7a4f55d7441bd4049bcccc190fd3e">CRSSelector</a>
 </li>
 <li>connectEnds()
 : <a class="el" href="classPathPart.html#ab5c3602ba17b6eb21eb59bca442d784e">PathPart</a>
@@ -855,23 +864,27 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classCompass.html#ad636bf14d79599cf184b8b3774932dc0">Compass</a>
 </li>
 <li>constFoo()
-: <a class="el" href="structOverloaded.html#a05e71ae013ebf3e5afd9a6e621d29ff1">Overloaded</a>
+: <a class="el" href="structOverloaded.html#a9279a63ed7de1ac1e9b80b75ef318e6e">Overloaded</a>
 </li>
 <li>ConstrainAngleToolHelper()
-: <a class="el" href="classConstrainAngleToolHelper.html#ae9a43722f0034863fd83a44c93b5d4fe">ConstrainAngleToolHelper</a>
+: <a class="el" href="classConstrainAngleToolHelper.html#a9d8a65614e0e0f9cf7e1dc11dc8807a2">ConstrainAngleToolHelper</a>
+</li>
+<li>constrained_click_pos
+: <a class="el" href="classMapEditorToolBase.html#a4b0fb370cf917f4dbc3505e747feff46">MapEditorToolBase</a>
+</li>
+<li>constrained_click_pos_map
+: <a class="el" href="classMapEditorToolBase.html#a348e2a74717fbe62202eef5ddc363a6e">MapEditorToolBase</a>
 </li>
 <li>constrained_pos
-: <a class="el" href="classMapEditorToolBase.html#a1cd65a17f737b0b1e7a614e31f3ce3eb">MapEditorToolBase</a>
-, <a class="el" href="classRotatePatternTool.html#a12249937daf60256936de0984da55b88">RotatePatternTool</a>
+: <a class="el" href="classMapEditorToolBase.html#aac9afe100859476b2469fa28005533ba">MapEditorToolBase</a>
 </li>
 <li>constrained_pos_map
 : <a class="el" href="classDrawPathTool.html#a00b2dd4a92624a42de7127d95dd2f99e">DrawPathTool</a>
 , <a class="el" href="classDrawRectangleTool.html#a329f86bb656a4869ffe91a29fb2e3889">DrawRectangleTool</a>
 , <a class="el" href="classMapEditorToolBase.html#a875e0df4269937291fef268fca5df46e">MapEditorToolBase</a>
-, <a class="el" href="classRotatePatternTool.html#a7938ea43596a05e595dc12366abaeaea">RotatePatternTool</a>
 </li>
 <li>constructor_helper()
-: <a class="el" href="classAdvancedPdf_1_1ByteStream.html#a0f056cb2e7ecd424b653de68f9bba54b">AdvancedPdf::ByteStream</a>
+: <a class="el" href="classAdvancedPdf_1_1ByteStream.html#a1926d433969ddb7c7ed7a689970b9718">AdvancedPdf::ByteStream</a>
 </li>
 <li>contains()
 : <a class="el" href="classMapColorMap.html#acd6c59872b01708a8b0c37fdbd9645e2">MapColorMap</a>
@@ -947,7 +960,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>convertPoint()
 : <a class="el" href="classOCAD8FileExport.html#a6057e9c66fe3499521bed05cb89881ac">OCAD8FileExport</a>
-, <a class="el" href="classOCAD8FileImport.html#a2df2cddfe252db617232f7896d5a6b4e">OCAD8FileImport</a>
+, <a class="el" href="classOCAD8FileImport.html#a6d58dec0d6bd4428e76c989d8f8cad30">OCAD8FileImport</a>
 </li>
 <li>convertRangeToCurves()
 : <a class="el" href="classPathObject.html#abf4c774849816e42a2ac773a6532ce48">PathObject</a>
@@ -998,12 +1011,15 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>CoordsType
 : <a class="el" href="classMapWidget.html#a158226eb705ef66b6817974c0f3f8718">MapWidget</a>
 </li>
+<li>CoordTest()
+: <a class="el" href="classCoordTest.html#a9cfde52156a6f146c607088d8144f471">CoordTest</a>
+</li>
 <li>CoordXmlTest
 : <a class="el" href="classMapCoord.html#ab3d792d2203ee2dac91709803d4f5215">MapCoord</a>
 </li>
 <li>copy()
 : <a class="el" href="classMapEditorController.html#a0d7de4ed17e679688cf3c89d297f97c6">MapEditorController</a>
-, <a class="el" href="classVirtualPath.html#ad58eeebd7a6f5b698c481034ba2be623">VirtualPath</a>
+, <a class="el" href="classVirtualPath.html#a9c9f7295e5e2680d913e4afb5da2ad1d">VirtualPath</a>
 </li>
 <li>copyDisplayedCoords()
 : <a class="el" href="classMapEditorController.html#ad4f90c036b9f5a67407d979b0206135b">MapEditorController</a>
@@ -1157,14 +1173,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="classTextSymbol.html#aa351fad5b65ff21deb8c3db184586e66">TextSymbol</a>
 </li>
 <li>createRenderables()
-: <a class="el" href="classAreaSymbol.html#a83a8f417527a428786b26712766d1b02">AreaSymbol</a>
+: <a class="el" href="classAreaSymbol.html#ac676e53d616832f33eb5ba3581aba535">AreaSymbol</a>
 , <a class="el" href="structAreaSymbol_1_1FillPattern.html#a09c0e4acd7a925305567e0d957684d31">AreaSymbol::FillPattern</a>
 , <a class="el" href="classCombinedSymbol.html#aa4a6b2670cfc6072355a49dd06c55e48">CombinedSymbol</a>
-, <a class="el" href="classLineSymbol.html#a85863543286af3b7ccd6129ce208d7d3">LineSymbol</a>
+, <a class="el" href="classLineSymbol.html#ad9024ac042067b8331120e1a73e98142">LineSymbol</a>
 , <a class="el" href="classObject.html#a56f246330f704ce6b94449fd8de0fd5f">Object</a>
 , <a class="el" href="classPathObject.html#ab2546ade0c9cd696561d6c1f7f890cd0">PathObject</a>
 , <a class="el" href="classPointSymbol.html#a52e7ff910a0a727a0bddb9cbe75e7c04">PointSymbol</a>
-, <a class="el" href="classSymbol.html#a60b20d4bd2ceaff1db80e4423262610f">Symbol</a>
+, <a class="el" href="classSymbol.html#ab6fc5462a1916ee70e92c35138ec5e89">Symbol</a>
 , <a class="el" href="classTextSymbol.html#a412167f5a82c697500a1dc847b4c8cea">TextSymbol</a>
 </li>
 <li>createRenderablesNormal()

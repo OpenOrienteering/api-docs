@@ -192,7 +192,7 @@ var searchData=
   ['pointedlinecaplengthchanged',['pointedLineCapLengthChanged',['../classLineSymbolSettings.html#a4ca6c642fb1b5ce488c6fcfaa2bebf2d',1,'LineSymbolSettings']]],
   ['pointerrecords',['pointerRecords',['http://doc.qt.io/qt-5/qdnslookup.html#pointerRecords',1,'QDnsLookup']]],
   ['pointertype',['pointerType',['http://doc.qt.io/qt-5/qtabletevent.html#pointerType',1,'QTabletEvent']]],
-  ['pointhandles',['PointHandles',['../classPointHandles.html#afae98d06386031bcccfc91d62fb2d460',1,'PointHandles::PointHandles()'],['../classMapEditorTool.html#a4dc6dbb12efdfa7aaab72bcc470e716b',1,'MapEditorTool::pointHandles()']]],
+  ['pointhandles',['pointHandles',['../classMapEditorTool.html#a4dc6dbb12efdfa7aaab72bcc470e716b',1,'MapEditorTool::pointHandles()'],['../classPointHandles.html#afae98d06386031bcccfc91d62fb2d460',1,'PointHandles::PointHandles()']]],
   ['pointobject',['PointObject',['../classPointObject.html#aea35a9757c521fd50cede9a914f35249',1,'PointObject::PointObject(const Symbol *symbol=nullptr)'],['../classPointObject.html#a092194307ca16903d4aa83f1498558ad',1,'PointObject::PointObject(const PointObject &amp;proto)']]],
   ['pointoverrectangle',['pointOverRectangle',['../classEditTool.html#a1d357234c1b4697baa16826f3346ca88',1,'EditTool']]],
   ['pointsize',['pointSize',['http://doc.qt.io/qt-5/qfont.html#pointSize',1,'QFont::pointSize()'],['http://doc.qt.io/qt-5/qfontinfo.html#pointSize',1,'QFontInfo::pointSize()']]],

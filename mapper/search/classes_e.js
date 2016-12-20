@@ -8,6 +8,8 @@ var searchData=
   ['objectindexentryv9',['ObjectIndexEntryV9',['../structOcd_1_1ObjectIndexEntryV9.html',1,'Ocd']]],
   ['objectmodifyingundostep',['ObjectModifyingUndoStep',['../classObjectModifyingUndoStep.html',1,'']]],
   ['objectmover',['ObjectMover',['../classObjectMover.html',1,'']]],
+  ['objectquery',['ObjectQuery',['../classObjectQuery.html',1,'']]],
+  ['objectquerytest',['ObjectQueryTest',['../classObjectQueryTest.html',1,'']]],
   ['objectrenderables',['ObjectRenderables',['../classObjectRenderables.html',1,'']]],
   ['objectselector',['ObjectSelector',['../classObjectSelector.html',1,'']]],
   ['objecttagsundostep',['ObjectTagsUndoStep',['../classObjectTagsUndoStep.html',1,'']]],

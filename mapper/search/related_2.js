@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['determinefontsizedialog',['DetermineFontSizeDialog',['../classTextSymbol.html#a4df46b5167740c78b43ba551827a0575',1,'TextSymbol']]]
+  ['linesymbolsettings',['LineSymbolSettings',['../classLineSymbol.html#afa7fca34232cf9d4fd8ec6422306d2ae',1,'LineSymbol']]]
 ];

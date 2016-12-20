@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['splitpathcoord',['SplitPathCoord',['../classPathCoordVector.html#a5e65dde7702f235a3c4ee798745f10f1',1,'PathCoordVector']]],
-  ['symbolsettingdialog',['SymbolSettingDialog',['../classMainWindow.html#abc09f99477d1d4acafaf3f6c7a5fa674',1,'MainWindow']]]
+  ['textsymbolsettings',['TextSymbolSettings',['../classTextSymbol.html#a00e16078808c8d4fb34243ce652f6e27',1,'TextSymbol']]]
 ];

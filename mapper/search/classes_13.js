@@ -1,6 +1,7 @@
 var searchData=
 [
   ['tab',['Tab',['http://doc.qt.io/qt-5/qtextoption-tab.html',1,'QTextOption']]],
+  ['tagselectwidget',['TagSelectWidget',['../classTagSelectWidget.html',1,'']]],
   ['tagswidget',['TagsWidget',['../classTagsWidget.html',1,'']]],
   ['taskdialog',['TaskDialog',['../classTaskDialog.html',1,'']]],
   ['template',['Template',['../classTemplate.html',1,'']]],
@@ -43,6 +44,7 @@ var searchData=
   ['touchpoint',['TouchPoint',['http://doc.qt.io/qt-5/qtouchevent-touchpoint.html',1,'QTouchEvent']]],
   ['track',['Track',['../classTrack.html',1,'']]],
   ['trackpoint',['TrackPoint',['../structTrackPoint.html',1,'']]],
+  ['transformtest',['TransformTest',['../classTransformTest.html',1,'']]],
   ['translationutil',['TranslationUtil',['../classTranslationUtil.html',1,'']]],
   ['tst_5fqglobal',['tst_QGlobal',['../classtst__QGlobal.html',1,'']]],
   ['ttf_5fpoint',['TTF_POINT',['../structTTF__POINT.html',1,'']]]

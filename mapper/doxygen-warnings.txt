@@ -1,18 +1,18 @@
-src/fileformats/ocd_types.h:835: warning: no uniquely matching class member found for 
+src/fileformats/ocd_types.h:844: warning: no uniquely matching class member found for 
   template < F >
   const QByteArray OcdFile< F >::operator[](const typename OcdFile< F >::Ocd::ParameterStringIndexEntry &string) const
 Possible candidates:
-  const char & OcdFile< F >::operator[](quint32 file_pos) const ' at line 524 of file src/fileformats/ocd_types.h
-  const QByteArray OcdFile< F >::operator[](const typename StringIndex::EntryType &string) const ' at line 539 of file src/fileformats/ocd_types.h
-  const F::Object & OcdFile< F >::operator[](const typename ObjectIndex::EntryType &object_entry) const ' at line 554 of file src/fileformats/ocd_types.h
+  const char & OcdFile< F >::operator[](quint32 file_pos) const ' at line 533 of file src/fileformats/ocd_types.h
+  const QByteArray OcdFile< F >::operator[](const typename StringIndex::EntryType &string) const ' at line 548 of file src/fileformats/ocd_types.h
+  const F::Object & OcdFile< F >::operator[](const typename ObjectIndex::EntryType &object_entry) const ' at line 563 of file src/fileformats/ocd_types.h
 
-src/fileformats/ocd_types.h:856: warning: no uniquely matching class member found for 
+src/fileformats/ocd_types.h:865: warning: no uniquely matching class member found for 
   template < F >
   const F::Object & OcdFile< F >::operator[](const typename OcdFile< F >::typename F::Object::IndexEntryType &object_entry) const
 Possible candidates:
-  const char & OcdFile< F >::operator[](quint32 file_pos) const ' at line 524 of file src/fileformats/ocd_types.h
-  const QByteArray OcdFile< F >::operator[](const typename StringIndex::EntryType &string) const ' at line 539 of file src/fileformats/ocd_types.h
-  const F::Object & OcdFile< F >::operator[](const typename ObjectIndex::EntryType &object_entry) const ' at line 554 of file src/fileformats/ocd_types.h
+  const char & OcdFile< F >::operator[](quint32 file_pos) const ' at line 533 of file src/fileformats/ocd_types.h
+  const QByteArray OcdFile< F >::operator[](const typename StringIndex::EntryType &string) const ' at line 548 of file src/fileformats/ocd_types.h
+  const F::Object & OcdFile< F >::operator[](const typename ObjectIndex::EntryType &object_entry) const ' at line 563 of file src/fileformats/ocd_types.h
 
 src/printsupport/advanced_pdf_printer.cpp:26: warning: no matching class member found for 
   AdvancedPdfPrinter::AdvancedPdfPrinter(QPrinter::PrinterMode mode)
@@ -50,10 +50,11 @@ Possible candidates:
   void LineSymbol::createRenderables(const Object *object, const VirtualCoordVector &coords, ObjectRenderables &output, Symbol::RenderableOptions options) const override' at line 97 of file src/symbol_line.h
   void LineSymbol::createRenderables(const PathObject *object, const PathPartVector &path_parts, ObjectRenderables &output, Symbol::RenderableOptions options) const override' at line 103 of file src/symbol_line.h
 
+src/template.cpp:103: warning: documented symbol `decltype' was not declared or defined.
 warning: Included by graph for 'map.h' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
 warning: Include graph for 'map_editor.cpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
 warning: Included by graph for 'object.h' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
-src/map_part.h:220: warning: Found unknown command `\copyetails'
+src/map_part.h:221: warning: Found unknown command `\copyetails'
 warning: Included by graph for 'util.h' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
 todo:36: warning: Unexpected tag <dd> found
 src/gui/widgets/action_grid_bar.h:55: warning: The following parameters of ActionGridBar::ActionGridBar(Direction direction, int height_items, QWidget *parent=NULL) are not documented:
@@ -77,12 +78,12 @@ src/tool_edit.h:231: warning: The following parameters of EditTool::drawBounding
 src/tool.h:86: warning: argument 'type' of command @param is not found in the argument list of MapEditorTool::MapEditorTool(MapEditorController *editor, Type tool_type, QAction *tool_action=nullptr)
 src/tool.h:93: warning: The following parameters of MapEditorTool::MapEditorTool(MapEditorController *editor, Type tool_type, QAction *tool_action=nullptr) are not documented:
   parameter 'tool_type'
-src/map_part.h:213: warning: Found unknown command `\copyetails'
-src/map_part.h:220: warning: Found unknown command `\copyetails'
-src/map_part.h:227: warning: Found unknown command `\copyetails'
-src/map_part.h:220: warning: Found unknown command `\copyetails'
-src/map_part.h:227: warning: Found unknown command `\copyetails'
-src/map_part.h:213: warning: Found unknown command `\copyetails'
+src/map_part.h:214: warning: Found unknown command `\copyetails'
+src/map_part.h:221: warning: Found unknown command `\copyetails'
+src/map_part.h:228: warning: Found unknown command `\copyetails'
+src/map_part.h:221: warning: Found unknown command `\copyetails'
+src/map_part.h:228: warning: Found unknown command `\copyetails'
+src/map_part.h:214: warning: Found unknown command `\copyetails'
 src/tool_edit.h:104: warning: The following parameters of ObjectMover::move(const MapCoordF &cursor_pos, bool move_opposite_handles, qint32 *out_dx=NULL, qint32 *out_dy=NULL) are not documented:
   parameter 'cursor_pos'
 src/tool_edit.h:51: warning: The following parameters of ObjectSelector::selectAt(MapCoordF position, double tolerance, bool toggle) are not documented:

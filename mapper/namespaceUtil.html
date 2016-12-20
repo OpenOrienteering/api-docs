@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.6.5</span>
+   &#160;<span id="projectnumber">0.6.7</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -125,6 +125,12 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ae2e29268044d3d8ba4bba048978c955b"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceUtil.html#ae2e29268044d3d8ba4bba048978c955b">codepageForLanguage</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;language_name)</td></tr>
+<tr class="memdesc:ae2e29268044d3d8ba4bba048978c955b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines the name of the 8-bit legacy codepage for a language.  <a href="#ae2e29268044d3d8ba4bba048978c955b">More...</a><br /></td></tr>
+<tr class="separator:ae2e29268044d3d8ba4bba048978c955b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebcc2665cbe24ec33a399ea024cf6ff9"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qtextcodec.html">QTextCodec</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceUtil.html#aebcc2665cbe24ec33a399ea024cf6ff9">codecForName</a> (const char *name)</td></tr>
+<tr class="memdesc:aebcc2665cbe24ec33a399ea024cf6ff9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines the codec for a given name.  <a href="#aebcc2665cbe24ec33a399ea024cf6ff9">More...</a><br /></td></tr>
+<tr class="separator:aebcc2665cbe24ec33a399ea024cf6ff9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85c5882f86712339df99586187ce98ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceUtil.html#a85c5882f86712339df99586187ce98ab">showHelp</a> (<a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html">QWidget</a> *dialog_parent, const char *filename_latin1, const char *anchor_latin1)</td></tr>
 <tr class="memdesc:a85c5882f86712339df99586187ce98ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Show the manual in <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qt.html">Qt</a> assistant.  <a href="#a85c5882f86712339df99586187ce98ab">More...</a><br /></td></tr>
 <tr class="separator:a85c5882f86712339df99586187ce98ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -167,6 +173,52 @@ Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A collection of GUI utility functions. </p>
 </div><h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="aebcc2665cbe24ec33a399ea024cf6ff9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qtextcodec.html">QTextCodec</a> * Util::codecForName </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Determines the codec for a given name. </p>
+<p>This function wraps <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qtextcodec.html#codecForName">QTextCodec::codecForName</a>. Other than that function, it will try to lookup the codepage name for the current locale if the name is "Default" (case sensitive). It may return nullptr. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae2e29268044d3d8ba4bba048978c955b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * Util::codepageForLanguage </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;&#160;</td>
+          <td class="paramname"><em>language_name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Determines the name of the 8-bit legacy codepage for a language. </p>
+<p>This function accepts language names as returned by <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qlocale.html#name">QLocale::name()</a>. Characters after the two letter language code are ignored.</p>
+<p>If the language is unknown, it returns "Windows-1252".</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">language_name</td><td>A lowercase, two-letter ISO 639 language code </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A Windows codepage name. </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a42f4906ee94e62e9b70c06fbf1ef6466"></a>
 <div class="memitem">
 <div class="memproto">

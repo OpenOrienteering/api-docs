@@ -31,6 +31,7 @@ var searchData=
   ['path_5fcoords',['path_coords',['../classSplitPathCoord.html#a2d533b7ad82a8a18aeb495999001bb6e',1,'SplitPathCoord::path_coords()'],['../classVirtualPath.html#ad970997c26602df08804a8c6c1628071',1,'VirtualPath::path_coords()']]],
   ['path_5fhas_5fpreview_5fpoint',['path_has_preview_point',['../classDrawPathTool.html#a8700f9042f355966ab649065aea592b6',1,'DrawPathTool']]],
   ['path_5ftool',['path_tool',['../classCutTool.html#a8e14934ee11f065251b9a92181e1571f',1,'CutTool::path_tool()'],['../classCutHoleTool.html#a358e496b1306d71202749140cdceace0',1,'CutHoleTool::path_tool()']]],
+  ['pathforsaving',['pathForSaving',['../classTemplate.html#af15381c770586efea8e0bc98699da311',1,'Template']]],
   ['patternoptions',['PatternOptions',['http://doc.qt.io/qt-5/qregularexpression.html#PatternOption-enum',1,'QRegularExpression']]],
   ['patterns',['patterns',['../classAdvancedPdfPage.html#ac618528ec1bb2cc6fe3a9896bd22d923',1,'AdvancedPdfPage::patterns()'],['../classAreaSymbol.html#a915c22b32b2e07ad665130f6d5195c9f',1,'AreaSymbol::patterns()']]],
   ['pausemodes',['PauseModes',['http://doc.qt.io/qt-5/qabstractsocket.html#PauseMode-enum',1,'QAbstractSocket']]],

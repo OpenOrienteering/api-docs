@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.6.5</span>
+   &#160;<span id="projectnumber">0.6.7</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -116,8 +116,8 @@ Collaboration diagram for OgrTemplate:</div>
 <div class="dyncontent">
 <div class="center"><img src="classOgrTemplate__coll__graph.png" border="0" usemap="#OgrTemplate_coll__map" alt="Collaboration graph"/></div>
 <map name="OgrTemplate_coll__map" id="OgrTemplate_coll__map">
-<area shape="rect" id="node2" href="classTemplateMap.html" title="Template displaying a map file. " alt="" coords="170,555,271,581"/>
-<area shape="rect" id="node3" href="classTemplate.html" title="Abstract base class for templates. " alt="" coords="183,479,259,505"/>
+<area shape="rect" id="node2" href="classTemplateMap.html" title="Template displaying a map file. " alt="" coords="170,569,271,596"/>
+<area shape="rect" id="node3" href="classTemplate.html" title="Abstract base class for templates. " alt="" coords="183,493,259,520"/>
 <area shape="rect" id="node4" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html" title="QObject" alt="" coords="5,95,76,121"/>
 <area shape="rect" id="node10" href="classMap.html" title="Central class for an OpenOrienteering map. " alt="" coords="56,331,103,357"/>
 <area shape="rect" id="node5" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html" title="QString" alt="" coords="127,331,194,357"/>
@@ -463,6 +463,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:ab3219af582919b8d9c882b1ed9e9cce2 inherit pro_methods_classTemplateMap"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3c68e7daa80cfc5b6416285dd27de18 inherit pro_methods_classTemplateMap"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplateMap.html#ab3c68e7daa80cfc5b6416285dd27de18">setTemplateMap</a> (std::unique_ptr&lt; <a class="el" href="classMap.html">Map</a> &gt; &amp;&amp;<a class="el" href="classTemplate.html#a2f342fbc57e8f0944b137747e0b6abc9">map</a>)</td></tr>
 <tr class="separator:ab3c68e7daa80cfc5b6416285dd27de18 inherit pro_methods_classTemplateMap"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40dc8fa4323450e223a2401ba222c0ec inherit pro_methods_classTemplateMap"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplateMap.html#a40dc8fa4323450e223a2401ba222c0ec">calculateTransformation</a> ()</td></tr>
+<tr class="separator:a40dc8fa4323450e223a2401ba222c0ec inherit pro_methods_classTemplateMap"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classTemplate"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classTemplate')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classTemplate.html">Template</a></td></tr>
 <tr class="memitem:ad815db4c65fa1bd885ab9f05977006ec inherit pro_methods_classTemplate"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#ad815db4c65fa1bd885ab9f05977006ec">setErrorString</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;text)</td></tr>
 <tr class="memdesc:ad815db4c65fa1bd885ab9f05977006ec inherit pro_methods_classTemplate"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the error description which will be returned by <a class="el" href="classTemplate.html#af721b632fbbc1968ccfb484dd84de029" title="Returns a description of the last error that occurred. ">errorString()</a>.  <a href="#ad815db4c65fa1bd885ab9f05977006ec">More...</a><br /></td></tr>
@@ -509,6 +511,10 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a6173ebf6e45c92790f7a2b1f688f0d89 inherit signals_classTemplate"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a6173ebf6e45c92790f7a2b1f688f0d89">templateStateChanged</a> ()</td></tr>
 <tr class="memdesc:a6173ebf6e45c92790f7a2b1f688f0d89 inherit signals_classTemplate"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted whenever template_state was changed.  <a href="#a6173ebf6e45c92790f7a2b1f688f0d89">More...</a><br /></td></tr>
 <tr class="separator:a6173ebf6e45c92790f7a2b1f688f0d89 inherit signals_classTemplate"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_classTemplate"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_classTemplate')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="classTemplate.html">Template</a></td></tr>
+<tr class="memitem:af15381c770586efea8e0bc98699da311 inherit pub_static_attribs_classTemplate"><td class="memItemLeft" align="right" valign="top">static const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;(Template::*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#af15381c770586efea8e0bc98699da311">pathForSaving</a> )() const </td></tr>
+<tr class="memdesc:af15381c770586efea8e0bc98699da311 inherit pub_static_attribs_classTemplate"><td class="mdescLeft">&#160;</td><td class="mdescRight">The function which is used to save paths of template files.  <a href="#af15381c770586efea8e0bc98699da311">More...</a><br /></td></tr>
+<tr class="separator:af15381c770586efea8e0bc98699da311 inherit pub_static_attribs_classTemplate"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classTemplate"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classTemplate')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classTemplate.html">Template</a></td></tr>
 <tr class="memitem:a2f342fbc57e8f0944b137747e0b6abc9 inherit pro_attribs_classTemplate"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMap.html">Map</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a2f342fbc57e8f0944b137747e0b6abc9">map</a></td></tr>
 <tr class="memdesc:a2f342fbc57e8f0944b137747e0b6abc9 inherit pro_attribs_classTemplate"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classMap.html" title="Central class for an OpenOrienteering map. ">Map</a> containing this template.  <a href="#a2f342fbc57e8f0944b137747e0b6abc9">More...</a><br /></td></tr>

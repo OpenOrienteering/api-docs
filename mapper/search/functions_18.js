@@ -11,6 +11,7 @@ var searchData=
   ['xmlfileformat',['XMLFileFormat',['../classXMLFileFormat.html#a474c1efcef68fe14670f4a801ed3d618',1,'XMLFileFormat']]],
   ['xmlfileimporter',['XMLFileImporter',['../classXMLFileImporter.html#a25f726791f8bd16b844a7b557f4502eb',1,'XMLFileImporter']]],
   ['xmlfileimportercolorbacklogitem',['XMLFileImporterColorBacklogItem',['../structXMLFileImporterColorBacklogItem.html#a9e34f3d91ae5522fde8f46deaa0803c7',1,'XMLFileImporterColorBacklogItem']]],
+  ['xmlrecoveryhelper',['XmlRecoveryHelper',['../classXmlRecoveryHelper.html#a56ae07ce27d3faaec9f2afd50db791c3',1,'XmlRecoveryHelper']]],
   ['xoffset',['xOffset',['http://doc.qt.io/qt-5/qgraphicsdropshadoweffect.html#xOffset-prop',1,'QGraphicsDropShadowEffect']]],
   ['xored',['xored',['http://doc.qt.io/qt-5/qregion.html#xored',1,'QRegion']]],
   ['xscale',['xScale',['http://doc.qt.io/qt-5/qgraphicsscale.html#xScale-prop',1,'QGraphicsScale']]],

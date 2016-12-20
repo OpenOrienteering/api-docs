@@ -260,6 +260,7 @@ var searchData=
   ['resetmatrix',['resetMatrix',['http://doc.qt.io/qt-5/qpainter-obsolete.html#resetMatrix',1,'QPainter::resetMatrix()'],['http://doc.qt.io/qt-5/qgraphicsitem-obsolete.html#resetMatrix',1,'QGraphicsItem::resetMatrix()'],['http://doc.qt.io/qt-5/qgraphicsview.html#resetMatrix',1,'QGraphicsView::resetMatrix()']]],
   ['resetongadget',['resetOnGadget',['http://doc.qt.io/qt-5/qmetaproperty.html#resetOnGadget',1,'QMetaProperty']]],
   ['resetprinterconfig',['resetPrinterConfig',['../classMap.html#a351bb719b23f814d278fa606952c525a',1,'Map']]],
+  ['resetselectioninfo',['resetSelectionInfo',['../classTagSelectWidget.html#a3dbc0b0bb5acd733960babaa78fba5a0',1,'TagSelectWidget']]],
   ['resetstatus',['resetStatus',['http://doc.qt.io/qt-5/qdatastream.html#resetStatus',1,'QDataStream::resetStatus()'],['http://doc.qt.io/qt-5/qtextstream.html#resetStatus',1,'QTextStream::resetStatus()']]],
   ['resettransform',['resetTransform',['http://doc.qt.io/qt-5/qpainter.html#resetTransform',1,'QPainter::resetTransform()'],['http://doc.qt.io/qt-5/qgraphicsitem.html#resetTransform',1,'QGraphicsItem::resetTransform()'],['http://doc.qt.io/qt-5/qgraphicsview.html#resetTransform',1,'QGraphicsView::resetTransform()']]],
   ['resetverticalscrollmode',['resetVerticalScrollMode',['http://doc.qt.io/qt-5/qabstractitemview.html#verticalScrollMode-prop',1,'QAbstractItemView']]],

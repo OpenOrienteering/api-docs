@@ -194,6 +194,7 @@ var searchData=
   ['fontoverline',['fontOverline',['http://doc.qt.io/qt-5/qtextcharformat.html#fontOverline',1,'QTextCharFormat']]],
   ['fontpointsize',['fontPointSize',['http://doc.qt.io/qt-5/qtextcharformat.html#fontPointSize',1,'QTextCharFormat::fontPointSize()'],['http://doc.qt.io/qt-5/qtextedit.html#fontPointSize',1,'QTextEdit::fontPointSize()']]],
   ['fontselected',['fontSelected',['http://doc.qt.io/qt-5/qfontdialog.html#fontSelected',1,'QFontDialog']]],
+  ['fontsizechanged',['fontSizeChanged',['../classTextSymbolSettings.html#a163e8146b101fb5c5c17c6041176e715',1,'TextSymbolSettings']]],
   ['fontsmoothinggamma',['fontSmoothingGamma',['http://doc.qt.io/qt-5/qstylehints.html#fontSmoothingGamma-prop',1,'QStyleHints']]],
   ['fontstretch',['fontStretch',['http://doc.qt.io/qt-5/qtextcharformat.html#fontStretch',1,'QTextCharFormat']]],
   ['fontstrikeout',['fontStrikeOut',['http://doc.qt.io/qt-5/qtextcharformat.html#fontStrikeOut',1,'QTextCharFormat']]],

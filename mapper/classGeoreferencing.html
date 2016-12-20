@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.6.5</span>
+   &#160;<span id="projectnumber">0.6.7</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -268,9 +268,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae1efbd66a688faeb533c9d97e6311190"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMapCoordF.html">MapCoordF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGeoreferencing.html#ae1efbd66a688faeb533c9d97e6311190">toMapCoordF</a> (const <a class="el" href="classLatLon.html">LatLon</a> &amp;lat_lon, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> *ok=NULL) const </td></tr>
 <tr class="memdesc:ae1efbd66a688faeb533c9d97e6311190"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transforms geographic coordinates (lat/lon) to map coordinates.  <a href="#ae1efbd66a688faeb533c9d97e6311190">More...</a><br /></td></tr>
 <tr class="separator:ae1efbd66a688faeb533c9d97e6311190"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a669b3dd5ea5914654221eac979836ea6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMapCoordF.html">MapCoordF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGeoreferencing.html#a669b3dd5ea5914654221eac979836ea6">toMapCoordF</a> (<a class="el" href="classGeoreferencing.html">Georeferencing</a> *other, const <a class="el" href="classMapCoordF.html">MapCoordF</a> &amp;map_coords, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> *ok=NULL) const </td></tr>
-<tr class="memdesc:a669b3dd5ea5914654221eac979836ea6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transforms map coordinates from the other georeferencing to map coordinates of this georeferencing, if possible.  <a href="#a669b3dd5ea5914654221eac979836ea6">More...</a><br /></td></tr>
-<tr class="separator:a669b3dd5ea5914654221eac979836ea6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94d28f40b27203bcc0e16018a4320857"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMapCoordF.html">MapCoordF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGeoreferencing.html#a94d28f40b27203bcc0e16018a4320857">toMapCoordF</a> (const <a class="el" href="classGeoreferencing.html">Georeferencing</a> *other, const <a class="el" href="classMapCoordF.html">MapCoordF</a> &amp;map_coords, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> *ok=NULL) const </td></tr>
+<tr class="memdesc:a94d28f40b27203bcc0e16018a4320857"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transforms map coordinates from the other georeferencing to map coordinates of this georeferencing, if possible.  <a href="#a94d28f40b27203bcc0e16018a4320857">More...</a><br /></td></tr>
+<tr class="separator:a94d28f40b27203bcc0e16018a4320857"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ce052f4bf6b69007a629b0d4690a50f"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGeoreferencing.html#a9ce052f4bf6b69007a629b0d4690a50f">getErrorText</a> () const </td></tr>
 <tr class="memdesc:a9ce052f4bf6b69007a629b0d4690a50f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current error text.  <a href="#a9ce052f4bf6b69007a629b0d4690a50f">More...</a><br /></td></tr>
 <tr class="separator:a9ce052f4bf6b69007a629b0d4690a50f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1639,14 +1639,14 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a669b3dd5ea5914654221eac979836ea6"></a>
+<a class="anchor" id="a94d28f40b27203bcc0e16018a4320857"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classMapCoordF.html">MapCoordF</a> Georeferencing::toMapCoordF </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classGeoreferencing.html">Georeferencing</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="classGeoreferencing.html">Georeferencing</a> *&#160;</td>
           <td class="paramname"><em>other</em>, </td>
         </tr>
         <tr>
@@ -1902,8 +1902,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/core/<a class="el" href="georeferencing_8h.html">georeferencing.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/f7b0478/src/core/georeferencing.h"><tt>f7b0478</tt></a> on 10 Apr 2016)</li>
-<li>src/core/<a class="el" href="georeferencing_8cpp.html">georeferencing.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/72f6e18/src/core/georeferencing.cpp"><tt>72f6e18</tt></a> on 13 May 2016)</li>
+<li>src/core/<a class="el" href="georeferencing_8h.html">georeferencing.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/95fb603/src/core/georeferencing.h"><tt>95fb603</tt></a> on 2 Nov 2016)</li>
+<li>src/core/<a class="el" href="georeferencing_8cpp.html">georeferencing.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/95fb603/src/core/georeferencing.cpp"><tt>95fb603</tt></a> on 2 Nov 2016)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

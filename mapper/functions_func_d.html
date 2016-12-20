@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.6.5</span>
+   &#160;<span id="projectnumber">0.6.7</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -238,6 +238,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classObjectRenderables.html#a5467efbccc88c2540effc10d68ca00b1">ObjectRenderables</a>
 , <a class="el" href="classSharedRenderables.html#a5624d980437b3d4ec5b425d3ac3d9769">SharedRenderables</a>
 </li>
+<li>deleteRow()
+: <a class="el" href="classTagSelectWidget.html#a4195d3d5f02f985dbef756a2a136d924">TagSelectWidget</a>
+</li>
 <li>deleteSelectedObjects()
 : <a class="el" href="classEditTool.html#afccea620c271e84ef6d4c3a6f7eb9690">EditTool</a>
 , <a class="el" href="classMap.html#abd82d0f00873ab4be312995e9ba77051">Map</a>
@@ -277,12 +280,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>determineColorsInUse()
 : <a class="el" href="classMap.html#a7046f1061d9fc2027b50ccb2cd859a8b">Map</a>
 </li>
-<li>DetermineFontSizeDialog()
-: <a class="el" href="classDetermineFontSizeDialog.html#aabeeee3c78a2e9d84cfd9f442ad279df">DetermineFontSizeDialog</a>
-</li>
-<li>determineSizeClicked()
-: <a class="el" href="classTextSymbolSettings.html#aa5008d71ecd1d8dcc072ea427766d5f6">TextSymbolSettings</a>
-</li>
 <li>determineSymbolsInUse()
 : <a class="el" href="classMap.html#a6b3565b6dfd0a3f3a9aea81707cbfa9c">Map</a>
 </li>
@@ -310,6 +307,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>displayChanged()
 : <a class="el" href="classConstrainAngleToolHelper.html#a42b4dec69b90a217c42ec99c3ef9a4cc">ConstrainAngleToolHelper</a>
 , <a class="el" href="classSnappingToolHelper.html#aa5a3a5b40a5cf7f193055ce1c1187077">SnappingToolHelper</a>
+</li>
+<li>displayName()
+: <a class="el" href="classTranslationUtil.html#a6a1021766ed4ff00c03e6414eef50253">TranslationUtil</a>
 </li>
 <li>displayText()
 : <a class="el" href="classPercentageDelegate.html#a700b5f303b6cc357b18747df82f4b17e">PercentageDelegate</a>
@@ -361,7 +361,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="classEditPointTool.html#a631a4bde0a56f83e6db81c7b7fb3db5c">EditPointTool</a>
 , <a class="el" href="classMapEditorToolBase.html#a5bdd259557548f7c68355b080b09cf0a">MapEditorToolBase</a>
 , <a class="el" href="classPanTool.html#af1d856b8fb4dbcf70dbf89573ae1e1f4">PanTool</a>
-, <a class="el" href="classRotatePatternTool.html#a25b773f2eab91d0fbefc2706b6087ea8">RotatePatternTool</a>
+, <a class="el" href="classRotatePatternTool.html#ad07cb43b09c5e2067c8a346d16214144">RotatePatternTool</a>
 , <a class="el" href="classRotateTool.html#ac7a41a5b45ae4f76f8dae44345b6442c">RotateTool</a>
 </li>
 <li>dragMove()
@@ -372,7 +372,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="classEditPointTool.html#ab68514c86a9628fcc3d176280aefd756">EditPointTool</a>
 , <a class="el" href="classMapEditorToolBase.html#a88cbb145aeeb6aec15e2c35f7154c5d6">MapEditorToolBase</a>
 , <a class="el" href="classPanTool.html#a63e86ba1e8933d48f38bdfc7158a767b">PanTool</a>
-, <a class="el" href="classRotatePatternTool.html#a48eb399690d9db74b9d4562d85534a74">RotatePatternTool</a>
+, <a class="el" href="classRotatePatternTool.html#a890d67139d1453b892b60813cd1ffb4f">RotatePatternTool</a>
 , <a class="el" href="classRotateTool.html#a1cc63904d45a01c70dedf925a5b37b49">RotateTool</a>
 </li>
 <li>dragMoveEvent()
@@ -385,7 +385,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="classEditPointTool.html#afd4cf59ac79a46a8333f7b0b01818221">EditPointTool</a>
 , <a class="el" href="classMapEditorToolBase.html#a68c77b1ae2082aa47ab7f96445fe59cf">MapEditorToolBase</a>
 , <a class="el" href="classPanTool.html#ac91afd0036caf22dc6da97f11bbe2729">PanTool</a>
-, <a class="el" href="classRotatePatternTool.html#af9a68d3fc9cba35a47220bb02552d4b9">RotatePatternTool</a>
+, <a class="el" href="classRotatePatternTool.html#ac6556f38301ad3b6e5062a6eddcf1d22">RotatePatternTool</a>
 , <a class="el" href="classRotateTool.html#aac22c3cee715454e466a1218fabf8968">RotateTool</a>
 </li>
 <li>draw()
@@ -409,7 +409,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="classPointSymbolEditorActivity.html#a6584f469ce73ae7ca668cdc97fababcb">PointSymbolEditorActivity</a>
 , <a class="el" href="classPrintTool.html#ac5671c2a9847b191ae29ebf3d2863228">PrintTool</a>
 , <a class="el" href="classProtectedSymbolDecorator.html#aa3cd104470451ac81bb534aba35907fd">ProtectedSymbolDecorator</a>
-, <a class="el" href="classRotatePatternTool.html#a7edb573a39c69e4ef4214984aec67ff6">RotatePatternTool</a>
 , <a class="el" href="classScaleTool.html#a6c15a6a1ae208c02c085eb9c9235db7e">ScaleTool</a>
 , <a class="el" href="classSnappingToolHelper.html#ad08df52132df7016af043d70d6747350">SnappingToolHelper</a>
 , <a class="el" href="classSymbolIconDecorator.html#a39cdf876fb8cacde413cf653405680bc">SymbolIconDecorator</a>
@@ -466,6 +465,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="classEditLineTool.html#ad11fcda2934eb030249ab1bef691ef4b">EditLineTool</a>
 , <a class="el" href="classEditPointTool.html#a277b5daee61ef4fa47a7b6b6a8344d81">EditPointTool</a>
 , <a class="el" href="classMapEditorToolBase.html#a1d0e462913ad50b21f19ee0e77df087e">MapEditorToolBase</a>
+, <a class="el" href="classRotatePatternTool.html#a6b22a0971c00bf2dcfce9695fb087aff">RotatePatternTool</a>
 , <a class="el" href="classRotateTool.html#a2cb30900a97cc860d4a0fe6ad62c763f">RotateTool</a>
 </li>
 <li>drawingParallelTo()

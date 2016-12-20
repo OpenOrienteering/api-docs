@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.6.5</span>
+   &#160;<span id="projectnumber">0.6.7</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -92,6 +92,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classTemplate-members.html">List of all members</a>  </div>
@@ -430,6 +431,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:disconnect-4 inherit pub_static_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:disconnect-5 inherit pub_static_methods_qobject"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#disconnect-5">disconnect</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html">QObject</a> *<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#sender">sender</a>, PointerToMemberFunction signal, const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html">QObject</a> *receiver, PointerToMemberFunction method)</td></tr>
 <tr class="separator:disconnect-5 inherit pub_static_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:af15381c770586efea8e0bc98699da311"><td class="memItemLeft" align="right" valign="top">static const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;(Template::*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#af15381c770586efea8e0bc98699da311">pathForSaving</a> )() const </td></tr>
+<tr class="memdesc:af15381c770586efea8e0bc98699da311"><td class="mdescLeft">&#160;</td><td class="mdescRight">The function which is used to save paths of template files.  <a href="#af15381c770586efea8e0bc98699da311">More...</a><br /></td></tr>
+<tr class="separator:af15381c770586efea8e0bc98699da311"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -2927,6 +2934,29 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="af15381c770586efea8e0bc98699da311"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a>&amp;(Template::*  Template::pathForSaving) () const </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The function which is used to save paths of template files. </p>
+<p>By default, class <a class="el" href="classTemplate.html" title="Abstract base class for templates. ">Template</a> saves absolute paths. This behavior can be changed by setting this variable to &amp;<a class="el" href="classTemplate.html#a4d54bbcb44aba56213fde83f7a945fbb">Template::getTemplateRelativePath</a>. </p>
+
+</div>
+</div>
 <a class="anchor" id="a5d83d7eec432dcd8ace3db83a9f5245f"></a>
 <div class="memitem">
 <div class="memproto">
@@ -3101,8 +3131,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/<a class="el" href="template_8h.html">template.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/f7b0478/src/template.h"><tt>f7b0478</tt></a> on 10 Apr 2016)</li>
-<li>src/<a class="el" href="template_8cpp.html">template.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/f7b0478/src/template.cpp"><tt>f7b0478</tt></a> on 10 Apr 2016)</li>
+<li>src/<a class="el" href="template_8h.html">template.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/ceb23c2/src/template.h"><tt>ceb23c2</tt></a> on 5 Nov 2016)</li>
+<li>src/<a class="el" href="template_8cpp.html">template.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/ceb23c2/src/template.cpp"><tt>ceb23c2</tt></a> on 5 Nov 2016)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

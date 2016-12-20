@@ -20,6 +20,8 @@ var searchData=
   ['compass_5fdisplay_2eh',['compass_display.h',['../compass__display_8h.html',1,'']]],
   ['configure_5fgrid_5fdialog_2ecpp',['configure_grid_dialog.cpp',['../configure__grid__dialog_8cpp.html',1,'']]],
   ['configure_5fgrid_5fdialog_2eh',['configure_grid_dialog.h',['../configure__grid__dialog_8h.html',1,'']]],
+  ['coord_5ft_2ecpp',['coord_t.cpp',['../coord__t_8cpp.html',1,'']]],
+  ['coord_5ft_2eh',['coord_t.h',['../coord__t_8h.html',1,'']]],
   ['coord_5fxml_5ft_2ecpp',['coord_xml_t.cpp',['../coord__xml__t_8cpp.html',1,'']]],
   ['coord_5fxml_5ft_2eh',['coord_xml_t.h',['../coord__xml__t_8h.html',1,'']]],
   ['crs_5fparam_5fwidgets_2ecpp',['crs_param_widgets.cpp',['../crs__param__widgets_8cpp.html',1,'']]],

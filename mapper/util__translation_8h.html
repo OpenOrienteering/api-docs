@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.6.5</span>
+   &#160;<span id="projectnumber">0.6.7</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -91,12 +91,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">util_translation.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/ec96612/src/util_translation.h"><tt>ec96612</tt></a> on 11 Feb 2013)</h3><div class="textblock"><code>#include &lt;QLocale&gt;</code><br />
+<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/19a80d1/src/util_translation.h"><tt>19a80d1</tt></a> on 6 Nov 2016)</h3><div class="textblock"><code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;QLocale&gt;</code><br />
 <code>#include &lt;QMap&gt;</code><br />
 <code>#include &lt;QStringList&gt;</code><br />
 <code>#include &lt;QTranslator&gt;</code><br />
@@ -115,6 +116,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <area shape="rect" id="node2" href="general__settings__page_8cpp.html" title="src/gui/widgets/general\l_settings_page.cpp" alt="" coords="5,80,161,121"/>
 <area shape="rect" id="node3" href="main_8cpp.html" title="src/main.cpp" alt="" coords="185,87,283,114"/>
 <area shape="rect" id="node4" href="util__translation_8cpp.html" title="src/util_translation.cpp" alt="" coords="307,87,460,114"/>
+<area shape="rect" id="node5" href="locale__t_8cpp.html" title="test/locale_t.cpp" alt="" coords="484,87,603,114"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -123,25 +125,47 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTranslationUtil.html">TranslationUtil</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A simplified interface to searching and loading translations.  <a href="classTranslationUtil.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structTranslationUtil_1_1Language.html">TranslationUtil::Language</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct for representing the language of a translation.  <a href="structTranslationUtil_1_1Language.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a439adb987f02b37820c184653b18e98d"><td class="memItemLeft" align="right" valign="top">typedef <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmap.html">QMap</a>&lt; <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a>, QLocale::Language &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="util__translation_8h.html#a439adb987f02b37820c184653b18e98d">LanguageCollection</a></td></tr>
-<tr class="memdesc:a439adb987f02b37820c184653b18e98d"><td class="mdescLeft">&#160;</td><td class="mdescRight">A colllection of language names and the corresponding IDs.  <a href="#a439adb987f02b37820c184653b18e98d">More...</a><br /></td></tr>
-<tr class="separator:a439adb987f02b37820c184653b18e98d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ac6c0d50e2fdba1175896ba93f81b9e2a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="util__translation_8h.html#ac6c0d50e2fdba1175896ba93f81b9e2a">operator&lt;</a> (const <a class="el" href="structTranslationUtil_1_1Language.html">TranslationUtil::Language</a> &amp;first, const <a class="el" href="structTranslationUtil_1_1Language.html">TranslationUtil::Language</a> &amp;second)</td></tr>
+<tr class="separator:ac6c0d50e2fdba1175896ba93f81b9e2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a class="anchor" id="a439adb987f02b37820c184653b18e98d"></a>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="ac6c0d50e2fdba1175896ba93f81b9e2a"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmap.html">QMap</a>&lt;<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a>, QLocale::Language&gt; <a class="el" href="util__translation_8h.html#a439adb987f02b37820c184653b18e98d">LanguageCollection</a></td>
+          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> operator&lt; </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structTranslationUtil_1_1Language.html">TranslationUtil::Language</a> &amp;&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structTranslationUtil_1_1Language.html">TranslationUtil::Language</a> &amp;&#160;</td>
+          <td class="paramname"><em>second</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-
-<p>A colllection of language names and the corresponding IDs. </p>
 
 </div>
 </div>

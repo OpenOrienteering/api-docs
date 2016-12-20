@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['tag_5fselect_5fwidget_2ecpp',['tag_select_widget.cpp',['../tag__select__widget_8cpp.html',1,'']]],
+  ['tag_5fselect_5fwidget_2eh',['tag_select_widget.h',['../tag__select__widget_8h.html',1,'']]],
   ['tags_5fwidget_2ecpp',['tags_widget.cpp',['../tags__widget_8cpp.html',1,'']]],
   ['tags_5fwidget_2eh',['tags_widget.h',['../tags__widget_8h.html',1,'']]],
   ['template_2ecpp',['template.cpp',['../template_8cpp.html',1,'']]],
@@ -78,6 +80,8 @@ var searchData=
   ['tools_5ft_2eh',['tools_t.h',['../tools__t_8h.html',1,'']]],
   ['touch_5fcursor_2ecpp',['touch_cursor.cpp',['../touch__cursor_8cpp.html',1,'']]],
   ['touch_5fcursor_2eh',['touch_cursor.h',['../touch__cursor_8h.html',1,'']]],
+  ['transform_5ft_2ecpp',['transform_t.cpp',['../transform__t_8cpp.html',1,'']]],
+  ['transform_5ft_2eh',['transform_t.h',['../transform__t_8h.html',1,'']]],
   ['transformation_2ecpp',['transformation.cpp',['../transformation_8cpp.html',1,'']]],
   ['transformation_2eh',['transformation.h',['../transformation_8h.html',1,'']]],
   ['tst_5fqglobal_2ecpp',['tst_qglobal.cpp',['../tst__qglobal_8cpp.html',1,'']]],

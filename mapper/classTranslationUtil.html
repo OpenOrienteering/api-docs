@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.6.5</span>
+   &#160;<span id="projectnumber">0.6.7</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -88,6 +88,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
@@ -109,58 +111,74 @@ Collaboration diagram for TranslationUtil:</div>
 <div class="dyncontent">
 <div class="center"><img src="classTranslationUtil__coll__graph.png" border="0" usemap="#TranslationUtil_coll__map" alt="Collaboration graph"/></div>
 <map name="TranslationUtil_coll__map" id="TranslationUtil_coll__map">
-<area shape="rect" id="node2" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qtranslator.html" title="QTranslator" alt="" coords="5,357,96,384"/>
-<area shape="rect" id="node3" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html" title="QObject" alt="" coords="15,256,86,283"/>
-<area shape="rect" id="node4" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html" title="QString" alt="" coords="120,307,187,333"/>
-<area shape="rect" id="node6" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qlocale.html" title="QLocale" alt="" coords="242,307,313,333"/>
-<area shape="rect" id="node8" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qlist.html" title="QList" alt="" coords="377,256,431,283"/>
-<area shape="rect" id="node7" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstringlist.html" title="QStringList" alt="" coords="346,357,433,384"/>
+<area shape="rect" id="node2" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qtranslator.html" title="QTranslator" alt="" coords="5,345,96,372"/>
+<area shape="rect" id="node3" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html" title="QObject" alt="" coords="15,241,86,268"/>
+<area shape="rect" id="node4" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html" title="QString" alt="" coords="180,241,247,268"/>
+<area shape="rect" id="node6" href="structTranslationUtil_1_1Language.html" title="A struct for representing the language of a translation. " alt="" coords="253,345,424,372"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structTranslationUtil_1_1Language.html">Language</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct for representing the language of a translation.  <a href="structTranslationUtil_1_1Language.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a1456feaf3178b3663f2086cd1fe21ae9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTranslationUtil.html#a1456feaf3178b3663f2086cd1fe21ae9">LanguageList</a> = std::vector&lt; <a class="el" href="structTranslationUtil_1_1Language.html">Language</a> &gt;</td></tr>
+<tr class="memdesc:a1456feaf3178b3663f2086cd1fe21ae9"><td class="mdescLeft">&#160;</td><td class="mdescRight">A collection of languages.  <a href="#a1456feaf3178b3663f2086cd1fe21ae9">More...</a><br /></td></tr>
+<tr class="separator:a1456feaf3178b3663f2086cd1fe21ae9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad54a2dac9a72ce81e060ecf4022a9183"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTranslationUtil.html#ad54a2dac9a72ce81e060ecf4022a9183">TranslationUtil</a> (QLocale::Language lang, <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> translation_file=<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a>())</td></tr>
-<tr class="memdesc:ad54a2dac9a72ce81e060ecf4022a9183"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new translation utility for the given language.  <a href="#ad54a2dac9a72ce81e060ecf4022a9183">More...</a><br /></td></tr>
-<tr class="separator:ad54a2dac9a72ce81e060ecf4022a9183"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0583f74b225541a5846a5b7ec0603f9"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qlocale.html">QLocale</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTranslationUtil.html#af0583f74b225541a5846a5b7ec0603f9">getLocale</a> () const </td></tr>
-<tr class="memdesc:af0583f74b225541a5846a5b7ec0603f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the locale.  <a href="#af0583f74b225541a5846a5b7ec0603f9">More...</a><br /></td></tr>
-<tr class="separator:af0583f74b225541a5846a5b7ec0603f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5323fabf560a46a269b68dfad1d20b3e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTranslationUtil.html#a5323fabf560a46a269b68dfad1d20b3e">TranslationUtil</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;<a class="el" href="classTranslationUtil.html#a3c1f19a97e8f1f8a702d60625eaf0309">code</a>, <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> translation_file={})</td></tr>
+<tr class="memdesc:a5323fabf560a46a269b68dfad1d20b3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new translation utility for the given language.  <a href="#a5323fabf560a46a269b68dfad1d20b3e">More...</a><br /></td></tr>
+<tr class="separator:a5323fabf560a46a269b68dfad1d20b3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c1f19a97e8f1f8a702d60625eaf0309"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTranslationUtil.html#a3c1f19a97e8f1f8a702d60625eaf0309">code</a> () const </td></tr>
+<tr class="memdesc:a3c1f19a97e8f1f8a702d60625eaf0309"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the code of the language.  <a href="#a3c1f19a97e8f1f8a702d60625eaf0309">More...</a><br /></td></tr>
+<tr class="separator:a3c1f19a97e8f1f8a702d60625eaf0309"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a1021766ed4ff00c03e6414eef50253"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTranslationUtil.html#a6a1021766ed4ff00c03e6414eef50253">displayName</a> () const </td></tr>
+<tr class="memdesc:a6a1021766ed4ff00c03e6414eef50253"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the display name of the language.  <a href="#a6a1021766ed4ff00c03e6414eef50253">More...</a><br /></td></tr>
+<tr class="separator:a6a1021766ed4ff00c03e6414eef50253"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa746c28a0fa4378ba85a6b2b94f452cf"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qtranslator.html">QTranslator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTranslationUtil.html#aa746c28a0fa4378ba85a6b2b94f452cf">getQtTranslator</a> ()</td></tr>
-<tr class="memdesc:aa746c28a0fa4378ba85a6b2b94f452cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a translation for <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qt.html">Qt</a>.  <a href="#aa746c28a0fa4378ba85a6b2b94f452cf">More...</a><br /></td></tr>
+<tr class="memdesc:aa746c28a0fa4378ba85a6b2b94f452cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a translator for <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qt.html">Qt</a> strings.  <a href="#aa746c28a0fa4378ba85a6b2b94f452cf">More...</a><br /></td></tr>
 <tr class="separator:aa746c28a0fa4378ba85a6b2b94f452cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66f3217bce2abb2bd8144b5e9247f23c"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qtranslator.html">QTranslator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTranslationUtil.html#a66f3217bce2abb2bd8144b5e9247f23c">getAppTranslator</a> ()</td></tr>
-<tr class="memdesc:a66f3217bce2abb2bd8144b5e9247f23c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a translation for the application.  <a href="#a66f3217bce2abb2bd8144b5e9247f23c">More...</a><br /></td></tr>
+<tr class="memdesc:a66f3217bce2abb2bd8144b5e9247f23c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a translator for application strings.  <a href="#a66f3217bce2abb2bd8144b5e9247f23c">More...</a><br /></td></tr>
 <tr class="separator:a66f3217bce2abb2bd8144b5e9247f23c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a6f0a820cd75b05d32d8a77f758c6296e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="util__translation_8h.html#a439adb987f02b37820c184653b18e98d">LanguageCollection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTranslationUtil.html#a6f0a820cd75b05d32d8a77f758c6296e">getAvailableLanguages</a> ()</td></tr>
-<tr class="memdesc:a6f0a820cd75b05d32d8a77f758c6296e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a collection of available languages for this application.  <a href="#a6f0a820cd75b05d32d8a77f758c6296e">More...</a><br /></td></tr>
-<tr class="separator:a6f0a820cd75b05d32d8a77f758c6296e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a726f959a81bd1eb17abe7fca19bdc9b0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTranslationUtil.html#a726f959a81bd1eb17abe7fca19bdc9b0">setBaseName</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;name)</td></tr>
-<tr class="memdesc:a726f959a81bd1eb17abe7fca19bdc9b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the common base name of the application's translation files.  <a href="#a726f959a81bd1eb17abe7fca19bdc9b0">More...</a><br /></td></tr>
-<tr class="separator:a726f959a81bd1eb17abe7fca19bdc9b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2f94754b49339c61f4de1903308db91"><td class="memItemLeft" align="right" valign="top">static <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTranslationUtil.html#ac2f94754b49339c61f4de1903308db91">localeNameForFile</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;filename)</td></tr>
-<tr class="memdesc:ac2f94754b49339c61f4de1903308db91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the locale name for a given translation file, or returns an empty string if the file is not a valid translation.  <a href="#ac2f94754b49339c61f4de1903308db91">More...</a><br /></td></tr>
-<tr class="separator:ac2f94754b49339c61f4de1903308db91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fc44ed0847ec9fa5e97510883f61332"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTranslationUtil.html#a3fc44ed0847ec9fa5e97510883f61332">setBaseName</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qlatin1string.html">QLatin1String</a> &amp;name)</td></tr>
+<tr class="memdesc:a3fc44ed0847ec9fa5e97510883f61332"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the common base name of the application's translation files.  <a href="#a3fc44ed0847ec9fa5e97510883f61332">More...</a><br /></td></tr>
+<tr class="separator:a3fc44ed0847ec9fa5e97510883f61332"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab262c7c86f7a8366146c075c35dd1b06"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classTranslationUtil.html#a1456feaf3178b3663f2086cd1fe21ae9">LanguageList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTranslationUtil.html#ab262c7c86f7a8366146c075c35dd1b06">availableLanguages</a> ()</td></tr>
+<tr class="memdesc:ab262c7c86f7a8366146c075c35dd1b06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a collection of available languages for this application.  <a href="#ab262c7c86f7a8366146c075c35dd1b06">More...</a><br /></td></tr>
+<tr class="separator:ab262c7c86f7a8366146c075c35dd1b06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea7c14e6aca45fd92d5a9107a978c68d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structTranslationUtil_1_1Language.html">Language</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTranslationUtil.html#aea7c14e6aca45fd92d5a9107a978c68d">languageFromFilename</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;path)</td></tr>
+<tr class="memdesc:aea7c14e6aca45fd92d5a9107a978c68d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the Translation for a given translation file.  <a href="#aea7c14e6aca45fd92d5a9107a978c68d">More...</a><br /></td></tr>
+<tr class="separator:aea7c14e6aca45fd92d5a9107a978c68d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af692ee39cbef7912d0cf2ae12f209a66"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structTranslationUtil_1_1Language.html">Language</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTranslationUtil.html#af692ee39cbef7912d0cf2ae12f209a66">languageFromCode</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;<a class="el" href="classTranslationUtil.html#a3c1f19a97e8f1f8a702d60625eaf0309">code</a>)</td></tr>
+<tr class="memdesc:af692ee39cbef7912d0cf2ae12f209a66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the Translation for a language name.  <a href="#af692ee39cbef7912d0cf2ae12f209a66">More...</a><br /></td></tr>
+<tr class="separator:af692ee39cbef7912d0cf2ae12f209a66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a2bec1bec700c0ab94ab4f53e0340b80f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTranslationUtil.html#a2bec1bec700c0ab94ab4f53e0340b80f">load</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qtranslator.html">QTranslator</a> &amp;translator, <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> translation_name)</td></tr>
-<tr class="memdesc:a2bec1bec700c0ab94ab4f53e0340b80f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds a named translation from the search path and loads it to the translator.  <a href="#a2bec1bec700c0ab94ab4f53e0340b80f">More...</a><br /></td></tr>
-<tr class="separator:a2bec1bec700c0ab94ab4f53e0340b80f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b7789d7ffe93b0474b00476d72d1e4d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTranslationUtil.html#a4b7789d7ffe93b0474b00476d72d1e4d">load</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qtranslator.html">QTranslator</a> &amp;translator, <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> translation_name) const </td></tr>
+<tr class="memdesc:a4b7789d7ffe93b0474b00476d72d1e4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds a named translation from the search path and loads it to the translator.  <a href="#a4b7789d7ffe93b0474b00476d72d1e4d">More...</a><br /></td></tr>
+<tr class="separator:a4b7789d7ffe93b0474b00476d72d1e4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-methods"></a>
 Static Protected Member Functions</h2></td></tr>
-<tr class="memitem:ace0e90cf5d697dcdc52dc6af0e4f6895"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTranslationUtil.html#ace0e90cf5d697dcdc52dc6af0e4f6895">init_search_path</a> ()</td></tr>
-<tr class="memdesc:ace0e90cf5d697dcdc52dc6af0e4f6895"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the search path.  <a href="#ace0e90cf5d697dcdc52dc6af0e4f6895">More...</a><br /></td></tr>
-<tr class="separator:ace0e90cf5d697dcdc52dc6af0e4f6895"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8009e7d77d79aeb62e0064f1ab57a441"><td class="memItemLeft" align="right" valign="top">static const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstringlist.html">QStringList</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTranslationUtil.html#a8009e7d77d79aeb62e0064f1ab57a441">searchPath</a> ()</td></tr>
+<tr class="memdesc:a8009e7d77d79aeb62e0064f1ab57a441"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the search path for translations.  <a href="#a8009e7d77d79aeb62e0064f1ab57a441">More...</a><br /></td></tr>
+<tr class="separator:a8009e7d77d79aeb62e0064f1ab57a441"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a474f570ea4a0e78654db440d3c28b654"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qlocale.html">QLocale</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTranslationUtil.html#a474f570ea4a0e78654db440d3c28b654">locale</a></td></tr>
-<tr class="separator:a474f570ea4a0e78654db440d3c28b654"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf8c05707f5a550d706b4dd6ce9a04ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structTranslationUtil_1_1Language.html">Language</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTranslationUtil.html#abf8c05707f5a550d706b4dd6ce9a04ff">language</a></td></tr>
+<tr class="separator:abf8c05707f5a550d706b4dd6ce9a04ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a193d846336f51c7d5c6783634043cfc5"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qtranslator.html">QTranslator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTranslationUtil.html#a193d846336f51c7d5c6783634043cfc5">qt_translator</a></td></tr>
 <tr class="separator:a193d846336f51c7d5c6783634043cfc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05bbfa5175813618fe4dec9048387370"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qtranslator.html">QTranslator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTranslationUtil.html#a05bbfa5175813618fe4dec9048387370">app_translator</a></td></tr>
@@ -170,27 +188,40 @@ Protected Attributes</h2></td></tr>
 Static Protected Attributes</h2></td></tr>
 <tr class="memitem:ae9724b94039e1776f22f8fe0b294b65e"><td class="memItemLeft" align="right" valign="top">static <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTranslationUtil.html#ae9724b94039e1776f22f8fe0b294b65e">base_name</a></td></tr>
 <tr class="separator:ae9724b94039e1776f22f8fe0b294b65e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67f793b458280bb9beb98ea8bf7078ca"><td class="memItemLeft" align="right" valign="top">static <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstringlist.html">QStringList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTranslationUtil.html#a67f793b458280bb9beb98ea8bf7078ca">search_path</a></td></tr>
-<tr class="separator:a67f793b458280bb9beb98ea8bf7078ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A simplified interface to searching and loading translations. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="ad54a2dac9a72ce81e060ecf4022a9183"></a>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a class="anchor" id="a1456feaf3178b3663f2086cd1fe21ae9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classTranslationUtil.html#a1456feaf3178b3663f2086cd1fe21ae9">TranslationUtil::LanguageList</a> =  std::vector&lt;<a class="el" href="structTranslationUtil_1_1Language.html">Language</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A collection of languages. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a5323fabf560a46a269b68dfad1d20b3e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">TranslationUtil::TranslationUtil </td>
           <td>(</td>
-          <td class="paramtype">QLocale::Language&#160;</td>
-          <td class="paramname"><em>lang</em>, </td>
+          <td class="paramtype">const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;&#160;</td>
+          <td class="paramname"><em>code</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a>&#160;</td>
-          <td class="paramname"><em>translation_file</em> = <code><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a>()</code>&#160;</td>
+          <td class="paramname"><em>translation_file</em> = <code>{}</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -201,11 +232,86 @@ Static Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Creates a new translation utility for the given language. </p>
-<p>The base name of the translation files should be set in advance. </p>
+<p>The base name of the translation files must be set in advance. </p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ab262c7c86f7a8366146c075c35dd1b06"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classTranslationUtil.html#a1456feaf3178b3663f2086cd1fe21ae9">TranslationUtil::LanguageList</a> TranslationUtil::availableLanguages </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a collection of available languages for this application. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3c1f19a97e8f1f8a702d60625eaf0309"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> TranslationUtil::code </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the code of the language. </p>
+
+</div>
+</div>
+<a class="anchor" id="a6a1021766ed4ff00c03e6414eef50253"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> TranslationUtil::displayName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the display name of the language. </p>
+
+</div>
+</div>
 <a class="anchor" id="a66f3217bce2abb2bd8144b5e9247f23c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -227,57 +333,7 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a translation for the application. </p>
-
-</div>
-</div>
-<a class="anchor" id="a6f0a820cd75b05d32d8a77f758c6296e"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="util__translation_8h.html#a439adb987f02b37820c184653b18e98d">LanguageCollection</a> TranslationUtil::getAvailableLanguages </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns a collection of available languages for this application. </p>
-
-</div>
-</div>
-<a class="anchor" id="af0583f74b225541a5846a5b7ec0603f9"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qlocale.html">QLocale</a>&amp; TranslationUtil::getLocale </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns the locale. </p>
+<p>Returns a translator for application strings. </p>
 
 </div>
 </div>
@@ -302,11 +358,11 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a translation for <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qt.html">Qt</a>. </p>
+<p>Returns a translator for <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qt.html">Qt</a> strings. </p>
 
 </div>
 </div>
-<a class="anchor" id="ace0e90cf5d697dcdc52dc6af0e4f6895"></a>
+<a class="anchor" id="af692ee39cbef7912d0cf2ae12f209a66"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -314,24 +370,51 @@ Static Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void TranslationUtil::init_search_path </td>
+          <td class="memname"><a class="el" href="structTranslationUtil_1_1Language.html">TranslationUtil::Language</a> TranslationUtil::languageFromCode </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;&#160;</td>
+          <td class="paramname"><em>code</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Initializes the search path. </p>
+<p>Returns the Translation for a language name. </p>
 
 </div>
 </div>
-<a class="anchor" id="a2bec1bec700c0ab94ab4f53e0340b80f"></a>
+<a class="anchor" id="aea7c14e6aca45fd92d5a9107a978c68d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structTranslationUtil_1_1Language.html">TranslationUtil::Language</a> TranslationUtil::languageFromFilename </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the Translation for a given translation file. </p>
+
+</div>
+</div>
+<a class="anchor" id="a4b7789d7ffe93b0474b00476d72d1e4d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -353,7 +436,7 @@ Static Protected Attributes</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>
@@ -367,7 +450,7 @@ Static Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ac2f94754b49339c61f4de1903308db91"></a>
+<a class="anchor" id="a8009e7d77d79aeb62e0064f1ab57a441"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -375,26 +458,24 @@ Static Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> TranslationUtil::localeNameForFile </td>
+          <td class="memname">const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstringlist.html">QStringList</a> &amp; TranslationUtil::searchPath </td>
           <td>(</td>
-          <td class="paramtype">const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;&#160;</td>
-          <td class="paramname"><em>filename</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the locale name for a given translation file, or returns an empty string if the file is not a valid translation. </p>
-<p>In order to be valid, the file must exist, and the file name (without directory) must be composed of the base name, an underscore, the locale name and the suffix ".qm". </p>
+<p>Returns the search path for translations. </p>
 
 </div>
 </div>
-<a class="anchor" id="a726f959a81bd1eb17abe7fca19bdc9b0"></a>
+<a class="anchor" id="a3fc44ed0847ec9fa5e97510883f61332"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -404,7 +485,7 @@ Static Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">void TranslationUtil::setBaseName </td>
           <td>(</td>
-          <td class="paramtype">const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qlatin1string.html">QLatin1String</a> &amp;&#160;</td>
           <td class="paramname"><em>name</em></td><td>)</td>
           <td></td>
         </tr>
@@ -461,7 +542,7 @@ Static Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a474f570ea4a0e78654db440d3c28b654"></a>
+<a class="anchor" id="abf8c05707f5a550d706b4dd6ce9a04ff"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -469,7 +550,7 @@ Static Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qlocale.html">QLocale</a> TranslationUtil::locale</td>
+          <td class="memname"><a class="el" href="structTranslationUtil_1_1Language.html">Language</a> TranslationUtil::language</td>
         </tr>
       </table>
   </td>
@@ -501,29 +582,9 @@ Static Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a67f793b458280bb9beb98ea8bf7078ca"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstringlist.html">QStringList</a> TranslationUtil::search_path</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/<a class="el" href="util__translation_8h.html">util_translation.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/ec96612/src/util_translation.h"><tt>ec96612</tt></a> on 11 Feb 2013)</li>
-<li>src/<a class="el" href="util__translation_8cpp.html">util_translation.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/f7b0478/src/util_translation.cpp"><tt>f7b0478</tt></a> on 10 Apr 2016)</li>
+<li>src/<a class="el" href="util__translation_8h.html">util_translation.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/19a80d1/src/util_translation.h"><tt>19a80d1</tt></a> on 6 Nov 2016)</li>
+<li>src/<a class="el" href="util__translation_8cpp.html">util_translation.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/19a80d1/src/util_translation.cpp"><tt>19a80d1</tt></a> on 6 Nov 2016)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

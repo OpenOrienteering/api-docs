@@ -13,7 +13,6 @@ var searchData=
   ['sclx',['sclx',['../struct__OCADBackground.html#a525c2bd2dd4b35cb9dc0676465bb34a1',1,'_OCADBackground']]],
   ['scly',['scly',['../struct__OCADBackground.html#af9fdb93a948950383cd09b68f5ff44a7',1,'_OCADBackground']]],
   ['screenorientations',['ScreenOrientations',['http://doc.qt.io/qt-5/qt.html#ScreenOrientation-enum',1,'Qt']]],
-  ['search_5fpath',['search_path',['../classTranslationUtil.html#a67f793b458280bb9beb98ea8bf7078ca',1,'TranslationUtil']]],
   ['sec_5fgap',['sec_gap',['../structOcd_1_1LineSymbolCommonV8.html#a55925f4b95bd7eb878abaea0f681eb7b',1,'Ocd::LineSymbolCommonV8']]],
   ['second_5fpoint_5fset',['second_point_set',['../classDrawCircleTool.html#a260b6b9ceeafb2e0db9dde83fc847a3d',1,'DrawCircleTool']]],
   ['second_5ftype',['second_type',['http://doc.qt.io/qt-5/qpair.html#second_type-typedef',1,'QPair']]],

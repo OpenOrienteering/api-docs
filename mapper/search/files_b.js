@@ -51,6 +51,7 @@ var searchData=
   ['matrix_2eh',['matrix.h',['../matrix_8h.html',1,'']]],
   ['measure_5fwidget_2ecpp',['measure_widget.cpp',['../measure__widget_8cpp.html',1,'']]],
   ['measure_5fwidget_2eh',['measure_widget.h',['../measure__widget_8h.html',1,'']]],
+  ['memory_2eh',['memory.h',['../memory_8h.html',1,'']]],
   ['modifier_5fkey_2ecpp',['modifier_key.cpp',['../modifier__key_8cpp.html',1,'']]],
   ['modifier_5fkey_2eh',['modifier_key.h',['../modifier__key_8h.html',1,'']]]
 ];

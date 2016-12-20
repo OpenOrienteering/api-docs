@@ -5,5 +5,6 @@ var searchData=
   ['xmlfileexporter',['XMLFileExporter',['../classXMLFileExporter.html',1,'']]],
   ['xmlfileformat',['XMLFileFormat',['../classXMLFileFormat.html',1,'']]],
   ['xmlfileimporter',['XMLFileImporter',['../classXMLFileImporter.html',1,'']]],
-  ['xmlfileimportercolorbacklogitem',['XMLFileImporterColorBacklogItem',['../structXMLFileImporterColorBacklogItem.html',1,'']]]
+  ['xmlfileimportercolorbacklogitem',['XMLFileImporterColorBacklogItem',['../structXMLFileImporterColorBacklogItem.html',1,'']]],
+  ['xmlrecoveryhelper',['XmlRecoveryHelper',['../classXmlRecoveryHelper.html',1,'']]]
 ];

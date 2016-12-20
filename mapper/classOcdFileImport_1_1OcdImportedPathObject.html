@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.6.5</span>
+   &#160;<span id="projectnumber">0.6.7</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -278,7 +278,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:adac282e3d1a233b3fd15ebc609f68209 inherit pub_methods_classPathObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to remove points while retaining the path shape as much as possible.  <a href="#adac282e3d1a233b3fd15ebc609f68209">More...</a><br /></td></tr>
 <tr class="separator:adac282e3d1a233b3fd15ebc609f68209 inherit pub_methods_classPathObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae59a7af1960cefd7e05a426178570e1 inherit pub_methods_classPathObject"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathObject.html#aae59a7af1960cefd7e05a426178570e1">isPointOnPath</a> (<a class="el" href="classMapCoordF.html">MapCoordF</a> coord, float tolerance, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> treat_areas_as_paths, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> extended_selection) const </td></tr>
-<tr class="memdesc:aae59a7af1960cefd7e05a426178570e1 inherit pub_methods_classPathObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">See <a class="el" href="classObject.html#a0d13b76cff29811c25ff62322b8c5a51" title="Checks if the given coord, with the given tolerance, is on this object; with extended_selection, the coord is on point objects always if it is whithin their extent, otherwise it has to be close to their midpoint. ">Object::isPointOnObject()</a>  <a href="#aae59a7af1960cefd7e05a426178570e1">More...</a><br /></td></tr>
+<tr class="memdesc:aae59a7af1960cefd7e05a426178570e1 inherit pub_methods_classPathObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">See <a class="el" href="classObject.html#a0d13b76cff29811c25ff62322b8c5a51" title="Checks if the given coord, with the given tolerance, is on this object. ">Object::isPointOnObject()</a>  <a href="#aae59a7af1960cefd7e05a426178570e1">More...</a><br /></td></tr>
 <tr class="separator:aae59a7af1960cefd7e05a426178570e1 inherit pub_methods_classPathObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0d422a349199f1df5f96593e0c43cfa inherit pub_methods_classPathObject"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathObject.html#ab0d422a349199f1df5f96593e0c43cfa">isPointInsideArea</a> (<a class="el" href="classMapCoordF.html">MapCoordF</a> coord) const </td></tr>
 <tr class="memdesc:ab0d422a349199f1df5f96593e0c43cfa inherit pub_methods_classPathObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the given coordinate is inside the area defined by this object, which must be closed.  <a href="#ab0d422a349199f1df5f96593e0c43cfa">More...</a><br /></td></tr>
@@ -362,8 +362,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab402d39025861297b731f0e51662201f inherit pub_methods_classObject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObject.html#ab402d39025861297b731f0e51662201f">rotate</a> (double angle)</td></tr>
 <tr class="memdesc:ab402d39025861297b731f0e51662201f inherit pub_methods_classObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotates the whole object around the center (0, 0).  <a href="#ab402d39025861297b731f0e51662201f">More...</a><br /></td></tr>
 <tr class="separator:ab402d39025861297b731f0e51662201f inherit pub_methods_classObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94695248015cc5ea02b88575f752cf66 inherit pub_methods_classObject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObject.html#a94695248015cc5ea02b88575f752cf66">transform</a> (const <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qtransform.html">QTransform</a> &amp;t)</td></tr>
+<tr class="memdesc:a94695248015cc5ea02b88575f752cf66 inherit pub_methods_classObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply a transformation to all coordinates.  <a href="#a94695248015cc5ea02b88575f752cf66">More...</a><br /></td></tr>
+<tr class="separator:a94695248015cc5ea02b88575f752cf66 inherit pub_methods_classObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d13b76cff29811c25ff62322b8c5a51 inherit pub_methods_classObject"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObject.html#a0d13b76cff29811c25ff62322b8c5a51">isPointOnObject</a> (<a class="el" href="classMapCoordF.html">MapCoordF</a> coord, float tolerance, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> treat_areas_as_paths, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> extended_selection) const </td></tr>
-<tr class="memdesc:a0d13b76cff29811c25ff62322b8c5a51 inherit pub_methods_classObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the given coord, with the given tolerance, is on this object; with extended_selection, the coord is on point objects always if it is whithin their extent, otherwise it has to be close to their midpoint.  <a href="#a0d13b76cff29811c25ff62322b8c5a51">More...</a><br /></td></tr>
+<tr class="memdesc:a0d13b76cff29811c25ff62322b8c5a51 inherit pub_methods_classObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the given coord, with the given tolerance, is on this object.  <a href="#a0d13b76cff29811c25ff62322b8c5a51">More...</a><br /></td></tr>
 <tr class="separator:a0d13b76cff29811c25ff62322b8c5a51 inherit pub_methods_classObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a746f7aa7f0767c143ec38d9445fdc2bb inherit pub_methods_classObject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObject.html#a746f7aa7f0767c143ec38d9445fdc2bb">takeRenderables</a> ()</td></tr>
 <tr class="memdesc:a746f7aa7f0767c143ec38d9445fdc2bb inherit pub_methods_classObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes ownership of the renderables.  <a href="#a746f7aa7f0767c143ec38d9445fdc2bb">More...</a><br /></td></tr>
@@ -546,8 +549,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/fileformats/<a class="el" href="ocd__file__import_8h.html">ocd_file_import.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/b91d298/src/fileformats/ocd_file_import.h"><tt>b91d298</tt></a> on 29 Aug 2016)</li>
-<li>src/fileformats/<a class="el" href="ocd__file__import_8cpp.html">ocd_file_import.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/d0d34d7/src/fileformats/ocd_file_import.cpp"><tt>d0d34d7</tt></a> on 31 Aug 2016)</li>
+<li>src/fileformats/<a class="el" href="ocd__file__import_8h.html">ocd_file_import.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/3c3f3ae/src/fileformats/ocd_file_import.h"><tt>3c3f3ae</tt></a> on 15 Oct 2016)</li>
+<li>src/fileformats/<a class="el" href="ocd__file__import_8cpp.html">ocd_file_import.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/3e8d7d5/src/fileformats/ocd_file_import.cpp"><tt>3e8d7d5</tt></a> on 1 Nov 2016)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

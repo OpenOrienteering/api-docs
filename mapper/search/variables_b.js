@@ -1,6 +1,7 @@
 var searchData=
 [
   ['landscape',['landscape',['../classAdvancedPdfEnginePrivate.html#a505b8d199725c2ea3d4ca291fadc43f2',1,'AdvancedPdfEnginePrivate']]],
+  ['language',['language',['../classTranslationUtil.html#abf8c05707f5a550d706b4dd6ce9a04ff',1,'TranslationUtil']]],
   ['last_5findex',['last_index',['../classVirtualPath.html#a47fa2e7e9572fb3e0cd346fe005088db',1,'VirtualPath']]],
   ['last_5fpos_5fmap',['last_pos_map',['../classDrawFreehandTool.html#ac065f71a8e9f5095213e8d6b64f89e43',1,'DrawFreehandTool']]],
   ['last_5fupdate_5ftime',['last_update_time',['../classCompassDisplay.html#a23fad7fbd7da84ffac66c872c03c534e',1,'CompassDisplay']]],
@@ -33,7 +34,7 @@ var searchData=
   ['linegap',['lineGap',['../structqttf__hhea__table.html#a60761c0c0ef38ae818afd8efdb685691',1,'qttf_hhea_table']]],
   ['loaded',['loaded',['../structTemplateImage_1_1WorldFile.html#a880afe2a474455830301947d222e6c6f',1,'TemplateImage::WorldFile']]],
   ['loadhints',['LoadHints',['http://doc.qt.io/qt-5/qlibrary.html#LoadHint-enum',1,'QLibrary']]],
-  ['locale',['locale',['../classOcdFileImport.html#a3834f9cb2c3c97237bf4a240ac300563',1,'OcdFileImport::locale()'],['../classTranslationUtil.html#a474f570ea4a0e78654db440d3c28b654',1,'TranslationUtil::locale()']]],
+  ['locale',['locale',['../classOcdFileImport.html#a3834f9cb2c3c97237bf4a240ac300563',1,'OcdFileImport']]],
   ['locateoptions',['LocateOptions',['http://doc.qt.io/qt-5/qstandardpaths.html#LocateOption-enum',1,'QStandardPaths']]],
   ['lon',['lon',['../structOcd_1_1GpsPointV8.html#ac654833405adeb09f99c98f4072bd358',1,'Ocd::GpsPointV8']]],
   ['lsb',['lsb',['../structQTtfGlyph.html#abe3c7f5d2244d7e9a740a895fd338556',1,'QTtfGlyph']]]

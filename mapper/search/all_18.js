@@ -22,6 +22,7 @@ var searchData=
   ['xmlfileimportercolorbacklog',['XMLFileImporterColorBacklog',['../file__format__xml_8cpp.html#aa61eac3adf4619be5868c2f0d5e643af',1,'file_format_xml.cpp']]],
   ['xmlfileimportercolorbacklogitem',['XMLFileImporterColorBacklogItem',['../structXMLFileImporterColorBacklogItem.html',1,'XMLFileImporterColorBacklogItem'],['../structXMLFileImporterColorBacklogItem.html#a9e34f3d91ae5522fde8f46deaa0803c7',1,'XMLFileImporterColorBacklogItem::XMLFileImporterColorBacklogItem()']]],
   ['xmlimportexport',['XMLImportExport',['../classObject.html#ac9456504fca4179f24e14e1106a60611',1,'Object::XMLImportExport()'],['../classSymbol.html#ac9456504fca4179f24e14e1106a60611',1,'Symbol::XMLImportExport()'],['../classPointSymbol.html#ac9456504fca4179f24e14e1106a60611',1,'PointSymbol::XMLImportExport()']]],
+  ['xmlrecoveryhelper',['XmlRecoveryHelper',['../classXmlRecoveryHelper.html',1,'XmlRecoveryHelper'],['../classXmlRecoveryHelper.html#a56ae07ce27d3faaec9f2afd50db791c3',1,'XmlRecoveryHelper::XmlRecoveryHelper()']]],
   ['xmlstreamliteral',['XmlStreamLiteral',['../namespaceXmlStreamLiteral.html',1,'']]],
   ['xoffset',['xOffset',['http://doc.qt.io/qt-5/qgraphicsdropshadoweffect.html#xOffset-prop',1,'QGraphicsDropShadowEffect::xOffset()'],['http://doc.qt.io/qt-5/qgraphicsdropshadoweffect.html#xOffset-prop',1,'QGraphicsDropShadowEffect::xOffset() const']]],
   ['xor',['XOr',['../classBooleanTool.html#a34e3df14f673a50f265ff8108ebc72f0aa96fbd7fec5b88bb241e0df99203262e',1,'BooleanTool']]],
