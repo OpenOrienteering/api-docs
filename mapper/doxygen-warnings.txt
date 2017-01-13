@@ -1,3 +1,15 @@
+src/core/symbols/line_symbol.cpp:250: warning: no uniquely matching class member found for 
+  void LineSymbol::createRenderables(const Object *object, const VirtualCoordVector &coords, ObjectRenderables &output, RenderableOptions options) const
+Possible candidates:
+  void LineSymbol::createRenderables(const Object *object, const VirtualCoordVector &coords, ObjectRenderables &output, Symbol::RenderableOptions options) const override' at line 97 of file src/core/symbols/line_symbol.h
+  void LineSymbol::createRenderables(const PathObject *object, const PathPartVector &path_parts, ObjectRenderables &output, Symbol::RenderableOptions options) const override' at line 103 of file src/core/symbols/line_symbol.h
+
+src/core/symbols/line_symbol.cpp:264: warning: no uniquely matching class member found for 
+  void LineSymbol::createRenderables(const PathObject *object, const PathPartVector &path_parts, ObjectRenderables &output, RenderableOptions options) const
+Possible candidates:
+  void LineSymbol::createRenderables(const Object *object, const VirtualCoordVector &coords, ObjectRenderables &output, Symbol::RenderableOptions options) const override' at line 97 of file src/core/symbols/line_symbol.h
+  void LineSymbol::createRenderables(const PathObject *object, const PathPartVector &path_parts, ObjectRenderables &output, Symbol::RenderableOptions options) const override' at line 103 of file src/core/symbols/line_symbol.h
+
 src/fileformats/ocd_types.h:844: warning: no uniquely matching class member found for 
   template < F >
   const QByteArray OcdFile< F >::operator[](const typename OcdFile< F >::Ocd::ParameterStringIndexEntry &string) const
@@ -38,23 +50,11 @@ src/printsupport/qt-5.5.1/oo_printdialog_win.cpp:127: warning: no matching class
 src/printsupport/qt-5.5.1/oo_printdialog_win.cpp:175: warning: no uniquely matching class member found for 
   void OpenOrienteeringPrintDialog::setVisible(bool visible)
 
-src/symbol_line.cpp:250: warning: no uniquely matching class member found for 
-  void LineSymbol::createRenderables(const Object *object, const VirtualCoordVector &coords, ObjectRenderables &output, RenderableOptions options) const
-Possible candidates:
-  void LineSymbol::createRenderables(const Object *object, const VirtualCoordVector &coords, ObjectRenderables &output, Symbol::RenderableOptions options) const override' at line 97 of file src/symbol_line.h
-  void LineSymbol::createRenderables(const PathObject *object, const PathPartVector &path_parts, ObjectRenderables &output, Symbol::RenderableOptions options) const override' at line 103 of file src/symbol_line.h
-
-src/symbol_line.cpp:264: warning: no uniquely matching class member found for 
-  void LineSymbol::createRenderables(const PathObject *object, const PathPartVector &path_parts, ObjectRenderables &output, RenderableOptions options) const
-Possible candidates:
-  void LineSymbol::createRenderables(const Object *object, const VirtualCoordVector &coords, ObjectRenderables &output, Symbol::RenderableOptions options) const override' at line 97 of file src/symbol_line.h
-  void LineSymbol::createRenderables(const PathObject *object, const PathPartVector &path_parts, ObjectRenderables &output, Symbol::RenderableOptions options) const override' at line 103 of file src/symbol_line.h
-
-src/template.cpp:103: warning: documented symbol `decltype' was not declared or defined.
+src/templates/template.cpp:103: warning: documented symbol `decltype' was not declared or defined.
 warning: Included by graph for 'map.h' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
-warning: Include graph for 'map_editor.cpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
 warning: Included by graph for 'object.h' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
-src/map_part.h:221: warning: Found unknown command `\copyetails'
+src/core/map_part.h:221: warning: Found unknown command `\copyetails'
+warning: Include graph for 'map_editor.cpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
 warning: Included by graph for 'util.h' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
 todo:36: warning: Unexpected tag <dd> found
 src/gui/widgets/action_grid_bar.h:55: warning: The following parameters of ActionGridBar::ActionGridBar(Direction direction, int height_items, QWidget *parent=NULL) are not documented:
@@ -65,42 +65,42 @@ src/gui/autosave_dialog.h:108: warning: Found unknown command `\override'
 src/gui/autosave_dialog.h:76: warning: Found unknown command `\override'
 src/core/crs_template.h:143: warning: Found unknown command `\id'
 src/core/crs_template.h:184: warning: Found unknown command `\id'
-src/tool_edit.h:224: warning: The following parameters of EditTool::drawBoundingBox(QPainter *painter, MapWidget *widget, const QRectF &bounding_box, const QRgb &color) are not documented:
+src/tools/edit_tool.h:224: warning: The following parameters of EditTool::drawBoundingBox(QPainter *painter, MapWidget *widget, const QRectF &bounding_box, const QRgb &color) are not documented:
   parameter 'painter'
   parameter 'widget'
   parameter 'color'
-src/tool_edit.h:228: warning: argument 'bounding_box' of command @param is not found in the argument list of EditTool::drawBoundingPath(QPainter *painter, MapWidget *widget, const std::vector< QPointF > &bounding_path, const QRgb &color)
-src/tool_edit.h:231: warning: The following parameters of EditTool::drawBoundingPath(QPainter *painter, MapWidget *widget, const std::vector< QPointF > &bounding_path, const QRgb &color) are not documented:
+src/tools/edit_tool.h:228: warning: argument 'bounding_box' of command @param is not found in the argument list of EditTool::drawBoundingPath(QPainter *painter, MapWidget *widget, const std::vector< QPointF > &bounding_path, const QRgb &color)
+src/tools/edit_tool.h:231: warning: The following parameters of EditTool::drawBoundingPath(QPainter *painter, MapWidget *widget, const std::vector< QPointF > &bounding_path, const QRgb &color) are not documented:
   parameter 'painter'
   parameter 'widget'
   parameter 'bounding_path'
   parameter 'color'
-src/tool.h:86: warning: argument 'type' of command @param is not found in the argument list of MapEditorTool::MapEditorTool(MapEditorController *editor, Type tool_type, QAction *tool_action=nullptr)
-src/tool.h:93: warning: The following parameters of MapEditorTool::MapEditorTool(MapEditorController *editor, Type tool_type, QAction *tool_action=nullptr) are not documented:
+src/tools/tool.h:84: warning: argument 'type' of command @param is not found in the argument list of MapEditorTool::MapEditorTool(MapEditorController *editor, Type tool_type, QAction *tool_action=nullptr)
+src/tools/tool.h:91: warning: The following parameters of MapEditorTool::MapEditorTool(MapEditorController *editor, Type tool_type, QAction *tool_action=nullptr) are not documented:
   parameter 'tool_type'
-src/map_part.h:214: warning: Found unknown command `\copyetails'
-src/map_part.h:221: warning: Found unknown command `\copyetails'
-src/map_part.h:228: warning: Found unknown command `\copyetails'
-src/map_part.h:221: warning: Found unknown command `\copyetails'
-src/map_part.h:228: warning: Found unknown command `\copyetails'
-src/map_part.h:214: warning: Found unknown command `\copyetails'
-src/tool_edit.h:104: warning: The following parameters of ObjectMover::move(const MapCoordF &cursor_pos, bool move_opposite_handles, qint32 *out_dx=NULL, qint32 *out_dy=NULL) are not documented:
+src/core/map_part.h:214: warning: Found unknown command `\copyetails'
+src/core/map_part.h:221: warning: Found unknown command `\copyetails'
+src/core/map_part.h:228: warning: Found unknown command `\copyetails'
+src/core/map_part.h:221: warning: Found unknown command `\copyetails'
+src/core/map_part.h:228: warning: Found unknown command `\copyetails'
+src/core/map_part.h:214: warning: Found unknown command `\copyetails'
+src/tools/edit_tool.h:104: warning: The following parameters of ObjectMover::move(const MapCoordF &cursor_pos, bool move_opposite_handles, qint32 *out_dx=NULL, qint32 *out_dy=NULL) are not documented:
   parameter 'cursor_pos'
-src/tool_edit.h:51: warning: The following parameters of ObjectSelector::selectAt(MapCoordF position, double tolerance, bool toggle) are not documented:
+src/tools/edit_tool.h:51: warning: The following parameters of ObjectSelector::selectAt(MapCoordF position, double tolerance, bool toggle) are not documented:
   parameter 'position'
-src/tool_edit.h:58: warning: The following parameters of ObjectSelector::selectBox(MapCoordF corner1, MapCoordF corner2, bool toggle) are not documented:
+src/tools/edit_tool.h:58: warning: The following parameters of ObjectSelector::selectBox(MapCoordF corner1, MapCoordF corner2, bool toggle) are not documented:
   parameter 'corner1'
   parameter 'corner2'
-src/object_undo.h:111: warning: explicit link request to 'loadImpl()' could not be resolved
-src/symbol_point_editor.h:60: warning: The following parameters of PointSymbolEditorWidget::PointSymbolEditorWidget(MapEditorController *controller, PointSymbol *symbol, float offset_y=0, bool permanent_preview=false, QWidget *parent=0) are not documented:
+src/undo/object_undo.h:111: warning: explicit link request to 'loadImpl()' could not be resolved
+src/gui/symbols/point_symbol_editor_widget.h:60: warning: The following parameters of PointSymbolEditorWidget::PointSymbolEditorWidget(MapEditorController *controller, PointSymbol *symbol, float offset_y=0, bool permanent_preview=false, QWidget *parent=0) are not documented:
   parameter 'parent'
-src/symbol_properties_widget.h:42: warning: The following parameters of SymbolPropertiesWidget::SymbolPropertiesWidget(Symbol *symbol, SymbolSettingDialog *dialog) are not documented:
+src/gui/symbols/symbol_properties_widget.h:42: warning: The following parameters of SymbolPropertiesWidget::SymbolPropertiesWidget(Symbol *symbol, SymbolSettingDialog *dialog) are not documented:
   parameter 'dialog'
 src/util/item_delegates.h:211: warning: Found unknown command `\override'
 src/util/item_delegates.h:218: warning: Found unknown command `\override'
-src/util.cpp:223: warning: The following parameters of Util::showHelp(QWidget *dialog_parent, const char *filename_latin1, const char *anchor_latin1) are not documented:
+src/util/util.cpp:223: warning: The following parameters of Util::showHelp(QWidget *dialog_parent, const char *filename_latin1, const char *anchor_latin1) are not documented:
   parameter 'dialog_parent'
-src/util.cpp:228: warning: The following parameters of Util::showHelp(QWidget *dialog_parent, const char *file_and_anchor_latin1="index.html") are not documented:
+src/util/util.cpp:228: warning: The following parameters of Util::showHelp(QWidget *dialog_parent, const char *file_and_anchor_latin1="index.html") are not documented:
   parameter 'dialog_parent'
-src/util.cpp:233: warning: The following parameters of Util::showHelp(QWidget *dialog_parent, QString file_and_anchor) are not documented:
+src/util/util.cpp:233: warning: The following parameters of Util::showHelp(QWidget *dialog_parent, QString file_and_anchor) are not documented:
   parameter 'dialog_parent'

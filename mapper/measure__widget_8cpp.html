@@ -93,36 +93,36 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">measure_widget.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/f7b0478/src/gui/widgets/measure_widget.cpp"><tt>f7b0478</tt></a> on 10 Apr 2016)</h3><div class="textblock"><code>#include &quot;<a class="el" href="measure__widget_8h.html">measure_widget.h</a>&quot;</code><br />
+<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/b7c2de8/src/gui/widgets/measure_widget.cpp"><tt>b7c2de8</tt></a> on 8 Jan 2017)</h3><div class="textblock"><code>#include &quot;<a class="el" href="measure__widget_8h.html">measure_widget.h</a>&quot;</code><br />
 <code>#include &lt;QLocale&gt;</code><br />
 <code>#include &lt;QScroller&gt;</code><br />
-<code>#include &quot;<a class="el" href="map_8h.html">../../map.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="object_8h.html">../../object.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="symbol_8h.html">../../symbol.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="symbol__area_8h.html">../../symbol_area.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="symbol__line_8h.html">../../symbol_line.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="map_8h.html">core/map.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="object_8h.html">core/objects/object.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="symbol_8h.html">core/symbols/symbol.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="area__symbol_8h.html">core/symbols/area_symbol.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="line__symbol_8h.html">core/symbols/line_symbol.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for measure_widget.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="measure__widget_8cpp__incl.png" border="0" usemap="#src_2gui_2widgets_2measure__widget_8cpp" alt=""/></div>
 <map name="src_2gui_2widgets_2measure__widget_8cpp" id="src_2gui_2widgets_2measure__widget_8cpp">
-<area shape="rect" id="node2" href="measure__widget_8h.html" title="measure_widget.h" alt="" coords="1435,95,1563,121"/>
-<area shape="rect" id="node6" href="map_8h.html" title="../../map.h" alt="" coords="487,244,569,271"/>
-<area shape="rect" id="node27" href="object_8h.html" title="../../object.h" alt="" coords="1834,169,1926,196"/>
-<area shape="rect" id="node39" href="symbol_8h.html" title="symbol.h" alt="" coords="2163,244,2237,271"/>
-<area shape="rect" id="node42" href="symbol__area_8h.html" title="../../symbol_area.h" alt="" coords="2087,95,2217,121"/>
-<area shape="rect" id="node45" href="symbol__line_8h.html" title="../../symbol_line.h" alt="" coords="1885,95,2011,121"/>
-<area shape="rect" id="node15" href="global_8h.html" title="global.h" alt="" coords="553,319,620,345"/>
-<area shape="rect" id="node16" href="map__coord_8h.html" title="core/map_coord.h" alt="" coords="1965,393,2091,420"/>
-<area shape="rect" id="node21" href="map__grid_8h.html" title="core/map_grid.h" alt="" coords="644,319,759,345"/>
-<area shape="rect" id="node23" href="file__format_8h.html" title="file_format.h" alt="" coords="1693,319,1787,345"/>
-<area shape="rect" id="node26" href="map__part_8h.html" title="map_part.h" alt="" coords="93,319,179,345"/>
-<area shape="rect" id="node30" href="path__coord_8h.html" title="core/path_coord.h" alt="" coords="1965,319,2091,345"/>
-<area shape="rect" id="node31" href="virtual__path_8h.html" title="core/virtual_path.h" alt="" coords="1861,244,1990,271"/>
-<area shape="rect" id="node33" href="renderable_8h.html" title="renderable.h" alt="" coords="1235,244,1328,271"/>
-<area shape="rect" id="node32" href="virtual__coord__vector_8h.html" title="virtual_coord_vector.h" alt="" coords="2115,319,2266,345"/>
-<area shape="rect" id="node36" href="map__color_8h.html" title="core/map_color.h" alt="" coords="1060,319,1183,345"/>
-<area shape="rect" id="node43" href="symbol__properties__widget_8h.html" title="symbol_properties_widget.h" alt="" coords="2163,169,2347,196"/>
+<area shape="rect" id="node2" href="measure__widget_8h.html" title="measure_widget.h" alt="" coords="1464,95,1592,121"/>
+<area shape="rect" id="node6" href="map_8h.html" title="core/map.h" alt="" coords="485,259,571,285"/>
+<area shape="rect" id="node27" href="object_8h.html" title="core/objects/object.h" alt="" coords="1863,177,2006,203"/>
+<area shape="rect" id="node39" href="symbol_8h.html" title="core/symbols/symbol.h" alt="" coords="2184,259,2341,285"/>
+<area shape="rect" id="node42" href="area__symbol_8h.html" title="core/symbols/area_symbol.h" alt="" coords="2172,95,2361,121"/>
+<area shape="rect" id="node45" href="line__symbol_8h.html" title="core/symbols/line_symbol.h" alt="" coords="1913,95,2097,121"/>
+<area shape="rect" id="node15" href="global_8h.html" title="global.h" alt="" coords="553,333,620,360"/>
+<area shape="rect" id="node16" href="map__coord_8h.html" title="map_coord.h" alt="" coords="2013,408,2110,435"/>
+<area shape="rect" id="node21" href="map__grid_8h.html" title="map_grid.h" alt="" coords="645,333,731,360"/>
+<area shape="rect" id="node23" href="file__format_8h.html" title="fileformats/file_format.h" alt="" coords="1666,333,1825,360"/>
+<area shape="rect" id="node26" href="map__part_8h.html" title="map_part.h" alt="" coords="93,333,179,360"/>
+<area shape="rect" id="node30" href="path__coord_8h.html" title="core/path_coord.h" alt="" coords="2002,333,2129,360"/>
+<area shape="rect" id="node31" href="virtual__path_8h.html" title="core/virtual_path.h" alt="" coords="1898,259,2027,285"/>
+<area shape="rect" id="node33" href="renderable_8h.html" title="core/renderables/renderable.h" alt="" coords="1158,259,1351,285"/>
+<area shape="rect" id="node32" href="virtual__coord__vector_8h.html" title="virtual_coord_vector.h" alt="" coords="2153,333,2303,360"/>
+<area shape="rect" id="node36" href="map__color_8h.html" title="core/map_color.h" alt="" coords="1033,333,1156,360"/>
+<area shape="rect" id="node43" href="symbol__properties__widget_8h.html" title="gui/symbols/symbol\l_properties_widget.h" alt="" coords="2277,169,2419,211"/>
 </map>
 </div>
 </div></div><!-- contents -->

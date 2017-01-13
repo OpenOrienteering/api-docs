@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Mapper: src/object_undo.h File Reference</title>
+<title>Mapper: src/undo/object_undo.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -85,7 +85,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_234b955ed80ed6797a4ae9a06528bfb0.html">undo</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -95,56 +95,56 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">object_undo.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/3c84c31/src/object_undo.h"><tt>3c84c31</tt></a> on 12 Jan 2015)</h3><div class="textblock"><code>#include &lt;map&gt;</code><br />
-<code>#include &quot;<a class="el" href="object_8h.html">object.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="symbol_8h.html">symbol.h</a>&quot;</code><br />
+<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/4d041c2/src/undo/object_undo.h"><tt>4d041c2</tt></a> on 8 Jan 2017)</h3><div class="textblock"><code>#include &lt;map&gt;</code><br />
+<code>#include &quot;<a class="el" href="object_8h.html">core/objects/object.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="symbol_8h.html">core/symbols/symbol.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="undo_8h.html">undo.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for object_undo.h:</div>
 <div class="dyncontent">
-<div class="center"><img src="object__undo_8h__incl.png" border="0" usemap="#src_2object__undo_8h" alt=""/></div>
-<map name="src_2object__undo_8h" id="src_2object__undo_8h">
-<area shape="rect" id="node3" href="object_8h.html" title="object.h" alt="" coords="761,80,829,107"/>
-<area shape="rect" id="node27" href="symbol_8h.html" title="symbol.h" alt="" coords="1369,155,1444,181"/>
-<area shape="rect" id="node30" href="undo_8h.html" title="undo.h" alt="" coords="1505,80,1567,107"/>
+<div class="center"><img src="object__undo_8h__incl.png" border="0" usemap="#src_2undo_2object__undo_8h" alt=""/></div>
+<map name="src_2undo_2object__undo_8h" id="src_2undo_2object__undo_8h">
+<area shape="rect" id="node3" href="object_8h.html" title="core/objects/object.h" alt="" coords="723,80,866,107"/>
+<area shape="rect" id="node27" href="symbol_8h.html" title="core/symbols/symbol.h" alt="" coords="1361,155,1518,181"/>
+<area shape="rect" id="node30" href="undo_8h.html" title="undo.h" alt="" coords="1554,80,1616,107"/>
 <area shape="rect" id="node8" href="map__coord_8h.html" title="core/map_coord.h" alt="" coords="1159,304,1286,331"/>
-<area shape="rect" id="node13" href="path__coord_8h.html" title="core/path_coord.h" alt="" coords="833,229,959,256"/>
-<area shape="rect" id="node14" href="virtual__path_8h.html" title="core/virtual_path.h" alt="" coords="833,155,962,181"/>
-<area shape="rect" id="node16" href="file__format_8h.html" title="file_format.h" alt="" coords="1362,229,1457,256"/>
-<area shape="rect" id="node19" href="renderable_8h.html" title="renderable.h" alt="" coords="465,155,559,181"/>
+<area shape="rect" id="node13" href="path__coord_8h.html" title="core/path_coord.h" alt="" coords="832,229,959,256"/>
+<area shape="rect" id="node14" href="virtual__path_8h.html" title="core/virtual_path.h" alt="" coords="832,155,962,181"/>
+<area shape="rect" id="node16" href="file__format_8h.html" title="fileformats/file_format.h" alt="" coords="1362,229,1520,256"/>
+<area shape="rect" id="node19" href="renderable_8h.html" title="core/renderables/renderable.h" alt="" coords="384,155,578,181"/>
 <area shape="rect" id="node15" href="virtual__coord__vector_8h.html" title="virtual_coord_vector.h" alt="" coords="983,229,1134,256"/>
-<area shape="rect" id="node22" href="map__color_8h.html" title="core/map_color.h" alt="" coords="315,229,437,256"/>
+<area shape="rect" id="node22" href="map__color_8h.html" title="core/map_color.h" alt="" coords="314,229,437,256"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="object__undo_8h__dep__incl.png" border="0" usemap="#src_2object__undo_8hdep" alt=""/></div>
-<map name="src_2object__undo_8hdep" id="src_2object__undo_8hdep">
-<area shape="rect" id="node2" href="tags__widget_8cpp.html" title="src/gui/widgets/tags\l_widget.cpp" alt="" coords="5,80,144,121"/>
-<area shape="rect" id="node3" href="map_8cpp.html" title="src/map.cpp" alt="" coords="169,87,263,114"/>
-<area shape="rect" id="node4" href="map__editor_8cpp.html" title="src/map_editor.cpp" alt="" coords="288,87,421,114"/>
-<area shape="rect" id="node5" href="map__part_8cpp.html" title="src/map_part.cpp" alt="" coords="445,87,568,114"/>
-<area shape="rect" id="node6" href="object__undo_8cpp.html" title="src/object_undo.cpp" alt="" coords="592,87,731,114"/>
-<area shape="rect" id="node7" href="template__track_8cpp.html" title="src/template_track.cpp" alt="" coords="755,87,909,114"/>
-<area shape="rect" id="node8" href="tool_8cpp.html" title="src/tool.cpp" alt="" coords="933,87,1024,114"/>
-<area shape="rect" id="node9" href="tool__base_8cpp.html" title="src/tool_base.cpp" alt="" coords="1048,87,1173,114"/>
-<area shape="rect" id="node10" href="tool__boolean_8cpp.html" title="src/tool_boolean.cpp" alt="" coords="1198,87,1341,114"/>
-<area shape="rect" id="node11" href="tool__cut_8cpp.html" title="src/tool_cut.cpp" alt="" coords="1365,87,1480,114"/>
-<area shape="rect" id="node12" href="tool__cut__hole_8cpp.html" title="src/tool_cut_hole.cpp" alt="" coords="1504,87,1651,114"/>
-<area shape="rect" id="node13" href="tool__cutout_8cpp.html" title="src/tool_cutout.cpp" alt="" coords="1675,87,1808,114"/>
-<area shape="rect" id="node14" href="tool__distribute__points_8cpp.html" title="src/tool_distribute\l_points.cpp" alt="" coords="1832,80,1957,121"/>
-<area shape="rect" id="node15" href="tool__draw__line__and__area_8cpp.html" title="src/tool_draw_line\l_and_area.cpp" alt="" coords="1982,80,2109,121"/>
-<area shape="rect" id="node16" href="tool__draw__path_8cpp.html" title="src/tool_draw_path.cpp" alt="" coords="2133,87,2291,114"/>
-<area shape="rect" id="node17" href="tool__draw__point_8cpp.html" title="src/tool_draw_point.cpp" alt="" coords="2315,87,2475,114"/>
-<area shape="rect" id="node18" href="tool__draw__point__gps_8cpp.html" title="src/tool_draw_point\l_gps.cpp" alt="" coords="2499,80,2634,121"/>
-<area shape="rect" id="node19" href="tool__draw__text_8cpp.html" title="src/tool_draw_text.cpp" alt="" coords="2659,87,2813,114"/>
-<area shape="rect" id="node20" href="tool__edit_8cpp.html" title="src/tool_edit.cpp" alt="" coords="2837,87,2955,114"/>
-<area shape="rect" id="node21" href="tool__edit__line_8cpp.html" title="src/tool_edit_line.cpp" alt="" coords="2979,87,3125,114"/>
-<area shape="rect" id="node22" href="tool__edit__point_8cpp.html" title="src/tool_edit_point.cpp" alt="" coords="3149,87,3302,114"/>
-<area shape="rect" id="node23" href="tool__fill_8cpp.html" title="src/tool_fill.cpp" alt="" coords="3326,87,3437,114"/>
-<area shape="rect" id="node24" href="undo_8cpp.html" title="src/undo.cpp" alt="" coords="3461,87,3558,114"/>
-<area shape="rect" id="node25" href="undo__manager_8cpp.html" title="src/undo_manager.cpp" alt="" coords="3583,87,3737,114"/>
+<div class="center"><img src="object__undo_8h__dep__incl.png" border="0" usemap="#src_2undo_2object__undo_8hdep" alt=""/></div>
+<map name="src_2undo_2object__undo_8hdep" id="src_2undo_2object__undo_8hdep">
+<area shape="rect" id="node2" href="map_8cpp.html" title="src/core/map.cpp" alt="" coords="5,87,128,114"/>
+<area shape="rect" id="node3" href="map__part_8cpp.html" title="src/core/map_part.cpp" alt="" coords="152,87,304,114"/>
+<area shape="rect" id="node4" href="map__editor_8cpp.html" title="src/gui/map/map_editor.cpp" alt="" coords="329,87,511,114"/>
+<area shape="rect" id="node5" href="tags__widget_8cpp.html" title="src/gui/widgets/tags\l_widget.cpp" alt="" coords="536,80,675,121"/>
+<area shape="rect" id="node6" href="template__track_8cpp.html" title="src/templates/template\l_track.cpp" alt="" coords="699,80,853,121"/>
+<area shape="rect" id="node7" href="boolean__tool_8cpp.html" title="src/tools/boolean_tool.cpp" alt="" coords="878,87,1053,114"/>
+<area shape="rect" id="node8" href="cut__hole__tool_8cpp.html" title="src/tools/cut_hole\l_tool.cpp" alt="" coords="1077,80,1203,121"/>
+<area shape="rect" id="node9" href="cut__tool_8cpp.html" title="src/tools/cut_tool.cpp" alt="" coords="1227,87,1373,114"/>
+<area shape="rect" id="node10" href="cutout__tool_8cpp.html" title="src/tools/cutout_tool.cpp" alt="" coords="1397,87,1563,114"/>
+<area shape="rect" id="node11" href="distribute__points__tool_8cpp.html" title="src/tools/distribute\l_points_tool.cpp" alt="" coords="1587,80,1717,121"/>
+<area shape="rect" id="node12" href="draw__line__and__area__tool_8cpp.html" title="src/tools/draw_line\l_and_area_tool.cpp" alt="" coords="1741,80,1875,121"/>
+<area shape="rect" id="node13" href="draw__path__tool_8cpp.html" title="src/tools/draw_path\l_tool.cpp" alt="" coords="1900,80,2036,121"/>
+<area shape="rect" id="node14" href="draw__point__gps__tool_8cpp.html" title="src/tools/draw_point\l_gps_tool.cpp" alt="" coords="2060,80,2199,121"/>
+<area shape="rect" id="node15" href="draw__point__tool_8cpp.html" title="src/tools/draw_point\l_tool.cpp" alt="" coords="2223,80,2361,121"/>
+<area shape="rect" id="node16" href="draw__text__tool_8cpp.html" title="src/tools/draw_text\l_tool.cpp" alt="" coords="2385,80,2519,121"/>
+<area shape="rect" id="node17" href="edit__line__tool_8cpp.html" title="src/tools/edit_line\l_tool.cpp" alt="" coords="2543,80,2667,121"/>
+<area shape="rect" id="node18" href="edit__point__tool_8cpp.html" title="src/tools/edit_point\l_tool.cpp" alt="" coords="2691,80,2823,121"/>
+<area shape="rect" id="node19" href="edit__tool_8cpp.html" title="src/tools/edit_tool.cpp" alt="" coords="2847,87,2998,114"/>
+<area shape="rect" id="node20" href="fill__tool_8cpp.html" title="src/tools/fill_tool.cpp" alt="" coords="3022,87,3165,114"/>
+<area shape="rect" id="node21" href="tool_8cpp.html" title="src/tools/tool.cpp" alt="" coords="3189,87,3312,114"/>
+<area shape="rect" id="node22" href="tool__base_8cpp.html" title="src/tools/tool_base.cpp" alt="" coords="3336,87,3493,114"/>
+<area shape="rect" id="node23" href="object__undo_8cpp.html" title="src/undo/object_undo.cpp" alt="" coords="3517,87,3688,114"/>
+<area shape="rect" id="node24" href="undo_8cpp.html" title="src/undo/undo.cpp" alt="" coords="3713,87,3842,114"/>
+<area shape="rect" id="node25" href="undo__manager_8cpp.html" title="src/undo/undo_manager.cpp" alt="" coords="3867,87,4053,114"/>
 </map>
 </div>
 </div><table class="memberdecls">

@@ -100,7 +100,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <p>Tool to draw circles and ellipses.  
  <a href="classDrawCircleTool.html#details">More...</a></p>
 
-<p><code>#include &lt;tool_draw_circle.h&gt;</code></p>
+<p><code>#include &lt;draw_circle_tool.h&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for DrawCircleTool:</div>
 <div class="dyncontent">
@@ -380,16 +380,6 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:affaee5cd3a8874698e22207356d0b2c6 inherit pro_methods_classMapEditorTool"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorTool.html#affaee5cd3a8874698e22207356d0b2c6">drawSelectionBox</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpainter.html">QPainter</a> *painter, <a class="el" href="classMapWidget.html">MapWidget</a> *widget, const <a class="el" href="classMapCoordF.html">MapCoordF</a> &amp;corner1, const <a class="el" href="classMapCoordF.html">MapCoordF</a> &amp;corner2) const </td></tr>
 <tr class="memdesc:affaee5cd3a8874698e22207356d0b2c6 inherit pro_methods_classMapEditorTool"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a selection box for the given corner points.  <a href="#affaee5cd3a8874698e22207356d0b2c6">More...</a><br /></td></tr>
 <tr class="separator:affaee5cd3a8874698e22207356d0b2c6 inherit pro_methods_classMapEditorTool"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ccc825b10bebcec500fc6734c2698f5 inherit pro_methods_classMapEditorTool"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorTool.html#a4ccc825b10bebcec500fc6734c2698f5">startEditingSelection</a> (<a class="el" href="classMapRenderables.html">MapRenderables</a> &amp;old_renderables)</td></tr>
-<tr class="separator:a4ccc825b10bebcec500fc6734c2698f5 inherit pro_methods_classMapEditorTool"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaabc6cf80e9b22b3ab6457464af29829 inherit pro_methods_classMapEditorTool"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorTool.html#aaabc6cf80e9b22b3ab6457464af29829">resetEditedObjects</a> ()</td></tr>
-<tr class="separator:aaabc6cf80e9b22b3ab6457464af29829 inherit pro_methods_classMapEditorTool"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0bdf1cbc2b81e438f6a5bffa3130ce2a inherit pro_methods_classMapEditorTool"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorTool.html#a0bdf1cbc2b81e438f6a5bffa3130ce2a">finishEditingSelection</a> (<a class="el" href="classMapRenderables.html">MapRenderables</a> &amp;renderables, <a class="el" href="classMapRenderables.html">MapRenderables</a> &amp;old_renderables, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> create_undo_step, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> delete_objects=false)</td></tr>
-<tr class="separator:a0bdf1cbc2b81e438f6a5bffa3130ce2a inherit pro_methods_classMapEditorTool"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af64ef1134dba06a09ee9279423408084 inherit pro_methods_classMapEditorTool"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorTool.html#af64ef1134dba06a09ee9279423408084">updateSelectionEditPreview</a> (<a class="el" href="classMapRenderables.html">MapRenderables</a> &amp;renderables)</td></tr>
-<tr class="separator:af64ef1134dba06a09ee9279423408084 inherit pro_methods_classMapEditorTool"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2990c3e19324c91765ee494db85e5db8 inherit pro_methods_classMapEditorTool"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorTool.html#a2990c3e19324c91765ee494db85e5db8">deleteOldSelectionRenderables</a> (<a class="el" href="classMapRenderables.html">MapRenderables</a> &amp;old_renderables, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> set_area_dirty)</td></tr>
-<tr class="separator:a2990c3e19324c91765ee494db85e5db8 inherit pro_methods_classMapEditorTool"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64abad943d125e597f74d89776b8ac7a inherit pro_methods_classMapEditorTool"><td class="memItemLeft" align="right" valign="top">MapCoordVector::size_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorTool.html#a64abad943d125e597f74d89776b8ac7a">findHoverPoint</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpointf.html">QPointF</a> cursor, const <a class="el" href="classMapWidget.html">MapWidget</a> *widget, const <a class="el" href="classObject.html">Object</a> *object, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> include_curve_handles, <a class="el" href="classMapCoordF.html">MapCoordF</a> *out_handle_pos=nullptr) const </td></tr>
 <tr class="memdesc:a64abad943d125e597f74d89776b8ac7a inherit pro_methods_classMapEditorTool"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds and returns the point of the given object over which the cursor hovers.  <a href="#a64abad943d125e597f74d89776b8ac7a">More...</a><br /></td></tr>
 <tr class="separator:a64abad943d125e597f74d89776b8ac7a inherit pro_methods_classMapEditorTool"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -715,7 +705,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the cursor which should be used for the tool in the editor windows. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000057">Todo:</a></b></dt><dd>How to change the cursor for all map widgets while a tool is active? </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000070">Todo:</a></b></dt><dd>How to change the cursor for all map widgets while a tool is active? </dd></dl>
 
 <p>Implements <a class="el" href="classMapEditorTool.html#ac5b05c7fc78bef092cedc4e33900f4e8">MapEditorTool</a>.</p>
 
@@ -1175,8 +1165,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/<a class="el" href="tool__draw__circle_8h.html">tool_draw_circle.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/aa7429a/src/tool_draw_circle.h"><tt>aa7429a</tt></a> on 15 Nov 2015)</li>
-<li>src/<a class="el" href="tool__draw__circle_8cpp.html">tool_draw_circle.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/f7b0478/src/tool_draw_circle.cpp"><tt>f7b0478</tt></a> on 10 Apr 2016)</li>
+<li>src/tools/<a class="el" href="draw__circle__tool_8h.html">draw_circle_tool.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/5034328/src/tools/draw_circle_tool.h"><tt>5034328</tt></a> on 8 Jan 2017)</li>
+<li>src/tools/<a class="el" href="draw__circle__tool_8cpp.html">draw_circle_tool.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/9ee00e4/src/tools/draw_circle_tool.cpp"><tt>9ee00e4</tt></a> on 8 Jan 2017)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

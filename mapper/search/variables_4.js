@@ -5,7 +5,7 @@ var searchData=
   ['edges',['Edges',['http://doc.qt.io/qt-5/qt.html#Edge-enum',1,'Qt']]],
   ['edit_5fmode',['edit_mode',['../structOcd_1_1SetupV8.html#a439340e1c2e565287ecb3cae5cc8bfee',1,'Ocd::SetupV8']]],
   ['edit_5fobject',['edit_object',['../classCutTool.html#aa78a97ddd19f91093ac9ae03b9c6fadf',1,'CutTool']]],
-  ['edit_5fwidget',['edit_widget',['../classCutTool.html#a792909fe667acaddbc6740323da0b2a4',1,'CutTool::edit_widget()'],['../classCutHoleTool.html#ada2c94eed512a5c26653346f27b06b83',1,'CutHoleTool::edit_widget()']]],
+  ['edit_5fwidget',['edit_widget',['../classCutHoleTool.html#ada2c94eed512a5c26653346f27b06b83',1,'CutHoleTool']]],
   ['editor',['editor',['../classMapEditorTool.html#a8aca37fc333034981c06834a2978c559',1,'MapEditorTool::editor()'],['../structTestMapEditor.html#abbfe351d43f4b3e0e3c51b0a58eb6037',1,'TestMapEditor::editor()']]],
   ['edittriggers',['EditTriggers',['http://doc.qt.io/qt-5/qabstractitemview.html#EditTrigger-enum',1,'QAbstractItemView']]],
   ['elevation',['elevation',['../structTrackPoint.html#a199c2a97a851a5227e2927165a9ce223',1,'TrackPoint']]],
@@ -19,7 +19,7 @@ var searchData=
   ['end_5fdata_5fsize',['end_data_size',['../structOcd_1_1LineSymbolCommonV8.html#a71cf09f1db473851f74980b96dd542d2',1,'Ocd::LineSymbolCommonV8']]],
   ['end_5fgap',['end_gap',['../structOcd_1_1LineSymbolCommonV8.html#a6a12e77f48119144b4a0cbbba38db579',1,'Ocd::LineSymbolCommonV8']]],
   ['end_5findex',['end_index',['../classTextObjectPartInfo.html#a5ec096cd44fc20f7a03bc91207e3d4d2',1,'TextObjectPartInfo::end_index()'],['../structTextObjectLineInfo.html#ad9878dd5dc5962dfdf9ed1c5cc0b85f9',1,'TextObjectLineInfo::end_index()']]],
-  ['end_5flength',['end_length',['../structOcd_1_1LineSymbolCommonV8.html#ac1055202795a055a7e07eb0474fc9e60',1,'Ocd::LineSymbolCommonV8::end_length()'],['../classLineSymbol.html#a77df4038ffca681b35161e870b60b819',1,'LineSymbol::end_length()']]],
+  ['end_5flength',['end_length',['../classLineSymbol.html#a77df4038ffca681b35161e870b60b819',1,'LineSymbol::end_length()'],['../structOcd_1_1LineSymbolCommonV8.html#ac1055202795a055a7e07eb0474fc9e60',1,'Ocd::LineSymbolCommonV8::end_length()']]],
   ['end_5fsymbol',['end_symbol',['../classLineSymbol.html#ab5ed5ee75eca50f902425e4eb440a361',1,'LineSymbol']]],
   ['engine',['engine',['../classPrinterPropertiesDialog.html#a73f31bf5ac6cd29c7df0652177e0b894',1,'PrinterPropertiesDialog']]],
   ['entries',['entries',['../structOcd_1_1IndexBlock.html#ab465847aaca4fab0624d6346430df518',1,'Ocd::IndexBlock']]],
@@ -31,6 +31,6 @@ var searchData=
   ['evaluate_5fcmyk_5foption',['evaluate_cmyk_option',['../classColorDialog.html#ab7d75ea5801c9a6b33616f26d2665836',1,'ColorDialog']]],
   ['evaluate_5frgb_5foption',['evaluate_rgb_option',['../classColorDialog.html#a839057bbb024ec1f4abcafe3bbd32457',1,'ColorDialog']]],
   ['export_5fsetup',['export_setup',['../structOcd_1_1SetupV8.html#ae6f64eaefbdba0b79efa9115381298e1',1,'Ocd::SetupV8']]],
-  ['extent',['extent',['../structOcd_1_1BaseSymbolV11.html#ac764e62a2fa30f25c8e731bfa6c3c191',1,'Ocd::BaseSymbolV11::extent()'],['../structOcd_1_1BaseSymbolV8.html#a463d51855426c76cae75c57623da1724',1,'Ocd::BaseSymbolV8::extent()'],['../structOcd_1_1BaseSymbolV9.html#a044e50776c31f2aa688ac0712f45f105',1,'Ocd::BaseSymbolV9::extent()'],['../classRenderable.html#ad48dcfdfd77b0ae1574d84da019ae9ca',1,'Renderable::extent()']]],
+  ['extent',['extent',['../classRenderable.html#ad48dcfdfd77b0ae1574d84da019ae9ca',1,'Renderable::extent()'],['../structOcd_1_1BaseSymbolV11.html#ac764e62a2fa30f25c8e731bfa6c3c191',1,'Ocd::BaseSymbolV11::extent()'],['../structOcd_1_1BaseSymbolV8.html#a463d51855426c76cae75c57623da1724',1,'Ocd::BaseSymbolV8::extent()'],['../structOcd_1_1BaseSymbolV9.html#a044e50776c31f2aa688ac0712f45f105',1,'Ocd::BaseSymbolV9::extent()']]],
   ['extrastringhandlers',['extraStringHandlers',['../classOcdFileImport.html#ad63d734c1817141f749dde4797942b81',1,'OcdFileImport']]]
 ];

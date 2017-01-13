@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Mapper: src/util.cpp File Reference</title>
+<title>Mapper: src/util/util.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -85,7 +85,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_b7878ad5ecbf2506f4125b9d34c97e45.html">util</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -96,7 +96,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">util.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/8f7a9d3/src/util.cpp"><tt>8f7a9d3</tt></a> on 6 Jun 2016)</h3><div class="textblock"><code>#include &quot;<a class="el" href="util_8h.html">util.h</a>&quot;</code><br />
+<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/9ee00e4/src/util/util.cpp"><tt>9ee00e4</tt></a> on 8 Jan 2017)</h3><div class="textblock"><code>#include &quot;<a class="el" href="util_8h.html">util.h</a>&quot;</code><br />
 <code>#include &lt;QApplication&gt;</code><br />
 <code>#include &lt;QDebug&gt;</code><br />
 <code>#include &lt;QDir&gt;</code><br />
@@ -114,8 +114,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for util.cpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="util_8cpp__incl.png" border="0" usemap="#src_2util_8cpp" alt=""/></div>
-<map name="src_2util_8cpp" id="src_2util_8cpp">
+<div class="center"><img src="util_8cpp__incl.png" border="0" usemap="#src_2util_2util_8cpp" alt=""/></div>
+<map name="src_2util_2util_8cpp" id="src_2util_2util_8cpp">
 <area shape="rect" id="node2" href="util_8h.html" title="util.h" alt="" coords="181,80,232,107"/>
 <area shape="rect" id="node16" href="map__coord_8h.html" title="core/map_coord.h" alt="" coords="1167,80,1294,107"/>
 <area shape="rect" id="node22" href="mapper__resource_8h.html" title="mapper_resource.h" alt="" coords="1319,80,1452,107"/>
@@ -143,13 +143,13 @@ Functions</h2></td></tr>
 <tr class="memdesc:ac93e7a375756769c66b8f3e2d11b24a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enlarges the rect to include the given point.  <a href="#ac93e7a375756769c66b8f3e2d11b24a4">More...</a><br /></td></tr>
 <tr class="separator:ac93e7a375756769c66b8f3e2d11b24a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a169f0a2672b6f41370a5eb09d3809df0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="util_8cpp.html#a169f0a2672b6f41370a5eb09d3809df0">rectInclude</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> &amp;rect, const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> &amp;other_rect)</td></tr>
-<tr class="memdesc:a169f0a2672b6f41370a5eb09d3809df0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enlarges the rect to include the given rect.  <a href="#a169f0a2672b6f41370a5eb09d3809df0">More...</a><br /></td></tr>
+<tr class="memdesc:a169f0a2672b6f41370a5eb09d3809df0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enlarges the rect to include the given other_rect.  <a href="#a169f0a2672b6f41370a5eb09d3809df0">More...</a><br /></td></tr>
 <tr class="separator:a169f0a2672b6f41370a5eb09d3809df0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba9fd63e0e30333026942c9289db54be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="util_8cpp.html#aba9fd63e0e30333026942c9289db54be">rectIncludeSafe</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> &amp;rect, const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> &amp;other_rect)</td></tr>
-<tr class="memdesc:aba9fd63e0e30333026942c9289db54be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enlarges the rect to include the given rect.  <a href="#aba9fd63e0e30333026942c9289db54be">More...</a><br /></td></tr>
+<tr class="memdesc:aba9fd63e0e30333026942c9289db54be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enlarges the rect to include the given other_rect.  <a href="#aba9fd63e0e30333026942c9289db54be">More...</a><br /></td></tr>
 <tr class="separator:aba9fd63e0e30333026942c9289db54be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1af303eedd45ad2774f93f07923425c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="util_8cpp.html#ad1af303eedd45ad2774f93f07923425c">rectIncludeSafe</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrect.html">QRect</a> &amp;rect, const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrect.html">QRect</a> &amp;other_rect)</td></tr>
-<tr class="memdesc:ad1af303eedd45ad2774f93f07923425c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enlarges the rect to include the given rect.  <a href="#ad1af303eedd45ad2774f93f07923425c">More...</a><br /></td></tr>
+<tr class="memdesc:ad1af303eedd45ad2774f93f07923425c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enlarges the rect to include the given other_rect.  <a href="#ad1af303eedd45ad2774f93f07923425c">More...</a><br /></td></tr>
 <tr class="separator:ad1af303eedd45ad2774f93f07923425c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6801c52b809b0d4b2b8270e6f0c2c1bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="util_8cpp.html#a6801c52b809b0d4b2b8270e6f0c2c1bf">lineIntersectsRect</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> &amp;rect, const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpointf.html">QPointF</a> &amp;p1, const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpointf.html">QPointF</a> &amp;p2)</td></tr>
 <tr class="memdesc:a6801c52b809b0d4b2b8270e6f0c2c1bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks for line - rect intersection.  <a href="#a6801c52b809b0d4b2b8270e6f0c2c1bf">More...</a><br /></td></tr>
@@ -401,7 +401,8 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Enlarges the rect to include the given point. </p>
-<p>WARNING, does not work if rect is an invalid rect before! </p>
+<p>The given rect must be valid.</p>
+<dl class="section see"><dt>See also</dt><dd><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html#isValid">QRectF::isValid()</a> </dd></dl>
 
 </div>
 </div>
@@ -429,8 +430,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Enlarges the rect to include the given rect. </p>
-<p>WARNING, does not work if rect is an invalid rect before! </p>
+<p>Enlarges the rect to include the given other_rect. </p>
+<p>Both rectangles must be valid.</p>
+<dl class="section see"><dt>See also</dt><dd><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html#isValid">QRectF::isValid()</a> </dd></dl>
 
 </div>
 </div>
@@ -459,6 +461,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Enlarges the rect to include the given point. </p>
+<p>If the given rect isn't valid, width and height are set to a small positive value. </p>
 
 </div>
 </div>
@@ -486,7 +489,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Enlarges the rect to include the given rect. </p>
+<p>Enlarges the rect to include the given other_rect. </p>
+<p>At least one rectangle must be valid. </p>
 
 </div>
 </div>
@@ -514,7 +518,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Enlarges the rect to include the given rect. </p>
+<p>Enlarges the rect to include the given other_rect. </p>
+<p>At least one rectangle must be valid.</p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000075">Todo:</a></b></dt><dd>Check if <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qregion.html">QRegion</a> could be used instead. </dd></dl>
 
 </div>
 </div>

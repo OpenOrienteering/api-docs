@@ -29,7 +29,7 @@ var searchData=
   ['hidden_5fitems',['hidden_items',['../classActionGridBar.html#a4d034dc57db77e674db202fa008352cb',1,'ActionGridBar']]],
   ['hide_5ftemplates_5fignored',['hide_templates_IGNORED',['../structOcd_1_1SetupV8.html#aff84971568aa0caa2fee609c0347c84f',1,'Ocd::SetupV8']]],
   ['hole_5ftype',['hole_type',['../classCutHoleTool.html#ae348f5cfcafdda642de60f9d458592f7',1,'CutHoleTool']]],
-  ['hover_5fobject',['hover_object',['../classCutTool.html#a81ad180815ee81e4b7665532e0c1add6',1,'CutTool::hover_object()'],['../classEditPointTool.html#a7868a24d51b96fe5675f1b303e57fdce',1,'EditPointTool::hover_object()']]],
+  ['hover_5fobject',['hover_object',['../classCutTool.html#a0ab12a9299dd0d8078f1e5d0605df114',1,'CutTool::hover_object()'],['../classEditPointTool.html#a7868a24d51b96fe5675f1b303e57fdce',1,'EditPointTool::hover_object()']]],
   ['hover_5fpoint',['hover_point',['../classCutTool.html#aeabb2cbdb13db1e09aaa66c97a5b83e9',1,'CutTool::hover_point()'],['../classEditPointTool.html#a01dc1139efd3af30d6579729437f699d',1,'EditPointTool::hover_point()']]],
   ['hover_5fstate',['hover_state',['../classCutTool.html#afac7acfbbfc97191a3809c06a7655179',1,'CutTool::hover_state()'],['../classEditPointTool.html#a1348e4e32483ab50977a234ebc91fd4c',1,'EditPointTool::hover_state()']]],
   ['html_5fedit',['html_edit',['../classColorDialog.html#ad730a5b57c2f5c79f284fec200dcaddd',1,'ColorDialog']]]

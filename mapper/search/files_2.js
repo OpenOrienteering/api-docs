@@ -14,6 +14,8 @@ var searchData=
   ['color_5fdock_5fwidget_2eh',['color_dock_widget.h',['../color__dock__widget_8h.html',1,'']]],
   ['color_5fdropdown_2ecpp',['color_dropdown.cpp',['../color__dropdown_8cpp.html',1,'']]],
   ['color_5fdropdown_2eh',['color_dropdown.h',['../color__dropdown_8h.html',1,'']]],
+  ['combined_5fsymbol_2ecpp',['combined_symbol.cpp',['../combined__symbol_8cpp.html',1,'']]],
+  ['combined_5fsymbol_2eh',['combined_symbol.h',['../combined__symbol_8h.html',1,'']]],
   ['compass_2ecpp',['compass.cpp',['../compass_8cpp.html',1,'']]],
   ['compass_2eh',['compass.h',['../compass_8h.html',1,'']]],
   ['compass_5fdisplay_2ecpp',['compass_display.cpp',['../compass__display_8cpp.html',1,'']]],
@@ -31,5 +33,11 @@ var searchData=
   ['crs_5ftemplate_2ecpp',['crs_template.cpp',['../crs__template_8cpp.html',1,'']]],
   ['crs_5ftemplate_2eh',['crs_template.h',['../crs__template_8h.html',1,'']]],
   ['crs_5ftemplate_5fimplementation_2ecpp',['crs_template_implementation.cpp',['../crs__template__implementation_8cpp.html',1,'']]],
-  ['crs_5ftemplate_5fimplementation_2eh',['crs_template_implementation.h',['../crs__template__implementation_8h.html',1,'']]]
+  ['crs_5ftemplate_5fimplementation_2eh',['crs_template_implementation.h',['../crs__template__implementation_8h.html',1,'']]],
+  ['cut_5fhole_5ftool_2ecpp',['cut_hole_tool.cpp',['../cut__hole__tool_8cpp.html',1,'']]],
+  ['cut_5fhole_5ftool_2eh',['cut_hole_tool.h',['../cut__hole__tool_8h.html',1,'']]],
+  ['cut_5ftool_2ecpp',['cut_tool.cpp',['../cut__tool_8cpp.html',1,'']]],
+  ['cut_5ftool_2eh',['cut_tool.h',['../cut__tool_8h.html',1,'']]],
+  ['cutout_5ftool_2ecpp',['cutout_tool.cpp',['../cutout__tool_8cpp.html',1,'']]],
+  ['cutout_5ftool_2eh',['cutout_tool.h',['../cutout__tool_8h.html',1,'']]]
 ];

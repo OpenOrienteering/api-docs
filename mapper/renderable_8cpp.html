@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Mapper: src/renderable.cpp File Reference</title>
+<title>Mapper: src/core/renderables/renderable.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -85,7 +85,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_aebb8dcc11953d78e620bbef0b9e2183.html">core</a></li><li class="navelem"><a class="el" href="dir_a765fd64420fe5cad8a4c050261d9eb5.html">renderables</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -95,35 +95,35 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">renderable.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/fe280b7/src/renderable.cpp"><tt>fe280b7</tt></a> on 24 Jul 2016)</h3><div class="textblock"><code>#include &quot;<a class="el" href="renderable_8h.html">renderable.h</a>&quot;</code><br />
+<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/9ee00e4/src/core/renderables/renderable.cpp"><tt>9ee00e4</tt></a> on 8 Jan 2017)</h3><div class="textblock"><code>#include &quot;<a class="el" href="renderable_8h.html">renderable.h</a>&quot;</code><br />
 <code>#include &lt;QPainter&gt;</code><br />
 <code>#include &lt;qmath.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="image__transparency__fixup_8h.html">core/image_transparency_fixup.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="map__color_8h.html">core/map_color.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="map_8h.html">map.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="object_8h.html">object.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="symbol_8h.html">symbol.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="util_8h.html">util.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="map_8h.html">core/map.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="object_8h.html">core/objects/object.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="symbol_8h.html">core/symbols/symbol.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="util_8h.html">util/util.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for renderable.cpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="renderable_8cpp__incl.png" border="0" usemap="#src_2renderable_8cpp" alt=""/></div>
-<map name="src_2renderable_8cpp" id="src_2renderable_8cpp">
-<area shape="rect" id="node2" href="renderable_8h.html" title="renderable.h" alt="" coords="476,169,569,196"/>
-<area shape="rect" id="node8" href="map__color_8h.html" title="core/map_color.h" alt="" coords="28,244,151,271"/>
-<area shape="rect" id="node15" href="image__transparency__fixup_8h.html" title="core/image_transparency\l_fixup.h" alt="" coords="2276,80,2444,121"/>
-<area shape="rect" id="node17" href="map_8h.html" title="map.h" alt="" coords="1185,169,1244,196"/>
-<area shape="rect" id="node33" href="object_8h.html" title="object.h" alt="" coords="1666,87,1734,114"/>
-<area shape="rect" id="node38" href="symbol_8h.html" title="symbol.h" alt="" coords="2312,169,2387,196"/>
-<area shape="rect" id="node40" href="util_8h.html" title="util.h" alt="" coords="2593,169,2644,196"/>
-<area shape="rect" id="node22" href="global_8h.html" title="global.h" alt="" coords="1131,244,1197,271"/>
-<area shape="rect" id="node23" href="map__coord_8h.html" title="core/map_coord.h" alt="" coords="1953,319,2079,345"/>
-<area shape="rect" id="node28" href="map__grid_8h.html" title="core/map_grid.h" alt="" coords="641,244,756,271"/>
-<area shape="rect" id="node29" href="file__format_8h.html" title="file_format.h" alt="" coords="2313,244,2407,271"/>
-<area shape="rect" id="node32" href="map__part_8h.html" title="map_part.h" alt="" coords="1222,244,1309,271"/>
-<area shape="rect" id="node35" href="path__coord_8h.html" title="core/path_coord.h" alt="" coords="1782,244,1909,271"/>
-<area shape="rect" id="node36" href="virtual__path_8h.html" title="core/virtual_path.h" alt="" coords="1738,169,1867,196"/>
-<area shape="rect" id="node37" href="virtual__coord__vector_8h.html" title="virtual_coord_vector.h" alt="" coords="2035,244,2186,271"/>
+<div class="center"><img src="renderable_8cpp__incl.png" border="0" usemap="#src_2core_2renderables_2renderable_8cpp" alt=""/></div>
+<map name="src_2core_2renderables_2renderable_8cpp" id="src_2core_2renderables_2renderable_8cpp">
+<area shape="rect" id="node2" href="renderable_8h.html" title="renderable.h" alt="" coords="476,184,569,211"/>
+<area shape="rect" id="node8" href="map__color_8h.html" title="core/map_color.h" alt="" coords="28,259,151,285"/>
+<area shape="rect" id="node15" href="image__transparency__fixup_8h.html" title="core/image_transparency\l_fixup.h" alt="" coords="2301,95,2469,136"/>
+<area shape="rect" id="node17" href="map_8h.html" title="core/map.h" alt="" coords="1145,184,1231,211"/>
+<area shape="rect" id="node33" href="object_8h.html" title="core/objects/object.h" alt="" coords="1602,102,1745,129"/>
+<area shape="rect" id="node38" href="symbol_8h.html" title="core/symbols/symbol.h" alt="" coords="2285,184,2443,211"/>
+<area shape="rect" id="node40" href="util_8h.html" title="util/util.h" alt="" coords="2621,184,2691,211"/>
+<area shape="rect" id="node22" href="global_8h.html" title="global.h" alt="" coords="1104,259,1171,285"/>
+<area shape="rect" id="node23" href="map__coord_8h.html" title="map_coord.h" alt="" coords="1953,333,2050,360"/>
+<area shape="rect" id="node28" href="map__grid_8h.html" title="map_grid.h" alt="" coords="642,259,729,285"/>
+<area shape="rect" id="node29" href="file__format_8h.html" title="fileformats/file_format.h" alt="" coords="2286,259,2445,285"/>
+<area shape="rect" id="node32" href="map__part_8h.html" title="map_part.h" alt="" coords="1195,259,1282,285"/>
+<area shape="rect" id="node35" href="path__coord_8h.html" title="core/path_coord.h" alt="" coords="1755,259,1882,285"/>
+<area shape="rect" id="node36" href="virtual__path_8h.html" title="core/virtual_path.h" alt="" coords="1711,184,1841,211"/>
+<area shape="rect" id="node37" href="virtual__coord__vector_8h.html" title="virtual_coord_vector.h" alt="" coords="2009,259,2159,285"/>
 </map>
 </div>
 </div><table class="memberdecls">

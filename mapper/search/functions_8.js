@@ -83,7 +83,7 @@ var searchData=
   ['hastracking',['hasTracking',['http://doc.qt.io/qt-5/qabstractslider.html#tracking-prop',1,'QAbstractSlider']]],
   ['hastransitions',['hasTransitions',['http://doc.qt.io/qt-5/qtimezone.html#hasTransitions',1,'QTimeZone']]],
   ['hasunsavedchanged',['hasUnsavedChanged',['../classMap.html#a1cb182a01641deeced92ee133f309582',1,'Map']]],
-  ['hasunsavedchanges',['hasUnsavedChanges',['../classMainWindow.html#aaa86ca45001cd31121ab8b0dcb55ed42',1,'MainWindow::hasUnsavedChanges()'],['../classMap.html#a5fd77a7d951f39a8adda956d99ba16a4',1,'Map::hasUnsavedChanges()'],['../classTemplate.html#a33b9cafcd2ba73af393f06ee468b5e1f',1,'Template::hasUnsavedChanges()']]],
+  ['hasunsavedchanges',['hasUnsavedChanges',['../classMap.html#a5fd77a7d951f39a8adda956d99ba16a4',1,'Map::hasUnsavedChanges()'],['../classMainWindow.html#aaa86ca45001cd31121ab8b0dcb55ed42',1,'MainWindow::hasUnsavedChanges()'],['../classTemplate.html#a33b9cafcd2ba73af393f06ee468b5e1f',1,'Template::hasUnsavedChanges()']]],
   ['hasurls',['hasUrls',['http://doc.qt.io/qt-5/qmimedata.html#hasUrls',1,'QMimeData']]],
   ['hasvalidposition',['hasValidPosition',['../classGPSDisplay.html#ac1ee4f298b51866b6b33b2fdee6d2a33',1,'GPSDisplay']]],
   ['hasvisitedpage',['hasVisitedPage',['http://doc.qt.io/qt-5/qwizard.html#hasVisitedPage',1,'QWizard']]],

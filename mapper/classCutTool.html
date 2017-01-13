@@ -89,7 +89,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
-<a href="#pub-slots">Public Slots</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
@@ -99,17 +98,18 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p>A tool to cut objects into smaller pieces.  
+<p>A tool to cut (split) lines and areas into smaller pieces.  
  <a href="classCutTool.html#details">More...</a></p>
 
-<p><code>#include &lt;tool_cut.h&gt;</code></p>
+<p><code>#include &lt;cut_tool.h&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for CutTool:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCutTool__inherit__graph.png" border="0" usemap="#CutTool_inherit__map" alt="Inheritance graph"/></div>
 <map name="CutTool_inherit__map" id="CutTool_inherit__map">
-<area shape="rect" id="node2" href="classMapEditorTool.html" title="An abstract tool for editing a map. " alt="" coords="5,80,112,107"/>
-<area shape="rect" id="node3" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html" title="QObject" alt="" coords="23,5,94,32"/>
+<area shape="rect" id="node2" href="classMapEditorToolBase.html" title="Provides a simple interface to base tools on. " alt="" coords="5,155,141,181"/>
+<area shape="rect" id="node3" href="classMapEditorTool.html" title="An abstract tool for editing a map. " alt="" coords="20,80,127,107"/>
+<area shape="rect" id="node4" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html" title="QObject" alt="" coords="38,5,109,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -117,46 +117,50 @@ Collaboration diagram for CutTool:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCutTool__coll__graph.png" border="0" usemap="#CutTool_coll__map" alt="Collaboration graph"/></div>
 <map name="CutTool_coll__map" id="CutTool_coll__map">
-<area shape="rect" id="node2" href="classMapEditorTool.html" title="An abstract tool for editing a map. " alt="" coords="2051,117,2158,144"/>
-<area shape="rect" id="node25" href="classDrawLineAndAreaTool.html" title="Base class for drawing tools for line and area symbols. " alt="" coords="2435,516,2587,543"/>
-<area shape="rect" id="node3" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html" title="QObject" alt="" coords="21,51,92,77"/>
-<area shape="rect" id="node5" href="classMainWindowController.html" title="A MainWindowController provides the specific content and behaviours for a main window, for example map drawing or course setting functions. " alt="" coords="1275,97,1428,124"/>
-<area shape="rect" id="node8" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html" title="QWidget" alt="" coords="273,156,347,183"/>
-<area shape="rect" id="node16" href="classMap.html" title="Central class for an OpenOrienteering map. " alt="" coords="459,565,505,592"/>
-<area shape="rect" id="node4" href="classMapEditorController.html" title="MainWindowController for editing a map. " alt="" coords="1615,107,1752,133"/>
-<area shape="rect" id="node6" href="classMainWindow.html" title="The MainWindow class provides the generic application window. " alt="" coords="903,97,1001,124"/>
-<area shape="rect" id="node7" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmainwindow.html" title="QMainWindow" alt="" coords="628,144,735,171"/>
-<area shape="rect" id="node12" href="classMapWidget.html" title="QWidget for displaying a map. " alt="" coords="2467,348,2555,375"/>
-<area shape="rect" id="node9" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpaintdevice.html" title="QPaintDevice" alt="" coords="5,109,108,136"/>
-<area shape="rect" id="node15" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qhash.html" title="QHash\&lt; QString, QString \&gt;" alt="" coords="391,701,573,728"/>
-<area shape="rect" id="node18" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html" title="QString" alt="" coords="277,359,343,385"/>
-<area shape="rect" id="node11" href="classAutosave.html" title="Class Autosave implements autosaving behaviour. " alt="" coords="643,93,720,120"/>
-<area shape="rect" id="node24" href="classDrawPathTool.html" title="Tool to draw arbitrarily shaped PathObjects. " alt="" coords="2784,557,2889,584"/>
-<area shape="rect" id="node13" href="classPathObject.html" title="Object type which can be used for line, area and combined symbols. " alt="" coords="2061,797,2148,824"/>
-<area shape="rect" id="node14" href="classObject.html" title="Abstract base class which combines coordinates and a symbol to form an object (in a map..." alt="" coords="922,692,982,719"/>
-<area shape="rect" id="node28" href="classPointObject.html" title="Object type which can only be used for point symbols, and is also the only object which can be used w..." alt="" coords="1306,688,1397,715"/>
-<area shape="rect" id="node17" href="classSymbol.html" title="Abstract base class for map symbols. " alt="" coords="648,508,715,535"/>
-<area shape="rect" id="node31" href="classPointSymbol.html" title="Symbol for PointObjects. " alt="" coords="1635,447,1731,473"/>
-<area shape="rect" id="node34" href="classMapColor.html" title="The MapColor class provides colors which may be used by symbols (and objects). " alt="" coords="642,293,721,320"/>
-<area shape="rect" id="node20" href="classMapCoord.html" title="Coordinates of a point in a map, with optional flags. " alt="" coords="269,763,351,789"/>
-<area shape="rect" id="node21" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qscopedpointer.html" title="QScopedPointer\&lt; MapRenderables \&gt;" alt="" coords="1985,736,2224,763"/>
-<area shape="rect" id="node22" href="classMapCoordF.html" title="Map coordinates stored as floating point numbers. " alt="" coords="2465,225,2556,252"/>
-<area shape="rect" id="node23" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpointf.html" title="QPointF" alt="" coords="2069,225,2140,252"/>
-<area shape="rect" id="node26" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qscopedpointer.html" title="QScopedPointer\&lt; Combined\lSymbol \&gt;" alt="" coords="2011,494,2199,535"/>
-<area shape="rect" id="node36" href="structSpotColorComponent.html" title="The SpotColorComponent datatype describes the use of a spot color in a screen or overprint to create ..." alt="" coords="879,293,1025,320"/>
-<area shape="rect" id="node37" href="structMapColorCmyk.html" title="The MapColorCmyk class provides a datatype for storing and transfering opaque CMYK colors..." alt="" coords="253,308,367,335"/>
-<area shape="rect" id="node38" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qcolor.html" title="QColor" alt="" coords="279,207,341,233"/>
-<area shape="rect" id="node39" href="structMapColorRgb.html" title="The MapColorRgb class provides a datatype for storing and transfering opaque RGB colors. " alt="" coords="259,257,361,284"/>
-<area shape="rect" id="node40" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpointer.html" title="QPointer\&lt; KeyButtonBar \&gt;" alt="" coords="2421,399,2600,425"/>
-<area shape="rect" id="node41" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qscopedpointer.html" title="QScopedPointer\&lt; Constrain\lAngleToolHelper \&gt;" alt="" coords="2418,450,2603,491"/>
-<area shape="rect" id="node42" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qscopedpointer.html" title="QScopedPointer\&lt; Snapping\lToolHelper \&gt;" alt="" coords="2419,567,2602,609"/>
-<area shape="rect" id="node43" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qscopedpointer.html" title="QScopedPointer\&lt; FollowPath\lToolHelper \&gt;" alt="" coords="2413,633,2608,674"/>
-<area shape="rect" id="node44" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpoint.html" title="QPoint" alt="" coords="2479,776,2542,803"/>
+<area shape="rect" id="node2" href="classMapEditorToolBase.html" title="Provides a simple interface to base tools on. " alt="" coords="2789,280,2925,307"/>
+<area shape="rect" id="node3" href="classMapEditorTool.html" title="An abstract tool for editing a map. " alt="" coords="2051,304,2158,331"/>
+<area shape="rect" id="node31" href="classDrawLineAndAreaTool.html" title="Base class for drawing tools for line and area symbols. " alt="" coords="2435,848,2587,875"/>
+<area shape="rect" id="node4" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html" title="QObject" alt="" coords="21,337,92,364"/>
+<area shape="rect" id="node6" href="classMainWindowController.html" title="A MainWindowController provides the specific content and behaviours for a main window, for example map drawing or course setting functions. " alt="" coords="1275,329,1428,356"/>
+<area shape="rect" id="node9" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html" title="QWidget" alt="" coords="273,416,347,443"/>
+<area shape="rect" id="node20" href="classMap.html" title="Central class for an OpenOrienteering map. " alt="" coords="459,592,505,619"/>
+<area shape="rect" id="node5" href="classMapEditorController.html" title="MainWindowController for editing a map. " alt="" coords="1615,329,1752,356"/>
+<area shape="rect" id="node7" href="classMainWindow.html" title="The MainWindow class provides the generic application window. " alt="" coords="903,380,1001,407"/>
+<area shape="rect" id="node8" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmainwindow.html" title="QMainWindow" alt="" coords="628,431,735,457"/>
+<area shape="rect" id="node15" href="classMapWidget.html" title="QWidget for displaying a map. " alt="" coords="2467,653,2555,680"/>
+<area shape="rect" id="node10" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpaintdevice.html" title="QPaintDevice" alt="" coords="5,396,108,423"/>
+<area shape="rect" id="node19" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qhash.html" title="QHash\&lt; QString, QString \&gt;" alt="" coords="391,675,573,701"/>
+<area shape="rect" id="node22" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html" title="QString" alt="" coords="277,900,343,927"/>
+<area shape="rect" id="node12" href="classAutosave.html" title="Class Autosave implements autosaving behaviour. " alt="" coords="643,380,720,407"/>
+<area shape="rect" id="node13" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpointf.html" title="QPointF" alt="" coords="2069,147,2140,173"/>
+<area shape="rect" id="node25" href="classMapCoordF.html" title="Map coordinates stored as floating point numbers. " alt="" coords="2465,172,2556,199"/>
+<area shape="rect" id="node14" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpointer.html" title="QPointer\&lt; KeyButtonBar \&gt;" alt="" coords="2421,292,2600,319"/>
+<area shape="rect" id="node30" href="classDrawPathTool.html" title="Tool to draw arbitrarily shaped PathObjects. " alt="" coords="2805,685,2910,712"/>
+<area shape="rect" id="node16" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qscopedpointer.html" title="QScopedPointer\&lt; Constrain\lAngleToolHelper \&gt;" alt="" coords="2418,705,2603,746"/>
+<area shape="rect" id="node17" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qscopedpointer.html" title="QScopedPointer\&lt; Snapping\lToolHelper \&gt;" alt="" coords="2419,381,2602,422"/>
+<area shape="rect" id="node18" href="classObject.html" title="Abstract base class which combines coordinates and a symbol to form an object (in a map..." alt="" coords="922,663,982,689"/>
+<area shape="rect" id="node28" href="classPathObject.html" title="Object type which can be used for line, area and combined symbols. " alt="" coords="2061,643,2148,669"/>
+<area shape="rect" id="node34" href="classPointObject.html" title="Object type which can only be used for point symbols, and is also the only object which can be used w..." alt="" coords="1306,693,1397,720"/>
+<area shape="rect" id="node21" href="classSymbol.html" title="Abstract base class for map symbols. " alt="" coords="648,900,715,927"/>
+<area shape="rect" id="node37" href="classPointSymbol.html" title="Symbol for PointObjects. " alt="" coords="1635,924,1731,951"/>
+<area shape="rect" id="node40" href="classMapColor.html" title="The MapColor class provides colors which may be used by symbols (and objects). " alt="" coords="642,1063,721,1089"/>
+<area shape="rect" id="node24" href="classMapCoord.html" title="Coordinates of a point in a map, with optional flags. " alt="" coords="269,529,351,556"/>
+<area shape="rect" id="node26" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpoint.html" title="QPoint" alt="" coords="2479,535,2542,561"/>
+<area shape="rect" id="node27" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html" title="QRectF" alt="" coords="2823,229,2891,256"/>
+<area shape="rect" id="node29" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qscopedpointer.html" title="QScopedPointer\&lt; MapRenderables \&gt;" alt="" coords="1985,991,2224,1017"/>
+<area shape="rect" id="node32" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qscopedpointer.html" title="QScopedPointer\&lt; Combined\lSymbol \&gt;" alt="" coords="2011,757,2199,798"/>
+<area shape="rect" id="node42" href="structSpotColorComponent.html" title="The SpotColorComponent datatype describes the use of a spot color in a screen or overprint to create ..." alt="" coords="879,1151,1025,1177"/>
+<area shape="rect" id="node43" href="structMapColorCmyk.html" title="The MapColorCmyk class provides a datatype for storing and transfering opaque CMYK colors..." alt="" coords="253,1063,367,1089"/>
+<area shape="rect" id="node44" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qcolor.html" title="QColor" alt="" coords="279,1113,341,1140"/>
+<area shape="rect" id="node45" href="structMapColorRgb.html" title="The MapColorRgb class provides a datatype for storing and transfering opaque RGB colors. " alt="" coords="259,1012,361,1039"/>
+<area shape="rect" id="node46" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qscopedpointer.html" title="QScopedPointer\&lt; FollowPath\lToolHelper \&gt;" alt="" coords="2413,903,2608,945"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
+<tr class="memitem:ae1dd1190adb8da33cfdee2eaf2224123"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#ae1dd1190adb8da33cfdee2eaf2224123">length_type</a> = <a class="el" href="classPathCoord.html#aa6463dfe141d2fedf8a9b65ee8b1c266">PathCoord::length_type</a></td></tr>
+<tr class="separator:ae1dd1190adb8da33cfdee2eaf2224123"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3273203151b352b3b661a84060dde4b3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a3273203151b352b3b661a84060dde4b3">HoverFlag</a> = <a class="el" href="classEditTool.html#a1790abc4aefe2723ba6f60d2c024f7a0">EditTool::HoverFlag</a></td></tr>
 <tr class="separator:a3273203151b352b3b661a84060dde4b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b02450a3ae5be4124502a1a583e1df9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a6b02450a3ae5be4124502a1a583e1df9">HoverState</a> = EditTool::HoverState</td></tr>
@@ -180,48 +184,44 @@ Public Types</h2></td></tr>
 </td></tr>
 <tr class="separator:a6ee2f78342333dc7cf189b2f4ed5d3c8 inherit pub_types_classMapEditorTool"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-slots"></a>
-Public Slots</h2></td></tr>
-<tr class="memitem:ac8dd8b2d63648fc948b66afbd5e2f81c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#ac8dd8b2d63648fc948b66afbd5e2f81c">objectSelectionChanged</a> ()</td></tr>
-<tr class="separator:ac8dd8b2d63648fc948b66afbd5e2f81c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae0800b0a176dc2d3c66b1e68192bc40"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#aae0800b0a176dc2d3c66b1e68192bc40">pathDirtyRectChanged</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> &amp;rect)</td></tr>
-<tr class="separator:aae0800b0a176dc2d3c66b1e68192bc40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59773336d13ad915cb26ff50b3f28145"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a59773336d13ad915cb26ff50b3f28145">pathAborted</a> ()</td></tr>
-<tr class="separator:a59773336d13ad915cb26ff50b3f28145"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae49070fc041512149d9dd1de284321cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#ae49070fc041512149d9dd1de284321cf">pathFinished</a> (<a class="el" href="classPathObject.html">PathObject</a> *split_path)</td></tr>
-<tr class="separator:ae49070fc041512149d9dd1de284321cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a0d6f627156de667cc65224f7b34cb64d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a0d6f627156de667cc65224f7b34cb64d">CutTool</a> (<a class="el" href="classMapEditorController.html">MapEditorController</a> *<a class="el" href="classMapEditorTool.html#a8aca37fc333034981c06834a2978c559">editor</a>, <a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qaction.html">QAction</a> *tool_action)</td></tr>
 <tr class="separator:a0d6f627156de667cc65224f7b34cb64d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff7066b77c516d73feb63b654e635a71"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#aff7066b77c516d73feb63b654e635a71">~CutTool</a> ()</td></tr>
-<tr class="separator:aff7066b77c516d73feb63b654e635a71"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a600ca34ce757eff155ae5f445f59e1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a1a600ca34ce757eff155ae5f445f59e1">init</a> ()</td></tr>
-<tr class="memdesc:a1a600ca34ce757eff155ae5f445f59e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs initialization when the tool becomes active.  <a href="#a1a600ca34ce757eff155ae5f445f59e1">More...</a><br /></td></tr>
-<tr class="separator:a1a600ca34ce757eff155ae5f445f59e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff3a3ef9eff876fc1bded2bf14fb2f21"><td class="memItemLeft" align="right" valign="top">virtual const <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qcursor.html">QCursor</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#aff3a3ef9eff876fc1bded2bf14fb2f21">getCursor</a> () const </td></tr>
-<tr class="memdesc:aff3a3ef9eff876fc1bded2bf14fb2f21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the cursor which should be used for the tool in the editor windows.  <a href="#aff3a3ef9eff876fc1bded2bf14fb2f21">More...</a><br /></td></tr>
-<tr class="separator:aff3a3ef9eff876fc1bded2bf14fb2f21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a126bd73580845c2e3e14662f42496c43"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a126bd73580845c2e3e14662f42496c43">mousePressEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmouseevent.html">QMouseEvent</a> *<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#event">event</a>, <a class="el" href="classMapCoordF.html">MapCoordF</a> map_coord, <a class="el" href="classMapWidget.html">MapWidget</a> *widget)</td></tr>
-<tr class="separator:a126bd73580845c2e3e14662f42496c43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2e726e0b146c58f83b4561bc05d686e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#ab2e726e0b146c58f83b4561bc05d686e">mouseMoveEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmouseevent.html">QMouseEvent</a> *<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#event">event</a>, <a class="el" href="classMapCoordF.html">MapCoordF</a> map_coord, <a class="el" href="classMapWidget.html">MapWidget</a> *widget)</td></tr>
-<tr class="separator:ab2e726e0b146c58f83b4561bc05d686e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab992a73f6427ef89095b8147b366a78d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#ab992a73f6427ef89095b8147b366a78d">mouseReleaseEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmouseevent.html">QMouseEvent</a> *<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#event">event</a>, <a class="el" href="classMapCoordF.html">MapCoordF</a> map_coord, <a class="el" href="classMapWidget.html">MapWidget</a> *widget)</td></tr>
-<tr class="separator:ab992a73f6427ef89095b8147b366a78d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f14bbce09cafd511c8807bdc9c9aed5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a4f14bbce09cafd511c8807bdc9c9aed5">mouseDoubleClickEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmouseevent.html">QMouseEvent</a> *<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#event">event</a>, <a class="el" href="classMapCoordF.html">MapCoordF</a> map_coord, <a class="el" href="classMapWidget.html">MapWidget</a> *widget)</td></tr>
-<tr class="separator:a4f14bbce09cafd511c8807bdc9c9aed5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adda1397ea3cb77269397798ed87df1a2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#adda1397ea3cb77269397798ed87df1a2">leaveEvent</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qevent.html">QEvent</a> *<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#event">event</a>)</td></tr>
-<tr class="separator:adda1397ea3cb77269397798ed87df1a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4bee87d0227c2559ca53d3b45b16c16f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a4bee87d0227c2559ca53d3b45b16c16f">keyPressEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qkeyevent.html">QKeyEvent</a> *<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#event">event</a>)</td></tr>
-<tr class="separator:a4bee87d0227c2559ca53d3b45b16c16f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7863245076c6c9265b4d871e2ac46b43"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a7863245076c6c9265b4d871e2ac46b43">keyReleaseEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qkeyevent.html">QKeyEvent</a> *<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#event">event</a>)</td></tr>
-<tr class="separator:a7863245076c6c9265b4d871e2ac46b43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a429b970dc78d480f2a4b6d7c9230398f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a429b970dc78d480f2a4b6d7c9230398f">focusOutEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qfocusevent.html">QFocusEvent</a> *<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#event">event</a>)</td></tr>
-<tr class="separator:a429b970dc78d480f2a4b6d7c9230398f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ec530772632ab5b518bef43bb85b183"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a9ec530772632ab5b518bef43bb85b183">draw</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpainter.html">QPainter</a> *painter, <a class="el" href="classMapWidget.html">MapWidget</a> *widget)</td></tr>
-<tr class="memdesc:a9ec530772632ab5b518bef43bb85b183"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the tool's visualisation for a map widget.  <a href="#a9ec530772632ab5b518bef43bb85b183">More...</a><br /></td></tr>
-<tr class="separator:a9ec530772632ab5b518bef43bb85b183"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11870f78917cacf00a5bdf64075d4e42"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a11870f78917cacf00a5bdf64075d4e42">~CutTool</a> () override</td></tr>
+<tr class="separator:a11870f78917cacf00a5bdf64075d4e42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classMapEditorToolBase"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classMapEditorToolBase')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classMapEditorToolBase.html">MapEditorToolBase</a></td></tr>
+<tr class="memitem:a34815d1638f53a7951dc275b5cce4dff inherit pub_methods_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#a34815d1638f53a7951dc275b5cce4dff">MapEditorToolBase</a> (const <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qcursor.html">QCursor</a> &amp;cursor, <a class="el" href="classMapEditorTool.html#a6ee2f78342333dc7cf189b2f4ed5d3c8">MapEditorTool::Type</a> tool_type, <a class="el" href="classMapEditorController.html">MapEditorController</a> *<a class="el" href="classMapEditorTool.html#a8aca37fc333034981c06834a2978c559">editor</a>, <a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qaction.html">QAction</a> *tool_action)</td></tr>
+<tr class="separator:a34815d1638f53a7951dc275b5cce4dff inherit pub_methods_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9c76d6d362545b35ec100e16aaf43c2 inherit pub_methods_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#aa9c76d6d362545b35ec100e16aaf43c2">~MapEditorToolBase</a> () override</td></tr>
+<tr class="separator:aa9c76d6d362545b35ec100e16aaf43c2 inherit pub_methods_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bc9d55552983c9b601ee28c007bac67 inherit pub_methods_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#a2bc9d55552983c9b601ee28c007bac67">init</a> () override</td></tr>
+<tr class="memdesc:a2bc9d55552983c9b601ee28c007bac67 inherit pub_methods_classMapEditorToolBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs initialization when the tool becomes active.  <a href="#a2bc9d55552983c9b601ee28c007bac67">More...</a><br /></td></tr>
+<tr class="separator:a2bc9d55552983c9b601ee28c007bac67 inherit pub_methods_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97a44a1d2eb04d7218dfd473a3b78162 inherit pub_methods_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qcursor.html">QCursor</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#a97a44a1d2eb04d7218dfd473a3b78162">getCursor</a> () const override</td></tr>
+<tr class="memdesc:a97a44a1d2eb04d7218dfd473a3b78162 inherit pub_methods_classMapEditorToolBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the cursor which should be used for the tool in the editor windows.  <a href="#a97a44a1d2eb04d7218dfd473a3b78162">More...</a><br /></td></tr>
+<tr class="separator:a97a44a1d2eb04d7218dfd473a3b78162 inherit pub_methods_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6e96bf2a125f083b547530a7d4fc7f3 inherit pub_methods_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qt.html#KeyboardModifier-enum">Qt::KeyboardModifiers</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#ad6e96bf2a125f083b547530a7d4fc7f3">keyButtonBarModifiers</a> () const </td></tr>
+<tr class="separator:ad6e96bf2a125f083b547530a7d4fc7f3 inherit pub_methods_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7da89aaed9e0d4878f7fcba420546a56 inherit pub_methods_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#a7da89aaed9e0d4878f7fcba420546a56">mousePositionEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmouseevent.html">QMouseEvent</a> *<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#event">event</a>, <a class="el" href="classMapCoordF.html">MapCoordF</a> map_coord, <a class="el" href="classMapWidget.html">MapWidget</a> *widget)</td></tr>
+<tr class="memdesc:a7da89aaed9e0d4878f7fcba420546a56 inherit pub_methods_classMapEditorToolBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the saved current position (raw and constrained), map widget, and modifiers.  <a href="#a7da89aaed9e0d4878f7fcba420546a56">More...</a><br /></td></tr>
+<tr class="separator:a7da89aaed9e0d4878f7fcba420546a56 inherit pub_methods_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a385f80be5c4c95694f8bccd1a585563b inherit pub_methods_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#a385f80be5c4c95694f8bccd1a585563b">mousePressEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmouseevent.html">QMouseEvent</a> *<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#event">event</a>, <a class="el" href="classMapCoordF.html">MapCoordF</a> map_coord, <a class="el" href="classMapWidget.html">MapWidget</a> *widget) override</td></tr>
+<tr class="separator:a385f80be5c4c95694f8bccd1a585563b inherit pub_methods_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78b3baaeaed1e476144ccbad2ad8fa59 inherit pub_methods_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#a78b3baaeaed1e476144ccbad2ad8fa59">mouseMoveEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmouseevent.html">QMouseEvent</a> *<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#event">event</a>, <a class="el" href="classMapCoordF.html">MapCoordF</a> map_coord, <a class="el" href="classMapWidget.html">MapWidget</a> *widget) override</td></tr>
+<tr class="separator:a78b3baaeaed1e476144ccbad2ad8fa59 inherit pub_methods_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc011280f896e106061c4fde708e4d2b inherit pub_methods_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#adc011280f896e106061c4fde708e4d2b">mouseReleaseEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmouseevent.html">QMouseEvent</a> *<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#event">event</a>, <a class="el" href="classMapCoordF.html">MapCoordF</a> map_coord, <a class="el" href="classMapWidget.html">MapWidget</a> *widget) override</td></tr>
+<tr class="separator:adc011280f896e106061c4fde708e4d2b inherit pub_methods_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a65dce1709161ed053e1cbb1b7e3a5b inherit pub_methods_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#a9a65dce1709161ed053e1cbb1b7e3a5b">keyPressEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qkeyevent.html">QKeyEvent</a> *<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#event">event</a>) override</td></tr>
+<tr class="separator:a9a65dce1709161ed053e1cbb1b7e3a5b inherit pub_methods_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0ce287145acca3ac34c22a473c90784 inherit pub_methods_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#af0ce287145acca3ac34c22a473c90784">keyReleaseEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qkeyevent.html">QKeyEvent</a> *<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#event">event</a>) override</td></tr>
+<tr class="separator:af0ce287145acca3ac34c22a473c90784 inherit pub_methods_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4288464c5e7332e66a4dcea1d9a01a4c inherit pub_methods_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#a4288464c5e7332e66a4dcea1d9a01a4c">draw</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpainter.html">QPainter</a> *painter, <a class="el" href="classMapWidget.html">MapWidget</a> *widget) override</td></tr>
+<tr class="memdesc:a4288464c5e7332e66a4dcea1d9a01a4c inherit pub_methods_classMapEditorToolBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the preview renderables. Should be overridden to draw custom elements.  <a href="#a4288464c5e7332e66a4dcea1d9a01a4c">More...</a><br /></td></tr>
+<tr class="separator:a4288464c5e7332e66a4dcea1d9a01a4c inherit pub_methods_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd4d90ad597c60645f1940a6753f11d3 inherit pub_methods_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#abd4d90ad597c60645f1940a6753f11d3">finishEditing</a> () override</td></tr>
+<tr class="memdesc:abd4d90ad597c60645f1940a6753f11d3 inherit pub_methods_classMapEditorToolBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finishes editing if it is currently in progress.  <a href="#abd4d90ad597c60645f1940a6753f11d3">More...</a><br /></td></tr>
+<tr class="separator:abd4d90ad597c60645f1940a6753f11d3 inherit pub_methods_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classMapEditorTool"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classMapEditorTool')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classMapEditorTool.html">MapEditorTool</a></td></tr>
 <tr class="memitem:a275eda9b9d92c6df508d432da1d1b1e1 inherit pub_methods_classMapEditorTool"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorTool.html#a275eda9b9d92c6df508d432da1d1b1e1">MapEditorTool</a> (<a class="el" href="classMapEditorController.html">MapEditorController</a> *<a class="el" href="classMapEditorTool.html#a8aca37fc333034981c06834a2978c559">editor</a>, <a class="el" href="classMapEditorTool.html#a6ee2f78342333dc7cf189b2f4ed5d3c8">Type</a> tool_type, <a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qaction.html">QAction</a> *tool_action=nullptr)</td></tr>
 <tr class="memdesc:a275eda9b9d92c6df508d432da1d1b1e1 inherit pub_methods_classMapEditorTool"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a new <a class="el" href="classMapEditorTool.html" title="An abstract tool for editing a map. ">MapEditorTool</a>.  <a href="#a275eda9b9d92c6df508d432da1d1b1e1">More...</a><br /></td></tr>
@@ -237,9 +237,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1f935c9b7b533e5809e34781404e4076 inherit pub_methods_classMapEditorTool"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98ebcc28fb8b6fc122e21fadb313360d inherit pub_methods_classMapEditorTool"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorTool.html#a98ebcc28fb8b6fc122e21fadb313360d">gestureEvent</a> (<a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qgestureevent.html">QGestureEvent</a> *<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#event">event</a>, <a class="el" href="classMapWidget.html">MapWidget</a> *widget)</td></tr>
 <tr class="separator:a98ebcc28fb8b6fc122e21fadb313360d inherit pub_methods_classMapEditorTool"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af59c7d1d8099812d62308ad068f27397 inherit pub_methods_classMapEditorTool"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorTool.html#af59c7d1d8099812d62308ad068f27397">gestureStarted</a> ()</td></tr>
-<tr class="memdesc:af59c7d1d8099812d62308ad068f27397 inherit pub_methods_classMapEditorTool"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is called to signal the start of a gesture.  <a href="#af59c7d1d8099812d62308ad068f27397">More...</a><br /></td></tr>
-<tr class="separator:af59c7d1d8099812d62308ad068f27397 inherit pub_methods_classMapEditorTool"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac397ae81a6f33830ba8b590114db3082 inherit pub_methods_classMapEditorTool"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMapEditorTool.html#a6ee2f78342333dc7cf189b2f4ed5d3c8">Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorTool.html#ac397ae81a6f33830ba8b590114db3082">toolType</a> () const </td></tr>
 <tr class="memdesc:ac397ae81a6f33830ba8b590114db3082 inherit pub_methods_classMapEditorTool"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the type of this tool.  <a href="#ac397ae81a6f33830ba8b590114db3082">More...</a><br /></td></tr>
 <tr class="separator:ac397ae81a6f33830ba8b590114db3082 inherit pub_methods_classMapEditorTool"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -267,9 +264,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a654100debc4c1ff1541e407bc3b75d29 inherit pub_methods_classMapEditorTool"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorTool.html#a654100debc4c1ff1541e407bc3b75d29">editingInProgress</a> () const </td></tr>
 <tr class="memdesc:a654100debc4c1ff1541e407bc3b75d29 inherit pub_methods_classMapEditorTool"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether an editing operation is currently in progress.  <a href="#a654100debc4c1ff1541e407bc3b75d29">More...</a><br /></td></tr>
 <tr class="separator:a654100debc4c1ff1541e407bc3b75d29 inherit pub_methods_classMapEditorTool"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5892e8e4e7e6f918f8834f1864fc2d1e inherit pub_methods_classMapEditorTool"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorTool.html#a5892e8e4e7e6f918f8834f1864fc2d1e">finishEditing</a> ()</td></tr>
-<tr class="memdesc:a5892e8e4e7e6f918f8834f1864fc2d1e inherit pub_methods_classMapEditorTool"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finishes editing if it is currently in progress.  <a href="#a5892e8e4e7e6f918f8834f1864fc2d1e">More...</a><br /></td></tr>
-<tr class="separator:a5892e8e4e7e6f918f8834f1864fc2d1e inherit pub_methods_classMapEditorTool"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12aa6bb8ded7a03f92c4331a01567751 inherit pub_methods_classMapEditorTool"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorTool.html#a12aa6bb8ded7a03f92c4331a01567751">isDrawTool</a> () const </td></tr>
 <tr class="memdesc:a12aa6bb8ded7a03f92c4331a01567751 inherit pub_methods_classMapEditorTool"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the given tool is for drawing new objects.  <a href="#a12aa6bb8ded7a03f92c4331a01567751">More...</a><br /></td></tr>
 <tr class="separator:a12aa6bb8ded7a03f92c4331a01567751 inherit pub_methods_classMapEditorTool"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -358,31 +352,131 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a7358044ff9db0e9420981e489bb1a416"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a7358044ff9db0e9420981e489bb1a416">splitLine</a> (<a class="el" href="classPathObject.html">PathObject</a> *object, std::size_t part_index, qreal begin, qreal end) const </td></tr>
-<tr class="memdesc:a7358044ff9db0e9420981e489bb1a416"><td class="mdescLeft">&#160;</td><td class="mdescRight">Splits the given path object, removing the section between begin and end.  <a href="#a7358044ff9db0e9420981e489bb1a416">More...</a><br /></td></tr>
-<tr class="separator:a7358044ff9db0e9420981e489bb1a416"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3234a92807f904c32fe58dac9965abc6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a3234a92807f904c32fe58dac9965abc6">splitLine</a> (<a class="el" href="classPathObject.html">PathObject</a> *object, const <a class="el" href="classPathCoord.html">PathCoord</a> &amp;split_pos) const </td></tr>
-<tr class="memdesc:a3234a92807f904c32fe58dac9965abc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Splits the path object at the given position.  <a href="#a3234a92807f904c32fe58dac9965abc6">More...</a><br /></td></tr>
-<tr class="separator:a3234a92807f904c32fe58dac9965abc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c46f764c88bf1144c29fc461e4511c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a2c46f764c88bf1144c29fc461e4511c2">replaceObject</a> (<a class="el" href="classPathObject.html">PathObject</a> *object, const std::vector&lt; <a class="el" href="classPathObject.html">PathObject</a> * &gt; &amp;replacement) const </td></tr>
-<tr class="memdesc:a2c46f764c88bf1144c29fc461e4511c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces the given object in the map with the replacement objects.  <a href="#a2c46f764c88bf1144c29fc461e4511c2">More...</a><br /></td></tr>
-<tr class="separator:a2c46f764c88bf1144c29fc461e4511c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0f3c010d4aa830466a1ac7adfb069ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#ab0f3c010d4aa830466a1ac7adfb069ab">updateStatusText</a> ()</td></tr>
-<tr class="separator:ab0f3c010d4aa830466a1ac7adfb069ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb6383a78a34e4fbc8c0b68836e3c2f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#aeb6383a78a34e4fbc8c0b68836e3c2f2">updatePreviewObjects</a> ()</td></tr>
-<tr class="separator:aeb6383a78a34e4fbc8c0b68836e3c2f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae57cd04691abc09b82b612b6bb583d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#aae57cd04691abc09b82b612b6bb583d5">deletePreviewPath</a> ()</td></tr>
-<tr class="separator:aae57cd04691abc09b82b612b6bb583d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a080b41044249de211cc60338b1dcc352"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a080b41044249de211cc60338b1dcc352">updateDirtyRect</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> *path_rect=nullptr) const </td></tr>
-<tr class="separator:a080b41044249de211cc60338b1dcc352"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e4829740d968555f7c3a86ea415bd8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a6e4829740d968555f7c3a86ea415bd8d">updateDragging</a> (<a class="el" href="classMapCoordF.html">MapCoordF</a> cursor_pos_map, <a class="el" href="classMapWidget.html">MapWidget</a> *widget)</td></tr>
-<tr class="separator:a6e4829740d968555f7c3a86ea415bd8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa51521ba78afe7f7f8d0f4c3d7ffa973"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#aa51521ba78afe7f7f8d0f4c3d7ffa973">updateHoverState</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpointf.html">QPointF</a> cursor_pos_screen, <a class="el" href="classMapWidget.html">MapWidget</a> *widget)</td></tr>
-<tr class="separator:aa51521ba78afe7f7f8d0f4c3d7ffa973"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c6edd8980b7299d4176ea7259f785e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a5c6edd8980b7299d4176ea7259f785e5">findEditPoint</a> (<a class="el" href="classPathCoord.html">PathCoord</a> &amp;out_edit_point, <a class="el" href="classPathObject.html">PathObject</a> *&amp;out_edit_object, <a class="el" href="classMapCoordF.html">MapCoordF</a> cursor_pos_map, int with_type, int without_type, <a class="el" href="classMapWidget.html">MapWidget</a> *widget)</td></tr>
-<tr class="separator:a5c6edd8980b7299d4176ea7259f785e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a838222e861edaf0e645a402ec4a544b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a838222e861edaf0e645a402ec4a544b0">startCuttingArea</a> (const <a class="el" href="classPathCoord.html">PathCoord</a> &amp;coord, <a class="el" href="classMapWidget.html">MapWidget</a> *widget)</td></tr>
-<tr class="separator:a838222e861edaf0e645a402ec4a544b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c569542999d0d7ffab0ed35efc27f0d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a5c569542999d0d7ffab0ed35efc27f0d">initImpl</a> () override</td></tr>
+<tr class="memdesc:a5c569542999d0d7ffab0ed35efc27f0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Can do additional initializations at a time where no other tool is active (in contrast to the constructor)  <a href="#a5c569542999d0d7ffab0ed35efc27f0d">More...</a><br /></td></tr>
+<tr class="separator:a5c569542999d0d7ffab0ed35efc27f0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7d590f6c6fbb475d33d0a9617c5be0a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#ae7d590f6c6fbb475d33d0a9617c5be0a">updateStatusText</a> () override</td></tr>
+<tr class="memdesc:ae7d590f6c6fbb475d33d0a9617c5be0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must update the status bar text.  <a href="#ae7d590f6c6fbb475d33d0a9617c5be0a">More...</a><br /></td></tr>
+<tr class="separator:ae7d590f6c6fbb475d33d0a9617c5be0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57039d2c4c3d20b4ffabb9bd659f941b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a57039d2c4c3d20b4ffabb9bd659f941b">objectSelectionChangedImpl</a> () override</td></tr>
+<tr class="memdesc:a57039d2c4c3d20b4ffabb9bd659f941b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the object selection in the map is changed.  <a href="#a57039d2c4c3d20b4ffabb9bd659f941b">More...</a><br /></td></tr>
+<tr class="separator:a57039d2c4c3d20b4ffabb9bd659f941b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22ddad1b499e3a7ec2a4e21e8c213ed7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a22ddad1b499e3a7ec2a4e21e8c213ed7">mousePressEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmouseevent.html">QMouseEvent</a> *<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#event">event</a>, <a class="el" href="classMapCoordF.html">MapCoordF</a> map_coord, <a class="el" href="classMapWidget.html">MapWidget</a> *widget) override</td></tr>
+<tr class="separator:a22ddad1b499e3a7ec2a4e21e8c213ed7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00b5d03ff2d6d14ffbb6538e6637a5a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a00b5d03ff2d6d14ffbb6538e6637a5a8">mouseMoveEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmouseevent.html">QMouseEvent</a> *<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#event">event</a>, <a class="el" href="classMapCoordF.html">MapCoordF</a> map_coord, <a class="el" href="classMapWidget.html">MapWidget</a> *widget) override</td></tr>
+<tr class="separator:a00b5d03ff2d6d14ffbb6538e6637a5a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe7c29d3affdbc885359038bb2257d8f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#afe7c29d3affdbc885359038bb2257d8f">mouseReleaseEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmouseevent.html">QMouseEvent</a> *<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#event">event</a>, <a class="el" href="classMapCoordF.html">MapCoordF</a> map_coord, <a class="el" href="classMapWidget.html">MapWidget</a> *widget) override</td></tr>
+<tr class="separator:afe7c29d3affdbc885359038bb2257d8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3948973cd08f60ed1f04c056fe9be2a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a3948973cd08f60ed1f04c056fe9be2a8">mouseDoubleClickEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmouseevent.html">QMouseEvent</a> *<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#event">event</a>, <a class="el" href="classMapCoordF.html">MapCoordF</a> map_coord, <a class="el" href="classMapWidget.html">MapWidget</a> *widget) override</td></tr>
+<tr class="separator:a3948973cd08f60ed1f04c056fe9be2a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39081ef1f2d2695795e56d4144f7077a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a39081ef1f2d2695795e56d4144f7077a">leaveEvent</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qevent.html">QEvent</a> *<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#event">event</a>) override</td></tr>
+<tr class="separator:a39081ef1f2d2695795e56d4144f7077a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a107ac0b99af5fc6d6c5c10e5bfc3aeca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a107ac0b99af5fc6d6c5c10e5bfc3aeca">focusOutEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qfocusevent.html">QFocusEvent</a> *<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#event">event</a>) override</td></tr>
+<tr class="separator:a107ac0b99af5fc6d6c5c10e5bfc3aeca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35c37d0e57875fcb376979ea805bfc14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a35c37d0e57875fcb376979ea805bfc14">mouseMove</a> () override</td></tr>
+<tr class="memdesc:a35c37d0e57875fcb376979ea805bfc14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the mouse is moved without the left mouse button being pressed.  <a href="#a35c37d0e57875fcb376979ea805bfc14">More...</a><br /></td></tr>
+<tr class="separator:a35c37d0e57875fcb376979ea805bfc14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f43d2cd53b9cd536feddeb6937341d2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a3f43d2cd53b9cd536feddeb6937341d2">clickPress</a> () override</td></tr>
+<tr class="memdesc:a3f43d2cd53b9cd536feddeb6937341d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the left mouse button is pressed.  <a href="#a3f43d2cd53b9cd536feddeb6937341d2">More...</a><br /></td></tr>
+<tr class="separator:a3f43d2cd53b9cd536feddeb6937341d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a642977e623f066423dc8edbd4db45f2d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a642977e623f066423dc8edbd4db45f2d">clickRelease</a> () override</td></tr>
+<tr class="memdesc:a642977e623f066423dc8edbd4db45f2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the left mouse button is released without a drag operation before.  <a href="#a642977e623f066423dc8edbd4db45f2d">More...</a><br /></td></tr>
+<tr class="separator:a642977e623f066423dc8edbd4db45f2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a98e27aaf197f7ba82915527f22b519"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a7a98e27aaf197f7ba82915527f22b519">dragStart</a> () override</td></tr>
+<tr class="memdesc:a7a98e27aaf197f7ba82915527f22b519"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a drag operation is started.  <a href="#a7a98e27aaf197f7ba82915527f22b519">More...</a><br /></td></tr>
+<tr class="separator:a7a98e27aaf197f7ba82915527f22b519"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37b66d990f51879fdb96e04be0f195dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a37b66d990f51879fdb96e04be0f195dd">dragMove</a> () override</td></tr>
+<tr class="memdesc:a37b66d990f51879fdb96e04be0f195dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the mouse is moved with the left mouse button being pressed.  <a href="#a37b66d990f51879fdb96e04be0f195dd">More...</a><br /></td></tr>
+<tr class="separator:a37b66d990f51879fdb96e04be0f195dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0053cff749dcc78694bc4036888d2ef4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a0053cff749dcc78694bc4036888d2ef4">dragFinish</a> () override</td></tr>
+<tr class="memdesc:a0053cff749dcc78694bc4036888d2ef4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a drag operation is finished.  <a href="#a0053cff749dcc78694bc4036888d2ef4">More...</a><br /></td></tr>
+<tr class="separator:a0053cff749dcc78694bc4036888d2ef4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf109ee5bd163f5ff56866d14d2fe92c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#acf109ee5bd163f5ff56866d14d2fe92c">keyPress</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qkeyevent.html">QKeyEvent</a> *<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#event">event</a>) override</td></tr>
+<tr class="memdesc:acf109ee5bd163f5ff56866d14d2fe92c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a key is pressed down. Return true if the key was processed by the tool.  <a href="#acf109ee5bd163f5ff56866d14d2fe92c">More...</a><br /></td></tr>
+<tr class="separator:acf109ee5bd163f5ff56866d14d2fe92c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade975782c0ddb8257057b5edc47e416c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#ade975782c0ddb8257057b5edc47e416c">keyRelease</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qkeyevent.html">QKeyEvent</a> *<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#event">event</a>) override</td></tr>
+<tr class="memdesc:ade975782c0ddb8257057b5edc47e416c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a key is released. Return true if the key was processed by the tool.  <a href="#ade975782c0ddb8257057b5edc47e416c">More...</a><br /></td></tr>
+<tr class="separator:ade975782c0ddb8257057b5edc47e416c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f622304978ce9c2b7d70e432e60b78b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a2f622304978ce9c2b7d70e432e60b78b">startCuttingLine</a> (const <a class="el" href="structObjectPathCoord.html">ObjectPathCoord</a> &amp;point)</td></tr>
+<tr class="separator:a2f622304978ce9c2b7d70e432e60b78b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad825e7bc32e8b2743f70a56002e2aa0c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#ad825e7bc32e8b2743f70a56002e2aa0c">updateCuttingLine</a> (<a class="el" href="classMapCoordF.html">MapCoordF</a> cursor_pos)</td></tr>
+<tr class="separator:ad825e7bc32e8b2743f70a56002e2aa0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebeb23714f1fd25f7671f6e8860e4593"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#aebeb23714f1fd25f7671f6e8860e4593">finishCuttingLine</a> ()</td></tr>
+<tr class="separator:aebeb23714f1fd25f7671f6e8860e4593"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62270397f812268098a3d1ccf99dab73"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a62270397f812268098a3d1ccf99dab73">startCuttingArea</a> (const <a class="el" href="structObjectPathCoord.html">ObjectPathCoord</a> &amp;point)</td></tr>
+<tr class="separator:a62270397f812268098a3d1ccf99dab73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a380669c295d421d4033b23710e950af5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a380669c295d421d4033b23710e950af5">abortCuttingArea</a> ()</td></tr>
+<tr class="separator:a380669c295d421d4033b23710e950af5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaebe485207a4de8fdfe2753ec1680cc9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#aaebe485207a4de8fdfe2753ec1680cc9">finishCuttingArea</a> (<a class="el" href="classPathObject.html">PathObject</a> *split_path)</td></tr>
+<tr class="separator:aaebe485207a4de8fdfe2753ec1680cc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf70a4077ecfeaff96eb48ae48f500ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#aaf70a4077ecfeaff96eb48ae48f500ca">updatePreviewObjects</a> () override</td></tr>
+<tr class="memdesc:aaf70a4077ecfeaff96eb48ae48f500ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call this to display changes to the preview objects between <a class="el" href="classMapEditorToolBase.html#aa1a63bb03cee57e9fd7658525691165f" title="Call this before editing the selected objects, and finish/abortEditing() afterwards. ">startEditing()</a> and finish/abortEditing().  <a href="#aaf70a4077ecfeaff96eb48ae48f500ca">More...</a><br /></td></tr>
+<tr class="separator:aaf70a4077ecfeaff96eb48ae48f500ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae406770601b3d9a2c32f32eb3d9e8a33"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#ae406770601b3d9a2c32f32eb3d9e8a33">deletePreviewObject</a> ()</td></tr>
+<tr class="separator:ae406770601b3d9a2c32f32eb3d9e8a33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a465978db8ef0b3bad02c8fed3f4f4513"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a465978db8ef0b3bad02c8fed3f4f4513">updateDirtyRectImpl</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> &amp;path_rect) override</td></tr>
+<tr class="memdesc:a465978db8ef0b3bad02c8fed3f4f4513"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must include the area of all custom drawings into the rect, which aleady contains the area of the selection preview and activated tool helpers when this method is called.  <a href="#a465978db8ef0b3bad02c8fed3f4f4513">More...</a><br /></td></tr>
+<tr class="separator:a465978db8ef0b3bad02c8fed3f4f4513"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bb0ebfdb2cba2afec7bc12fd33c3c8c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a0bb0ebfdb2cba2afec7bc12fd33c3c8c">drawImpl</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpainter.html">QPainter</a> *painter, <a class="el" href="classMapWidget.html">MapWidget</a> *widget) override</td></tr>
+<tr class="memdesc:a0bb0ebfdb2cba2afec7bc12fd33c3c8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must draw the tool's graphics.  <a href="#a0bb0ebfdb2cba2afec7bc12fd33c3c8c">More...</a><br /></td></tr>
+<tr class="separator:a0bb0ebfdb2cba2afec7bc12fd33c3c8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61b835e357f2302d4432d5a981a91289"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a61b835e357f2302d4432d5a981a91289">updateHoverState</a> (<a class="el" href="classMapCoordF.html">MapCoordF</a> cursor_pos)</td></tr>
+<tr class="separator:a61b835e357f2302d4432d5a981a91289"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af520e0929014cec4ed4ccbbfc77b0fef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structObjectPathCoord.html">ObjectPathCoord</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#af520e0929014cec4ed4ccbbfc77b0fef">findEditPoint</a> (<a class="el" href="classMapCoordF.html">MapCoordF</a> cursor_pos_map, int with_type, int without_type) const </td></tr>
+<tr class="separator:af520e0929014cec4ed4ccbbfc77b0fef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a898f567f8932629f872f7d8866bdb185"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a898f567f8932629f872f7d8866bdb185">replaceObject</a> (<a class="el" href="classObject.html">Object</a> *object, const std::vector&lt; <a class="el" href="classPathObject.html">PathObject</a> * &gt; &amp;replacement) const </td></tr>
+<tr class="memdesc:a898f567f8932629f872f7d8866bdb185"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces the given object in the map with the replacement objects.  <a href="#a898f567f8932629f872f7d8866bdb185">More...</a><br /></td></tr>
+<tr class="separator:a898f567f8932629f872f7d8866bdb185"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classMapEditorToolBase"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classMapEditorToolBase')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classMapEditorToolBase.html">MapEditorToolBase</a></td></tr>
+<tr class="memitem:aab90a6582df8225720eaef464916fb38 inherit pro_methods_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#aab90a6582df8225720eaef464916fb38">gestureStarted</a> () override</td></tr>
+<tr class="memdesc:aab90a6582df8225720eaef464916fb38 inherit pro_methods_classMapEditorToolBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is called to signal the start of a gesture.  <a href="#aab90a6582df8225720eaef464916fb38">More...</a><br /></td></tr>
+<tr class="separator:aab90a6582df8225720eaef464916fb38 inherit pro_methods_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b2b2feecfbdf333b8a15604cb01d3bb inherit pro_methods_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#a3b2b2feecfbdf333b8a15604cb01d3bb">startDragging</a> ()</td></tr>
+<tr class="separator:a3b2b2feecfbdf333b8a15604cb01d3bb inherit pro_methods_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a375a29cb85bd2a59c9f3068ddb64b596 inherit pro_methods_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#a375a29cb85bd2a59c9f3068ddb64b596">updateDragging</a> ()</td></tr>
+<tr class="separator:a375a29cb85bd2a59c9f3068ddb64b596 inherit pro_methods_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09ed3a3776bd61cc793d8748f203774c inherit pro_methods_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#a09ed3a3776bd61cc793d8748f203774c">finishDragging</a> ()</td></tr>
+<tr class="separator:a09ed3a3776bd61cc793d8748f203774c inherit pro_methods_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33238ce04d3ca6ef52969e6851462e65 inherit pro_methods_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#a33238ce04d3ca6ef52969e6851462e65">cancelDragging</a> ()</td></tr>
+<tr class="separator:a33238ce04d3ca6ef52969e6851462e65 inherit pro_methods_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac80e045c081312db18f97d9551a35ac8 inherit pro_methods_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#ac80e045c081312db18f97d9551a35ac8">isDragging</a> () const </td></tr>
+<tr class="memdesc:ac80e045c081312db18f97d9551a35ac8 inherit pro_methods_classMapEditorToolBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is the left mouse button pressed and has a drag move been started (by moving the mouse a minimum amount of pixels)?  <a href="#ac80e045c081312db18f97d9551a35ac8">More...</a><br /></td></tr>
+<tr class="separator:ac80e045c081312db18f97d9551a35ac8 inherit pro_methods_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a719bcb90cd5ea24fb75771c2877d363c inherit pro_methods_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#a719bcb90cd5ea24fb75771c2877d363c">dragCanceled</a> ()</td></tr>
+<tr class="separator:a719bcb90cd5ea24fb75771c2877d363c inherit pro_methods_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa499538f75e7d5d58b4ba519ac1790a4 inherit pro_methods_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#aa499538f75e7d5d58b4ba519ac1790a4">reapplyConstraintHelpers</a> ()</td></tr>
+<tr class="memdesc:aa499538f75e7d5d58b4ba519ac1790a4 inherit pro_methods_classMapEditorToolBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies the constraint helpers and generates a pointer event.  <a href="#aa499538f75e7d5d58b4ba519ac1790a4">More...</a><br /></td></tr>
+<tr class="separator:aa499538f75e7d5d58b4ba519ac1790a4 inherit pro_methods_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1a63bb03cee57e9fd7658525691165f inherit pro_methods_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#aa1a63bb03cee57e9fd7658525691165f">startEditing</a> ()</td></tr>
+<tr class="memdesc:aa1a63bb03cee57e9fd7658525691165f inherit pro_methods_classMapEditorToolBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call this before editing the selected objects, and finish/abortEditing() afterwards.  <a href="#aa1a63bb03cee57e9fd7658525691165f">More...</a><br /></td></tr>
+<tr class="separator:aa1a63bb03cee57e9fd7658525691165f inherit pro_methods_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14b3f1e293c5c3ad2c0d074982b0a931 inherit pro_methods_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#a14b3f1e293c5c3ad2c0d074982b0a931">startEditing</a> (<a class="el" href="classObject.html">Object</a> *object)</td></tr>
+<tr class="separator:a14b3f1e293c5c3ad2c0d074982b0a931 inherit pro_methods_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88760f884e846efde7618931dc2225f4 inherit pro_methods_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#a88760f884e846efde7618931dc2225f4">startEditing</a> (const <a class="el" href="test_2data_2CMakeLists_8txt.html#a9f2fa9db7458cb406494dfe7369c056c">std::set</a>&lt; <a class="el" href="classObject.html">Object</a> * &gt; &amp;objects)</td></tr>
+<tr class="separator:a88760f884e846efde7618931dc2225f4 inherit pro_methods_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade09b0a008ce7e53b3f56f2f3743ab1d inherit pro_methods_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#ade09b0a008ce7e53b3f56f2f3743ab1d">abortEditing</a> ()</td></tr>
+<tr class="separator:ade09b0a008ce7e53b3f56f2f3743ab1d inherit pro_methods_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9aa4ed9173c4b85136aead6c4c3f09d5 inherit pro_methods_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMapEditorToolBase_1_1ObjectsRange.html">ObjectsRange</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#a9aa4ed9173c4b85136aead6c4c3f09d5">editedObjects</a> ()</td></tr>
+<tr class="separator:a9aa4ed9173c4b85136aead6c4c3f09d5 inherit pro_methods_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2189c43e31cbe8645a1d19b4167aad6f inherit pro_methods_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#a2189c43e31cbe8645a1d19b4167aad6f">editedObjectsModified</a> () const </td></tr>
+<tr class="separator:a2189c43e31cbe8645a1d19b4167aad6f inherit pro_methods_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefc6e30b8d929edd5064bd160f75f69b inherit pro_methods_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#aefc6e30b8d929edd5064bd160f75f69b">resetEditedObjects</a> ()</td></tr>
+<tr class="separator:aefc6e30b8d929edd5064bd160f75f69b inherit pro_methods_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adaa78450a95ae6a3e15fa2e6f1153ebe inherit pro_methods_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#adaa78450a95ae6a3e15fa2e6f1153ebe">updatePreviewObjectsAsynchronously</a> ()</td></tr>
+<tr class="memdesc:adaa78450a95ae6a3e15fa2e6f1153ebe inherit pro_methods_classMapEditorToolBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call this to display changes to the preview objects between <a class="el" href="classMapEditorToolBase.html#aa1a63bb03cee57e9fd7658525691165f" title="Call this before editing the selected objects, and finish/abortEditing() afterwards. ">startEditing()</a> and finish/abortEditing().  <a href="#adaa78450a95ae6a3e15fa2e6f1153ebe">More...</a><br /></td></tr>
+<tr class="separator:adaa78450a95ae6a3e15fa2e6f1153ebe inherit pro_methods_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bbfbd3569e3df16a2e9d38bc1e83563 inherit pro_methods_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#a5bbfbd3569e3df16a2e9d38bc1e83563">drawSelectionOrPreviewObjects</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpainter.html">QPainter</a> *painter, <a class="el" href="classMapWidget.html">MapWidget</a> *widget, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> draw_opaque=false)</td></tr>
+<tr class="memdesc:a5bbfbd3569e3df16a2e9d38bc1e83563 inherit pro_methods_classMapEditorToolBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the tool created custom renderables (e.g.  <a href="#a5bbfbd3569e3df16a2e9d38bc1e83563">More...</a><br /></td></tr>
+<tr class="separator:a5bbfbd3569e3df16a2e9d38bc1e83563 inherit pro_methods_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee3bd9096554a0b1d7a6744e328ebcc1 inherit pro_methods_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#aee3bd9096554a0b1d7a6744e328ebcc1">activateAngleHelperWhileEditing</a> (<a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> enable=true)</td></tr>
+<tr class="memdesc:aee3bd9096554a0b1d7a6744e328ebcc1 inherit pro_methods_classMapEditorToolBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Activates or deactivates the angle helper, recalculates (un-)constrained cursor position, and calls <a class="el" href="classMapEditorToolBase.html#ae64c3ea5c2feef9610fd9d5e5cbaa81e" title="Called when the mouse is moved without the left mouse button being pressed. ">mouseMove()</a> or <a class="el" href="classMapEditorToolBase.html#a88cbb145aeeb6aec15e2c35f7154c5d6" title="Called when the mouse is moved with the left mouse button being pressed. ">dragMove()</a> to update the tool.  <a href="#aee3bd9096554a0b1d7a6744e328ebcc1">More...</a><br /></td></tr>
+<tr class="separator:aee3bd9096554a0b1d7a6744e328ebcc1 inherit pro_methods_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f7befa5aa6a46d4f0256ae8b99e068f inherit pro_methods_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#a4f7befa5aa6a46d4f0256ae8b99e068f">activateSnapHelperWhileEditing</a> (<a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> enable=true)</td></tr>
+<tr class="memdesc:a4f7befa5aa6a46d4f0256ae8b99e068f inherit pro_methods_classMapEditorToolBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Activates or deactivates the snap helper, recalculates (un-)constrained cursor position, and calls <a class="el" href="classMapEditorToolBase.html#ae64c3ea5c2feef9610fd9d5e5cbaa81e" title="Called when the mouse is moved without the left mouse button being pressed. ">mouseMove()</a> or <a class="el" href="classMapEditorToolBase.html#a88cbb145aeeb6aec15e2c35f7154c5d6" title="Called when the mouse is moved with the left mouse button being pressed. ">dragMove()</a> to update the tool.  <a href="#a4f7befa5aa6a46d4f0256ae8b99e068f">More...</a><br /></td></tr>
+<tr class="separator:a4f7befa5aa6a46d4f0256ae8b99e068f inherit pro_methods_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d70830512a8e636c80a1ae8da4f94c3 inherit pro_methods_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#a9d70830512a8e636c80a1ae8da4f94c3">updateConstrainedPositions</a> ()</td></tr>
+<tr class="memdesc:a9d70830512a8e636c80a1ae8da4f94c3 inherit pro_methods_classMapEditorToolBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the constrained cursor position for the current position and map widget.  <a href="#a9d70830512a8e636c80a1ae8da4f94c3">More...</a><br /></td></tr>
+<tr class="separator:a9d70830512a8e636c80a1ae8da4f94c3 inherit pro_methods_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classMapEditorTool"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classMapEditorTool')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classMapEditorTool.html">MapEditorTool</a></td></tr>
 <tr class="memitem:ac7e026d6e538bd2dd8b5c931b0d84840 inherit pro_methods_classMapEditorTool"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorTool.html#ac7e026d6e538bd2dd8b5c931b0d84840">useTouchCursor</a> (<a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> enabled)</td></tr>
 <tr class="memdesc:ac7e026d6e538bd2dd8b5c931b0d84840 inherit pro_methods_classMapEditorTool"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the flag which indicates whether the touch cursor shall be used.  <a href="#ac7e026d6e538bd2dd8b5c931b0d84840">More...</a><br /></td></tr>
@@ -396,16 +490,6 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:affaee5cd3a8874698e22207356d0b2c6 inherit pro_methods_classMapEditorTool"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorTool.html#affaee5cd3a8874698e22207356d0b2c6">drawSelectionBox</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpainter.html">QPainter</a> *painter, <a class="el" href="classMapWidget.html">MapWidget</a> *widget, const <a class="el" href="classMapCoordF.html">MapCoordF</a> &amp;corner1, const <a class="el" href="classMapCoordF.html">MapCoordF</a> &amp;corner2) const </td></tr>
 <tr class="memdesc:affaee5cd3a8874698e22207356d0b2c6 inherit pro_methods_classMapEditorTool"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a selection box for the given corner points.  <a href="#affaee5cd3a8874698e22207356d0b2c6">More...</a><br /></td></tr>
 <tr class="separator:affaee5cd3a8874698e22207356d0b2c6 inherit pro_methods_classMapEditorTool"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ccc825b10bebcec500fc6734c2698f5 inherit pro_methods_classMapEditorTool"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorTool.html#a4ccc825b10bebcec500fc6734c2698f5">startEditingSelection</a> (<a class="el" href="classMapRenderables.html">MapRenderables</a> &amp;old_renderables)</td></tr>
-<tr class="separator:a4ccc825b10bebcec500fc6734c2698f5 inherit pro_methods_classMapEditorTool"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaabc6cf80e9b22b3ab6457464af29829 inherit pro_methods_classMapEditorTool"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorTool.html#aaabc6cf80e9b22b3ab6457464af29829">resetEditedObjects</a> ()</td></tr>
-<tr class="separator:aaabc6cf80e9b22b3ab6457464af29829 inherit pro_methods_classMapEditorTool"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0bdf1cbc2b81e438f6a5bffa3130ce2a inherit pro_methods_classMapEditorTool"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorTool.html#a0bdf1cbc2b81e438f6a5bffa3130ce2a">finishEditingSelection</a> (<a class="el" href="classMapRenderables.html">MapRenderables</a> &amp;renderables, <a class="el" href="classMapRenderables.html">MapRenderables</a> &amp;old_renderables, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> create_undo_step, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> delete_objects=false)</td></tr>
-<tr class="separator:a0bdf1cbc2b81e438f6a5bffa3130ce2a inherit pro_methods_classMapEditorTool"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af64ef1134dba06a09ee9279423408084 inherit pro_methods_classMapEditorTool"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorTool.html#af64ef1134dba06a09ee9279423408084">updateSelectionEditPreview</a> (<a class="el" href="classMapRenderables.html">MapRenderables</a> &amp;renderables)</td></tr>
-<tr class="separator:af64ef1134dba06a09ee9279423408084 inherit pro_methods_classMapEditorTool"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2990c3e19324c91765ee494db85e5db8 inherit pro_methods_classMapEditorTool"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorTool.html#a2990c3e19324c91765ee494db85e5db8">deleteOldSelectionRenderables</a> (<a class="el" href="classMapRenderables.html">MapRenderables</a> &amp;old_renderables, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> set_area_dirty)</td></tr>
-<tr class="separator:a2990c3e19324c91765ee494db85e5db8 inherit pro_methods_classMapEditorTool"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64abad943d125e597f74d89776b8ac7a inherit pro_methods_classMapEditorTool"><td class="memItemLeft" align="right" valign="top">MapCoordVector::size_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorTool.html#a64abad943d125e597f74d89776b8ac7a">findHoverPoint</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpointf.html">QPointF</a> cursor, const <a class="el" href="classMapWidget.html">MapWidget</a> *widget, const <a class="el" href="classObject.html">Object</a> *object, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> include_curve_handles, <a class="el" href="classMapCoordF.html">MapCoordF</a> *out_handle_pos=nullptr) const </td></tr>
 <tr class="memdesc:a64abad943d125e597f74d89776b8ac7a inherit pro_methods_classMapEditorTool"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds and returns the point of the given object over which the cursor hovers.  <a href="#a64abad943d125e597f74d89776b8ac7a">More...</a><br /></td></tr>
 <tr class="separator:a64abad943d125e597f74d89776b8ac7a inherit pro_methods_classMapEditorTool"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -437,44 +521,78 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:aa0b1acf2661e563c6150a96f313c8ae6"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpoint.html">QPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#aa0b1acf2661e563c6150a96f313c8ae6">click_pos</a></td></tr>
-<tr class="separator:aa0b1acf2661e563c6150a96f313c8ae6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0eb90fa60de34baac866d9596dceb122"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMapCoordF.html">MapCoordF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a0eb90fa60de34baac866d9596dceb122">click_pos_map</a></td></tr>
-<tr class="separator:a0eb90fa60de34baac866d9596dceb122"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae968300bc593f90f034e784ff04b1854"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpoint.html">QPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#ae968300bc593f90f034e784ff04b1854">cur_pos</a></td></tr>
-<tr class="separator:ae968300bc593f90f034e784ff04b1854"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af285d10429055b8d342f82f27dd857f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMapCoordF.html">MapCoordF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#af285d10429055b8d342f82f27dd857f2">cur_pos_map</a></td></tr>
-<tr class="separator:af285d10429055b8d342f82f27dd857f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9918d532bbe3e87eedfd682c7181c3a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#ad9918d532bbe3e87eedfd682c7181c3a">dragging</a></td></tr>
-<tr class="separator:ad9918d532bbe3e87eedfd682c7181c3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ce6690ebd574cc578b7960b227f12d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a1ce6690ebd574cc578b7960b227f12d4">waiting_for_mouse_release</a></td></tr>
+<tr class="separator:a1ce6690ebd574cc578b7960b227f12d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afac7acfbbfc97191a3809c06a7655179"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCutTool.html#a6b02450a3ae5be4124502a1a583e1df9">HoverState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#afac7acfbbfc97191a3809c06a7655179">hover_state</a></td></tr>
 <tr class="separator:afac7acfbbfc97191a3809c06a7655179"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81ad180815ee81e4b7665532e0c1add6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classObject.html">Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a81ad180815ee81e4b7665532e0c1add6">hover_object</a></td></tr>
-<tr class="separator:a81ad180815ee81e4b7665532e0c1add6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ab12a9299dd0d8078f1e5d0605df114"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPathObject.html">PathObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a0ab12a9299dd0d8078f1e5d0605df114">hover_object</a></td></tr>
+<tr class="separator:a0ab12a9299dd0d8078f1e5d0605df114"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeabb2cbdb13db1e09aaa66c97a5b83e9"><td class="memItemLeft" align="right" valign="top">MapCoordVector::size_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#aeabb2cbdb13db1e09aaa66c97a5b83e9">hover_point</a></td></tr>
 <tr class="separator:aeabb2cbdb13db1e09aaa66c97a5b83e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa78a97ddd19f91093ac9ae03b9c6fadf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPathObject.html">PathObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#aa78a97ddd19f91093ac9ae03b9c6fadf">edit_object</a></td></tr>
 <tr class="separator:aa78a97ddd19f91093ac9ae03b9c6fadf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a843b5a7264fbda4ff350efab2a0aafc9"><td class="memItemLeft" align="right" valign="top">quint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a843b5a7264fbda4ff350efab2a0aafc9">drag_part_index</a></td></tr>
-<tr class="separator:a843b5a7264fbda4ff350efab2a0aafc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac944656ec4e6c6c9c66a40ca36ed9cb6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#ac944656ec4e6c6c9c66a40ca36ed9cb6">drag_start_len</a></td></tr>
-<tr class="separator:ac944656ec4e6c6c9c66a40ca36ed9cb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a978d0dbe789cc89463e5954d1b0130fb"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a978d0dbe789cc89463e5954d1b0130fb">drag_end_len</a></td></tr>
-<tr class="separator:a978d0dbe789cc89463e5954d1b0130fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3566f31d330dd2f27406e66a3a6a534b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a3566f31d330dd2f27406e66a3a6a534b">drag_forward</a></td></tr>
-<tr class="separator:a3566f31d330dd2f27406e66a3a6a534b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0756f9be6b8df686a5e9db3b44984be4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a0756f9be6b8df686a5e9db3b44984be4">dragging_on_line</a></td></tr>
-<tr class="separator:a0756f9be6b8df686a5e9db3b44984be4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d79d9e2db9535a151e34822cb5e0db5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a6d79d9e2db9535a151e34822cb5e0db5">cutting_area</a></td></tr>
-<tr class="separator:a6d79d9e2db9535a151e34822cb5e0db5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1dbdf0e0bc98338d6e8c981a909136e"><td class="memItemLeft" align="right" valign="top">PathPartVector::size_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#ab1dbdf0e0bc98338d6e8c981a909136e">drag_part_index</a></td></tr>
+<tr class="separator:ab1dbdf0e0bc98338d6e8c981a909136e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2b937b0b457a0f5d51b570cfdf3d026"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCutTool.html#ae1dd1190adb8da33cfdee2eaf2224123">length_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#aa2b937b0b457a0f5d51b570cfdf3d026">drag_start_len</a></td></tr>
+<tr class="separator:aa2b937b0b457a0f5d51b570cfdf3d026"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d4dad04824378eac74aa807e49cccd1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCutTool.html#ae1dd1190adb8da33cfdee2eaf2224123">length_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a3d4dad04824378eac74aa807e49cccd1">drag_end_len</a></td></tr>
+<tr class="separator:a3d4dad04824378eac74aa807e49cccd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fd3feee063a5a19ecbb0e97617d3d7a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a0fd3feee063a5a19ecbb0e97617d3d7a">reverse_drag</a></td></tr>
+<tr class="separator:a0fd3feee063a5a19ecbb0e97617d3d7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e14934ee11f065251b9a92181e1571f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classDrawPathTool.html">DrawPathTool</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a8e14934ee11f065251b9a92181e1571f">path_tool</a></td></tr>
 <tr class="separator:a8e14934ee11f065251b9a92181e1571f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a792909fe667acaddbc6740323da0b2a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMapWidget.html">MapWidget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a792909fe667acaddbc6740323da0b2a4">edit_widget</a></td></tr>
-<tr class="separator:a792909fe667acaddbc6740323da0b2a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d4f78fc1be3bcbb9b2ada84dc52846c"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a8d4f78fc1be3bcbb9b2ada84dc52846c">path_tool_rect</a></td></tr>
+<tr class="separator:a8d4f78fc1be3bcbb9b2ada84dc52846c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf4357bb4cd836a386c5d3ce9e710820"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPathObject.html">PathObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#acf4357bb4cd836a386c5d3ce9e710820">preview_path</a></td></tr>
 <tr class="separator:acf4357bb4cd836a386c5d3ce9e710820"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9cb9e72d31690bd186bfa85d8c98eda2"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qscopedpointer.html">QScopedPointer</a>&lt; <a class="el" href="classMapRenderables.html">MapRenderables</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCutTool.html#a9cb9e72d31690bd186bfa85d8c98eda2">renderables</a></td></tr>
+<tr class="memdesc:a9cb9e72d31690bd186bfa85d8c98eda2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The renderables member in <a class="el" href="classMapEditorToolBase.html" title="Provides a simple interface to base tools on. ">MapEditorToolBase</a> contains the selection at the moment, but the path of cutting a line needs to be drawn separately.  <a href="#a9cb9e72d31690bd186bfa85d8c98eda2">More...</a><br /></td></tr>
 <tr class="separator:a9cb9e72d31690bd186bfa85d8c98eda2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classMapEditorToolBase"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classMapEditorToolBase')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMapEditorToolBase.html">MapEditorToolBase</a></td></tr>
+<tr class="memitem:a28f9b824d6093ac8deb10936ebdefef6 inherit pro_attribs_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpoint.html">QPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#a28f9b824d6093ac8deb10936ebdefef6">click_pos</a></td></tr>
+<tr class="memdesc:a28f9b824d6093ac8deb10936ebdefef6 inherit pro_attribs_classMapEditorToolBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Position where the left mouse button was pressed, with no constraints applied.  <a href="#a28f9b824d6093ac8deb10936ebdefef6">More...</a><br /></td></tr>
+<tr class="separator:a28f9b824d6093ac8deb10936ebdefef6 inherit pro_attribs_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bd871e018df850827d882d90d6811c2 inherit pro_attribs_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMapCoordF.html">MapCoordF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#a6bd871e018df850827d882d90d6811c2">click_pos_map</a></td></tr>
+<tr class="separator:a6bd871e018df850827d882d90d6811c2 inherit pro_attribs_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b0fb370cf917f4dbc3505e747feff46 inherit pro_attribs_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpointf.html">QPointF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#a4b0fb370cf917f4dbc3505e747feff46">constrained_click_pos</a></td></tr>
+<tr class="memdesc:a4b0fb370cf917f4dbc3505e747feff46 inherit pro_attribs_classMapEditorToolBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Position where the left mouse button was pressed, constrained by tool helpers, if active.  <a href="#a4b0fb370cf917f4dbc3505e747feff46">More...</a><br /></td></tr>
+<tr class="separator:a4b0fb370cf917f4dbc3505e747feff46 inherit pro_attribs_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a348e2a74717fbe62202eef5ddc363a6e inherit pro_attribs_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMapCoordF.html">MapCoordF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#a348e2a74717fbe62202eef5ddc363a6e">constrained_click_pos_map</a></td></tr>
+<tr class="separator:a348e2a74717fbe62202eef5ddc363a6e inherit pro_attribs_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bca8958ca4946482a73afd593b2d2fa inherit pro_attribs_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpoint.html">QPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#a7bca8958ca4946482a73afd593b2d2fa">cur_pos</a></td></tr>
+<tr class="memdesc:a7bca8958ca4946482a73afd593b2d2fa inherit pro_attribs_classMapEditorToolBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Position where the cursor is currently.  <a href="#a7bca8958ca4946482a73afd593b2d2fa">More...</a><br /></td></tr>
+<tr class="separator:a7bca8958ca4946482a73afd593b2d2fa inherit pro_attribs_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57193312659f10de547748f9d8ab9928 inherit pro_attribs_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMapCoordF.html">MapCoordF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#a57193312659f10de547748f9d8ab9928">cur_pos_map</a></td></tr>
+<tr class="separator:a57193312659f10de547748f9d8ab9928 inherit pro_attribs_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac9afe100859476b2469fa28005533ba inherit pro_attribs_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpointf.html">QPointF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#aac9afe100859476b2469fa28005533ba">constrained_pos</a></td></tr>
+<tr class="memdesc:aac9afe100859476b2469fa28005533ba inherit pro_attribs_classMapEditorToolBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Position where the cursor is currently, constrained by tool helpers, if active.  <a href="#aac9afe100859476b2469fa28005533ba">More...</a><br /></td></tr>
+<tr class="separator:aac9afe100859476b2469fa28005533ba inherit pro_attribs_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a875e0df4269937291fef268fca5df46e inherit pro_attribs_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMapCoordF.html">MapCoordF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#a875e0df4269937291fef268fca5df46e">constrained_pos_map</a></td></tr>
+<tr class="separator:a875e0df4269937291fef268fca5df46e inherit pro_attribs_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66c3f3e3f3b3a97d50d1b982a1d91392 inherit pro_attribs_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#a66c3f3e3f3b3a97d50d1b982a1d91392">snapped_to_pos</a></td></tr>
+<tr class="memdesc:a66c3f3e3f3b3a97d50d1b982a1d91392 inherit pro_attribs_classMapEditorToolBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is set to true when constrained_pos(_map) is a snapped position.  <a href="#a66c3f3e3f3b3a97d50d1b982a1d91392">More...</a><br /></td></tr>
+<tr class="separator:a66c3f3e3f3b3a97d50d1b982a1d91392 inherit pro_attribs_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8383e683f052ffc019c78d44bc2e2c12 inherit pro_attribs_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#a8383e683f052ffc019c78d44bc2e2c12">start_drag_distance</a></td></tr>
+<tr class="memdesc:a8383e683f052ffc019c78d44bc2e2c12 inherit pro_attribs_classMapEditorToolBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">The amount of pixels the mouse has to be moved to start dragging. Defaults to <a class="el" href="classSettings.html#ab170ab4efbd27f07516e41d657f05748">Settings::getInstance()</a>.getStartDragDistancePx().  <a href="#a8383e683f052ffc019c78d44bc2e2c12">More...</a><br /></td></tr>
+<tr class="separator:a8383e683f052ffc019c78d44bc2e2c12 inherit pro_attribs_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af133409d9a23617694cd2e35118c8a3c inherit pro_attribs_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qscopedpointer.html">QScopedPointer</a>&lt; <a class="el" href="classConstrainAngleToolHelper.html">ConstrainAngleToolHelper</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#af133409d9a23617694cd2e35118c8a3c">angle_helper</a></td></tr>
+<tr class="memdesc:af133409d9a23617694cd2e35118c8a3c inherit pro_attribs_classMapEditorToolBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Angle tool helper. If activated, it is included in the dirty rect and drawn automatically.  <a href="#af133409d9a23617694cd2e35118c8a3c">More...</a><br /></td></tr>
+<tr class="separator:af133409d9a23617694cd2e35118c8a3c inherit pro_attribs_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4879b8333a85c958fe6dd192fad61215 inherit pro_attribs_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qscopedpointer.html">QScopedPointer</a>&lt; <a class="el" href="classSnappingToolHelper.html">SnappingToolHelper</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#a4879b8333a85c958fe6dd192fad61215">snap_helper</a></td></tr>
+<tr class="memdesc:a4879b8333a85c958fe6dd192fad61215 inherit pro_attribs_classMapEditorToolBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Snapping tool helper. If a non-null filter is set, it is included in the dirty rect and drawn automatically.  <a href="#a4879b8333a85c958fe6dd192fad61215">More...</a><br /></td></tr>
+<tr class="separator:a4879b8333a85c958fe6dd192fad61215 inherit pro_attribs_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a477e9677b72910840c08e0f86d570f93 inherit pro_attribs_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classObject.html">Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#a477e9677b72910840c08e0f86d570f93">snap_exclude_object</a></td></tr>
+<tr class="memdesc:a477e9677b72910840c08e0f86d570f93 inherit pro_attribs_classMapEditorToolBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">An object to exclude from snapping, or NULL to snap to all objects.  <a href="#a477e9677b72910840c08e0f86d570f93">More...</a><br /></td></tr>
+<tr class="separator:a477e9677b72910840c08e0f86d570f93 inherit pro_attribs_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b95a7b3d12671cc41cc4f0f8d5e460e inherit pro_attribs_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qt.html#KeyboardModifier-enum">Qt::KeyboardModifiers</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#a3b95a7b3d12671cc41cc4f0f8d5e460e">active_modifiers</a></td></tr>
+<tr class="memdesc:a3b95a7b3d12671cc41cc4f0f8d5e460e inherit pro_attribs_classMapEditorToolBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bitmask containing active modifiers.  <a href="#a3b95a7b3d12671cc41cc4f0f8d5e460e">More...</a><br /></td></tr>
+<tr class="separator:a3b95a7b3d12671cc41cc4f0f8d5e460e inherit pro_attribs_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1ad64a78975229c9ac1e3830e21bca3 inherit pro_attribs_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMapWidget.html">MapWidget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#af1ad64a78975229c9ac1e3830e21bca3">cur_map_widget</a></td></tr>
+<tr class="memdesc:af1ad64a78975229c9ac1e3830e21bca3 inherit pro_attribs_classMapEditorToolBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">The map widget in which the tool was last used.  <a href="#af1ad64a78975229c9ac1e3830e21bca3">More...</a><br /></td></tr>
+<tr class="separator:af1ad64a78975229c9ac1e3830e21bca3 inherit pro_attribs_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab47c50521e9d2b28018946de78cc265 inherit pro_attribs_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpointer.html">QPointer</a>&lt; <a class="el" href="classKeyButtonBar.html">KeyButtonBar</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#aab47c50521e9d2b28018946de78cc265">key_button_bar</a></td></tr>
+<tr class="memdesc:aab47c50521e9d2b28018946de78cc265 inherit pro_attribs_classMapEditorToolBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must be set by derived classes if a key button bar is used.  <a href="#aab47c50521e9d2b28018946de78cc265">More...</a><br /></td></tr>
+<tr class="separator:aab47c50521e9d2b28018946de78cc265 inherit pro_attribs_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classMapEditorTool"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classMapEditorTool')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMapEditorTool.html">MapEditorTool</a></td></tr>
 <tr class="memitem:a8aca37fc333034981c06834a2978c559 inherit pro_attribs_classMapEditorTool"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMapEditorController.html">MapEditorController</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorTool.html#a8aca37fc333034981c06834a2978c559">editor</a></td></tr>
 <tr class="memdesc:a8aca37fc333034981c06834a2978c559 inherit pro_attribs_classMapEditorTool"><td class="mdescLeft">&#160;</td><td class="mdescRight">The map editor which uses this tool.  <a href="#a8aca37fc333034981c06834a2978c559">More...</a><br /></td></tr>
@@ -515,6 +633,13 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a2f97da6583765be4f3b4d87ccba484ef inherit pub_static_attribs_classMapEditorTool"><td class="memItemLeft" align="right" valign="top">static const QRgb&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorTool.html#a2f97da6583765be4f3b4d87ccba484ef">selection_color</a> = qRgb(210, 0, 229)</td></tr>
 <tr class="memdesc:a2f97da6583765be4f3b4d87ccba484ef inherit pub_static_attribs_classMapEditorTool"><td class="mdescLeft">&#160;</td><td class="mdescRight">Color for selected elements.  <a href="#a2f97da6583765be4f3b4d87ccba484ef">More...</a><br /></td></tr>
 <tr class="separator:a2f97da6583765be4f3b4d87ccba484ef inherit pub_static_attribs_classMapEditorTool"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_slots_classMapEditorToolBase"><td colspan="2" onclick="javascript:toggleInherit('pro_slots_classMapEditorToolBase')"><img src="closed.png" alt="-"/>&#160;Protected Slots inherited from <a class="el" href="classMapEditorToolBase.html">MapEditorToolBase</a></td></tr>
+<tr class="memitem:add221760cf6cbdcabe80c587dbba1f22 inherit pro_slots_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#add221760cf6cbdcabe80c587dbba1f22">updateDirtyRect</a> ()</td></tr>
+<tr class="separator:add221760cf6cbdcabe80c587dbba1f22 inherit pro_slots_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17fb17a48e91e705ee8ee56f8a4554dc inherit pro_slots_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#a17fb17a48e91e705ee8ee56f8a4554dc">objectSelectionChanged</a> ()</td></tr>
+<tr class="separator:a17fb17a48e91e705ee8ee56f8a4554dc inherit pro_slots_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16bb685a30d6d61f9c90526c35e4e5d8 inherit pro_slots_classMapEditorToolBase"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorToolBase.html#a16bb685a30d6d61f9c90526c35e4e5d8">updatePreviewObjectsSlot</a> ()</td></tr>
+<tr class="separator:a16bb685a30d6d61f9c90526c35e4e5d8 inherit pro_slots_classMapEditorToolBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_static_methods_classMapEditorTool"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_classMapEditorTool')"><img src="closed.png" alt="-"/>&#160;Static Protected Member Functions inherited from <a class="el" href="classMapEditorTool.html">MapEditorTool</a></td></tr>
 <tr class="memitem:a8f539df0af85dd02cb6bbfdd064fe084 inherit pro_static_methods_classMapEditorTool"><td class="memItemLeft" align="right" valign="top">static <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qcursor.html">QCursor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorTool.html#a8f539df0af85dd02cb6bbfdd064fe084">scaledToScreen</a> (const <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qcursor.html">QCursor</a> &amp;unscaled_cursor)</td></tr>
 <tr class="memdesc:a8f539df0af85dd02cb6bbfdd064fe084 inherit pro_static_methods_classMapEditorTool"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a cursor which is scaled to the screen's resolution.  <a href="#a8f539df0af85dd02cb6bbfdd064fe084">More...</a><br /></td></tr>
@@ -527,9 +652,7 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:objectName-prop inherit properties_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A tool to cut objects into smaller pieces. </p>
-<p>May cut lines and areas.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000060">Todo:</a></b></dt><dd>This tool has some similarities with <a class="el" href="classEditPointTool.html" title="Standard tool to edit all types of objects. ">EditPointTool</a> and maybe should use the same base class (<a class="el" href="classEditTool.html" title="Base class for object editing tools. ">EditTool</a>). </dd></dl>
+<div class="textblock"><p>A tool to cut (split) lines and areas into smaller pieces. </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a3273203151b352b3b661a84060dde4b3"></a>
 <div class="memitem">
@@ -549,6 +672,18 @@ Additional Inherited Members</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classCutTool.html#a6b02450a3ae5be4124502a1a583e1df9">CutTool::HoverState</a> =  EditTool::HoverState</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae1dd1190adb8da33cfdee2eaf2224123"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classCutTool.html#ae1dd1190adb8da33cfdee2eaf2224123">CutTool::length_type</a> =  <a class="el" href="classPathCoord.html#aa6463dfe141d2fedf8a9b65ee8b1c266">PathCoord::length_type</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -582,7 +717,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aff7066b77c516d73feb63b654e635a71"></a>
+<a class="anchor" id="a11870f78917cacf00a5bdf64075d4e42"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -598,7 +733,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -606,7 +741,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="aae57cd04691abc09b82b612b6bb583d5"></a>
+<a class="anchor" id="a380669c295d421d4033b23710e950af5"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -614,7 +749,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void CutTool::deletePreviewPath </td>
+          <td class="memname">void CutTool::abortCuttingArea </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -629,7 +764,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9ec530772632ab5b518bef43bb85b183"></a>
+<a class="anchor" id="a3f43d2cd53b9cd536feddeb6937341d2"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -637,7 +772,167 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void CutTool::draw </td>
+          <td class="memname">void CutTool::clickPress </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called when the left mouse button is pressed. </p>
+
+<p>Reimplemented from <a class="el" href="classMapEditorToolBase.html#ad6353e4ece34366c1bf39018d8bf59bc">MapEditorToolBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a642977e623f066423dc8edbd4db45f2d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CutTool::clickRelease </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called when the left mouse button is released without a drag operation before. </p>
+
+<p>Reimplemented from <a class="el" href="classMapEditorToolBase.html#a66fba74f4186810772d10db6048c1a3d">MapEditorToolBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae406770601b3d9a2c32f32eb3d9e8a33"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CutTool::deletePreviewObject </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0053cff749dcc78694bc4036888d2ef4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CutTool::dragFinish </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called when a drag operation is finished. </p>
+<p>There is no need to update the edit operation with the current cursor coordinates in this call as it is ensured that <a class="el" href="classCutTool.html#a37b66d990f51879fdb96e04be0f195dd" title="Called when the mouse is moved with the left mouse button being pressed. ">dragMove()</a> is called before. </p>
+
+<p>Reimplemented from <a class="el" href="classMapEditorToolBase.html#a5bdd259557548f7c68355b080b09cf0a">MapEditorToolBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a37b66d990f51879fdb96e04be0f195dd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CutTool::dragMove </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called when the mouse is moved with the left mouse button being pressed. </p>
+
+<p>Reimplemented from <a class="el" href="classMapEditorToolBase.html#a88cbb145aeeb6aec15e2c35f7154c5d6">MapEditorToolBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7a98e27aaf197f7ba82915527f22b519"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CutTool::dragStart </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called when a drag operation is started. </p>
+<p>This happens when dragging the mouse some pixels away from the mouse press position. The distance is determined by start_drag_distance. <a class="el" href="classCutTool.html#a37b66d990f51879fdb96e04be0f195dd" title="Called when the mouse is moved with the left mouse button being pressed. ">dragMove()</a> is called immediately after this call to account for the already moved distance. </p>
+
+<p>Reimplemented from <a class="el" href="classMapEditorToolBase.html#a68c77b1ae2082aa47ab7f96445fe59cf">MapEditorToolBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0bb0ebfdb2cba2afec7bc12fd33c3c8c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CutTool::drawImpl </td>
           <td>(</td>
           <td class="paramtype"><a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpainter.html">QPainter</a> *&#160;</td>
           <td class="paramname"><em>painter</em>, </td>
@@ -656,19 +951,19 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Draws the tool's visualisation for a map widget. </p>
-<p>All dynamic drawing must be done here using the given painter. Drawing is only possible in the area specified by calling map-&gt;setDrawingBoundingBox(). </p>
+<p>Must draw the tool's graphics. </p>
+<p>The implementation draws the preview renderables. <a class="el" href="classMapEditorToolBase.html#a4288464c5e7332e66a4dcea1d9a01a4c" title="Draws the preview renderables. Should be overridden to draw custom elements. ">MapEditorToolBase::draw()</a> draws the activated tool helpers afterwards. If this is not desired, you can override <a class="el" href="classMapEditorToolBase.html#a4288464c5e7332e66a4dcea1d9a01a4c" title="Draws the preview renderables. Should be overridden to draw custom elements. ">draw()</a> directly. </p>
 
-<p>Reimplemented from <a class="el" href="classMapEditorTool.html#a8623fb318addd39a5a2be422add510bd">MapEditorTool</a>.</p>
+<p>Reimplemented from <a class="el" href="classMapEditorToolBase.html#a1d0e462913ad50b21f19ee0e77df087e">MapEditorToolBase</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a5c6edd8980b7299d4176ea7259f785e5"></a>
+<a class="anchor" id="af520e0929014cec4ed4ccbbfc77b0fef"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -676,20 +971,8 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> CutTool::findEditPoint </td>
+          <td class="memname"><a class="el" href="structObjectPathCoord.html">ObjectPathCoord</a> CutTool::findEditPoint </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classPathCoord.html">PathCoord</a> &amp;&#160;</td>
-          <td class="paramname"><em>out_edit_point</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classPathObject.html">PathObject</a> *&amp;&#160;</td>
-          <td class="paramname"><em>out_edit_object</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype"><a class="el" href="classMapCoordF.html">MapCoordF</a>&#160;</td>
           <td class="paramname"><em>cursor_pos_map</em>, </td>
         </tr>
@@ -703,18 +986,12 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>without_type</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classMapWidget.html">MapWidget</a> *&#160;</td>
-          <td class="paramname"><em>widget</em>&#160;</td>
+          <td class="paramname"><em>without_type</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>
@@ -726,7 +1003,54 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a429b970dc78d480f2a4b6d7c9230398f"></a>
+<a class="anchor" id="aaebe485207a4de8fdfe2753ec1680cc9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CutTool::finishCuttingArea </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classPathObject.html">PathObject</a> *&#160;</td>
+          <td class="paramname"><em>split_path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aebeb23714f1fd25f7671f6e8860e4593"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CutTool::finishCuttingLine </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a107ac0b99af5fc6d6c5c10e5bfc3aeca"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -743,7 +1067,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -752,7 +1076,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aff3a3ef9eff876fc1bded2bf14fb2f21"></a>
+<a class="anchor" id="a5c569542999d0d7ffab0ed35efc27f0d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -760,35 +1084,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qcursor.html">QCursor</a> &amp; CutTool::getCursor </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns the cursor which should be used for the tool in the editor windows. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000057">Todo:</a></b></dt><dd>How to change the cursor for all map widgets while a tool is active? </dd></dl>
-
-<p>Implements <a class="el" href="classMapEditorTool.html#ac5b05c7fc78bef092cedc4e33900f4e8">MapEditorTool</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a1a600ca34ce757eff155ae5f445f59e1"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CutTool::init </td>
+          <td class="memname">void CutTool::initImpl </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -796,22 +1092,18 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Performs initialization when the tool becomes active. </p>
-<p>This method is called by the map editor when the tool shall become active. Reimplementations may make changes to the map editor or window (e.g. set status bar text) which are not allowed in the constructor.</p>
-<p>Note that this method by call several times, without any deinitialization in between.</p>
-<p>Reimplementations shall call parent implementations.</p>
-<p>The implementation in this class marks the tool's action as checked. </p>
+<p>Can do additional initializations at a time where no other tool is active (in contrast to the constructor) </p>
 
-<p>Reimplemented from <a class="el" href="classMapEditorTool.html#a2aa95a1bcae1f6d04f2f574b15ce807c">MapEditorTool</a>.</p>
+<p>Reimplemented from <a class="el" href="classMapEditorToolBase.html#ad1e713fc6413a7498438ff84129d2d21">MapEditorToolBase</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a4bee87d0227c2559ca53d3b45b16c16f"></a>
+<a class="anchor" id="acf109ee5bd163f5ff56866d14d2fe92c"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -819,7 +1111,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> CutTool::keyPressEvent </td>
+          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> CutTool::keyPress </td>
           <td>(</td>
           <td class="paramtype"><a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qkeyevent.html">QKeyEvent</a> *&#160;</td>
           <td class="paramname"><em>event</em></td><td>)</td>
@@ -828,16 +1120,18 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="classMapEditorTool.html#aee241d2e79a0e1de052e722aeab6a195">MapEditorTool</a>.</p>
+<p>Called when a key is pressed down. Return true if the key was processed by the tool. </p>
+
+<p>Reimplemented from <a class="el" href="classMapEditorToolBase.html#a6d2e09d83cdebd35600f6eff5692f6a9">MapEditorToolBase</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a7863245076c6c9265b4d871e2ac46b43"></a>
+<a class="anchor" id="ade975782c0ddb8257057b5edc47e416c"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -845,7 +1139,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> CutTool::keyReleaseEvent </td>
+          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> CutTool::keyRelease </td>
           <td>(</td>
           <td class="paramtype"><a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qkeyevent.html">QKeyEvent</a> *&#160;</td>
           <td class="paramname"><em>event</em></td><td>)</td>
@@ -854,16 +1148,18 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="classMapEditorTool.html#a09e645335097398f7714f1656883ba34">MapEditorTool</a>.</p>
+<p>Called when a key is released. Return true if the key was processed by the tool. </p>
+
+<p>Reimplemented from <a class="el" href="classMapEditorToolBase.html#a6cd9fb9a7e0facd5b4c8d6103d59e6ec">MapEditorToolBase</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="adda1397ea3cb77269397798ed87df1a2"></a>
+<a class="anchor" id="a39081ef1f2d2695795e56d4144f7077a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -880,7 +1176,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -889,7 +1185,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4f14bbce09cafd511c8807bdc9c9aed5"></a>
+<a class="anchor" id="a3948973cd08f60ed1f04c056fe9be2a8"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -922,7 +1218,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -931,7 +1227,34 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab2e726e0b146c58f83b4561bc05d686e"></a>
+<a class="anchor" id="a35c37d0e57875fcb376979ea805bfc14"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CutTool::mouseMove </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called when the mouse is moved without the left mouse button being pressed. </p>
+
+<p>Reimplemented from <a class="el" href="classMapEditorToolBase.html#ae64c3ea5c2feef9610fd9d5e5cbaa81e">MapEditorToolBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a00b5d03ff2d6d14ffbb6538e6637a5a8"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -964,7 +1287,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -973,7 +1296,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a126bd73580845c2e3e14662f42496c43"></a>
+<a class="anchor" id="a22ddad1b499e3a7ec2a4e21e8c213ed7"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1006,7 +1329,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1015,7 +1338,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab992a73f6427ef89095b8147b366a78d"></a>
+<a class="anchor" id="afe7c29d3affdbc885359038bb2257d8f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1048,7 +1371,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1057,7 +1380,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ac8dd8b2d63648fc948b66afbd5e2f81c"></a>
+<a class="anchor" id="a57039d2c4c3d20b4ffabb9bd659f941b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1065,7 +1388,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void CutTool::objectSelectionChanged </td>
+          <td class="memname">void CutTool::objectSelectionChangedImpl </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1073,85 +1396,19 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a class="anchor" id="a59773336d13ad915cb26ff50b3f28145"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CutTool::pathAborted </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Called when the object selection in the map is changed. </p>
+<p>This can happen for example as result of an undo/redo operation. </p>
+
+<p>Implements <a class="el" href="classMapEditorToolBase.html#a0178deb809a8d0637b10587c899ba9e8">MapEditorToolBase</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aae0800b0a176dc2d3c66b1e68192bc40"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CutTool::pathDirtyRectChanged </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> &amp;&#160;</td>
-          <td class="paramname"><em>rect</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ae49070fc041512149d9dd1de284321cf"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CutTool::pathFinished </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classPathObject.html">PathObject</a> *&#160;</td>
-          <td class="paramname"><em>split_path</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a2c46f764c88bf1144c29fc461e4511c2"></a>
+<a class="anchor" id="a898f567f8932629f872f7d8866bdb185"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1161,7 +1418,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void CutTool::replaceObject </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classPathObject.html">PathObject</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="classObject.html">Object</a> *&#160;</td>
           <td class="paramname"><em>object</em>, </td>
         </tr>
         <tr>
@@ -1185,11 +1442,11 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Replaces the given object in the map with the replacement objects. </p>
 <p>Creates the neccessary undo steps. If replacement is empty, the object is deleted without replacement.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000061">Todo:</a></b></dt><dd>Consider moving this to a more general class (<a class="el" href="classMap.html" title="Central class for an OpenOrienteering map. ">Map</a>, <a class="el" href="classMapPart.html" title="Represents a part of a map by owning a list of map objects. ">MapPart</a>). </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000056">Todo:</a></b></dt><dd>Consider moving this to a more general class (<a class="el" href="classMap.html" title="Central class for an OpenOrienteering map. ">Map</a>, <a class="el" href="classMapPart.html" title="Represents a part of a map by owning a list of map objects. ">MapPart</a>). </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a7358044ff9db0e9420981e489bb1a416"></a>
+<a class="anchor" id="a62270397f812268098a3d1ccf99dab73"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1197,107 +1454,11 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void CutTool::splitLine </td>
+          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> CutTool::startCuttingArea </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classPathObject.html">PathObject</a> *&#160;</td>
-          <td class="paramname"><em>object</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const <a class="el" href="structObjectPathCoord.html">ObjectPathCoord</a> &amp;&#160;</td>
+          <td class="paramname"><em>point</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">std::size_t&#160;</td>
-          <td class="paramname"><em>part_index</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">qreal&#160;</td>
-          <td class="paramname"><em>begin</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">qreal&#160;</td>
-          <td class="paramname"><em>end</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Splits the given path object, removing the section between begin and end. </p>
-<p>This may remove the object from the map and add new objects instead. </p>
-
-</div>
-</div>
-<a class="anchor" id="a3234a92807f904c32fe58dac9965abc6"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CutTool::splitLine </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classPathObject.html">PathObject</a> *&#160;</td>
-          <td class="paramname"><em>object</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classPathCoord.html">PathCoord</a> &amp;&#160;</td>
-          <td class="paramname"><em>split_pos</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Splits the path object at the given position. </p>
-<p>This may remove the object from the map and add new objects instead. </p>
-
-</div>
-</div>
-<a class="anchor" id="a838222e861edaf0e645a402ec4a544b0"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CutTool::startCuttingArea </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPathCoord.html">PathCoord</a> &amp;&#160;</td>
-          <td class="paramname"><em>coord</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classMapWidget.html">MapWidget</a> *&#160;</td>
-          <td class="paramname"><em>widget</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -1309,7 +1470,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a080b41044249de211cc60338b1dcc352"></a>
+<a class="anchor" id="a2f622304978ce9c2b7d70e432e60b78b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1317,11 +1478,11 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void CutTool::updateDirtyRect </td>
+          <td class="memname">void CutTool::startCuttingLine </td>
           <td>(</td>
-          <td class="paramtype">const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> *&#160;</td>
-          <td class="paramname"><em>path_rect</em> = <code>nullptr</code></td><td>)</td>
-          <td> const</td>
+          <td class="paramtype">const <a class="el" href="structObjectPathCoord.html">ObjectPathCoord</a> &amp;&#160;</td>
+          <td class="paramname"><em>point</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
@@ -1333,7 +1494,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a6e4829740d968555f7c3a86ea415bd8d"></a>
+<a class="anchor" id="ad825e7bc32e8b2743f70a56002e2aa0c"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1341,21 +1502,11 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void CutTool::updateDragging </td>
+          <td class="memname">void CutTool::updateCuttingLine </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classMapCoordF.html">MapCoordF</a>&#160;</td>
-          <td class="paramname"><em>cursor_pos_map</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"><em>cursor_pos</em></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classMapWidget.html">MapWidget</a> *&#160;</td>
-          <td class="paramname"><em>widget</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -1367,7 +1518,36 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa51521ba78afe7f7f8d0f4c3d7ffa973"></a>
+<a class="anchor" id="a465978db8ef0b3bad02c8fed3f4f4513"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CutTool::updateDirtyRectImpl </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> &amp;&#160;</td>
+          <td class="paramname"><em>rect</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Must include the area of all custom drawings into the rect, which aleady contains the area of the selection preview and activated tool helpers when this method is called. </p>
+<p>Must return the size of the pixel border, or -1 to clear the drawing. </p>
+
+<p>Reimplemented from <a class="el" href="classMapEditorToolBase.html#aec85ebf768c086af9deb2c9bb94bd312">MapEditorToolBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a61b835e357f2302d4432d5a981a91289"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1377,19 +1557,9 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void CutTool::updateHoverState </td>
           <td>(</td>
-          <td class="paramtype"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpointf.html">QPointF</a>&#160;</td>
-          <td class="paramname"><em>cursor_pos_screen</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype"><a class="el" href="classMapCoordF.html">MapCoordF</a>&#160;</td>
+          <td class="paramname"><em>cursor_pos</em></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classMapWidget.html">MapWidget</a> *&#160;</td>
-          <td class="paramname"><em>widget</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -1401,7 +1571,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aeb6383a78a34e4fbc8c0b68836e3c2f2"></a>
+<a class="anchor" id="aaf70a4077ecfeaff96eb48ae48f500ca"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1417,14 +1587,19 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
+<p>Call this to display changes to the preview objects between <a class="el" href="classMapEditorToolBase.html#aa1a63bb03cee57e9fd7658525691165f" title="Call this before editing the selected objects, and finish/abortEditing() afterwards. ">startEditing()</a> and finish/abortEditing(). </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000072">Todo:</a></b></dt><dd>get rid of force if possible; </dd></dl>
+
+<p>Reimplemented from <a class="el" href="classMapEditorToolBase.html#a65aec0c0e7b4baff0d6021b212af6f5b">MapEditorToolBase</a>.</p>
+
 </div>
 </div>
-<a class="anchor" id="ab0f3c010d4aa830466a1ac7adfb069ab"></a>
+<a class="anchor" id="ae7d590f6c6fbb475d33d0a9617c5be0a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1440,15 +1615,19 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Must update the status bar text. </p>
+
+<p>Implements <a class="el" href="classMapEditorToolBase.html#aa67fb8667a0e56970063f209f33dc809">MapEditorToolBase</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="aa0b1acf2661e563c6150a96f313c8ae6"></a>
+<a class="anchor" id="a3d4dad04824378eac74aa807e49cccd1"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1456,7 +1635,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpoint.html">QPoint</a> CutTool::click_pos</td>
+          <td class="memname"><a class="el" href="classCutTool.html#ae1dd1190adb8da33cfdee2eaf2224123">length_type</a> CutTool::drag_end_len</td>
         </tr>
       </table>
   </td>
@@ -1468,7 +1647,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a0eb90fa60de34baac866d9596dceb122"></a>
+<a class="anchor" id="ab1dbdf0e0bc98338d6e8c981a909136e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1476,7 +1655,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMapCoordF.html">MapCoordF</a> CutTool::click_pos_map</td>
+          <td class="memname">PathPartVector::size_type CutTool::drag_part_index</td>
         </tr>
       </table>
   </td>
@@ -1488,7 +1667,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae968300bc593f90f034e784ff04b1854"></a>
+<a class="anchor" id="aa2b937b0b457a0f5d51b570cfdf3d026"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1496,167 +1675,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpoint.html">QPoint</a> CutTool::cur_pos</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="af285d10429055b8d342f82f27dd857f2"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classMapCoordF.html">MapCoordF</a> CutTool::cur_pos_map</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a6d79d9e2db9535a151e34822cb5e0db5"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> CutTool::cutting_area</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a978d0dbe789cc89463e5954d1b0130fb"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float CutTool::drag_end_len</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a3566f31d330dd2f27406e66a3a6a534b"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> CutTool::drag_forward</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a843b5a7264fbda4ff350efab2a0aafc9"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">quint32 CutTool::drag_part_index</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ac944656ec4e6c6c9c66a40ca36ed9cb6"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float CutTool::drag_start_len</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ad9918d532bbe3e87eedfd682c7181c3a"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> CutTool::dragging</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a0756f9be6b8df686a5e9db3b44984be4"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> CutTool::dragging_on_line</td>
+          <td class="memname"><a class="el" href="classCutTool.html#ae1dd1190adb8da33cfdee2eaf2224123">length_type</a> CutTool::drag_start_len</td>
         </tr>
       </table>
   </td>
@@ -1688,7 +1707,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a792909fe667acaddbc6740323da0b2a4"></a>
+<a class="anchor" id="a0ab12a9299dd0d8078f1e5d0605df114"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1696,27 +1715,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMapWidget.html">MapWidget</a>* CutTool::edit_widget</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a81ad180815ee81e4b7665532e0c1add6"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classObject.html">Object</a>* CutTool::hover_object</td>
+          <td class="memname"><a class="el" href="classPathObject.html">PathObject</a>* CutTool::hover_object</td>
         </tr>
       </table>
   </td>
@@ -1788,6 +1787,26 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a8d4f78fc1be3bcbb9b2ada84dc52846c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> CutTool::path_tool_rect</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="acf4357bb4cd836a386c5d3ce9e710820"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1826,11 +1845,54 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>The renderables member in <a class="el" href="classMapEditorToolBase.html" title="Provides a simple interface to base tools on. ">MapEditorToolBase</a> contains the selection at the moment, but the path of cutting a line needs to be drawn separately. </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000057">Todo:</a></b></dt><dd>Rewrite renderables handling in <a class="el" href="classMapEditorToolBase.html" title="Provides a simple interface to base tools on. ">MapEditorToolBase</a> so that we can remove it here. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a0fd3feee063a5a19ecbb0e97617d3d7a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> CutTool::reverse_drag</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1ce6690ebd574cc578b7960b227f12d4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> CutTool::waiting_for_mouse_release</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/<a class="el" href="tool__cut_8h.html">tool_cut.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/eeb6cdd/src/tool_cut.h"><tt>eeb6cdd</tt></a> on 24 Sep 2015)</li>
-<li>src/<a class="el" href="tool__cut_8cpp.html">tool_cut.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/f344459/src/tool_cut.cpp"><tt>f344459</tt></a> on 13 May 2016)</li>
+<li>src/tools/<a class="el" href="cut__tool_8h.html">cut_tool.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/5351f68/src/tools/cut_tool.h"><tt>5351f68</tt></a> on 8 Jan 2017)</li>
+<li>src/tools/<a class="el" href="cut__tool_8cpp.html">cut_tool.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/9ee00e4/src/tools/cut_tool.cpp"><tt>9ee00e4</tt></a> on 8 Jan 2017)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Mapper: src/object.h File Reference</title>
+<title>Mapper: src/core/objects/object.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -85,7 +85,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_aebb8dcc11953d78e620bbef0b9e2183.html">core</a></li><li class="navelem"><a class="el" href="dir_f84bd3984c86bf8b39f6b24fe8425a7d.html">objects</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -96,27 +96,27 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">object.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/035344b/src/object.h"><tt>035344b</tt></a> on 4 Nov 2016)</h3><div class="textblock"><code>#include &lt;limits&gt;</code><br />
+<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/b7c2de8/src/core/objects/object.h"><tt>b7c2de8</tt></a> on 8 Jan 2017)</h3><div class="textblock"><code>#include &lt;limits&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
 <code>#include &lt;QRectF&gt;</code><br />
 <code>#include &lt;QHash&gt;</code><br />
 <code>#include &quot;<a class="el" href="map__coord_8h.html">core/map_coord.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="path__coord_8h.html">core/path_coord.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="virtual__path_8h.html">core/virtual_path.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="file__format_8h.html">file_format.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="renderable_8h.html">renderable.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="symbol_8h.html">symbol.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="file__format_8h.html">fileformats/file_format.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="renderable_8h.html">core/renderables/renderable.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="symbol_8h.html">core/symbols/symbol.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for object.h:</div>
 <div class="dyncontent">
-<div class="center"><img src="object_8h__incl.png" border="0" usemap="#src_2object_8h" alt=""/></div>
-<map name="src_2object_8h" id="src_2object_8h">
+<div class="center"><img src="object_8h__incl.png" border="0" usemap="#src_2core_2objects_2object_8h" alt=""/></div>
+<map name="src_2core_2objects_2object_8h" id="src_2core_2objects_2object_8h">
 <area shape="rect" id="node6" href="map__coord_8h.html" title="core/map_coord.h" alt="" coords="563,229,690,256"/>
 <area shape="rect" id="node11" href="path__coord_8h.html" title="core/path_coord.h" alt="" coords="134,155,261,181"/>
 <area shape="rect" id="node12" href="virtual__path_8h.html" title="core/virtual_path.h" alt="" coords="394,80,523,107"/>
-<area shape="rect" id="node14" href="file__format_8h.html" title="file_format.h" alt="" coords="1454,229,1549,256"/>
-<area shape="rect" id="node17" href="renderable_8h.html" title="renderable.h" alt="" coords="772,80,865,107"/>
-<area shape="rect" id="node26" href="symbol_8h.html" title="symbol.h" alt="" coords="1371,155,1445,181"/>
+<area shape="rect" id="node14" href="file__format_8h.html" title="fileformats/file_format.h" alt="" coords="1498,229,1657,256"/>
+<area shape="rect" id="node17" href="renderable_8h.html" title="core/renderables/renderable.h" alt="" coords="722,80,915,107"/>
+<area shape="rect" id="node26" href="symbol_8h.html" title="core/symbols/symbol.h" alt="" coords="1371,155,1528,181"/>
 <area shape="rect" id="node13" href="virtual__coord__vector_8h.html" title="virtual_coord_vector.h" alt="" coords="337,155,487,181"/>
 <area shape="rect" id="node21" href="map__color_8h.html" title="core/map_color.h" alt="" coords="757,155,880,181"/>
 </map>
@@ -143,6 +143,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPointObject.html">PointObject</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classObject.html" title="Abstract base class which combines coordinates and a symbol to form an object (in a map...">Object</a> type which can only be used for point symbols, and is also the only object which can be used with them.  <a href="classPointObject.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structObjectPathCoord.html">ObjectPathCoord</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A single <a class="el" href="classPathCoord.html" title="A PathCoord represents a node in a polygonal approximation of a path. ">PathCoord</a> together with the object it belongs to.  <a href="structObjectPathCoord.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>

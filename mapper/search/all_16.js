@@ -32,7 +32,7 @@ var searchData=
   ['valuetokeys',['valueToKeys',['http://doc.qt.io/qt-5/qmetaenum.html#valueToKeys',1,'QMetaEnum']]],
   ['variant',['variant',['http://doc.qt.io/qt-5/quuid.html#variant',1,'QUuid']]],
   ['vasprintf',['vasprintf',['http://doc.qt.io/qt-5/qstring.html#vasprintf',1,'QString']]],
-  ['vector',['Vector',['../classMapPrinterOptions.html#a177ed1999b5050c9c73e9d5e978361e3a75ac004b004bd2ef7fc7b862af29efcc',1,'MapPrinterOptions::Vector()'],['http://doc.qt.io/qt-5/qquaternion.html#vector',1,'QQuaternion::vector()']]],
+  ['vector',['vector',['http://doc.qt.io/qt-5/qquaternion.html#vector',1,'QQuaternion::vector()'],['../classMapPrinterOptions.html#a177ed1999b5050c9c73e9d5e978361e3a75ac004b004bd2ef7fc7b862af29efcc',1,'MapPrinterOptions::Vector()']]],
   ['vectormodeselected',['vectorModeSelected',['../classMapPrinter.html#a98e5f59b42d28f21b14a022252514b23',1,'MapPrinter']]],
   ['velocity',['velocity',['http://doc.qt.io/qt-5/qtouchevent-touchpoint.html#velocity',1,'QTouchEvent::TouchPoint::velocity()'],['http://doc.qt.io/qt-5/qscroller.html#velocity',1,'QScroller::velocity()']]],
   ['vendor_5fmark',['vendor_mark',['../structOcd_1_1FileHeaderGeneric.html#abd575e59433e8144b1dc2e9638f5de4e',1,'Ocd::FileHeaderGeneric']]],

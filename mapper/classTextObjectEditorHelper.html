@@ -88,7 +88,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#pub-slots">Public Slots</a> &#124;
 <a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classTextObjectEditorHelper-members.html">List of all members</a>  </div>
@@ -97,10 +96,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p>Helper class to enable text editing (using the <a class="el" href="classDrawTextTool.html" title="Tool to draw text objects. ">DrawTextTool</a> and the <a class="el" href="classEditTool.html" title="Base class for object editing tools. ">EditTool</a>).  
+<p>Helper class editing the text of <a class="el" href="classTextObject.html" title="A text object. ">TextObject</a>.  
  <a href="classTextObjectEditorHelper.html#details">More...</a></p>
 
-<p><code>#include &lt;tool_helpers.h&gt;</code></p>
+<p><code>#include &lt;text_object_editor_helper.h&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for TextObjectEditorHelper:</div>
 <div class="dyncontent">
@@ -118,25 +117,33 @@ Collaboration diagram for TextObjectEditorHelper:</div>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-slots"></a>
-Public Slots</h2></td></tr>
-<tr class="memitem:a87a4e654be32cae8553796a89070afc5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#a87a4e654be32cae8553796a89070afc5">alignmentChanged</a> (int horz, int vert)</td></tr>
-<tr class="separator:a87a4e654be32cae8553796a89070afc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad88e091713e6a32d418983509b9c7c1b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#ad88e091713e6a32d418983509b9c7c1b">setFocus</a> ()</td></tr>
-<tr class="separator:ad88e091713e6a32d418983509b9c7c1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="signals"></a>
 Signals</h2></td></tr>
-<tr class="memitem:a3aff5df1614bed1b21f2479838a968cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#a3aff5df1614bed1b21f2479838a968cb">selectionChanged</a> (<a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> text_change)</td></tr>
-<tr class="memdesc:a3aff5df1614bed1b21f2479838a968cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when a user action changes the selection (not called by <a class="el" href="classTextObjectEditorHelper.html#a782cae87d53475a886f67fa163aff724">setSelection()</a>), or the text alignment. If the text is also changed, text_change is true.  <a href="#a3aff5df1614bed1b21f2479838a968cb">More...</a><br /></td></tr>
-<tr class="separator:a3aff5df1614bed1b21f2479838a968cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69c3108f713712502bdb5bc375846b49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#a69c3108f713712502bdb5bc375846b49">stateChanged</a> ()</td></tr>
+<tr class="memdesc:a69c3108f713712502bdb5bc375846b49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when the text object or the selection is modified.  <a href="#a69c3108f713712502bdb5bc375846b49">More...</a><br /></td></tr>
+<tr class="separator:a69c3108f713712502bdb5bc375846b49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c39cd0819599f73726abdec602d4741"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#a7c39cd0819599f73726abdec602d4741">finished</a> ()</td></tr>
+<tr class="memdesc:a7c39cd0819599f73726abdec602d4741"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when editing is finished.  <a href="#a7c39cd0819599f73726abdec602d4741">More...</a><br /></td></tr>
+<tr class="separator:a7c39cd0819599f73726abdec602d4741"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a3c044b3ee779aacdeed42130d4886ca7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#a3c044b3ee779aacdeed42130d4886ca7">TextObjectEditorHelper</a> (<a class="el" href="classTextObject.html">TextObject</a> *object, <a class="el" href="classMapEditorController.html">MapEditorController</a> *editor)</td></tr>
-<tr class="separator:a3c044b3ee779aacdeed42130d4886ca7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ee6c5dcb610ca0a6acc05d224dc3047"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#a3ee6c5dcb610ca0a6acc05d224dc3047">~TextObjectEditorHelper</a> ()</td></tr>
-<tr class="separator:a3ee6c5dcb610ca0a6acc05d224dc3047"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c67c541de6afec47959cab85e186e13"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#a7c67c541de6afec47959cab85e186e13">TextObjectEditorHelper</a> (<a class="el" href="classTextObject.html">TextObject</a> *text_object, <a class="el" href="classMapEditorController.html">MapEditorController</a> *editor)</td></tr>
+<tr class="separator:a7c67c541de6afec47959cab85e186e13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30207c86bd077a23f831f0c4b93db1b6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#a30207c86bd077a23f831f0c4b93db1b6">~TextObjectEditorHelper</a> () override</td></tr>
+<tr class="separator:a30207c86bd077a23f831f0c4b93db1b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae310769402c21a32c42bbf11e1333e8f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTextObject.html">TextObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#ae310769402c21a32c42bbf11e1333e8f">object</a> () const </td></tr>
+<tr class="memdesc:ae310769402c21a32c42bbf11e1333e8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the text object which is edited by this object.  <a href="#ae310769402c21a32c42bbf11e1333e8f">More...</a><br /></td></tr>
+<tr class="separator:ae310769402c21a32c42bbf11e1333e8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada8b358d04306814f830fbbc687a2653"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#ada8b358d04306814f830fbbc687a2653">setSelection</a> (int anchor, int cursor)</td></tr>
+<tr class="memdesc:ada8b358d04306814f830fbbc687a2653"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the position of the selection anchor and of the cursor.  <a href="#ada8b358d04306814f830fbbc687a2653">More...</a><br /></td></tr>
+<tr class="separator:ada8b358d04306814f830fbbc687a2653"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e83132d85422163f965d3b6669f04e6"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#a1e83132d85422163f965d3b6669f04e6">selectionText</a> () const </td></tr>
+<tr class="memdesc:a1e83132d85422163f965d3b6669f04e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the text of the current selection.  <a href="#a1e83132d85422163f965d3b6669f04e6">More...</a><br /></td></tr>
+<tr class="separator:a1e83132d85422163f965d3b6669f04e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1336e8b15bf53820e0a96481731fa1b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#ae1336e8b15bf53820e0a96481731fa1b">replaceSelectionText</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;replacement)</td></tr>
+<tr class="memdesc:ae1336e8b15bf53820e0a96481731fa1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts text in place of the current selection.  <a href="#ae1336e8b15bf53820e0a96481731fa1b">More...</a><br /></td></tr>
+<tr class="separator:ae1336e8b15bf53820e0a96481731fa1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68eae4f90d18336611d326b986386884"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#a68eae4f90d18336611d326b986386884">mousePressEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmouseevent.html">QMouseEvent</a> *<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#event">event</a>, <a class="el" href="classMapCoordF.html">MapCoordF</a> map_coord, <a class="el" href="classMapWidget.html">MapWidget</a> *widget)</td></tr>
 <tr class="separator:a68eae4f90d18336611d326b986386884"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae189f86a4610914a84a91afbd0655e5d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#ae189f86a4610914a84a91afbd0655e5d">mouseMoveEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmouseevent.html">QMouseEvent</a> *<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#event">event</a>, <a class="el" href="classMapCoordF.html">MapCoordF</a> map_coord, <a class="el" href="classMapWidget.html">MapWidget</a> *widget)</td></tr>
@@ -149,12 +156,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a93ad0b2a61ba23f92e67b3f60fb8ad29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ddb96612cc0d937bb433035e841ab53"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#a4ddb96612cc0d937bb433035e841ab53">draw</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpainter.html">QPainter</a> *painter, <a class="el" href="classMapWidget.html">MapWidget</a> *widget)</td></tr>
 <tr class="separator:a4ddb96612cc0d937bb433035e841ab53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c204a515709efef10fdfb107820c8ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#a3c204a515709efef10fdfb107820c8ad">includeDirtyRect</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> &amp;rect)</td></tr>
-<tr class="separator:a3c204a515709efef10fdfb107820c8ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a782cae87d53475a886f67fa163aff724"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#a782cae87d53475a886f67fa163aff724">setSelection</a> (int start, int end)</td></tr>
-<tr class="separator:a782cae87d53475a886f67fa163aff724"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f1ac9284db002bff21ee4910aa303e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTextObject.html">TextObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#a7f1ac9284db002bff21ee4910aa303e9">getObject</a> () const </td></tr>
-<tr class="separator:a7f1ac9284db002bff21ee4910aa303e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc201f586bc968c0cd15c14624cadd54"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#afc201f586bc968c0cd15c14624cadd54">includeDirtyRect</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> &amp;rect) const </td></tr>
+<tr class="separator:afc201f586bc968c0cd15c14624cadd54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_qobject"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_qobject')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td></tr>
 <tr class="memitem:QObject inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#QObject">QObject</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html">QObject</a> *<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#parent">parent</a>)</td></tr>
 <tr class="separator:QObject inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -278,10 +281,15 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:objectName-prop inherit properties_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Helper class to enable text editing (using the <a class="el" href="classDrawTextTool.html" title="Tool to draw text objects. ">DrawTextTool</a> and the <a class="el" href="classEditTool.html" title="Base class for object editing tools. ">EditTool</a>). </p>
-<p>To use it, after constructing an instance for the <a class="el" href="classTextObject.html" title="A text object. ">TextObject</a> to edit, you must pass through all mouse and key events to it and call <a class="el" href="classTextObjectEditorHelper.html#a4ddb96612cc0d937bb433035e841ab53">draw()</a> &amp; <a class="el" href="classTextObjectEditorHelper.html#a3c204a515709efef10fdfb107820c8ad">includeDirtyRect()</a>. If <a class="el" href="classTextObjectEditorHelper.html#a68eae4f90d18336611d326b986386884">mousePressEvent()</a> or <a class="el" href="classTextObjectEditorHelper.html#a1a741ea7ca25d67228cab343779c334f">mouseReleaseEvent()</a> returns false, editing is finished. </p>
+<div class="textblock"><p>Helper class editing the text of <a class="el" href="classTextObject.html" title="A text object. ">TextObject</a>. </p>
+<p>This class is meant to be used by tools (<a class="el" href="classDrawTextTool.html" title="Tool to draw text objects. ">DrawTextTool</a>, <a class="el" href="classEditPointTool.html" title="Standard tool to edit all types of objects. ">EditPointTool</a>) in the following way:</p>
+<ul>
+<li>When text editing starts, the tool must construct an object of this class. The constructor takes care of modifying the state of the main window.</li>
+<li>Then the tool must pass all mouse and key events through this object, call <a class="el" href="classTextObjectEditorHelper.html#a4ddb96612cc0d937bb433035e841ab53">draw()</a> etc. The object will emit a signal for state changes which need a redraw of the output and another signal when editing is finished.</li>
+<li>When editing is finished, the tool must destroy the object. The destructor will restore the original state of the main window. </li>
+</ul>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a3c044b3ee779aacdeed42130d4886ca7"></a>
+<a class="anchor" id="a7c67c541de6afec47959cab85e186e13"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -289,7 +297,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname">TextObjectEditorHelper::TextObjectEditorHelper </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classTextObject.html">TextObject</a> *&#160;</td>
-          <td class="paramname"><em>object</em>, </td>
+          <td class="paramname"><em>text_object</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -307,9 +315,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a3ee6c5dcb610ca0a6acc05d224dc3047"></a>
+<a class="anchor" id="a30207c86bd077a23f831f0c4b93db1b6"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">TextObjectEditorHelper::~TextObjectEditorHelper </td>
@@ -318,45 +329,16 @@ Additional Inherited Members</h2></td></tr>
           <td></td>
         </tr>
       </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a87a4e654be32cae8553796a89070afc5"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void TextObjectEditorHelper::alignmentChanged </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>horz</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>vert</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a4ddb96612cc0d937bb433035e841ab53"></a>
 <div class="memitem">
 <div class="memproto">
@@ -383,7 +365,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a7f1ac9284db002bff21ee4910aa303e9"></a>
+<a class="anchor" id="a7c39cd0819599f73726abdec602d4741"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -391,22 +373,24 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classTextObject.html">TextObject</a>* TextObjectEditorHelper::getObject </td>
+          <td class="memname">void TextObjectEditorHelper::finished </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> const</td>
+          <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
+<p>Emitted when editing is finished. </p>
+
 </div>
 </div>
-<a class="anchor" id="a3c204a515709efef10fdfb107820c8ad"></a>
+<a class="anchor" id="afc201f586bc968c0cd15c14624cadd54"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -415,7 +399,7 @@ Additional Inherited Members</h2></td></tr>
           <td>(</td>
           <td class="paramtype"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> &amp;&#160;</td>
           <td class="paramname"><em>rect</em></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -550,7 +534,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a3aff5df1614bed1b21f2479838a968cb"></a>
+<a class="anchor" id="ae310769402c21a32c42bbf11e1333e8f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -558,48 +542,60 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void TextObjectEditorHelper::selectionChanged </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td>
-          <td class="paramname"><em>text_change</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Emitted when a user action changes the selection (not called by <a class="el" href="classTextObjectEditorHelper.html#a782cae87d53475a886f67fa163aff724">setSelection()</a>), or the text alignment. If the text is also changed, text_change is true. </p>
-
-</div>
-</div>
-<a class="anchor" id="ad88e091713e6a32d418983509b9c7c1b"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void TextObjectEditorHelper::setFocus </td>
+          <td class="memname"><a class="el" href="classTextObject.html">TextObject</a> * TextObjectEditorHelper::object </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
+<p>Returns the text object which is edited by this object. </p>
+
 </div>
 </div>
-<a class="anchor" id="a782cae87d53475a886f67fa163aff724"></a>
+<a class="anchor" id="ae1336e8b15bf53820e0a96481731fa1b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TextObjectEditorHelper::replaceSelectionText </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;&#160;</td>
+          <td class="paramname"><em>replacement</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Inserts text in place of the current selection. </p>
+<p>After this, the selection will be empty, and the cursor will be at the end of the replacement text. </p>
+
+</div>
+</div>
+<a class="anchor" id="a1e83132d85422163f965d3b6669f04e6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> TextObjectEditorHelper::selectionText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the text of the current selection. </p>
+
+</div>
+</div>
+<a class="anchor" id="ada8b358d04306814f830fbbc687a2653"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -607,16 +603,16 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void TextObjectEditorHelper::setSelection </td>
+          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> TextObjectEditorHelper::setSelection </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>start</em>, </td>
+          <td class="paramname"><em>anchor</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>end</em>&#160;</td>
+          <td class="paramname"><em>cursor</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -631,11 +627,42 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Sets the position of the selection anchor and of the cursor. </p>
+<p>The text between the anchor position and the cursor position is the current selection. Setting both parameters to the same value results in an empty selection.</p>
+<p>The reference position for linewise selection is set to the cursor position.</p>
+<dl class="section return"><dt>Returns</dt><dd>True iff there actually was a change. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a69c3108f713712502bdb5bc375846b49"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TextObjectEditorHelper::stateChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Emitted when the text object or the selection is modified. </p>
+<p>This includes movements of the cursor when the selection is empty. </p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/<a class="el" href="tool__helpers_8h.html">tool_helpers.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/747f8d1/src/tool_helpers.h"><tt>747f8d1</tt></a> on 21 Jul 2016)</li>
-<li>src/<a class="el" href="tool__helpers_8cpp.html">tool_helpers.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/92af443/src/tool_helpers.cpp"><tt>92af443</tt></a> on 23 Jul 2016)</li>
+<li>src/tools/<a class="el" href="text__object__editor__helper_8h.html">text_object_editor_helper.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/5034328/src/tools/text_object_editor_helper.h"><tt>5034328</tt></a> on 8 Jan 2017)</li>
+<li>src/tools/<a class="el" href="text__object__editor__helper_8cpp.html">text_object_editor_helper.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/9ee00e4/src/tools/text_object_editor_helper.cpp"><tt>9ee00e4</tt></a> on 8 Jan 2017)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

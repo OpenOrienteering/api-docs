@@ -796,7 +796,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Calculates and adds all intersections with the other path to out. </p>
 <p>Note: intersections are not sorted and may contain duplicates! To clean them up, call clean() on the <a class="el" href="classPathObject_1_1Intersections.html" title="std::vector of Intersection with the ability to sort them and remove duplicates. ">Intersections</a> object after adding all intersections with objects you are interested in. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000043">Todo:</a></b></dt><dd>FIXME: part_index or other_part_index ??? </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000012">Todo:</a></b></dt><dd>FIXME: part_index or other_part_index ??? </dd></dl>
 
 </div>
 </div>
@@ -1044,7 +1044,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Calculates the closest control point coordinate to the given coordiante, returns the squared distance of these points and the index of the control point. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000047">Todo:</a></b></dt><dd><p class="startdd">Convert out_distance_sq to double (so avoiding conversions). </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000016">Todo:</a></b></dt><dd><p class="startdd">Convert out_distance_sq to double (so avoiding conversions). </p>
 <p class="enddd">Return index rather than writing to the provided reference. </p>
 </dd></dl>
 
@@ -1094,10 +1094,10 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Calculates the closest point on the path to the given coordinate, returns the squared distance of these points and <a class="el" href="classPathCoord.html" title="A PathCoord represents a node in a polygonal approximation of a path. ">PathCoord</a> information for the point on the path. </p>
 <p>This does not need to be an existing path coordinate. This method is usually called to find the position on the path the user clicked on. part_index can be set to a valid part index to constrain searching to this specific path part.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000046">Todo:</a></b></dt><dd><p class="startdd">Convert out_distance_sq to double (so avoiding conversions). </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000015">Todo:</a></b></dt><dd><p class="startdd">Convert out_distance_sq to double (so avoiding conversions). </p>
 <p class="enddd">Return <a class="el" href="classPathCoord.html" title="A PathCoord represents a node in a polygonal approximation of a path. ">PathCoord</a> rather than writing to the provided reference. </p>
 </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000042">Todo:</a></b></dt><dd>Legacy compatibility, review/remove </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000011">Todo:</a></b></dt><dd>Legacy compatibility, review/remove </dd></dl>
 
 </div>
 </div>
@@ -1206,7 +1206,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Replaces the path with a range of it starting and ending at the given lengths. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000049">Todo:</a></b></dt><dd>Partially duplicated in LineSymbol::calculatePathCoordinates() </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000018">Todo:</a></b></dt><dd>Partially duplicated in LineSymbol::calculatePathCoordinates() </dd></dl>
 
 </div>
 </div>
@@ -1271,7 +1271,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Returns if the objects were connected (if so, you can delete the other object). </p>
 <p>If one of the paths has to be reversed, it is done for the "other" path. Otherwise, the "other" path is not changed.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000048">Todo:</a></b></dt><dd>Review documentation, container usage, </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000017">Todo:</a></b></dt><dd>Review documentation, container usage, </dd></dl>
 
 </div>
 </div>
@@ -1553,7 +1553,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Finds the path part containing the given coord index. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000045">Todo:</a></b></dt><dd>Review where this signature can be replace by the one returning an iterator. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000014">Todo:</a></b></dt><dd>Review where this signature can be replace by the one returning an iterator. </dd></dl>
 
 </div>
 </div>
@@ -2335,8 +2335,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/<a class="el" href="object_8h.html">object.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/035344b/src/object.h"><tt>035344b</tt></a> on 4 Nov 2016)</li>
-<li>src/<a class="el" href="object_8cpp.html">object.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/035344b/src/object.cpp"><tt>035344b</tt></a> on 4 Nov 2016)</li>
+<li>src/core/objects/<a class="el" href="object_8h.html">object.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/b7c2de8/src/core/objects/object.h"><tt>b7c2de8</tt></a> on 8 Jan 2017)</li>
+<li>src/core/objects/<a class="el" href="object_8cpp.html">object.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/9ee00e4/src/core/objects/object.cpp"><tt>9ee00e4</tt></a> on 8 Jan 2017)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
