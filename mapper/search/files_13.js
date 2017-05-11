@@ -9,6 +9,5 @@ var searchData=
   ['util_2ecpp',['util.cpp',['../util_8cpp.html',1,'']]],
   ['util_2eh',['util.h',['../util_8h.html',1,'']]],
   ['util_5fgui_2eh',['util_gui.h',['../util__gui_8h.html',1,'']]],
-  ['util_5ft_2ecpp',['util_t.cpp',['../util__t_8cpp.html',1,'']]],
-  ['util_5ft_2eh',['util_t.h',['../util__t_8h.html',1,'']]]
+  ['util_5ft_2ecpp',['util_t.cpp',['../util__t_8cpp.html',1,'']]]
 ];

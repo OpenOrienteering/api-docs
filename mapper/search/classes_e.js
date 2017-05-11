@@ -47,7 +47,6 @@ var searchData=
   ['ogrspatialreferencehdeleter',['OGRSpatialReferenceHDeleter',['../classogr_1_1OGRSpatialReferenceHDeleter.html',1,'ogr']]],
   ['ogrstylemgrhdeleter',['OGRStyleMgrHDeleter',['../classogr_1_1OGRStyleMgrHDeleter.html',1,'ogr']]],
   ['ogrtemplate',['OgrTemplate',['../classOgrTemplate.html',1,'']]],
-  ['openorienteeringprintengine',['OpenOrienteeringPrintEngine',['../classOpenOrienteeringPrintEngine.html',1,'']]],
   ['options',['Options',['../classRenderConfig_1_1Options.html',1,'RenderConfig']]],
   ['overloaded',['Overloaded',['../structOverloaded.html',1,'']]],
   ['overridingshortcut',['OverridingShortcut',['../classOverridingShortcut.html',1,'']]]

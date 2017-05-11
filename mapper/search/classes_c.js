@@ -20,7 +20,6 @@ var searchData=
   ['mappartundostep',['MapPartUndoStep',['../classMapPartUndoStep.html',1,'']]],
   ['mapperactivity',['MapperActivity',['../classorg_1_1openorienteering_1_1mapper_1_1MapperActivity.html',1,'org::openorienteering::mapper']]],
   ['mapperproxystyle',['MapperProxyStyle',['../classMapperProxyStyle.html',1,'']]],
-  ['mappertest',['MapperTest',['../classMapperTest.html',1,'']]],
   ['mapprinter',['MapPrinter',['../classMapPrinter.html',1,'']]],
   ['mapprinterconfig',['MapPrinterConfig',['../classMapPrinterConfig.html',1,'']]],
   ['mapprinteroptions',['MapPrinterOptions',['../classMapPrinterOptions.html',1,'']]],

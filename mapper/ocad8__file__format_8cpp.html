@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.6.7</span>
+   &#160;<span id="projectnumber">0.7.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -93,9 +93,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">ocad8_file_format.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/9ee00e4/src/fileformats/ocad8_file_format.cpp"><tt>9ee00e4</tt></a> on 8 Jan 2017)</h3><div class="textblock"><code>#include &quot;<a class="el" href="ocad8__file__format_8h.html">ocad8_file_format.h</a>&quot;</code><br />
+<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/5cf929b/src/fileformats/ocad8_file_format.cpp"><tt>5cf929b</tt></a> on 11 Mar 2017)</h3><div class="textblock"><code>#include &quot;<a class="el" href="ocad8__file__format_8h.html">ocad8_file_format.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="ocad8__file__format__p_8h.html">ocad8_file_format_p.h</a>&quot;</code><br />
 <code>#include &lt;qmath.h&gt;</code><br />
+<code>#include &lt;QCoreApplication&gt;</code><br />
 <code>#include &lt;QDateTime&gt;</code><br />
 <code>#include &lt;QDebug&gt;</code><br />
 <code>#include &lt;QDir&gt;</code><br />
@@ -129,33 +130,33 @@ Include dependency graph for ocad8_file_format.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="ocad8__file__format_8cpp__incl.png" border="0" usemap="#src_2fileformats_2ocad8__file__format_8cpp" alt=""/></div>
 <map name="src_2fileformats_2ocad8__file__format_8cpp" id="src_2fileformats_2ocad8__file__format_8cpp">
-<area shape="rect" id="node2" href="ocad8__file__format_8h.html" title="ocad8_file_format.h" alt="" coords="45,191,181,218"/>
-<area shape="rect" id="node5" href="ocad8__file__format__p_8h.html" title="ocad8_file_format_p.h" alt="" coords="1123,191,1274,218"/>
-<area shape="rect" id="node6" href="file__import__export_8h.html" title="file_import_export.h" alt="" coords="1007,273,1143,300"/>
-<area shape="rect" id="node13" href="map__coord_8h.html" title="core/map_coord.h" alt="" coords="855,348,982,375"/>
-<area shape="rect" id="node24" href="georeferencing_8h.html" title="core/georeferencing.h" alt="" coords="2103,191,2249,218"/>
-<area shape="rect" id="node28" href="map__color_8h.html" title="core/map_color.h" alt="" coords="2665,273,2788,300"/>
-<area shape="rect" id="node31" href="map__view_8h.html" title="core/map_view.h" alt="" coords="1887,191,2009,218"/>
-<area shape="rect" id="node34" href="xml__file__format_8h.html" title="xml_file_format.h" alt="" coords="5,273,128,300"/>
-<area shape="rect" id="node35" href="map_8h.html" title="core/map.h" alt="" coords="1569,191,1655,218"/>
-<area shape="rect" id="node36" href="map__part_8h.html" title="map_part.h" alt="" coords="1701,273,1787,300"/>
-<area shape="rect" id="node37" href="object_8h.html" title="core/objects/object.h" alt="" coords="1298,191,1441,218"/>
-<area shape="rect" id="node38" href="symbol_8h.html" title="core/symbols/symbol.h" alt="" coords="377,273,535,300"/>
-<area shape="rect" id="node39" href="text__object_8h.html" title="core/objects/text_object.h" alt="" coords="2075,102,2247,129"/>
-<area shape="rect" id="node40" href="settings_8h.html" title="../settings.h" alt="" coords="1484,273,1575,300"/>
-<area shape="rect" id="node41" href="area__symbol_8h.html" title="core/symbols/area_symbol.h" alt="" coords="624,191,813,218"/>
-<area shape="rect" id="node42" href="combined__symbol_8h.html" title="core/symbols/combined\l_symbol.h" alt="" coords="837,184,997,225"/>
-<area shape="rect" id="node43" href="line__symbol_8h.html" title="core/symbols/line_symbol.h" alt="" coords="949,102,1133,129"/>
-<area shape="rect" id="node44" href="point__symbol_8h.html" title="core/symbols/point\l_symbol.h" alt="" coords="206,184,338,225"/>
-<area shape="rect" id="node45" href="text__symbol_8h.html" title="core/symbols/text_symbol.h" alt="" coords="363,191,549,218"/>
-<area shape="rect" id="node46" href="template_8h.html" title="../templates/template.h" alt="" coords="2650,191,2806,218"/>
-<area shape="rect" id="node47" href="template__image_8h.html" title="../templates/template\l_image.h" alt="" coords="2485,95,2630,136"/>
-<area shape="rect" id="node48" href="template__map_8h.html" title="../templates/template\l_map.h" alt="" coords="2654,95,2799,136"/>
-<area shape="rect" id="node49" href="util_8h.html" title="util/util.h" alt="" coords="2453,191,2523,218"/>
-<area shape="rect" id="node50" href="encoding_8h.html" title="../util/encoding.h" alt="" coords="3461,102,3579,129"/>
-<area shape="rect" id="node3" href="file__format_8h.html" title="file_format.h" alt="" coords="737,348,831,375"/>
-<area shape="rect" id="node12" href="libocad_8h.html" title="libocad/libocad.h" alt="" coords="661,273,779,300"/>
-<area shape="rect" id="node27" href="latlon_8h.html" title="latlon.h" alt="" coords="2425,273,2489,300"/>
+<area shape="rect" id="node2" href="ocad8__file__format_8h.html" title="ocad8_file_format.h" alt="" coords="5,191,141,218"/>
+<area shape="rect" id="node5" href="ocad8__file__format__p_8h.html" title="ocad8_file_format_p.h" alt="" coords="1182,191,1333,218"/>
+<area shape="rect" id="node6" href="file__import__export_8h.html" title="file_import_export.h" alt="" coords="1500,273,1636,300"/>
+<area shape="rect" id="node13" href="map__coord_8h.html" title="core/map_coord.h" alt="" coords="1354,348,1481,375"/>
+<area shape="rect" id="node24" href="georeferencing_8h.html" title="core/georeferencing.h" alt="" coords="1649,191,1796,218"/>
+<area shape="rect" id="node28" href="map__color_8h.html" title="core/map_color.h" alt="" coords="2841,273,2964,300"/>
+<area shape="rect" id="node31" href="map__view_8h.html" title="core/map_view.h" alt="" coords="1922,191,2043,218"/>
+<area shape="rect" id="node34" href="xml__file__format_8h.html" title="xml_file_format.h" alt="" coords="261,273,384,300"/>
+<area shape="rect" id="node35" href="map_8h.html" title="core/map.h" alt="" coords="2205,191,2291,218"/>
+<area shape="rect" id="node36" href="map__part_8h.html" title="map_part.h" alt="" coords="2389,273,2475,300"/>
+<area shape="rect" id="node37" href="object_8h.html" title="core/objects/object.h" alt="" coords="1441,191,1583,218"/>
+<area shape="rect" id="node38" href="symbol_8h.html" title="core/symbols/symbol.h" alt="" coords="553,273,711,300"/>
+<area shape="rect" id="node39" href="text__object_8h.html" title="core/objects/text_object.h" alt="" coords="1881,102,2053,129"/>
+<area shape="rect" id="node40" href="settings_8h.html" title="../settings.h" alt="" coords="2121,273,2212,300"/>
+<area shape="rect" id="node41" href="area__symbol_8h.html" title="core/symbols/area_symbol.h" alt="" coords="867,191,1056,218"/>
+<area shape="rect" id="node42" href="combined__symbol_8h.html" title="core/symbols/combined\l_symbol.h" alt="" coords="216,184,376,225"/>
+<area shape="rect" id="node43" href="line__symbol_8h.html" title="core/symbols/line_symbol.h" alt="" coords="400,191,584,218"/>
+<area shape="rect" id="node44" href="point__symbol_8h.html" title="core/symbols/point\l_symbol.h" alt="" coords="609,184,741,225"/>
+<area shape="rect" id="node45" href="text__symbol_8h.html" title="core/symbols/text_symbol.h" alt="" coords="685,102,872,129"/>
+<area shape="rect" id="node46" href="template_8h.html" title="../templates/template.h" alt="" coords="2803,191,2959,218"/>
+<area shape="rect" id="node47" href="template__image_8h.html" title="../templates/template\l_image.h" alt="" coords="2837,95,2982,136"/>
+<area shape="rect" id="node48" href="template__map_8h.html" title="../templates/template\l_map.h" alt="" coords="2615,95,2761,136"/>
+<area shape="rect" id="node49" href="util_8h.html" title="util/util.h" alt="" coords="2367,191,2438,218"/>
+<area shape="rect" id="node50" href="encoding_8h.html" title="../util/encoding.h" alt="" coords="3695,102,3814,129"/>
+<area shape="rect" id="node3" href="file__format_8h.html" title="file_format.h" alt="" coords="1093,348,1187,375"/>
+<area shape="rect" id="node12" href="libocad_8h.html" title="libocad/libocad.h" alt="" coords="887,273,1006,300"/>
+<area shape="rect" id="node27" href="latlon_8h.html" title="latlon.h" alt="" coords="2652,273,2716,300"/>
 </map>
 </div>
 </div></div><!-- contents -->

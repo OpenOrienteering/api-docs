@@ -1,14 +1,14 @@
-src/core/symbols/line_symbol.cpp:250: warning: no uniquely matching class member found for 
+src/core/symbols/line_symbol.cpp:240: warning: no uniquely matching class member found for 
   void LineSymbol::createRenderables(const Object *object, const VirtualCoordVector &coords, ObjectRenderables &output, RenderableOptions options) const
 Possible candidates:
-  void LineSymbol::createRenderables(const Object *object, const VirtualCoordVector &coords, ObjectRenderables &output, Symbol::RenderableOptions options) const override' at line 97 of file src/core/symbols/line_symbol.h
-  void LineSymbol::createRenderables(const PathObject *object, const PathPartVector &path_parts, ObjectRenderables &output, Symbol::RenderableOptions options) const override' at line 103 of file src/core/symbols/line_symbol.h
+  void LineSymbol::createRenderables(const Object *object, const VirtualCoordVector &coords, ObjectRenderables &output, Symbol::RenderableOptions options) const override' at line 81 of file src/core/symbols/line_symbol.h
+  void LineSymbol::createRenderables(const PathObject *object, const PathPartVector &path_parts, ObjectRenderables &output, Symbol::RenderableOptions options) const override' at line 87 of file src/core/symbols/line_symbol.h
 
-src/core/symbols/line_symbol.cpp:264: warning: no uniquely matching class member found for 
+src/core/symbols/line_symbol.cpp:254: warning: no uniquely matching class member found for 
   void LineSymbol::createRenderables(const PathObject *object, const PathPartVector &path_parts, ObjectRenderables &output, RenderableOptions options) const
 Possible candidates:
-  void LineSymbol::createRenderables(const Object *object, const VirtualCoordVector &coords, ObjectRenderables &output, Symbol::RenderableOptions options) const override' at line 97 of file src/core/symbols/line_symbol.h
-  void LineSymbol::createRenderables(const PathObject *object, const PathPartVector &path_parts, ObjectRenderables &output, Symbol::RenderableOptions options) const override' at line 103 of file src/core/symbols/line_symbol.h
+  void LineSymbol::createRenderables(const Object *object, const VirtualCoordVector &coords, ObjectRenderables &output, Symbol::RenderableOptions options) const override' at line 81 of file src/core/symbols/line_symbol.h
+  void LineSymbol::createRenderables(const PathObject *object, const PathPartVector &path_parts, ObjectRenderables &output, Symbol::RenderableOptions options) const override' at line 87 of file src/core/symbols/line_symbol.h
 
 src/fileformats/ocd_types.h:844: warning: no uniquely matching class member found for 
   template < F >
@@ -38,25 +38,13 @@ Possible candidates:
   AdvancedPdfPrinter::AdvancedPdfPrinter(PrinterMode mode=ScreenResolution)
   AdvancedPdfPrinter::AdvancedPdfPrinter(const QPrinterInfo &printer, PrinterMode mode=ScreenResolution)
 
-src/printsupport/qt-5.5.1/oo_printdialog_win.cpp:94: warning: documented symbol `OpenOrienteeringPrintDialog::OpenOrienteeringPrintDialog' was not declared or defined.
-src/printsupport/qt-5.5.1/oo_printdialog_win.cpp:108: warning: documented symbol `OpenOrienteeringPrintDialog::OpenOrienteeringPrintDialog' was not declared or defined.
-src/printsupport/qt-5.5.1/oo_printdialog_win.cpp:114: warning: documented symbol `OpenOrienteeringPrintDialog::~OpenOrienteeringPrintDialog' was not declared or defined.
-src/printsupport/qt-5.5.1/oo_printdialog_win.cpp:119: warning: no uniquely matching class member found for 
-  int OpenOrienteeringPrintDialog::exec()
-
-src/printsupport/qt-5.5.1/oo_printdialog_win.cpp:127: warning: no matching class member found for 
-  int OpenOrienteeringPrintDialog::openWindowsPrintDialogModally()
-
-src/printsupport/qt-5.5.1/oo_printdialog_win.cpp:175: warning: no uniquely matching class member found for 
-  void OpenOrienteeringPrintDialog::setVisible(bool visible)
-
-src/templates/template.cpp:103: warning: documented symbol `decltype' was not declared or defined.
+src/templates/template.cpp:134: warning: documented symbol `decltype' was not declared or defined.
 warning: Included by graph for 'map.h' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
 warning: Included by graph for 'object.h' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
 src/core/map_part.h:221: warning: Found unknown command `\copyetails'
 warning: Include graph for 'map_editor.cpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
 warning: Included by graph for 'util.h' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
-todo:36: warning: Unexpected tag <dd> found
+todo:71: warning: Unexpected tag <dd> found
 src/gui/widgets/action_grid_bar.h:55: warning: The following parameters of ActionGridBar::ActionGridBar(Direction direction, int height_items, QWidget *parent=NULL) are not documented:
   parameter 'parent'
 src/gui/autosave_dialog.h:53: warning: The following parameters of AutosaveDialog::AutosaveDialog(QString original_path, QString autosave_path, QString actual_path, MainWindow *parent=NULL, Qt::WindowFlags f=0) are not documented:
@@ -94,7 +82,7 @@ src/tools/edit_tool.h:58: warning: The following parameters of ObjectSelector::s
 src/undo/object_undo.h:111: warning: explicit link request to 'loadImpl()' could not be resolved
 src/gui/symbols/point_symbol_editor_widget.h:60: warning: The following parameters of PointSymbolEditorWidget::PointSymbolEditorWidget(MapEditorController *controller, PointSymbol *symbol, float offset_y=0, bool permanent_preview=false, QWidget *parent=0) are not documented:
   parameter 'parent'
-src/gui/symbols/symbol_properties_widget.h:42: warning: The following parameters of SymbolPropertiesWidget::SymbolPropertiesWidget(Symbol *symbol, SymbolSettingDialog *dialog) are not documented:
+src/gui/symbols/symbol_properties_widget.h:44: warning: The following parameters of SymbolPropertiesWidget::SymbolPropertiesWidget(Symbol *symbol, SymbolSettingDialog *dialog) are not documented:
   parameter 'dialog'
 src/util/item_delegates.h:211: warning: Found unknown command `\override'
 src/util/item_delegates.h:218: warning: Found unknown command `\override'

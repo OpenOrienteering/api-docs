@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.6.7</span>
+   &#160;<span id="projectnumber">0.7.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -86,24 +86,18 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">src/CMakeLists.txt File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/9ee00e4/src/CMakeLists.txt"><tt>9ee00e4</tt></a> on 8 Jan 2017)</h3><table class="memberdecls">
+<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/8e25c8b/src/CMakeLists.txt"><tt>8e25c8b</tt></a> on 8 May 2017)</h3><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a94d33e19512929ad04ff26888f54bc99"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="src_2CMakeLists_8txt.html#a94d33e19512929ad04ff26888f54bc99">find_package</a> (Qt5Core 5.2 REQUIRED) find_package(Qt5Widgets REQUIRED) find_package(Qt5Network) find_package(Qt5PrintSupport) <a class="el" href="test_2CMakeLists_8txt.html#ab0c0ccf045b48da904e61f386dc1266f">if</a>(Mapper_PACKAGE_QT AND UNIX AND NOT APPLE AND NOT Mapper_DEVELOPMENT_BUILD) <a class="el" href="test_2data_2CMakeLists_8txt.html#a9f2fa9db7458cb406494dfe7369c056c">set</a>(MAPPER_USE_QT_CONF_QRC 1) endif() configure_file(mapper_config.h.in&quot;$</td></tr>
-<tr class="separator:a94d33e19512929ad04ff26888f54bc99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a406880a34de523397036a68df8dfc592"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="src_2CMakeLists_8txt.html#a406880a34de523397036a68df8dfc592">find_package</a> (Qt5Core 5.3 REQUIRED) find_package(Qt5Widgets REQUIRED) find_package(Qt5Sensors) find_package(Qt5Positioning) <a class="el" href="test_2CMakeLists_8txt.html#ab0c0ccf045b48da904e61f386dc1266f">if</a>(ANDROID) find_package(Qt5AndroidExtras REQUIRED) else() find_package(Qt5Network REQUIRED) find_package(Qt5PrintSupport REQUIRED) endif() <a class="el" href="test_2CMakeLists_8txt.html#a1eec43a0a0fee0daacd23d74054626a3">set</a>(CMAKE_AUTOMOC ON) configure_file(mapper_config.h.in&quot;$</td></tr>
+<tr class="separator:a406880a34de523397036a68df8dfc592"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84e7c9e514e83edf7f59563a77831d70"><td class="memItemLeft" align="right" valign="top">mapper_config h tmp&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="src_2CMakeLists_8txt.html#a84e7c9e514e83edf7f59563a77831d70">execute_process</a> (COMMAND&quot;${CMAKE_COMMAND}&quot;-E copy_if_different mapper_config.h.tmp mapper_config.h WORKING_DIRECTORY&quot;${CMAKE_CURRENT_BINARY_DIR}&quot;) include_directories(&quot;$</td></tr>
 <tr class="separator:a84e7c9e514e83edf7f59563a77831d70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a3811014b2ff41ee017c6e512e13be75f"><td class="memItemLeft" align="right" valign="top">n&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="src_2CMakeLists_8txt.html#a3811014b2ff41ee017c6e512e13be75f">MAPPER_PRO_HEADERS</a> {Mapper_Common_MOC_INPUT}</td></tr>
-<tr class="separator:a3811014b2ff41ee017c6e512e13be75f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="a84e7c9e514e83edf7f59563a77831d70"></a>
@@ -122,29 +116,16 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a94d33e19512929ad04ff26888f54bc99"></a>
+<a class="anchor" id="a406880a34de523397036a68df8dfc592"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">find_package </td>
           <td>(</td>
-          <td class="paramtype">Qt5Core 5.2&#160;</td>
+          <td class="paramtype">Qt5Core 5.3&#160;</td>
           <td class="paramname"><em>REQUIRED</em></td><td>)</td>
           <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="a3811014b2ff41ee017c6e512e13be75f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">n MAPPER_PRO_HEADERS {Mapper_Common_MOC_INPUT}</td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -3,6 +3,7 @@ var searchData=
   ['a',['a',['../structGPSProjectionParameters.html#ae85846c8339754d7f702066090beb5f5',1,'GPSProjectionParameters']]],
   ['about_5fpage_5furl',['about_page_url',['../about__dialog_8cpp.html#a0db3b6e7c194169552564cb675bd2e04',1,'about_dialog.cpp']]],
   ['accesstypes',['AccessTypes',['http://doc.qt.io/qt-5/qplatformgraphicsbuffer.html#AccessType-enum',1,'QPlatformGraphicsBuffer']]],
+  ['accounted_5foffset',['accounted_offset',['../classTemplate.html#aca9401879a1452d703452d4b293df5f8',1,'Template']]],
   ['action',['action',['../structActionGridBar_1_1GridItem.html#a508545e40278329eeab6596edfa9a260',1,'ActionGridBar::GridItem']]],
   ['actions_5fchanged',['actions_changed',['../classPieMenu.html#a950db28e4e727c287e25a5173d7cf267',1,'PieMenu']]],
   ['active_5faction',['active_action',['../classPieMenu.html#a950e9591dd40ed2027c9d2486a64572d',1,'PieMenu']]],

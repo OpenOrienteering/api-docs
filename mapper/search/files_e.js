@@ -15,6 +15,8 @@ var searchData=
   ['point_5fsymbol_2eh',['point_symbol.h',['../point__symbol_8h.html',1,'']]],
   ['point_5fsymbol_5feditor_5fwidget_2ecpp',['point_symbol_editor_widget.cpp',['../point__symbol__editor__widget_8cpp.html',1,'']]],
   ['point_5fsymbol_5feditor_5fwidget_2eh',['point_symbol_editor_widget.h',['../point__symbol__editor__widget_8h.html',1,'']]],
+  ['point_5fsymbol_5fsettings_2ecpp',['point_symbol_settings.cpp',['../point__symbol__settings_8cpp.html',1,'']]],
+  ['point_5fsymbol_5fsettings_2eh',['point_symbol_settings.h',['../point__symbol__settings_8h.html',1,'']]],
   ['print_5fprogress_5fdialog_2ecpp',['print_progress_dialog.cpp',['../print__progress__dialog_8cpp.html',1,'']]],
   ['print_5fprogress_5fdialog_2eh',['print_progress_dialog.h',['../print__progress__dialog_8h.html',1,'']]],
   ['print_5ftool_2ecpp',['print_tool.cpp',['../print__tool_8cpp.html',1,'']]],
@@ -23,12 +25,9 @@ var searchData=
   ['print_5fwidget_2eh',['print_widget.h',['../print__widget_8h.html',1,'']]],
   ['printengine_5fadvanced_5fpdf_2ecpp',['printengine_advanced_pdf.cpp',['../qt-5_82_81_2printengine__advanced__pdf_8cpp.html',1,'']]],
   ['printengine_5fadvanced_5fpdf_2ecpp',['printengine_advanced_pdf.cpp',['../qt-5_85_81_2printengine__advanced__pdf_8cpp.html',1,'']]],
-  ['printengine_5fadvanced_5fpdf_5fp_2eh',['printengine_advanced_pdf_p.h',['../qt-5_82_81_2printengine__advanced__pdf__p_8h.html',1,'']]],
   ['printengine_5fadvanced_5fpdf_5fp_2eh',['printengine_advanced_pdf_p.h',['../qt-5_85_81_2printengine__advanced__pdf__p_8h.html',1,'']]],
+  ['printengine_5fadvanced_5fpdf_5fp_2eh',['printengine_advanced_pdf_p.h',['../qt-5_82_81_2printengine__advanced__pdf__p_8h.html',1,'']]],
   ['printer_5fproperties_2ecpp',['printer_properties.cpp',['../printer__properties_8cpp.html',1,'']]],
   ['printer_5fproperties_2eh',['printer_properties.h',['../printer__properties_8h.html',1,'']]],
-  ['printer_5fproperties_5fdialog_2eh',['printer_properties_dialog.h',['../printer__properties__dialog_8h.html',1,'']]],
-  ['printer_5fproperties_5fdialog_5fwin_2ecpp',['printer_properties_dialog_win.cpp',['../printer__properties__dialog__win_8cpp.html',1,'']]],
-  ['printer_5fproperties_5fdialog_5fwin_2eh',['printer_properties_dialog_win.h',['../printer__properties__dialog__win_8h.html',1,'']]],
   ['printer_5fproperties_5fwin_2ecpp',['printer_properties_win.cpp',['../printer__properties__win_8cpp.html',1,'']]]
 ];

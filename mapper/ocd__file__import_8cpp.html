@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.6.7</span>
+   &#160;<span id="projectnumber">0.7.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -93,71 +93,75 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">ocd_file_import.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/9ee00e4/src/fileformats/ocd_file_import.cpp"><tt>9ee00e4</tt></a> on 8 Jan 2017)</h3><div class="textblock"><code>#include &quot;<a class="el" href="ocd__file__import_8h.html">ocd_file_import.h</a>&quot;</code><br />
+<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/d186963/src/fileformats/ocd_file_import.cpp"><tt>d186963</tt></a> on 4 May 2017)</h3><div class="textblock"><code>#include &quot;<a class="el" href="ocd__file__import_8h.html">ocd_file_import.h</a>&quot;</code><br />
+<code>#include &lt;cmath&gt;</code><br />
 <code>#include &lt;memory&gt;</code><br />
 <code>#include &lt;QBuffer&gt;</code><br />
+<code>#include &lt;QCoreApplication&gt;</code><br />
 <code>#include &lt;QDebug&gt;</code><br />
 <code>#include &lt;QDir&gt;</code><br />
 <code>#include &lt;QFileInfo&gt;</code><br />
 <code>#include &lt;QImageReader&gt;</code><br />
+<code>#include &quot;<a class="el" href="settings_8h.html">settings.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="ocad8__file__format_8h.html">ocad8_file_format.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="ocad8__file__format__p_8h.html">ocad8_file_format_p.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="ocd__types__v9_8h.html">ocd_types_v9.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="ocd__types__v10_8h.html">ocd_types_v10.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="ocd__types__v11_8h.html">ocd_types_v11.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="ocd__types__v12_8h.html">ocd_types_v12.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="crs__template_8h.html">core/crs_template.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="georeferencing_8h.html">core/georeferencing.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="map_8h.html">core/map.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="map__color_8h.html">core/map_color.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="map__view_8h.html">core/map_view.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="georeferencing_8h.html">core/georeferencing.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="ocad8__file__format_8h.html">ocad8_file_format.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="ocad8__file__format__p_8h.html">ocad8_file_format_p.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="map_8h.html">core/map.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="text__object_8h.html">core/objects/text_object.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="settings_8h.html">../settings.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="area__symbol_8h.html">core/symbols/area_symbol.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="combined__symbol_8h.html">core/symbols/combined_symbol.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="line__symbol_8h.html">core/symbols/line_symbol.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="point__symbol_8h.html">core/symbols/point_symbol.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="text__symbol_8h.html">core/symbols/text_symbol.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="template_8h.html">../templates/template.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="template__image_8h.html">../templates/template_image.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="template__map_8h.html">../templates/template_map.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="template_8h.html">templates/template.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="template__image_8h.html">templates/template_image.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="template__map_8h.html">templates/template_map.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="encoding_8h.html">util/encoding.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="util_8h.html">util/util.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="encoding_8h.html">../util/encoding.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for ocd_file_import.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="ocd__file__import_8cpp__incl.png" border="0" usemap="#src_2fileformats_2ocd__file__import_8cpp" alt=""/></div>
 <map name="src_2fileformats_2ocd__file__import_8cpp" id="src_2fileformats_2ocd__file__import_8cpp">
-<area shape="rect" id="node2" href="ocd__file__import_8h.html" title="ocd_file_import.h" alt="" coords="1211,102,1333,129"/>
-<area shape="rect" id="node17" href="text__object_8h.html" title="core/objects/text_object.h" alt="" coords="1611,191,1783,218"/>
-<area shape="rect" id="node20" href="area__symbol_8h.html" title="core/symbols/area_symbol.h" alt="" coords="453,191,643,218"/>
-<area shape="rect" id="node21" href="line__symbol_8h.html" title="core/symbols/line_symbol.h" alt="" coords="1352,191,1536,218"/>
-<area shape="rect" id="node22" href="point__symbol_8h.html" title="core/symbols/point\l_symbol.h" alt="" coords="667,184,799,225"/>
-<area shape="rect" id="node23" href="text__symbol_8h.html" title="core/symbols/text_symbol.h" alt="" coords="824,191,1011,218"/>
-<area shape="rect" id="node30" href="ocd__types__v9_8h.html" title="ocd_types_v9.h" alt="" coords="2463,348,2577,375"/>
-<area shape="rect" id="node31" href="ocd__types__v10_8h.html" title="ocd_types_v10.h" alt="" coords="2557,273,2678,300"/>
-<area shape="rect" id="node32" href="ocd__types__v11_8h.html" title="ocd_types_v11.h" alt="" coords="2754,191,2875,218"/>
-<area shape="rect" id="node33" href="ocd__types__v12_8h.html" title="ocd_types_v12.h" alt="" coords="2655,102,2777,129"/>
-<area shape="rect" id="node34" href="crs__template_8h.html" title="core/crs_template.h" alt="" coords="2013,273,2150,300"/>
-<area shape="rect" id="node35" href="map__color_8h.html" title="core/map_color.h" alt="" coords="1865,273,1988,300"/>
-<area shape="rect" id="node39" href="map__view_8h.html" title="core/map_view.h" alt="" coords="1346,273,1467,300"/>
-<area shape="rect" id="node40" href="georeferencing_8h.html" title="core/georeferencing.h" alt="" coords="392,273,539,300"/>
-<area shape="rect" id="node41" href="ocad8__file__format_8h.html" title="ocad8_file_format.h" alt="" coords="3347,102,3483,129"/>
-<area shape="rect" id="node42" href="ocad8__file__format__p_8h.html" title="ocad8_file_format_p.h" alt="" coords="278,191,429,218"/>
-<area shape="rect" id="node43" href="map_8h.html" title="core/map.h" alt="" coords="1607,273,1694,300"/>
-<area shape="rect" id="node44" href="settings_8h.html" title="../settings.h" alt="" coords="1492,273,1583,300"/>
-<area shape="rect" id="node45" href="combined__symbol_8h.html" title="core/symbols/combined\l_symbol.h" alt="" coords="93,184,253,225"/>
-<area shape="rect" id="node46" href="template_8h.html" title="../templates/template.h" alt="" coords="2373,191,2529,218"/>
-<area shape="rect" id="node47" href="template__image_8h.html" title="../templates/template\l_image.h" alt="" coords="2333,95,2478,136"/>
-<area shape="rect" id="node48" href="template__map_8h.html" title="../templates/template\l_map.h" alt="" coords="2163,95,2309,136"/>
-<area shape="rect" id="node49" href="util_8h.html" title="util/util.h" alt="" coords="1770,273,1841,300"/>
-<area shape="rect" id="node50" href="encoding_8h.html" title="../util/encoding.h" alt="" coords="3506,102,3625,129"/>
-<area shape="rect" id="node3" href="file__import__export_8h.html" title="file_import_export.h" alt="" coords="917,273,1053,300"/>
-<area shape="rect" id="node10" href="ocd__types_8h.html" title="ocd_types.h" alt="" coords="2545,497,2639,524"/>
-<area shape="rect" id="node11" href="ocd__types__v8_8h.html" title="ocd_types_v8.h" alt="" coords="2415,423,2529,449"/>
-<area shape="rect" id="node12" href="object_8h.html" title="core/objects/object.h" alt="" coords="1077,273,1219,300"/>
-<area shape="rect" id="node16" href="symbol_8h.html" title="core/symbols/symbol.h" alt="" coords="648,348,805,375"/>
-<area shape="rect" id="node14" href="map__coord_8h.html" title="core/map_coord.h" alt="" coords="663,423,790,449"/>
+<area shape="rect" id="node2" href="ocd__file__import_8h.html" title="ocd_file_import.h" alt="" coords="1543,102,1664,129"/>
+<area shape="rect" id="node19" href="text__object_8h.html" title="core/objects/text_object.h" alt="" coords="2001,191,2173,218"/>
+<area shape="rect" id="node21" href="area__symbol_8h.html" title="core/symbols/area_symbol.h" alt="" coords="539,191,729,218"/>
+<area shape="rect" id="node22" href="line__symbol_8h.html" title="core/symbols/line_symbol.h" alt="" coords="1382,191,1566,218"/>
+<area shape="rect" id="node23" href="point__symbol_8h.html" title="core/symbols/point\l_symbol.h" alt="" coords="1692,184,1824,225"/>
+<area shape="rect" id="node24" href="text__symbol_8h.html" title="core/symbols/text_symbol.h" alt="" coords="753,191,939,218"/>
+<area shape="rect" id="node31" href="settings_8h.html" title="settings.h" alt="" coords="2133,363,2212,389"/>
+<area shape="rect" id="node32" href="ocad8__file__format_8h.html" title="ocad8_file_format.h" alt="" coords="1701,281,1837,307"/>
+<area shape="rect" id="node33" href="ocad8__file__format__p_8h.html" title="ocad8_file_format_p.h" alt="" coords="1921,281,2072,307"/>
+<area shape="rect" id="node36" href="ocd__types__v9_8h.html" title="ocd_types_v9.h" alt="" coords="249,363,363,389"/>
+<area shape="rect" id="node37" href="ocd__types__v10_8h.html" title="ocd_types_v10.h" alt="" coords="191,281,312,307"/>
+<area shape="rect" id="node38" href="ocd__types__v11_8h.html" title="ocd_types_v11.h" alt="" coords="5,191,127,218"/>
+<area shape="rect" id="node39" href="ocd__types__v12_8h.html" title="ocd_types_v12.h" alt="" coords="104,102,225,129"/>
+<area shape="rect" id="node40" href="crs__template_8h.html" title="core/crs_template.h" alt="" coords="2497,191,2635,218"/>
+<area shape="rect" id="node41" href="georeferencing_8h.html" title="core/georeferencing.h" alt="" coords="1506,363,1653,389"/>
+<area shape="rect" id="node42" href="map_8h.html" title="core/map.h" alt="" coords="2236,363,2323,389"/>
+<area shape="rect" id="node43" href="map__color_8h.html" title="core/map_color.h" alt="" coords="2550,363,2673,389"/>
+<area shape="rect" id="node44" href="map__view_8h.html" title="core/map_view.h" alt="" coords="2300,191,2421,218"/>
+<area shape="rect" id="node45" href="combined__symbol_8h.html" title="core/symbols/combined\l_symbol.h" alt="" coords="587,273,747,315"/>
+<area shape="rect" id="node46" href="template_8h.html" title="templates/template.h" alt="" coords="2659,191,2803,218"/>
+<area shape="rect" id="node47" href="template__image_8h.html" title="templates/template\l_image.h" alt="" coords="2513,95,2646,136"/>
+<area shape="rect" id="node48" href="template__map_8h.html" title="templates/template\l_map.h" alt="" coords="2721,95,2854,136"/>
+<area shape="rect" id="node49" href="encoding_8h.html" title="util/encoding.h" alt="" coords="2929,102,3035,129"/>
+<area shape="rect" id="node50" href="util_8h.html" title="util/util.h" alt="" coords="3060,102,3131,129"/>
+<area shape="rect" id="node3" href="file__import__export_8h.html" title="file_import_export.h" alt="" coords="1727,363,1863,389"/>
+<area shape="rect" id="node12" href="ocd__types_8h.html" title="ocd_types.h" alt="" coords="190,512,283,539"/>
+<area shape="rect" id="node13" href="ocd__types__v8_8h.html" title="ocd_types_v8.h" alt="" coords="299,437,414,464"/>
+<area shape="rect" id="node14" href="object_8h.html" title="core/objects/object.h" alt="" coords="1347,281,1489,307"/>
+<area shape="rect" id="node17" href="symbol_8h.html" title="core/symbols/symbol.h" alt="" coords="1071,363,1229,389"/>
+<area shape="rect" id="node8" href="file__format_8h.html" title="file_format.h" alt="" coords="1421,437,1516,464"/>
+<area shape="rect" id="node15" href="map__coord_8h.html" title="core/map_coord.h" alt="" coords="1540,437,1667,464"/>
+<area shape="rect" id="node35" href="libocad_8h.html" title="libocad/libocad.h" alt="" coords="1939,363,2057,389"/>
 </map>
 </div>
 </div></div><!-- contents -->

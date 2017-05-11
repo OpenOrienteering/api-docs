@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['mappartchange',['MapPartChange',['../classMapPartUndoStep.html#ad130b66c884d74916af388ad085c13be',1,'MapPartUndoStep']]],
-  ['mapprintermode',['MapPrinterMode',['../classMapPrinterOptions.html#a177ed1999b5050c9c73e9d5e978361e3',1,'MapPrinterOptions']]]
+  ['linestyleflag',['LineStyleFlag',['../structOcd_1_1LineSymbolCommonV8.html#a168c058084a037ab57b1992f32cba61f',1,'Ocd::LineSymbolCommonV8']]]
 ];

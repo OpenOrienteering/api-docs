@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.6.7</span>
+   &#160;<span id="projectnumber">0.7.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -84,139 +84,158 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><dl class="reflist">
-<dt><a class="anchor" id="_todo000055"></a>Class <a class="el" href="classBooleanTool.html">BooleanTool</a>  </dt>
+<dt><a class="anchor" id="_todo000011"></a>Class <a class="el" href="classBooleanTool.html">BooleanTool</a>  </dt>
 <dd>This class should get unit tests.  </dd>
-<dt><a class="anchor" id="_todo000078"></a>Page <a class="el" href="code_overview.html">Code overview</a>  </dt>
+<dt><a class="anchor" id="_todo000088"></a>Page <a class="el" href="code_overview.html">Code overview</a>  </dt>
 <dd>Review and update the code overview. </dd>
-<dt><a class="anchor" id="_todo000036"></a>Member <a class="el" href="map__editor_8cpp.html#a42d62d35ea267bf0666514034c02c6e7">connectPaths_FindClosestEnd</a>  (const std::vector&lt; Object * &gt; &amp;objects, <a class="el" href="classPathObject.html" title="Object type which can be used for line, area and combined symbols. ">PathObject</a> *a, int a_index, PathPartVector::size_type path_part_a, bool path_part_a_begin, <a class="el" href="classPathObject.html" title="Object type which can be used for line, area and combined symbols. ">PathObject</a> **out_b, int *out_b_index, int *out_path_part_b, bool *out_path_part_b_begin)</dt>
+<dt><a class="anchor" id="_todo000037"></a>Member <a class="el" href="map__editor_8cpp.html#a42d62d35ea267bf0666514034c02c6e7">connectPaths_FindClosestEnd</a>  (const std::vector&lt; Object * &gt; &amp;objects, <a class="el" href="classPathObject.html" title="Object type which can be used for line, area and combined symbols. ">PathObject</a> *a, int a_index, PathPartVector::size_type path_part_a, bool path_part_a_begin, <a class="el" href="classPathObject.html" title="Object type which can be used for line, area and combined symbols. ">PathObject</a> **out_b, int *out_b_index, int *out_path_part_b, bool *out_path_part_b_begin)</dt>
 <dd>Review use of container API  </dd>
-<dt><a class="anchor" id="_todo000042"></a>Class <a class="el" href="classCRSSelector.html">CRSSelector</a>  </dt>
+<dt><a class="anchor" id="_todo000044"></a>Class <a class="el" href="classCRSSelector.html">CRSSelector</a>  </dt>
 <dd>Consider making this a <a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html">QWidget</a> which has got a QCombobox - the public <a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qcombobox.html">QComboBox</a> API should better not be exposed. The combobox' signals could no longer be block from clients.  </dd>
-<dt><a class="anchor" id="_todo000057"></a>Member <a class="el" href="classCutTool.html#a9cb9e72d31690bd186bfa85d8c98eda2">CutTool::renderables</a>  </dt>
+<dt><a class="anchor" id="_todo000064"></a>Member <a class="el" href="classCutTool.html#a9cb9e72d31690bd186bfa85d8c98eda2">CutTool::renderables</a>  </dt>
 <dd>Rewrite renderables handling in <a class="el" href="classMapEditorToolBase.html" title="Provides a simple interface to base tools on. ">MapEditorToolBase</a> so that we can remove it here.  </dd>
-<dt><a class="anchor" id="_todo000056"></a>Member <a class="el" href="classCutTool.html#a898f567f8932629f872f7d8866bdb185">CutTool::replaceObject</a>  (<a class="el" href="classObject.html" title="Abstract base class which combines coordinates and a symbol to form an object (in a map...">Object</a> *object, const std::vector&lt; PathObject * &gt; &amp;replacement) const </dt>
+<dt><a class="anchor" id="_todo000063"></a>Member <a class="el" href="classCutTool.html#a898f567f8932629f872f7d8866bdb185">CutTool::replaceObject</a>  (<a class="el" href="classObject.html" title="Abstract base class which combines coordinates and a symbol to form an object (in a map...">Object</a> *object, const std::vector&lt; PathObject * &gt; &amp;replacement) const </dt>
 <dd>Consider moving this to a more general class (<a class="el" href="classMap.html" title="Central class for an OpenOrienteering map. ">Map</a>, <a class="el" href="classMapPart.html" title="Represents a part of a map by owning a list of map objects. ">MapPart</a>).  </dd>
-<dt><a class="anchor" id="_todo000021"></a>Class <a class="el" href="classDetermineFontSizeDialog.html">DetermineFontSizeDialog</a>  </dt>
+<dt><a class="anchor" id="_todo000042"></a>Class <a class="el" href="classDetermineFontSizeDialog.html">DetermineFontSizeDialog</a>  </dt>
 <dd>Move translation items to <a class="el" href="classTextSymbolSettings.html">TextSymbolSettings</a> class. </dd>
-<dt><a class="anchor" id="_todo000058"></a>Class <a class="el" href="classDistributePointsTool.html">DistributePointsTool</a>  </dt>
+<dt><a class="anchor" id="_todo000065"></a>Class <a class="el" href="classDistributePointsTool.html">DistributePointsTool</a>  </dt>
 <dd>Integrate implementation of <a class="el" href="classMapEditorController.html#a0a5f2303818a360779cc0049d934c3fa" title="Executes the &quot;distribute points along path&quot; action. ">MapEditorController::distributePointsClicked()</a>.  </dd>
-<dt><a class="anchor" id="_todo000059"></a>Member <a class="el" href="classEditLineTool.html#abd29e90a038dd21fc3c187b4242721f8">EditLineTool::clickPress</a>  () override</dt>
+<dt><a class="anchor" id="_todo000066"></a>Member <a class="el" href="classEditLineTool.html#abd29e90a038dd21fc3c187b4242721f8">EditLineTool::clickPress</a>  () override</dt>
 <dd><p class="startdd">Provide a PathObject::convertToStraight(hover_line) ? </p>
 <p class="enddd">Provide a PathObject::convertToCurve(hover_line) ?  </p>
 </dd>
-<dt><a class="anchor" id="_todo000062"></a>Class <a class="el" href="classEditPointTool.html">EditPointTool</a>  </dt>
+<dt><a class="anchor" id="_todo000069"></a>Class <a class="el" href="classEditPointTool.html">EditPointTool</a>  </dt>
 <dd>See tool_edit_line.cpp for a number of todos.  </dd>
-<dt><a class="anchor" id="_todo000063"></a>Member <a class="el" href="classEditPointTool.html#a522883d0fa08da499070beab8a89864b">EditPointTool::addDashPointDefault</a>  () const </dt>
+<dt><a class="anchor" id="_todo000070"></a>Member <a class="el" href="classEditPointTool.html#a522883d0fa08da499070beab8a89864b">EditPointTool::addDashPointDefault</a>  () const </dt>
 <dd>Test/fix for combined symbols.  </dd>
-<dt><a class="anchor" id="_todo000061"></a>Member <a class="el" href="classEditPointTool.html#af9ad618f971d4680aa87ba000f7285c0">EditPointTool::updateHoverState</a>  (<a class="el" href="classMapCoordF.html" title="Map coordinates stored as floating point numbers. ">MapCoordF</a> cursor_pos)</dt>
+<dt><a class="anchor" id="_todo000068"></a>Member <a class="el" href="classEditPointTool.html#af9ad618f971d4680aa87ba000f7285c0">EditPointTool::updateHoverState</a>  (<a class="el" href="classMapCoordF.html" title="Map coordinates stored as floating point numbers. ">MapCoordF</a> cursor_pos)</dt>
 <dd>De-duplicate: Copied from <a class="el" href="classEditLineTool.html" title="A tool to edit lines of PathObjects. ">EditLineTool</a>  </dd>
-<dt><a class="anchor" id="_todo000064"></a>Member <a class="el" href="classEditTool.html#ade12648b2c35e1a80001b13727303a16">EditTool::delete_object_key</a>  </dt>
+<dt><a class="anchor" id="_todo000071"></a>Member <a class="el" href="classEditTool.html#ade12648b2c35e1a80001b13727303a16">EditTool::delete_object_key</a>  </dt>
 <dd>Either use a function for testing whether a key means "delete object", or switch to a <a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qaction.html">QAction</a> based implementation since <a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qaction.html">QAction</a> supports alternative QKeySequences.  </dd>
 <dt><a class="anchor" id="_todo000029"></a>Member <a class="el" href="classGdalManager_1_1GdalManagerPrivate.html#a3db8a4a0a8385024e3fb6d1bda3bdf8a">GdalManager::GdalManagerPrivate::supportedRasterExtensions</a>  () const </dt>
 <dd></dd>
-<dt><a class="anchor" id="_todo000034"></a>Member <a class="el" href="classGeoreferencingDialog.html#acf46db84933d634977dbd3d034e71035">GeoreferencingDialog::requestDeclination</a>  (bool no_confirm=false)</dt>
+<dt><a class="anchor" id="_todo000035"></a>Member <a class="el" href="classGeoreferencingDialog.html#acf46db84933d634977dbd3d034e71035">GeoreferencingDialog::requestDeclination</a>  (bool no_confirm=false)</dt>
 <dd>Move URL (template) to settings.  </dd>
-<dt><a class="anchor" id="_todo000043"></a>Member <a class="el" href="classHomeScreenWidgetMobile.html#a88d41d1e95d412210dea8d05287d5f68">HomeScreenWidgetMobile::makeFileListWidget</a>  (<a class="el" href="classHomeScreenController.html" title="The controller of the OpenOrienteering Mapper home screen. ">HomeScreenController</a> *controller, <a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html">QWidget</a> *parent=NULL)</dt>
+<dt><a class="anchor" id="_todo000045"></a>Member <a class="el" href="classHomeScreenWidgetMobile.html#a88d41d1e95d412210dea8d05287d5f68">HomeScreenWidgetMobile::makeFileListWidget</a>  (<a class="el" href="classHomeScreenController.html" title="The controller of the OpenOrienteering Mapper home screen. ">HomeScreenController</a> *controller, <a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html">QWidget</a> *parent=NULL)</dt>
 <dd>Review the text for placing the first maps  </dd>
 <dt><a class="anchor" id="_todo000001"></a>Member <a class="el" href="classMap.html#ac92d765eed0fa5a6793f5dd122d55e0c">Map::exportTo</a>  (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;path, <a class="el" href="classMapView.html" title="Stores view position, zoom, rotation and grid / template visibilities to define a view onto a map...">MapView</a> *view=nullptr, const <a class="el" href="classFileFormat.html" title="Describes a file format understood by this application. ">FileFormat</a> *format=nullptr)</dt>
 <dd>: Switch to the latter when translated.  </dd>
-<dt><a class="anchor" id="_todo000002"></a>Member <a class="el" href="classMap.html#ab7f6c6ca7a51d02f8bca937d420a7cd5">Map::importMap</a>  (const <a class="el" href="classMap.html" title="Central class for an OpenOrienteering map. ">Map</a> *other, ImportMode mode, <a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html">QWidget</a> *dialog_parent=nullptr, std::vector&lt; bool &gt; *filter=nullptr, int symbol_insert_pos=-1, bool merge_duplicate_symbols=true, <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qhash.html">QHash&lt; const Symbol *, Symbol * &gt;</a> *out_symbol_map=nullptr)</dt>
+<dt><a class="anchor" id="_todo000002"></a>Member <a class="el" href="classMap.html#ab7f6c6ca7a51d02f8bca937d420a7cd5">Map::importMap</a>  (const <a class="el" href="classMap.html" title="Central class for an OpenOrienteering map. ">Map</a> *other, ImportMode mode, <a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html">QWidget</a> *dialog_parent=nullptr, std::vector&lt; bool &gt; *filter=nullptr, int symbol_insert_pos=-1, bool merge_duplicate_symbols=true, QHash&lt; const Symbol *, Symbol * &gt; *out_symbol_map=nullptr)</dt>
 <dd><p class="startdd">No need to clone iff the other map is discarded after import. </p>
 <p>Test and review import of georeferenced and non-georeferenced maps, in all combinations. </p>
-<p>Handle rotation of patterns and text, cf. QObject::transform. </p>
+<p>Handle rotation of patterns and text, cf. <a class="el" href="classObject.html#a94695248015cc5ea02b88575f752cf66" title="Apply a transformation to all coordinates. ">Object::transform</a>. </p>
 <p class="enddd">proper error message  </p>
 </dd>
 <dt><a class="anchor" id="_todo000006"></a>Member <a class="el" href="classMapCoord.html#af865e9369f6d1d6a5083f0066424fae3">MapCoord::fromNative64</a>  (qint64 x, qint64 y)</dt>
 <dd>Raise (and handle exceptions) when out of bounds.  </dd>
 <dt><a class="anchor" id="_todo000007"></a>Member <a class="el" href="classMapCoordF.html#ab01fe4dd8493059cde26406dbb341795">MapCoordF::perpRight</a>  () const </dt>
 <dd>Replace with <a class="el" href="classMapCoordF.html#a8eb4aab74490a1e54a984d75db8a431a" title="Returns a vector with the same length that is perpendicular to this vector. ">normalVector()</a>, similar to <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qlinef.html">QLineF</a> API.  </dd>
-<dt><a class="anchor" id="_todo000037"></a>Member <a class="el" href="classMapEditorController.html#af89e6b0b1a449f022140e097d0bcca20">MapEditorController::connectPathsClicked</a>  ()</dt>
+<dt><a class="anchor" id="_todo000038"></a>Member <a class="el" href="classMapEditorController.html#af89e6b0b1a449f022140e097d0bcca20">MapEditorController::connectPathsClicked</a>  ()</dt>
 <dd>get rid of force if possible  </dd>
-<dt><a class="anchor" id="_todo000038"></a>Member <a class="el" href="classMapEditorController.html#ade6c5a9443b52c21cd12b4c345ae7148">MapEditorController::importClicked</a>  ()</dt>
+<dt><a class="anchor" id="_todo000039"></a>Member <a class="el" href="classMapEditorController.html#ade6c5a9443b52c21cd12b4c345ae7148">MapEditorController::importClicked</a>  ()</dt>
 <dd>Reword message (not a map file here). Requires new translations  </dd>
-<dt><a class="anchor" id="_todo000039"></a>Member <a class="el" href="classMapEditorController.html#aef1429ef21d2f116e440909c3e5988b9">MapEditorController::MapEditorController</a>  (OperatingMode mode, <a class="el" href="classMap.html" title="Central class for an OpenOrienteering map. ">Map</a> *map=nullptr, <a class="el" href="classMapView.html" title="Stores view position, zoom, rotation and grid / template visibilities to define a view onto a map...">MapView</a> *map_view=nullptr)</dt>
+<dt><a class="anchor" id="_todo000040"></a>Member <a class="el" href="classMapEditorController.html#aef1429ef21d2f116e440909c3e5988b9">MapEditorController::MapEditorController</a>  (OperatingMode mode, <a class="el" href="classMap.html" title="Central class for an OpenOrienteering map. ">Map</a> *map=nullptr, <a class="el" href="classMapView.html" title="Stores view position, zoom, rotation and grid / template visibilities to define a view onto a map...">MapView</a> *map_view=nullptr)</dt>
 <dd><p class="startdd">Review/remove mode hack. </p>
 <p class="enddd">Document and fix ownership of map and map_view. Double deletes waiting...  </p>
 </dd>
-<dt><a class="anchor" id="_todo000070"></a>Member <a class="el" href="classMapEditorTool.html#ac5b05c7fc78bef092cedc4e33900f4e8">MapEditorTool::getCursor</a>  () const =0</dt>
+<dt><a class="anchor" id="_todo000078"></a>Member <a class="el" href="classMapEditorTool.html#ac5b05c7fc78bef092cedc4e33900f4e8">MapEditorTool::getCursor</a>  () const =0</dt>
 <dd>How to change the cursor for all map widgets while a tool is active?  </dd>
-<dt><a class="anchor" id="_todo000071"></a>Member <a class="el" href="classMapEditorTool.html#a12aa6bb8ded7a03f92c4331a01567751">MapEditorTool::isDrawTool</a>  () const </dt>
+<dt><a class="anchor" id="_todo000079"></a>Member <a class="el" href="classMapEditorTool.html#a12aa6bb8ded7a03f92c4331a01567751">MapEditorTool::isDrawTool</a>  () const </dt>
 <dd>This shall be rewritten as virtual/reimplemented function.  </dd>
-<dt><a class="anchor" id="_todo000069"></a>Member <a class="el" href="classMapEditorTool.html#a1f935c9b7b533e5809e34781404e4076">MapEditorTool::switchToDefaultDrawTool</a>  (const <a class="el" href="classSymbol.html" title="Abstract base class for map symbols. ">Symbol</a> *symbol) const </dt>
+<dt><a class="anchor" id="_todo000077"></a>Member <a class="el" href="classMapEditorTool.html#a1f935c9b7b533e5809e34781404e4076">MapEditorTool::switchToDefaultDrawTool</a>  (const <a class="el" href="classSymbol.html" title="Abstract base class for map symbols. ">Symbol</a> *symbol) const </dt>
 <dd>Review for refactoring: no reimplementation found, maybe not in right class?  </dd>
-<dt><a class="anchor" id="_todo000072"></a>Member <a class="el" href="classMapEditorToolBase.html#a65aec0c0e7b4baff0d6021b212af6f5b">MapEditorToolBase::updatePreviewObjects</a>  ()</dt>
+<dt><a class="anchor" id="_todo000080"></a>Member <a class="el" href="classMapEditorToolBase.html#a65aec0c0e7b4baff0d6021b212af6f5b">MapEditorToolBase::updatePreviewObjects</a>  ()</dt>
 <dd>get rid of force if possible;  </dd>
 <dt><a class="anchor" id="_todo000008"></a>Member <a class="el" href="classMapPart.html#a7ced74ec48b86a7e14a90abc1b790a16">MapPart::deleteObject</a>  (int pos, bool remove_only)</dt>
 <dd>Make a separate method "removeObject()", this is misleading!  </dd>
 <dt><a class="anchor" id="_todo000009"></a>Member <a class="el" href="classMapPart.html#affb9c237bcc3e502ff624e2d1d8130e8">MapPart::deleteObject</a>  (<a class="el" href="classObject.html" title="Abstract base class which combines coordinates and a symbol to form an object (in a map...">Object</a> *object, bool remove_only)</dt>
 <dd>Make a separate method "removeObject()", this is misleading!  </dd>
-<dt><a class="anchor" id="_todo000076"></a>Class <a class="el" href="classMapTest.html">MapTest</a>  </dt>
+<dt><a class="anchor" id="_todo000085"></a>Class <a class="el" href="classMapTest.html">MapTest</a>  </dt>
 <dd>Extent this test.  </dd>
-<dt><a class="anchor" id="_todo000013"></a>Member <a class="el" href="classObject.html#a94695248015cc5ea02b88575f752cf66">Object::transform</a>  (const <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qtransform.html">QTransform</a> &amp;t)</dt>
+<dt><a class="anchor" id="_todo000014"></a>Member <a class="el" href="classObject.html#a94695248015cc5ea02b88575f752cf66">Object::transform</a>  (const <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qtransform.html">QTransform</a> &amp;t)</dt>
 <dd>Handle rotation of patterns or text (?)  </dd>
 <dt><a class="anchor" id="_todo000027"></a>Class <a class="el" href="structOcd_1_1LineTextSymbolV8.html">Ocd::LineTextSymbolV8</a>  </dt>
 <dd>use and test...  </dd>
 <dt><a class="anchor" id="_todo000026"></a>Member <a class="el" href="classOcdFileImport.html#acdc936c50eeb451d8035e9aaaa338b97">OcdFileImport::setBasicAttributes</a>  (<a class="el" href="classOcdFileImport_1_1OcdImportedTextSymbol.html">OcdImportedTextSymbol</a> *symbol, const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;font_name, const <a class="el" href="structOcd_1_1BasicTextAttributesV8.html">Ocd::BasicTextAttributesV8</a> &amp;attributes)</dt>
 <dd>Implement justified alignment  </dd>
-<dt><a class="anchor" id="_todo000032"></a>Member <a class="el" href="classOgrFileImport.html#a40727c1b8a58044bdda4e19800e053d8">OgrFileImport::getSymbol</a>  (<a class="el" href="classSymbol.html#a19c9a49235af753af17553af18c588ca" title="Enumeration of all possible symbol types, must be able to be used as bits in a bitmask. ">Symbol::Type</a> type, const char *raw_style_string)</dt>
+<dt><a class="anchor" id="_todo000033"></a>Member <a class="el" href="classOgrFileImport.html#a40727c1b8a58044bdda4e19800e053d8">OgrFileImport::getSymbol</a>  (<a class="el" href="classSymbol.html#a19c9a49235af753af17553af18c588ca" title="Enumeration of all possible symbol types, must be able to be used as bits in a bitmask. ">Symbol::Type</a> type, const char *raw_style_string)</dt>
 <dd></dd>
 <dt><a class="anchor" id="_todo000031"></a>Member <a class="el" href="classOgrFileImport.html#a6551a10b5b8b2f9119bbd83f60e8358c">OgrFileImport::import</a>  (bool load_symbols_only) override</dt>
-<dd>Review design and/or message  </dd>
-<dt><a class="anchor" id="_todo000020"></a>Member <a class="el" href="classPathCoord.html#a469ce9aea806af8f5d83e44d01ed19af">PathCoord::bezierError</a>  ()</dt>
+<dd><p class="startdd">Review design and/or message </p>
+<p class="enddd">Use hooks and delegates per file format  </p>
+</dd>
+<dt><a class="anchor" id="_todo000083"></a>Member <a class="el" href="classPassPointList.html#ace4ea03be91efc9bb5f8799c0d6c83a6">PassPointList::not_null</a>  </dt>
+<dd>Use the Guideline Support Library  </dd>
+<dt><a class="anchor" id="_todo000021"></a>Member <a class="el" href="classPathCoord.html#a469ce9aea806af8f5d83e44d01ed19af">PathCoord::bezierError</a>  ()</dt>
 <dd>Make bezier error configurable  </dd>
 <dt><a class="anchor" id="_todo000025"></a>Member <a class="el" href="classPathCoordVector.html#a2e8f6b4ba6cec6636818d877d0878ab9">PathCoordVector::findNextDashPoint</a>  (PathCoordVector::size_type first) const </dt>
 <dd>Consider return a <a class="el" href="classSplitPathCoord.html" title="An arbitrary position on a path. ">SplitPathCoord</a> (cf. actual usage).  </dd>
 <dt><a class="anchor" id="_todo000022"></a>Member <a class="el" href="classPathCoordVector.html#a1f6cd9ba4e131d1967229caa59294e88">PathCoordVector::intersectsBox</a>  (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> box) const </dt>
 <dd>Implement this here, used nowhere else  </dd>
-<dt><a class="anchor" id="_todo000012"></a>Member <a class="el" href="classPathObject.html#aef0ead453fa1eb52de993726687339c3">PathObject::calcAllIntersectionsWith</a>  (const <a class="el" href="classPathObject.html" title="Object type which can be used for line, area and combined symbols. ">PathObject</a> *other, <a class="el" href="classPathObject_1_1Intersections.html" title="std::vector of Intersection with the ability to sort them and remove duplicates. ">Intersections</a> &amp;out) const </dt>
+<dt><a class="anchor" id="_todo000013"></a>Member <a class="el" href="classPathObject.html#aef0ead453fa1eb52de993726687339c3">PathObject::calcAllIntersectionsWith</a>  (const <a class="el" href="classPathObject.html" title="Object type which can be used for line, area and combined symbols. ">PathObject</a> *other, <a class="el" href="classPathObject_1_1Intersections.html" title="std::vector of Intersection with the ability to sort them and remove duplicates. ">Intersections</a> &amp;out) const </dt>
 <dd>FIXME: part_index or other_part_index ???  </dd>
-<dt><a class="anchor" id="_todo000016"></a>Member <a class="el" href="classPathObject.html#a7bdc31e745074265b8288874d5191388">PathObject::calcClosestCoordinate</a>  (<a class="el" href="classMapCoordF.html" title="Map coordinates stored as floating point numbers. ">MapCoordF</a> coord, float &amp;out_distance_sq, MapCoordVector::size_type &amp;out_index) const </dt>
+<dt><a class="anchor" id="_todo000017"></a>Member <a class="el" href="classPathObject.html#a7bdc31e745074265b8288874d5191388">PathObject::calcClosestCoordinate</a>  (<a class="el" href="classMapCoordF.html" title="Map coordinates stored as floating point numbers. ">MapCoordF</a> coord, float &amp;out_distance_sq, MapCoordVector::size_type &amp;out_index) const </dt>
 <dd><p class="startdd">Convert out_distance_sq to double (so avoiding conversions). </p>
 <p class="enddd">Return index rather than writing to the provided reference.  </p>
 </dd>
-<dt><a class="anchor" id="_todo000015"></a>Member <a class="el" href="classPathObject.html#af555d27ecd3f0191968b3d4ae74aeb80">PathObject::calcClosestPointOnPath</a>  (<a class="el" href="classMapCoordF.html" title="Map coordinates stored as floating point numbers. ">MapCoordF</a> coord, float &amp;out_distance_sq, <a class="el" href="classPathCoord.html" title="A PathCoord represents a node in a polygonal approximation of a path. ">PathCoord</a> &amp;out_path_coord, MapCoordVector::size_type start_index=0, MapCoordVector::size_type end_index=std::numeric_limits&lt; PathPartVector::size_type &gt;::max()) const </dt>
+<dt><a class="anchor" id="_todo000016"></a>Member <a class="el" href="classPathObject.html#af555d27ecd3f0191968b3d4ae74aeb80">PathObject::calcClosestPointOnPath</a>  (<a class="el" href="classMapCoordF.html" title="Map coordinates stored as floating point numbers. ">MapCoordF</a> coord, float &amp;out_distance_sq, <a class="el" href="classPathCoord.html" title="A PathCoord represents a node in a polygonal approximation of a path. ">PathCoord</a> &amp;out_path_coord, MapCoordVector::size_type start_index=0, MapCoordVector::size_type end_index=std::numeric_limits&lt; PathPartVector::size_type &gt;::max()) const </dt>
 <dd><p class="startdd">Convert out_distance_sq to double (so avoiding conversions). </p>
 <p>Return <a class="el" href="classPathCoord.html" title="A PathCoord represents a node in a polygonal approximation of a path. ">PathCoord</a> rather than writing to the provided reference. </p>
 <p class="enddd">Legacy compatibility, review/remove  </p>
 </dd>
-<dt><a class="anchor" id="_todo000018"></a>Member <a class="el" href="classPathObject.html#a58bbcee8f5dafe2a884aaff13db0d6e1">PathObject::changePathBounds</a>  (PathPartVector::size_type part_index, <a class="el" href="classPathCoord.html#aa6463dfe141d2fedf8a9b65ee8b1c266" title="A reaonably precise float type for lengths and distances. ">PathCoord::length_type</a> start_len, <a class="el" href="classPathCoord.html#aa6463dfe141d2fedf8a9b65ee8b1c266" title="A reaonably precise float type for lengths and distances. ">PathCoord::length_type</a> end_len)</dt>
+<dt><a class="anchor" id="_todo000019"></a>Member <a class="el" href="classPathObject.html#a58bbcee8f5dafe2a884aaff13db0d6e1">PathObject::changePathBounds</a>  (PathPartVector::size_type part_index, <a class="el" href="classPathCoord.html#aa6463dfe141d2fedf8a9b65ee8b1c266" title="A reaonably precise float type for lengths and distances. ">PathCoord::length_type</a> start_len, <a class="el" href="classPathCoord.html#aa6463dfe141d2fedf8a9b65ee8b1c266" title="A reaonably precise float type for lengths and distances. ">PathCoord::length_type</a> end_len)</dt>
 <dd>Partially duplicated in LineSymbol::calculatePathCoordinates()  </dd>
-<dt><a class="anchor" id="_todo000017"></a>Member <a class="el" href="classPathObject.html#a2823c761038b1a791ec5e3800e255ec4">PathObject::connectIfClose</a>  (<a class="el" href="classPathObject.html" title="Object type which can be used for line, area and combined symbols. ">PathObject</a> *other, double connect_threshold_sq)</dt>
+<dt><a class="anchor" id="_todo000018"></a>Member <a class="el" href="classPathObject.html#a2823c761038b1a791ec5e3800e255ec4">PathObject::connectIfClose</a>  (<a class="el" href="classPathObject.html" title="Object type which can be used for line, area and combined symbols. ">PathObject</a> *other, double connect_threshold_sq)</dt>
 <dd>Review documentation, container usage,  </dd>
-<dt><a class="anchor" id="_todo000014"></a>Member <a class="el" href="classPathObject.html#ae90659e0123f1bfb2f4782e9ddf00f95">PathObject::findPartIndexForIndex</a>  (MapCoordVector::size_type coords_index) const </dt>
+<dt><a class="anchor" id="_todo000015"></a>Member <a class="el" href="classPathObject.html#ae90659e0123f1bfb2f4782e9ddf00f95">PathObject::findPartIndexForIndex</a>  (MapCoordVector::size_type coords_index) const </dt>
 <dd>Review where this signature can be replace by the one returning an iterator.  </dd>
-<dt><a class="anchor" id="_todo000077"></a>Class <a class="el" href="classPathObjectTest.html">PathObjectTest</a>  </dt>
+<dt><a class="anchor" id="_todo000086"></a>Class <a class="el" href="classPathObjectTest.html">PathObjectTest</a>  </dt>
 <dd>Extent this test.  </dd>
-<dt><a class="anchor" id="_todo000075"></a>Member <a class="el" href="util_8h.html#ad1af303eedd45ad2774f93f07923425c">rectIncludeSafe</a>  (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrect.html">QRect</a> &amp;rect, const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrect.html">QRect</a> &amp;other_rect)</dt>
+<dt><a class="anchor" id="_todo000084"></a>Member <a class="el" href="util_8h.html#ad1af303eedd45ad2774f93f07923425c">rectIncludeSafe</a>  (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrect.html">QRect</a> &amp;rect, const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrect.html">QRect</a> &amp;other_rect)</dt>
 <dd>Check if <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qregion.html">QRegion</a> could be used instead.  </dd>
-<dt><a class="anchor" id="_todo000065"></a>Member <a class="el" href="classRotatePatternTool.html#a890d67139d1453b892b60813cd1ffb4f">RotatePatternTool::dragMove</a>  () override</dt>
+<dt><a class="anchor" id="_todo000072"></a>Member <a class="el" href="classRotatePatternTool.html#a890d67139d1453b892b60813cd1ffb4f">RotatePatternTool::dragMove</a>  () override</dt>
 <dd>Refactor, provide a unified interface for rotation in <a class="el" href="classObject.html" title="Abstract base class which combines coordinates and a symbol to form an object (in a map...">Object</a>  </dd>
-<dt><a class="anchor" id="_todo000066"></a>Member <a class="el" href="classRotateTool.html#a2cb30900a97cc860d4a0fe6ad62c763f">RotateTool::drawImpl</a>  (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpainter.html">QPainter</a> *painter, <a class="el" href="classMapWidget.html" title="QWidget for displaying a map. ">MapWidget</a> *widget) override</dt>
+<dt><a class="anchor" id="_todo000073"></a>Member <a class="el" href="classRotateTool.html#a2cb30900a97cc860d4a0fe6ad62c763f">RotateTool::drawImpl</a>  (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpainter.html">QPainter</a> *painter, <a class="el" href="classMapWidget.html" title="QWidget for displaying a map. ">MapWidget</a> *widget) override</dt>
 <dd>Use dpi-scaled dimensions  </dd>
-<dt><a class="anchor" id="_todo000073"></a>Member <a class="el" href="classSnappingToolHelper.html#aa5095b1fd635de2079d170b8b8ef3012">SnappingToolHelper::getDisplayRadius</a>  () const </dt>
+<dt><a class="anchor" id="_todo000081"></a>Member <a class="el" href="classSnappingToolHelper.html#aa5095b1fd635de2079d170b8b8ef3012">SnappingToolHelper::getDisplayRadius</a>  () const </dt>
 <dd>Return a dynamic value, or adjust for screen density.  </dd>
-<dt><a class="anchor" id="_todo000019"></a>Member <a class="el" href="classSplitPathCoord.html#a80cd9d92d30aeb382b3092fcc3ce6074">SplitPathCoord::at</a>  (length_type length, const <a class="el" href="classSplitPathCoord.html" title="An arbitrary position on a path. ">SplitPathCoord</a> &amp;first)</dt>
+<dt><a class="anchor" id="_todo000020"></a>Member <a class="el" href="classSplitPathCoord.html#a80cd9d92d30aeb382b3092fcc3ce6074">SplitPathCoord::at</a>  (length_type length, const <a class="el" href="classSplitPathCoord.html" title="An arbitrary position on a path. ">SplitPathCoord</a> &amp;first)</dt>
 <dd>Handle closed paths.  </dd>
-<dt><a class="anchor" id="_todo000045"></a>Member <a class="el" href="classSymbolRenderWidget.html#a3d936cb1e1339da0bd70daf5a1e8475f">SymbolRenderWidget::fillBorderClicked</a>  ()</dt>
+<dt><a class="anchor" id="_todo000047"></a>Member <a class="el" href="classSymbolRenderWidget.html#a3d936cb1e1339da0bd70daf5a1e8475f">SymbolRenderWidget::fillBorderClicked</a>  ()</dt>
 <dd>Merge with/Reuse corresponding action in <a class="el" href="classMapEditorController.html" title="MainWindowController for editing a map. ">MapEditorController</a>.  </dd>
-<dt><a class="anchor" id="_todo000044"></a>Member <a class="el" href="classSymbolRenderWidget.html#ad1bfbd7551545e9716063e7046c6b32f">SymbolRenderWidget::switchSymbolClicked</a>  ()</dt>
+<dt><a class="anchor" id="_todo000046"></a>Member <a class="el" href="classSymbolRenderWidget.html#ad1bfbd7551545e9716063e7046c6b32f">SymbolRenderWidget::switchSymbolClicked</a>  ()</dt>
 <dd>Merge with/Reuse corresponding action in <a class="el" href="classMapEditorController.html" title="MainWindowController for editing a map. ">MapEditorController</a>.  </dd>
-<dt><a class="anchor" id="_todo000040"></a>Member <a class="el" href="classSymbolSettingDialog.html#a38bba9439cad620a6623e74cb098e714">SymbolSettingDialog::SymbolSettingDialog</a>  (<a class="el" href="classSymbol.html" title="Abstract base class for map symbols. ">Symbol</a> *source_symbol, <a class="el" href="classMap.html" title="Central class for an OpenOrienteering map. ">Map</a> *source_map, <a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html">QWidget</a> *parent)</dt>
+<dt><a class="anchor" id="_todo000041"></a>Member <a class="el" href="classSymbolSettingDialog.html#a38bba9439cad620a6623e74cb098e714">SymbolSettingDialog::SymbolSettingDialog</a>  (<a class="el" href="classSymbol.html" title="Abstract base class for map symbols. ">Symbol</a> *source_symbol, <a class="el" href="classMap.html" title="Central class for an OpenOrienteering map. ">Map</a> *source_map, <a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html">QWidget</a> *parent)</dt>
 <dd>Switch the following line to <a class="el" href="namespaceUtil_1_1Headline.html#a220a6a4d2702b8d5ea4a57fdfe7744bc" title="Creates a QLabel which is styled as a headline. ">Util::Headline::create</a>  </dd>
-<dt><a class="anchor" id="_todo000047"></a>Member <a class="el" href="classSymbolWidget.html#a5e6ae6dcaea267d965c90e509a72fd90">SymbolWidget::fillBorderClicked</a>  ()</dt>
+<dt><a class="anchor" id="_todo000049"></a>Member <a class="el" href="classSymbolWidget.html#a5e6ae6dcaea267d965c90e509a72fd90">SymbolWidget::fillBorderClicked</a>  ()</dt>
 <dd>Merge with/Reuse corresponding action in <a class="el" href="classMapEditorController.html" title="MainWindowController for editing a map. ">MapEditorController</a>.  </dd>
-<dt><a class="anchor" id="_todo000046"></a>Member <a class="el" href="classSymbolWidget.html#a880ef14332b011c8bd89b16d4b654dad">SymbolWidget::switchSymbolClicked</a>  ()</dt>
+<dt><a class="anchor" id="_todo000048"></a>Member <a class="el" href="classSymbolWidget.html#a880ef14332b011c8bd89b16d4b654dad">SymbolWidget::switchSymbolClicked</a>  ()</dt>
 <dd>Merge with/Reuse corresponding action in <a class="el" href="classMapEditorController.html" title="MainWindowController for editing a map. ">MapEditorController</a>.  </dd>
-<dt><a class="anchor" id="_todo000052"></a>Class <a class="el" href="classTemplateImageOpenDialog.html">TemplateImageOpenDialog</a>  </dt>
+<dt><a class="anchor" id="_todo000058"></a>Member <a class="el" href="classTemplate.html#ac6507a669be67608fb5bc8831d0759e4">Template::drawOntoTemplate</a>  (not_null&lt; MapCoordF * &gt; coords, int num_coords, <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qcolor.html">QColor</a> color, float width, <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> map_bbox)</dt>
+<dd>Rewrite using a range of <a class="el" href="classMapCoordF.html" title="Map coordinates stored as floating point numbers. ">MapCoordF</a>.  </dd>
+<dt><a class="anchor" id="_todo000057"></a>Member <a class="el" href="classTemplate.html#a9126bcb97d1875a56d387e5537c2be56">Template::duplicate</a>  () const </dt>
+<dd>Rewrite as virtual function, using protected copy constructor.  </dd>
+<dt><a class="anchor" id="_todo000059"></a>Member <a class="el" href="classTemplate.html#a3af280bfcfe5fedba12870c2a7907059">Template::duplicateImpl</a>  () const =0</dt>
+<dd>Rewrite together with <a class="el" href="classTemplate.html#a9126bcb97d1875a56d387e5537c2be56" title="Creates a duplicate of the template. ">duplicate()</a>.  </dd>
+<dt><a class="anchor" id="_todo000056"></a>Member <a class="el" href="classTemplate.html#a858574bc4be399d5085e0a85e236bef3">Template::not_null</a>  </dt>
+<dd>Use the Guideline Support Library  </dd>
+<dt><a class="anchor" id="_todo000060"></a>Class <a class="el" href="classTemplateImageOpenDialog.html">TemplateImageOpenDialog</a>  </dt>
 <dd>Move this class to separate files.  </dd>
-<dt><a class="anchor" id="_todo000048"></a>Member <a class="el" href="classTemplateListWidget.html#aa9e0ec5a18a2fad44c76c4105979ddf9">TemplateListWidget::TemplateListWidget</a>  (<a class="el" href="classMap.html" title="Central class for an OpenOrienteering map. ">Map</a> *map, <a class="el" href="classMapView.html" title="Stores view position, zoom, rotation and grid / template visibilities to define a view onto a map...">MapView</a> *main_view, <a class="el" href="classMapEditorController.html" title="MainWindowController for editing a map. ">MapEditorController</a> *controller, <a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html">QWidget</a> *parent=nullptr)</dt>
-<dd>Use "Remove instead of "Close" &lt;/dd&gt; &lt;dt&gt;\anchor _todo000049
-\_setscope TemplateListWidget Member \_internalref classTemplateListWidget#a994cab3d310d24f65abec6b81b288121 "<a class="el" href="classTemplateListWidget.html#a994cab3d310d24f65abec6b81b288121">TemplateListWidget::updateButtons</a>" ()&lt;/dt&gt;&lt;dd&gt; Make it possible to delete multiple templates at once &lt;/dd&gt; &lt;dt&gt;\anchor _todo000054
-\_setscope TemplateMap Member \_internalref classTemplateMap#a40dc8fa4323450e223a2401ba222c0ec "<a class="el" href="classTemplateMap.html#a40dc8fa4323450e223a2401ba222c0ec">TemplateMap::calculateTransformation</a>" ()&lt;/dt&gt;&lt;dd&gt; proper error message &lt;/dd&gt; &lt;dt&gt;\anchor _todo000053
-\_setscope TemplateMap Member \_internalref classTemplateMap#a28a3cdb1c541f1b7dde46bba0434c2f0 "<a class="el" href="classTemplateMap.html#a28a3cdb1c541f1b7dde46bba0434c2f0" title="Does the post-load configuration when the template is opened initially (after the chosen template fil...">TemplateMap::postLoadConfiguration</a>" (QWidget *dialog_parent, bool &amp;out_center_in_view) override&lt;/dt&gt;&lt;dd&gt; recursive template loading dialog &lt;/dd&gt; &lt;dt&gt;\anchor _todo000041
-\_setscope TextBrowserDialog Member \_internalref classTextBrowserDialog#ad6d68fbc146fff2f3b9449633005bdf6 "<a class="el" href="classTextBrowserDialog.html#ad6d68fbc146fff2f3b9449633005bdf6" title="Displays a tooltip showing the link if is an external document. ">TextBrowserDialog::highlighted</a>" (const QString &amp;link)&lt;/dt&gt;&lt;dd&gt; : Position near mouse pointer &lt;/dd&gt; &lt;dt&gt;\anchor _todo000051
-\_setscope TextObjectAlignmentDockWidget Class \_internalref classTextObjectAlignmentDockWidget "<a class="el" href="classTextObjectAlignmentDockWidget.html" title="A widget for setting text alignment. ">TextObjectAlignmentDockWidget</a>"  Use <a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qdockwidget.html">QDockWidget</a> (if necessary at all), don't inherit from it.  </dd>
-<dt><a class="anchor" id="_todo000074"></a>Member <a class="el" href="classUndoManager.html#a7f93da2bb3381cea5ac8481d751fc22a">UndoManager::max_undo_steps</a>  </dt>
+<dt><a class="anchor" id="_todo000050"></a>Member <a class="el" href="classTemplateListWidget.html#aa9e0ec5a18a2fad44c76c4105979ddf9">TemplateListWidget::TemplateListWidget</a>  (<a class="el" href="classMap.html" title="Central class for an OpenOrienteering map. ">Map</a> *map, <a class="el" href="classMapView.html" title="Stores view position, zoom, rotation and grid / template visibilities to define a view onto a map...">MapView</a> *main_view, <a class="el" href="classMapEditorController.html" title="MainWindowController for editing a map. ">MapEditorController</a> *controller, <a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html">QWidget</a> *parent=nullptr)</dt>
+<dd>Use "Remove instead of "Close" &lt;/dd&gt; &lt;dt&gt;\anchor _todo000051
+\_setscope TemplateListWidget Member \_internalref classTemplateListWidget#a994cab3d310d24f65abec6b81b288121 "<a class="el" href="classTemplateListWidget.html#a994cab3d310d24f65abec6b81b288121">TemplateListWidget::updateButtons</a>" ()&lt;/dt&gt;&lt;dd&gt; Make it possible to delete multiple templates at once &lt;/dd&gt; &lt;dt&gt;\anchor _todo000062
+\_setscope TemplateMap Member \_internalref classTemplateMap#a40dc8fa4323450e223a2401ba222c0ec "<a class="el" href="classTemplateMap.html#a40dc8fa4323450e223a2401ba222c0ec">TemplateMap::calculateTransformation</a>" ()&lt;/dt&gt;&lt;dd&gt; proper error message &lt;/dd&gt; &lt;dt&gt;\anchor _todo000061
+\_setscope TemplateMap Member \_internalref classTemplateMap#a28a3cdb1c541f1b7dde46bba0434c2f0 "<a class="el" href="classTemplateMap.html#a28a3cdb1c541f1b7dde46bba0434c2f0" title="Does configuration after the actual template is loaded. ">TemplateMap::postLoadConfiguration</a>" (QWidget *dialog_parent, bool &amp;out_center_in_view) override&lt;/dt&gt;&lt;dd&gt; recursive template loading dialog &lt;/dd&gt; &lt;dt&gt;\anchor _todo000054
+\_setscope TemplateTransform Member \_internalref structTemplateTransform#a06800954ab696c77ba7b0bdb301085c3 "<a class="el" href="structTemplateTransform.html#a06800954ab696c77ba7b0bdb301085c3" title="Explicit implementation of aggregate initialization. ">TemplateTransform::TemplateTransform</a>" (qint32 x, qint32 y, double rotation, double scale_x, double scale_y) noexcept Remove when we can use C++14 everywhere.  </dd>
+<dt><a class="anchor" id="_todo000055"></a>Member <a class="el" href="structTemplateTransform.html#a3d51463625f824236f3fedba6b103962">TemplateTransform::TemplateTransform</a>  () noexcept=default</dt>
+<dd>Remove when we can use C++14 everywhere.  </dd>
+<dt><a class="anchor" id="_todo000043"></a>Member <a class="el" href="classTextBrowserDialog.html#ad6d68fbc146fff2f3b9449633005bdf6">TextBrowserDialog::highlighted</a>  (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;link)</dt>
+<dd>: Position near mouse pointer  </dd>
+<dt><a class="anchor" id="_todo000053"></a>Class <a class="el" href="classTextObjectAlignmentDockWidget.html">TextObjectAlignmentDockWidget</a>  </dt>
+<dd>Use <a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qdockwidget.html">QDockWidget</a> (if necessary at all), don't inherit from it.  </dd>
+<dt><a class="anchor" id="_todo000076"></a>Member <a class="el" href="classTextObjectEditorHelper.html#a0db9ee70678add5aee263f80f8c84ace">TextObjectEditorHelper::not_null</a>  </dt>
+<dd>Use the Guideline Support Library  </dd>
+<dt><a class="anchor" id="_todo000082"></a>Member <a class="el" href="classUndoManager.html#a7f93da2bb3381cea5ac8481d751fc22a">UndoManager::max_undo_steps</a>  </dt>
 <dd>Make this configurable (maybe by used memory instead of step count)  </dd>
 <dt><a class="anchor" id="_todo000024"></a>Member <a class="el" href="classVirtualPath.html#a0f3962eef0bfe24bda1443524166b4de">VirtualPath::calculateIncomingTangent</a>  (size_type i, bool &amp;ok) const </dt>
 <dd>Implement unsigned  </dd>

@@ -13,6 +13,7 @@ var searchData=
   ['replaceobjectsundosteptype',['ReplaceObjectsUndoStepType',['../classUndoStep.html#a18600ea1e7741e158962ed6923c7bd66a11984621d9bd567e3224ebb5e7f3cb51',1,'UndoStep']]],
   ['requirespotcolor',['RequireSpotColor',['../classRenderConfig.html#a27c5d055cb58879e93027eaed5844ec7af72ec018dd0f32e4e83a6646e2394492',1,'RenderConfig']]],
   ['reserved',['Reserved',['../classMapColor.html#a2a9ed854357f963c28554fb3ab8f48f3a6f654c96fac9cd5083cc986f9ad4c2f5',1,'MapColor::Reserved()'],['../classPainterConfig.html#a0e0adcc6aa2eda138946ee6fdbacbfecaecdeddaad58842e99acfa288c90310be',1,'PainterConfig::Reserved()']]],
+  ['resetinputmethod',['ResetInputMethod',['../classTextObjectEditorHelper.html#a390e374d428c2045a2cd125060ca4932afb3eb93f95f61b9c7f51f6e80825fdd4',1,'TextObjectEditorHelper']]],
   ['rgbcolor',['RgbColor',['../classMapColor.html#ac92533ad09b4288f68960bd80653e62caf5c7b6ab6b71f09d8c26931263251d2b',1,'MapColor']]],
   ['rightborder',['RightBorder',['../classPrintTool.html#a73d94b3e59890446779a6028175e2baba4e16f1d0ffc976f65d94f57f6aff966d',1,'PrintTool']]],
   ['rightneighbor',['RightNeighbor',['../classSegmentedButtonLayout.html#a8ba019aece1c70c21a1bd5b1cdf1ed56a8b0afe91e0f18d1d95f8c8a2da67a435',1,'SegmentedButtonLayout']]],

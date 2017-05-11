@@ -1,9 +1,7 @@
 var searchData=
 [
-  ['fileformat',['FileFormat',['../classGdalManager.html#a1a87ceb6be4d242ab44bd21f7db00e6a',1,'GdalManager']]],
-  ['filetype',['FileType',['../classFileFormat.html#a027a5f6d0a2fe08b2e2a63dcb1fcc815',1,'FileFormat::FileType()'],['../namespaceOcd.html#adc33baf6bf2e7e9fae7e5b6672b4cce1',1,'Ocd::FileType()']]],
-  ['flag',['Flag',['../classMapCoord.html#a45b3e0f985966f062b81c3f0fe7c1d39',1,'MapCoord']]],
-  ['flags',['Flags',['../qt-5_82_81_2qfontsubset_8cpp.html#aa705cf7e79a21c2352b00ffe20cd295f',1,'Flags():&#160;qfontsubset.cpp'],['../qt-5_85_81_2qfontsubset_8cpp.html#aa705cf7e79a21c2352b00ffe20cd295f',1,'Flags():&#160;qfontsubset.cpp']]],
-  ['formatfeatureflag',['FormatFeatureFlag',['../classFileFormat.html#aa3318ca21c2f3945489e3cd539102bf0',1,'FileFormat']]],
-  ['framingmode',['FramingMode',['../classTextSymbol.html#ace881588f97792038762ab249df67016',1,'TextSymbol::FramingMode()'],['../namespaceOcd.html#ab13230604271171800589b3f2d45ce43',1,'Ocd::FramingMode()']]]
+  ['deletebezierpointaction',['DeleteBezierPointAction',['../classSettings.html#af9ff99993ef351b9ab23f0e8b2060c30',1,'Settings']]],
+  ['direction',['Direction',['../classActionGridBar.html#a389ce026e2144dce8e18c231dd4fe69a',1,'ActionGridBar']]],
+  ['displaymode',['DisplayMode',['../classMapGrid.html#a9fe6cc348fe444df75c1140d1878c62b',1,'MapGrid']]],
+  ['doublelineflag',['DoubleLineFlag',['../structOcd_1_1LineSymbolCommonV8.html#a42bf3323515995ad4d0e4c2de7ab2be2',1,'Ocd::LineSymbolCommonV8']]]
 ];

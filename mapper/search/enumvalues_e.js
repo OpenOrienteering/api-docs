@@ -10,6 +10,5 @@ var searchData=
   ['pointpattern',['PointPattern',['../structAreaSymbol_1_1FillPattern.html#ac41affee827dab17aa19a924d76b9c57a40497a4f8a57bfb21ddd88be3438ce18',1,'AreaSymbol::FillPattern']]],
   ['portrait',['Portrait',['../classMapPrinterPageFormat.html#ad1e1623017f3f4929fbe483deada1832a0b26e130798285a12cc96c76ba4dd345',1,'MapPrinterPageFormat']]],
   ['print_5ftask',['PRINT_TASK',['../classPrintWidget.html#afa0c2a3ebede4ae45757e9a5f9189148aa551e6a62dadaa1942a73f11cf02e5c7',1,'PrintWidget']]],
-  ['proj_5fdata',['PROJ_DATA',['../namespaceMapperResource.html#a5b7343a122f471c31387fa218f4fb8d9a5c1dd9f11466c47a9e6dbc66f8724ad6',1,'MapperResource']]],
   ['projected_5fcoords',['PROJECTED_COORDS',['../classMapWidget.html#a158226eb705ef66b6817974c0f3f8718a0b42993e63323107e3a70e2d58fe91ad',1,'MapWidget']]]
 ];

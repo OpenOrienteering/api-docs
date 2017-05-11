@@ -4,6 +4,7 @@ var searchData=
   ['objectdeleted',['ObjectDeleted',['../namespaceOcd.html#a61d68872e8092f87bef03e00fc797e07a303ccee821341013186c1a8fcb96a17a',1,'Ocd']]],
   ['objectdeletedforundo',['ObjectDeletedForUndo',['../namespaceOcd.html#a61d68872e8092f87bef03e00fc797e07a92d7b78f6c0edf876937c0fd945f6d0c',1,'Ocd']]],
   ['objecthidden',['ObjectHidden',['../namespaceOcd.html#a61d68872e8092f87bef03e00fc797e07aec537192d40a028f1a3f0a100fde4fb2',1,'Ocd']]],
+  ['objectimport',['ObjectImport',['../classMap.html#a1c41a34ff35cb199b343edb0702e24c4a279a32432df57a1ba3d3a4ab602cef7e',1,'Map']]],
   ['objectnormal',['ObjectNormal',['../namespaceOcd.html#a61d68872e8092f87bef03e00fc797e07a5526faf7b5aa85f0551bdc7887690aca',1,'Ocd']]],
   ['objectpaths',['ObjectPaths',['../classSnappingToolHelper.html#a5d6b1bf297e911a9e0eb2669b196f5e1a9ad07ce2ab897ca536d1eda0233921cb',1,'SnappingToolHelper']]],
   ['objecttagsundosteptype',['ObjectTagsUndoStepType',['../classUndoStep.html#a18600ea1e7741e158962ed6923c7bd66a0a6366ddbfd33539e4ea31e797875cae',1,'UndoStep']]],

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['xflags',['XFlags',['../structOcd_1_1OcdPoint32.html#aa2b12311253ff22dd5e2999a5def20c3',1,'Ocd::OcdPoint32']]]
+  ['verticalalignment',['VerticalAlignment',['../classTextObject.html#a77fc5f093f737f58b12005088f1a8bd4',1,'TextObject']]],
+  ['visibilityfeature',['VisibilityFeature',['../classMapView.html#a042cb075e1917bd3b5ece328152e032b',1,'MapView']]]
 ];

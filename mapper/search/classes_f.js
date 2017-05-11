@@ -37,7 +37,6 @@ var searchData=
   ['pointsymbolv11',['PointSymbolV11',['../structOcd_1_1PointSymbolV11.html',1,'Ocd']]],
   ['pointsymbolv8',['PointSymbolV8',['../structOcd_1_1PointSymbolV8.html',1,'Ocd']]],
   ['pointsymbolv9',['PointSymbolV9',['../structOcd_1_1PointSymbolV9.html',1,'Ocd']]],
-  ['printerpropertiesdialog',['PrinterPropertiesDialog',['../classPrinterPropertiesDialog.html',1,'']]],
   ['printprogressdialog',['PrintProgressDialog',['../classPrintProgressDialog.html',1,'']]],
   ['printsetupv8',['PrintSetupV8',['../structOcd_1_1PrintSetupV8.html',1,'Ocd']]],
   ['printtool',['PrintTool',['../classPrintTool.html',1,'']]],

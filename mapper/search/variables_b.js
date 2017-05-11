@@ -32,7 +32,7 @@ var searchData=
   ['line_5fx',['line_x',['../structTextObjectLineInfo.html#af71c803c1887f2730aef24b2385ad2ec',1,'TextObjectLineInfo']]],
   ['line_5fy',['line_y',['../structTextObjectLineInfo.html#a7dc172e20fdc058e06f3e7c190f2fff1',1,'TextObjectLineInfo']]],
   ['linegap',['lineGap',['../structqttf__hhea__table.html#a60761c0c0ef38ae818afd8efdb685691',1,'qttf_hhea_table']]],
-  ['loaded',['loaded',['../structTemplateImage_1_1WorldFile.html#a880afe2a474455830301947d222e6c6f',1,'TemplateImage::WorldFile']]],
+  ['loaded',['loaded',['../structWorldFile.html#af58110ee658a4dd3e083ebcb90d45c93',1,'WorldFile']]],
   ['loadhints',['LoadHints',['http://doc.qt.io/qt-5/qlibrary.html#LoadHint-enum',1,'QLibrary']]],
   ['locale',['locale',['../classOcdFileImport.html#a3834f9cb2c3c97237bf4a240ac300563',1,'OcdFileImport']]],
   ['locateoptions',['LocateOptions',['http://doc.qt.io/qt-5/qstandardpaths.html#LocateOption-enum',1,'QStandardPaths']]],

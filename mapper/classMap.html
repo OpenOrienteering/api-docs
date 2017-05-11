@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.6.7</span>
+   &#160;<span id="projectnumber">0.7.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -124,20 +124,27 @@ Collaboration diagram for Map:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a283edaa8acc41b3ffe990ef99a9f6037"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a283edaa8acc41b3ffe990ef99a9f6037">ImportMode</a> { <a class="el" href="classMap.html#a283edaa8acc41b3ffe990ef99a9f6037a64291ee77114e0e6972857dd05562610">MinimalObjectImport</a> = 0, 
-<a class="el" href="classMap.html#a283edaa8acc41b3ffe990ef99a9f6037a3888f67bb3b9d7b3a931bae4dbc9f21b">MinimalSymbolImport</a>, 
-<a class="el" href="classMap.html#a283edaa8acc41b3ffe990ef99a9f6037ac722672760bf31440acbec772e3777c5">ColorImport</a>, 
-<a class="el" href="classMap.html#a283edaa8acc41b3ffe990ef99a9f6037a380ffff3bbda3653e48d6f66f345c56f">CompleteImport</a>
- }<tr class="memdesc:a283edaa8acc41b3ffe990ef99a9f6037"><td class="mdescLeft">&#160;</td><td class="mdescRight">Different strategies for importing things from another map into this map.  <a href="classMap.html#a283edaa8acc41b3ffe990ef99a9f6037">More...</a><br /></td></tr>
+<tr class="memitem:a1c41a34ff35cb199b343edb0702e24c4"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a1c41a34ff35cb199b343edb0702e24c4">ImportModeFlag</a> { <br />
+&#160;&#160;<a class="el" href="classMap.html#a1c41a34ff35cb199b343edb0702e24c4a279a32432df57a1ba3d3a4ab602cef7e">ObjectImport</a> = 0x00, 
+<a class="el" href="classMap.html#a1c41a34ff35cb199b343edb0702e24c4ab76cc7e11d67b67bdf0977ede2155e71">SymbolImport</a> = 0x01, 
+<a class="el" href="classMap.html#a1c41a34ff35cb199b343edb0702e24c4ac722672760bf31440acbec772e3777c5">ColorImport</a> = 0x02, 
+<a class="el" href="classMap.html#a1c41a34ff35cb199b343edb0702e24c4a60a63a97028d29380448e572f5d0ae75">GeorefImport</a> = 0x10, 
+<br />
+&#160;&#160;<a class="el" href="classMap.html#a1c41a34ff35cb199b343edb0702e24c4a0909b7f71cbab071e11c8baa599d7ad8">MinimalImport</a> = 0x20, 
+<a class="el" href="classMap.html#a1c41a34ff35cb199b343edb0702e24c4a3888f67bb3b9d7b3a931bae4dbc9f21b">MinimalSymbolImport</a> = SymbolImport | MinimalImport, 
+<a class="el" href="classMap.html#a1c41a34ff35cb199b343edb0702e24c4a64291ee77114e0e6972857dd05562610">MinimalObjectImport</a> = ObjectImport | MinimalImport, 
+<a class="el" href="classMap.html#a1c41a34ff35cb199b343edb0702e24c4a380ffff3bbda3653e48d6f66f345c56f">CompleteImport</a> = ObjectImport | GeorefImport
+<br />
+ }<tr class="memdesc:a1c41a34ff35cb199b343edb0702e24c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Different strategies for importing elements from another map.  <a href="classMap.html#a1c41a34ff35cb199b343edb0702e24c4">More...</a><br /></td></tr>
 </td></tr>
-<tr class="separator:a283edaa8acc41b3ffe990ef99a9f6037"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a1c41a34ff35cb199b343edb0702e24c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29734bb88ef665cc099338fbb6e6fca9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a29734bb88ef665cc099338fbb6e6fca9">SelectionVisibility</a> { <a class="el" href="classMap.html#a29734bb88ef665cc099338fbb6e6fca9a7352b94a3e478ae506a700fe67acc70c">FullVisibility</a>, 
 <a class="el" href="classMap.html#a29734bb88ef665cc099338fbb6e6fca9aeff203440e1a7ceb8eaca82e2f19f798">PartialVisibility</a>, 
 <a class="el" href="classMap.html#a29734bb88ef665cc099338fbb6e6fca9acd03156b3944b78c0b206a574063984d">IgnoreVisibilty</a>
  }<tr class="memdesc:a29734bb88ef665cc099338fbb6e6fca9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Options for zooming to visibility of selection.  <a href="classMap.html#a29734bb88ef665cc099338fbb6e6fca9">More...</a><br /></td></tr>
 </td></tr>
 <tr class="separator:a29734bb88ef665cc099338fbb6e6fca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48593991684d7ab88f5eb8a05c560f06"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="test_2data_2CMakeLists_8txt.html#a9f2fa9db7458cb406494dfe7369c056c">std::set</a>&lt; <a class="el" href="classObject.html">Object</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a48593991684d7ab88f5eb8a05c560f06">ObjectSelection</a></td></tr>
+<tr class="memitem:a48593991684d7ab88f5eb8a05c560f06"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="test_2CMakeLists_8txt.html#a1eec43a0a0fee0daacd23d74054626a3">std::set</a>&lt; <a class="el" href="classObject.html">Object</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a48593991684d7ab88f5eb8a05c560f06">ObjectSelection</a></td></tr>
 <tr class="memdesc:a48593991684d7ab88f5eb8a05c560f06"><td class="mdescLeft">&#160;</td><td class="mdescRight">A set of selected objects represented by a std::set of object pointers.  <a href="#a48593991684d7ab88f5eb8a05c560f06">More...</a><br /></td></tr>
 <tr class="separator:a48593991684d7ab88f5eb8a05c560f06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -230,7 +237,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3c9a67fe28f474b02ccc8771dc9cdca9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a3c9a67fe28f474b02ccc8771dc9cdca9">loadFrom</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;path, <a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html">QWidget</a> *dialog_parent, <a class="el" href="classMapView.html">MapView</a> *view=nullptr, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> load_symbols_only=false, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> show_error_messages=true)</td></tr>
 <tr class="memdesc:a3c9a67fe28f474b02ccc8771dc9cdca9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to load the map from the specified path.  <a href="#a3c9a67fe28f474b02ccc8771dc9cdca9">More...</a><br /></td></tr>
 <tr class="separator:a3c9a67fe28f474b02ccc8771dc9cdca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7f6c6ca7a51d02f8bca937d420a7cd5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#ab7f6c6ca7a51d02f8bca937d420a7cd5">importMap</a> (const <a class="el" href="classMap.html">Map</a> *other, <a class="el" href="classMap.html#a283edaa8acc41b3ffe990ef99a9f6037">ImportMode</a> mode, <a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html">QWidget</a> *dialog_parent=nullptr, std::vector&lt; <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> &gt; *filter=nullptr, int symbol_insert_pos=-1, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> merge_duplicate_symbols=true, <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qhash.html">QHash</a>&lt; const <a class="el" href="classSymbol.html">Symbol</a> *, <a class="el" href="classSymbol.html">Symbol</a> * &gt; *out_symbol_map=nullptr)</td></tr>
+<tr class="memitem:ab7f6c6ca7a51d02f8bca937d420a7cd5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#ab7f6c6ca7a51d02f8bca937d420a7cd5">importMap</a> (const <a class="el" href="classMap.html">Map</a> *other, ImportMode mode, <a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html">QWidget</a> *dialog_parent=nullptr, std::vector&lt; <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> &gt; *filter=nullptr, int symbol_insert_pos=-1, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> merge_duplicate_symbols=true, <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qhash.html">QHash</a>&lt; const <a class="el" href="classSymbol.html">Symbol</a> *, <a class="el" href="classSymbol.html">Symbol</a> * &gt; *out_symbol_map=nullptr)</td></tr>
 <tr class="memdesc:ab7f6c6ca7a51d02f8bca937d420a7cd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Imports the other map into this map with the following strategy:  <a href="#ab7f6c6ca7a51d02f8bca937d420a7cd5">More...</a><br /></td></tr>
 <tr class="separator:ab7f6c6ca7a51d02f8bca937d420a7cd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66f6cd3bbd872fe45ca7369e01038d79"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a66f6cd3bbd872fe45ca7369e01038d79">exportToIODevice</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qiodevice.html">QIODevice</a> *stream)</td></tr>
@@ -465,7 +472,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7adf9518bd87b37221f938000abaaa8b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a7adf9518bd87b37221f938000abaaa8b">setCurrentPartIndex</a> (std::size_t index)</td></tr>
 <tr class="memdesc:a7adf9518bd87b37221f938000abaaa8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the current map part.  <a href="#a7adf9518bd87b37221f938000abaaa8b">More...</a><br /></td></tr>
 <tr class="separator:a7adf9518bd87b37221f938000abaaa8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e3f4f959853d1182e3ae507b7b5ee95"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a0e3f4f959853d1182e3ae507b7b5ee95">reassignObjectsToMapPart</a> (<a class="el" href="test_2data_2CMakeLists_8txt.html#a9f2fa9db7458cb406494dfe7369c056c">std::set</a>&lt; <a class="el" href="classObject.html">Object</a> * &gt;::const_iterator begin, <a class="el" href="test_2data_2CMakeLists_8txt.html#a9f2fa9db7458cb406494dfe7369c056c">std::set</a>&lt; <a class="el" href="classObject.html">Object</a> * &gt;::const_iterator end, std::size_t source, std::size_t destination)</td></tr>
+<tr class="memitem:a0e3f4f959853d1182e3ae507b7b5ee95"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a0e3f4f959853d1182e3ae507b7b5ee95">reassignObjectsToMapPart</a> (<a class="el" href="test_2CMakeLists_8txt.html#a1eec43a0a0fee0daacd23d74054626a3">std::set</a>&lt; <a class="el" href="classObject.html">Object</a> * &gt;::const_iterator begin, <a class="el" href="test_2CMakeLists_8txt.html#a1eec43a0a0fee0daacd23d74054626a3">std::set</a>&lt; <a class="el" href="classObject.html">Object</a> * &gt;::const_iterator end, std::size_t source, std::size_t destination)</td></tr>
 <tr class="memdesc:a0e3f4f959853d1182e3ae507b7b5ee95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves all specified objects from the source to the destination map part.  <a href="#a0e3f4f959853d1182e3ae507b7b5ee95">More...</a><br /></td></tr>
 <tr class="separator:a0e3f4f959853d1182e3ae507b7b5ee95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7750bbbfabdc16570168cf2af4fc743b"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a7750bbbfabdc16570168cf2af4fc743b">reassignObjectsToMapPart</a> (std::vector&lt; int &gt;::const_iterator begin, std::vector&lt; int &gt;::const_iterator end, std::size_t source, std::size_t destination)</td></tr>
@@ -543,7 +550,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7f2e6e76635230361a39f1e5b66b895e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a7f2e6e76635230361a39f1e5b66b895e">markAsIrregular</a> (<a class="el" href="classObject.html">Object</a> *object)</td></tr>
 <tr class="memdesc:a7f2e6e76635230361a39f1e5b66b895e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks an object as irregular.  <a href="#a7f2e6e76635230361a39f1e5b66b895e">More...</a><br /></td></tr>
 <tr class="separator:a7f2e6e76635230361a39f1e5b66b895e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71a5cf015eacdaf4feb5bdad3e662974"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="test_2data_2CMakeLists_8txt.html#a9f2fa9db7458cb406494dfe7369c056c">std::set</a>&lt; <a class="el" href="classObject.html">Object</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a71a5cf015eacdaf4feb5bdad3e662974">irregularObjects</a> () const </td></tr>
+<tr class="memitem:a71a5cf015eacdaf4feb5bdad3e662974"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="test_2CMakeLists_8txt.html#a1eec43a0a0fee0daacd23d74054626a3">std::set</a>&lt; <a class="el" href="classObject.html">Object</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a71a5cf015eacdaf4feb5bdad3e662974">irregularObjects</a> () const </td></tr>
 <tr class="memdesc:a71a5cf015eacdaf4feb5bdad3e662974"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the list of objects marked as irregular.  <a href="#a71a5cf015eacdaf4feb5bdad3e662974">More...</a><br /></td></tr>
 <tr class="separator:a71a5cf015eacdaf4feb5bdad3e662974"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a40abaa99db88d6f8d67f46dbfed990"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a5a40abaa99db88d6f8d67f46dbfed990">deleteIrregularObjects</a> ()</td></tr>
@@ -881,7 +888,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="test_2data_2CMakeLists_8txt.html#a9f2fa9db7458cb406494dfe7369c056c">std::set</a>&lt;<a class="el" href="classObject.html">Object</a>*&gt; <a class="el" href="classMap.html#a48593991684d7ab88f5eb8a05c560f06">Map::ObjectSelection</a></td>
+          <td class="memname">typedef <a class="el" href="test_2CMakeLists_8txt.html#a1eec43a0a0fee0daacd23d74054626a3">std::set</a>&lt;<a class="el" href="classObject.html">Object</a>*&gt; <a class="el" href="classMap.html#a48593991684d7ab88f5eb8a05c560f06">Map::ObjectSelection</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -891,30 +898,38 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
-<a class="anchor" id="a283edaa8acc41b3ffe990ef99a9f6037"></a>
+<a class="anchor" id="a1c41a34ff35cb199b343edb0702e24c4"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="classMap.html#a283edaa8acc41b3ffe990ef99a9f6037">Map::ImportMode</a></td>
+          <td class="memname">enum <a class="el" href="classMap.html#a1c41a34ff35cb199b343edb0702e24c4">Map::ImportModeFlag</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Different strategies for importing things from another map into this map. </p>
+<p>Different strategies for importing elements from another map. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a283edaa8acc41b3ffe990ef99a9f6037a64291ee77114e0e6972857dd05562610"></a>MinimalObjectImport&#160;</td><td class="fielddoc">
-<p>Imports all objects with minimal symbol and color dependencies. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a1c41a34ff35cb199b343edb0702e24c4a279a32432df57a1ba3d3a4ab602cef7e"></a>ObjectImport&#160;</td><td class="fielddoc">
+<p>Import objects, symbols and colors. </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a283edaa8acc41b3ffe990ef99a9f6037a3888f67bb3b9d7b3a931bae4dbc9f21b"></a>MinimalSymbolImport&#160;</td><td class="fielddoc">
-<p>Imports symbols (all, or filtered by the given filter) with minimal color dependencies. </p>
-<p>If a filter is given, symbols blocked by the filter but which are needed by included symbols are included, too. </p>
+<tr><td class="fieldname"><a class="anchor" id="a1c41a34ff35cb199b343edb0702e24c4ab76cc7e11d67b67bdf0977ede2155e71"></a>SymbolImport&#160;</td><td class="fielddoc">
+<p>Import symbols and colors. </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a283edaa8acc41b3ffe990ef99a9f6037ac722672760bf31440acbec772e3777c5"></a>ColorImport&#160;</td><td class="fielddoc">
-<p>Imports objects (all, or filtered by the given filter). </p>
+<tr><td class="fieldname"><a class="anchor" id="a1c41a34ff35cb199b343edb0702e24c4ac722672760bf31440acbec772e3777c5"></a>ColorImport&#160;</td><td class="fielddoc">
+<p>Import colors. </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a283edaa8acc41b3ffe990ef99a9f6037a380ffff3bbda3653e48d6f66f345c56f"></a>CompleteImport&#160;</td><td class="fielddoc">
-<p>Imports all colors, symbols and objects. </p>
+<tr><td class="fieldname"><a class="anchor" id="a1c41a34ff35cb199b343edb0702e24c4a60a63a97028d29380448e572f5d0ae75"></a>GeorefImport&#160;</td><td class="fielddoc">
+<p>Use the georeferencing for object import. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a1c41a34ff35cb199b343edb0702e24c4a0909b7f71cbab071e11c8baa599d7ad8"></a>MinimalImport&#160;</td><td class="fielddoc">
+<p>Imports with minimal symbol and color dependencies. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a1c41a34ff35cb199b343edb0702e24c4a3888f67bb3b9d7b3a931bae4dbc9f21b"></a>MinimalSymbolImport&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a1c41a34ff35cb199b343edb0702e24c4a64291ee77114e0e6972857dd05562610"></a>MinimalObjectImport&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a1c41a34ff35cb199b343edb0702e24c4a380ffff3bbda3653e48d6f66f345c56f"></a>CompleteImport&#160;</td><td class="fielddoc">
 </td></tr>
 </table>
 
@@ -3832,7 +3847,7 @@ template&lt;typename Condition &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classMap.html#a283edaa8acc41b3ffe990ef99a9f6037">ImportMode</a>&#160;</td>
+          <td class="paramtype">ImportMode&#160;</td>
           <td class="paramname"><em>mode</em>, </td>
         </tr>
         <tr>
@@ -3882,7 +3897,7 @@ template&lt;typename Condition &gt; </div>
 <p>WARNING: this method potentially changes the 'other' map if the scales differ (by rescaling to fit this map's scale)! </p>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000002">Todo:</a></b></dt><dd>No need to clone iff the other map is discarded after import. </dd></dl>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000003">Todo:</a></b></dt><dd>Test and review import of georeferenced and non-georeferenced maps, in all combinations. </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000004">Todo:</a></b></dt><dd>Handle rotation of patterns and text, cf. QObject::transform. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000004">Todo:</a></b></dt><dd>Handle rotation of patterns and text, cf. <a class="el" href="classObject.html#a94695248015cc5ea02b88575f752cf66" title="Apply a transformation to all coordinates. ">Object::transform</a>. </dd></dl>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000005">Todo:</a></b></dt><dd>proper error message </dd></dl>
 
 </div>
@@ -3946,7 +3961,7 @@ template&lt;typename Condition &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="test_2data_2CMakeLists_8txt.html#a9f2fa9db7458cb406494dfe7369c056c">std::set</a>&lt; <a class="el" href="classObject.html">Object</a> * &gt; Map::irregularObjects </td>
+          <td class="memname">const <a class="el" href="test_2CMakeLists_8txt.html#a1eec43a0a0fee0daacd23d74054626a3">std::set</a>&lt; <a class="el" href="classObject.html">Object</a> * &gt; Map::irregularObjects </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -4384,13 +4399,13 @@ template&lt;typename Condition &gt; </div>
         <tr>
           <td class="memname">std::size_t Map::reassignObjectsToMapPart </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="test_2data_2CMakeLists_8txt.html#a9f2fa9db7458cb406494dfe7369c056c">std::set</a>&lt; <a class="el" href="classObject.html">Object</a> * &gt;::const_iterator&#160;</td>
+          <td class="paramtype"><a class="el" href="test_2CMakeLists_8txt.html#a1eec43a0a0fee0daacd23d74054626a3">std::set</a>&lt; <a class="el" href="classObject.html">Object</a> * &gt;::const_iterator&#160;</td>
           <td class="paramname"><em>begin</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="test_2data_2CMakeLists_8txt.html#a9f2fa9db7458cb406494dfe7369c056c">std::set</a>&lt; <a class="el" href="classObject.html">Object</a> * &gt;::const_iterator&#160;</td>
+          <td class="paramtype"><a class="el" href="test_2CMakeLists_8txt.html#a1eec43a0a0fee0daacd23d74054626a3">std::set</a>&lt; <a class="el" href="classObject.html">Object</a> * &gt;::const_iterator&#160;</td>
           <td class="paramname"><em>end</em>, </td>
         </tr>
         <tr>
@@ -6274,8 +6289,8 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/core/<a class="el" href="map_8h.html">map.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/5351f68/src/core/map.h"><tt>5351f68</tt></a> on 8 Jan 2017)</li>
-<li>src/core/<a class="el" href="map_8cpp.html">map.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/9ee00e4/src/core/map.cpp"><tt>9ee00e4</tt></a> on 8 Jan 2017)</li>
+<li>src/core/<a class="el" href="map_8h.html">map.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/56a6bd2/src/core/map.h"><tt>56a6bd2</tt></a> on 30 Jan 2017)</li>
+<li>src/core/<a class="el" href="map_8cpp.html">map.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/5b7fa6a/src/core/map.cpp"><tt>5b7fa6a</tt></a> on 30 Jan 2017)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

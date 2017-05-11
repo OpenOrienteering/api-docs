@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.6.7</span>
+   &#160;<span id="projectnumber">0.7.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -90,12 +90,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">template.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/9ee00e4/src/templates/template.h"><tt>9ee00e4</tt></a> on 8 Jan 2017)</h3><div class="textblock"><code>#include &lt;memory&gt;</code><br />
+<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/523acb5/src/templates/template.h"><tt>523acb5</tt></a> on 27 Jan 2017)</h3><div class="textblock"><code>#include &lt;memory&gt;</code><br />
 <code>#include &quot;<a class="el" href="matrix_8h.html">util/matrix.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="transformation_8h.html">util/transformation.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
@@ -142,8 +143,9 @@ This graph shows which files directly or indirectly include this file:</div>
 <area shape="rect" id="node35" href="transformation_8cpp.html" title="src/util/transformation.cpp" alt="" coords="3627,87,3800,114"/>
 <area shape="rect" id="node36" href="file__format__t_8cpp.html" title="test/file_format_t.cpp" alt="" coords="3825,87,3970,114"/>
 <area shape="rect" id="node37" href="symbol__set__t_8cpp.html" title="test/symbol_set_t.cpp" alt="" coords="3994,87,4145,114"/>
-<area shape="rect" id="node38" href="tools__t_8cpp.html" title="test/tools_t.cpp" alt="" coords="4169,87,4281,114"/>
-<area shape="rect" id="node39" href="transform__t_8cpp.html" title="test/transform_t.cpp" alt="" coords="4305,87,4444,114"/>
+<area shape="rect" id="node38" href="template__t_8cpp.html" title="test/template_t.cpp" alt="" coords="4169,87,4303,114"/>
+<area shape="rect" id="node39" href="tools__t_8cpp.html" title="test/tools_t.cpp" alt="" coords="4328,87,4440,114"/>
+<area shape="rect" id="node40" href="transform__t_8cpp.html" title="test/transform_t.cpp" alt="" coords="4464,87,4603,114"/>
 <area shape="rect" id="node13" href="template__image_8cpp.html" title="src/templates/template\l_image.cpp" alt="" coords="1065,169,1220,211"/>
 <area shape="rect" id="node15" href="ogr__template_8h.html" title="src/gdal/ogr_template.h" alt="" coords="1618,177,1777,203"/>
 <area shape="rect" id="node18" href="template__map_8cpp.html" title="src/templates/template\l_map.cpp" alt="" coords="1801,169,1956,211"/>
@@ -156,13 +158,89 @@ This graph shows which files directly or indirectly include this file:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplateTransform.html">TemplateTransform</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transformation parameters for non-georeferenced templates.  <a href="classTemplateTransform.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structTemplateTransform.html">TemplateTransform</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transformation parameters for non-georeferenced templates.  <a href="structTemplateTransform.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html">Template</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract base class for templates.  <a href="classTemplate.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ae79b7d834d1621f36e4fa3e170b0170b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="template_8h.html#ae79b7d834d1621f36e4fa3e170b0170b">operator==</a> (const <a class="el" href="structTemplateTransform.html">TemplateTransform</a> &amp;lhs, const <a class="el" href="structTemplateTransform.html">TemplateTransform</a> &amp;rhs) noexcept</td></tr>
+<tr class="separator:ae79b7d834d1621f36e4fa3e170b0170b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a547e576ef8c8d35c85c28a90fd8b1711"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="template_8h.html#a547e576ef8c8d35c85c28a90fd8b1711">operator!=</a> (const <a class="el" href="structTemplateTransform.html">TemplateTransform</a> &amp;lhs, const <a class="el" href="structTemplateTransform.html">TemplateTransform</a> &amp;rhs) noexcept</td></tr>
+<tr class="separator:a547e576ef8c8d35c85c28a90fd8b1711"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a547e576ef8c8d35c85c28a90fd8b1711"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> operator!= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structTemplateTransform.html">TemplateTransform</a> &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structTemplateTransform.html">TemplateTransform</a> &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae79b7d834d1621f36e4fa3e170b0170b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structTemplateTransform.html">TemplateTransform</a> &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structTemplateTransform.html">TemplateTransform</a> &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

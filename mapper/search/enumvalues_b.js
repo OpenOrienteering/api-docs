@@ -1,7 +1,6 @@
 var searchData=
 [
   ['magneticnorth',['MagneticNorth',['../classMapGrid.html#ab71b075d95a66dcb36020826a97c3911a5e758193558d19dd69bee46f7bdccb4c',1,'MapGrid']]],
-  ['manual',['MANUAL',['../namespaceMapperResource.html#a5b7343a122f471c31387fa218f4fb8d9a79fec720619d6367388a1266526c1ce1',1,'MapperResource']]],
   ['map',['Map',['../namespaceOcd.html#adc33baf6bf2e7e9fae7e5b6672b4cce1a29f41350fcad8dcff42d0f8ebb4b288c',1,'Ocd']]],
   ['map_5fcoords',['MAP_COORDS',['../classMapWidget.html#a158226eb705ef66b6817974c0f3f8718a4b4c41f72c3faee7302b56a0dda4d0f1',1,'MapWidget']]],
   ['mapdisplay_5fantialiasing',['MapDisplay_Antialiasing',['../classSettings.html#adc10a2a81016a34f8220eff0657d7f3aa6bd8330dfe4361348b4efd832544d033',1,'Settings']]],
@@ -19,8 +18,9 @@ var searchData=
   ['mergeholes',['MergeHoles',['../classBooleanTool.html#a34e3df14f673a50f265ff8108ebc72f0a095f567f9816f9d2ebc29ec304564953',1,'BooleanTool']]],
   ['metersinterrain',['MetersInTerrain',['../classMapGrid.html#afd7ae74a8d3dd3328cc25c081269a26ca471d0c608bd70d4d271438ccc195af0d',1,'MapGrid']]],
   ['millimetersonmap',['MillimetersOnMap',['../classMapGrid.html#afd7ae74a8d3dd3328cc25c081269a26caf2ab2f38ae0d5a5cfb8bb7dba20057cf',1,'MapGrid']]],
-  ['minimalobjectimport',['MinimalObjectImport',['../classMap.html#a283edaa8acc41b3ffe990ef99a9f6037a64291ee77114e0e6972857dd05562610',1,'Map']]],
-  ['minimalsymbolimport',['MinimalSymbolImport',['../classMap.html#a283edaa8acc41b3ffe990ef99a9f6037a3888f67bb3b9d7b3a931bae4dbc9f21b',1,'Map']]],
+  ['minimalimport',['MinimalImport',['../classMap.html#a1c41a34ff35cb199b343edb0702e24c4a0909b7f71cbab071e11c8baa599d7ad8',1,'Map']]],
+  ['minimalobjectimport',['MinimalObjectImport',['../classMap.html#a1c41a34ff35cb199b343edb0702e24c4a64291ee77114e0e6972857dd05562610',1,'Map']]],
+  ['minimalsymbolimport',['MinimalSymbolImport',['../classMap.html#a1c41a34ff35cb199b343edb0702e24c4a3888f67bb3b9d7b3a931bae4dbc9f21b',1,'Map']]],
   ['miterjoin',['MiterJoin',['../classLineSymbol.html#a1e20de380b4be9928ae6d4706b022e42aa5972f3293e536e581d1d7446b79131e',1,'LineSymbol']]],
   ['miterjoin_5fflatcap',['MiterJoin_FlatCap',['../structOcd_1_1LineSymbolCommonV8.html#a168c058084a037ab57b1992f32cba61fa480223947a8862f1fee03a8870982f41',1,'Ocd::LineSymbolCommonV8']]],
   ['miterjoin_5fpointedcap',['MiterJoin_PointedCap',['../structOcd_1_1LineSymbolCommonV8.html#a168c058084a037ab57b1992f32cba61fae4e99fa88d963522aa0b7598b0c5cdb3',1,'Ocd::LineSymbolCommonV8']]],

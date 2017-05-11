@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.6.7</span>
+   &#160;<span id="projectnumber">0.7.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -291,6 +291,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ae335c2494b4a8c2f9709897c4ada3b81"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classMapCoord.html">MapCoord</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapCoord.html#ae335c2494b4a8c2f9709897c4ada3b81">load</a> (qreal <a class="el" href="classMapCoord.html#a6e5a230dfecedb2a8bc2e3e07fd7d65b">x</a>, qreal <a class="el" href="classMapCoord.html#a420c8a834133aa4cc713e254d9f4af6f">y</a>, int <a class="el" href="classMapCoord.html#afb149e1f1d7af64e9d9671a4e05104ef">flags</a>)</td></tr>
 <tr class="memdesc:ae335c2494b4a8c2f9709897c4ada3b81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classMapCoord.html" title="Coordinates of a point in a map, with optional flags. ">MapCoord</a> from map coordinates in millimeters, with offset handling.  <a href="#ae335c2494b4a8c2f9709897c4ada3b81">More...</a><br /></td></tr>
 <tr class="separator:ae335c2494b4a8c2f9709897c4ada3b81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d683114933892b5f86c5724f93aec7d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classMapCoord.html">MapCoord</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapCoord.html#a9d683114933892b5f86c5724f93aec7d">load</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpointf.html">QPointF</a> p, int <a class="el" href="classMapCoord.html#afb149e1f1d7af64e9d9671a4e05104ef">flags</a>)</td></tr>
+<tr class="memdesc:a9d683114933892b5f86c5724f93aec7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classMapCoord.html" title="Coordinates of a point in a map, with optional flags. ">MapCoord</a> from map coordinates in millimeters, with offset handling.  <a href="#a9d683114933892b5f86c5724f93aec7d">More...</a><br /></td></tr>
+<tr class="separator:a9d683114933892b5f86c5724f93aec7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -1090,6 +1093,43 @@ Friends</h2></td></tr>
           <td></td>
           <td class="paramtype">qreal&#160;</td>
           <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>flags</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a <a class="el" href="classMapCoord.html" title="Coordinates of a point in a map, with optional flags. ">MapCoord</a> from map coordinates in millimeters, with offset handling. </p>
+<p>This will initialize the <a class="el" href="classMapCoord.html#a3ae1e14e024b89a4ad2e6f2f474fbf2a" title="Returns the global bounds offset. ">boundsOffset()</a> if neccessary. Otherwise it will apply the BoundsOffset() and throw a std::range_error if the adjusted coordinates are out of bounds for qint32. </p>
+
+</div>
+</div>
+<a class="anchor" id="a9d683114933892b5f86c5724f93aec7d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMapCoord.html">MapCoord</a> MapCoord::load </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpointf.html">QPointF</a>&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2014,8 +2054,8 @@ Friends</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/core/<a class="el" href="map__coord_8h.html">map_coord.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/1c0ced1/src/core/map_coord.h"><tt>1c0ced1</tt></a> on 17 Jul 2016)</li>
-<li>src/core/<a class="el" href="map__coord_8cpp.html">map_coord.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/5351f68/src/core/map_coord.cpp"><tt>5351f68</tt></a> on 8 Jan 2017)</li>
+<li>src/core/<a class="el" href="map__coord_8h.html">map_coord.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/4528abb/src/core/map_coord.h"><tt>4528abb</tt></a> on 22 Mar 2017)</li>
+<li>src/core/<a class="el" href="map__coord_8cpp.html">map_coord.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/fc2675c/src/core/map_coord.cpp"><tt>fc2675c</tt></a> on 27 Jan 2017)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

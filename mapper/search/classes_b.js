@@ -14,6 +14,5 @@ var searchData=
   ['linetextsymbolv11',['LineTextSymbolV11',['../structOcd_1_1LineTextSymbolV11.html',1,'Ocd']]],
   ['linetextsymbolv8',['LineTextSymbolV8',['../structOcd_1_1LineTextSymbolV8.html',1,'Ocd']]],
   ['linetextsymbolv9',['LineTextSymbolV9',['../structOcd_1_1LineTextSymbolV9.html',1,'Ocd']]],
-  ['localcrspositioningdialog',['LocalCRSPositioningDialog',['../classLocalCRSPositioningDialog.html',1,'']]],
   ['localetest',['LocaleTest',['../classLocaleTest.html',1,'']]]
 ];

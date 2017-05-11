@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.6.7</span>
+   &#160;<span id="projectnumber">0.7.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -114,17 +114,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4110fb71928ae0be791855bb5acaede3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e50c55b172e993a22374fa5e4fac262"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classScopedMultiSignalsBlocker.html">ScopedMultiSignalsBlocker</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScopedMultiSignalsBlocker.html#a5e50c55b172e993a22374fa5e4fac262">operator&lt;&lt;</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html">QObject</a> *object)</td></tr>
 <tr class="separator:a5e50c55b172e993a22374fa5e4fac262"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acbd690acc72456d313f2f9dda0bd67fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScopedMultiSignalsBlocker.html#acbd690acc72456d313f2f9dda0bd67fc">ScopedMultiSignalsBlocker</a> ()=default</td></tr>
-<tr class="separator:acbd690acc72456d313f2f9dda0bd67fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78c4d8bed774a481e0cfa714d653d4a1"><td class="memTemplParams" colspan="2">template&lt;typename... QObjectPointers&gt; </td></tr>
-<tr class="memitem:a78c4d8bed774a481e0cfa714d653d4a1"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classScopedMultiSignalsBlocker.html#a78c4d8bed774a481e0cfa714d653d4a1">ScopedMultiSignalsBlocker</a> (QObjectPointers...objects)</td></tr>
-<tr class="separator:a78c4d8bed774a481e0cfa714d653d4a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac245b27684032f9abbcf6ea4c8af32e3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScopedMultiSignalsBlocker.html#ac245b27684032f9abbcf6ea4c8af32e3">~ScopedMultiSignalsBlocker</a> ()</td></tr>
-<tr class="separator:ac245b27684032f9abbcf6ea4c8af32e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4110fb71928ae0be791855bb5acaede3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScopedMultiSignalsBlocker.html#a4110fb71928ae0be791855bb5acaede3">add</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html">QObject</a> *object)</td></tr>
-<tr class="separator:a4110fb71928ae0be791855bb5acaede3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4feb75552fcd5a972266dcf6028d87d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classScopedMultiSignalsBlocker.html">ScopedMultiSignalsBlocker</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScopedMultiSignalsBlocker.html#a4feb75552fcd5a972266dcf6028d87d5">operator&lt;&lt;</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html">QObject</a> *object)</td></tr>
-<tr class="separator:a4feb75552fcd5a972266dcf6028d87d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A safe and scoped wrapper around <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#blockSignals">QObject::blockSignals()</a> of multiple objects. </p>
@@ -139,62 +128,6 @@ Public Member Functions</h2></td></tr>
     block &lt;&lt; my_widget &lt;&lt; my_other_widget;
     my_widget-&gt;setSomeProperty("Hello World");
 }</pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="acbd690acc72456d313f2f9dda0bd67fc"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ScopedMultiSignalsBlocker::ScopedMultiSignalsBlocker </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a78c4d8bed774a481e0cfa714d653d4a1"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename... QObjectPointers&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">ScopedMultiSignalsBlocker::ScopedMultiSignalsBlocker </td>
-          <td>(</td>
-          <td class="paramtype">QObjectPointers...&#160;</td>
-          <td class="paramname"><em>objects</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ac245b27684032f9abbcf6ea4c8af32e3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">ScopedMultiSignalsBlocker::~ScopedMultiSignalsBlocker </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="acbd690acc72456d313f2f9dda0bd67fc"></a>
 <div class="memitem">
 <div class="memproto">
@@ -268,38 +201,6 @@ template&lt;typename... QObjectPointers&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a4110fb71928ae0be791855bb5acaede3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ScopedMultiSignalsBlocker::add </td>
-          <td>(</td>
-          <td class="paramtype"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html">QObject</a> *&#160;</td>
-          <td class="paramname"><em>object</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a4feb75552fcd5a972266dcf6028d87d5"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classScopedMultiSignalsBlocker.html">ScopedMultiSignalsBlocker</a>&amp; ScopedMultiSignalsBlocker::operator&lt;&lt; </td>
-          <td>(</td>
-          <td class="paramtype"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html">QObject</a> *&#160;</td>
-          <td class="paramname"><em>object</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="a5e50c55b172e993a22374fa5e4fac262"></a>
 <div class="memitem">
 <div class="memproto">
@@ -325,7 +226,6 @@ template&lt;typename... QObjectPointers&gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/backports/<a class="el" href="backports_2backports_8h.html">backports.h</a></li>
 <li>src/util/<a class="el" href="scoped__signals__blocker_8h.html">scoped_signals_blocker.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/03189d7/src/util/scoped_signals_blocker.h"><tt>03189d7</tt></a> on 3 Nov 2015)</li>
 <li>src/util/<a class="el" href="scoped__signals__blocker_8cpp.html">scoped_signals_blocker.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/03189d7/src/util/scoped_signals_blocker.cpp"><tt>03189d7</tt></a> on 3 Nov 2015)</li>
 </ul>

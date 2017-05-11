@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.6.7</span>
+   &#160;<span id="projectnumber">0.7.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -152,7 +152,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="classObject.html#a928db16ad106125a907a29219defe018">Object</a>
 , <a class="el" href="structPassPoint.html#a0558078978bc113a0d5c6fefedf39d20">PassPoint</a>
 , <a class="el" href="classSymbol.html#a7ac2904e2f629babc7e0e40d46b8c36d">Symbol</a>
-, <a class="el" href="classTemplateTransform.html#a35dd2831650d2ca58eb926f1bedd2888">TemplateTransform</a>
+, <a class="el" href="structTemplateTransform.html#a35dd2831650d2ca58eb926f1bedd2888">TemplateTransform</a>
 , <a class="el" href="structTrackPoint.html#a0712cf16cedceb29a13e722ba6535a47">TrackPoint</a>
 , <a class="el" href="classUndoStep.html#a4c267f11c6b773d5a3c4425dc1061e12">UndoStep</a>
 </li>
@@ -188,7 +188,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classTemplate.html#a833a293a1b188a423888f36067739cc3">Template</a>
 </li>
 <li>saveTemplateFile()
-: <a class="el" href="classTemplate.html#a4004fcc2876c269c88236fa9072fa26e">Template</a>
+: <a class="el" href="classTemplate.html#a0828aa76104623341aa4b378a26a0c8e">Template</a>
 , <a class="el" href="classTemplateImage.html#a492b4d3f59382f04a408ac96c6977202">TemplateImage</a>
 , <a class="el" href="classTemplateTrack.html#aaf3c0930da2241e8542a3a6e8006efba">TemplateTrack</a>
 </li>
@@ -299,12 +299,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>Screen
 : <a class="el" href="classRenderConfig.html#a27c5d055cb58879e93027eaed5844ec7a5c8bfa5e8f11c426169266dc55cde159">RenderConfig</a>
-</li>
-<li>SearchDialog()
-: <a class="el" href="classSearchDialog.html#a66bcb6f0a841b8afc2ff24fd9f4b90a9">SearchDialog</a>
-</li>
-<li>searchPath()
-: <a class="el" href="classTranslationUtil.html#a8009e7d77d79aeb62e0064f1ab57a441">TranslationUtil</a>
 </li>
 <li>sec_gap
 : <a class="el" href="structOcd_1_1LineSymbolCommonV8.html#a55925f4b95bd7eb878abaea0f681eb7b">Ocd::LineSymbolCommonV8</a>
@@ -701,6 +695,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>setGeoreferencing()
 : <a class="el" href="classMap.html#a95392898937cb4adc3f2b66b55d3f2d0">Map</a>
+</li>
+<li>setGeoreferencingImportEnabled()
+: <a class="el" href="classOgrFileImport.html#ae3c268311234f3cc35bf038d4276ce1b">OgrFileImport</a>
 </li>
 <li>setGesturesEnabled()
 : <a class="el" href="classMapWidget.html#a1a3a16df496ab2a2b556e6fae5d34cbb">MapWidget</a>
@@ -1383,6 +1380,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>showDialog()
 : <a class="el" href="classReplaceSymbolSetDialog.html#a253192538820f1600b60df753ebcc3cc">ReplaceSymbolSetDialog</a>
 </li>
+<li>showDialogForCRT()
+: <a class="el" href="classReplaceSymbolSetDialog.html#a892fc929b57d15951c4baa26ae62fe9e">ReplaceSymbolSetDialog</a>
+</li>
 <li>showEvent()
 : <a class="el" href="classCompassDisplay.html#af080455641a5fb1267b2b497210dd6cb">CompassDisplay</a>
 , <a class="el" href="classSymbolToolTip.html#abc484fa5de862ebcae93fc54cfc7df04">SymbolToolTip</a>
@@ -1520,7 +1520,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>sizeHint()
 : <a class="el" href="classActionGridBar.html#a540e406bd54f65c403de9e22f96c212e">ActionGridBar</a>
 , <a class="el" href="classCompassDisplay.html#adeb3e15d5c322ca39021c2d16b6c1daa">CompassDisplay</a>
-, <a class="el" href="classMapWidget.html#a9051a6bd0d2159575deaadd2d1b19056">MapWidget</a>
+, <a class="el" href="classMapWidget.html#a0359d1095219a9299200604c6612f903">MapWidget</a>
 , <a class="el" href="classPaintOnTemplatePaletteWidget.html#aa5cc955718edeb44e91d0518f69655f1">PaintOnTemplatePaletteWidget</a>
 , <a class="el" href="classPrintWidget.html#ab83aaf1c614fe92c9bd678abf750d7c0">PrintWidget</a>
 , <a class="el" href="classSymbolRenderWidget.html#a544973c12dc7deada90709b9e3e438fb">SymbolRenderWidget</a>
@@ -1713,7 +1713,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>startEditing()
 : <a class="el" href="classDrawTextTool.html#abb79261a1bd2b6550bcdbc6d261a4e3a">DrawTextTool</a>
-, <a class="el" href="classMapEditorToolBase.html#a88760f884e846efde7618931dc2225f4">MapEditorToolBase</a>
+, <a class="el" href="classMapEditorToolBase.html#aa1a63bb03cee57e9fd7658525691165f">MapEditorToolBase</a>
 </li>
 <li>startEditingSetup()
 : <a class="el" href="classEditPointTool.html#a61d12ccbe858a013626eb6af506bfb60">EditPointTool</a>
@@ -1783,7 +1783,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classCompass.html#a7d9ca39f791a850ab4ce7136c78209c8">Compass</a>
 </li>
 <li>StorageLocation()
-: <a class="el" href="classStorageLocation.html#af717c574caac737eac7d7c851404b67f">StorageLocation</a>
+: <a class="el" href="classStorageLocation.html#a1f3466cbb29795b8471694582fc8b82a">StorageLocation</a>
 </li>
 <li>stream()
 : <a class="el" href="classAdvancedPdf_1_1ByteStream.html#ab7a137f4072001cd4a7747e50a5e7b20">AdvancedPdf::ByteStream</a>
@@ -1845,7 +1845,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classMapperProxyStyle.html#a87c2ccc0c0e844ded6ed359190c32394">MapperProxyStyle</a>
 </li>
 <li>subdivide()
-: <a class="el" href="classPathObject.html#aed62265a41147674930a2d51851e239e">PathObject</a>
+: <a class="el" href="classPathObject.html#a2fa27d82d76614497091a2c3ddaf2fad">PathObject</a>
 </li>
 <li>subfamily
 : <a class="el" href="structqttf__name__table.html#ab7da35deef24fd83f0b18403d16bc132">qttf_name_table</a>
@@ -1997,11 +1997,18 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>symbolIconChanged()
 : <a class="el" href="classMap.html#ab44cb22648e6de6611c55b8e5c605897">Map</a>
 </li>
+<li>SymbolImport
+: <a class="el" href="classMap.html#a1c41a34ff35cb199b343edb0702e24c4ab76cc7e11d67b67bdf0977ede2155e71">Map</a>
+</li>
 <li>SymbolIndex
 : <a class="el" href="classOcdFile.html#a40db4fe538f5c0fb0c8b0cec6d5af861">OcdFile&lt; F &gt;</a>
 </li>
 <li>symbolIndexAt()
 : <a class="el" href="classSymbolRenderWidget.html#ad306d453c5d2917254f0bb0422c3654b">SymbolRenderWidget</a>
+</li>
+<li>SymbolMapping
+: <a class="el" href="classReplaceSymbolSetDialog.html#a0650557eb7934765bcf78d31d1080a43">ReplaceSymbolSetDialog</a>
+, <a class="el" href="structReplaceSymbolSetOperation.html#a1b30db6c6325ff3e02cf02bbd139ff7f">ReplaceSymbolSetOperation</a>
 </li>
 <li>SymbolPropertiesWidget()
 : <a class="el" href="classSymbolPropertiesWidget.html#a2fbef3fde0b3bcfc862a30a4c625fa36">SymbolPropertiesWidget</a>

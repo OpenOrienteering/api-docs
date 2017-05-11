@@ -5,6 +5,7 @@ var searchData=
   ['basesymbolv8',['BaseSymbolV8',['../structOcd_1_1BaseSymbolV8.html',1,'Ocd']]],
   ['basesymbolv9',['BaseSymbolV9',['../structOcd_1_1BaseSymbolV9.html',1,'Ocd']]],
   ['basictextattributesv8',['BasicTextAttributesV8',['../structOcd_1_1BasicTextAttributesV8.html',1,'Ocd']]],
+  ['batchedit',['BatchEdit',['../classTextObjectEditorHelper_1_1BatchEdit.html',1,'TextObjectEditorHelper']]],
   ['binder',['Binder',['http://doc.qt.io/qt-5/qopenglvertexarrayobject-binder.html',1,'QOpenGLVertexArrayObject']]],
   ['booleantool',['BooleanTool',['../classBooleanTool.html',1,'']]],
   ['borderwidgets',['BorderWidgets',['../structLineSymbolSettings_1_1BorderWidgets.html',1,'LineSymbolSettings']]],

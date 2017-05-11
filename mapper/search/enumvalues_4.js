@@ -9,7 +9,6 @@ var searchData=
   ['endhandle',['EndHandle',['../classPointHandles.html#abf73f2afb54fb3b77acb082fa178993eab65ff875baa92d1870254a0dff8a20ff',1,'PointHandles']]],
   ['endoffiletypes',['EndOfFileTypes',['../classFileFormat.html#a027a5f6d0a2fe08b2e2a63dcb1fcc815a958b84dfd6e1fe6dd315a67400e705bf',1,'FileFormat']]],
   ['endofformatfeatures',['EndOfFormatFeatures',['../classFileFormat.html#aa3318ca21c2f3945489e3cd539102bf0a36f3e0385ca31299725a49233294083c',1,'FileFormat']]],
-  ['example',['EXAMPLE',['../namespaceMapperResource.html#a5b7343a122f471c31387fa218f4fb8d9a55e8fcc7207963c1982945eaeec80059',1,'MapperResource']]],
   ['export_5fflag',['EXPORT_FLAG',['../classPrintWidget.html#afa0c2a3ebede4ae45757e9a5f9189148a896da9d1df911a035698add8a3cc586a',1,'PrintWidget']]],
   ['export_5fimage_5ftask',['EXPORT_IMAGE_TASK',['../classPrintWidget.html#afa0c2a3ebede4ae45757e9a5f9189148a520666f25d7c665c6cf52cb4742f3c37',1,'PrintWidget']]],
   ['export_5fpdf_5ftask',['EXPORT_PDF_TASK',['../classPrintWidget.html#afa0c2a3ebede4ae45757e9a5f9189148a98a51542724b21ec8a0576cdddd1ef30',1,'PrintWidget']]],

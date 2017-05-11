@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.6.7</span>
+   &#160;<span id="projectnumber">0.7.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -88,6 +88,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classPassPointList-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -116,26 +117,53 @@ Collaboration diagram for PassPointList:</div>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:ace4ea03be91efc9bb5f8799c0d6c83a6"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ace4ea03be91efc9bb5f8799c0d6c83a6"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPassPointList.html#ace4ea03be91efc9bb5f8799c0d6c83a6">not_null</a> = T</td></tr>
+<tr class="memdesc:ace4ea03be91efc9bb5f8799c0d6c83a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates arguments which must not be nullptr.  <a href="#ace4ea03be91efc9bb5f8799c0d6c83a6">More...</a><br /></td></tr>
+<tr class="separator:ace4ea03be91efc9bb5f8799c0d6c83a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aba4165b9b8efa4f4133136d503f9f3ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPassPointList.html#aba4165b9b8efa4f4133136d503f9f3ae">estimateSimilarityTransformation</a> (<a class="el" href="classTemplateTransform.html">TemplateTransform</a> *transform)</td></tr>
-<tr class="memdesc:aba4165b9b8efa4f4133136d503f9f3ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estimates a similarity transformation based on the contained pass points and applies it to the transformation passed in.  <a href="#aba4165b9b8efa4f4133136d503f9f3ae">More...</a><br /></td></tr>
-<tr class="separator:aba4165b9b8efa4f4133136d503f9f3ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4001244b5cbddbfb22e94f39351939ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPassPointList.html#a4001244b5cbddbfb22e94f39351939ae">estimateNonIsometricSimilarityTransform</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qtransform.html">QTransform</a> *out)</td></tr>
-<tr class="memdesc:a4001244b5cbddbfb22e94f39351939ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estimates an affine transformation without shearing.  <a href="#a4001244b5cbddbfb22e94f39351939ae">More...</a><br /></td></tr>
-<tr class="separator:a4001244b5cbddbfb22e94f39351939ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73f40894b6d5651a0d4dc92739d3c929"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPassPointList.html#a73f40894b6d5651a0d4dc92739d3c929">estimateSimilarityTransformation</a> (<a class="el" href="classPassPointList.html#ace4ea03be91efc9bb5f8799c0d6c83a6">not_null</a>&lt; <a class="el" href="structTemplateTransform.html">TemplateTransform</a> * &gt; transform)</td></tr>
+<tr class="memdesc:a73f40894b6d5651a0d4dc92739d3c929"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estimates a similarity transformation based on the contained pass points and applies it to the transformation passed in.  <a href="#a73f40894b6d5651a0d4dc92739d3c929">More...</a><br /></td></tr>
+<tr class="separator:a73f40894b6d5651a0d4dc92739d3c929"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabe26000434a94ed3edd06a4c0c0865a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPassPointList.html#aabe26000434a94ed3edd06a4c0c0865a">estimateSimilarityTransformation</a> (<a class="el" href="classPassPointList.html#ace4ea03be91efc9bb5f8799c0d6c83a6">not_null</a>&lt; <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qtransform.html">QTransform</a> * &gt; out)</td></tr>
+<tr class="separator:aabe26000434a94ed3edd06a4c0c0865a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af098636f6394b7d36c9b2e7bf3c7abad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPassPointList.html#af098636f6394b7d36c9b2e7bf3c7abad">estimateNonIsometricSimilarityTransform</a> (<a class="el" href="classPassPointList.html#ace4ea03be91efc9bb5f8799c0d6c83a6">not_null</a>&lt; <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qtransform.html">QTransform</a> * &gt; out)</td></tr>
+<tr class="memdesc:af098636f6394b7d36c9b2e7bf3c7abad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estimates an affine transformation without shearing.  <a href="#af098636f6394b7d36c9b2e7bf3c7abad">More...</a><br /></td></tr>
+<tr class="separator:af098636f6394b7d36c9b2e7bf3c7abad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>List of pass points with methods for transformation calculation. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a4001244b5cbddbfb22e94f39351939ae"></a>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a class="anchor" id="ace4ea03be91efc9bb5f8799c0d6c83a6"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classPassPointList.html#ace4ea03be91efc9bb5f8799c0d6c83a6">PassPointList::not_null</a> =  T</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Indicates arguments which must not be nullptr. </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000083">Todo:</a></b></dt><dd>Use the Guideline Support Library </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="af098636f6394b7d36c9b2e7bf3c7abad"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> PassPointList::estimateNonIsometricSimilarityTransform </td>
           <td>(</td>
-          <td class="paramtype"><a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qtransform.html">QTransform</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="classPassPointList.html#ace4ea03be91efc9bb5f8799c0d6c83a6">not_null</a>&lt; <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qtransform.html">QTransform</a> * &gt;&#160;</td>
           <td class="paramname"><em>out</em></td><td>)</td>
           <td></td>
         </tr>
@@ -146,14 +174,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aba4165b9b8efa4f4133136d503f9f3ae"></a>
+<a class="anchor" id="a73f40894b6d5651a0d4dc92739d3c929"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> PassPointList::estimateSimilarityTransformation </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classTemplateTransform.html">TemplateTransform</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="classPassPointList.html#ace4ea03be91efc9bb5f8799c0d6c83a6">not_null</a>&lt; <a class="el" href="structTemplateTransform.html">TemplateTransform</a> * &gt;&#160;</td>
           <td class="paramname"><em>transform</em></td><td>)</td>
           <td></td>
         </tr>
@@ -164,9 +192,25 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="aabe26000434a94ed3edd06a4c0c0865a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> PassPointList::estimateSimilarityTransformation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classPassPointList.html#ace4ea03be91efc9bb5f8799c0d6c83a6">not_null</a>&lt; <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qtransform.html">QTransform</a> * &gt;&#160;</td>
+          <td class="paramname"><em>out</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/util/<a class="el" href="transformation_8h.html">transformation.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/9ee00e4/src/util/transformation.h"><tt>9ee00e4</tt></a> on 8 Jan 2017)</li>
-<li>src/util/<a class="el" href="transformation_8cpp.html">transformation.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/9ee00e4/src/util/transformation.cpp"><tt>9ee00e4</tt></a> on 8 Jan 2017)</li>
+<li>src/util/<a class="el" href="transformation_8h.html">transformation.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/2c40b88/src/util/transformation.h"><tt>2c40b88</tt></a> on 20 Jan 2017)</li>
+<li>src/util/<a class="el" href="transformation_8cpp.html">transformation.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/10e9a58/src/util/transformation.cpp"><tt>10e9a58</tt></a> on 1 Mar 2017)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

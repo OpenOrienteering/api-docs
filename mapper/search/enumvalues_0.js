@@ -17,6 +17,5 @@ var searchData=
   ['alltemplateshidden',['AllTemplatesHidden',['../classMapView.html#a042cb075e1917bd3b5ece328152e032ba48be2daecd57171266aa58e1aec9b286',1,'MapView']]],
   ['alltypes',['AllTypes',['../classSnappingToolHelper.html#a5d6b1bf297e911a9e0eb2669b196f5e1a93b78a71aa6e541741e9e8934167e3b0',1,'SnappingToolHelper']]],
   ['arc',['ARC',['../dxfparser_8h.html#a39f6e5f83740a0914d53219949ecc69ea13b9aed632d3e4c89287d515c88d9e69',1,'dxfparser.h']]],
-  ['area',['Area',['../classSymbol.html#a19c9a49235af753af17553af18c588caa8bda1e7653768ba5f12371e718b2c6a7',1,'Symbol']]],
-  ['assistant',['ASSISTANT',['../namespaceMapperResource.html#a5b7343a122f471c31387fa218f4fb8d9a4caef38690cf98ef3276bfb0e259d3a5',1,'MapperResource']]]
+  ['area',['Area',['../classSymbol.html#a19c9a49235af753af17553af18c588caa8bda1e7653768ba5f12371e718b2c6a7',1,'Symbol']]]
 ];

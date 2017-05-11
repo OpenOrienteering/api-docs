@@ -9,6 +9,7 @@ var searchData=
   ['updateinterval',['updateInterval',['http://doc.qt.io/qt-5/qtimeline.html#updateInterval-prop',1,'QTimeLine']]],
   ['updatesenabled',['updatesEnabled',['http://doc.qt.io/qt-5/qwidget.html#updatesEnabled-prop',1,'QWidget']]],
   ['usedesignmetrics',['useDesignMetrics',['http://doc.qt.io/qt-5/qtextdocument.html#useDesignMetrics-prop',1,'QTextDocument']]],
+  ['usehovereffects',['useHoverEffects',['http://doc.qt.io/qt-5/qstylehints.html#useHoverEffects-prop',1,'QStyleHints']]],
   ['usertlextensions',['useRtlExtensions',['http://doc.qt.io/qt-5/qstylehints.html#useRtlExtensions-prop',1,'QStyleHints']]],
   ['usesscrollbuttons',['usesScrollButtons',['http://doc.qt.io/qt-5/qtabbar.html#usesScrollButtons-prop',1,'QTabBar::usesScrollButtons()'],['http://doc.qt.io/qt-5/qtabwidget.html#usesScrollButtons-prop',1,'QTabWidget::usesScrollButtons()']]]
 ];

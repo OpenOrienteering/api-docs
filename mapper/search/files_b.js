@@ -45,13 +45,11 @@ var searchData=
   ['mapper_5fresource_2ecpp',['mapper_resource.cpp',['../mapper__resource_8cpp.html',1,'']]],
   ['mapper_5fresource_2eh',['mapper_resource.h',['../mapper__resource_8h.html',1,'']]],
   ['mapper_5ft_2ecpp',['mapper_t.cpp',['../mapper__t_8cpp.html',1,'']]],
-  ['mapper_5ftest_2ecpp',['Mapper_test.cpp',['../Mapper__test_8cpp.html',1,'']]],
   ['mapperactivity_2ejava',['MapperActivity.java',['../MapperActivity_8java.html',1,'']]],
   ['matrix_2ecpp',['matrix.cpp',['../matrix_8cpp.html',1,'']]],
   ['matrix_2eh',['matrix.h',['../matrix_8h.html',1,'']]],
   ['measure_5fwidget_2ecpp',['measure_widget.cpp',['../measure__widget_8cpp.html',1,'']]],
   ['measure_5fwidget_2eh',['measure_widget.h',['../measure__widget_8h.html',1,'']]],
-  ['memory_2eh',['memory.h',['../memory_8h.html',1,'']]],
   ['modifier_5fkey_2ecpp',['modifier_key.cpp',['../modifier__key_8cpp.html',1,'']]],
   ['modifier_5fkey_2eh',['modifier_key.h',['../modifier__key_8h.html',1,'']]]
 ];

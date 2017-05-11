@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.6.7</span>
+   &#160;<span id="projectnumber">0.7.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -123,12 +123,13 @@ Collaboration diagram for Template:</div>
 <div class="center"><img src="classTemplate__coll__graph.png" border="0" usemap="#Template_coll__map" alt="Collaboration graph"/></div>
 <map name="Template_coll__map" id="Template_coll__map">
 <area shape="rect" id="node2" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html" title="QObject" alt="" coords="5,95,76,121"/>
-<area shape="rect" id="node8" href="classMap.html" title="Central class for an OpenOrienteering map. " alt="" coords="56,331,103,357"/>
-<area shape="rect" id="node3" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html" title="QString" alt="" coords="127,331,194,357"/>
-<area shape="rect" id="node5" href="classPassPointList.html" title="List of pass points with methods for transformation calculation. " alt="" coords="229,331,332,357"/>
-<area shape="rect" id="node6" title="STL class. " alt="" coords="213,95,381,121"/>
-<area shape="rect" id="node9" href="classTemplateTransform.html" title="Transformation parameters for non&#45;georeferenced templates. " alt="" coords="356,331,491,357"/>
-<area shape="rect" id="node10" href="classMatrix.html" title="Dynamically sized matrix of doubles. " alt="" coords="518,331,577,357"/>
+<area shape="rect" id="node8" href="classMap.html" title="Central class for an OpenOrienteering map. " alt="" coords="55,171,101,197"/>
+<area shape="rect" id="node3" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpointf.html" title="QPointF" alt="" coords="125,171,196,197"/>
+<area shape="rect" id="node4" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html" title="QString" alt="" coords="257,171,323,197"/>
+<area shape="rect" id="node5" href="classPassPointList.html" title="List of pass points with methods for transformation calculation. " alt="" coords="348,171,451,197"/>
+<area shape="rect" id="node6" title="STL class. " alt="" coords="315,95,483,121"/>
+<area shape="rect" id="node9" href="structTemplateTransform.html" title="Transformation parameters for non&#45;georeferenced templates. " alt="" coords="475,171,609,197"/>
+<area shape="rect" id="node10" href="classMatrix.html" title="Dynamically sized matrix of doubles. " alt="" coords="637,171,695,197"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -140,6 +141,10 @@ Public Types</h2></td></tr>
  }<tr class="memdesc:acea65417bfe6debf7fc4d51b07f74bdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">States in the lifetime of a template.  <a href="classTemplate.html#acea65417bfe6debf7fc4d51b07f74bdb">More...</a><br /></td></tr>
 </td></tr>
 <tr class="separator:acea65417bfe6debf7fc4d51b07f74bdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a858574bc4be399d5085e0a85e236bef3"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a858574bc4be399d5085e0a85e236bef3"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classTemplate.html#a858574bc4be399d5085e0a85e236bef3">not_null</a> = T</td></tr>
+<tr class="memdesc:a858574bc4be399d5085e0a85e236bef3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates arguments which must not be nullptr.  <a href="#a858574bc4be399d5085e0a85e236bef3">More...</a><br /></td></tr>
+<tr class="separator:a858574bc4be399d5085e0a85e236bef3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="signals"></a>
 Signals</h2></td></tr>
@@ -149,9 +154,6 @@ Signals</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:abcca098624f00f17bdc611154aa47b2a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#abcca098624f00f17bdc611154aa47b2a">Template</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;path, <a class="el" href="classMap.html">Map</a> *<a class="el" href="classTemplate.html#a2f342fbc57e8f0944b137747e0b6abc9">map</a>)</td></tr>
-<tr class="memdesc:abcca098624f00f17bdc611154aa47b2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">To be called by derived classes with main template file and map pointer.  <a href="#abcca098624f00f17bdc611154aa47b2a">More...</a><br /></td></tr>
-<tr class="separator:abcca098624f00f17bdc611154aa47b2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a25be0aa214cf317463efed91395f09"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a3a25be0aa214cf317463efed91395f09">~Template</a> ()</td></tr>
 <tr class="separator:a3a25be0aa214cf317463efed91395f09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9126bcb97d1875a56d387e5537c2be56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTemplate.html">Template</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a9126bcb97d1875a56d387e5537c2be56">duplicate</a> () const </td></tr>
@@ -167,14 +169,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a0ce707245e8e70d8eb0e6c9609fb61cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the template is raster graphics.  <a href="#a0ce707245e8e70d8eb0e6c9609fb61cd">More...</a><br /></td></tr>
 <tr class="separator:a0ce707245e8e70d8eb0e6c9609fb61cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a833a293a1b188a423888f36067739cc3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a833a293a1b188a423888f36067739cc3">saveTemplateConfiguration</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qxmlstreamwriter.html">QXmlStreamWriter</a> &amp;xml, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> open)</td></tr>
-<tr class="memdesc:a833a293a1b188a423888f36067739cc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves template parameters such as filename, transformation, adjustment, etc.  <a href="#a833a293a1b188a423888f36067739cc3">More...</a><br /></td></tr>
+<tr class="memdesc:a833a293a1b188a423888f36067739cc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves template parameters.  <a href="#a833a293a1b188a423888f36067739cc3">More...</a><br /></td></tr>
 <tr class="separator:a833a293a1b188a423888f36067739cc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54542655b895a965f481afbcbbb0c17a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a54542655b895a965f481afbcbbb0c17a">loadTemplateConfiguration</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qiodevice.html">QIODevice</a> *stream, int version)</td></tr>
-<tr class="memdesc:a54542655b895a965f481afbcbbb0c17a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads template parameters, see <a class="el" href="classTemplate.html#a833a293a1b188a423888f36067739cc3" title="Saves template parameters such as filename, transformation, adjustment, etc. ">saveTemplateConfiguration()</a>, and returns true if successful.  <a href="#a54542655b895a965f481afbcbbb0c17a">More...</a><br /></td></tr>
-<tr class="separator:a54542655b895a965f481afbcbbb0c17a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4004fcc2876c269c88236fa9072fa26e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a4004fcc2876c269c88236fa9072fa26e">saveTemplateFile</a> () const </td></tr>
-<tr class="memdesc:a4004fcc2876c269c88236fa9072fa26e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the template itself, returns true if successful.  <a href="#a4004fcc2876c269c88236fa9072fa26e">More...</a><br /></td></tr>
-<tr class="separator:a4004fcc2876c269c88236fa9072fa26e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cd227c1ad11eb8bf0553bd28f17aa72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a1cd227c1ad11eb8bf0553bd28f17aa72">loadTemplateConfiguration</a> (<a class="el" href="classTemplate.html#a858574bc4be399d5085e0a85e236bef3">not_null</a>&lt; <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qiodevice.html">QIODevice</a> * &gt; stream, int version)</td></tr>
+<tr class="memdesc:a1cd227c1ad11eb8bf0553bd28f17aa72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads template parameters.  <a href="#a1cd227c1ad11eb8bf0553bd28f17aa72">More...</a><br /></td></tr>
+<tr class="separator:a1cd227c1ad11eb8bf0553bd28f17aa72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0828aa76104623341aa4b378a26a0c8e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a0828aa76104623341aa4b378a26a0c8e">saveTemplateFile</a> () const </td></tr>
+<tr class="memdesc:a0828aa76104623341aa4b378a26a0c8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the template itself, returns true if successful.  <a href="#a0828aa76104623341aa4b378a26a0c8e">More...</a><br /></td></tr>
+<tr class="separator:a0828aa76104623341aa4b378a26a0c8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c4646a7b58b9d27bb0263c10585ef62"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a1c4646a7b58b9d27bb0263c10585ef62">switchTemplateFile</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;new_path, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> load_file)</td></tr>
 <tr class="memdesc:a1c4646a7b58b9d27bb0263c10585ef62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes a template's file without changing the parameters.  <a href="#a1c4646a7b58b9d27bb0263c10585ef62">More...</a><br /></td></tr>
 <tr class="separator:a1c4646a7b58b9d27bb0263c10585ef62"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -182,41 +184,41 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a77978a30fda2e4bef445d2a06c684a94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows the dialog to find a moved template.  <a href="#a77978a30fda2e4bef445d2a06c684a94">More...</a><br /></td></tr>
 <tr class="separator:a77978a30fda2e4bef445d2a06c684a94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9503f8ca856ce3b8c97931c234969c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#aa9503f8ca856ce3b8c97931c234969c2">configureAndLoad</a> (<a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html">QWidget</a> *dialog_parent, <a class="el" href="classMapView.html">MapView</a> *view)</td></tr>
-<tr class="memdesc:aa9503f8ca856ce3b8c97931c234969c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Does <a class="el" href="classTemplate.html#a189ef31b50fe32c179cbdc7d74576505" title="Does the pre-load configuration when the template is opened initially (after the user chooses the tem...">preLoadConfiguration()</a>, <a class="el" href="classTemplate.html#a84d61ee57c44cc9e482f4080a2e8a87a" title="Loads the template file. ">loadTemplateFile()</a> and <a class="el" href="classTemplate.html#a18d5a16fd0b9d06e2e1422ce97f79b16" title="Does the post-load configuration when the template is opened initially (after the chosen template fil...">postLoadConfiguration()</a> and returns if the process was successful.  <a href="#aa9503f8ca856ce3b8c97931c234969c2">More...</a><br /></td></tr>
+<tr class="memdesc:aa9503f8ca856ce3b8c97931c234969c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Does everything needed to load a template.  <a href="#aa9503f8ca856ce3b8c97931c234969c2">More...</a><br /></td></tr>
 <tr class="separator:aa9503f8ca856ce3b8c97931c234969c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60508fae55f3fb92c903ea2dad90b1d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a60508fae55f3fb92c903ea2dad90b1d1">tryToFindAndReloadTemplateFile</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> map_directory, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> *out_loaded_from_map_dir=NULL)</td></tr>
-<tr class="memdesc:a60508fae55f3fb92c903ea2dad90b1d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to find and (re-)load the template file from the following positions:  <a href="#a60508fae55f3fb92c903ea2dad90b1d1">More...</a><br /></td></tr>
-<tr class="separator:a60508fae55f3fb92c903ea2dad90b1d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdeec865668c240c69e9ca5478b568bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#afdeec865668c240c69e9ca5478b568bd">tryToFindAndReloadTemplateFile</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> map_directory, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> *out_loaded_from_map_dir=nullptr)</td></tr>
+<tr class="memdesc:afdeec865668c240c69e9ca5478b568bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to find and load the template file non-interactively.  <a href="#afdeec865668c240c69e9ca5478b568bd">More...</a><br /></td></tr>
+<tr class="separator:afdeec865668c240c69e9ca5478b568bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a189ef31b50fe32c179cbdc7d74576505"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a189ef31b50fe32c179cbdc7d74576505">preLoadConfiguration</a> (<a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html">QWidget</a> *dialog_parent)</td></tr>
-<tr class="memdesc:a189ef31b50fe32c179cbdc7d74576505"><td class="mdescLeft">&#160;</td><td class="mdescRight">Does the pre-load configuration when the template is opened initially (after the user chooses the template file, but before it is loaded).  <a href="#a189ef31b50fe32c179cbdc7d74576505">More...</a><br /></td></tr>
+<tr class="memdesc:a189ef31b50fe32c179cbdc7d74576505"><td class="mdescLeft">&#160;</td><td class="mdescRight">Does configuration before the actual template is loaded.  <a href="#a189ef31b50fe32c179cbdc7d74576505">More...</a><br /></td></tr>
 <tr class="separator:a189ef31b50fe32c179cbdc7d74576505"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84d61ee57c44cc9e482f4080a2e8a87a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a84d61ee57c44cc9e482f4080a2e8a87a">loadTemplateFile</a> (<a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> configuring)</td></tr>
 <tr class="memdesc:a84d61ee57c44cc9e482f4080a2e8a87a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the template file.  <a href="#a84d61ee57c44cc9e482f4080a2e8a87a">More...</a><br /></td></tr>
 <tr class="separator:a84d61ee57c44cc9e482f4080a2e8a87a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18d5a16fd0b9d06e2e1422ce97f79b16"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a18d5a16fd0b9d06e2e1422ce97f79b16">postLoadConfiguration</a> (<a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html">QWidget</a> *dialog_parent, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> &amp;out_center_in_view)</td></tr>
-<tr class="memdesc:a18d5a16fd0b9d06e2e1422ce97f79b16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Does the post-load configuration when the template is opened initially (after the chosen template file is loaded).  <a href="#a18d5a16fd0b9d06e2e1422ce97f79b16">More...</a><br /></td></tr>
+<tr class="memdesc:a18d5a16fd0b9d06e2e1422ce97f79b16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Does configuration after the actual template is loaded.  <a href="#a18d5a16fd0b9d06e2e1422ce97f79b16">More...</a><br /></td></tr>
 <tr class="separator:a18d5a16fd0b9d06e2e1422ce97f79b16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a226a1106cf30fba50b59cb038ea34277"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a226a1106cf30fba50b59cb038ea34277">unloadTemplateFile</a> ()</td></tr>
 <tr class="memdesc:a226a1106cf30fba50b59cb038ea34277"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unloads the template file.  <a href="#a226a1106cf30fba50b59cb038ea34277">More...</a><br /></td></tr>
 <tr class="separator:a226a1106cf30fba50b59cb038ea34277"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0779774f27208981d3d8616cc1f8a289"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a0779774f27208981d3d8616cc1f8a289">drawTemplate</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpainter.html">QPainter</a> *painter, <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> &amp;clip_rect, double <a class="el" href="classTemplate.html#a537c4329149b4335e0e7907dfc36d37d">scale</a>, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> on_screen, float opacity) const =0</td></tr>
-<tr class="memdesc:a0779774f27208981d3d8616cc1f8a289"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must draw the template using the given painter with the given opacity.  <a href="#a0779774f27208981d3d8616cc1f8a289">More...</a><br /></td></tr>
+<tr class="memdesc:a0779774f27208981d3d8616cc1f8a289"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the template using the given painter with the given opacity.  <a href="#a0779774f27208981d3d8616cc1f8a289">More...</a><br /></td></tr>
 <tr class="separator:a0779774f27208981d3d8616cc1f8a289"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a160d0b42562db5e2a5407a89254086f8"><td class="memItemLeft" align="right" valign="top">virtual <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a160d0b42562db5e2a5407a89254086f8">calculateTemplateBoundingBox</a> () const </td></tr>
 <tr class="memdesc:a160d0b42562db5e2a5407a89254086f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the template's bounding box in map coordinates.  <a href="#a160d0b42562db5e2a5407a89254086f8">More...</a><br /></td></tr>
 <tr class="separator:a160d0b42562db5e2a5407a89254086f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a492c2234bba076988e56ac5de5048228"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a492c2234bba076988e56ac5de5048228">getTemplateBoundingBoxPixelBorder</a> ()</td></tr>
-<tr class="memdesc:a492c2234bba076988e56ac5de5048228"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the extent of the template out of the bounding box, which is defined in map coordinates, in pixels.  <a href="#a492c2234bba076988e56ac5de5048228">More...</a><br /></td></tr>
+<tr class="memdesc:a492c2234bba076988e56ac5de5048228"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the extra extent of the template out of the bounding box.  <a href="#a492c2234bba076988e56ac5de5048228">More...</a><br /></td></tr>
 <tr class="separator:a492c2234bba076988e56ac5de5048228"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95fa3272820b6645e64c0aadbea0b7d1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a95fa3272820b6645e64c0aadbea0b7d1">setTemplateAreaDirty</a> ()</td></tr>
-<tr class="memdesc:a95fa3272820b6645e64c0aadbea0b7d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks the whole area of the template as "to be redrawn".  <a href="#a95fa3272820b6645e64c0aadbea0b7d1">More...</a><br /></td></tr>
+<tr class="memdesc:a95fa3272820b6645e64c0aadbea0b7d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks the whole area of the template as needing a redraw.  <a href="#a95fa3272820b6645e64c0aadbea0b7d1">More...</a><br /></td></tr>
 <tr class="separator:a95fa3272820b6645e64c0aadbea0b7d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace7a616d0c59e12b3618def333f1bbc2"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#ace7a616d0c59e12b3618def333f1bbc2">canBeDrawnOnto</a> () const </td></tr>
-<tr class="memdesc:ace7a616d0c59e12b3618def333f1bbc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must return if freehand drawing onto the template is possible.  <a href="#ace7a616d0c59e12b3618def333f1bbc2">More...</a><br /></td></tr>
-<tr class="separator:ace7a616d0c59e12b3618def333f1bbc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f72e7d90ae6b9f44c7df4fc19bcff05"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a8f72e7d90ae6b9f44c7df4fc19bcff05">drawOntoTemplate</a> (<a class="el" href="classMapCoordF.html">MapCoordF</a> *coords, int num_coords, <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qcolor.html">QColor</a> color, float width, <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> map_bbox)</td></tr>
-<tr class="memdesc:a8f72e7d90ae6b9f44c7df4fc19bcff05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws onto the template.  <a href="#a8f72e7d90ae6b9f44c7df4fc19bcff05">More...</a><br /></td></tr>
-<tr class="separator:a8f72e7d90ae6b9f44c7df4fc19bcff05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54da9eecf58706ecf70b5663fe19a991"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a54da9eecf58706ecf70b5663fe19a991">canBeDrawnOnto</a> () const </td></tr>
+<tr class="memdesc:a54da9eecf58706ecf70b5663fe19a991"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must return if freehand drawing onto the template is possible.  <a href="#a54da9eecf58706ecf70b5663fe19a991">More...</a><br /></td></tr>
+<tr class="separator:a54da9eecf58706ecf70b5663fe19a991"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6507a669be67608fb5bc8831d0759e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#ac6507a669be67608fb5bc8831d0759e4">drawOntoTemplate</a> (<a class="el" href="classTemplate.html#a858574bc4be399d5085e0a85e236bef3">not_null</a>&lt; <a class="el" href="classMapCoordF.html">MapCoordF</a> * &gt; coords, int num_coords, <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qcolor.html">QColor</a> color, float width, <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> map_bbox)</td></tr>
+<tr class="memdesc:ac6507a669be67608fb5bc8831d0759e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws onto the template.  <a href="#ac6507a669be67608fb5bc8831d0759e4">More...</a><br /></td></tr>
+<tr class="separator:ac6507a669be67608fb5bc8831d0759e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e5534b3ea503394686238df3155fde4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a7e5534b3ea503394686238df3155fde4">drawOntoTemplateUndo</a> (<a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> redo)</td></tr>
 <tr class="memdesc:a7e5534b3ea503394686238df3155fde4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggers an undo or redo action for template freehand drawing.  <a href="#a7e5534b3ea503394686238df3155fde4">More...</a><br /></td></tr>
 <tr class="separator:a7e5534b3ea503394686238df3155fde4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -257,13 +259,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a59162aa1d764b8029aae1e5b65b00b4a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a59162aa1d764b8029aae1e5b65b00b4a">switchTransforms</a> ()</td></tr>
 <tr class="memdesc:a59162aa1d764b8029aae1e5b65b00b4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change from adjusted into original state or the other way round.  <a href="#a59162aa1d764b8029aae1e5b65b00b4a">More...</a><br /></td></tr>
 <tr class="separator:a59162aa1d764b8029aae1e5b65b00b4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5873cadeb0e888d21c81e9b6ae759150"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a5873cadeb0e888d21c81e9b6ae759150">getTransform</a> (<a class="el" href="classTemplateTransform.html">TemplateTransform</a> &amp;out) const </td></tr>
+<tr class="memitem:a5873cadeb0e888d21c81e9b6ae759150"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a5873cadeb0e888d21c81e9b6ae759150">getTransform</a> (<a class="el" href="structTemplateTransform.html">TemplateTransform</a> &amp;out) const </td></tr>
 <tr class="separator:a5873cadeb0e888d21c81e9b6ae759150"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1fb0b0539659fb1420aa98cab0a24fba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a1fb0b0539659fb1420aa98cab0a24fba">setTransform</a> (const <a class="el" href="classTemplateTransform.html">TemplateTransform</a> &amp;<a class="el" href="classTemplate.html#a862a0180d8f8921d2f7c476118a6be14">transform</a>)</td></tr>
+<tr class="memitem:a1fb0b0539659fb1420aa98cab0a24fba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a1fb0b0539659fb1420aa98cab0a24fba">setTransform</a> (const <a class="el" href="structTemplateTransform.html">TemplateTransform</a> &amp;<a class="el" href="classTemplate.html#a862a0180d8f8921d2f7c476118a6be14">transform</a>)</td></tr>
 <tr class="separator:a1fb0b0539659fb1420aa98cab0a24fba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7795f9df442ab67079369dffbb84f0f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#aa7795f9df442ab67079369dffbb84f0f">getOtherTransform</a> (<a class="el" href="classTemplateTransform.html">TemplateTransform</a> &amp;out) const </td></tr>
+<tr class="memitem:aa7795f9df442ab67079369dffbb84f0f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#aa7795f9df442ab67079369dffbb84f0f">getOtherTransform</a> (<a class="el" href="structTemplateTransform.html">TemplateTransform</a> &amp;out) const </td></tr>
 <tr class="separator:aa7795f9df442ab67079369dffbb84f0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad53ac403629d2b97394f8fba88599ed2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#ad53ac403629d2b97394f8fba88599ed2">setOtherTransform</a> (const <a class="el" href="classTemplateTransform.html">TemplateTransform</a> &amp;<a class="el" href="classTemplate.html#a862a0180d8f8921d2f7c476118a6be14">transform</a>)</td></tr>
+<tr class="memitem:ad53ac403629d2b97394f8fba88599ed2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#ad53ac403629d2b97394f8fba88599ed2">setOtherTransform</a> (const <a class="el" href="structTemplateTransform.html">TemplateTransform</a> &amp;<a class="el" href="classTemplate.html#a862a0180d8f8921d2f7c476118a6be14">transform</a>)</td></tr>
 <tr class="separator:ad53ac403629d2b97394f8fba88599ed2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea656632218c850f71c7e18ed006ad79"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMap.html">Map</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#aea656632218c850f71c7e18ed006ad79">getMap</a> () const </td></tr>
 <tr class="separator:aea656632218c850f71c7e18ed006ad79"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -401,6 +403,7 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a3800dafabe5a41f7e0fc1f1374551167"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="classTemplate.html">Template</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a3800dafabe5a41f7e0fc1f1374551167">loadTemplateConfiguration</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qxmlstreamreader.html">QXmlStreamReader</a> &amp;xml, <a class="el" href="classMap.html">Map</a> &amp;<a class="el" href="classTemplate.html#a2f342fbc57e8f0944b137747e0b6abc9">map</a>, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> &amp;open)</td></tr>
+<tr class="memdesc:a3800dafabe5a41f7e0fc1f1374551167"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates and returns a template from the configuration in the XML stream.  <a href="#a3800dafabe5a41f7e0fc1f1374551167">More...</a><br /></td></tr>
 <tr class="separator:a3800dafabe5a41f7e0fc1f1374551167"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89fd26fdae237e287c2d4ea66cbf10e7"><td class="memItemLeft" align="right" valign="top">static const std::vector&lt; <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qbytearray.html">QByteArray</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a89fd26fdae237e287c2d4ea66cbf10e7">supportedExtensions</a> ()</td></tr>
 <tr class="memdesc:a89fd26fdae237e287c2d4ea66cbf10e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the filename extensions supported by known subclasses.  <a href="#a89fd26fdae237e287c2d4ea66cbf10e7">More...</a><br /></td></tr>
@@ -440,29 +443,32 @@ Static Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
+<tr class="memitem:a41254335f5043b4fce7f0c23278e85e6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a41254335f5043b4fce7f0c23278e85e6">Template</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;path, <a class="el" href="classTemplate.html#a858574bc4be399d5085e0a85e236bef3">not_null</a>&lt; <a class="el" href="classMap.html">Map</a> * &gt; <a class="el" href="classTemplate.html#a2f342fbc57e8f0944b137747e0b6abc9">map</a>)</td></tr>
+<tr class="memdesc:a41254335f5043b4fce7f0c23278e85e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the template as "invalid".  <a href="#a41254335f5043b4fce7f0c23278e85e6">More...</a><br /></td></tr>
+<tr class="separator:a41254335f5043b4fce7f0c23278e85e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad815db4c65fa1bd885ab9f05977006ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#ad815db4c65fa1bd885ab9f05977006ec">setErrorString</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;text)</td></tr>
 <tr class="memdesc:ad815db4c65fa1bd885ab9f05977006ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the error description which will be returned by <a class="el" href="classTemplate.html#af721b632fbbc1968ccfb484dd84de029" title="Returns a description of the last error that occurred. ">errorString()</a>.  <a href="#ad815db4c65fa1bd885ab9f05977006ec">More...</a><br /></td></tr>
 <tr class="separator:ad815db4c65fa1bd885ab9f05977006ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3af280bfcfe5fedba12870c2a7907059"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classTemplate.html">Template</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a3af280bfcfe5fedba12870c2a7907059">duplicateImpl</a> () const =0</td></tr>
-<tr class="memdesc:a3af280bfcfe5fedba12870c2a7907059"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derived classes must create a duplicate and transfer type specific information over to the copy here.  <a href="#a3af280bfcfe5fedba12870c2a7907059">More...</a><br /></td></tr>
+<tr class="memdesc:a3af280bfcfe5fedba12870c2a7907059"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derived classes must create a duplicate and transfer.  <a href="#a3af280bfcfe5fedba12870c2a7907059">More...</a><br /></td></tr>
 <tr class="separator:a3af280bfcfe5fedba12870c2a7907059"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab412d19d9bc123a98de3f01ad6f7a0ca"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#ab412d19d9bc123a98de3f01ad6f7a0ca">loadTypeSpecificTemplateConfiguration</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qiodevice.html">QIODevice</a> *stream, int version)</td></tr>
-<tr class="memdesc:ab412d19d9bc123a98de3f01ad6f7a0ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derived classes must load type specific template parameters here and return true if successful.  <a href="#ab412d19d9bc123a98de3f01ad6f7a0ca">More...</a><br /></td></tr>
+<tr class="memdesc:ab412d19d9bc123a98de3f01ad6f7a0ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hook for loading parameters needed by the actual template type.  <a href="#ab412d19d9bc123a98de3f01ad6f7a0ca">More...</a><br /></td></tr>
 <tr class="separator:ab412d19d9bc123a98de3f01ad6f7a0ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c6bba374ba04e1469d63b00d09e7cb1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a7c6bba374ba04e1469d63b00d09e7cb1">saveTypeSpecificTemplateConfiguration</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qxmlstreamwriter.html">QXmlStreamWriter</a> &amp;xml) const </td></tr>
-<tr class="memdesc:a7c6bba374ba04e1469d63b00d09e7cb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derived classes must save type specific template parameters here.  <a href="#a7c6bba374ba04e1469d63b00d09e7cb1">More...</a><br /></td></tr>
+<tr class="memdesc:a7c6bba374ba04e1469d63b00d09e7cb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hook for saving parameters needed by the actual template type.  <a href="#a7c6bba374ba04e1469d63b00d09e7cb1">More...</a><br /></td></tr>
 <tr class="separator:a7c6bba374ba04e1469d63b00d09e7cb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1ecc10f9ae2de4f93010d8b718e4c45"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#aa1ecc10f9ae2de4f93010d8b718e4c45">loadTypeSpecificTemplateConfiguration</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qxmlstreamreader.html">QXmlStreamReader</a> &amp;xml)</td></tr>
-<tr class="memdesc:aa1ecc10f9ae2de4f93010d8b718e4c45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derived classes must load type specific template parameters here and return false if a critical error ocurrs and loading must be aborted.  <a href="#aa1ecc10f9ae2de4f93010d8b718e4c45">More...</a><br /></td></tr>
+<tr class="memdesc:aa1ecc10f9ae2de4f93010d8b718e4c45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hook for loading parameters needed by the actual template type.  <a href="#aa1ecc10f9ae2de4f93010d8b718e4c45">More...</a><br /></td></tr>
 <tr class="separator:aa1ecc10f9ae2de4f93010d8b718e4c45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3155778c4dc5211bf213b4da0af3183e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a3155778c4dc5211bf213b4da0af3183e">loadTemplateFileImpl</a> (<a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> configuring)=0</td></tr>
-<tr class="memdesc:a3155778c4dc5211bf213b4da0af3183e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derived classes must load the template file here and return true if successful.  <a href="#a3155778c4dc5211bf213b4da0af3183e">More...</a><br /></td></tr>
+<tr class="memdesc:a3155778c4dc5211bf213b4da0af3183e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hook for loading the actual template file non-interactively.  <a href="#a3155778c4dc5211bf213b4da0af3183e">More...</a><br /></td></tr>
 <tr class="separator:a3155778c4dc5211bf213b4da0af3183e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f50b9339a8ce32d900494155242d481"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a9f50b9339a8ce32d900494155242d481">unloadTemplateFileImpl</a> ()=0</td></tr>
-<tr class="memdesc:a9f50b9339a8ce32d900494155242d481"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derived classes must unload the template file here.  <a href="#a9f50b9339a8ce32d900494155242d481">More...</a><br /></td></tr>
+<tr class="memdesc:a9f50b9339a8ce32d900494155242d481"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hook for unloading the template file.  <a href="#a9f50b9339a8ce32d900494155242d481">More...</a><br /></td></tr>
 <tr class="separator:a9f50b9339a8ce32d900494155242d481"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaddebf83fefcd5a74d8b17c9567227ff"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#aaddebf83fefcd5a74d8b17c9567227ff">drawOntoTemplateImpl</a> (<a class="el" href="classMapCoordF.html">MapCoordF</a> *coords, int num_coords, <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qcolor.html">QColor</a> color, float width)</td></tr>
-<tr class="memdesc:aaddebf83fefcd5a74d8b17c9567227ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must be implemented to draw the polyline given by the points onto the template if <a class="el" href="classTemplate.html#ace7a616d0c59e12b3618def333f1bbc2" title="Must return if freehand drawing onto the template is possible. ">canBeDrawnOnto()</a> returns true.  <a href="#aaddebf83fefcd5a74d8b17c9567227ff">More...</a><br /></td></tr>
+<tr class="memdesc:aaddebf83fefcd5a74d8b17c9567227ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hook for drawing on the template.  <a href="#aaddebf83fefcd5a74d8b17c9567227ff">More...</a><br /></td></tr>
 <tr class="separator:aaddebf83fefcd5a74d8b17c9567227ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69a4cbb53924433fcbefa9a5a7255ead"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a69a4cbb53924433fcbefa9a5a7255ead">updateTransformationMatrices</a> ()</td></tr>
 <tr class="memdesc:a69a4cbb53924433fcbefa9a5a7255ead"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must be called after direct changes to transform or other_transform.  <a href="#a69a4cbb53924433fcbefa9a5a7255ead">More...</a><br /></td></tr>
@@ -513,10 +519,13 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:ac236a9bc4d5d82565cdc71bef037ecc6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#ac236a9bc4d5d82565cdc71bef037ecc6">is_georeferenced</a></td></tr>
 <tr class="memdesc:ac236a9bc4d5d82565cdc71bef037ecc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is the template in georeferenced mode?  <a href="#ac236a9bc4d5d82565cdc71bef037ecc6">More...</a><br /></td></tr>
 <tr class="separator:ac236a9bc4d5d82565cdc71bef037ecc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a862a0180d8f8921d2f7c476118a6be14"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTemplateTransform.html">TemplateTransform</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a862a0180d8f8921d2f7c476118a6be14">transform</a></td></tr>
+<tr class="memitem:aca9401879a1452d703452d4b293df5f8"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpointf.html">QPointF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#aca9401879a1452d703452d4b293df5f8">accounted_offset</a></td></tr>
+<tr class="memdesc:aca9401879a1452d703452d4b293df5f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bounds correction offset for map templates. Must be masked out when saving.  <a href="#aca9401879a1452d703452d4b293df5f8">More...</a><br /></td></tr>
+<tr class="separator:aca9401879a1452d703452d4b293df5f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a862a0180d8f8921d2f7c476118a6be14"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structTemplateTransform.html">TemplateTransform</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a862a0180d8f8921d2f7c476118a6be14">transform</a></td></tr>
 <tr class="memdesc:a862a0180d8f8921d2f7c476118a6be14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Currently active transformation. NOTE: after direct changes here call <a class="el" href="classTemplate.html#a69a4cbb53924433fcbefa9a5a7255ead" title="Must be called after direct changes to transform or other_transform. ">updateTransformationMatrices()</a>  <a href="#a862a0180d8f8921d2f7c476118a6be14">More...</a><br /></td></tr>
 <tr class="separator:a862a0180d8f8921d2f7c476118a6be14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac24b33da04630d28870626e00b070f43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTemplateTransform.html">TemplateTransform</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#ac24b33da04630d28870626e00b070f43">other_transform</a></td></tr>
+<tr class="memitem:ac24b33da04630d28870626e00b070f43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structTemplateTransform.html">TemplateTransform</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#ac24b33da04630d28870626e00b070f43">other_transform</a></td></tr>
 <tr class="memdesc:ac24b33da04630d28870626e00b070f43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Currently inactive transformation (adjusted or original). NOTE: after direct changes here call <a class="el" href="classTemplate.html#a69a4cbb53924433fcbefa9a5a7255ead" title="Must be called after direct changes to transform or other_transform. ">updateTransformationMatrices()</a>  <a href="#ac24b33da04630d28870626e00b070f43">More...</a><br /></td></tr>
 <tr class="separator:ac24b33da04630d28870626e00b070f43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae18aee5e63816d208a58f0f7017b5a9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#ae18aee5e63816d208a58f0f7017b5a9e">adjusted</a></td></tr>
@@ -546,7 +555,25 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Abstract base class for templates. </p>
-</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a class="anchor" id="a858574bc4be399d5085e0a85e236bef3"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classTemplate.html#a858574bc4be399d5085e0a85e236bef3">Template::not_null</a> =  T</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Indicates arguments which must not be nullptr. </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000056">Todo:</a></b></dt><dd>Use the Guideline Support Library </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
 <a class="anchor" id="acea65417bfe6debf7fc4d51b07f74bdb"></a>
 <div class="memitem">
 <div class="memproto">
@@ -574,9 +601,12 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="abcca098624f00f17bdc611154aa47b2a"></a>
+<a class="anchor" id="a41254335f5043b4fce7f0c23278e85e6"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">Template::Template </td>
@@ -587,7 +617,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classMap.html">Map</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="classTemplate.html#a858574bc4be399d5085e0a85e236bef3">not_null</a>&lt; <a class="el" href="classMap.html">Map</a> * &gt;&#160;</td>
           <td class="paramname"><em>map</em>&#160;</td>
         </tr>
         <tr>
@@ -596,9 +626,13 @@ Additional Inherited Members</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>To be called by derived classes with main template file and map pointer. </p>
 <p>Initializes the template as "invalid". </p>
 
 </div>
@@ -668,7 +702,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Changes the painter's transformation so it can be used to draw in template coordinates. </p>
-<p>The previous transformation of the painter must be the map transformation. NOTE: for non-georeferenced templates only, or if the template transformation has been set by the template nevertheless. </p>
+<p>The previous transformation of the painter must be the map transformation.</p>
+<dl class="section note"><dt>Note</dt><dd>For non-georeferenced templates only, or if the template transformation has been set by the template nevertheless. </dd></dl>
 
 </div>
 </div>
@@ -699,7 +734,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ace7a616d0c59e12b3618def333f1bbc2"></a>
+<a class="anchor" id="a54da9eecf58706ecf70b5663fe19a991"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -707,7 +742,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> Template::canBeDrawnOnto </td>
+          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> Template::canBeDrawnOnto </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -715,7 +750,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -765,8 +800,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Does <a class="el" href="classTemplate.html#a189ef31b50fe32c179cbdc7d74576505" title="Does the pre-load configuration when the template is opened initially (after the user chooses the tem...">preLoadConfiguration()</a>, <a class="el" href="classTemplate.html#a84d61ee57c44cc9e482f4080a2e8a87a" title="Loads the template file. ">loadTemplateFile()</a> and <a class="el" href="classTemplate.html#a18d5a16fd0b9d06e2e1422ce97f79b16" title="Does the post-load configuration when the template is opened initially (after the chosen template fil...">postLoadConfiguration()</a> and returns if the process was successful. </p>
-<p>Pass in the view in which the template should be centered, if it is centered. </p>
+<p>Does everything needed to load a template. </p>
+<p>Calls <a class="el" href="classTemplate.html#a189ef31b50fe32c179cbdc7d74576505" title="Does configuration before the actual template is loaded. ">preLoadConfiguration()</a>, <a class="el" href="classTemplate.html#a84d61ee57c44cc9e482f4080a2e8a87a" title="Loads the template file. ">loadTemplateFile()</a> and <a class="el" href="classTemplate.html#a18d5a16fd0b9d06e2e1422ce97f79b16" title="Does configuration after the actual template is loaded. ">postLoadConfiguration()</a>. Returns if the process was successful.</p>
+<p>The passed-in view is used to center the template if needed. </p>
 
 </div>
 </div>
@@ -786,14 +822,14 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a8f72e7d90ae6b9f44c7df4fc19bcff05"></a>
+<a class="anchor" id="ac6507a669be67608fb5bc8831d0759e4"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void Template::drawOntoTemplate </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classMapCoordF.html">MapCoordF</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="classTemplate.html#a858574bc4be399d5085e0a85e236bef3">not_null</a>&lt; <a class="el" href="classMapCoordF.html">MapCoordF</a> * &gt;&#160;</td>
           <td class="paramname"><em>coords</em>, </td>
         </tr>
         <tr>
@@ -829,7 +865,10 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Draws onto the template. </p>
-<p>coords is an array of points with which the drawn line is defined and must contain at least 2 points. map_bbox can be an invalid rect, then the method will calculate it itself. This only works for templates for which <a class="el" href="classTemplate.html#ace7a616d0c59e12b3618def333f1bbc2" title="Must return if freehand drawing onto the template is possible. ">canBeDrawnOnto()</a> returns true. </p>
+<p>This only works for templates for which <a class="el" href="classTemplate.html#a54da9eecf58706ecf70b5663fe19a991" title="Must return if freehand drawing onto the template is possible. ">canBeDrawnOnto()</a> returns true.</p>
+<p>coords is an array of points with which the drawn line is defined and must contain at least 2 points.</p>
+<p>If map_bbox is an invalid rect, then the method will calculate it itself.</p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000058">Todo:</a></b></dt><dd>Rewrite using a range of <a class="el" href="classMapCoordF.html" title="Map coordinates stored as floating point numbers. ">MapCoordF</a>. </dd></dl>
 
 </div>
 </div>
@@ -877,7 +916,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Must be implemented to draw the polyline given by the points onto the template if <a class="el" href="classTemplate.html#ace7a616d0c59e12b3618def333f1bbc2" title="Must return if freehand drawing onto the template is possible. ">canBeDrawnOnto()</a> returns true. </p>
+<p>Hook for drawing on the template. </p>
+<p>Draws the polyline given by the points onto the template. Required if <a class="el" href="classTemplate.html#a54da9eecf58706ecf70b5663fe19a991" title="Must return if freehand drawing onto the template is possible. ">canBeDrawnOnto()</a> returns true. </p>
 
 <p>Reimplemented in <a class="el" href="classTemplateImage.html#a16b33c7c59eedea1603997b9ace6e649">TemplateImage</a>.</p>
 
@@ -906,7 +946,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Triggers an undo or redo action for template freehand drawing. </p>
-<p>The type of action is determined by the parameter. This only works for templates for which <a class="el" href="classTemplate.html#ace7a616d0c59e12b3618def333f1bbc2" title="Must return if freehand drawing onto the template is possible. ">canBeDrawnOnto()</a> returns true. </p>
+<p>This only works for templates for which <a class="el" href="classTemplate.html#a54da9eecf58706ecf70b5663fe19a991" title="Must return if freehand drawing onto the template is possible. ">canBeDrawnOnto()</a> returns true. </p>
 
 <p>Reimplemented in <a class="el" href="classTemplateImage.html#a2365fed1988fefbbab398f0308f7827f">TemplateImage</a>.</p>
 
@@ -962,10 +1002,10 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Must draw the template using the given painter with the given opacity. </p>
-<p>The clip rect is in template coordinates, the scale is the combined view &amp; template scale, which can be used to give a minimum size to elements. The painter transformation is set to use template coordinates. </p>
+<p>Draws the template using the given painter with the given opacity. </p>
+<p>The painter transformation is set to use template coordinates. The clip rect is in template coordinates. The scale is the combined view &amp; template scale. It can be used to give a minimum size to elements. </p>
 
-<p>Implemented in <a class="el" href="classTemplateImage.html#a6c149bdc9c967670a7115de14f3bdc80">TemplateImage</a>, <a class="el" href="classTemplateTrack.html#ad37f59eac53ce22a5115d6318b84773e">TemplateTrack</a>, and <a class="el" href="classTemplateMap.html#a95928c425ffa905d552ade07637aac17">TemplateMap</a>.</p>
+<p>Implemented in <a class="el" href="classTemplateImage.html#a6c149bdc9c967670a7115de14f3bdc80">TemplateImage</a>, <a class="el" href="classTemplateMap.html#a95928c425ffa905d552ade07637aac17">TemplateMap</a>, and <a class="el" href="classTemplateTrack.html#ad37f59eac53ce22a5115d6318b84773e">TemplateTrack</a>.</p>
 
 </div>
 </div>
@@ -983,6 +1023,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Creates a duplicate of the template. </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000057">Todo:</a></b></dt><dd>Rewrite as virtual function, using protected copy constructor. </dd></dl>
 
 </div>
 </div>
@@ -1007,8 +1048,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Derived classes must create a duplicate and transfer type specific information over to the copy here. </p>
-<p>This includes the content of the template file if it is loaded. </p>
+<p>Derived classes must create a duplicate and transfer. </p>
+<p>type specific information over to the copy here. This includes the content of the template file if it is loaded.</p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000059">Todo:</a></b></dt><dd>Rewrite together with <a class="el" href="classTemplate.html#a9126bcb97d1875a56d387e5537c2be56" title="Creates a duplicate of the template. ">duplicate()</a>. </dd></dl>
 
 <p>Implemented in <a class="el" href="classTemplateImage.html#a0897b45c1f9d0a28baf00a139634e803">TemplateImage</a>, <a class="el" href="classTemplateTrack.html#af1104d458c3bb54fda99f39f69f58fbe">TemplateTrack</a>, <a class="el" href="classTemplateMap.html#a1cfe0fdafedc8be7aa36b9c6dba97c55">TemplateMap</a>, and <a class="el" href="classOgrTemplate.html#a85aa25074c3d2dcec6e3e88d39c903c2">OgrTemplate</a>.</p>
 
@@ -1103,7 +1145,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void Template::getOtherTransform </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classTemplateTransform.html">TemplateTransform</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="structTemplateTransform.html">TemplateTransform</a> &amp;&#160;</td>
           <td class="paramname"><em>out</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1203,8 +1245,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the extent of the template out of the bounding box, which is defined in map coordinates, in pixels. </p>
-<p>This is useful for elements which stay the same size regardless of the zoom level, where a bounding box in map coords cannot be calculated. </p>
+<p>Returns the extra extent of the template out of the bounding box. </p>
+<p>While the bounding box is defined in map coordinates, this border is given in pixels. This is useful for elements which stay the same size regardless of the zoom level so that a bounding box in map coords cannot be calculated. </p>
 
 <p>Reimplemented in <a class="el" href="classTemplateTrack.html#a97b397efbdd60b5ef2d95c3e62fe726f">TemplateTrack</a>.</p>
 
@@ -1232,7 +1274,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the extent of the template in template coordinates. </p>
-<p>The default implementation returns a "very big" rectangle. NOTE: for non-georeferenced templates only! </p>
+<p>The default implementation returns a "very big" rectangle.</p>
+<dl class="section note"><dt>Note</dt><dd>For non-georeferenced templates only! </dd></dl>
 
 <p>Reimplemented in <a class="el" href="classTemplateImage.html#a6c55d54fdd10fdf7c1304d176dc51267">TemplateImage</a>, <a class="el" href="classTemplateMap.html#a647c6df99eb5ce9632c0c67a34da211c">TemplateMap</a>, and <a class="el" href="classTemplateTrack.html#a1ed3bed754ef706271241cc72f202975">TemplateTrack</a>.</p>
 
@@ -1446,7 +1489,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Returns a string which should identify the type of the template uniquely: the class name. </p>
 <p>Very simple RTTI feature. </p>
 
-<p>Implemented in <a class="el" href="classTemplateImage.html#a5774d7f7721a0e6ee54003bab2e9fb69">TemplateImage</a>, <a class="el" href="classTemplateTrack.html#a67dd691d730b4cb49cd4ca4b2129bc3c">TemplateTrack</a>, <a class="el" href="classTemplateMap.html#a00028b68786e3885c39990adc940a310">TemplateMap</a>, and <a class="el" href="classOgrTemplate.html#a1f2342dc73087b581ca5cb48cff430bf">OgrTemplate</a>.</p>
+<p>Implemented in <a class="el" href="classTemplateImage.html#a5774d7f7721a0e6ee54003bab2e9fb69">TemplateImage</a>, <a class="el" href="classTemplateMap.html#a00028b68786e3885c39990adc940a310">TemplateMap</a>, <a class="el" href="classTemplateTrack.html#a67dd691d730b4cb49cd4ca4b2129bc3c">TemplateTrack</a>, and <a class="el" href="classOgrTemplate.html#a1f2342dc73087b581ca5cb48cff430bf">OgrTemplate</a>.</p>
 
 </div>
 </div>
@@ -1503,7 +1546,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void Template::getTransform </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classTemplateTransform.html">TemplateTransform</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="structTemplateTransform.html">TemplateTransform</a> &amp;&#160;</td>
           <td class="paramname"><em>out</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1605,7 +1648,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Returns true if the template is raster graphics. </p>
 <p>Raster graphics cannot be printed in the foreground in vector mode. </p>
 
-<p>Implemented in <a class="el" href="classTemplateImage.html#a8a8225f1475c845eab20c32d52598c51">TemplateImage</a>, <a class="el" href="classTemplateTrack.html#acea358283e773001120fc43866ee87be">TemplateTrack</a>, and <a class="el" href="classTemplateMap.html#ab76811cbe975560da38b3c6618dfd8b5">TemplateMap</a>.</p>
+<p>Implemented in <a class="el" href="classTemplateImage.html#a8a8225f1475c845eab20c32d52598c51">TemplateImage</a>, <a class="el" href="classTemplateMap.html#ab76811cbe975560da38b3c6618dfd8b5">TemplateMap</a>, and <a class="el" href="classTemplateTrack.html#acea358283e773001120fc43866ee87be">TemplateTrack</a>.</p>
 
 </div>
 </div>
@@ -1632,14 +1675,14 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a54542655b895a965f481afbcbbb0c17a"></a>
+<a class="anchor" id="a1cd227c1ad11eb8bf0553bd28f17aa72"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> Template::loadTemplateConfiguration </td>
           <td>(</td>
-          <td class="paramtype"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qiodevice.html">QIODevice</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="classTemplate.html#a858574bc4be399d5085e0a85e236bef3">not_null</a>&lt; <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qiodevice.html">QIODevice</a> * &gt;&#160;</td>
           <td class="paramname"><em>stream</em>, </td>
         </tr>
         <tr>
@@ -1656,7 +1699,8 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Loads template parameters, see <a class="el" href="classTemplate.html#a833a293a1b188a423888f36067739cc3" title="Saves template parameters such as filename, transformation, adjustment, etc. ">saveTemplateConfiguration()</a>, and returns true if successful. </p>
+<p>Loads template parameters. </p>
+<p>Returns true if successful </p>
 
 </div>
 </div>
@@ -1698,6 +1742,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Creates and returns a template from the configuration in the XML stream. </p>
+<p>Returns a null pointer in the case of error. </p>
+
 </div>
 </div>
 <a class="anchor" id="a84d61ee57c44cc9e482f4080a2e8a87a"></a>
@@ -1715,7 +1762,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Loads the template file. </p>
-<p>Can be called if the template state is Invalid or Unloaded. Must not be called if the template file is already loaded. Set the configuring parameter to true if the template is currently being configured by the user (in contrast to the case where it is loaded from an existing map file). In this case, the next step is to call <a class="el" href="classTemplate.html#a18d5a16fd0b9d06e2e1422ce97f79b16" title="Does the post-load configuration when the template is opened initially (after the chosen template fil...">postLoadConfiguration()</a>. </p>
+<p>This function can be called if the template state is Invalid or Unloaded. It must not be called if the template file is already loaded. It returns true if the template is loaded successfully.</p>
+<p>Set the configuring parameter to true if the template is currently being configured by the user (in contrast to the case where it is reloaded, e.g. when loaded while reopening an existing map file). </p>
 
 </div>
 </div>
@@ -1741,10 +1789,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Derived classes must load the template file here and return true if successful. </p>
-<p>If configuring is true, a call to <a class="el" href="classTemplate.html#a18d5a16fd0b9d06e2e1422ce97f79b16" title="Does the post-load configuration when the template is opened initially (after the chosen template fil...">postLoadConfiguration()</a> will follow if this returns true. </p>
+<p>Hook for loading the actual template file non-interactively. </p>
+<p>Returns true if successful.</p>
+<p>If configuring is true, a call to <a class="el" href="classTemplate.html#a18d5a16fd0b9d06e2e1422ce97f79b16" title="Does configuration after the actual template is loaded. ">postLoadConfiguration()</a> will follow if this returns true. </p>
 
-<p>Implemented in <a class="el" href="classTemplateImage.html#a4764283edcb10644a74f836466e8d90a">TemplateImage</a>, <a class="el" href="classTemplateTrack.html#a5292739791d362ba80ce25630b802f69">TemplateTrack</a>, <a class="el" href="classTemplateMap.html#a6ab034a55e425db74b9b4a78d31c88e0">TemplateMap</a>, and <a class="el" href="classOgrTemplate.html#a71e56b043e2cb6a10300f0925c9110d2">OgrTemplate</a>.</p>
+<p>Implemented in <a class="el" href="classTemplateImage.html#a4764283edcb10644a74f836466e8d90a">TemplateImage</a>, <a class="el" href="classTemplateMap.html#a6ab034a55e425db74b9b4a78d31c88e0">TemplateMap</a>, <a class="el" href="classTemplateTrack.html#a5292739791d362ba80ce25630b802f69">TemplateTrack</a>, and <a class="el" href="classOgrTemplate.html#a71e56b043e2cb6a10300f0925c9110d2">OgrTemplate</a>.</p>
 
 </div>
 </div>
@@ -1780,7 +1829,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Derived classes must load type specific template parameters here and return true if successful. </p>
+<p>Hook for loading parameters needed by the actual template type. </p>
+<p>The default implementation does nothing.</p>
+<p>Returns true on success. </p>
 
 <p>Reimplemented in <a class="el" href="classTemplateTrack.html#a50013185a8555bba6e11b5427cb2e9d5">TemplateTrack</a>, and <a class="el" href="classTemplateImage.html#aae3aec417d250dddeebceecdb0fceaf4">TemplateImage</a>.</p>
 
@@ -1808,8 +1859,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Derived classes must load type specific template parameters here and return false if a critical error ocurrs and loading must be aborted. </p>
-<p>This method is called for every xml tag under the template tag which is not parsed by the base class. IMPORTANT: implementations must call xml.skipCurrentElement() if they do not parse it. </p>
+<p>Hook for loading parameters needed by the actual template type. </p>
+<dl class="section note"><dt>Note</dt><dd>The default implementation calls xml.skipCurrentElement(). Implementations must do the same if they do not parse it.</dd></dl>
+<p>Returns true on success. </p>
 
 <p>Reimplemented in <a class="el" href="classTemplateTrack.html#aa3dd8507036dada8bca1741621cc4da0">TemplateTrack</a>, <a class="el" href="classTemplateImage.html#a01826e71e2c714fb88c769109b144d69">TemplateImage</a>, and <a class="el" href="classOgrTemplate.html#ac8d16fbc149b13eacc589b27f2087987">OgrTemplate</a>.</p>
 
@@ -1895,10 +1947,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Does the post-load configuration when the template is opened initially (after the chosen template file is loaded). </p>
-<p>If the implementation returns false, loading the template is aborted. By setting out_center_in_view, the implementation can decide if the template should be centered in the active view if it is a non-georeferenced template (on by default). </p>
+<p>Does configuration after the actual template is loaded. </p>
+<p>This function is called after the user chose the template file and after the chosen file was successfully loaded. Derived classes can show dialogs here to get user input which is needed to interpret the template file.</p>
+<p>If the implementation returns false, loading the template is aborted.</p>
+<p>By setting out_center_in_view, the implementation can decide if the template should be centered in the active view (only if it is not georeferenced.) </p>
 
-<p>Reimplemented in <a class="el" href="classTemplateImage.html#ad5e18d1d07b0ba5a5c15b18f444e81b1">TemplateImage</a>, <a class="el" href="classTemplateTrack.html#a4084f96c0a56cc09e48e10669d8380fc">TemplateTrack</a>, and <a class="el" href="classTemplateMap.html#a28a3cdb1c541f1b7dde46bba0434c2f0">TemplateMap</a>.</p>
+<p>Reimplemented in <a class="el" href="classTemplateImage.html#ad5e18d1d07b0ba5a5c15b18f444e81b1">TemplateImage</a>, <a class="el" href="classTemplateMap.html#a28a3cdb1c541f1b7dde46bba0434c2f0">TemplateMap</a>, <a class="el" href="classTemplateTrack.html#a4084f96c0a56cc09e48e10669d8380fc">TemplateTrack</a>, and <a class="el" href="classOgrTemplate.html#a1434a3cb27577acae95da632614dd27f">OgrTemplate</a>.</p>
 
 </div>
 </div>
@@ -1924,8 +1978,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Does the pre-load configuration when the template is opened initially (after the user chooses the template file, but before it is loaded). </p>
-<p>Derived classes can show dialogs here to get user input which is needed to interpret the template file. If the implementation returns false, loading the template is aborted. NOTE: derived classes should set is_georeferenced either here or in <a class="el" href="classTemplate.html#a18d5a16fd0b9d06e2e1422ce97f79b16" title="Does the post-load configuration when the template is opened initially (after the chosen template fil...">postLoadConfiguration()</a>. By default templates are loaded as non-georeferenced. </p>
+<p>Does configuration before the actual template is loaded. </p>
+<p>This function is called after the user chooses the template file, but before it is loaded. Derived classes can show dialogs here to get user input which is needed to interpret the template file.</p>
+<p>If the implementation returns false, loading the template is aborted.</p>
+<dl class="section note"><dt>Note</dt><dd>Derived classes should set is_georeferenced either here or in <a class="el" href="classTemplate.html#a18d5a16fd0b9d06e2e1422ce97f79b16" title="Does configuration after the actual template is loaded. ">postLoadConfiguration()</a>. By default templates are loaded as non-georeferenced. </dd></dl>
+
+<p>Reimplemented in <a class="el" href="classOgrTemplate.html#a6f3478f560c06432185bdc7ec3903047">OgrTemplate</a>.</p>
 
 </div>
 </div>
@@ -1954,7 +2012,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Rotates the template around the given point. </p>
-<p>NOTE: for non-georeferenced templates only! </p>
+<dl class="section note"><dt>Note</dt><dd>For non-georeferenced templates only! </dd></dl>
 
 </div>
 </div>
@@ -1982,12 +2040,12 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Saves template parameters such as filename, transformation, adjustment, etc. </p>
-<p>and type-specific parameters (e.g. filtering mode for images) </p>
+<p>Saves template parameters. </p>
+<p>This method saves as common properties such as filename, transformation, adjustment, etc., and it calls saveTypeSpecificTemplateConfiguration for saving type-specific parameters (e.g. filtering mode for images). </p>
 
 </div>
 </div>
-<a class="anchor" id="a4004fcc2876c269c88236fa9072fa26e"></a>
+<a class="anchor" id="a0828aa76104623341aa4b378a26a0c8e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1995,7 +2053,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> Template::saveTemplateFile </td>
+          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> Template::saveTemplateFile </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -2003,13 +2061,13 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Saves the template itself, returns true if successful. </p>
-<p>This is called when saving the map and the template's <a class="el" href="classTemplate.html#a33b9cafcd2ba73af393f06ee468b5e1f">hasUnsavedChanges()</a> returns true </p>
+<p>This is called when saving the map if the template's <a class="el" href="classTemplate.html#a33b9cafcd2ba73af393f06ee468b5e1f">hasUnsavedChanges()</a> is true. </p>
 
 <p>Reimplemented in <a class="el" href="classTemplateImage.html#a492b4d3f59382f04a408ac96c6977202">TemplateImage</a>, and <a class="el" href="classTemplateTrack.html#aaf3c0930da2241e8542a3a6e8006efba">TemplateTrack</a>.</p>
 
@@ -2037,7 +2095,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Derived classes must save type specific template parameters here. </p>
+<p>Hook for saving parameters needed by the actual template type. </p>
+<p>The default implementation does nothing. </p>
 
 <p>Reimplemented in <a class="el" href="classTemplateTrack.html#a97039cd6658300425cd03dd0a53d061d">TemplateTrack</a>, <a class="el" href="classTemplateImage.html#a2c08826fb179e56dae6e0bf0ad621dcf">TemplateImage</a>, and <a class="el" href="classOgrTemplate.html#a07fabd3645075d7c1c96defaff8a06a0">OgrTemplate</a>.</p>
 
@@ -2068,7 +2127,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Scales the template with the given scaling center. </p>
-<p>NOTE: for non-georeferenced templates only! </p>
+<dl class="section note"><dt>Note</dt><dd>For non-georeferenced templates only! </dd></dl>
 
 </div>
 </div>
@@ -2137,7 +2196,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void Template::setOtherTransform </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classTemplateTransform.html">TemplateTransform</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structTemplateTransform.html">TemplateTransform</a> &amp;&#160;</td>
           <td class="paramname"><em>transform</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2167,8 +2226,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Marks the whole area of the template as "to be redrawn". </p>
-<p>Use this before and after modifications to the template transformation. The default implementation marks everything as "to be redrawn" for georeferenced templates and uses the reported extent otherwise </p>
+<p>Marks the whole area of the template as needing a redraw. </p>
+<p>Use this before and after modifications to the template transformation.</p>
+<p>The default implementation marks everything as "to be redrawn" for georeferenced templates and uses the reported extent otherwise. </p>
 
 </div>
 </div>
@@ -2429,7 +2489,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void Template::setTransform </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classTemplateTransform.html">TemplateTransform</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structTemplateTransform.html">TemplateTransform</a> &amp;&#160;</td>
           <td class="paramname"><em>transform</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2634,7 +2694,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a60508fae55f3fb92c903ea2dad90b1d1"></a>
+<a class="anchor" id="afdeec865668c240c69e9ca5478b568bd"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2648,7 +2708,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> *&#160;</td>
-          <td class="paramname"><em>out_loaded_from_map_dir</em> = <code>NULL</code>&#160;</td>
+          <td class="paramname"><em>out_loaded_from_map_dir</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2658,12 +2718,14 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Tries to find and (re-)load the template file from the following positions: </p>
-<ul>
+<p>Tries to find and load the template file non-interactively. </p>
+<p>This function searches for the template in the following locations:</p><ul>
 <li>saved relative position to map file, if available and map_directory is not empty</li>
 <li>absolute position of template file</li>
-<li>template filename in map_directory, if map_directory not empty Returns true if successful. If out_loaded_from_map_dir is given, it is set to true if the template file is successfully loaded using the template filename in the map's directory (3rd option). </li>
+<li>template filename in map_directory, if map_directory not empty</li>
 </ul>
+<p>Returns true if successful.</p>
+<p>If out_loaded_from_map_dir is given, it is set to true if the template file is successfully loaded using the template filename in the map's directory (3rd alternative). </p>
 
 </div>
 </div>
@@ -2706,9 +2768,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Derived classes must unload the template file here. </p>
+<p>Hook for unloading the template file. </p>
 
-<p>Implemented in <a class="el" href="classTemplateImage.html#aee765300ee36275b3894e2080521ca24">TemplateImage</a>, <a class="el" href="classTemplateTrack.html#aacdafed327e2bb05c2c228562153e251">TemplateTrack</a>, and <a class="el" href="classTemplateMap.html#ad8174623de4a66c8781abc1582c20b2c">TemplateMap</a>.</p>
+<p>Implemented in <a class="el" href="classTemplateImage.html#aee765300ee36275b3894e2080521ca24">TemplateImage</a>, <a class="el" href="classTemplateMap.html#ad8174623de4a66c8781abc1582c20b2c">TemplateMap</a>, and <a class="el" href="classTemplateTrack.html#aacdafed327e2bb05c2c228562153e251">TemplateTrack</a>.</p>
 
 </div>
 </div>
@@ -2738,6 +2800,28 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="aca9401879a1452d703452d4b293df5f8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpointf.html">QPointF</a> Template::accounted_offset</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Bounds correction offset for map templates. Must be masked out when saving. </p>
+
+</div>
+</div>
 <a class="anchor" id="ae18aee5e63816d208a58f0f7017b5a9e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2898,7 +2982,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classTemplateTransform.html">TemplateTransform</a> Template::other_transform</td>
+          <td class="memname"><a class="el" href="structTemplateTransform.html">TemplateTransform</a> Template::other_transform</td>
         </tr>
       </table>
   </td>
@@ -3116,7 +3200,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classTemplateTransform.html">TemplateTransform</a> Template::transform</td>
+          <td class="memname"><a class="el" href="structTemplateTransform.html">TemplateTransform</a> Template::transform</td>
         </tr>
       </table>
   </td>
@@ -3131,8 +3215,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/templates/<a class="el" href="template_8h.html">template.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/9ee00e4/src/templates/template.h"><tt>9ee00e4</tt></a> on 8 Jan 2017)</li>
-<li>src/templates/<a class="el" href="template_8cpp.html">template.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/9ee00e4/src/templates/template.cpp"><tt>9ee00e4</tt></a> on 8 Jan 2017)</li>
+<li>src/templates/<a class="el" href="template_8h.html">template.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/523acb5/src/templates/template.h"><tt>523acb5</tt></a> on 27 Jan 2017)</li>
+<li>src/templates/<a class="el" href="template_8cpp.html">template.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/10e9a58/src/templates/template.cpp"><tt>10e9a58</tt></a> on 1 Mar 2017)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.6.7</span>
+   &#160;<span id="projectnumber">0.7.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -90,6 +90,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-slots">Public Slots</a> &#124;
+<a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#friends">Friends</a> &#124;
@@ -118,7 +119,7 @@ Collaboration diagram for MapWidget:</div>
 <div class="dyncontent">
 <div class="center"><img src="classMapWidget__coll__graph.png" border="0" usemap="#MapWidget_coll__map" alt="Collaboration graph"/></div>
 <map name="MapWidget_coll__map" id="MapWidget_coll__map">
-<area shape="rect" id="node2" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html" title="QWidget" alt="" coords="115,95,188,121"/>
+<area shape="rect" id="node2" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html" title="QWidget" alt="" coords="59,80,132,107"/>
 <area shape="rect" id="node3" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html" title="QObject" alt="" coords="5,5,76,32"/>
 <area shape="rect" id="node4" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpaintdevice.html" title="QPaintDevice" alt="" coords="100,5,203,32"/>
 </map>
@@ -141,9 +142,18 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-slots"></a>
 Public Slots</h2></td></tr>
+<tr class="memitem:ac9a8532499597dae9dce1902ceafca29"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qvariant.html">QVariant</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#ac9a8532499597dae9dce1902ceafca29">inputMethodQuery</a> (Qt::InputMethodQuery <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#property">property</a>, <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qvariant.html">QVariant</a> argument) const </td></tr>
+<tr class="memdesc:ac9a8532499597dae9dce1902ceafca29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Support function for input methods.  <a href="#ac9a8532499597dae9dce1902ceafca29">More...</a><br /></td></tr>
+<tr class="separator:ac9a8532499597dae9dce1902ceafca29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac785e65a8dd936e5a3d01a7979e5a6b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#aac785e65a8dd936e5a3d01a7979e5a6b">enableTouchCursor</a> (<a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> <a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html#enabled-prop">enabled</a>)</td></tr>
 <tr class="memdesc:aac785e65a8dd936e5a3d01a7979e5a6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables or disables the touch cursor.  <a href="#aac785e65a8dd936e5a3d01a7979e5a6b">More...</a><br /></td></tr>
 <tr class="separator:aac785e65a8dd936e5a3d01a7979e5a6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="signals"></a>
+Signals</h2></td></tr>
+<tr class="memitem:a1724c5ce8dfe2a81a09be72f55790f9c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#a1724c5ce8dfe2a81a09be72f55790f9c">cursorPositionChanged</a> ()</td></tr>
+<tr class="memdesc:a1724c5ce8dfe2a81a09be72f55790f9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Support function for input methods.  <a href="#a1724c5ce8dfe2a81a09be72f55790f9c">More...</a><br /></td></tr>
+<tr class="separator:a1724c5ce8dfe2a81a09be72f55790f9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -294,15 +304,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8b3c303bbbc5ad64de25d8c4b6b907c3"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html">QWidget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#a8b3c303bbbc5ad64de25d8c4b6b907c3">getContextMenu</a> ()</td></tr>
 <tr class="memdesc:a8b3c303bbbc5ad64de25d8c4b6b907c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the widget's context menu widget.  <a href="#a8b3c303bbbc5ad64de25d8c4b6b907c3">More...</a><br /></td></tr>
 <tr class="separator:a8b3c303bbbc5ad64de25d8c4b6b907c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9051a6bd0d2159575deaadd2d1b19056"><td class="memItemLeft" align="right" valign="top">virtual <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qsize.html">QSize</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#a9051a6bd0d2159575deaadd2d1b19056">sizeHint</a> () const </td></tr>
-<tr class="memdesc:a9051a6bd0d2159575deaadd2d1b19056"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the widget's preferred size.  <a href="#a9051a6bd0d2159575deaadd2d1b19056">More...</a><br /></td></tr>
-<tr class="separator:a9051a6bd0d2159575deaadd2d1b19056"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21bbd4313fe18a570d5b2113d0a5b289"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#a21bbd4313fe18a570d5b2113d0a5b289">keyPressEventFilter</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qkeyevent.html">QKeyEvent</a> *<a class="el" href="classMapWidget.html#ae3e3d131448a6a355fa25ee6908b4601">event</a>)</td></tr>
+<tr class="memitem:a0359d1095219a9299200604c6612f903"><td class="memItemLeft" align="right" valign="top">virtual <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qsize.html">QSize</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#a0359d1095219a9299200604c6612f903">sizeHint</a> () const override</td></tr>
+<tr class="memdesc:a0359d1095219a9299200604c6612f903"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the widget's preferred size.  <a href="#a0359d1095219a9299200604c6612f903">More...</a><br /></td></tr>
+<tr class="separator:a0359d1095219a9299200604c6612f903"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21bbd4313fe18a570d5b2113d0a5b289"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#a21bbd4313fe18a570d5b2113d0a5b289">keyPressEventFilter</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qkeyevent.html">QKeyEvent</a> *<a class="el" href="classMapWidget.html#aa4fc2e8dff160892f7361c4761d311d7">event</a>)</td></tr>
 <tr class="memdesc:a21bbd4313fe18a570d5b2113d0a5b289"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receives key press events from the main window. Delegates the keyPress to the active tool, or handles some shortcuts itself.  <a href="#a21bbd4313fe18a570d5b2113d0a5b289">More...</a><br /></td></tr>
 <tr class="separator:a21bbd4313fe18a570d5b2113d0a5b289"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80132026301a9efa3143e6d64fca3aa7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#a80132026301a9efa3143e6d64fca3aa7">keyReleaseEventFilter</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qkeyevent.html">QKeyEvent</a> *<a class="el" href="classMapWidget.html#ae3e3d131448a6a355fa25ee6908b4601">event</a>)</td></tr>
+<tr class="memitem:a80132026301a9efa3143e6d64fca3aa7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#a80132026301a9efa3143e6d64fca3aa7">keyReleaseEventFilter</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qkeyevent.html">QKeyEvent</a> *<a class="el" href="classMapWidget.html#aa4fc2e8dff160892f7361c4761d311d7">event</a>)</td></tr>
 <tr class="memdesc:a80132026301a9efa3143e6d64fca3aa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receives key press events from the main window. Delegates the keyRelease to the active tool.  <a href="#a80132026301a9efa3143e6d64fca3aa7">More...</a><br /></td></tr>
 <tr class="separator:a80132026301a9efa3143e6d64fca3aa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af162fe001a54c95dcf1218c991ea7f0a"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qvariant.html">QVariant</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#af162fe001a54c95dcf1218c991ea7f0a">inputMethodQuery</a> (Qt::InputMethodQuery <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#property">property</a>) const override</td></tr>
+<tr class="memdesc:af162fe001a54c95dcf1218c991ea7f0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Support function for input methods.  <a href="#af162fe001a54c95dcf1218c991ea7f0a">More...</a><br /></td></tr>
+<tr class="separator:af162fe001a54c95dcf1218c991ea7f0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_qwidget"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_qwidget')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="http://doc.qt.io/qt-5/qwidget.html">QWidget</a></td></tr>
 <tr class="memitem:QWidget inherit pub_methods_qwidget"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html#QWidget">QWidget</a> (<a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html">QWidget</a> *<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#parent">parent</a>, <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qt.html#WindowType-enum">Qt::WindowFlags</a> f)</td></tr>
 <tr class="separator:QWidget inherit pub_methods_qwidget"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -778,8 +791,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:windowIconTextChanged inherit pub_methods_qwidget"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:customContextMenuRequested inherit pub_methods_qwidget"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html#customContextMenuRequested">customContextMenuRequested</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpoint.html">QPoint</a> &amp;<a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html#pos-prop">pos</a>)</td></tr>
 <tr class="separator:customContextMenuRequested inherit pub_methods_qwidget"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:inputMethodQuery inherit pub_methods_qwidget"><td class="memItemLeft" align="right" valign="top">virtual <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qvariant.html">QVariant</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html#inputMethodQuery">inputMethodQuery</a> (Qt::InputMethodQuery query) const</td></tr>
-<tr class="separator:inputMethodQuery inherit pub_methods_qwidget"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:inputMethodHints-prop inherit pub_methods_qwidget"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qt.html#InputMethodHint-enum">Qt::InputMethodHints</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html#inputMethodHints-prop">inputMethodHints</a> () const</td></tr>
 <tr class="separator:inputMethodHints-prop inherit pub_methods_qwidget"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:inputMethodHints-prop inherit pub_methods_qwidget"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html#inputMethodHints-prop">setInputMethodHints</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qt.html#InputMethodHint-enum">Qt::InputMethodHints</a> hints)</td></tr>
@@ -887,38 +898,40 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:ae3e3d131448a6a355fa25ee6908b4601"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#ae3e3d131448a6a355fa25ee6908b4601">event</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qevent.html">QEvent</a> *event)</td></tr>
-<tr class="separator:ae3e3d131448a6a355fa25ee6908b4601"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acfc5042f29786028c5e941d9c581128f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#acfc5042f29786028c5e941d9c581128f">gestureEvent</a> (<a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qgestureevent.html">QGestureEvent</a> *<a class="el" href="classMapWidget.html#ae3e3d131448a6a355fa25ee6908b4601">event</a>)</td></tr>
+<tr class="memitem:aa4fc2e8dff160892f7361c4761d311d7"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#aa4fc2e8dff160892f7361c4761d311d7">event</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qevent.html">QEvent</a> *event) override</td></tr>
+<tr class="separator:aa4fc2e8dff160892f7361c4761d311d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfc5042f29786028c5e941d9c581128f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#acfc5042f29786028c5e941d9c581128f">gestureEvent</a> (<a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qgestureevent.html">QGestureEvent</a> *<a class="el" href="classMapWidget.html#aa4fc2e8dff160892f7361c4761d311d7">event</a>)</td></tr>
 <tr class="separator:acfc5042f29786028c5e941d9c581128f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9bee7d2b774fb5a49f7d804d820e446c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#a9bee7d2b774fb5a49f7d804d820e446c">paintEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpaintevent.html">QPaintEvent</a> *<a class="el" href="classMapWidget.html#ae3e3d131448a6a355fa25ee6908b4601">event</a>)</td></tr>
-<tr class="separator:a9bee7d2b774fb5a49f7d804d820e446c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa1c597db1bc33cd9e4192579301badc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#afa1c597db1bc33cd9e4192579301badc">resizeEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qresizeevent.html">QResizeEvent</a> *<a class="el" href="classMapWidget.html#ae3e3d131448a6a355fa25ee6908b4601">event</a>)</td></tr>
-<tr class="separator:afa1c597db1bc33cd9e4192579301badc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57d90db17c52492f4390bbe8c2bc06d3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#a57d90db17c52492f4390bbe8c2bc06d3">mousePressEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmouseevent.html">QMouseEvent</a> *<a class="el" href="classMapWidget.html#ae3e3d131448a6a355fa25ee6908b4601">event</a>)</td></tr>
-<tr class="separator:a57d90db17c52492f4390bbe8c2bc06d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aced84bf8386dfcfb975244f07952c8c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#aced84bf8386dfcfb975244f07952c8c6">_mousePressEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmouseevent.html">QMouseEvent</a> *<a class="el" href="classMapWidget.html#ae3e3d131448a6a355fa25ee6908b4601">event</a>)</td></tr>
+<tr class="memitem:a5f8bd5f995e15b66ac48b7fbb9243726"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#a5f8bd5f995e15b66ac48b7fbb9243726">paintEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpaintevent.html">QPaintEvent</a> *<a class="el" href="classMapWidget.html#aa4fc2e8dff160892f7361c4761d311d7">event</a>) override</td></tr>
+<tr class="separator:a5f8bd5f995e15b66ac48b7fbb9243726"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab592d95fedf75d119f24d735cee48731"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#ab592d95fedf75d119f24d735cee48731">resizeEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qresizeevent.html">QResizeEvent</a> *<a class="el" href="classMapWidget.html#aa4fc2e8dff160892f7361c4761d311d7">event</a>) override</td></tr>
+<tr class="separator:ab592d95fedf75d119f24d735cee48731"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa48e5f8c7c771113afef4c63d8c0f6c4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#aa48e5f8c7c771113afef4c63d8c0f6c4">mousePressEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmouseevent.html">QMouseEvent</a> *<a class="el" href="classMapWidget.html#aa4fc2e8dff160892f7361c4761d311d7">event</a>) override</td></tr>
+<tr class="separator:aa48e5f8c7c771113afef4c63d8c0f6c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aced84bf8386dfcfb975244f07952c8c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#aced84bf8386dfcfb975244f07952c8c6">_mousePressEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmouseevent.html">QMouseEvent</a> *<a class="el" href="classMapWidget.html#aa4fc2e8dff160892f7361c4761d311d7">event</a>)</td></tr>
 <tr class="separator:aced84bf8386dfcfb975244f07952c8c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d2727002f0618c5c6fbe5428eef1efc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#a2d2727002f0618c5c6fbe5428eef1efc">mouseMoveEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmouseevent.html">QMouseEvent</a> *<a class="el" href="classMapWidget.html#ae3e3d131448a6a355fa25ee6908b4601">event</a>)</td></tr>
-<tr class="separator:a2d2727002f0618c5c6fbe5428eef1efc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8dc12bfc1c94f98ca116825cb31e59d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#a8dc12bfc1c94f98ca116825cb31e59d1">_mouseMoveEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmouseevent.html">QMouseEvent</a> *<a class="el" href="classMapWidget.html#ae3e3d131448a6a355fa25ee6908b4601">event</a>)</td></tr>
+<tr class="memitem:ac4fa5570db0c7035e90f990ae9c0ea27"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#ac4fa5570db0c7035e90f990ae9c0ea27">mouseMoveEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmouseevent.html">QMouseEvent</a> *<a class="el" href="classMapWidget.html#aa4fc2e8dff160892f7361c4761d311d7">event</a>) override</td></tr>
+<tr class="separator:ac4fa5570db0c7035e90f990ae9c0ea27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dc12bfc1c94f98ca116825cb31e59d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#a8dc12bfc1c94f98ca116825cb31e59d1">_mouseMoveEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmouseevent.html">QMouseEvent</a> *<a class="el" href="classMapWidget.html#aa4fc2e8dff160892f7361c4761d311d7">event</a>)</td></tr>
 <tr class="separator:a8dc12bfc1c94f98ca116825cb31e59d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3485c83bc22e78b3b0f000a9dc8c605"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#ae3485c83bc22e78b3b0f000a9dc8c605">mouseReleaseEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmouseevent.html">QMouseEvent</a> *<a class="el" href="classMapWidget.html#ae3e3d131448a6a355fa25ee6908b4601">event</a>)</td></tr>
-<tr class="separator:ae3485c83bc22e78b3b0f000a9dc8c605"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85201d7cc67048902a7821dc5ffd8b96"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#a85201d7cc67048902a7821dc5ffd8b96">_mouseReleaseEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmouseevent.html">QMouseEvent</a> *<a class="el" href="classMapWidget.html#ae3e3d131448a6a355fa25ee6908b4601">event</a>)</td></tr>
+<tr class="memitem:a88af0745f1ebbbdd1b5d48518dbcd4d9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#a88af0745f1ebbbdd1b5d48518dbcd4d9">mouseReleaseEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmouseevent.html">QMouseEvent</a> *<a class="el" href="classMapWidget.html#aa4fc2e8dff160892f7361c4761d311d7">event</a>) override</td></tr>
+<tr class="separator:a88af0745f1ebbbdd1b5d48518dbcd4d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85201d7cc67048902a7821dc5ffd8b96"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#a85201d7cc67048902a7821dc5ffd8b96">_mouseReleaseEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmouseevent.html">QMouseEvent</a> *<a class="el" href="classMapWidget.html#aa4fc2e8dff160892f7361c4761d311d7">event</a>)</td></tr>
 <tr class="separator:a85201d7cc67048902a7821dc5ffd8b96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39c4a1937ab7775bbf442f01a096d2c5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#a39c4a1937ab7775bbf442f01a096d2c5">mouseDoubleClickEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmouseevent.html">QMouseEvent</a> *<a class="el" href="classMapWidget.html#ae3e3d131448a6a355fa25ee6908b4601">event</a>)</td></tr>
-<tr class="separator:a39c4a1937ab7775bbf442f01a096d2c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa783cd7196d4a92744e4cf836ede8f48"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#aa783cd7196d4a92744e4cf836ede8f48">_mouseDoubleClickEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmouseevent.html">QMouseEvent</a> *<a class="el" href="classMapWidget.html#ae3e3d131448a6a355fa25ee6908b4601">event</a>)</td></tr>
+<tr class="memitem:ae76b470447901f89076b2bb6c652a757"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#ae76b470447901f89076b2bb6c652a757">mouseDoubleClickEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmouseevent.html">QMouseEvent</a> *<a class="el" href="classMapWidget.html#aa4fc2e8dff160892f7361c4761d311d7">event</a>) override</td></tr>
+<tr class="separator:ae76b470447901f89076b2bb6c652a757"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa783cd7196d4a92744e4cf836ede8f48"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#aa783cd7196d4a92744e4cf836ede8f48">_mouseDoubleClickEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmouseevent.html">QMouseEvent</a> *<a class="el" href="classMapWidget.html#aa4fc2e8dff160892f7361c4761d311d7">event</a>)</td></tr>
 <tr class="separator:aa783cd7196d4a92744e4cf836ede8f48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7cec4314b41063ebe08248e91fbf386d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#a7cec4314b41063ebe08248e91fbf386d">wheelEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwheelevent.html">QWheelEvent</a> *<a class="el" href="classMapWidget.html#ae3e3d131448a6a355fa25ee6908b4601">event</a>)</td></tr>
-<tr class="separator:a7cec4314b41063ebe08248e91fbf386d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75b13c7b13dbc4761c21a87e60603e94"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#a75b13c7b13dbc4761c21a87e60603e94">leaveEvent</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qevent.html">QEvent</a> *<a class="el" href="classMapWidget.html#ae3e3d131448a6a355fa25ee6908b4601">event</a>)</td></tr>
-<tr class="separator:a75b13c7b13dbc4761c21a87e60603e94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91fc2c85617e4c9e1305933831ea16e1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#a91fc2c85617e4c9e1305933831ea16e1">focusOutEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qfocusevent.html">QFocusEvent</a> *<a class="el" href="classMapWidget.html#ae3e3d131448a6a355fa25ee6908b4601">event</a>)</td></tr>
-<tr class="separator:a91fc2c85617e4c9e1305933831ea16e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52c0d22f3b95380297c7ee374a9cd542"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#a52c0d22f3b95380297c7ee374a9cd542">contextMenuEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qcontextmenuevent.html">QContextMenuEvent</a> *<a class="el" href="classMapWidget.html#ae3e3d131448a6a355fa25ee6908b4601">event</a>)</td></tr>
-<tr class="separator:a52c0d22f3b95380297c7ee374a9cd542"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a417abfa08f513ccdb2d205145891985d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#a417abfa08f513ccdb2d205145891985d">wheelEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwheelevent.html">QWheelEvent</a> *<a class="el" href="classMapWidget.html#aa4fc2e8dff160892f7361c4761d311d7">event</a>) override</td></tr>
+<tr class="separator:a417abfa08f513ccdb2d205145891985d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50740ff4eb971f7fa60b0f55a91c0d50"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#a50740ff4eb971f7fa60b0f55a91c0d50">leaveEvent</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qevent.html">QEvent</a> *<a class="el" href="classMapWidget.html#aa4fc2e8dff160892f7361c4761d311d7">event</a>) override</td></tr>
+<tr class="separator:a50740ff4eb971f7fa60b0f55a91c0d50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53195bc46aaa67962a466d099430ac4b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#a53195bc46aaa67962a466d099430ac4b">inputMethodEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qinputmethodevent.html">QInputMethodEvent</a> *<a class="el" href="classMapWidget.html#aa4fc2e8dff160892f7361c4761d311d7">event</a>) override</td></tr>
+<tr class="separator:a53195bc46aaa67962a466d099430ac4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f9727a59fa26912994cc6503eb3234d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#a9f9727a59fa26912994cc6503eb3234d">focusOutEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qfocusevent.html">QFocusEvent</a> *<a class="el" href="classMapWidget.html#aa4fc2e8dff160892f7361c4761d311d7">event</a>) override</td></tr>
+<tr class="separator:a9f9727a59fa26912994cc6503eb3234d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3efc403f3cdb0a976da821dddec88bcd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWidget.html#a3efc403f3cdb0a976da821dddec88bcd">contextMenuEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qcontextmenuevent.html">QContextMenuEvent</a> *<a class="el" href="classMapWidget.html#aa4fc2e8dff160892f7361c4761d311d7">event</a>) override</td></tr>
+<tr class="separator:a3efc403f3cdb0a976da821dddec88bcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_qwidget"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_qwidget')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="http://doc.qt.io/qt-5/qwidget.html">QWidget</a></td></tr>
 <tr class="memitem:keyPressEvent inherit pro_methods_qwidget"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html#keyPressEvent">keyPressEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qkeyevent.html">QKeyEvent</a> *<a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html#event">event</a>)</td></tr>
 <tr class="separator:keyPressEvent inherit pro_methods_qwidget"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -956,8 +969,6 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:metric inherit pro_methods_qwidget"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:initPainter inherit pro_methods_qwidget"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html#initPainter">initPainter</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpainter.html">QPainter</a> *painter) const</td></tr>
 <tr class="separator:initPainter inherit pro_methods_qwidget"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:inputMethodEvent inherit pro_methods_qwidget"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html#inputMethodEvent">inputMethodEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qinputmethodevent.html">QInputMethodEvent</a> *<a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html#event">event</a>)</td></tr>
-<tr class="separator:inputMethodEvent inherit pro_methods_qwidget"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:updateMicroFocus inherit pro_methods_qwidget"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html#updateMicroFocus">updateMicroFocus</a> ()</td></tr>
 <tr class="separator:updateMicroFocus inherit pro_methods_qwidget"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:create inherit pro_methods_qwidget"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html#create">create</a> (WId <a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html#window">window</a>, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> initializeWindow, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> destroyOldWindow)</td></tr>
@@ -1460,7 +1471,7 @@ The <b>above template cache</b> contains the currently visible part of all templ
 
 </div>
 </div>
-<a class="anchor" id="a52c0d22f3b95380297c7ee374a9cd542"></a>
+<a class="anchor" id="a3efc403f3cdb0a976da821dddec88bcd"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1477,12 +1488,37 @@ The <b>above template cache</b> contains the currently visible part of all templ
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html#contextMenuEvent">QWidget</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1724c5ce8dfe2a81a09be72f55790f9c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MapWidget::cursorPositionChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Support function for input methods. </p>
 
 </div>
 </div>
@@ -1540,7 +1576,7 @@ The <b>above template cache</b> contains the currently visible part of all templ
 
 </div>
 </div>
-<a class="anchor" id="ae3e3d131448a6a355fa25ee6908b4601"></a>
+<a class="anchor" id="aa4fc2e8dff160892f7361c4761d311d7"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1557,7 +1593,7 @@ The <b>above template cache</b> contains the currently visible part of all templ
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1566,7 +1602,7 @@ The <b>above template cache</b> contains the currently visible part of all templ
 
 </div>
 </div>
-<a class="anchor" id="a91fc2c85617e4c9e1305933831ea16e1"></a>
+<a class="anchor" id="a9f9727a59fa26912994cc6503eb3234d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1583,7 +1619,7 @@ The <b>above template cache</b> contains the currently visible part of all templ
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1725,6 +1761,97 @@ The <b>above template cache</b> contains the currently visible part of all templ
 
 </div>
 </div>
+<a class="anchor" id="a53195bc46aaa67962a466d099430ac4b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MapWidget::inputMethodEvent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qinputmethodevent.html">QInputMethodEvent</a> *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html#inputMethodEvent">QWidget</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af162fe001a54c95dcf1218c991ea7f0a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qvariant.html">QVariant</a> MapWidget::inputMethodQuery </td>
+          <td>(</td>
+          <td class="paramtype">Qt::InputMethodQuery&#160;</td>
+          <td class="paramname"><em>property</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Support function for input methods. </p>
+
+<p>Reimplemented from <a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html#inputMethodQuery">QWidget</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac9a8532499597dae9dce1902ceafca29"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qvariant.html">QVariant</a> MapWidget::inputMethodQuery </td>
+          <td>(</td>
+          <td class="paramtype">Qt::InputMethodQuery&#160;</td>
+          <td class="paramname"><em>property</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qvariant.html">QVariant</a>&#160;</td>
+          <td class="paramname"><em>argument</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Support function for input methods. </p>
+<p>This two-argument form is undocumented but attempted to call in <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qinputmethod.html#queryFocusObject">QInputMethod::queryFocusObject</a> before doing the query via an event. </p>
+
+</div>
+</div>
 <a class="anchor" id="a21bbd4313fe18a570d5b2113d0a5b289"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1761,7 +1888,7 @@ The <b>above template cache</b> contains the currently visible part of all templ
 
 </div>
 </div>
-<a class="anchor" id="a75b13c7b13dbc4761c21a87e60603e94"></a>
+<a class="anchor" id="a50740ff4eb971f7fa60b0f55a91c0d50"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1778,7 +1905,7 @@ The <b>above template cache</b> contains the currently visible part of all templ
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1928,7 +2055,7 @@ The <b>above template cache</b> contains the currently visible part of all templ
 
 </div>
 </div>
-<a class="anchor" id="a39c4a1937ab7775bbf442f01a096d2c5"></a>
+<a class="anchor" id="ae76b470447901f89076b2bb6c652a757"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1945,7 +2072,7 @@ The <b>above template cache</b> contains the currently visible part of all templ
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1954,7 +2081,7 @@ The <b>above template cache</b> contains the currently visible part of all templ
 
 </div>
 </div>
-<a class="anchor" id="a2d2727002f0618c5c6fbe5428eef1efc"></a>
+<a class="anchor" id="ac4fa5570db0c7035e90f990ae9c0ea27"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1971,7 +2098,7 @@ The <b>above template cache</b> contains the currently visible part of all templ
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1980,7 +2107,7 @@ The <b>above template cache</b> contains the currently visible part of all templ
 
 </div>
 </div>
-<a class="anchor" id="a57d90db17c52492f4390bbe8c2bc06d3"></a>
+<a class="anchor" id="aa48e5f8c7c771113afef4c63d8c0f6c4"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1997,7 +2124,7 @@ The <b>above template cache</b> contains the currently visible part of all templ
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2006,7 +2133,7 @@ The <b>above template cache</b> contains the currently visible part of all templ
 
 </div>
 </div>
-<a class="anchor" id="ae3485c83bc22e78b3b0f000a9dc8c605"></a>
+<a class="anchor" id="a88af0745f1ebbbdd1b5d48518dbcd4d9"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2023,7 +2150,7 @@ The <b>above template cache</b> contains the currently visible part of all templ
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2032,7 +2159,7 @@ The <b>above template cache</b> contains the currently visible part of all templ
 
 </div>
 </div>
-<a class="anchor" id="a9bee7d2b774fb5a49f7d804d820e446c"></a>
+<a class="anchor" id="a5f8bd5f995e15b66ac48b7fbb9243726"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2049,7 +2176,7 @@ The <b>above template cache</b> contains the currently visible part of all templ
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2083,7 +2210,7 @@ The <b>above template cache</b> contains the currently visible part of all templ
 
 </div>
 </div>
-<a class="anchor" id="afa1c597db1bc33cd9e4192579301badc"></a>
+<a class="anchor" id="ab592d95fedf75d119f24d735cee48731"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2100,7 +2227,7 @@ The <b>above template cache</b> contains the currently visible part of all templ
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2396,7 +2523,7 @@ The <b>above template cache</b> contains the currently visible part of all templ
 
 </div>
 </div>
-<a class="anchor" id="a9051a6bd0d2159575deaadd2d1b19056"></a>
+<a class="anchor" id="a0359d1095219a9299200604c6612f903"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2412,7 +2539,7 @@ The <b>above template cache</b> contains the currently visible part of all templ
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2782,7 +2909,7 @@ The <b>above template cache</b> contains the currently visible part of all templ
 
 </div>
 </div>
-<a class="anchor" id="a7cec4314b41063ebe08248e91fbf386d"></a>
+<a class="anchor" id="a417abfa08f513ccdb2d205145891985d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2799,7 +2926,7 @@ The <b>above template cache</b> contains the currently visible part of all templ
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2830,8 +2957,8 @@ The <b>above template cache</b> contains the currently visible part of all templ
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/gui/map/<a class="el" href="map__widget_8h.html">map_widget.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/5351f68/src/gui/map/map_widget.h"><tt>5351f68</tt></a> on 8 Jan 2017)</li>
-<li>src/gui/map/<a class="el" href="map__widget_8cpp.html">map_widget.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/9ee00e4/src/gui/map/map_widget.cpp"><tt>9ee00e4</tt></a> on 8 Jan 2017)</li>
+<li>src/gui/map/<a class="el" href="map__widget_8h.html">map_widget.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/ed7798c/src/gui/map/map_widget.h"><tt>ed7798c</tt></a> on 6 Feb 2017)</li>
+<li>src/gui/map/<a class="el" href="map__widget_8cpp.html">map_widget.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/b3e622b/src/gui/map/map_widget.cpp"><tt>b3e622b</tt></a> on 8 Dec 2016)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

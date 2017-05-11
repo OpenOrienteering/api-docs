@@ -32,8 +32,6 @@ var searchData=
   ['ogr_5ffile_5fformat_5fp_2eh',['ogr_file_format_p.h',['../ogr__file__format__p_8h.html',1,'']]],
   ['ogr_5ftemplate_2ecpp',['ogr_template.cpp',['../ogr__template_8cpp.html',1,'']]],
   ['ogr_5ftemplate_2eh',['ogr_template.h',['../ogr__template_8h.html',1,'']]],
-  ['oo_5fprintdialog_2eh',['oo_printdialog.h',['../oo__printdialog_8h.html',1,'']]],
-  ['oo_5fprintdialog_5fwin_2ecpp',['oo_printdialog_win.cpp',['../oo__printdialog__win_8cpp.html',1,'']]],
   ['overriding_5fshortcut_2ecpp',['overriding_shortcut.cpp',['../overriding__shortcut_8cpp.html',1,'']]],
   ['overriding_5fshortcut_2eh',['overriding_shortcut.h',['../overriding__shortcut_8h.html',1,'']]]
 ];

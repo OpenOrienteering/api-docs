@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.6.7</span>
+   &#160;<span id="projectnumber">0.7.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -118,13 +118,13 @@ Collaboration diagram for PathObject:</div>
 <div class="dyncontent">
 <div class="center"><img src="classPathObject__coll__graph.png" border="0" usemap="#PathObject_coll__map" alt="Collaboration graph"/></div>
 <map name="PathObject_coll__map" id="PathObject_coll__map">
-<area shape="rect" id="node2" href="classObject.html" title="Abstract base class which combines coordinates and a symbol to form an object (in a map..." alt="" coords="236,435,296,461"/>
-<area shape="rect" id="node3" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qhash.html" title="QHash\&lt; QString, QString \&gt;" alt="" coords="5,293,188,320"/>
-<area shape="rect" id="node8" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html" title="QString" alt="" coords="183,241,250,268"/>
-<area shape="rect" id="node5" href="classMap.html" title="Central class for an OpenOrienteering map. " alt="" coords="284,345,331,372"/>
-<area shape="rect" id="node6" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html" title="QObject" alt="" coords="275,241,345,268"/>
-<area shape="rect" id="node7" href="classSymbol.html" title="Abstract base class for map symbols. " alt="" coords="193,345,259,372"/>
-<area shape="rect" id="node10" href="classMapCoord.html" title="Coordinates of a point in a map, with optional flags. " alt="" coords="398,241,481,268"/>
+<area shape="rect" id="node2" href="classObject.html" title="Abstract base class which combines coordinates and a symbol to form an object (in a map..." alt="" coords="245,199,305,225"/>
+<area shape="rect" id="node3" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qhash.html" title="QHash\&lt; QString, QString \&gt;" alt="" coords="5,109,188,136"/>
+<area shape="rect" id="node4" href="classMap.html" title="Central class for an OpenOrienteering map. " alt="" coords="212,109,259,136"/>
+<area shape="rect" id="node5" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html" title="QObject" alt="" coords="195,5,265,32"/>
+<area shape="rect" id="node6" href="classSymbol.html" title="Abstract base class for map symbols. " alt="" coords="283,109,350,136"/>
+<area shape="rect" id="node7" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html" title="QString" alt="" coords="290,5,357,32"/>
+<area shape="rect" id="node9" href="classMapCoord.html" title="Coordinates of a point in a map, with optional flags. " alt="" coords="417,5,499,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -796,7 +796,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Calculates and adds all intersections with the other path to out. </p>
 <p>Note: intersections are not sorted and may contain duplicates! To clean them up, call clean() on the <a class="el" href="classPathObject_1_1Intersections.html" title="std::vector of Intersection with the ability to sort them and remove duplicates. ">Intersections</a> object after adding all intersections with objects you are interested in. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000012">Todo:</a></b></dt><dd>FIXME: part_index or other_part_index ??? </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000013">Todo:</a></b></dt><dd>FIXME: part_index or other_part_index ??? </dd></dl>
 
 </div>
 </div>
@@ -1044,7 +1044,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Calculates the closest control point coordinate to the given coordiante, returns the squared distance of these points and the index of the control point. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000016">Todo:</a></b></dt><dd><p class="startdd">Convert out_distance_sq to double (so avoiding conversions). </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000017">Todo:</a></b></dt><dd><p class="startdd">Convert out_distance_sq to double (so avoiding conversions). </p>
 <p class="enddd">Return index rather than writing to the provided reference. </p>
 </dd></dl>
 
@@ -1094,10 +1094,10 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Calculates the closest point on the path to the given coordinate, returns the squared distance of these points and <a class="el" href="classPathCoord.html" title="A PathCoord represents a node in a polygonal approximation of a path. ">PathCoord</a> information for the point on the path. </p>
 <p>This does not need to be an existing path coordinate. This method is usually called to find the position on the path the user clicked on. part_index can be set to a valid part index to constrain searching to this specific path part.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000015">Todo:</a></b></dt><dd><p class="startdd">Convert out_distance_sq to double (so avoiding conversions). </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000016">Todo:</a></b></dt><dd><p class="startdd">Convert out_distance_sq to double (so avoiding conversions). </p>
 <p class="enddd">Return <a class="el" href="classPathCoord.html" title="A PathCoord represents a node in a polygonal approximation of a path. ">PathCoord</a> rather than writing to the provided reference. </p>
 </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000011">Todo:</a></b></dt><dd>Legacy compatibility, review/remove </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000012">Todo:</a></b></dt><dd>Legacy compatibility, review/remove </dd></dl>
 
 </div>
 </div>
@@ -1206,7 +1206,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Replaces the path with a range of it starting and ending at the given lengths. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000018">Todo:</a></b></dt><dd>Partially duplicated in LineSymbol::calculatePathCoordinates() </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000019">Todo:</a></b></dt><dd>Partially duplicated in LineSymbol::calculatePathCoordinates() </dd></dl>
 
 </div>
 </div>
@@ -1271,7 +1271,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Returns if the objects were connected (if so, you can delete the other object). </p>
 <p>If one of the paths has to be reversed, it is done for the "other" path. Otherwise, the "other" path is not changed.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000017">Todo:</a></b></dt><dd>Review documentation, container usage, </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000018">Todo:</a></b></dt><dd>Review documentation, container usage, </dd></dl>
 
 </div>
 </div>
@@ -1553,7 +1553,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Finds the path part containing the given coord index. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000014">Todo:</a></b></dt><dd>Review where this signature can be replace by the one returning an iterator. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000015">Todo:</a></b></dt><dd>Review where this signature can be replace by the one returning an iterator. </dd></dl>
 
 </div>
 </div>
@@ -2336,7 +2336,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/core/objects/<a class="el" href="object_8h.html">object.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/b7c2de8/src/core/objects/object.h"><tt>b7c2de8</tt></a> on 8 Jan 2017)</li>
-<li>src/core/objects/<a class="el" href="object_8cpp.html">object.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/9ee00e4/src/core/objects/object.cpp"><tt>9ee00e4</tt></a> on 8 Jan 2017)</li>
+<li>src/core/objects/<a class="el" href="object_8cpp.html">object.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/553223f/src/core/objects/object.cpp"><tt>553223f</tt></a> on 30 Jan 2017)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

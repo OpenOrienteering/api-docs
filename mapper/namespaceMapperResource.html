@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.6.7</span>
+   &#160;<span id="projectnumber">0.7.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -86,187 +86,34 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">MapperResource Namespace Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Private <a class="el" href="namespaceMapperResource.html" title="Private MapperResource utilities. ">MapperResource</a> utilities.  
-<a href="#details">More...</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a5b7343a122f471c31387fa218f4fb8d9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMapperResource.html#a5b7343a122f471c31387fa218f4fb8d9">RESOURCE_TYPE</a> { <br />
-&#160;&#160;<a class="el" href="namespaceMapperResource.html#a5b7343a122f471c31387fa218f4fb8d9a4caef38690cf98ef3276bfb0e259d3a5">ASSISTANT</a>, 
-<a class="el" href="namespaceMapperResource.html#a5b7343a122f471c31387fa218f4fb8d9a55e8fcc7207963c1982945eaeec80059">EXAMPLE</a>, 
-<a class="el" href="namespaceMapperResource.html#a5b7343a122f471c31387fa218f4fb8d9a265931ab58d80192603ae7a0eba49a44">GDAL_DATA</a>, 
-<a class="el" href="namespaceMapperResource.html#a5b7343a122f471c31387fa218f4fb8d9a79fec720619d6367388a1266526c1ce1">MANUAL</a>, 
-<br />
-&#160;&#160;<a class="el" href="namespaceMapperResource.html#a5b7343a122f471c31387fa218f4fb8d9a5c1dd9f11466c47a9e6dbc66f8724ad6">PROJ_DATA</a>, 
-<a class="el" href="namespaceMapperResource.html#a5b7343a122f471c31387fa218f4fb8d9a17e1d7716dda7c18c499c8b9fdf688f9">SYMBOLSET</a>, 
-<a class="el" href="namespaceMapperResource.html#a5b7343a122f471c31387fa218f4fb8d9a3852be612df825704364830bb8db4cde">TEST_DATA</a>, 
-<a class="el" href="namespaceMapperResource.html#a5b7343a122f471c31387fa218f4fb8d9ad60e0baf7ad5aab1c3d114b4a1762454">TRANSLATION</a>
-<br />
- }<tr class="memdesc:a5b7343a122f471c31387fa218f4fb8d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Various types of resources which are used by Mapper.  <a href="namespaceMapperResource.html#a5b7343a122f471c31387fa218f4fb8d9">More...</a><br /></td></tr>
-</td></tr>
-<tr class="separator:a5b7343a122f471c31387fa218f4fb8d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ae5e466c14fad4b003e6757c1d9c67781"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstringlist.html">QStringList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMapperResource.html#ae5e466c14fad4b003e6757c1d9c67781">getProgramLocations</a> (<a class="el" href="namespaceMapperResource.html#a5b7343a122f471c31387fa218f4fb8d9">MapperResource::RESOURCE_TYPE</a> resource_type)</td></tr>
-<tr class="memdesc:ae5e466c14fad4b003e6757c1d9c67781"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a list of paths where to find a particular executable program.  <a href="#ae5e466c14fad4b003e6757c1d9c67781">More...</a><br /></td></tr>
-<tr class="separator:ae5e466c14fad4b003e6757c1d9c67781"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6931f416ce244e6abd4ac3f9430986d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMapperResource.html#a6931f416ce244e6abd4ac3f9430986d4">addIfExists</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstringlist.html">QStringList</a> &amp;list, <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> path)</td></tr>
-<tr class="memdesc:a6931f416ce244e6abd4ac3f9430986d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a path to a string list only if that path exists.  <a href="#a6931f416ce244e6abd4ac3f9430986d4">More...</a><br /></td></tr>
-<tr class="separator:a6931f416ce244e6abd4ac3f9430986d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d194ec7b5393132193b3a0251fd3e20"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstringlist.html">QStringList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMapperResource.html#a8d194ec7b5393132193b3a0251fd3e20">getLocations</a> (<a class="el" href="namespaceMapperResource.html#a5b7343a122f471c31387fa218f4fb8d9">MapperResource::RESOURCE_TYPE</a> resource_type)</td></tr>
-<tr class="memdesc:a8d194ec7b5393132193b3a0251fd3e20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a list of paths where to find particular resources.  <a href="#a8d194ec7b5393132193b3a0251fd3e20">More...</a><br /></td></tr>
-<tr class="separator:a8d194ec7b5393132193b3a0251fd3e20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5d6d2284162bb5fd1c1e4fc64a9d226"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMapperResource.html#ac5d6d2284162bb5fd1c1e4fc64a9d226">locate</a> (<a class="el" href="namespaceMapperResource.html#a5b7343a122f471c31387fa218f4fb8d9">MapperResource::RESOURCE_TYPE</a> resource_type, const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;name=<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a>())</td></tr>
-<tr class="memdesc:ac5d6d2284162bb5fd1c1e4fc64a9d226"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the first instance of a resource.  <a href="#ac5d6d2284162bb5fd1c1e4fc64a9d226">More...</a><br /></td></tr>
-<tr class="separator:ac5d6d2284162bb5fd1c1e4fc64a9d226"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b3dc46b6ca6e5dd75bd7b3bea8decc9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMapperResource.html#a7b3dc46b6ca6e5dd75bd7b3bea8decc9">setSeachPaths</a> ()</td></tr>
+<tr class="memdesc:a7b3dc46b6ca6e5dd75bd7b3bea8decc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qdir.html#searchPaths">QDir::searchPaths</a> for Mapper resource prefixes.  <a href="#a7b3dc46b6ca6e5dd75bd7b3bea8decc9">More...</a><br /></td></tr>
+<tr class="separator:a7b3dc46b6ca6e5dd75bd7b3bea8decc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Private <a class="el" href="namespaceMapperResource.html" title="Private MapperResource utilities. ">MapperResource</a> utilities. </p>
-<p>Utility for locating and loading resources.</p>
-<p>Depending on operating system and build configuration, resources may be located in a number of different locations. This interface hides all the complex dependencies. </p>
-</div><h2 class="groupheader">Enumeration Type Documentation</h2>
-<a class="anchor" id="a5b7343a122f471c31387fa218f4fb8d9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="namespaceMapperResource.html#a5b7343a122f471c31387fa218f4fb8d9">MapperResource::RESOURCE_TYPE</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Various types of resources which are used by Mapper. </p>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a5b7343a122f471c31387fa218f4fb8d9a4caef38690cf98ef3276bfb0e259d3a5"></a>ASSISTANT&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a5b7343a122f471c31387fa218f4fb8d9a55e8fcc7207963c1982945eaeec80059"></a>EXAMPLE&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a5b7343a122f471c31387fa218f4fb8d9a265931ab58d80192603ae7a0eba49a44"></a>GDAL_DATA&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a5b7343a122f471c31387fa218f4fb8d9a79fec720619d6367388a1266526c1ce1"></a>MANUAL&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a5b7343a122f471c31387fa218f4fb8d9a5c1dd9f11466c47a9e6dbc66f8724ad6"></a>PROJ_DATA&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a5b7343a122f471c31387fa218f4fb8d9a17e1d7716dda7c18c499c8b9fdf688f9"></a>SYMBOLSET&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a5b7343a122f471c31387fa218f4fb8d9a3852be612df825704364830bb8db4cde"></a>TEST_DATA&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a5b7343a122f471c31387fa218f4fb8d9ad60e0baf7ad5aab1c3d114b4a1762454"></a>TRANSLATION&#160;</td><td class="fielddoc">
-</td></tr>
-</table>
-
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a6931f416ce244e6abd4ac3f9430986d4"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MapperResource::addIfExists </td>
-          <td>(</td>
-          <td class="paramtype"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstringlist.html">QStringList</a> &amp;&#160;</td>
-          <td class="paramname"><em>list</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a>&#160;</td>
-          <td class="paramname"><em>path</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Add a path to a string list only if that path exists. </p>
-
-</div>
-</div>
-<a class="anchor" id="a8d194ec7b5393132193b3a0251fd3e20"></a>
+<a class="anchor" id="a7b3dc46b6ca6e5dd75bd7b3bea8decc9"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstringlist.html">QStringList</a> MapperResource::getLocations </td>
+          <td class="memname">void MapperResource::setSeachPaths </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceMapperResource.html#a5b7343a122f471c31387fa218f4fb8d9">MapperResource::RESOURCE_TYPE</a>&#160;</td>
-          <td class="paramname"><em>resource_type</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Get a list of paths where to find particular resources. </p>
-<p>Returns an empty list if no valid path exists. </p>
-
-</div>
-</div>
-<a class="anchor" id="ae5e466c14fad4b003e6757c1d9c67781"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstringlist.html">QStringList</a> MapperResource::getProgramLocations </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceMapperResource.html#a5b7343a122f471c31387fa218f4fb8d9">MapperResource::RESOURCE_TYPE</a>&#160;</td>
-          <td class="paramname"><em>resource_type</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get a list of paths where to find a particular executable program. </p>
-<p>Returns an empty list if no valid path exists or if the resource type does not identify a program. </p>
-
-</div>
-</div>
-<a class="anchor" id="ac5d6d2284162bb5fd1c1e4fc64a9d226"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> MapperResource::locate </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceMapperResource.html#a5b7343a122f471c31387fa218f4fb8d9">MapperResource::RESOURCE_TYPE</a>&#160;</td>
-          <td class="paramname"><em>resource_type</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;&#160;</td>
-          <td class="paramname"><em>name</em> = <code><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a>()</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get the first instance of a resource. </p>
-<p>Returns an empty string if the resource is not found.</p>
-<p>If the name parameter is given, it is understood as a filename in the resource directory identified by resource_type. </p>
+<p>Initializes <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qdir.html#searchPaths">QDir::searchPaths</a> for Mapper resource prefixes. </p>
+<p>This function registers the prefixes "data" and "doc" with paths leading to possible locations in the build dir (development build only), application bundle (Android, macOS, Windows), system (Linux) and <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qt.html">Qt</a> resource system. Thus resource lookup may either iterate explicitly over <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qdir.html#searchPaths">QDir::searchPaths</a>("PREFIX"), or directly access resources using <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qfile.html">QFile</a>("PREFIX:name"). </p>
 
 </div>
 </div>

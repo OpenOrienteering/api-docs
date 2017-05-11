@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.6.7</span>
+   &#160;<span id="projectnumber">0.7.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -88,15 +88,19 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="classTextObjectEditorHelper-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">TextObjectEditorHelper Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Helper class editing the text of <a class="el" href="classTextObject.html" title="A text object. ">TextObject</a>.  
+<p>Helper class for editing the text of a <a class="el" href="classTextObject.html" title="A text object. ">TextObject</a>.  
  <a href="classTextObjectEditorHelper.html#details">More...</a></p>
 
 <p><code>#include &lt;text_object_editor_helper.h&gt;</code></p>
@@ -117,6 +121,30 @@ Collaboration diagram for TextObjectEditorHelper:</div>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper_1_1BatchEdit.html">BatchEdit</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Establishes a scoped batch edit context and handles state change signals.  <a href="classTextObjectEditorHelper_1_1BatchEdit.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a390e374d428c2045a2cd125060ca4932"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#a390e374d428c2045a2cd125060ca4932">BatchEditAction</a> { <br />
+&#160;&#160;<a class="el" href="classTextObjectEditorHelper.html#a390e374d428c2045a2cd125060ca4932a694a728e7f0a276b906fe323bc799776">NoInputMethodAction</a> = 0x00, 
+<a class="el" href="classTextObjectEditorHelper.html#a390e374d428c2045a2cd125060ca4932a7b023367bfd4227f6c1515bc98c18820">UpdateInputProperties</a> = 0x01, 
+<a class="el" href="classTextObjectEditorHelper.html#a390e374d428c2045a2cd125060ca4932a2d8b6aa7938fa4fc81245f46e40049aa">UpdateAllProperties</a> = 0x02, 
+<a class="el" href="classTextObjectEditorHelper.html#a390e374d428c2045a2cd125060ca4932afb3eb93f95f61b9c7f51f6e80825fdd4">ResetInputMethod</a> = 0x03, 
+<br />
+&#160;&#160;<a class="el" href="classTextObjectEditorHelper.html#a390e374d428c2045a2cd125060ca4932ab016b72cf8d6ca2e3e4eacaaba9c4dbf">CommitPreedit</a> = 0x10
+<br />
+ }<tr class="memdesc:a390e374d428c2045a2cd125060ca4932"><td class="mdescLeft">&#160;</td><td class="mdescRight">Actions which may be performed on batch edit start or end.  <a href="classTextObjectEditorHelper.html#a390e374d428c2045a2cd125060ca4932">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:a390e374d428c2045a2cd125060ca4932"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0db9ee70678add5aee263f80f8c84ace"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a0db9ee70678add5aee263f80f8c84ace"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#a0db9ee70678add5aee263f80f8c84ace">not_null</a> = T</td></tr>
+<tr class="memdesc:a0db9ee70678add5aee263f80f8c84ace"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates arguments which must not be nullptr.  <a href="#a0db9ee70678add5aee263f80f8c84ace">More...</a><br /></td></tr>
+<tr class="separator:a0db9ee70678add5aee263f80f8c84ace"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="signals"></a>
 Signals</h2></td></tr>
 <tr class="memitem:a69c3108f713712502bdb5bc375846b49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#a69c3108f713712502bdb5bc375846b49">stateChanged</a> ()</td></tr>
@@ -128,22 +156,17 @@ Signals</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7c67c541de6afec47959cab85e186e13"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#a7c67c541de6afec47959cab85e186e13">TextObjectEditorHelper</a> (<a class="el" href="classTextObject.html">TextObject</a> *text_object, <a class="el" href="classMapEditorController.html">MapEditorController</a> *editor)</td></tr>
-<tr class="separator:a7c67c541de6afec47959cab85e186e13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62a8a88b4eade0657d48c524ad77bd39"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#a62a8a88b4eade0657d48c524ad77bd39">TextObjectEditorHelper</a> (<a class="el" href="classTextObjectEditorHelper.html#a0db9ee70678add5aee263f80f8c84ace">not_null</a>&lt; <a class="el" href="classTextObject.html">TextObject</a> * &gt; text_object, <a class="el" href="classTextObjectEditorHelper.html#a0db9ee70678add5aee263f80f8c84ace">not_null</a>&lt; <a class="el" href="classMapEditorController.html">MapEditorController</a> * &gt; editor)</td></tr>
+<tr class="separator:a62a8a88b4eade0657d48c524ad77bd39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30207c86bd077a23f831f0c4b93db1b6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#a30207c86bd077a23f831f0c4b93db1b6">~TextObjectEditorHelper</a> () override</td></tr>
 <tr class="separator:a30207c86bd077a23f831f0c4b93db1b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae310769402c21a32c42bbf11e1333e8f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTextObject.html">TextObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#ae310769402c21a32c42bbf11e1333e8f">object</a> () const </td></tr>
 <tr class="memdesc:ae310769402c21a32c42bbf11e1333e8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the text object which is edited by this object.  <a href="#ae310769402c21a32c42bbf11e1333e8f">More...</a><br /></td></tr>
 <tr class="separator:ae310769402c21a32c42bbf11e1333e8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada8b358d04306814f830fbbc687a2653"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#ada8b358d04306814f830fbbc687a2653">setSelection</a> (int anchor, int cursor)</td></tr>
-<tr class="memdesc:ada8b358d04306814f830fbbc687a2653"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the position of the selection anchor and of the cursor.  <a href="#ada8b358d04306814f830fbbc687a2653">More...</a><br /></td></tr>
-<tr class="separator:ada8b358d04306814f830fbbc687a2653"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e83132d85422163f965d3b6669f04e6"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#a1e83132d85422163f965d3b6669f04e6">selectionText</a> () const </td></tr>
-<tr class="memdesc:a1e83132d85422163f965d3b6669f04e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the text of the current selection.  <a href="#a1e83132d85422163f965d3b6669f04e6">More...</a><br /></td></tr>
-<tr class="separator:a1e83132d85422163f965d3b6669f04e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1336e8b15bf53820e0a96481731fa1b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#ae1336e8b15bf53820e0a96481731fa1b">replaceSelectionText</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;replacement)</td></tr>
-<tr class="memdesc:ae1336e8b15bf53820e0a96481731fa1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts text in place of the current selection.  <a href="#ae1336e8b15bf53820e0a96481731fa1b">More...</a><br /></td></tr>
-<tr class="separator:ae1336e8b15bf53820e0a96481731fa1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24ffc1fe1909986a3e2deaac03f87de5"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qvariant.html">QVariant</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#a24ffc1fe1909986a3e2deaac03f87de5">inputMethodQuery</a> (Qt::InputMethodQuery <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#property">property</a>, <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qvariant.html">QVariant</a> argument) const </td></tr>
+<tr class="separator:a24ffc1fe1909986a3e2deaac03f87de5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae30b8469fe65169eda9bf4506321c724"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#ae30b8469fe65169eda9bf4506321c724">inputMethodEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qinputmethodevent.html">QInputMethodEvent</a> *<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#event">event</a>)</td></tr>
+<tr class="separator:ae30b8469fe65169eda9bf4506321c724"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68eae4f90d18336611d326b986386884"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#a68eae4f90d18336611d326b986386884">mousePressEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmouseevent.html">QMouseEvent</a> *<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#event">event</a>, <a class="el" href="classMapCoordF.html">MapCoordF</a> map_coord, <a class="el" href="classMapWidget.html">MapWidget</a> *widget)</td></tr>
 <tr class="separator:a68eae4f90d18336611d326b986386884"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae189f86a4610914a84a91afbd0655e5d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#ae189f86a4610914a84a91afbd0655e5d">mouseMoveEvent</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmouseevent.html">QMouseEvent</a> *<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#event">event</a>, <a class="el" href="classMapCoordF.html">MapCoordF</a> map_coord, <a class="el" href="classMapWidget.html">MapWidget</a> *widget)</td></tr>
@@ -232,6 +255,63 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:deleteLater inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#deleteLater">deleteLater</a> ()</td></tr>
 <tr class="separator:deleteLater inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:ad1d7860807b095af1b5d276ac98dd317"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#ad1d7860807b095af1b5d276ac98dd317">isPreediting</a> () const </td></tr>
+<tr class="memdesc:ad1d7860807b095af1b5d276ac98dd317"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true when the input method is composing input.  <a href="#ad1d7860807b095af1b5d276ac98dd317">More...</a><br /></td></tr>
+<tr class="separator:ad1d7860807b095af1b5d276ac98dd317"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4ca11382fe5f744c3713139e331984f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#ab4ca11382fe5f744c3713139e331984f">commitPreedit</a> ()</td></tr>
+<tr class="memdesc:ab4ca11382fe5f744c3713139e331984f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies the current preedit string.  <a href="#ab4ca11382fe5f744c3713139e331984f">More...</a><br /></td></tr>
+<tr class="separator:ab4ca11382fe5f744c3713139e331984f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25961827324142d31d201c243a8c171f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#a25961827324142d31d201c243a8c171f">commitStateChange</a> ()</td></tr>
+<tr class="memdesc:a25961827324142d31d201c243a8c171f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emits state change signals and updates the input method.  <a href="#a25961827324142d31d201c243a8c171f">More...</a><br /></td></tr>
+<tr class="separator:a25961827324142d31d201c243a8c171f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abff2c7cec830ad86659a140f74f16f0e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#abff2c7cec830ad86659a140f74f16f0e">updateDisplayText</a> ()</td></tr>
+<tr class="memdesc:abff2c7cec830ad86659a140f74f16f0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the object's text from the current pristine text, cursor, and preedit string.  <a href="#abff2c7cec830ad86659a140f74f16f0e">More...</a><br /></td></tr>
+<tr class="separator:abff2c7cec830ad86659a140f74f16f0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada8b358d04306814f830fbbc687a2653"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#ada8b358d04306814f830fbbc687a2653">setSelection</a> (int anchor, int cursor)</td></tr>
+<tr class="memdesc:ada8b358d04306814f830fbbc687a2653"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the position of the selection anchor and of the cursor.  <a href="#ada8b358d04306814f830fbbc687a2653">More...</a><br /></td></tr>
+<tr class="separator:ada8b358d04306814f830fbbc687a2653"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d0cc63748b087b9e55387d0052d42eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#a1d0cc63748b087b9e55387d0052d42eb">setSelection</a> (int anchor, int cursor, int line_position)</td></tr>
+<tr class="memdesc:a1d0cc63748b087b9e55387d0052d42eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the position of the selection anchor, the cursor, and the reference position for linewise selection.  <a href="#a1d0cc63748b087b9e55387d0052d42eb">More...</a><br /></td></tr>
+<tr class="separator:a1d0cc63748b087b9e55387d0052d42eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e83132d85422163f965d3b6669f04e6"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#a1e83132d85422163f965d3b6669f04e6">selectionText</a> () const </td></tr>
+<tr class="memdesc:a1e83132d85422163f965d3b6669f04e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the text of the current selection.  <a href="#a1e83132d85422163f965d3b6669f04e6">More...</a><br /></td></tr>
+<tr class="separator:a1e83132d85422163f965d3b6669f04e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1336e8b15bf53820e0a96481731fa1b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#ae1336e8b15bf53820e0a96481731fa1b">replaceSelectionText</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;replacement)</td></tr>
+<tr class="memdesc:ae1336e8b15bf53820e0a96481731fa1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts text in place of the current selection.  <a href="#ae1336e8b15bf53820e0a96481731fa1b">More...</a><br /></td></tr>
+<tr class="separator:ae1336e8b15bf53820e0a96481731fa1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d9f766c916dfa2b9c4e561cff6c31a4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#a0d9f766c916dfa2b9c4e561cff6c31a4">blockStart</a> () const </td></tr>
+<tr class="memdesc:a0d9f766c916dfa2b9c4e561cff6c31a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the absolute position where the current "block" starts (in the input method sense).  <a href="#a0d9f766c916dfa2b9c4e561cff6c31a4">More...</a><br /></td></tr>
+<tr class="separator:a0d9f766c916dfa2b9c4e561cff6c31a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a215986f2542a35c3c1e12f32d614727d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#a215986f2542a35c3c1e12f32d614727d">blockEnd</a> () const </td></tr>
+<tr class="memdesc:a215986f2542a35c3c1e12f32d614727d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the absolute position where the current "block" ends (in the input method sense).  <a href="#a215986f2542a35c3c1e12f32d614727d">More...</a><br /></td></tr>
+<tr class="separator:a215986f2542a35c3c1e12f32d614727d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_qobject"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_qobject')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td></tr>
+<tr class="memitem:sender inherit pro_methods_qobject"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html">QObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#sender">sender</a> () const</td></tr>
+<tr class="separator:sender inherit pro_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:senderSignalIndex inherit pro_methods_qobject"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#senderSignalIndex">senderSignalIndex</a> () const</td></tr>
+<tr class="separator:senderSignalIndex inherit pro_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:receivers inherit pro_methods_qobject"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#receivers">receivers</a> (const char *signal) const</td></tr>
+<tr class="separator:receivers inherit pro_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:isSignalConnected inherit pro_methods_qobject"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#isSignalConnected">isSignalConnected</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmetamethod.html">QMetaMethod</a> &amp;signal) const</td></tr>
+<tr class="separator:isSignalConnected inherit pro_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:timerEvent inherit pro_methods_qobject"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#timerEvent">timerEvent</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qtimerevent.html">QTimerEvent</a> *<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#event">event</a>)</td></tr>
+<tr class="separator:timerEvent inherit pro_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:childEvent inherit pro_methods_qobject"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#childEvent">childEvent</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qchildevent.html">QChildEvent</a> *<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#event">event</a>)</td></tr>
+<tr class="separator:childEvent inherit pro_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:customEvent inherit pro_methods_qobject"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#customEvent">customEvent</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qevent.html">QEvent</a> *<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#event">event</a>)</td></tr>
+<tr class="separator:customEvent inherit pro_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:connectNotify inherit pro_methods_qobject"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#connectNotify">connectNotify</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmetamethod.html">QMetaMethod</a> &amp;signal)</td></tr>
+<tr class="separator:connectNotify inherit pro_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:disconnectNotify inherit pro_methods_qobject"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#disconnectNotify">disconnectNotify</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmetamethod.html">QMetaMethod</a> &amp;signal)</td></tr>
+<tr class="separator:disconnectNotify inherit pro_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a1a458993d39b17acf15edc1504442551"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextObjectEditorHelper.html#a1a458993d39b17acf15edc1504442551">BatchEdit</a></td></tr>
+<tr class="separator:a1a458993d39b17acf15edc1504442551"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_static_methods_qobject"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_qobject')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td></tr>
@@ -257,52 +337,83 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:disconnect-4 inherit pub_static_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:disconnect-5 inherit pub_static_methods_qobject"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#disconnect-5">disconnect</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html">QObject</a> *<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#sender">sender</a>, PointerToMemberFunction signal, const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html">QObject</a> *receiver, PointerToMemberFunction method)</td></tr>
 <tr class="separator:disconnect-5 inherit pub_static_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_qobject"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_qobject')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td></tr>
-<tr class="memitem:sender inherit pro_methods_qobject"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html">QObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#sender">sender</a> () const</td></tr>
-<tr class="separator:sender inherit pro_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:senderSignalIndex inherit pro_methods_qobject"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#senderSignalIndex">senderSignalIndex</a> () const</td></tr>
-<tr class="separator:senderSignalIndex inherit pro_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:receivers inherit pro_methods_qobject"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#receivers">receivers</a> (const char *signal) const</td></tr>
-<tr class="separator:receivers inherit pro_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:isSignalConnected inherit pro_methods_qobject"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#isSignalConnected">isSignalConnected</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmetamethod.html">QMetaMethod</a> &amp;signal) const</td></tr>
-<tr class="separator:isSignalConnected inherit pro_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:timerEvent inherit pro_methods_qobject"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#timerEvent">timerEvent</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qtimerevent.html">QTimerEvent</a> *<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#event">event</a>)</td></tr>
-<tr class="separator:timerEvent inherit pro_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:childEvent inherit pro_methods_qobject"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#childEvent">childEvent</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qchildevent.html">QChildEvent</a> *<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#event">event</a>)</td></tr>
-<tr class="separator:childEvent inherit pro_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:customEvent inherit pro_methods_qobject"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#customEvent">customEvent</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qevent.html">QEvent</a> *<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#event">event</a>)</td></tr>
-<tr class="separator:customEvent inherit pro_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:connectNotify inherit pro_methods_qobject"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#connectNotify">connectNotify</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmetamethod.html">QMetaMethod</a> &amp;signal)</td></tr>
-<tr class="separator:connectNotify inherit pro_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:disconnectNotify inherit pro_methods_qobject"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#disconnectNotify">disconnectNotify</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmetamethod.html">QMetaMethod</a> &amp;signal)</td></tr>
-<tr class="separator:disconnectNotify inherit pro_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_qobject"><td colspan="2" onclick="javascript:toggleInherit('properties_qobject')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td></tr>
 <tr class="memitem:objectName-prop inherit properties_qobject"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#objectName-prop">objectName</a></td></tr>
 <tr class="separator:objectName-prop inherit properties_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Helper class editing the text of <a class="el" href="classTextObject.html" title="A text object. ">TextObject</a>. </p>
+<div class="textblock"><p>Helper class for editing the text of a <a class="el" href="classTextObject.html" title="A text object. ">TextObject</a>. </p>
 <p>This class is meant to be used by tools (<a class="el" href="classDrawTextTool.html" title="Tool to draw text objects. ">DrawTextTool</a>, <a class="el" href="classEditPointTool.html" title="Standard tool to edit all types of objects. ">EditPointTool</a>) in the following way:</p>
 <ul>
 <li>When text editing starts, the tool must construct an object of this class. The constructor takes care of modifying the state of the main window.</li>
 <li>Then the tool must pass all mouse and key events through this object, call <a class="el" href="classTextObjectEditorHelper.html#a4ddb96612cc0d937bb433035e841ab53">draw()</a> etc. The object will emit a signal for state changes which need a redraw of the output and another signal when editing is finished.</li>
 <li>When editing is finished, the tool must destroy the object. The destructor will restore the original state of the main window. </li>
 </ul>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a7c67c541de6afec47959cab85e186e13"></a>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a class="anchor" id="a0db9ee70678add5aee263f80f8c84ace"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classTextObjectEditorHelper.html#a0db9ee70678add5aee263f80f8c84ace">TextObjectEditorHelper::not_null</a> =  T</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Indicates arguments which must not be nullptr. </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000076">Todo:</a></b></dt><dd>Use the Guideline Support Library </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a class="anchor" id="a390e374d428c2045a2cd125060ca4932"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classTextObjectEditorHelper.html#a390e374d428c2045a2cd125060ca4932">TextObjectEditorHelper::BatchEditAction</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Actions which may be performed on batch edit start or end. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a390e374d428c2045a2cd125060ca4932a694a728e7f0a276b906fe323bc799776"></a>NoInputMethodAction&#160;</td><td class="fielddoc">
+<p>On end, emit state change signal, but don't notify the input method. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a390e374d428c2045a2cd125060ca4932a7b023367bfd4227f6c1515bc98c18820"></a>UpdateInputProperties&#160;</td><td class="fielddoc">
+<p>On end, update commonly changed input properties. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a390e374d428c2045a2cd125060ca4932a2d8b6aa7938fa4fc81245f46e40049aa"></a>UpdateAllProperties&#160;</td><td class="fielddoc">
+<p>On end, update all input properties. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a390e374d428c2045a2cd125060ca4932afb3eb93f95f61b9c7f51f6e80825fdd4"></a>ResetInputMethod&#160;</td><td class="fielddoc">
+<p>On end, reset input method (alternative to updating). </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a390e374d428c2045a2cd125060ca4932ab016b72cf8d6ca2e3e4eacaaba9c4dbf"></a>CommitPreedit&#160;</td><td class="fielddoc">
+<p>On start, commit the preedit string. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a62a8a88b4eade0657d48c524ad77bd39"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">TextObjectEditorHelper::TextObjectEditorHelper </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classTextObject.html">TextObject</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="classTextObjectEditorHelper.html#a0db9ee70678add5aee263f80f8c84ace">not_null</a>&lt; <a class="el" href="classTextObject.html">TextObject</a> * &gt;&#160;</td>
           <td class="paramname"><em>text_object</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classMapEditorController.html">MapEditorController</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="classTextObjectEditorHelper.html#a0db9ee70678add5aee263f80f8c84ace">not_null</a>&lt; <a class="el" href="classMapEditorController.html">MapEditorController</a> * &gt;&#160;</td>
           <td class="paramname"><em>editor</em>&#160;</td>
         </tr>
         <tr>
@@ -339,6 +450,108 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a215986f2542a35c3c1e12f32d614727d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TextObjectEditorHelper::blockEnd </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the absolute position where the current "block" ends (in the input method sense). </p>
+
+</div>
+</div>
+<a class="anchor" id="a0d9f766c916dfa2b9c4e561cff6c31a4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TextObjectEditorHelper::blockStart </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the absolute position where the current "block" starts (in the input method sense). </p>
+
+</div>
+</div>
+<a class="anchor" id="ab4ca11382fe5f744c3713139e331984f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TextObjectEditorHelper::commitPreedit </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Applies the current preedit string. </p>
+<p>Normally not called directly but during construction of a <a class="el" href="classTextObjectEditorHelper_1_1BatchEdit.html" title="Establishes a scoped batch edit context and handles state change signals. ">BatchEdit</a> object. </p>
+
+</div>
+</div>
+<a class="anchor" id="a25961827324142d31d201c243a8c171f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TextObjectEditorHelper::commitStateChange </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Emits state change signals and updates the input method. </p>
+<p>Normally not called directly but during destruction of a <a class="el" href="classTextObjectEditorHelper_1_1BatchEdit.html" title="Establishes a scoped batch edit context and handles state change signals. ">BatchEdit</a> object. </p>
+
+</div>
+</div>
 <a class="anchor" id="a4ddb96612cc0d937bb433035e841ab53"></a>
 <div class="memitem">
 <div class="memproto">
@@ -403,6 +616,73 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae30b8469fe65169eda9bf4506321c724"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> TextObjectEditorHelper::inputMethodEvent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qinputmethodevent.html">QInputMethodEvent</a> *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a24ffc1fe1909986a3e2deaac03f87de5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qvariant.html">QVariant</a> TextObjectEditorHelper::inputMethodQuery </td>
+          <td>(</td>
+          <td class="paramtype">Qt::InputMethodQuery&#160;</td>
+          <td class="paramname"><em>property</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qvariant.html">QVariant</a>&#160;</td>
+          <td class="paramname"><em>argument</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad1d7860807b095af1b5d276ac98dd317"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> TextObjectEditorHelper::isPreediting </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true when the input method is composing input. </p>
 
 </div>
 </div>
@@ -562,6 +842,9 @@ Additional Inherited Members</h2></td></tr>
 <a class="anchor" id="ae1336e8b15bf53820e0a96481731fa1b"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void TextObjectEditorHelper::replaceSelectionText </td>
@@ -571,16 +854,25 @@ Additional Inherited Members</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Inserts text in place of the current selection. </p>
-<p>After this, the selection will be empty, and the cursor will be at the end of the replacement text. </p>
+<p>After this, the selection will be empty, and the cursor will be placed at the end of the replacement text.</p>
+<p>Must be called in a batch edit context. </p>
 
 </div>
 </div>
 <a class="anchor" id="a1e83132d85422163f965d3b6669f04e6"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> TextObjectEditorHelper::selectionText </td>
@@ -589,6 +881,11 @@ Additional Inherited Members</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Returns the text of the current selection. </p>
@@ -622,7 +919,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -630,6 +927,51 @@ Additional Inherited Members</h2></td></tr>
 <p>Sets the position of the selection anchor and of the cursor. </p>
 <p>The text between the anchor position and the cursor position is the current selection. Setting both parameters to the same value results in an empty selection.</p>
 <p>The reference position for linewise selection is set to the cursor position.</p>
+<p>Must be called in a batch edit context.</p>
+<dl class="section return"><dt>Returns</dt><dd>True iff there actually was a change. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a1d0cc63748b087b9e55387d0052d42eb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> TextObjectEditorHelper::setSelection </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>anchor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>cursor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>line_position</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the position of the selection anchor, the cursor, and the reference position for linewise selection. </p>
+<p>Must be called in a batch edit context.</p>
 <dl class="section return"><dt>Returns</dt><dd>True iff there actually was a change. </dd></dl>
 
 </div>
@@ -660,9 +1002,55 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="abff2c7cec830ad86659a140f74f16f0e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TextObjectEditorHelper::updateDisplayText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Updates the object's text from the current pristine text, cursor, and preedit string. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a class="anchor" id="a1a458993d39b17acf15edc1504442551"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="classTextObjectEditorHelper_1_1BatchEdit.html">BatchEdit</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/tools/<a class="el" href="text__object__editor__helper_8h.html">text_object_editor_helper.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/5034328/src/tools/text_object_editor_helper.h"><tt>5034328</tt></a> on 8 Jan 2017)</li>
-<li>src/tools/<a class="el" href="text__object__editor__helper_8cpp.html">text_object_editor_helper.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/9ee00e4/src/tools/text_object_editor_helper.cpp"><tt>9ee00e4</tt></a> on 8 Jan 2017)</li>
+<li>src/tools/<a class="el" href="text__object__editor__helper_8h.html">text_object_editor_helper.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/b3e622b/src/tools/text_object_editor_helper.h"><tt>b3e622b</tt></a> on 8 Dec 2016)</li>
+<li>src/tools/<a class="el" href="text__object__editor__helper_8cpp.html">text_object_editor_helper.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/b3e622b/src/tools/text_object_editor_helper.cpp"><tt>b3e622b</tt></a> on 8 Dec 2016)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

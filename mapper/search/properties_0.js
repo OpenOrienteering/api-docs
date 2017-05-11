@@ -34,7 +34,6 @@ var searchData=
   ['autoformatting',['autoFormatting',['http://doc.qt.io/qt-5/qxmlstreamwriter.html#autoFormatting-prop',1,'QXmlStreamWriter::autoFormatting()'],['http://doc.qt.io/qt-5/qtextedit.html#autoFormatting-prop',1,'QTextEdit::autoFormatting()']]],
   ['autoformattingindent',['autoFormattingIndent',['http://doc.qt.io/qt-5/qxmlstreamwriter.html#autoFormattingIndent-prop',1,'QXmlStreamWriter']]],
   ['autohide',['autoHide',['http://doc.qt.io/qt-5/qtabbar.html#autoHide-prop',1,'QTabBar']]],
-  ['automaximizethreshold',['autoMaximizeThreshold',['http://doc.qt.io/qt-5/qapplication-obsolete.html#autoMaximizeThreshold-prop',1,'QApplication']]],
   ['autoraise',['autoRaise',['http://doc.qt.io/qt-5/qtoolbutton.html#autoRaise-prop',1,'QToolButton']]],
   ['autorepeat',['autoRepeat',['http://doc.qt.io/qt-5/qaction.html#autoRepeat-prop',1,'QAction::autoRepeat()'],['http://doc.qt.io/qt-5/qshortcut.html#autoRepeat-prop',1,'QShortcut::autoRepeat()'],['http://doc.qt.io/qt-5/qabstractbutton.html#autoRepeat-prop',1,'QAbstractButton::autoRepeat()']]],
   ['autorepeatdelay',['autoRepeatDelay',['http://doc.qt.io/qt-5/qabstractbutton.html#autoRepeatDelay-prop',1,'QAbstractButton']]],

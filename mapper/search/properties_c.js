@@ -13,5 +13,6 @@ var searchData=
   ['notation',['notation',['http://doc.qt.io/qt-5/qdoublevalidator.html#notation-prop',1,'QDoubleValidator']]],
   ['notchesvisible',['notchesVisible',['http://doc.qt.io/qt-5/qdial.html#notchesVisible-prop',1,'QDial']]],
   ['notchsize',['notchSize',['http://doc.qt.io/qt-5/qdial.html#notchSize-prop',1,'QDial']]],
-  ['notchtarget',['notchTarget',['http://doc.qt.io/qt-5/qdial.html#notchTarget-prop',1,'QDial']]]
+  ['notchtarget',['notchTarget',['http://doc.qt.io/qt-5/qdial.html#notchTarget-prop',1,'QDial']]],
+  ['numericid',['numericId',['http://doc.qt.io/qt-5/qpointingdeviceuniqueid.html#numericId-prop',1,'QPointingDeviceUniqueId']]]
 ];
