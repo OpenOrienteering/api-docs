@@ -15,7 +15,7 @@ var searchData=
   ['undocommandadded',['undoCommandAdded',['http://doc.qt.io/qt-5/qtextdocument.html#undoCommandAdded',1,'QTextDocument']]],
   ['undolastpoint',['undoLastPoint',['../classDrawPathTool.html#a79b7614cf12980415e12f88c8d474b9f',1,'DrawPathTool::undoLastPoint()'],['../classDrawRectangleTool.html#ad449af73bce323ad22e25ad5982bd56c',1,'DrawRectangleTool::undoLastPoint()']]],
   ['undolimit',['undoLimit',['http://doc.qt.io/qt-5/qundostack.html#undoLimit-prop',1,'QUndoStack']]],
-  ['undomanager',['undoManager',['../classMap.html#a3dabf5a8ea8104f9d20a8b810aad6719',1,'Map::undoManager()'],['../classMap.html#ac4f8cf2e05d9e89d4b88d669c4dda691',1,'Map::undoManager() const '],['../classUndoManager.html#ab2471f7b4e3568025e00e64cad56c172',1,'UndoManager::UndoManager()']]],
+  ['undomanager',['UndoManager',['../classUndoManager.html#ab2471f7b4e3568025e00e64cad56c172',1,'UndoManager::UndoManager()'],['../classMap.html#a3dabf5a8ea8104f9d20a8b810aad6719',1,'Map::undoManager()'],['../classMap.html#ac4f8cf2e05d9e89d4b88d669c4dda691',1,'Map::undoManager() const ']]],
   ['undoselected',['undoSelected',['../classPaintOnTemplateTool.html#ae3d52ce55ff7d93587cb96df0801357f',1,'PaintOnTemplateTool::undoSelected()'],['../classPaintOnTemplatePaletteWidget.html#adb634b113a9ae905f75fb2c78196a2b0',1,'PaintOnTemplatePaletteWidget::undoSelected()']]],
   ['undostep',['UndoStep',['../classUndoStep.html#a04d2c1b55b5c82ddf9b263845dde81b2',1,'UndoStep']]],
   ['undostepavailabilitychanged',['undoStepAvailabilityChanged',['../classMapEditorController.html#a6e6f4925e05e3b8c12e7cf12f5bb6494',1,'MapEditorController']]],

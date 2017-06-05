@@ -39,7 +39,7 @@ var searchData=
   ['main_5fwindow_5fcontroller_2ecpp',['main_window_controller.cpp',['../main__window__controller_8cpp.html',1,'']]],
   ['main_5fwindow_5fcontroller_2eh',['main_window_controller.h',['../main__window__controller_8h.html',1,'']]],
   ['mainpage_2eh',['mainpage.h',['../mainpage_8h.html',1,'']]],
-  ['mainwindow',['MainWindow',['../classMainWindow.html',1,'MainWindow'],['../classMainWindow.html#a3838a3dc3471948686937d4e34bb767f',1,'MainWindow::MainWindow()'],['../classMapEditorTool.html#af8d03ad23e004555c43c1e4fa03755fd',1,'MapEditorTool::mainWindow()']]],
+  ['mainwindow',['MainWindow',['../classMainWindow.html',1,'MainWindow'],['../classMapEditorTool.html#af8d03ad23e004555c43c1e4fa03755fd',1,'MapEditorTool::mainWindow()'],['../classMainWindow.html#a3838a3dc3471948686937d4e34bb767f',1,'MainWindow::MainWindow()']]],
   ['mainwindowcontroller',['MainWindowController',['../classMainWindowController.html',1,'']]],
   ['majorversion',['majorVersion',['http://doc.qt.io/qt-5/qversionnumber.html#majorVersion',1,'QVersionNumber::majorVersion()'],['http://doc.qt.io/qt-5/qsurfaceformat.html#majorVersion',1,'QSurfaceFormat::majorVersion()']]],
   ['makeabsolute',['makeAbsolute',['http://doc.qt.io/qt-5/qdir.html#makeAbsolute',1,'QDir::makeAbsolute()'],['http://doc.qt.io/qt-5/qfileinfo.html#makeAbsolute',1,'QFileInfo::makeAbsolute()']]],

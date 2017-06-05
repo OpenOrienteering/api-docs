@@ -18,7 +18,7 @@ var searchData=
   ['magnificationfilter',['magnificationFilter',['http://doc.qt.io/qt-5/qopengltexture.html#magnificationFilter',1,'QOpenGLTexture']]],
   ['mailexchangerecords',['mailExchangeRecords',['http://doc.qt.io/qt-5/qdnslookup.html#mailExchangeRecords',1,'QDnsLookup']]],
   ['main',['main',['../main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main(int argc, char **argv):&#160;main.cpp'],['../mapper__t_8cpp.html#a2c3f6775325c30275d11c6abee2db6a0',1,'main(int, char **):&#160;mapper_t.cpp']]],
-  ['mainwindow',['MainWindow',['../classMainWindow.html#a3838a3dc3471948686937d4e34bb767f',1,'MainWindow::MainWindow()'],['../classMapEditorTool.html#af8d03ad23e004555c43c1e4fa03755fd',1,'MapEditorTool::mainWindow()']]],
+  ['mainwindow',['mainWindow',['../classMapEditorTool.html#af8d03ad23e004555c43c1e4fa03755fd',1,'MapEditorTool::mainWindow()'],['../classMainWindow.html#a3838a3dc3471948686937d4e34bb767f',1,'MainWindow::MainWindow()']]],
   ['majorversion',['majorVersion',['http://doc.qt.io/qt-5/qversionnumber.html#majorVersion',1,'QVersionNumber::majorVersion()'],['http://doc.qt.io/qt-5/qsurfaceformat.html#majorVersion',1,'QSurfaceFormat::majorVersion()']]],
   ['makeabsolute',['makeAbsolute',['http://doc.qt.io/qt-5/qdir.html#makeAbsolute',1,'QDir::makeAbsolute()'],['http://doc.qt.io/qt-5/qfileinfo.html#makeAbsolute',1,'QFileInfo::makeAbsolute()']]],
   ['makeandmodel',['makeAndModel',['http://doc.qt.io/qt-5/qprinterinfo.html#makeAndModel',1,'QPrinterInfo']]],

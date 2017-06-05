@@ -53,12 +53,12 @@ src/gui/autosave_dialog.h:108: warning: Found unknown command `\override'
 src/gui/autosave_dialog.h:76: warning: Found unknown command `\override'
 src/core/crs_template.h:143: warning: Found unknown command `\id'
 src/core/crs_template.h:184: warning: Found unknown command `\id'
-src/tools/edit_tool.h:224: warning: The following parameters of EditTool::drawBoundingBox(QPainter *painter, MapWidget *widget, const QRectF &bounding_box, const QRgb &color) are not documented:
+src/tools/edit_tool.h:228: warning: The following parameters of EditTool::drawBoundingBox(QPainter *painter, MapWidget *widget, const QRectF &bounding_box, const QRgb &color) are not documented:
   parameter 'painter'
   parameter 'widget'
   parameter 'color'
-src/tools/edit_tool.h:228: warning: argument 'bounding_box' of command @param is not found in the argument list of EditTool::drawBoundingPath(QPainter *painter, MapWidget *widget, const std::vector< QPointF > &bounding_path, const QRgb &color)
-src/tools/edit_tool.h:231: warning: The following parameters of EditTool::drawBoundingPath(QPainter *painter, MapWidget *widget, const std::vector< QPointF > &bounding_path, const QRgb &color) are not documented:
+src/tools/edit_tool.h:232: warning: argument 'bounding_box' of command @param is not found in the argument list of EditTool::drawBoundingPath(QPainter *painter, MapWidget *widget, const std::vector< QPointF > &bounding_path, const QRgb &color)
+src/tools/edit_tool.h:235: warning: The following parameters of EditTool::drawBoundingPath(QPainter *painter, MapWidget *widget, const std::vector< QPointF > &bounding_path, const QRgb &color) are not documented:
   parameter 'painter'
   parameter 'widget'
   parameter 'bounding_path'
