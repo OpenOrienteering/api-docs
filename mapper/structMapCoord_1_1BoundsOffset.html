@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -130,7 +130,7 @@ Public Attributes</h2></td></tr>
 <p>The idea for correcting maps during loading (where we may hit the out-of-bounds coordinates for the first time) is to look at the first point in the map (the georeferencing reference point or the coordinates of the first object). If this point is more than 500 m of paper [!] from the origin, it is moved to the origin, and the same offset is applied to all other coordinates. After that adjustment, anything up to 1000 m of paper away from the first point will be in the printable area.</p>
 <p>The current implementation uses a global variable and thus can handle only one file at the same time. However, the global variables is initially configured to a neutral value. Any code activating the tracking of out-of-bounds coordinates it responsible to rollback this neutral configuration when finished.</p>
 <p>Since symbol definitions are stored in MapCoords, too, extra care needs to be taken not to adjust coordinates of the symbols' elements.</p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="classXMLFileImporter.html#aa71a2b17cb06da375814248dbef95689" title="Implementation of doImport(). ">XMLFileImporter::import</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classXMLFileImporter.html#ac663531d9512ad02c54867165572ef9b" title="Implementation of doImport(). ">XMLFileImporter::import</a> </dd></dl>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="ab6cb1c78b2970dd077b962b5cd7cde73"></a>
 <div class="memitem">
@@ -213,7 +213,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>src/core/<a class="el" href="map__coord_8h.html">map_coord.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/4528abb/src/core/map_coord.h"><tt>4528abb</tt></a> on 22 Mar 2017)</li>
+<li>src/core/<a class="el" href="map__coord_8h.html">map_coord.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/c9e89e9/src/core/map_coord.h"><tt>c9e89e9</tt></a> on 26 Jul 2017)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

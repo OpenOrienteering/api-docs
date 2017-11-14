@@ -2,7 +2,7 @@ var searchData=
 [
   ['object',['Object',['../structOcd_1_1FormatV11.html#ab156b8d1e231072cf4d5c8051c7cd05c',1,'Ocd::FormatV11::Object()'],['../structOcd_1_1FormatV12.html#ad3028d10f9efb3cfe4bc2b448a420ba7',1,'Ocd::FormatV12::Object()'],['../structOcd_1_1FormatV8.html#ae7ab17613e4bbbe35e6b2d3ac9704284',1,'Ocd::FormatV8::Object()'],['../structOcd_1_1FormatV9.html#aff09446b97ddb67ff813cefe97de0ca2',1,'Ocd::FormatV9::Object()']]],
   ['objectindex',['ObjectIndex',['../classOcdFile.html#a020e24049fedcf8e38972c1b80eb610e',1,'OcdFile']]],
-  ['objectlist',['ObjectList',['../classObjectModifyingUndoStep.html#afeaac2f927f07d89db63cb93cf84daf4',1,'ObjectModifyingUndoStep']]],
+  ['objectlist',['ObjectList',['../classOgrFileImport.html#ae115850fbd386ef03739bd0dd738ddbf',1,'OgrFileImport::ObjectList()'],['../classObjectModifyingUndoStep.html#afeaac2f927f07d89db63cb93cf84daf4',1,'ObjectModifyingUndoStep::ObjectList()']]],
   ['objectrenderablesmap',['ObjectRenderablesMap',['../renderable_8h.html#a53539f12fdebd0ea8aacd10aa65d66c2',1,'renderable.h']]],
   ['objectselection',['ObjectSelection',['../classMap.html#a48593991684d7ab88f5eb8a05c560f06',1,'Map']]],
   ['objectset',['ObjectSet',['../classUndoStep.html#a2e136766f5069335853b2967394845d0',1,'UndoStep']]],
@@ -22,6 +22,6 @@ var searchData=
   ['ocadstringentrycallback',['OCADStringEntryCallback',['../libocad_8h.html#ad521debe04bd707e5a158414abdf9724',1,'libocad.h']]],
   ['ocadsymbolcallback',['OCADSymbolCallback',['../libocad_8h.html#aa09906b6a246919f676ea14e38186aba',1,'libocad.h']]],
   ['ocadsymbolelementcallback',['OCADSymbolElementCallback',['../libocad_8h.html#ad5058fbf58ac762a359fe72cc08a14ca',1,'libocad.h']]],
-  ['offset',['Offset',['../qt-5_82_81_2qfontsubset_8cpp.html#ad3776d6f2799f988848a50fbd98e5720',1,'Offset():&#160;qfontsubset.cpp'],['../qt-5_85_81_2qfontsubset_8cpp.html#ad3776d6f2799f988848a50fbd98e5720',1,'Offset():&#160;qfontsubset.cpp']]],
+  ['offset',['Offset',['../qt-5_82_81_2qfontsubset_8cpp.html#ad3776d6f2799f988848a50fbd98e5720',1,'Offset():&#160;qfontsubset.cpp'],['../qt-5_85_81_2qfontsubset_8cpp.html#ad3776d6f2799f988848a50fbd98e5720',1,'Offset():&#160;qfontsubset.cpp'],['../qt-5_86_83_2qfontsubset_8cpp.html#ad3776d6f2799f988848a50fbd98e5720',1,'Offset():&#160;qfontsubset.cpp']]],
   ['outputlist',['OutputList',['../classCRSTemplates_1_1IntRangeParameter.html#a268d14b08fc3c8ba86351339b7301783',1,'CRSTemplates::IntRangeParameter']]]
 ];

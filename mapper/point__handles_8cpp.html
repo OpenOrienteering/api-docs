@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Mapper: src/gui/point_handles.cpp File Reference</title>
+<title>Mapper: src/tools/point_handles.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -85,7 +85,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_99d0482cf009f9d97a0877749b817f19.html">gui</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_1563a38af0d3a5e4a6330d6d45e9792a.html">tools</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -93,35 +93,36 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">point_handles.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/5351f68/src/gui/point_handles.cpp"><tt>5351f68</tt></a> on 8 Jan 2017)</h3><div class="textblock"><code>#include &quot;<a class="el" href="point__handles_8h.html">point_handles.h</a>&quot;</code><br />
+<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/ef3f346/src/tools/point_handles.cpp"><tt>ef3f346</tt></a> on 1 Nov 2017)</h3><div class="textblock"><code>#include &quot;<a class="el" href="point__handles_8h.html">point_handles.h</a>&quot;</code><br />
+<code>#include &lt;cmath&gt;</code><br />
+<code>#include &lt;type_traits&gt;</code><br />
+<code>#include &lt;Qt&gt;</code><br />
+<code>#include &lt;QtGlobal&gt;</code><br />
+<code>#include &lt;QBrush&gt;</code><br />
 <code>#include &lt;QPainter&gt;</code><br />
-<code>#include &quot;<a class="el" href="map__widget_8h.html">gui/map/map_widget.h</a>&quot;</code><br />
+<code>#include &lt;QPen&gt;</code><br />
+<code>#include &lt;QPoint&gt;</code><br />
+<code>#include &lt;QString&gt;</code><br />
 <code>#include &quot;<a class="el" href="object_8h.html">core/objects/object.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="text__object_8h.html">core/objects/text_object.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="settings_8h.html">../settings.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="map__widget_8h.html">gui/map/map_widget.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for point_handles.cpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="point__handles_8cpp__incl.png" border="0" usemap="#src_2gui_2point__handles_8cpp" alt=""/></div>
-<map name="src_2gui_2point__handles_8cpp" id="src_2gui_2point__handles_8cpp">
-<area shape="rect" id="node2" href="point__handles_8h.html" title="point_handles.h" alt="" coords="2961,229,3075,256"/>
-<area shape="rect" id="node11" href="map__widget_8h.html" title="gui/map/map_widget.h" alt="" coords="504,155,657,181"/>
-<area shape="rect" id="node36" href="object_8h.html" title="core/objects/object.h" alt="" coords="1956,155,2099,181"/>
-<area shape="rect" id="node48" href="text__object_8h.html" title="core/objects/text_object.h" alt="" coords="1337,80,1509,107"/>
-<area shape="rect" id="node50" href="settings_8h.html" title="../settings.h" alt="" coords="682,155,773,181"/>
-<area shape="rect" id="node5" href="map__coord_8h.html" title="core/map_coord.h" alt="" coords="2393,379,2520,405"/>
-<area shape="rect" id="node17" href="map_8h.html" title="core/map.h" alt="" coords="537,229,624,256"/>
-<area shape="rect" id="node32" href="map__view_8h.html" title="core/map_view.h" alt="" coords="1057,229,1179,256"/>
-<area shape="rect" id="node25" href="global_8h.html" title="global.h" alt="" coords="397,304,463,331"/>
-<area shape="rect" id="node26" href="map__grid_8h.html" title="map_grid.h" alt="" coords="589,304,676,331"/>
-<area shape="rect" id="node28" href="file__format_8h.html" title="fileformats/file_format.h" alt="" coords="2647,304,2805,331"/>
-<area shape="rect" id="node31" href="map__part_8h.html" title="map_part.h" alt="" coords="29,304,116,331"/>
-<area shape="rect" id="node38" href="path__coord_8h.html" title="core/path_coord.h" alt="" coords="2117,304,2244,331"/>
-<area shape="rect" id="node39" href="virtual__path_8h.html" title="core/virtual_path.h" alt="" coords="2015,229,2144,256"/>
-<area shape="rect" id="node41" href="renderable_8h.html" title="core/renderables/renderable.h" alt="" coords="1609,229,1803,256"/>
-<area shape="rect" id="node46" href="symbol_8h.html" title="core/symbols/symbol.h" alt="" coords="2545,229,2702,256"/>
-<area shape="rect" id="node40" href="virtual__coord__vector_8h.html" title="virtual_coord_vector.h" alt="" coords="2268,304,2419,331"/>
-<area shape="rect" id="node44" href="map__color_8h.html" title="core/map_color.h" alt="" coords="1333,304,1455,331"/>
+<div class="center"><img src="point__handles_8cpp__incl.png" border="0" usemap="#src_2tools_2point__handles_8cpp" alt=""/></div>
+<map name="src_2tools_2point__handles_8cpp" id="src_2tools_2point__handles_8cpp">
+<area shape="rect" id="node2" href="point__handles_8h.html" title="point_handles.h" alt="" coords="1934,311,2047,338"/>
+<area shape="rect" id="node20" href="object_8h.html" title="core/objects/object.h" alt="" coords="846,155,989,181"/>
+<area shape="rect" id="node37" href="text__object_8h.html" title="core/objects/text_object.h" alt="" coords="1759,80,1931,107"/>
+<area shape="rect" id="node40" href="map__widget_8h.html" title="gui/map/map_widget.h" alt="" coords="2810,229,2963,256"/>
+<area shape="rect" id="node7" href="map__coord_8h.html" title="core/map_coord.h" alt="" coords="1769,393,1895,420"/>
+<area shape="rect" id="node24" href="path__coord_8h.html" title="core/path_coord.h" alt="" coords="1286,311,1413,338"/>
+<area shape="rect" id="node25" href="virtual__path_8h.html" title="core/virtual_path.h" alt="" coords="1361,229,1490,256"/>
+<area shape="rect" id="node29" href="renderable_8h.html" title="core/renderables/renderable.h" alt="" coords="686,311,879,338"/>
+<area shape="rect" id="node36" href="symbol_8h.html" title="core/symbols/symbol.h" alt="" coords="392,393,549,420"/>
+<area shape="rect" id="node28" href="virtual__coord__vector_8h.html" title="core/virtual_coord\l_vector.h" alt="" coords="1437,304,1563,345"/>
+<area shape="rect" id="node33" href="map__color_8h.html" title="core/map_color.h" alt="" coords="245,393,368,420"/>
+<area shape="rect" id="node50" href="map__view_8h.html" title="core/map_view.h" alt="" coords="2382,311,2503,338"/>
 </map>
 </div>
 </div></div><!-- contents -->

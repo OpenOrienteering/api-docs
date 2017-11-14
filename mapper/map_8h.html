@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -90,34 +90,40 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">map.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/56a6bd2/src/core/map.h"><tt>56a6bd2</tt></a> on 30 Jan 2017)</h3><div class="textblock"><code>#include &lt;vector&gt;</code><br />
+<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/7fb44da/src/core/map.h"><tt>7fb44da</tt></a> on 10 Nov 2017)</h3><div class="textblock"><code>#include &lt;algorithm&gt;</code><br />
+<code>#include &lt;cstddef&gt;</code><br />
+<code>#include &lt;functional&gt;</code><br />
 <code>#include &lt;set&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;QtGlobal&gt;</code><br />
+<code>#include &lt;QExplicitlySharedDataPointer&gt;</code><br />
+<code>#include &lt;QFlags&gt;</code><br />
 <code>#include &lt;QHash&gt;</code><br />
+<code>#include &lt;QMetaType&gt;</code><br />
 <code>#include &lt;QObject&gt;</code><br />
-<code>#include &lt;QRect&gt;</code><br />
+<code>#include &lt;QPointer&gt;</code><br />
+<code>#include &lt;QRectF&gt;</code><br />
 <code>#include &lt;QScopedPointer&gt;</code><br />
 <code>#include &lt;QSharedData&gt;</code><br />
 <code>#include &lt;QString&gt;</code><br />
-<code>#include &quot;<a class="el" href="global_8h.html">global.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="map__coord_8h.html">map_coord.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="map__grid_8h.html">map_grid.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="file__format_8h.html">fileformats/file_format.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="map__part_8h.html">map_part.h</a>&quot;</code><br />
+<code>#include &lt;QTransform&gt;</code><br />
+<code>#include &quot;<a class="el" href="map__coord_8h.html">core/map_coord.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="map__grid_8h.html">core/map_grid.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="map__part_8h.html">core/map_part.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for map.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="map_8h__incl.png" border="0" usemap="#src_2core_2map_8h" alt=""/></div>
 <map name="src_2core_2map_8h" id="src_2core_2map_8h">
-<area shape="rect" id="node10" href="global_8h.html" title="global.h" alt="" coords="698,80,765,107"/>
-<area shape="rect" id="node11" href="map__coord_8h.html" title="map_coord.h" alt="" coords="840,80,937,107"/>
-<area shape="rect" id="node16" href="map__grid_8h.html" title="map_grid.h" alt="" coords="961,80,1048,107"/>
-<area shape="rect" id="node18" href="file__format_8h.html" title="fileformats/file_format.h" alt="" coords="1092,80,1251,107"/>
-<area shape="rect" id="node21" href="map__part_8h.html" title="map_part.h" alt="" coords="269,80,356,107"/>
+<area shape="rect" id="node19" href="map__coord_8h.html" title="core/map_coord.h" alt="" coords="675,80,801,107"/>
+<area shape="rect" id="node24" href="map__grid_8h.html" title="core/map_grid.h" alt="" coords="1798,80,1913,107"/>
+<area shape="rect" id="node26" href="map__part_8h.html" title="core/map_part.h" alt="" coords="280,80,396,107"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -126,7 +132,29 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html">Map</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Central class for an OpenOrienteering map.  <a href="classMap.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a7b88b110af928918b143bd9cdae0ee5f"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpointer.html">QPointer</a>&lt; <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qtranslator.html">QTranslator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="map_8h.html#a7b88b110af928918b143bd9cdae0ee5f">map_symbol_translator</a></td></tr>
+<tr class="memdesc:a7b88b110af928918b143bd9cdae0ee5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The translator for color and symbol texts.  <a href="#a7b88b110af928918b143bd9cdae0ee5f">More...</a><br /></td></tr>
+<tr class="separator:a7b88b110af928918b143bd9cdae0ee5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="a7b88b110af928918b143bd9cdae0ee5f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpointer.html">QPointer</a>&lt;<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qtranslator.html">QTranslator</a>&gt; map_symbol_translator</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The translator for color and symbol texts. </p>
+<p>This translator is used by class <a class="el" href="classMap.html" title="Central class for an OpenOrienteering map. ">Map</a> but kept outside of the class' namespace in order to allow for forward declaration instead of including "map.h". </p>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

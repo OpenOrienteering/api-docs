@@ -5,7 +5,7 @@ var searchData=
   ['wflags',['WFlags',['http://doc.qt.io/qt-5/qt-obsolete.html#WFlags-typedef',1,'Qt']]],
   ['white_5fimg',['white_img',['../classQPainterTest.html#afdfb11508539289242508a0b0e21af6e',1,'QPainterTest']]],
   ['widget',['widget',['../classHomeScreenController.html#a1be8ad01e3f1b3b9181d95e0215f2007',1,'HomeScreenController::widget()'],['../classTemplateAdjustEditTool.html#a83034efa438918457382d6dd3a0865c8',1,'TemplateAdjustEditTool::widget()'],['../classTemplateAdjustAddTool.html#a8a4e0b8ed4da97452d21acf26955ead6',1,'TemplateAdjustAddTool::widget()']]],
-  ['widget_5flist',['widget_list',['../structLineSymbolSettings_1_1BorderWidgets.html#aeb6b3894b4e2b7c556d660fec513d364',1,'LineSymbolSettings::BorderWidgets']]],
+  ['widget_5flist',['widget_list',['../structLineSymbolSettings_1_1BorderWidgets.html#a532e251291566a7c0bd6b1ec5f8ea68c',1,'LineSymbolSettings::BorderWidgets']]],
   ['width',['width',['../classTextObjectPartInfo.html#affe8ffef10accd9a0c1db87be3bf1e18',1,'TextObjectPartInfo::width()'],['../structTextObjectLineInfo.html#ad7d72c0e927d970b220adfe243da7d6d',1,'TextObjectLineInfo::width()'],['../structLineSymbolBorder.html#a3673c54673875aa5d98f79f1a2717a14',1,'LineSymbolBorder::width()'],['../structAdvancedPdf_1_1PaperSize.html#af219f9965a2d08b5d877fdfa754be3a5',1,'AdvancedPdf::PaperSize::width()']]],
   ['width_5fedit',['width_edit',['../structLineSymbolSettings_1_1BorderWidgets.html#af8d6efc6e36f6e54a184d095492d0fea',1,'LineSymbolSettings::BorderWidgets']]],
   ['widths',['widths',['../classQFontSubset.html#abedb6bab14dfcfe76d74261a6147d6f7',1,'QFontSubset']]],

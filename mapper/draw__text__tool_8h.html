@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -95,20 +95,28 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">draw_text_tool.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/7e0bf02/src/tools/draw_text_tool.h"><tt>7e0bf02</tt></a> on 3 Jun 2017)</h3><div class="textblock"><code>#include &quot;<a class="el" href="tool__base_8h.html">tool_base.h</a>&quot;</code><br />
-<code>#include &lt;memory&gt;</code><br />
+<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/4d60676/src/tools/draw_text_tool.h"><tt>4d60676</tt></a> on 14 Aug 2017)</h3><div class="textblock"><code>#include &lt;memory&gt;</code><br />
+<code>#include &lt;Qt&gt;</code><br />
+<code>#include &lt;QObject&gt;</code><br />
+<code>#include &lt;QVariant&gt;</code><br />
 <code>#include &quot;<a class="el" href="renderable_8h.html">core/renderables/renderable.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="tool__base_8h.html">tools/tool_base.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for draw_text_tool.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="draw__text__tool_8h__incl.png" border="0" usemap="#src_2tools_2draw__text__tool_8h" alt=""/></div>
 <map name="src_2tools_2draw__text__tool_8h" id="src_2tools_2draw__text__tool_8h">
-<area shape="rect" id="node2" href="tool__base_8h.html" title="tool_base.h" alt="" coords="263,95,353,121"/>
-<area shape="rect" id="node18" href="renderable_8h.html" title="core/renderables/renderable.h" alt="" coords="841,95,1034,121"/>
-<area shape="rect" id="node10" href="tool_8h.html" title="tool.h" alt="" coords="249,169,303,196"/>
-<area shape="rect" id="node11" href="map__coord_8h.html" title="core/map_coord.h" alt="" coords="225,319,351,345"/>
-<area shape="rect" id="node16" href="point__handles_8h.html" title="gui/point_handles.h" alt="" coords="99,244,234,271"/>
-<area shape="rect" id="node23" href="map__color_8h.html" title="core/map_color.h" alt="" coords="1059,169,1181,196"/>
+<area shape="rect" id="node6" href="renderable_8h.html" title="core/renderables/renderable.h" alt="" coords="2542,244,2735,271"/>
+<area shape="rect" id="node21" href="tool__base_8h.html" title="tools/tool_base.h" alt="" coords="918,95,1039,121"/>
+<area shape="rect" id="node14" href="map__color_8h.html" title="core/map_color.h" alt="" coords="2255,326,2377,353"/>
+<area shape="rect" id="node28" href="map__coord_8h.html" title="core/map_coord.h" alt="" coords="1378,408,1505,435"/>
+<area shape="rect" id="node31" href="object_8h.html" title="core/objects/object.h" alt="" coords="1769,169,1911,196"/>
+<area shape="rect" id="node39" href="tool_8h.html" title="tools/tool.h" alt="" coords="778,244,865,271"/>
+<area shape="rect" id="node33" href="path__coord_8h.html" title="core/path_coord.h" alt="" coords="2053,326,2179,353"/>
+<area shape="rect" id="node34" href="virtual__path_8h.html" title="core/virtual_path.h" alt="" coords="1775,244,1905,271"/>
+<area shape="rect" id="node37" href="symbol_8h.html" title="core/symbols/symbol.h" alt="" coords="1348,326,1505,353"/>
+<area shape="rect" id="node36" href="virtual__coord__vector_8h.html" title="core/virtual_coord\l_vector.h" alt="" coords="1681,319,1807,360"/>
+<area shape="rect" id="node41" href="point__handles_8h.html" title="tools/point_handles.h" alt="" coords="641,326,786,353"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -118,8 +126,6 @@ This graph shows which files directly or indirectly include this file:</div>
 <map name="src_2tools_2draw__text__tool_8hdep" id="src_2tools_2draw__text__tool_8hdep">
 <area shape="rect" id="node2" href="map__editor_8cpp.html" title="src/gui/map/map_editor.cpp" alt="" coords="5,102,188,129"/>
 <area shape="rect" id="node3" href="draw__text__tool_8cpp.html" title="src/tools/draw_text\l_tool.cpp" alt="" coords="213,95,346,136"/>
-<area shape="rect" id="node4" href="edit__point__tool_8cpp.html" title="src/tools/edit_point\l_tool.cpp" alt="" coords="371,95,503,136"/>
-<area shape="rect" id="node5" href="tool__helpers_8cpp.html" title="src/tools/tool_helpers.cpp" alt="" coords="527,102,698,129"/>
 </map>
 </div>
 </div><table class="memberdecls">

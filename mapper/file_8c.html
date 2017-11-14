@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -383,7 +383,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Opens a file with the given filename. </p>
-<p>The file is loaded into memory and is accessible through the various ocad_file_* methods. The first argument can either be a pointer to a pre-allocated OCADFile object (e.g., on the stack), or NULL to cause the object to be allocated on the heap. In the first case, the preallocated memory is considered to be uninitialized and will be zeroed before opening the file.</p>
+<p>The file is loaded into memory and is accessible through the various ocad_file_* methods. The first argument can either be a pointer to a pre-allocated OCADFile object (e.g., on the stack), or nullptr to cause the object to be allocated on the heap. In the first case, the preallocated memory is considered to be uninitialized and will be zeroed before opening the file.</p>
 <p>This function will verify the magic number and set up the OCAD file version.</p>
 <p>An open OCADFile can be closed with <a class="el" href="libocad_8h.html#ac595fc716c3c92481ac5ee141a619514" title="Closes an open OCADFile. ">ocad_file_close()</a>.</p>
 <p>Returns OCAD_OK on success, or one of the following error codes:</p><ul>

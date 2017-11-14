@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -95,20 +95,26 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">tool_helpers.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/5034328/src/tools/tool_helpers.h"><tt>5034328</tt></a> on 8 Jan 2017)</h3><div class="textblock"><code>#include &lt;memory&gt;</code><br />
+<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/340981e/src/tools/tool_helpers.h"><tt>340981e</tt></a> on 5 Nov 2017)</h3><div class="textblock"><code>#include &lt;cstddef&gt;</code><br />
+<code>#include &lt;memory&gt;</code><br />
 <code>#include &lt;set&gt;</code><br />
+<code>#include &lt;QtGlobal&gt;</code><br />
+<code>#include &lt;QColor&gt;</code><br />
+<code>#include &lt;QFont&gt;</code><br />
 <code>#include &lt;QObject&gt;</code><br />
+<code>#include &lt;QRectF&gt;</code><br />
+<code>#include &lt;QString&gt;</code><br />
+<code>#include &quot;<a class="el" href="map__coord_8h.html">core/map_coord.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="path__coord_8h.html">core/path_coord.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="tool_8h.html">tool.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="point__handles_8h.html">tools/point_handles.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for tool_helpers.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="tool__helpers_8h__incl.png" border="0" usemap="#src_2tools_2tool__helpers_8h" alt=""/></div>
 <map name="src_2tools_2tool__helpers_8h" id="src_2tools_2tool__helpers_8h">
-<area shape="rect" id="node5" href="path__coord_8h.html" title="core/path_coord.h" alt="" coords="153,155,279,181"/>
-<area shape="rect" id="node12" href="tool_8h.html" title="tool.h" alt="" coords="362,80,417,107"/>
-<area shape="rect" id="node7" href="map__coord_8h.html" title="map_coord.h" alt="" coords="290,229,387,256"/>
-<area shape="rect" id="node15" href="point__handles_8h.html" title="gui/point_handles.h" alt="" coords="546,155,681,181"/>
+<area shape="rect" id="node11" href="map__coord_8h.html" title="core/map_coord.h" alt="" coords="456,155,583,181"/>
+<area shape="rect" id="node18" href="path__coord_8h.html" title="core/path_coord.h" alt="" coords="355,80,481,107"/>
+<area shape="rect" id="node19" href="point__handles_8h.html" title="tools/point_handles.h" alt="" coords="557,80,703,107"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -117,19 +123,16 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="center"><img src="tool__helpers_8h__dep__incl.png" border="0" usemap="#src_2tools_2tool__helpers_8hdep" alt=""/></div>
 <map name="src_2tools_2tool__helpers_8hdep" id="src_2tools_2tool__helpers_8hdep">
 <area shape="rect" id="node2" href="draw__path__tool_8cpp.html" title="src/tools/draw_path\l_tool.cpp" alt="" coords="5,80,141,121"/>
-<area shape="rect" id="node3" href="draw__point__gps__tool_8cpp.html" title="src/tools/draw_point\l_gps_tool.cpp" alt="" coords="165,80,304,121"/>
-<area shape="rect" id="node4" href="draw__point__tool_8cpp.html" title="src/tools/draw_point\l_tool.cpp" alt="" coords="328,80,467,121"/>
-<area shape="rect" id="node5" href="draw__rectangle__tool_8cpp.html" title="src/tools/draw_rectangle\l_tool.cpp" alt="" coords="491,80,655,121"/>
-<area shape="rect" id="node6" href="draw__text__tool_8cpp.html" title="src/tools/draw_text\l_tool.cpp" alt="" coords="680,80,813,121"/>
-<area shape="rect" id="node7" href="edit__line__tool_8cpp.html" title="src/tools/edit_line\l_tool.cpp" alt="" coords="838,80,962,121"/>
-<area shape="rect" id="node8" href="edit__point__tool_8cpp.html" title="src/tools/edit_point\l_tool.cpp" alt="" coords="986,80,1118,121"/>
-<area shape="rect" id="node9" href="edit__tool_8cpp.html" title="src/tools/edit_tool.cpp" alt="" coords="1142,87,1293,114"/>
-<area shape="rect" id="node10" href="fill__tool_8cpp.html" title="src/tools/fill_tool.cpp" alt="" coords="1317,87,1459,114"/>
-<area shape="rect" id="node11" href="rotate__pattern__tool_8cpp.html" title="src/tools/rotate_pattern\l_tool.cpp" alt="" coords="1483,80,1639,121"/>
-<area shape="rect" id="node12" href="rotate__tool_8cpp.html" title="src/tools/rotate_tool.cpp" alt="" coords="1664,87,1827,114"/>
-<area shape="rect" id="node13" href="tool_8cpp.html" title="src/tools/tool.cpp" alt="" coords="1851,87,1973,114"/>
-<area shape="rect" id="node14" href="tool__base_8cpp.html" title="src/tools/tool_base.cpp" alt="" coords="1997,87,2155,114"/>
-<area shape="rect" id="node15" href="tool__helpers_8cpp.html" title="src/tools/tool_helpers.cpp" alt="" coords="2179,87,2349,114"/>
+<area shape="rect" id="node3" href="draw__point__tool_8cpp.html" title="src/tools/draw_point\l_tool.cpp" alt="" coords="165,80,304,121"/>
+<area shape="rect" id="node4" href="draw__rectangle__tool_8cpp.html" title="src/tools/draw_rectangle\l_tool.cpp" alt="" coords="329,80,493,121"/>
+<area shape="rect" id="node5" href="draw__text__tool_8cpp.html" title="src/tools/draw_text\l_tool.cpp" alt="" coords="517,80,651,121"/>
+<area shape="rect" id="node6" href="edit__line__tool_8cpp.html" title="src/tools/edit_line\l_tool.cpp" alt="" coords="675,80,799,121"/>
+<area shape="rect" id="node7" href="edit__point__tool_8cpp.html" title="src/tools/edit_point\l_tool.cpp" alt="" coords="823,80,955,121"/>
+<area shape="rect" id="node8" href="edit__tool_8cpp.html" title="src/tools/edit_tool.cpp" alt="" coords="979,87,1130,114"/>
+<area shape="rect" id="node9" href="rotate__pattern__tool_8cpp.html" title="src/tools/rotate_pattern\l_tool.cpp" alt="" coords="1154,80,1310,121"/>
+<area shape="rect" id="node10" href="rotate__tool_8cpp.html" title="src/tools/rotate_tool.cpp" alt="" coords="1335,87,1497,114"/>
+<area shape="rect" id="node11" href="tool__base_8cpp.html" title="src/tools/tool_base.cpp" alt="" coords="1521,87,1679,114"/>
+<area shape="rect" id="node12" href="tool__helpers_8cpp.html" title="src/tools/tool_helpers.cpp" alt="" coords="1703,87,1873,114"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -141,11 +144,14 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSnappingToolHelper.html">SnappingToolHelper</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper class to snap to existing objects or a grid on the map.  <a href="classSnappingToolHelper.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSnappingToolHelperSnapInfo.html">SnappingToolHelperSnapInfo</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Information returned from a snap process from <a class="el" href="classSnappingToolHelper.html" title="Helper class to snap to existing objects or a grid on the map. ">SnappingToolHelper</a>.  <a href="classSnappingToolHelperSnapInfo.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structSnappingToolHelperSnapInfo.html">SnappingToolHelperSnapInfo</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Information returned from a snap process from <a class="el" href="classSnappingToolHelper.html" title="Helper class to snap to existing objects or a grid on the map. ">SnappingToolHelper</a>.  <a href="structSnappingToolHelperSnapInfo.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFollowPathToolHelper.html">FollowPathToolHelper</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper class to 'follow' (i.e.  <a href="classFollowPathToolHelper.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAzimuthInfoHelper.html">AzimuthInfoHelper</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A utility for displaying azimuth and distance while drawing.  <a href="classAzimuthInfoHelper.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->

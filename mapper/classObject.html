@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -149,21 +149,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9f23cbab0147e286cc3b355a37a5c71f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObject.html#a9f23cbab0147e286cc3b355a37a5c71f">Object</a> (<a class="el" href="classObject.html#ad8dadb365053c182931671a424199e36">Type</a> <a class="el" href="classObject.html#ab04ff000e7ff2cf83c27777f7d3415a8">type</a>, const <a class="el" href="classSymbol.html">Symbol</a> *<a class="el" href="classObject.html#a56c42d12e461dcc56d216e339cbfaacf">symbol</a>, const <a class="el" href="map__coord_8h.html#af1641b855a79e4b54a4a3b789056521c">MapCoordVector</a> &amp;<a class="el" href="classObject.html#ac69a94f576c436452e4bfa48d9cf0ecc">coords</a>, <a class="el" href="classMap.html">Map</a> *<a class="el" href="classObject.html#ad5bc9df1098f0a498d7ba99a37088d98">map</a>=nullptr)</td></tr>
 <tr class="memdesc:a9f23cbab0147e286cc3b355a37a5c71f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an empty object with the given type, symbol, coords and (optional) map.  <a href="#a9f23cbab0147e286cc3b355a37a5c71f">More...</a><br /></td></tr>
 <tr class="separator:a9f23cbab0147e286cc3b355a37a5c71f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82f4b6027e5d979233e5204f291ddf36"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObject.html#a82f4b6027e5d979233e5204f291ddf36">Object</a> (const <a class="el" href="classObject.html">Object</a> &amp;proto)</td></tr>
-<tr class="memdesc:a82f4b6027e5d979233e5204f291ddf36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classObject.html" title="Abstract base class which combines coordinates and a symbol to form an object (in a map...">Object</a>, initialized from the given prototype.  <a href="#a82f4b6027e5d979233e5204f291ddf36">More...</a><br /></td></tr>
-<tr class="separator:a82f4b6027e5d979233e5204f291ddf36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8f5483f459e46687bd01e6f9977afd3"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObject.html#ae8f5483f459e46687bd01e6f9977afd3">~Object</a> ()</td></tr>
 <tr class="memdesc:ae8f5483f459e46687bd01e6f9977afd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructs the object.  <a href="#ae8f5483f459e46687bd01e6f9977afd3">More...</a><br /></td></tr>
 <tr class="separator:ae8f5483f459e46687bd01e6f9977afd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afcbd10ecc17ea3f0f1951924df41fcc8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classObject.html">Object</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObject.html#afcbd10ecc17ea3f0f1951924df41fcc8">operator=</a> (const <a class="el" href="classObject.html">Object</a> &amp;other)</td></tr>
-<tr class="memdesc:afcbd10ecc17ea3f0f1951924df41fcc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment, replaces this object's content with that of the other.  <a href="#afcbd10ecc17ea3f0f1951924df41fcc8">More...</a><br /></td></tr>
-<tr class="separator:afcbd10ecc17ea3f0f1951924df41fcc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada84879a3f2fb5cb3c3dfad16ab2200e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classObject.html">Object</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObject.html#ada84879a3f2fb5cb3c3dfad16ab2200e">operator=</a> (const <a class="el" href="classObject.html">Object</a> &amp;other)=delete</td></tr>
+<tr class="separator:ada84879a3f2fb5cb3c3dfad16ab2200e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8797611cc20ec53c33c12d1501150b1d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObject.html#a8797611cc20ec53c33c12d1501150b1d">copyFrom</a> (const <a class="el" href="classObject.html">Object</a> &amp;other)</td></tr>
+<tr class="separator:a8797611cc20ec53c33c12d1501150b1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc1c56c99485d77f672ee822cd9d88be"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classObject.html">Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObject.html#acc1c56c99485d77f672ee822cd9d88be">duplicate</a> () const =0</td></tr>
 <tr class="memdesc:acc1c56c99485d77f672ee822cd9d88be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an identical copy of the object.  <a href="#acc1c56c99485d77f672ee822cd9d88be">More...</a><br /></td></tr>
 <tr class="separator:acc1c56c99485d77f672ee822cd9d88be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64259814319f15c9595e3d7dfbd765f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObject.html#a64259814319f15c9595e3d7dfbd765f9">equals</a> (const <a class="el" href="classObject.html">Object</a> *other, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> compare_symbol) const </td></tr>
 <tr class="memdesc:a64259814319f15c9595e3d7dfbd765f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks for equality with another object.  <a href="#a64259814319f15c9595e3d7dfbd765f9">More...</a><br /></td></tr>
 <tr class="separator:a64259814319f15c9595e3d7dfbd765f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c24bc4e9aec24db62c55232378ed5de"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObject.html#a5c24bc4e9aec24db62c55232378ed5de">validate</a> () const </td></tr>
+<tr class="separator:a5c24bc4e9aec24db62c55232378ed5de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf82caf6149078271922e396eb47c948"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classObject.html#ad8dadb365053c182931671a424199e36">Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObject.html#aaf82caf6149078271922e396eb47c948">getType</a> () const </td></tr>
 <tr class="memdesc:aaf82caf6149078271922e396eb47c948"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the object type determined by the subclass.  <a href="#aaf82caf6149078271922e396eb47c948">More...</a><br /></td></tr>
 <tr class="separator:aaf82caf6149078271922e396eb47c948"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -221,9 +221,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0d13b76cff29811c25ff62322b8c5a51"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObject.html#a0d13b76cff29811c25ff62322b8c5a51">isPointOnObject</a> (<a class="el" href="classMapCoordF.html">MapCoordF</a> coord, float tolerance, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> treat_areas_as_paths, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> extended_selection) const </td></tr>
 <tr class="memdesc:a0d13b76cff29811c25ff62322b8c5a51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the given coord, with the given tolerance, is on this object.  <a href="#a0d13b76cff29811c25ff62322b8c5a51">More...</a><br /></td></tr>
 <tr class="separator:a0d13b76cff29811c25ff62322b8c5a51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b7fbbef0cc20a05825cf476e3399c3a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObject.html#a7b7fbbef0cc20a05825cf476e3399c3a">intersectsBox</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> box) const =0</td></tr>
-<tr class="memdesc:a7b7fbbef0cc20a05825cf476e3399c3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a path point (excluding curve control points) is included in the given box.  <a href="#a7b7fbbef0cc20a05825cf476e3399c3a">More...</a><br /></td></tr>
-<tr class="separator:a7b7fbbef0cc20a05825cf476e3399c3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a034eb2a0a0c4b537889a11a43acbb9bc"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObject.html#a034eb2a0a0c4b537889a11a43acbb9bc">intersectsBox</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> &amp;box) const =0</td></tr>
+<tr class="memdesc:a034eb2a0a0c4b537889a11a43acbb9bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a path point (excluding curve control points) is included in the given box.  <a href="#a034eb2a0a0c4b537889a11a43acbb9bc">More...</a><br /></td></tr>
+<tr class="separator:a034eb2a0a0c4b537889a11a43acbb9bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a746f7aa7f0767c143ec38d9445fdc2bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObject.html#a746f7aa7f0767c143ec38d9445fdc2bb">takeRenderables</a> ()</td></tr>
 <tr class="memdesc:a746f7aa7f0767c143ec38d9445fdc2bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes ownership of the renderables.  <a href="#a746f7aa7f0767c143ec38d9445fdc2bb">More...</a><br /></td></tr>
 <tr class="separator:a746f7aa7f0767c143ec38d9445fdc2bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -278,7 +278,7 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a09d30e25177e4ce2c69afe33735befb6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classObject.html">Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObject.html#a09d30e25177e4ce2c69afe33735befb6">load</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qxmlstreamreader.html">QXmlStreamReader</a> &amp;xml, <a class="el" href="classMap.html">Map</a> *<a class="el" href="classObject.html#ad5bc9df1098f0a498d7ba99a37088d98">map</a>, const <a class="el" href="map__part_8h.html#a399a8a7116cffc8d49caccfc501704f2">SymbolDictionary</a> &amp;symbol_dict, const <a class="el" href="classSymbol.html">Symbol</a> *<a class="el" href="classObject.html#a56c42d12e461dcc56d216e339cbfaacf">symbol</a>=nullptr)</td></tr>
+<tr class="memitem:a09d30e25177e4ce2c69afe33735befb6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classObject.html">Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObject.html#a09d30e25177e4ce2c69afe33735befb6">load</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qxmlstreamreader.html">QXmlStreamReader</a> &amp;xml, <a class="el" href="classMap.html">Map</a> *<a class="el" href="classObject.html#ad5bc9df1098f0a498d7ba99a37088d98">map</a>, const <a class="el" href="map__part_8h.html#af7d420ad52539d37facbc179de888f97">SymbolDictionary</a> &amp;symbol_dict, const <a class="el" href="classSymbol.html">Symbol</a> *<a class="el" href="classObject.html#a56c42d12e461dcc56d216e339cbfaacf">symbol</a>=nullptr)</td></tr>
 <tr class="memdesc:a09d30e25177e4ce2c69afe33735befb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the object in xml format from the given stream.  <a href="#a09d30e25177e4ce2c69afe33735befb6">More...</a><br /></td></tr>
 <tr class="separator:a09d30e25177e4ce2c69afe33735befb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab190316b48bcd952eb24a0a027b10525"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classObject.html">Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObject.html#ab190316b48bcd952eb24a0a027b10525">getObjectForType</a> (<a class="el" href="classObject.html#ad8dadb365053c182931671a424199e36">Type</a> <a class="el" href="classObject.html#ab04ff000e7ff2cf83c27777f7d3415a8">type</a>, const <a class="el" href="classSymbol.html">Symbol</a> *<a class="el" href="classObject.html#a56c42d12e461dcc56d216e339cbfaacf">symbol</a>=nullptr)</td></tr>
@@ -287,6 +287,9 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
+<tr class="memitem:a82f4b6027e5d979233e5204f291ddf36"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObject.html#a82f4b6027e5d979233e5204f291ddf36">Object</a> (const <a class="el" href="classObject.html">Object</a> &amp;proto)</td></tr>
+<tr class="memdesc:a82f4b6027e5d979233e5204f291ddf36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classObject.html" title="Abstract base class which combines coordinates and a symbol to form an object (in a map...">Object</a>, initialized from the given prototype.  <a href="#a82f4b6027e5d979233e5204f291ddf36">More...</a><br /></td></tr>
+<tr class="separator:a82f4b6027e5d979233e5204f291ddf36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9f8c06143d51cfc4aec13f84cc68299"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObject.html#ab9f8c06143d51cfc4aec13f84cc68299">updateEvent</a> () const </td></tr>
 <tr class="separator:ab9f8c06143d51cfc4aec13f84cc68299"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56f246330f704ce6b94449fd8de0fd5f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObject.html#a56f246330f704ce6b94449fd8de0fd5f">createRenderables</a> (<a class="el" href="classObjectRenderables.html">ObjectRenderables</a> &amp;output, Symbol::RenderableOptions options) const </td></tr>
@@ -464,7 +467,7 @@ Friends</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+<span class="mlabels"><span class="mlabel">explicit</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -619,6 +622,32 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a8797611cc20ec53c33c12d1501150b1d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Object::copyFrom </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classObject.html">Object</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classPointObject.html#a034ae97e34f5eb9ffe782fe59127a46a">PointObject</a>, <a class="el" href="classPathObject.html#a2bb3e9b8a7b68d008cc3af1d5bee40d9">PathObject</a>, and <a class="el" href="classTextObject.html#a6a98b7b7cc57f1f058c201dfba3a94ac">TextObject</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a56f246330f704ce6b94449fd8de0fd5f"></a>
 <div class="memitem">
 <div class="memproto">
@@ -679,7 +708,7 @@ Friends</h2></td></tr>
 <p>Creates an identical copy of the object. </p>
 <p>This needs to be implemented in non-abstract subclasses. Implementation should use the copy constructor to ensure proper initialization. </p>
 
-<p>Implemented in <a class="el" href="classPointObject.html#aba23232758555b4363c514ef4ccda8d9">PointObject</a>, <a class="el" href="classPathObject.html#a117ac843c44a2318772417be07473585">PathObject</a>, and <a class="el" href="classTextObject.html#afc284d84d555bd40479caa5ad7bc215a">TextObject</a>.</p>
+<p>Implemented in <a class="el" href="classPointObject.html#a14253fde723d8be7ca7eb261fb4cb4bd">PointObject</a>, <a class="el" href="classPathObject.html#af24a57f753733c1e224676e0bd667d8b">PathObject</a>, and <a class="el" href="classTextObject.html#a53049af205cf28a4ff5643955b5a2342">TextObject</a>.</p>
 
 </div>
 </div>
@@ -935,7 +964,7 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a7b7fbbef0cc20a05825cf476e3399c3a"></a>
+<a class="anchor" id="a034eb2a0a0c4b537889a11a43acbb9bc"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -945,7 +974,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname">virtual <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> Object::intersectsBox </td>
           <td>(</td>
-          <td class="paramtype"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a>&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> &amp;&#160;</td>
           <td class="paramname"><em>box</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -959,7 +988,7 @@ Friends</h2></td></tr>
 
 <p>Checks if a path point (excluding curve control points) is included in the given box. </p>
 
-<p>Implemented in <a class="el" href="classPointObject.html#a5f787a426062dccb5593f4d2f1abb353">PointObject</a>, <a class="el" href="classPathObject.html#ae4ceb5c6be29a84e20581f835a8a3408">PathObject</a>, and <a class="el" href="classTextObject.html#a41bf20beb8935fc83128338d9568ac19">TextObject</a>.</p>
+<p>Implemented in <a class="el" href="classPointObject.html#a0cdb3621e9c7448e0efa98bb03e99b8b">PointObject</a>, <a class="el" href="classPathObject.html#ad77f5be945164b3a2074ed851954dfa4">PathObject</a>, and <a class="el" href="classTextObject.html#a9e1fc17bd1ed0929ceb002ffdfff49e2">TextObject</a>.</p>
 
 </div>
 </div>
@@ -1085,7 +1114,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="map__part_8h.html#a399a8a7116cffc8d49caccfc501704f2">SymbolDictionary</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="map__part_8h.html#af7d420ad52539d37facbc179de888f97">SymbolDictionary</a> &amp;&#160;</td>
           <td class="paramname"><em>symbol_dict</em>, </td>
         </tr>
         <tr>
@@ -1173,7 +1202,7 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="afcbd10ecc17ea3f0f1951924df41fcc8"></a>
+<a class="anchor" id="ada84879a3f2fb5cb3c3dfad16ab2200e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1181,7 +1210,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classObject.html">Object</a> &amp; Object::operator= </td>
+          <td class="memname"><a class="el" href="classObject.html">Object</a>&amp; Object::operator= </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classObject.html">Object</a> &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
@@ -1190,14 +1219,10 @@ Friends</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Assignment, replaces this object's content with that of the other. </p>
-
-<p>Reimplemented in <a class="el" href="classPointObject.html#a65d20fc49176c6c9a1228199663ac692">PointObject</a>, <a class="el" href="classPathObject.html#a2a60ee490cf28706cbe407afd7d6f5a5">PathObject</a>, and <a class="el" href="classTextObject.html#aeb475878ea8caecb5de2d66c925e861b">TextObject</a>.</p>
 
 </div>
 </div>
@@ -1605,6 +1630,31 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a5c24bc4e9aec24db62c55232378ed5de"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> Object::validate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classPathObject.html#a7aa1c1b1e2eb4ca0abeed9e324f1134b">PathObject</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
 <a class="anchor" id="a734235299f2d37aae4f0a077675faf46"></a>
 <div class="memitem">
@@ -1768,8 +1818,8 @@ Friends</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/core/objects/<a class="el" href="object_8h.html">object.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/b7c2de8/src/core/objects/object.h"><tt>b7c2de8</tt></a> on 8 Jan 2017)</li>
-<li>src/core/objects/<a class="el" href="object_8cpp.html">object.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/553223f/src/core/objects/object.cpp"><tt>553223f</tt></a> on 30 Jan 2017)</li>
+<li>src/core/objects/<a class="el" href="object_8h.html">object.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/603a950/src/core/objects/object.h"><tt>603a950</tt></a> on 20 Aug 2017)</li>
+<li>src/core/objects/<a class="el" href="object_8cpp.html">object.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/201747d/src/core/objects/object.cpp"><tt>201747d</tt></a> on 7 Nov 2017)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

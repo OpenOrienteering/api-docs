@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -96,17 +96,34 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">edit_tool.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/7e0bf02/src/tools/edit_tool.h"><tt>7e0bf02</tt></a> on 3 Jun 2017)</h3><div class="textblock"><code>#include &quot;<a class="el" href="tool__base_8h.html">tool_base.h</a>&quot;</code><br />
-<code>#include &lt;QSet&gt;</code><br />
+<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/340981e/src/tools/edit_tool.h"><tt>340981e</tt></a> on 5 Nov 2017)</h3><div class="textblock"><code>#include &lt;utility&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;Qt&gt;</code><br />
+<code>#include &lt;QFlags&gt;</code><br />
+<code>#include &lt;QObject&gt;</code><br />
+<code>#include &lt;QPointF&gt;</code><br />
+<code>#include &lt;QRectF&gt;</code><br />
+<code>#include &lt;QRgb&gt;</code><br />
+<code>#include &lt;QScopedPointer&gt;</code><br />
+<code>#include &quot;<a class="el" href="map__coord_8h.html">core/map_coord.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="tool_8h.html">tools/tool.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="tool__base_8h.html">tools/tool_base.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for edit_tool.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="edit__tool_8h__incl.png" border="0" usemap="#src_2tools_2edit__tool_8h" alt=""/></div>
 <map name="src_2tools_2edit__tool_8h" id="src_2tools_2edit__tool_8h">
-<area shape="rect" id="node2" href="tool__base_8h.html" title="tool_base.h" alt="" coords="319,80,409,107"/>
-<area shape="rect" id="node10" href="tool_8h.html" title="tool.h" alt="" coords="305,155,359,181"/>
-<area shape="rect" id="node11" href="map__coord_8h.html" title="core/map_coord.h" alt="" coords="214,304,341,331"/>
-<area shape="rect" id="node16" href="point__handles_8h.html" title="gui/point_handles.h" alt="" coords="265,229,399,256"/>
+<area shape="rect" id="node11" href="map__coord_8h.html" title="core/map_coord.h" alt="" coords="690,393,817,420"/>
+<area shape="rect" id="node17" href="tool_8h.html" title="tools/tool.h" alt="" coords="871,229,958,256"/>
+<area shape="rect" id="node25" href="tool__base_8h.html" title="tools/tool_base.h" alt="" coords="1207,80,1329,107"/>
+<area shape="rect" id="node22" href="point__handles_8h.html" title="tools/point_handles.h" alt="" coords="787,311,933,338"/>
+<area shape="rect" id="node29" href="object_8h.html" title="core/objects/object.h" alt="" coords="1894,155,2037,181"/>
+<area shape="rect" id="node31" href="path__coord_8h.html" title="core/path_coord.h" alt="" coords="1799,311,1926,338"/>
+<area shape="rect" id="node32" href="virtual__path_8h.html" title="core/virtual_path.h" alt="" coords="1798,229,1927,256"/>
+<area shape="rect" id="node34" href="renderable_8h.html" title="core/renderables/renderable.h" alt="" coords="2638,229,2831,256"/>
+<area shape="rect" id="node42" href="symbol_8h.html" title="core/symbols/symbol.h" alt="" coords="1951,311,2108,338"/>
+<area shape="rect" id="node33" href="virtual__coord__vector_8h.html" title="core/virtual_coord\l_vector.h" alt="" coords="1649,304,1775,345"/>
+<area shape="rect" id="node38" href="map__color_8h.html" title="core/map_color.h" alt="" coords="2311,311,2433,338"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -114,45 +131,37 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="edit__tool_8h__dep__incl.png" border="0" usemap="#src_2tools_2edit__tool_8hdep" alt=""/></div>
 <map name="src_2tools_2edit__tool_8hdep" id="src_2tools_2edit__tool_8hdep">
-<area shape="rect" id="node2" href="map__widget_8cpp.html" title="src/gui/map/map_widget.cpp" alt="" coords="5,87,195,114"/>
-<area shape="rect" id="node3" href="cut__tool_8h.html" title="src/tools/cut_tool.h" alt="" coords="219,87,352,114"/>
-<area shape="rect" id="node6" href="cutout__tool_8cpp.html" title="src/tools/cutout_tool.cpp" alt="" coords="376,87,541,114"/>
-<area shape="rect" id="node7" href="draw__text__tool_8cpp.html" title="src/tools/draw_text\l_tool.cpp" alt="" coords="565,80,699,121"/>
-<area shape="rect" id="node8" href="edit__line__tool_8h.html" title="src/tools/edit_line\l_tool.h" alt="" coords="723,80,847,121"/>
-<area shape="rect" id="node10" href="edit__point__tool_8h.html" title="src/tools/edit_point\l_tool.h" alt="" coords="871,80,1003,121"/>
-<area shape="rect" id="node13" href="edit__tool_8cpp.html" title="src/tools/edit_tool.cpp" alt="" coords="1027,87,1178,114"/>
-<area shape="rect" id="node4" href="map__editor_8cpp.html" title="src/gui/map/map_editor.cpp" alt="" coords="683,177,866,203"/>
-<area shape="rect" id="node5" href="cut__tool_8cpp.html" title="src/tools/cut_tool.cpp" alt="" coords="212,177,359,203"/>
-<area shape="rect" id="node9" href="edit__line__tool_8cpp.html" title="src/tools/edit_line\l_tool.cpp" alt="" coords="535,169,659,211"/>
-<area shape="rect" id="node11" href="edit__point__tool_8cpp.html" title="src/tools/edit_point\l_tool.cpp" alt="" coords="1027,169,1159,211"/>
-<area shape="rect" id="node12" href="tools__t_8cpp.html" title="test/tools_t.cpp" alt="" coords="891,177,1003,203"/>
+<area shape="rect" id="node2" href="cut__tool_8h.html" title="src/tools/cut_tool.h" alt="" coords="53,87,187,114"/>
+<area shape="rect" id="node5" href="draw__text__tool_8cpp.html" title="src/tools/draw_text\l_tool.cpp" alt="" coords="211,80,344,121"/>
+<area shape="rect" id="node6" href="edit__line__tool_8h.html" title="src/tools/edit_line\l_tool.h" alt="" coords="369,80,493,121"/>
+<area shape="rect" id="node8" href="edit__point__tool_8h.html" title="src/tools/edit_point\l_tool.h" alt="" coords="517,80,649,121"/>
+<area shape="rect" id="node10" href="tools__t_8cpp.html" title="test/tools_t.cpp" alt="" coords="688,177,800,203"/>
+<area shape="rect" id="node11" href="edit__tool_8cpp.html" title="src/tools/edit_tool.cpp" alt="" coords="725,87,875,114"/>
+<area shape="rect" id="node3" href="map__editor_8cpp.html" title="src/gui/map/map_editor.cpp" alt="" coords="325,177,507,203"/>
+<area shape="rect" id="node4" href="cut__tool_8cpp.html" title="src/tools/cut_tool.cpp" alt="" coords="5,177,152,203"/>
+<area shape="rect" id="node7" href="edit__line__tool_8cpp.html" title="src/tools/edit_line\l_tool.cpp" alt="" coords="177,169,301,211"/>
+<area shape="rect" id="node9" href="edit__point__tool_8cpp.html" title="src/tools/edit_point\l_tool.cpp" alt="" coords="531,169,663,211"/>
 </map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectSelector.html">ObjectSelector</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implements the object selection logic for edit tools.  <a href="classObjectSelector.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectMover.html">ObjectMover</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implements the logic to move sets of objects and / or object points for edit tools.  <a href="classObjectMover.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditTool.html">EditTool</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class for object editing tools.  <a href="classEditTool.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a13ca1d6f950a575e0025e7547506dfc4"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; std::pair&lt; int, <a class="el" href="classObject.html">Object</a> * &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="edit__tool_8h.html#a13ca1d6f950a575e0025e7547506dfc4">SelectionInfoVector</a></td></tr>
-<tr class="separator:a13ca1d6f950a575e0025e7547506dfc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3ee0f90d96f211e569c356798307880"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="edit__tool_8h.html#af3ee0f90d96f211e569c356798307880">SelectionInfoVector</a> = std::vector&lt; std::pair&lt; int, <a class="el" href="classObject.html">Object</a> * &gt;&gt;</td></tr>
+<tr class="separator:af3ee0f90d96f211e569c356798307880"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
-<a class="anchor" id="a13ca1d6f950a575e0025e7547506dfc4"></a>
+<a class="anchor" id="af3ee0f90d96f211e569c356798307880"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef std::vector&lt; std::pair&lt; int, <a class="el" href="classObject.html">Object</a>* &gt; &gt; <a class="el" href="map__part_8h.html#a13ca1d6f950a575e0025e7547506dfc4">SelectionInfoVector</a></td>
+          <td class="memname">using <a class="el" href="map__part_8h.html#af3ee0f90d96f211e569c356798307880">SelectionInfoVector</a> =  std::vector&lt;std::pair&lt;int, <a class="el" href="classObject.html">Object</a>*&gt;&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">

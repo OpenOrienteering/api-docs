@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -90,6 +90,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pro-slots">Protected Slots</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classOgrTemplate-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -97,7 +98,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p><a class="el" href="classTemplate.html" title="Abstract base class for templates. ">Template</a> displaying a file supported by OGR.  
+<p>A <a class="el" href="classTemplate.html" title="Abstract base class for templates. ">Template</a> which displays a file supported by OGR (geospatial vector data).  
  <a href="classOgrTemplate.html#details">More...</a></p>
 
 <p><code>#include &lt;ogr_template.h&gt;</code></p>
@@ -116,16 +117,15 @@ Collaboration diagram for OgrTemplate:</div>
 <div class="dyncontent">
 <div class="center"><img src="classOgrTemplate__coll__graph.png" border="0" usemap="#OgrTemplate_coll__map" alt="Collaboration graph"/></div>
 <map name="OgrTemplate_coll__map" id="OgrTemplate_coll__map">
-<area shape="rect" id="node2" href="classTemplateMap.html" title="Template displaying a map file. " alt="" coords="239,409,341,436"/>
-<area shape="rect" id="node3" href="classTemplate.html" title="Abstract base class for templates. " alt="" coords="252,333,328,360"/>
+<area shape="rect" id="node2" href="classTemplateMap.html" title="Template displaying a map file. " alt="" coords="174,409,275,436"/>
+<area shape="rect" id="node3" href="classTemplate.html" title="Abstract base class for templates. " alt="" coords="187,333,263,360"/>
 <area shape="rect" id="node4" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html" title="QObject" alt="" coords="5,95,76,121"/>
-<area shape="rect" id="node10" href="classMap.html" title="Central class for an OpenOrienteering map. " alt="" coords="55,171,101,197"/>
-<area shape="rect" id="node5" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpointf.html" title="QPointF" alt="" coords="125,171,196,197"/>
-<area shape="rect" id="node6" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html" title="QString" alt="" coords="257,171,323,197"/>
-<area shape="rect" id="node7" href="classPassPointList.html" title="List of pass points with methods for transformation calculation. " alt="" coords="348,171,451,197"/>
-<area shape="rect" id="node8" title="STL class. " alt="" coords="315,95,483,121"/>
-<area shape="rect" id="node11" href="structTemplateTransform.html" title="Transformation parameters for non&#45;georeferenced templates. " alt="" coords="475,171,609,197"/>
-<area shape="rect" id="node12" href="classMatrix.html" title="Dynamically sized matrix of doubles. " alt="" coords="637,171,695,197"/>
+<area shape="rect" id="node9" href="classMap.html" title="Central class for an OpenOrienteering map. " alt="" coords="55,171,101,197"/>
+<area shape="rect" id="node5" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html" title="QString" alt="" coords="126,171,193,197"/>
+<area shape="rect" id="node6" href="classPassPointList.html" title="List of pass points with methods for transformation calculation. " alt="" coords="217,171,320,197"/>
+<area shape="rect" id="node7" title="STL class. " alt="" coords="185,95,353,121"/>
+<area shape="rect" id="node10" href="structTemplateTransform.html" title="Transformation parameters for non&#45;georeferenced templates. " alt="" coords="344,171,479,197"/>
+<area shape="rect" id="node11" href="classMatrix.html" title="Dynamically sized matrix of doubles. " alt="" coords="506,171,565,197"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -138,11 +138,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1f2342dc73087b581ca5cb48cff430bf"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOgrTemplate.html#a1f2342dc73087b581ca5cb48cff430bf">getTemplateType</a> () const override</td></tr>
 <tr class="memdesc:a1f2342dc73087b581ca5cb48cff430bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a string which should identify the type of the template uniquely: the class name.  <a href="#a1f2342dc73087b581ca5cb48cff430bf">More...</a><br /></td></tr>
 <tr class="separator:a1f2342dc73087b581ca5cb48cff430bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa9e2cdd9aad7506e936ac7c19409750"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classGeoreferencing.html">Georeferencing</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOgrTemplate.html#aaa9e2cdd9aad7506e936ac7c19409750">makeOrthographicGeoreferencing</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qfile.html">QFile</a> &amp;file)</td></tr>
+<tr class="separator:aaa9e2cdd9aad7506e936ac7c19409750"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f3478f560c06432185bdc7ec3903047"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOgrTemplate.html#a6f3478f560c06432185bdc7ec3903047">preLoadConfiguration</a> (<a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html">QWidget</a> *dialog_parent) override</td></tr>
 <tr class="memdesc:a6f3478f560c06432185bdc7ec3903047"><td class="mdescLeft">&#160;</td><td class="mdescRight">Does configuration before the actual template is loaded.  <a href="#a6f3478f560c06432185bdc7ec3903047">More...</a><br /></td></tr>
 <tr class="separator:a6f3478f560c06432185bdc7ec3903047"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71e56b043e2cb6a10300f0925c9110d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOgrTemplate.html#a71e56b043e2cb6a10300f0925c9110d2">loadTemplateFileImpl</a> (<a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> configuring) override</td></tr>
-<tr class="memdesc:a71e56b043e2cb6a10300f0925c9110d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hook for loading the actual template file non-interactively.  <a href="#a71e56b043e2cb6a10300f0925c9110d2">More...</a><br /></td></tr>
+<tr class="memdesc:a71e56b043e2cb6a10300f0925c9110d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the geospatial vector data into the template_map.  <a href="#a71e56b043e2cb6a10300f0925c9110d2">More...</a><br /></td></tr>
 <tr class="separator:a71e56b043e2cb6a10300f0925c9110d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1434a3cb27577acae95da632614dd27f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOgrTemplate.html#a1434a3cb27577acae95da632614dd27f">postLoadConfiguration</a> (<a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html">QWidget</a> *dialog_parent, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> &amp;out_center_in_view) override</td></tr>
 <tr class="memdesc:a1434a3cb27577acae95da632614dd27f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Does configuration after the actual template is loaded.  <a href="#a1434a3cb27577acae95da632614dd27f">More...</a><br /></td></tr>
@@ -150,7 +152,7 @@ Public Member Functions</h2></td></tr>
 <tr class="inherit_header pub_methods_classTemplateMap"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classTemplateMap')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classTemplateMap.html">TemplateMap</a></td></tr>
 <tr class="memitem:a2153a93d899246c00cf2b0a5fa1ba023 inherit pub_methods_classTemplateMap"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplateMap.html#a2153a93d899246c00cf2b0a5fa1ba023">TemplateMap</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;path, <a class="el" href="classMap.html">Map</a> *<a class="el" href="classTemplate.html#a2f342fbc57e8f0944b137747e0b6abc9">map</a>)</td></tr>
 <tr class="separator:a2153a93d899246c00cf2b0a5fa1ba023 inherit pub_methods_classTemplateMap"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10d48d7eec0bde7aa47ecf66405e7d8a inherit pub_methods_classTemplateMap"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplateMap.html#a10d48d7eec0bde7aa47ecf66405e7d8a">~TemplateMap</a> () override</td></tr>
+<tr class="memitem:a10d48d7eec0bde7aa47ecf66405e7d8a inherit pub_methods_classTemplateMap"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplateMap.html#a10d48d7eec0bde7aa47ecf66405e7d8a">~TemplateMap</a> () override</td></tr>
 <tr class="separator:a10d48d7eec0bde7aa47ecf66405e7d8a inherit pub_methods_classTemplateMap"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00028b68786e3885c39990adc940a310 inherit pub_methods_classTemplateMap"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplateMap.html#a00028b68786e3885c39990adc940a310">getTemplateType</a> () const override</td></tr>
 <tr class="memdesc:a00028b68786e3885c39990adc940a310 inherit pub_methods_classTemplateMap"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a string which should identify the type of the template uniquely: the class name.  <a href="#a00028b68786e3885c39990adc940a310">More...</a><br /></td></tr>
@@ -167,17 +169,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad8174623de4a66c8781abc1582c20b2c inherit pub_methods_classTemplateMap"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplateMap.html#ad8174623de4a66c8781abc1582c20b2c">unloadTemplateFileImpl</a> () override</td></tr>
 <tr class="memdesc:ad8174623de4a66c8781abc1582c20b2c inherit pub_methods_classTemplateMap"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hook for unloading the template file.  <a href="#ad8174623de4a66c8781abc1582c20b2c">More...</a><br /></td></tr>
 <tr class="separator:ad8174623de4a66c8781abc1582c20b2c inherit pub_methods_classTemplateMap"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95928c425ffa905d552ade07637aac17 inherit pub_methods_classTemplateMap"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplateMap.html#a95928c425ffa905d552ade07637aac17">drawTemplate</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpainter.html">QPainter</a> *painter, <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> &amp;clip_rect, double <a class="el" href="classTemplate.html#a537c4329149b4335e0e7907dfc36d37d">scale</a>, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> on_screen, float opacity) const override</td></tr>
-<tr class="memdesc:a95928c425ffa905d552ade07637aac17 inherit pub_methods_classTemplateMap"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the template using the given painter with the given opacity.  <a href="#a95928c425ffa905d552ade07637aac17">More...</a><br /></td></tr>
-<tr class="separator:a95928c425ffa905d552ade07637aac17 inherit pub_methods_classTemplateMap"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8158af9d3b0845e60e4906f1b55e9293 inherit pub_methods_classTemplateMap"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplateMap.html#a8158af9d3b0845e60e4906f1b55e9293">drawTemplate</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpainter.html">QPainter</a> *painter, const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> &amp;clip_rect, double <a class="el" href="classTemplate.html#a537c4329149b4335e0e7907dfc36d37d">scale</a>, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> on_screen, float opacity) const override</td></tr>
+<tr class="memdesc:a8158af9d3b0845e60e4906f1b55e9293 inherit pub_methods_classTemplateMap"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the template using the given painter with the given opacity.  <a href="#a8158af9d3b0845e60e4906f1b55e9293">More...</a><br /></td></tr>
+<tr class="separator:a8158af9d3b0845e60e4906f1b55e9293 inherit pub_methods_classTemplateMap"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a647c6df99eb5ce9632c0c67a34da211c inherit pub_methods_classTemplateMap"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplateMap.html#a647c6df99eb5ce9632c0c67a34da211c">getTemplateExtent</a> () const override</td></tr>
 <tr class="memdesc:a647c6df99eb5ce9632c0c67a34da211c inherit pub_methods_classTemplateMap"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the extent of the template in template coordinates.  <a href="#a647c6df99eb5ce9632c0c67a34da211c">More...</a><br /></td></tr>
 <tr class="separator:a647c6df99eb5ce9632c0c67a34da211c inherit pub_methods_classTemplateMap"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b3aba4053f637576861a9df18965fad inherit pub_methods_classTemplateMap"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classMap.html">Map</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplateMap.html#a5b3aba4053f637576861a9df18965fad">templateMap</a> () const </td></tr>
 <tr class="separator:a5b3aba4053f637576861a9df18965fad inherit pub_methods_classTemplateMap"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classTemplate"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classTemplate')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classTemplate.html">Template</a></td></tr>
-<tr class="memitem:a3a25be0aa214cf317463efed91395f09 inherit pub_methods_classTemplate"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a3a25be0aa214cf317463efed91395f09">~Template</a> ()</td></tr>
-<tr class="separator:a3a25be0aa214cf317463efed91395f09 inherit pub_methods_classTemplate"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65775385ce686e44847dfd0b87d0c8a7 inherit pub_methods_classTemplate"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a65775385ce686e44847dfd0b87d0c8a7">~Template</a> () override</td></tr>
+<tr class="separator:a65775385ce686e44847dfd0b87d0c8a7 inherit pub_methods_classTemplate"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9126bcb97d1875a56d387e5537c2be56 inherit pub_methods_classTemplate"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTemplate.html">Template</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a9126bcb97d1875a56d387e5537c2be56">duplicate</a> () const </td></tr>
 <tr class="memdesc:a9126bcb97d1875a56d387e5537c2be56 inherit pub_methods_classTemplate"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a duplicate of the template.  <a href="#a9126bcb97d1875a56d387e5537c2be56">More...</a><br /></td></tr>
 <tr class="separator:a9126bcb97d1875a56d387e5537c2be56 inherit pub_methods_classTemplate"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -202,6 +204,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa9503f8ca856ce3b8c97931c234969c2 inherit pub_methods_classTemplate"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#aa9503f8ca856ce3b8c97931c234969c2">configureAndLoad</a> (<a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html">QWidget</a> *dialog_parent, <a class="el" href="classMapView.html">MapView</a> *view)</td></tr>
 <tr class="memdesc:aa9503f8ca856ce3b8c97931c234969c2 inherit pub_methods_classTemplate"><td class="mdescLeft">&#160;</td><td class="mdescRight">Does everything needed to load a template.  <a href="#aa9503f8ca856ce3b8c97931c234969c2">More...</a><br /></td></tr>
 <tr class="separator:aa9503f8ca856ce3b8c97931c234969c2 inherit pub_methods_classTemplate"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83404b72c69309aea5c9b0c440f766d1 inherit pub_methods_classTemplate"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a83404b72c69309aea5c9b0c440f766d1">tryToFindTemplateFile</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> map_directory, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> *out_found_from_map_dir=nullptr)</td></tr>
+<tr class="memdesc:a83404b72c69309aea5c9b0c440f766d1 inherit pub_methods_classTemplate"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to find the template file non-interactively.  <a href="#a83404b72c69309aea5c9b0c440f766d1">More...</a><br /></td></tr>
+<tr class="separator:a83404b72c69309aea5c9b0c440f766d1 inherit pub_methods_classTemplate"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afdeec865668c240c69e9ca5478b568bd inherit pub_methods_classTemplate"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#afdeec865668c240c69e9ca5478b568bd">tryToFindAndReloadTemplateFile</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> map_directory, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> *out_loaded_from_map_dir=nullptr)</td></tr>
 <tr class="memdesc:afdeec865668c240c69e9ca5478b568bd inherit pub_methods_classTemplate"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to find and load the template file non-interactively.  <a href="#afdeec865668c240c69e9ca5478b568bd">More...</a><br /></td></tr>
 <tr class="separator:afdeec865668c240c69e9ca5478b568bd inherit pub_methods_classTemplate"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -304,6 +309,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0068f784d16140bc62eaf90c8103aac8 inherit pub_methods_classTemplate"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6406d6d82055dbc9f44197ab63b02c00 inherit pub_methods_classTemplate"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a6406d6d82055dbc9f44197ab63b02c00">setTemplatePosition</a> (<a class="el" href="classMapCoord.html">MapCoord</a> coord)</td></tr>
 <tr class="separator:a6406d6d82055dbc9f44197ab63b02c00 inherit pub_methods_classTemplate"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5ed2fd65cc2eada061ae76e3726f2bb inherit pub_methods_classTemplate"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMapCoord.html">MapCoord</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#ad5ed2fd65cc2eada061ae76e3726f2bb">templatePositionOffset</a> () const </td></tr>
+<tr class="separator:ad5ed2fd65cc2eada061ae76e3726f2bb inherit pub_methods_classTemplate"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67f630d49df9c03e704a822d2f88fce1 inherit pub_methods_classTemplate"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a67f630d49df9c03e704a822d2f88fce1">setTemplatePositionOffset</a> (<a class="el" href="classMapCoord.html">MapCoord</a> offset)</td></tr>
+<tr class="separator:a67f630d49df9c03e704a822d2f88fce1 inherit pub_methods_classTemplate"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56fa248f01e1d678f9f833869b7b050e inherit pub_methods_classTemplate"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a56fa248f01e1d678f9f833869b7b050e">applyTemplatePositionOffset</a> ()</td></tr>
+<tr class="separator:a56fa248f01e1d678f9f833869b7b050e inherit pub_methods_classTemplate"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6520df49cd999b769fb978addf147bee inherit pub_methods_classTemplate"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a6520df49cd999b769fb978addf147bee">resetTemplatePositionOffset</a> ()</td></tr>
+<tr class="separator:a6520df49cd999b769fb978addf147bee inherit pub_methods_classTemplate"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e75de563fdc4e621fdef4e383added7 inherit pub_methods_classTemplate"><td class="memItemLeft" align="right" valign="top">qint64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a6e75de563fdc4e621fdef4e383added7">getTemplateX</a> () const </td></tr>
 <tr class="separator:a6e75de563fdc4e621fdef4e383added7 inherit pub_methods_classTemplate"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ca91f1995fbe615edd60e61cf5b8989 inherit pub_methods_classTemplate"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a7ca91f1995fbe615edd60e61cf5b8989">setTemplateX</a> (qint64 x)</td></tr>
@@ -359,6 +372,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:moveToThread inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:startTimer inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#startTimer">startTimer</a> (int interval, Qt::TimerType timerType)</td></tr>
 <tr class="separator:startTimer inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:startTimer-1 inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#startTimer-1">startTimer</a> (std::chrono::milliseconds time, Qt::TimerType timerType)</td></tr>
+<tr class="separator:startTimer-1 inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:killTimer inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#killTimer">killTimer</a> (int id)</td></tr>
 <tr class="separator:killTimer inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:findChild inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#findChild">findChild</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;name, <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qt.html#FindChildOption-enum">Qt::FindChildOptions</a> options) const</td></tr>
@@ -383,9 +398,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:disconnect-2 inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:disconnect-3 inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#disconnect-3">disconnect</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html">QObject</a> *receiver, const char *method) const</td></tr>
 <tr class="separator:disconnect-3 inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:dumpObjectTree inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#dumpObjectTree">dumpObjectTree</a> ()</td></tr>
+<tr class="memitem:dumpObjectTree-1 inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject-obsolete.html#dumpObjectTree-1">dumpObjectTree</a> ()</td></tr>
+<tr class="separator:dumpObjectTree-1 inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:dumpObjectInfo-1 inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject-obsolete.html#dumpObjectInfo-1">dumpObjectInfo</a> ()</td></tr>
+<tr class="separator:dumpObjectInfo-1 inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:dumpObjectTree inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#dumpObjectTree">dumpObjectTree</a> () const</td></tr>
 <tr class="separator:dumpObjectTree inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:dumpObjectInfo inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#dumpObjectInfo">dumpObjectInfo</a> ()</td></tr>
+<tr class="memitem:dumpObjectInfo inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#dumpObjectInfo">dumpObjectInfo</a> () const</td></tr>
 <tr class="separator:dumpObjectInfo inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:setProperty inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#setProperty">setProperty</a> (const char *name, const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qvariant.html">QVariant</a> &amp;value)</td></tr>
 <tr class="separator:setProperty inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -446,11 +465,22 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:disconnect-5 inherit pub_static_methods_qobject"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#disconnect-5">disconnect</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html">QObject</a> *<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#sender">sender</a>, PointerToMemberFunction signal, const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html">QObject</a> *receiver, PointerToMemberFunction method)</td></tr>
 <tr class="separator:disconnect-5 inherit pub_static_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-slots"></a>
+Protected Slots</h2></td></tr>
+<tr class="memitem:a70067a1ca18e32bbfddc423ddb1f76e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOgrTemplate.html#a70067a1ca18e32bbfddc423ddb1f76e3">reload</a> ()</td></tr>
+<tr class="separator:a70067a1ca18e32bbfddc423ddb1f76e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a85aa25074c3d2dcec6e3e88d39c903c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTemplate.html">Template</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOgrTemplate.html#a85aa25074c3d2dcec6e3e88d39c903c2">duplicateImpl</a> () const override</td></tr>
-<tr class="memdesc:a85aa25074c3d2dcec6e3e88d39c903c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derived classes must create a duplicate and transfer.  <a href="#a85aa25074c3d2dcec6e3e88d39c903c2">More...</a><br /></td></tr>
-<tr class="separator:a85aa25074c3d2dcec6e3e88d39c903c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a268acbfd49f4aa5f9f0ffe0176e85bd6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOgrTemplate.html#a268acbfd49f4aa5f9f0ffe0176e85bd6">reloadLater</a> ()</td></tr>
+<tr class="separator:a268acbfd49f4aa5f9f0ffe0176e85bd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affebef66c1576911fd35b40b5530abdd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOgrTemplate.html#affebef66c1576911fd35b40b5530abdd">mapProjectionChanged</a> ()</td></tr>
+<tr class="separator:affebef66c1576911fd35b40b5530abdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a649e4b7aadbe9b3b10a2e12092e1f8b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOgrTemplate.html#a649e4b7aadbe9b3b10a2e12092e1f8b4">mapTransformationChanged</a> ()</td></tr>
+<tr class="separator:a649e4b7aadbe9b3b10a2e12092e1f8b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94577d7de3ecb6ca5cb18b9a35c1771b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classOgrTemplate.html">OgrTemplate</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOgrTemplate.html#a94577d7de3ecb6ca5cb18b9a35c1771b">duplicateImpl</a> () const override</td></tr>
+<tr class="memdesc:a94577d7de3ecb6ca5cb18b9a35c1771b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derived classes must create a duplicate and transfer.  <a href="#a94577d7de3ecb6ca5cb18b9a35c1771b">More...</a><br /></td></tr>
+<tr class="separator:a94577d7de3ecb6ca5cb18b9a35c1771b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8d16fbc149b13eacc589b27f2087987"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOgrTemplate.html#ac8d16fbc149b13eacc589b27f2087987">loadTypeSpecificTemplateConfiguration</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qxmlstreamreader.html">QXmlStreamReader</a> &amp;xml) override</td></tr>
 <tr class="memdesc:ac8d16fbc149b13eacc589b27f2087987"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hook for loading parameters needed by the actual template type.  <a href="#ac8d16fbc149b13eacc589b27f2087987">More...</a><br /></td></tr>
 <tr class="separator:ac8d16fbc149b13eacc589b27f2087987"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -549,9 +579,6 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac236a9bc4d5d82565cdc71bef037ecc6 inherit pro_attribs_classTemplate"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#ac236a9bc4d5d82565cdc71bef037ecc6">is_georeferenced</a></td></tr>
 <tr class="memdesc:ac236a9bc4d5d82565cdc71bef037ecc6 inherit pro_attribs_classTemplate"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is the template in georeferenced mode?  <a href="#ac236a9bc4d5d82565cdc71bef037ecc6">More...</a><br /></td></tr>
 <tr class="separator:ac236a9bc4d5d82565cdc71bef037ecc6 inherit pro_attribs_classTemplate"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca9401879a1452d703452d4b293df5f8 inherit pro_attribs_classTemplate"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpointf.html">QPointF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#aca9401879a1452d703452d4b293df5f8">accounted_offset</a></td></tr>
-<tr class="memdesc:aca9401879a1452d703452d4b293df5f8 inherit pro_attribs_classTemplate"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bounds correction offset for map templates. Must be masked out when saving.  <a href="#aca9401879a1452d703452d4b293df5f8">More...</a><br /></td></tr>
-<tr class="separator:aca9401879a1452d703452d4b293df5f8 inherit pro_attribs_classTemplate"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a862a0180d8f8921d2f7c476118a6be14 inherit pro_attribs_classTemplate"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structTemplateTransform.html">TemplateTransform</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a862a0180d8f8921d2f7c476118a6be14">transform</a></td></tr>
 <tr class="memdesc:a862a0180d8f8921d2f7c476118a6be14 inherit pro_attribs_classTemplate"><td class="mdescLeft">&#160;</td><td class="mdescRight">Currently active transformation. NOTE: after direct changes here call <a class="el" href="classTemplate.html#a69a4cbb53924433fcbefa9a5a7255ead" title="Must be called after direct changes to transform or other_transform. ">updateTransformationMatrices()</a>  <a href="#a862a0180d8f8921d2f7c476118a6be14">More...</a><br /></td></tr>
 <tr class="separator:a862a0180d8f8921d2f7c476118a6be14 inherit pro_attribs_classTemplate"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -581,7 +608,7 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:objectName-prop inherit properties_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><a class="el" href="classTemplate.html" title="Abstract base class for templates. ">Template</a> displaying a file supported by OGR. </p>
+<div class="textblock"><p>A <a class="el" href="classTemplate.html" title="Abstract base class for templates. ">Template</a> which displays a file supported by OGR (geospatial vector data). </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a1309a1a8f41847e06029bb1ff852c87c"></a>
 <div class="memitem">
@@ -633,7 +660,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a85aa25074c3d2dcec6e3e88d39c903c2"></a>
+<a class="anchor" id="a94577d7de3ecb6ca5cb18b9a35c1771b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -641,7 +668,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classTemplate.html">Template</a> * OgrTemplate::duplicateImpl </td>
+          <td class="memname"><a class="el" href="classOgrTemplate.html">OgrTemplate</a> * OgrTemplate::duplicateImpl </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -656,7 +683,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Derived classes must create a duplicate and transfer. </p>
 <p>type specific information over to the copy here. This includes the content of the template file if it is loaded.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000059">Todo:</a></b></dt><dd>Rewrite together with <a class="el" href="classTemplate.html#a9126bcb97d1875a56d387e5537c2be56" title="Creates a duplicate of the template. ">duplicate()</a>. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000068">Todo:</a></b></dt><dd>Rewrite together with <a class="el" href="classTemplate.html#a9126bcb97d1875a56d387e5537c2be56" title="Creates a duplicate of the template. ">duplicate()</a>. </dd></dl>
 
 <p>Implements <a class="el" href="classTemplate.html#a3af280bfcfe5fedba12870c2a7907059">Template</a>.</p>
 
@@ -712,9 +739,10 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Hook for loading the actual template file non-interactively. </p>
-<p>Returns true if successful.</p>
-<p>If configuring is true, a call to <a class="el" href="classOgrTemplate.html#a1434a3cb27577acae95da632614dd27f" title="Does configuration after the actual template is loaded. ">postLoadConfiguration()</a> will follow if this returns true. </p>
+<p>Loads the geospatial vector data into the template_map. </p>
+<p>If is_georereferenced is true, the template_map will be configured to use the georeferencing of the map given in the constructor, and <a class="el" href="classOgrFileFormat.html" title="A FileFormat for geospatial vector data supported by OGR. ">OgrFileFormat</a> will let OGR do coordinate transformations as needed.</p>
+<p>If is_georeferenced is false and an explicit_georef is defined, the template_map will be configured to use this particular georeferencing to produce a projection of the original data.</p>
+<p>Otherwise, the data will be handled as raw map or paper data, depending on use_real_coords. </p>
 
 <p>Implements <a class="el" href="classTemplate.html#a3155778c4dc5211bf213b4da0af3183e">Template</a>.</p>
 
@@ -747,6 +775,69 @@ Additional Inherited Members</h2></td></tr>
 <p>Returns true on success. </p>
 
 <p>Reimplemented from <a class="el" href="classTemplate.html#aa1ecc10f9ae2de4f93010d8b718e4c45">Template</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aaa9e2cdd9aad7506e936ac7c19409750"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="classGeoreferencing.html">Georeferencing</a> &gt; OgrTemplate::makeOrthographicGeoreferencing </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qfile.html">QFile</a> &amp;&#160;</td>
+          <td class="paramname"><em>file</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000035">Todo:</a></b></dt><dd>Use the template's datum etc. instead of WGS84? </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="affebef66c1576911fd35b40b5530abdd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OgrTemplate::mapProjectionChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a649e4b7aadbe9b3b10a2e12092e1f8b4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OgrTemplate::mapTransformationChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -822,6 +913,52 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a70067a1ca18e32bbfddc423ddb1f76e3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OgrTemplate::reload </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a268acbfd49f4aa5f9f0ffe0176e85bd6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OgrTemplate::reloadLater </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a07fabd3645075d7c1c96defaff8a06a0"></a>
 <div class="memitem">
 <div class="memproto">
@@ -875,8 +1012,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/gdal/<a class="el" href="ogr__template_8h.html">ogr_template.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/523acb5/src/gdal/ogr_template.h"><tt>523acb5</tt></a> on 27 Jan 2017)</li>
-<li>src/gdal/<a class="el" href="ogr__template_8cpp.html">ogr_template.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/523acb5/src/gdal/ogr_template.cpp"><tt>523acb5</tt></a> on 27 Jan 2017)</li>
+<li>src/gdal/<a class="el" href="ogr__template_8h.html">ogr_template.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/6b10ba2/src/gdal/ogr_template.h"><tt>6b10ba2</tt></a> on 22 Oct 2017)</li>
+<li>src/gdal/<a class="el" href="ogr__template_8cpp.html">ogr_template.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/4c783d7/src/gdal/ogr_template.cpp"><tt>4c783d7</tt></a> on 22 Oct 2017)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

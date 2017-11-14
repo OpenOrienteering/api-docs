@@ -1,7 +1,11 @@
 var searchData=
 [
+  ['noassignment',['NoAssignment',['../structSymbolRule.html#a63ce42d1f244de152de472abd64352daaf63d93436a19388ec3120806a918b4dc',1,'SymbolRule']]],
   ['nobutton',['NoButton',['../classTouchCursor.html#a3f0fc3f7d6eda54376d69d71935c742fa0a8ba9fbbe495f6475f8d31f7dcbae65',1,'TouchCursor']]],
   ['nochange',['NoChange',['../classMapView.html#a0fb5b578c907df9a052fc64a2ce01810a8aa8a05dd147bad7baf570ce49732149',1,'MapView']]],
+  ['noclippingifcenterinside',['NoClippingIfCenterInside',['../structAreaSymbol_1_1FillPattern.html#ad63cb1161a8dc15c844884f57da37716a979426c63bec1e08ca83bb60435070cd',1,'AreaSymbol::FillPattern']]],
+  ['noclippingifcompletelyinside',['NoClippingIfCompletelyInside',['../structAreaSymbol_1_1FillPattern.html#ad63cb1161a8dc15c844884f57da37716a6f34d73204b9f5e9a93d0841d713823d',1,'AreaSymbol::FillPattern']]],
+  ['noclippingifpartiallyinside',['NoClippingIfPartiallyInside',['../structAreaSymbol_1_1FillPattern.html#ad63cb1161a8dc15c844884f57da37716a060cd96a5ea1f7e5215075b0bcd1e271',1,'AreaSymbol::FillPattern']]],
   ['noframing',['NoFraming',['../classTextSymbol.html#ace881588f97792038762ab249df67016af531dfefebc224544e4ea2eeba8dffad',1,'TextSymbol']]],
   ['noinputmethodaction',['NoInputMethodAction',['../classTextObjectEditorHelper.html#a390e374d428c2045a2cd125060ca4932a694a728e7f0a276b906fe323bc799776',1,'TextObjectEditorHelper']]],
   ['none',['None',['../classSelectCRSDialog.html#a0de7f0d7759b30754b0183edeabf00c3abe03f2ae92303479cab14f7934196250',1,'SelectCRSDialog']]],

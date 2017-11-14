@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -159,7 +159,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns a pointer to a color in the color table with the given number. </p>
-<p>If a color with that number is not found, NULL is returned. </p>
+<p>If a color with that number is not found, nullptr is returned. </p>
 
 </div>
 </div>
@@ -188,7 +188,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns a pointer to a particular color in the color table. </p>
-<p>If index is less than zero or greater than the maximum color index, then NULL is returned. Otherwise, a valid pointer to a color is returned. Note that the color index defined the order that colors are drawn (from top to bottom), and is independent from the color number that is used by symbol definition. The color number is available from (OCADColor *)-&gt;number. </p>
+<p>If index is less than zero or greater than the maximum color index, then nullptr is returned. Otherwise, a valid pointer to a color is returned. Note that the color index defined the order that colors are drawn (from top to bottom), and is independent from the color number that is used by symbol definition. The color number is available from (OCADColor *)-&gt;number. </p>
 
 </div>
 </div>
@@ -293,7 +293,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns a pointer to a particular spot color definition in the separations table. </p>
-<p>If index is less than zero, greater than the maximum color index or greater than 32, then NULL is returned. The index corresponds to the index in the spot color table at OCADColor::spot. </p>
+<p>If index is less than zero, greater than the maximum color index or greater than 32, then nullptr is returned. The index corresponds to the index in the spot color table at OCADColor::spot. </p>
 
 </div>
 </div>

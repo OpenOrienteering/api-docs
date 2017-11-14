@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -114,13 +114,143 @@ Inheritance diagram for TextDocItemDelegate::Provider:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a3e8c407d38d313ce6782c751ca9eb579"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextDocItemDelegate_1_1Provider.html#a3e8c407d38d313ce6782c751ca9eb579">Provider</a> () noexcept=default</td></tr>
+<tr class="separator:a3e8c407d38d313ce6782c751ca9eb579"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a728ddb5e15712c8b13f5075645dbf474"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextDocItemDelegate_1_1Provider.html#a728ddb5e15712c8b13f5075645dbf474">Provider</a> (const <a class="el" href="classTextDocItemDelegate_1_1Provider.html">Provider</a> &amp;)=delete</td></tr>
+<tr class="separator:a728ddb5e15712c8b13f5075645dbf474"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9da304a98ebbd35915b3850999678659"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextDocItemDelegate_1_1Provider.html#a9da304a98ebbd35915b3850999678659">Provider</a> (<a class="el" href="classTextDocItemDelegate_1_1Provider.html">Provider</a> &amp;&amp;)=delete</td></tr>
+<tr class="separator:a9da304a98ebbd35915b3850999678659"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af112f0bbebdbe52a48153ec50459dba9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTextDocItemDelegate_1_1Provider.html">Provider</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextDocItemDelegate_1_1Provider.html#af112f0bbebdbe52a48153ec50459dba9">operator=</a> (const <a class="el" href="classTextDocItemDelegate_1_1Provider.html">Provider</a> &amp;)=delete</td></tr>
+<tr class="separator:af112f0bbebdbe52a48153ec50459dba9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a510bf9cc326d5b1022408d858cd8e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTextDocItemDelegate_1_1Provider.html">Provider</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextDocItemDelegate_1_1Provider.html#a0a510bf9cc326d5b1022408d858cd8e2">operator=</a> (<a class="el" href="classTextDocItemDelegate_1_1Provider.html">Provider</a> &amp;&amp;)=delete</td></tr>
+<tr class="separator:a0a510bf9cc326d5b1022408d858cd8e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9fbb66044f121952994bb337fc1ea54"><td class="memItemLeft" align="right" valign="top">virtual const <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qtextdocument.html">QTextDocument</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextDocItemDelegate_1_1Provider.html#af9fbb66044f121952994bb337fc1ea54">textDoc</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmodelindex.html">QModelIndex</a> &amp;index) const =0</td></tr>
-<tr class="memdesc:af9fbb66044f121952994bb337fc1ea54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qtextdocument.html">QTextDocument</a> corresponding to the given index, or NULL.  <a href="#af9fbb66044f121952994bb337fc1ea54">More...</a><br /></td></tr>
+<tr class="memdesc:af9fbb66044f121952994bb337fc1ea54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qtextdocument.html">QTextDocument</a> corresponding to the given index, or nullptr.  <a href="#af9fbb66044f121952994bb337fc1ea54">More...</a><br /></td></tr>
 <tr class="separator:af9fbb66044f121952994bb337fc1ea54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An interface which provides const <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qtextdocument.html">QTextDocument</a> objects for a given index. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a3e8c407d38d313ce6782c751ca9eb579"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TextDocItemDelegate::Provider::Provider </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a728ddb5e15712c8b13f5075645dbf474"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TextDocItemDelegate::Provider::Provider </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classTextDocItemDelegate_1_1Provider.html">Provider</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9da304a98ebbd35915b3850999678659"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TextDocItemDelegate::Provider::Provider </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classTextDocItemDelegate_1_1Provider.html">Provider</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="af112f0bbebdbe52a48153ec50459dba9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classTextDocItemDelegate_1_1Provider.html">Provider</a>&amp; TextDocItemDelegate::Provider::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classTextDocItemDelegate_1_1Provider.html">Provider</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0a510bf9cc326d5b1022408d858cd8e2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classTextDocItemDelegate_1_1Provider.html">Provider</a>&amp; TextDocItemDelegate::Provider::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classTextDocItemDelegate_1_1Provider.html">Provider</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="af9fbb66044f121952994bb337fc1ea54"></a>
 <div class="memitem">
 <div class="memproto">
@@ -143,14 +273,14 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qtextdocument.html">QTextDocument</a> corresponding to the given index, or NULL. </p>
+<p>Returns the <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qtextdocument.html">QTextDocument</a> corresponding to the given index, or nullptr. </p>
 
-<p>Implemented in <a class="el" href="classAutosaveDialog.html#a5f203745c62d0ae025f9ab142ffb3585">AutosaveDialog</a>.</p>
+<p>Implemented in <a class="el" href="classAutosaveDialog.html#a44f2e6ce39dd8f62dec686dd218c40fc">AutosaveDialog</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>src/util/<a class="el" href="item__delegates_8h.html">item_delegates.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/f7b0478/src/util/item_delegates.h"><tt>f7b0478</tt></a> on 10 Apr 2016)</li>
+<li>src/util/<a class="el" href="item__delegates_8h.html">item_delegates.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/4d0078b/src/util/item_delegates.h"><tt>4d0078b</tt></a> on 14 Aug 2017)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

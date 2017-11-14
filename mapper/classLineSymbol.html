@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -171,13 +171,15 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aaebbb4213884b5fb124b42933b9670d8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLineSymbol.html#aaebbb4213884b5fb124b42933b9670d8">LineSymbol</a> ()</td></tr>
-<tr class="memdesc:aaebbb4213884b5fb124b42933b9670d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty line symbol.  <a href="#aaebbb4213884b5fb124b42933b9670d8">More...</a><br /></td></tr>
-<tr class="separator:aaebbb4213884b5fb124b42933b9670d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63fac53cc15f91b9ef3c120a126fd38a"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLineSymbol.html#a63fac53cc15f91b9ef3c120a126fd38a">~LineSymbol</a> ()</td></tr>
-<tr class="separator:a63fac53cc15f91b9ef3c120a126fd38a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9152ea16c13793d933dba7b06aac500e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLineSymbol.html#a9152ea16c13793d933dba7b06aac500e">LineSymbol</a> () noexcept</td></tr>
+<tr class="memdesc:a9152ea16c13793d933dba7b06aac500e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty line symbol.  <a href="#a9152ea16c13793d933dba7b06aac500e">More...</a><br /></td></tr>
+<tr class="separator:a9152ea16c13793d933dba7b06aac500e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9619f77a727c6fb589e8bf9f087e1819"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLineSymbol.html#a9619f77a727c6fb589e8bf9f087e1819">~LineSymbol</a> () override</td></tr>
+<tr class="separator:a9619f77a727c6fb589e8bf9f087e1819"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d4dffe6b89b99ff5ceac58952aa7925"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSymbol.html">Symbol</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLineSymbol.html#a2d4dffe6b89b99ff5ceac58952aa7925">duplicate</a> (const <a class="el" href="classMapColorMap.html">MapColorMap</a> *color_map=nullptr) const override</td></tr>
 <tr class="separator:a2d4dffe6b89b99ff5ceac58952aa7925"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4913b1bc68c1ca308bfc55430e4fdfa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLineSymbol.html#ad4913b1bc68c1ca308bfc55430e4fdfa">validate</a> () const override</td></tr>
+<tr class="separator:ad4913b1bc68c1ca308bfc55430e4fdfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9024ac042067b8331120e1a73e98142"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLineSymbol.html#ad9024ac042067b8331120e1a73e98142">createRenderables</a> (const <a class="el" href="classObject.html">Object</a> *object, const <a class="el" href="classVirtualCoordVector.html">VirtualCoordVector</a> &amp;coords, <a class="el" href="classObjectRenderables.html">ObjectRenderables</a> &amp;output, Symbol::RenderableOptions options) const override</td></tr>
 <tr class="memdesc:ad9024ac042067b8331120e1a73e98142"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates renderables for a generic object.  <a href="#ad9024ac042067b8331120e1a73e98142">More...</a><br /></td></tr>
 <tr class="separator:ad9024ac042067b8331120e1a73e98142"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -208,9 +210,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac9c8e49f960e12c566995e3a45ee5074"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLineSymbol.html#ac9c8e49f960e12c566995e3a45ee5074">cleanupPointSymbols</a> ()</td></tr>
 <tr class="memdesc:ac9c8e49f960e12c566995e3a45ee5074"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes unused point symbols and sets them to nullptr again.  <a href="#ac9c8e49f960e12c566995e3a45ee5074">More...</a><br /></td></tr>
 <tr class="separator:ac9c8e49f960e12c566995e3a45ee5074"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c061252c5317f4787ae3cceb4616985"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLineSymbol.html#a3c061252c5317f4787ae3cceb4616985">calculateLargestLineExtent</a> (<a class="el" href="classMap.html">Map</a> *map) const override</td></tr>
-<tr class="memdesc:a3c061252c5317f4787ae3cceb4616985"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the largest extent (half width) of the components of this line.  <a href="#a3c061252c5317f4787ae3cceb4616985">More...</a><br /></td></tr>
-<tr class="separator:a3c061252c5317f4787ae3cceb4616985"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5e8c7401a0c0736e0e33bee4516e2ed"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLineSymbol.html#ac5e8c7401a0c0736e0e33bee4516e2ed">dimensionForIcon</a> () const override</td></tr>
+<tr class="memdesc:ac5e8c7401a0c0736e0e33bee4516e2ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the dimension which shall considered when scaling the icon.  <a href="#ac5e8c7401a0c0736e0e33bee4516e2ed">More...</a><br /></td></tr>
+<tr class="separator:ac5e8c7401a0c0736e0e33bee4516e2ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfd3c2e9fecf6ff4a4205be0e6dcad67"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLineSymbol.html#acfd3c2e9fecf6ff4a4205be0e6dcad67">calculateLargestLineExtent</a> () const override</td></tr>
+<tr class="memdesc:acfd3c2e9fecf6ff4a4205be0e6dcad67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the largest extent (half width) of the components of this line.  <a href="#acfd3c2e9fecf6ff4a4205be0e6dcad67">More...</a><br /></td></tr>
+<tr class="separator:acfd3c2e9fecf6ff4a4205be0e6dcad67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92707c9f7e2b028cc52a21a5e4b266d1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLineSymbol.html#a92707c9f7e2b028cc52a21a5e4b266d1">getLineWidth</a> () const </td></tr>
 <tr class="separator:a92707c9f7e2b028cc52a21a5e4b266d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd706683f0b21560c7a497f4edf081c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLineSymbol.html#acd706683f0b21560c7a497f4edf081c2">setLineWidth</a> (double width)</td></tr>
@@ -267,6 +272,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab0c3e8b9b36bdf20d4a95a43260c88d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac91ad784978548f41672000e4aa6f3c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLineSymbol.html#ac91ad784978548f41672000e4aa6f3c7">setSuppressDashSymbolAtLineEnds</a> (<a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> value)</td></tr>
 <tr class="separator:ac91ad784978548f41672000e4aa6f3c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a004d8e8eeae2980ddd534559fb9f68f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLineSymbol.html#a004d8e8eeae2980ddd534559fb9f68f8">getScaleDashSymbol</a> () const </td></tr>
+<tr class="separator:a004d8e8eeae2980ddd534559fb9f68f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12b7c55914807abbe5f0e35f03df0c52"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLineSymbol.html#a12b7c55914807abbe5f0e35f03df0c52">setScaleDashSymbol</a> (<a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> value)</td></tr>
+<tr class="separator:a12b7c55914807abbe5f0e35f03df0c52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aafa6d6cd0be3398d12ebfd8780f16546"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLineSymbol.html#aafa6d6cd0be3398d12ebfd8780f16546">getSegmentLength</a> () const </td></tr>
 <tr class="separator:aafa6d6cd0be3398d12ebfd8780f16546"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a50ba2a8a8ed30c315529a53de27c46"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLineSymbol.html#a9a50ba2a8a8ed30c315529a53de27c46">setSegmentLength</a> (int value)</td></tr>
@@ -325,11 +334,19 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aba0a6f977d67afbc137b8bd844aa2c77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a properties widget for the symbol.  <a href="#aba0a6f977d67afbc137b8bd844aa2c77">More...</a><br /></td></tr>
 <tr class="separator:aba0a6f977d67afbc137b8bd844aa2c77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classSymbol"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classSymbol')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classSymbol.html">Symbol</a></td></tr>
-<tr class="memitem:a6b3379c89c1920560da9e0cc7c716133 inherit pub_methods_classSymbol"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSymbol.html#a6b3379c89c1920560da9e0cc7c716133">Symbol</a> (<a class="el" href="classSymbol.html#a19c9a49235af753af17553af18c588ca">Type</a> type)</td></tr>
-<tr class="memdesc:a6b3379c89c1920560da9e0cc7c716133 inherit pub_methods_classSymbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty symbol.  <a href="#a6b3379c89c1920560da9e0cc7c716133">More...</a><br /></td></tr>
-<tr class="separator:a6b3379c89c1920560da9e0cc7c716133 inherit pub_methods_classSymbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b111b1d6debcf57a5514fe7cc79f9a9 inherit pub_methods_classSymbol"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSymbol.html#a5b111b1d6debcf57a5514fe7cc79f9a9">Symbol</a> (<a class="el" href="classSymbol.html#a19c9a49235af753af17553af18c588ca">Type</a> type) noexcept</td></tr>
+<tr class="memdesc:a5b111b1d6debcf57a5514fe7cc79f9a9 inherit pub_methods_classSymbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty symbol.  <a href="#a5b111b1d6debcf57a5514fe7cc79f9a9">More...</a><br /></td></tr>
+<tr class="separator:a5b111b1d6debcf57a5514fe7cc79f9a9 inherit pub_methods_classSymbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7471cc9e3fc3426b16c67a20bbdd37a inherit pub_methods_classSymbol"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSymbol.html#aa7471cc9e3fc3426b16c67a20bbdd37a">Symbol</a> (const <a class="el" href="classSymbol.html">Symbol</a> &amp;)=delete</td></tr>
+<tr class="separator:aa7471cc9e3fc3426b16c67a20bbdd37a inherit pub_methods_classSymbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00e50809ae3ac5457964b086c86d44cc inherit pub_methods_classSymbol"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSymbol.html#a00e50809ae3ac5457964b086c86d44cc">Symbol</a> (<a class="el" href="classSymbol.html">Symbol</a> &amp;&amp;)=delete</td></tr>
+<tr class="separator:a00e50809ae3ac5457964b086c86d44cc inherit pub_methods_classSymbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a505360ad4bd2e0bd1e3954eca1b05723 inherit pub_methods_classSymbol"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSymbol.html#a505360ad4bd2e0bd1e3954eca1b05723">~Symbol</a> ()</td></tr>
 <tr class="separator:a505360ad4bd2e0bd1e3954eca1b05723 inherit pub_methods_classSymbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab48152f981a10eb3cc6ee0666f0d228e inherit pub_methods_classSymbol"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSymbol.html">Symbol</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSymbol.html#ab48152f981a10eb3cc6ee0666f0d228e">operator=</a> (const <a class="el" href="classSymbol.html">Symbol</a> &amp;)=delete</td></tr>
+<tr class="separator:ab48152f981a10eb3cc6ee0666f0d228e inherit pub_methods_classSymbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adeeaf6deca01ad2653e1531cf5f4a6a7 inherit pub_methods_classSymbol"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSymbol.html">Symbol</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSymbol.html#adeeaf6deca01ad2653e1531cf5f4a6a7">operator=</a> (<a class="el" href="classSymbol.html">Symbol</a> &amp;&amp;)=delete</td></tr>
+<tr class="separator:adeeaf6deca01ad2653e1531cf5f4a6a7 inherit pub_methods_classSymbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45e354594309c56b4ea66a6c9124e80e inherit pub_methods_classSymbol"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSymbol.html#a45e354594309c56b4ea66a6c9124e80e">equals</a> (const <a class="el" href="classSymbol.html">Symbol</a> *other, Qt::CaseSensitivity case_sensitivity=Qt::CaseSensitive, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> compare_state=false) const </td></tr>
 <tr class="memdesc:a45e354594309c56b4ea66a6c9124e80e inherit pub_methods_classSymbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks for equality to the other symbol.  <a href="#a45e354594309c56b4ea66a6c9124e80e">More...</a><br /></td></tr>
 <tr class="separator:a45e354594309c56b4ea66a6c9124e80e inherit pub_methods_classSymbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -393,14 +410,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8190c39056b2147b58791b47932feb02 inherit pub_methods_classSymbol"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSymbol.html#a8190c39056b2147b58791b47932feb02">containsSymbol</a> (const <a class="el" href="classSymbol.html">Symbol</a> *symbol) const </td></tr>
 <tr class="memdesc:a8190c39056b2147b58791b47932feb02 inherit pub_methods_classSymbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must return if the given symbol is referenced by this symbol.  <a href="#a8190c39056b2147b58791b47932feb02">More...</a><br /></td></tr>
 <tr class="separator:a8190c39056b2147b58791b47932feb02 inherit pub_methods_classSymbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af433c1f250a54c357da670e9c9ed24e8 inherit pub_methods_classSymbol"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qimage.html">QImage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSymbol.html#af433c1f250a54c357da670e9c9ed24e8">getIcon</a> (const <a class="el" href="classMap.html">Map</a> *map, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> update=false) const </td></tr>
-<tr class="memdesc:af433c1f250a54c357da670e9c9ed24e8 inherit pub_methods_classSymbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the symbol's icon, creates it if it was not created yet.  <a href="#af433c1f250a54c357da670e9c9ed24e8">More...</a><br /></td></tr>
-<tr class="separator:af433c1f250a54c357da670e9c9ed24e8 inherit pub_methods_classSymbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b9ea911ce5a7a40b2d384d300d698bc inherit pub_methods_classSymbol"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qimage.html">QImage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSymbol.html#a0b9ea911ce5a7a40b2d384d300d698bc">createIcon</a> (const <a class="el" href="classMap.html">Map</a> *map, int side_length, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> antialiasing, int bottom_right_border=0, qreal best_zoom=2) const </td></tr>
-<tr class="memdesc:a0b9ea911ce5a7a40b2d384d300d698bc inherit pub_methods_classSymbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new image with the given side length and draws the smybol icon onto it.  <a href="#a0b9ea911ce5a7a40b2d384d300d698bc">More...</a><br /></td></tr>
-<tr class="separator:a0b9ea911ce5a7a40b2d384d300d698bc inherit pub_methods_classSymbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a239fd98c2990dcede66f8440f56dd80b inherit pub_methods_classSymbol"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qimage.html">QImage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSymbol.html#a239fd98c2990dcede66f8440f56dd80b">getIcon</a> (const <a class="el" href="classMap.html">Map</a> *map) const </td></tr>
+<tr class="memdesc:a239fd98c2990dcede66f8440f56dd80b inherit pub_methods_classSymbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the symbol's icon.  <a href="#a239fd98c2990dcede66f8440f56dd80b">More...</a><br /></td></tr>
+<tr class="separator:a239fd98c2990dcede66f8440f56dd80b inherit pub_methods_classSymbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cc43459c045f4324d45755a86b5107c inherit pub_methods_classSymbol"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qimage.html">QImage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSymbol.html#a3cc43459c045f4324d45755a86b5107c">createIcon</a> (const <a class="el" href="classMap.html">Map</a> *map, int side_length, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> antialiasing, int bottom_right_border=0, qreal zoom=0) const </td></tr>
+<tr class="memdesc:a3cc43459c045f4324d45755a86b5107c inherit pub_methods_classSymbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a symbol icon with the given side length and zoom.  <a href="#a3cc43459c045f4324d45755a86b5107c">More...</a><br /></td></tr>
+<tr class="separator:a3cc43459c045f4324d45755a86b5107c inherit pub_methods_classSymbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac900e91ed41ed8096d91c876db0e4fbc inherit pub_methods_classSymbol"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSymbol.html#ac900e91ed41ed8096d91c876db0e4fbc">resetIcon</a> ()</td></tr>
-<tr class="memdesc:ac900e91ed41ed8096d91c876db0e4fbc inherit pub_methods_classSymbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the symbol's icon.  <a href="#ac900e91ed41ed8096d91c876db0e4fbc">More...</a><br /></td></tr>
+<tr class="memdesc:ac900e91ed41ed8096d91c876db0e4fbc inherit pub_methods_classSymbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the symbol's cached icon.  <a href="#ac900e91ed41ed8096d91c876db0e4fbc">More...</a><br /></td></tr>
 <tr class="separator:ac900e91ed41ed8096d91c876db0e4fbc inherit pub_methods_classSymbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a20d5a8dd41eb2e62e79d9d46c9a7d5 inherit pub_methods_classSymbol"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSymbol.html#a6a20d5a8dd41eb2e62e79d9d46c9a7d5">getName</a> () const </td></tr>
 <tr class="memdesc:a6a20d5a8dd41eb2e62e79d9d46c9a7d5 inherit pub_methods_classSymbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the symbol name.  <a href="#a6a20d5a8dd41eb2e62e79d9d46c9a7d5">More...</a><br /></td></tr>
@@ -447,11 +464,11 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a5a153655e7d75daf6472617cbb235a46"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLineSymbol.html#a5a153655e7d75daf6472617cbb235a46">miterLimit</a> ()</td></tr>
-<tr class="memdesc:a5a153655e7d75daf6472617cbb235a46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the limit for miter joins in units of the line width.  <a href="#a5a153655e7d75daf6472617cbb235a46">More...</a><br /></td></tr>
-<tr class="separator:a5a153655e7d75daf6472617cbb235a46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c0e71269c8b0022be18641d8cc21f8a"><td class="memItemLeft" align="right" valign="top">static constexpr qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLineSymbol.html#a8c0e71269c8b0022be18641d8cc21f8a">miterLimit</a> ()</td></tr>
+<tr class="memdesc:a8c0e71269c8b0022be18641d8cc21f8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the limit for miter joins in units of the line width.  <a href="#a8c0e71269c8b0022be18641d8cc21f8a">More...</a><br /></td></tr>
+<tr class="separator:a8c0e71269c8b0022be18641d8cc21f8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_methods_classSymbol"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classSymbol')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classSymbol.html">Symbol</a></td></tr>
-<tr class="memitem:a44c7961c16d59b0884f90a2a2ee7b79e inherit pub_static_methods_classSymbol"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classSymbol.html">Symbol</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSymbol.html#a44c7961c16d59b0884f90a2a2ee7b79e">load</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qxmlstreamreader.html">QXmlStreamReader</a> &amp;xml, const <a class="el" href="classMap.html">Map</a> &amp;map, <a class="el" href="map__part_8h.html#a399a8a7116cffc8d49caccfc501704f2">SymbolDictionary</a> &amp;symbol_dict)</td></tr>
+<tr class="memitem:a44c7961c16d59b0884f90a2a2ee7b79e inherit pub_static_methods_classSymbol"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classSymbol.html">Symbol</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSymbol.html#a44c7961c16d59b0884f90a2a2ee7b79e">load</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qxmlstreamreader.html">QXmlStreamReader</a> &amp;xml, const <a class="el" href="classMap.html">Map</a> &amp;map, <a class="el" href="map__part_8h.html#af7d420ad52539d37facbc179de888f97">SymbolDictionary</a> &amp;symbol_dict)</td></tr>
 <tr class="memdesc:a44c7961c16d59b0884f90a2a2ee7b79e inherit pub_static_methods_classSymbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load the symbol in xml format.  <a href="#a44c7961c16d59b0884f90a2a2ee7b79e">More...</a><br /></td></tr>
 <tr class="separator:a44c7961c16d59b0884f90a2a2ee7b79e inherit pub_static_methods_classSymbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea60a04a9ed2f041f95efc776ea1eb68 inherit pub_static_methods_classSymbol"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classSymbol.html">Symbol</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSymbol.html#aea60a04a9ed2f041f95efc776ea1eb68">getSymbolForType</a> (<a class="el" href="classSymbol.html#a19c9a49235af753af17553af18c588ca">Type</a> type)</td></tr>
@@ -481,10 +498,10 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:abe32fd5332b633b395f9fc563e75eaf1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLineSymbol.html#abe32fd5332b633b395f9fc563e75eaf1">saveImpl</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qxmlstreamwriter.html">QXmlStreamWriter</a> &amp;xml, const <a class="el" href="classMap.html">Map</a> &amp;map) const override</td></tr>
 <tr class="memdesc:abe32fd5332b633b395f9fc563e75eaf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must be overridden to save type-specific symbol properties.  <a href="#abe32fd5332b633b395f9fc563e75eaf1">More...</a><br /></td></tr>
 <tr class="separator:abe32fd5332b633b395f9fc563e75eaf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3c909f3fd9709db9e80f13ebe759a19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLineSymbol.html#ae3c909f3fd9709db9e80f13ebe759a19">loadImpl</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qxmlstreamreader.html">QXmlStreamReader</a> &amp;xml, const <a class="el" href="classMap.html">Map</a> &amp;map, <a class="el" href="map__part_8h.html#a399a8a7116cffc8d49caccfc501704f2">SymbolDictionary</a> &amp;symbol_dict) override</td></tr>
+<tr class="memitem:ae3c909f3fd9709db9e80f13ebe759a19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLineSymbol.html#ae3c909f3fd9709db9e80f13ebe759a19">loadImpl</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qxmlstreamreader.html">QXmlStreamReader</a> &amp;xml, const <a class="el" href="classMap.html">Map</a> &amp;map, <a class="el" href="map__part_8h.html#af7d420ad52539d37facbc179de888f97">SymbolDictionary</a> &amp;symbol_dict) override</td></tr>
 <tr class="memdesc:ae3c909f3fd9709db9e80f13ebe759a19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must be overridden to load type-specific symbol properties.  <a href="#ae3c909f3fd9709db9e80f13ebe759a19">More...</a><br /></td></tr>
 <tr class="separator:ae3c909f3fd9709db9e80f13ebe759a19"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa09fa77bb6611a7a7fbe665829c64208"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPointSymbol.html">PointSymbol</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLineSymbol.html#aa09fa77bb6611a7a7fbe665829c64208">loadPointSymbol</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qxmlstreamreader.html">QXmlStreamReader</a> &amp;xml, const <a class="el" href="classMap.html">Map</a> &amp;map, <a class="el" href="map__part_8h.html#a399a8a7116cffc8d49caccfc501704f2">SymbolDictionary</a> &amp;symbol_dict)</td></tr>
+<tr class="memitem:aa09fa77bb6611a7a7fbe665829c64208"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPointSymbol.html">PointSymbol</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLineSymbol.html#aa09fa77bb6611a7a7fbe665829c64208">loadPointSymbol</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qxmlstreamreader.html">QXmlStreamReader</a> &amp;xml, const <a class="el" href="classMap.html">Map</a> &amp;map, <a class="el" href="map__part_8h.html#af7d420ad52539d37facbc179de888f97">SymbolDictionary</a> &amp;symbol_dict)</td></tr>
 <tr class="separator:aa09fa77bb6611a7a7fbe665829c64208"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3e02ae6d972c2cd6d620f3ddb997990"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLineSymbol.html#aa3e02ae6d972c2cd6d620f3ddb997990">equalsImpl</a> (const <a class="el" href="classSymbol.html">Symbol</a> *other, Qt::CaseSensitivity case_sensitivity) const override</td></tr>
 <tr class="memdesc:aa3e02ae6d972c2cd6d620f3ddb997990"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must be overridden to compare symbol-specific attributes.  <a href="#aa3e02ae6d972c2cd6d620f3ddb997990">More...</a><br /></td></tr>
@@ -544,6 +561,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:af80371eea916e889f08fdec0ee04bd26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2447f96dde5b579c474f124b7230ada7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLineSymbol.html#a2447f96dde5b579c474f124b7230ada7">suppress_dash_symbol_at_ends</a></td></tr>
 <tr class="separator:a2447f96dde5b579c474f124b7230ada7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb6b4c1fdfdb9efeea2984a8a285d9b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLineSymbol.html#acb6b4c1fdfdb9efeea2984a8a285d9b1">scale_dash_symbol</a></td></tr>
+<tr class="separator:acb6b4c1fdfdb9efeea2984a8a285d9b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe903cdb6339e8699f45af3ea3e7b76d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLineSymbol.html#abe903cdb6339e8699f45af3ea3e7b76d">segment_length</a></td></tr>
 <tr class="separator:abe903cdb6339e8699f45af3ea3e7b76d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77df4038ffca681b35161e870b60b819"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLineSymbol.html#a77df4038ffca681b35161e870b60b819">end_length</a></td></tr>
@@ -633,9 +652,12 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="aaebbb4213884b5fb124b42933b9670d8"></a>
+<a class="anchor" id="a9152ea16c13793d933dba7b06aac500e"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">LineSymbol::LineSymbol </td>
@@ -644,13 +666,18 @@ Additional Inherited Members</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Constructs an empty line symbol. </p>
 
 </div>
 </div>
-<a class="anchor" id="a63fac53cc15f91b9ef3c120a126fd38a"></a>
+<a class="anchor" id="a9619f77a727c6fb589e8bf9f087e1819"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -666,7 +693,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -697,7 +724,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a3c061252c5317f4787ae3cceb4616985"></a>
+<a class="anchor" id="acfd3c2e9fecf6ff4a4205be0e6dcad67"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -705,10 +732,9 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float LineSymbol::calculateLargestLineExtent </td>
+          <td class="memname">qreal LineSymbol::calculateLargestLineExtent </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classMap.html">Map</a> *&#160;</td>
-          <td class="paramname"><em>map</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -721,7 +747,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Returns the largest extent (half width) of the components of this line. </p>
 
-<p>Reimplemented from <a class="el" href="classSymbol.html#a847e4ea1ae7ff5e87f2df0fdb9145472">Symbol</a>.</p>
+<p>Reimplemented from <a class="el" href="classSymbol.html#af05cb827f9b2d1ef6cd7b50edf46675b">Symbol</a>.</p>
 
 </div>
 </div>
@@ -1328,6 +1354,33 @@ Additional Inherited Members</h2></td></tr>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classLineSymbol.html#ad9024ac042067b8331120e1a73e98142" title="Creates renderables for a generic object. ">createRenderables()</a> </dd></dl>
 
 <p>Reimplemented from <a class="el" href="classSymbol.html#ab6fc5462a1916ee70e92c35138ec5e89">Symbol</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac5e8c7401a0c0736e0e33bee4516e2ed"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal LineSymbol::dimensionForIcon </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the dimension which shall considered when scaling the icon. </p>
+
+<p>Reimplemented from <a class="el" href="classSymbol.html#a91e352bcfda45b8b5b1d65192e2adc69">Symbol</a>.</p>
 
 </div>
 </div>
@@ -1965,6 +2018,29 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a004d8e8eeae2980ddd534559fb9f68f8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> LineSymbol::getScaleDashSymbol </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="aafa6d6cd0be3398d12ebfd8780f16546"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2197,7 +2273,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="map__part_8h.html#a399a8a7116cffc8d49caccfc501704f2">SymbolDictionary</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="map__part_8h.html#af7d420ad52539d37facbc179de888f97">SymbolDictionary</a> &amp;&#160;</td>
           <td class="paramname"><em>symbol_dict</em>&#160;</td>
         </tr>
         <tr>
@@ -2242,7 +2318,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="map__part_8h.html#a399a8a7116cffc8d49caccfc501704f2">SymbolDictionary</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="map__part_8h.html#af7d420ad52539d37facbc179de888f97">SymbolDictionary</a> &amp;&#160;</td>
           <td class="paramname"><em>symbol_dict</em>&#160;</td>
         </tr>
         <tr>
@@ -2260,7 +2336,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5a153655e7d75daf6472617cbb235a46"></a>
+<a class="anchor" id="a8c0e71269c8b0022be18641d8cc21f8a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2268,7 +2344,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static float LineSymbol::miterLimit </td>
+          <td class="memname">static constexpr qreal LineSymbol::miterLimit </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -3001,6 +3077,30 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a12b7c55914807abbe5f0e35f03df0c52"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LineSymbol::setScaleDashSymbol </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a9a50ba2a8a8ed30c315529a53de27c46"></a>
 <div class="memitem">
 <div class="memproto">
@@ -3132,6 +3232,31 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad4913b1bc68c1ca308bfc55430e4fdfa"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> LineSymbol::validate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classSymbol.html#ad07504e6e8cde3c85aa37a6a00731721">Symbol</a>.</p>
 
 </div>
 </div>
@@ -3657,6 +3782,26 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="acb6b4c1fdfdb9efeea2984a8a285d9b1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> LineSymbol::scale_dash_symbol</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="abe903cdb6339e8699f45af3ea3e7b76d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -3738,9 +3883,9 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/core/symbols/<a class="el" href="line__symbol_8h.html">line_symbol.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/d30d295/src/core/symbols/line_symbol.h"><tt>d30d295</tt></a> on 14 Jan 2017)</li>
-<li>src/core/symbols/<a class="el" href="line__symbol_8cpp.html">line_symbol.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/d30d295/src/core/symbols/line_symbol.cpp"><tt>d30d295</tt></a> on 14 Jan 2017)</li>
-<li>src/gui/symbols/<a class="el" href="line__symbol__settings_8cpp.html">line_symbol_settings.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/d30d295/src/gui/symbols/line_symbol_settings.cpp"><tt>d30d295</tt></a> on 14 Jan 2017)</li>
+<li>src/core/symbols/<a class="el" href="line__symbol_8h.html">line_symbol.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/3ba38ee/src/core/symbols/line_symbol.h"><tt>3ba38ee</tt></a> on 7 Nov 2017)</li>
+<li>src/core/symbols/<a class="el" href="line__symbol_8cpp.html">line_symbol.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/e589fc4/src/core/symbols/line_symbol.cpp"><tt>e589fc4</tt></a> on 12 Nov 2017)</li>
+<li>src/gui/symbols/<a class="el" href="line__symbol__settings_8cpp.html">line_symbol_settings.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/4efb26f/src/gui/symbols/line_symbol_settings.cpp"><tt>4efb26f</tt></a> on 19 Aug 2017)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

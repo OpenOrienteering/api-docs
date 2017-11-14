@@ -9,6 +9,7 @@ var searchData=
   ['general_5fpixelsperinch',['General_PixelsPerInch',['../classSettings.html#adc10a2a81016a34f8220eff0657d7f3aad9ec5ab2aabec50337fe186b1698fb62',1,'Settings']]],
   ['general_5frecentfileslist',['General_RecentFilesList',['../classSettings.html#adc10a2a81016a34f8220eff0657d7f3aaf1d332e68c102beb5a2b1bd08600449b',1,'Settings']]],
   ['general_5fretaincompatiblity',['General_RetainCompatiblity',['../classSettings.html#adc10a2a81016a34f8220eff0657d7f3aab196993ceca19badb516ddf3ae125ec8',1,'Settings']]],
+  ['general_5fsaveundoredo',['General_SaveUndoRedo',['../classSettings.html#adc10a2a81016a34f8220eff0657d7f3aa0a94fae89c5fd48011365e7493f598f6',1,'Settings']]],
   ['general_5fstartdragdistance',['General_StartDragDistance',['../classSettings.html#adc10a2a81016a34f8220eff0657d7f3aad21220af84d602dd0298c573d552ae04',1,'Settings']]],
   ['general_5ftranslationfile',['General_TranslationFile',['../classSettings.html#adc10a2a81016a34f8220eff0657d7f3aad2c0ea7b276930e9c44cc35e4a180f13',1,'Settings']]],
   ['geographic',['Geographic',['../classSelectCRSDialog.html#a0de7f0d7759b30754b0183edeabf00c3a37cb8ba6501ffa0db2e2d7bf97685469',1,'SelectCRSDialog']]],

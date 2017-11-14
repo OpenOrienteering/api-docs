@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -125,13 +125,13 @@ Functions</h2></td></tr>
 <tr class="memitem:ad94695fd2c13aa56c755ca6529d68c50"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="string_8c.html#ad94695fd2c13aa56c755ca6529d68c50">ocad_background_to_string</a> (char *buf, int size, <a class="el" href="libocad_8h.html#a072dd700d950e1c6d6e7f0831e79173e">OCADBackground</a> *bg)</td></tr>
 <tr class="separator:ad94695fd2c13aa56c755ca6529d68c50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3c57ec5cf432a9119ef70cac31d8b06"><td class="memItemLeft" align="right" valign="top">OCADStringIndex *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="string_8c.html#aa3c57ec5cf432a9119ef70cac31d8b06">ocad_string_index_first</a> (<a class="el" href="libocad_8h.html#a89e544f18c7e4831e7506b7f259f69a1">OCADFile</a> *pfile)</td></tr>
-<tr class="memdesc:aa3c57ec5cf432a9119ef70cac31d8b06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the first string index block, or NULL if the file isn't valid.  <a href="#aa3c57ec5cf432a9119ef70cac31d8b06">More...</a><br /></td></tr>
+<tr class="memdesc:aa3c57ec5cf432a9119ef70cac31d8b06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the first string index block, or nullptr if the file isn't valid.  <a href="#aa3c57ec5cf432a9119ef70cac31d8b06">More...</a><br /></td></tr>
 <tr class="separator:aa3c57ec5cf432a9119ef70cac31d8b06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a296272a6eced800714fd0b0418213c2a"><td class="memItemLeft" align="right" valign="top">OCADStringIndex *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="string_8c.html#a296272a6eced800714fd0b0418213c2a">ocad_string_index_next</a> (<a class="el" href="libocad_8h.html#a89e544f18c7e4831e7506b7f259f69a1">OCADFile</a> *pfile, OCADStringIndex *current)</td></tr>
-<tr class="memdesc:a296272a6eced800714fd0b0418213c2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the next string index block after the given one, or NULL if there is none.  <a href="#a296272a6eced800714fd0b0418213c2a">More...</a><br /></td></tr>
+<tr class="memdesc:a296272a6eced800714fd0b0418213c2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the next string index block after the given one, or nullptr if there is none.  <a href="#a296272a6eced800714fd0b0418213c2a">More...</a><br /></td></tr>
 <tr class="separator:a296272a6eced800714fd0b0418213c2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65faeaee6143e16aca1086a7beacc12d"><td class="memItemLeft" align="right" valign="top">OCADStringEntry *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="string_8c.html#a65faeaee6143e16aca1086a7beacc12d">ocad_string_entry_at</a> (<a class="el" href="libocad_8h.html#a89e544f18c7e4831e7506b7f259f69a1">OCADFile</a> *pfile, OCADStringIndex *current, int index)</td></tr>
-<tr class="memdesc:a65faeaee6143e16aca1086a7beacc12d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the given string index entry, or NULL if the file isn't valid.  <a href="#a65faeaee6143e16aca1086a7beacc12d">More...</a><br /></td></tr>
+<tr class="memdesc:a65faeaee6143e16aca1086a7beacc12d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the given string index entry, or nullptr if the file isn't valid.  <a href="#a65faeaee6143e16aca1086a7beacc12d">More...</a><br /></td></tr>
 <tr class="separator:a65faeaee6143e16aca1086a7beacc12d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2af51476e650063b3eb7d18a59edb487"><td class="memItemLeft" align="right" valign="top">OCADStringEntry *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="string_8c.html#a2af51476e650063b3eb7d18a59edb487">ocad_string_entry_new</a> (<a class="el" href="libocad_8h.html#a89e544f18c7e4831e7506b7f259f69a1">OCADFile</a> *pfile, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> size)</td></tr>
 <tr class="memdesc:a2af51476e650063b3eb7d18a59edb487"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new string entry large enough to fit the specified number of bytes.  <a href="#a2af51476e650063b3eb7d18a59edb487">More...</a><br /></td></tr>
@@ -143,7 +143,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:ac74545b1ebe627f2e7946c6db28ec77c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterates over all string entries in the file.  <a href="#ac74545b1ebe627f2e7946c6db28ec77c">More...</a><br /></td></tr>
 <tr class="separator:ac74545b1ebe627f2e7946c6db28ec77c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78145f86891ef68e92f1b02d13083b04"><td class="memItemLeft" align="right" valign="top">OCADCString *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="string_8c.html#a78145f86891ef68e92f1b02d13083b04">ocad_string_at</a> (<a class="el" href="libocad_8h.html#a89e544f18c7e4831e7506b7f259f69a1">OCADFile</a> *pfile, OCADStringIndex *current, int index)</td></tr>
-<tr class="memdesc:a78145f86891ef68e92f1b02d13083b04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the string in the specified location within the index block, or NULL if there is no such string.  <a href="#a78145f86891ef68e92f1b02d13083b04">More...</a><br /></td></tr>
+<tr class="memdesc:a78145f86891ef68e92f1b02d13083b04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the string in the specified location within the index block, or nullptr if there is no such string.  <a href="#a78145f86891ef68e92f1b02d13083b04">More...</a><br /></td></tr>
 <tr class="separator:a78145f86891ef68e92f1b02d13083b04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8626e3f6c6f81c39a6b9390066ca843"><td class="memItemLeft" align="right" valign="top">OCADCString *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="string_8c.html#ae8626e3f6c6f81c39a6b9390066ca843">ocad_string</a> (<a class="el" href="libocad_8h.html#a89e544f18c7e4831e7506b7f259f69a1">OCADFile</a> *pfile, OCADStringEntry *entry)</td></tr>
 <tr class="memdesc:ae8626e3f6c6f81c39a6b9390066ca843"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to a string, given a valid pointer to its index entry.  <a href="#ae8626e3f6c6f81c39a6b9390066ca843">More...</a><br /></td></tr>
@@ -223,7 +223,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns a pointer to a string, given a valid pointer to its index entry. </p>
-<p>Returns NULL if the file isn't valid or the index entry is empty. </p>
+<p>Returns nullptr if the file isn't valid or the index entry is empty. </p>
 
 </div>
 </div>
@@ -285,7 +285,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns a pointer to the string in the specified location within the index block, or NULL if there is no such string. </p>
+<p>Returns a pointer to the string in the specified location within the index block, or nullptr if there is no such string. </p>
 
 </div>
 </div>
@@ -319,8 +319,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns a pointer to the given string index entry, or NULL if the file isn't valid. </p>
-<p>Also returns NULL if the index is out of range, but always returns a valid pointer if the file, index block, and index are valid. </p>
+<p>Returns a pointer to the given string index entry, or nullptr if the file isn't valid. </p>
+<p>Also returns nullptr if the index is out of range, but always returns a valid pointer if the file, index block, and index are valid. </p>
 
 </div>
 </div>
@@ -383,7 +383,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Creates a new string entry large enough to fit the specified number of bytes. </p>
-<p>If there is an empty string index entry of sufficient size, it will be used; otherwise, a new entry will be allocated. The entry returned will have its ptr and size fields set; the size field may be larger than the size requested in the parameter. The caller is responsible for copying data into the actual string (retrieved via <a class="el" href="libocad_8h.html#ae8626e3f6c6f81c39a6b9390066ca843" title="Returns a pointer to a string, given a valid pointer to its index entry. ">ocad_string()</a>). If there is not enough memory to create a new entry, NULL is returned. </p>
+<p>If there is an empty string index entry of sufficient size, it will be used; otherwise, a new entry will be allocated. The entry returned will have its ptr and size fields set; the size field may be larger than the size requested in the parameter. The caller is responsible for copying data into the actual string (retrieved via <a class="el" href="libocad_8h.html#ae8626e3f6c6f81c39a6b9390066ca843" title="Returns a pointer to a string, given a valid pointer to its index entry. ">ocad_string()</a>). If there is not enough memory to create a new entry, nullptr is returned. </p>
 
 </div>
 </div>
@@ -401,8 +401,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns a pointer to the first string index block, or NULL if the file isn't valid. </p>
-<p>Also returns NULL if the file contains no object. </p>
+<p>Returns a pointer to the first string index block, or nullptr if the file isn't valid. </p>
+<p>Also returns nullptr if the file contains no object. </p>
 
 </div>
 </div>
@@ -430,7 +430,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns a pointer to the next string index block after the given one, or NULL if there is none. </p>
+<p>Returns a pointer to the next string index block after the given one, or nullptr if there is none. </p>
 
 </div>
 </div>

@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -97,8 +97,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">renderable.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/5351f68/src/core/renderables/renderable.h"><tt>5351f68</tt></a> on 8 Jan 2017)</h3><div class="textblock"><code>#include &lt;map&gt;</code><br />
+<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/a65f143/src/core/renderables/renderable.h"><tt>a65f143</tt></a> on 14 Aug 2017)</h3><div class="textblock"><code>#include &lt;map&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;QtGlobal&gt;</code><br />
+<code>#include &lt;QFlags&gt;</code><br />
 <code>#include &lt;QRectF&gt;</code><br />
 <code>#include &lt;QSharedData&gt;</code><br />
 <code>#include &lt;QExplicitlySharedDataPointer&gt;</code><br />
@@ -108,7 +110,7 @@ Include dependency graph for renderable.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="renderable_8h__incl.png" border="0" usemap="#src_2core_2renderables_2renderable_8h" alt=""/></div>
 <map name="src_2core_2renderables_2renderable_8h" id="src_2core_2renderables_2renderable_8h">
-<area shape="rect" id="node7" href="map__color_8h.html" title="core/map_color.h" alt="" coords="565,95,687,121"/>
+<area shape="rect" id="node9" href="map__color_8h.html" title="core/map_color.h" alt="" coords="204,95,327,121"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -116,55 +118,55 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="renderable_8h__dep__incl.png" border="0" usemap="#src_2core_2renderables_2renderable_8hdep" alt=""/></div>
 <map name="src_2core_2renderables_2renderable_8hdep" id="src_2core_2renderables_2renderable_8hdep">
-<area shape="rect" id="node2" href="map_8cpp.html" title="src/core/map.cpp" alt="" coords="1036,281,1159,307"/>
-<area shape="rect" id="node3" href="map__part_8cpp.html" title="src/core/map_part.cpp" alt="" coords="1183,281,1335,307"/>
-<area shape="rect" id="node4" href="map__printer_8cpp.html" title="src/core/map_printer.cpp" alt="" coords="6257,102,6423,129"/>
-<area shape="rect" id="node5" href="object_8h.html" title="src/core/objects/object.h" alt="" coords="2597,102,2763,129"/>
-<area shape="rect" id="node8" href="map__editor_8cpp.html" title="src/gui/map/map_editor.cpp" alt="" coords="491,281,674,307"/>
-<area shape="rect" id="node10" href="cut__tool_8cpp.html" title="src/tools/cut_tool.cpp" alt="" coords="320,281,467,307"/>
-<area shape="rect" id="node11" href="object_8cpp.html" title="src/core/objects/object.cpp" alt="" coords="1359,281,1537,307"/>
-<area shape="rect" id="node20" href="draw__text__tool_8cpp.html" title="src/tools/draw_text\l_tool.cpp" alt="" coords="5,273,139,315"/>
-<area shape="rect" id="node21" href="edit__line__tool_8cpp.html" title="src/tools/edit_line\l_tool.cpp" alt="" coords="4909,273,5033,315"/>
-<area shape="rect" id="node22" href="edit__point__tool_8cpp.html" title="src/tools/edit_point\l_tool.cpp" alt="" coords="163,273,295,315"/>
-<area shape="rect" id="node25" href="renderable_8cpp.html" title="src/core/renderables\l/renderable.cpp" alt="" coords="306,184,446,225"/>
-<area shape="rect" id="node26" href="renderable__implementation_8h.html" title="src/core/renderables\l/renderable_implementation.h" alt="" coords="1631,184,1823,225"/>
-<area shape="rect" id="node42" href="draw__line__and__area__tool_8cpp.html" title="src/tools/draw_line\l_and_area_tool.cpp" alt="" coords="5009,184,5143,225"/>
-<area shape="rect" id="node43" href="draw__path__tool_8cpp.html" title="src/tools/draw_path\l_tool.cpp" alt="" coords="5168,184,5304,225"/>
-<area shape="rect" id="node44" href="draw__point__gps__tool_8cpp.html" title="src/tools/draw_point\l_gps_tool.cpp" alt="" coords="5328,184,5467,225"/>
-<area shape="rect" id="node45" href="draw__point__tool_8cpp.html" title="src/tools/draw_point\l_tool.cpp" alt="" coords="5491,184,5629,225"/>
-<area shape="rect" id="node46" href="rotate__pattern__tool_8cpp.html" title="src/tools/rotate_pattern\l_tool.cpp" alt="" coords="5654,184,5810,225"/>
-<area shape="rect" id="node47" href="rotate__tool_8cpp.html" title="src/tools/rotate_tool.cpp" alt="" coords="5835,191,5997,218"/>
-<area shape="rect" id="node48" href="scale__tool_8cpp.html" title="src/tools/scale_tool.cpp" alt="" coords="6021,191,6181,218"/>
-<area shape="rect" id="node49" href="template__map_8cpp.html" title="src/templates/template\l_map.cpp" alt="" coords="6448,95,6603,136"/>
-<area shape="rect" id="node50" href="draw__text__tool_8h.html" title="src/tools/draw_text\l_tool.h" alt="" coords="47,184,180,225"/>
-<area shape="rect" id="node6" href="boolean__tool_8h.html" title="src/core/objects/boolean\l_tool.h" alt="" coords="679,184,843,225"/>
-<area shape="rect" id="node7" href="boolean__tool_8cpp.html" title="src/core/objects/boolean\l_tool.cpp" alt="" coords="698,273,862,315"/>
-<area shape="rect" id="node9" href="cut__hole__tool_8cpp.html" title="src/tools/cut_hole\l_tool.cpp" alt="" coords="887,273,1012,315"/>
-<area shape="rect" id="node12" href="text__object_8h.html" title="src/core/objects/text\l_object.h" alt="" coords="1948,184,2089,225"/>
-<area shape="rect" id="node13" href="renderable__implementation_8cpp.html" title="src/core/renderables\l/renderable_implementation.cpp" alt="" coords="1562,273,1769,315"/>
-<area shape="rect" id="node14" href="symbol_8cpp.html" title="src/core/symbols/symbol.cpp" alt="" coords="1793,281,1986,307"/>
-<area shape="rect" id="node15" href="ocad8__file__format_8cpp.html" title="src/fileformats/ocad8\l_file_format.cpp" alt="" coords="2011,273,2155,315"/>
-<area shape="rect" id="node16" href="ocd__file__import_8h.html" title="src/fileformats/ocd\l_file_import.h" alt="" coords="2179,273,2309,315"/>
-<area shape="rect" id="node17" href="xml__file__format_8cpp.html" title="src/fileformats/xml\l_file_format.cpp" alt="" coords="2333,273,2464,315"/>
-<area shape="rect" id="node18" href="point__handles_8cpp.html" title="src/gui/point_handles.cpp" alt="" coords="2488,281,2659,307"/>
-<area shape="rect" id="node19" href="symbol__setting__dialog_8cpp.html" title="src/gui/symbols/symbol\l_setting_dialog.cpp" alt="" coords="3704,273,3864,315"/>
-<area shape="rect" id="node23" href="object__operations_8h.html" title="src/core/objects/object\l_operations.h" alt="" coords="1020,184,1175,225"/>
-<area shape="rect" id="node24" href="object__query_8cpp.html" title="src/core/objects/object\l_query.cpp" alt="" coords="2316,184,2471,225"/>
-<area shape="rect" id="node27" href="combined__symbol_8cpp.html" title="src/core/symbols/combined\l_symbol.cpp" alt="" coords="2495,184,2678,225"/>
-<area shape="rect" id="node28" href="file__format__registry_8cpp.html" title="src/fileformats/file\l_format_registry.cpp" alt="" coords="2703,184,2844,225"/>
-<area shape="rect" id="node29" href="file__import__export_8cpp.html" title="src/fileformats/file\l_import_export.cpp" alt="" coords="2868,184,3001,225"/>
-<area shape="rect" id="node30" href="ogr__template_8cpp.html" title="src/gdal/ogr_template.cpp" alt="" coords="3026,191,3198,218"/>
-<area shape="rect" id="node31" href="map__widget_8cpp.html" title="src/gui/map/map_widget.cpp" alt="" coords="3223,191,3412,218"/>
-<area shape="rect" id="node32" href="combined__symbol__settings_8cpp.html" title="src/gui/symbols/combined\l_symbol_settings.cpp" alt="" coords="3437,184,3611,225"/>
-<area shape="rect" id="node33" href="point__symbol__editor__widget_8cpp.html" title="src/gui/symbols/point\l_symbol_editor_widget.cpp" alt="" coords="3635,184,3815,225"/>
-<area shape="rect" id="node34" href="replace__symbol__set__dialog_8cpp.html" title="src/gui/symbols/replace\l_symbol_set_dialog.cpp" alt="" coords="3840,184,4003,225"/>
-<area shape="rect" id="node35" href="measure__widget_8cpp.html" title="src/gui/widgets/measure\l_widget.cpp" alt="" coords="4027,184,4191,225"/>
-<area shape="rect" id="node36" href="symbol__render__widget_8cpp.html" title="src/gui/widgets/symbol\l_render_widget.cpp" alt="" coords="4215,184,4371,225"/>
-<area shape="rect" id="node37" href="tag__select__widget_8cpp.html" title="src/gui/widgets/tag\l_select_widget.cpp" alt="" coords="4395,184,4530,225"/>
-<area shape="rect" id="node38" href="tags__widget_8cpp.html" title="src/gui/widgets/tags\l_widget.cpp" alt="" coords="4555,184,4693,225"/>
-<area shape="rect" id="node39" href="template__list__widget_8cpp.html" title="src/gui/widgets/template\l_list_widget.cpp" alt="" coords="4718,184,4882,225"/>
-<area shape="rect" id="node40" href="template__track_8cpp.html" title="src/templates/template\l_track.cpp" alt="" coords="1300,184,1455,225"/>
-<area shape="rect" id="node41" href="cut__tool_8h.html" title="src/tools/cut_tool.h" alt="" coords="521,191,655,218"/>
+<area shape="rect" id="node2" href="map_8cpp.html" title="src/core/map.cpp" alt="" coords="1899,281,2022,307"/>
+<area shape="rect" id="node3" href="map__printer_8cpp.html" title="src/core/map_printer.cpp" alt="" coords="6193,102,6360,129"/>
+<area shape="rect" id="node4" href="object_8h.html" title="src/core/objects/object.h" alt="" coords="2506,102,2671,129"/>
+<area shape="rect" id="node7" href="object_8cpp.html" title="src/core/objects/object.cpp" alt="" coords="2046,281,2225,307"/>
+<area shape="rect" id="node15" href="renderable__implementation_8cpp.html" title="src/core/renderables\l/renderable_implementation.cpp" alt="" coords="5,273,212,315"/>
+<area shape="rect" id="node16" href="symbol_8cpp.html" title="src/core/symbols/symbol.cpp" alt="" coords="267,281,460,307"/>
+<area shape="rect" id="node17" href="text__symbol_8cpp.html" title="src/core/symbols/text\l_symbol.cpp" alt="" coords="499,273,647,315"/>
+<area shape="rect" id="node23" href="draw__text__tool_8cpp.html" title="src/tools/draw_text\l_tool.cpp" alt="" coords="5925,273,6058,315"/>
+<area shape="rect" id="node24" href="edit__line__tool_8cpp.html" title="src/tools/edit_line\l_tool.cpp" alt="" coords="4535,273,4659,315"/>
+<area shape="rect" id="node25" href="renderable_8cpp.html" title="src/core/renderables\l/renderable.cpp" alt="" coords="4685,184,4825,225"/>
+<area shape="rect" id="node26" href="area__symbol_8cpp.html" title="src/core/symbols/area\l_symbol.cpp" alt="" coords="273,184,424,225"/>
+<area shape="rect" id="node28" href="line__symbol_8cpp.html" title="src/core/symbols/line\l_symbol.cpp" alt="" coords="449,184,595,225"/>
+<area shape="rect" id="node29" href="point__symbol_8cpp.html" title="src/core/symbols/point\l_symbol.cpp" alt="" coords="619,184,774,225"/>
+<area shape="rect" id="node41" href="cut__tool_8cpp.html" title="src/tools/cut_tool.cpp" alt="" coords="6082,281,6229,307"/>
+<area shape="rect" id="node42" href="draw__line__and__area__tool_8cpp.html" title="src/tools/draw_line\l_and_area_tool.cpp" alt="" coords="4849,184,4984,225"/>
+<area shape="rect" id="node43" href="draw__path__tool_8cpp.html" title="src/tools/draw_path\l_tool.cpp" alt="" coords="5009,184,5145,225"/>
+<area shape="rect" id="node44" href="draw__point__gps__tool_8cpp.html" title="src/tools/draw_point\l_gps_tool.cpp" alt="" coords="5169,184,5307,225"/>
+<area shape="rect" id="node45" href="draw__point__tool_8cpp.html" title="src/tools/draw_point\l_tool.cpp" alt="" coords="5331,184,5470,225"/>
+<area shape="rect" id="node46" href="tool__base_8cpp.html" title="src/tools/tool_base.cpp" alt="" coords="5494,191,5651,218"/>
+<area shape="rect" id="node47" href="renderable__implementation_8h.html" title="src/core/renderables\l/renderable_implementation.h" alt="" coords="253,95,445,136"/>
+<area shape="rect" id="node48" href="map__widget_8cpp.html" title="src/gui/map/map_widget.cpp" alt="" coords="6385,102,6574,129"/>
+<area shape="rect" id="node49" href="template__map_8cpp.html" title="src/templates/template\l_map.cpp" alt="" coords="6598,95,6753,136"/>
+<area shape="rect" id="node50" href="draw__text__tool_8h.html" title="src/tools/draw_text\l_tool.h" alt="" coords="5934,184,6067,225"/>
+<area shape="rect" id="node5" href="map__part_8cpp.html" title="src/core/map_part.cpp" alt="" coords="4039,191,4191,218"/>
+<area shape="rect" id="node6" href="boolean__tool_8cpp.html" title="src/core/objects/boolean\l_tool.cpp" alt="" coords="4216,184,4380,225"/>
+<area shape="rect" id="node8" href="object__mover_8cpp.html" title="src/core/objects/object\l_mover.cpp" alt="" coords="1387,273,1542,315"/>
+<area shape="rect" id="node9" href="object__operations_8h.html" title="src/core/objects/object\l_operations.h" alt="" coords="4405,184,4559,225"/>
+<area shape="rect" id="node10" href="map__editor_8cpp.html" title="src/gui/map/map_editor.cpp" alt="" coords="5200,281,5383,307"/>
+<area shape="rect" id="node11" href="object__query_8cpp.html" title="src/core/objects/object\l_query.cpp" alt="" coords="1470,184,1625,225"/>
+<area shape="rect" id="node12" href="symbol__rule__set_8cpp.html" title="src/core/objects/symbol\l_rule_set.cpp" alt="" coords="1852,184,2013,225"/>
+<area shape="rect" id="node13" href="text__object_8h.html" title="src/core/objects/text\l_object.h" alt="" coords="1203,184,1345,225"/>
+<area shape="rect" id="node14" href="text__object_8cpp.html" title="src/core/objects/text\l_object.cpp" alt="" coords="1566,273,1707,315"/>
+<area shape="rect" id="node18" href="ocad8__file__format_8cpp.html" title="src/fileformats/ocad8\l_file_format.cpp" alt="" coords="1731,273,1875,315"/>
+<area shape="rect" id="node19" href="ocd__file__import_8h.html" title="src/fileformats/ocd\l_file_import.h" alt="" coords="670,273,801,315"/>
+<area shape="rect" id="node20" href="ogr__file__format_8cpp.html" title="src/gdal/ogr_file_format.cpp" alt="" coords="825,281,1008,307"/>
+<area shape="rect" id="node21" href="map__find__feature_8cpp.html" title="src/gui/map/map_find\l_feature.cpp" alt="" coords="1033,273,1179,315"/>
+<area shape="rect" id="node22" href="symbol__setting__dialog_8cpp.html" title="src/gui/symbols/symbol\l_setting_dialog.cpp" alt="" coords="1203,273,1363,315"/>
+<area shape="rect" id="node27" href="combined__symbol_8cpp.html" title="src/core/symbols/combined\l_symbol.cpp" alt="" coords="2037,184,2220,225"/>
+<area shape="rect" id="node30" href="file__import__export_8cpp.html" title="src/fileformats/file\l_import_export.cpp" alt="" coords="2245,184,2378,225"/>
+<area shape="rect" id="node31" href="ogr__template_8cpp.html" title="src/gdal/ogr_template.cpp" alt="" coords="2403,191,2575,218"/>
+<area shape="rect" id="node32" href="point__symbol__editor__widget_8cpp.html" title="src/gui/symbols/point\l_symbol_editor_widget.cpp" alt="" coords="2599,184,2779,225"/>
+<area shape="rect" id="node33" href="replace__symbol__set__dialog_8cpp.html" title="src/gui/symbols/replace\l_symbol_set_dialog.cpp" alt="" coords="2803,184,2966,225"/>
+<area shape="rect" id="node34" href="measure__widget_8cpp.html" title="src/gui/widgets/measure\l_widget.cpp" alt="" coords="2991,184,3155,225"/>
+<area shape="rect" id="node35" href="symbol__render__widget_8cpp.html" title="src/gui/widgets/symbol\l_render_widget.cpp" alt="" coords="3179,184,3335,225"/>
+<area shape="rect" id="node36" href="tags__widget_8cpp.html" title="src/gui/widgets/tags\l_widget.cpp" alt="" coords="3359,184,3498,225"/>
+<area shape="rect" id="node37" href="template__list__widget_8cpp.html" title="src/gui/widgets/template\l_list_widget.cpp" alt="" coords="3523,184,3687,225"/>
+<area shape="rect" id="node38" href="template__track_8cpp.html" title="src/templates/template\l_track.cpp" alt="" coords="3711,184,3866,225"/>
+<area shape="rect" id="node39" href="cut__hole__tool_8cpp.html" title="src/tools/cut_hole\l_tool.cpp" alt="" coords="3890,184,4015,225"/>
+<area shape="rect" id="node40" href="cut__tool_8h.html" title="src/tools/cut_tool.h" alt="" coords="5777,191,5910,218"/>
 </map>
 </div>
 </div><table class="memberdecls">

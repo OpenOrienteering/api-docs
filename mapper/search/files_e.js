@@ -25,8 +25,10 @@ var searchData=
   ['print_5fwidget_2eh',['print_widget.h',['../print__widget_8h.html',1,'']]],
   ['printengine_5fadvanced_5fpdf_2ecpp',['printengine_advanced_pdf.cpp',['../qt-5_82_81_2printengine__advanced__pdf_8cpp.html',1,'']]],
   ['printengine_5fadvanced_5fpdf_2ecpp',['printengine_advanced_pdf.cpp',['../qt-5_85_81_2printengine__advanced__pdf_8cpp.html',1,'']]],
+  ['printengine_5fadvanced_5fpdf_2ecpp',['printengine_advanced_pdf.cpp',['../qt-5_86_83_2printengine__advanced__pdf_8cpp.html',1,'']]],
   ['printengine_5fadvanced_5fpdf_5fp_2eh',['printengine_advanced_pdf_p.h',['../qt-5_85_81_2printengine__advanced__pdf__p_8h.html',1,'']]],
   ['printengine_5fadvanced_5fpdf_5fp_2eh',['printengine_advanced_pdf_p.h',['../qt-5_82_81_2printengine__advanced__pdf__p_8h.html',1,'']]],
+  ['printengine_5fadvanced_5fpdf_5fp_2eh',['printengine_advanced_pdf_p.h',['../qt-5_86_83_2printengine__advanced__pdf__p_8h.html',1,'']]],
   ['printer_5fproperties_2ecpp',['printer_properties.cpp',['../printer__properties_8cpp.html',1,'']]],
   ['printer_5fproperties_2eh',['printer_properties.h',['../printer__properties_8h.html',1,'']]],
   ['printer_5fproperties_5fwin_2ecpp',['printer_properties_win.cpp',['../printer__properties__win_8cpp.html',1,'']]]

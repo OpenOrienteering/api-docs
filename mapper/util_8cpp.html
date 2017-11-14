@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -96,14 +96,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">util.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/32cdd02/src/util/util.cpp"><tt>32cdd02</tt></a> on 7 May 2017)</h3><div class="textblock"><code>#include &quot;<a class="el" href="util_8h.html">util.h</a>&quot;</code><br />
+<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/86317e9/src/util/util.cpp"><tt>86317e9</tt></a> on 19 Aug 2017)</h3><div class="textblock"><code>#include &quot;<a class="el" href="util_8h.html">util.h</a>&quot;</code><br />
 <code>#include &lt;QApplication&gt;</code><br />
-<code>#include &lt;QDebug&gt;</code><br />
 <code>#include &lt;QDir&gt;</code><br />
 <code>#include &lt;QIODevice&gt;</code><br />
 <code>#include &lt;QMessageBox&gt;</code><br />
 <code>#include &lt;QProcess&gt;</code><br />
-<code>#include &lt;QSettings&gt;</code><br />
 <code>#include &lt;QScreen&gt;</code><br />
 <code>#include &lt;QStandardPaths&gt;</code><br />
 <code>#include &lt;QUrl&gt;</code><br />
@@ -116,11 +114,11 @@ Include dependency graph for util.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="util_8cpp__incl.png" border="0" usemap="#src_2util_2util_8cpp" alt=""/></div>
 <map name="src_2util_2util_8cpp" id="src_2util_2util_8cpp">
-<area shape="rect" id="node2" href="util_8h.html" title="util.h" alt="" coords="181,80,232,107"/>
-<area shape="rect" id="node17" href="mapper__config_8h.html" title="mapper_config.h" alt="" coords="1310,80,1429,107"/>
-<area shape="rect" id="node18" href="settings_8h.html" title="settings.h" alt="" coords="1453,80,1531,107"/>
-<area shape="rect" id="node22" href="map__coord_8h.html" title="core/map_coord.h" alt="" coords="1659,80,1786,107"/>
-<area shape="rect" id="node28" href="text__browser__dialog_8h.html" title="gui/text_browser_dialog.h" alt="" coords="1876,80,2047,107"/>
+<area shape="rect" id="node2" href="util_8h.html" title="util.h" alt="" coords="990,80,1041,107"/>
+<area shape="rect" id="node20" href="mapper__config_8h.html" title="mapper_config.h" alt="" coords="1920,80,2039,107"/>
+<area shape="rect" id="node21" href="settings_8h.html" title="settings.h" alt="" coords="185,80,264,107"/>
+<area shape="rect" id="node25" href="map__coord_8h.html" title="core/map_coord.h" alt="" coords="644,80,771,107"/>
+<area shape="rect" id="node30" href="text__browser__dialog_8h.html" title="gui/text_browser_dialog.h" alt="" coords="795,80,966,107"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -168,9 +166,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a956c2a4b42b266b85b67702e17efe4a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceUtil.html#a956c2a4b42b266b85b67702e17efe4a3">Util::showHelp</a> (<a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html">QWidget</a> *dialog_parent, const char *file_and_anchor_latin1=&quot;index.html&quot;)</td></tr>
 <tr class="memdesc:a956c2a4b42b266b85b67702e17efe4a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Show the manual in <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qt.html">Qt</a> assistant.  <a href="namespaceUtil.html#a956c2a4b42b266b85b67702e17efe4a3">More...</a><br /></td></tr>
 <tr class="separator:a956c2a4b42b266b85b67702e17efe4a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa399e67817334d5381317d684c1b6fa8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceUtil.html#aa399e67817334d5381317d684c1b6fa8">Util::showHelp</a> (<a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html">QWidget</a> *dialog_parent, <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> file_and_anchor)</td></tr>
-<tr class="memdesc:aa399e67817334d5381317d684c1b6fa8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Show the manual in <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qt.html">Qt</a> assistant.  <a href="namespaceUtil.html#aa399e67817334d5381317d684c1b6fa8">More...</a><br /></td></tr>
-<tr class="separator:aa399e67817334d5381317d684c1b6fa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60942acf4d404e472181fcd9a75fd590"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceUtil.html#a60942acf4d404e472181fcd9a75fd590">Util::showHelp</a> (<a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html">QWidget</a> *dialog_parent, const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;file_and_anchor)</td></tr>
+<tr class="memdesc:a60942acf4d404e472181fcd9a75fd590"><td class="mdescLeft">&#160;</td><td class="mdescRight">Show the manual in <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qt.html">Qt</a> assistant.  <a href="namespaceUtil.html#a60942acf4d404e472181fcd9a75fd590">More...</a><br /></td></tr>
+<tr class="separator:a60942acf4d404e472181fcd9a75fd590"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acde333f46eba2bf27742f4a7539dbe59"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceUtil.html#acde333f46eba2bf27742f4a7539dbe59">Util::makeWhatThis</a> (const char *reference_latin1)</td></tr>
 <tr class="memdesc:acde333f46eba2bf27742f4a7539dbe59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a What's-this text "See more" linking to the given page and fragment in the manual.  <a href="namespaceUtil.html#acde333f46eba2bf27742f4a7539dbe59">More...</a><br /></td></tr>
 <tr class="separator:acde333f46eba2bf27742f4a7539dbe59"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -519,7 +517,7 @@ Functions</h2></td></tr>
 
 <p>Enlarges the rect to include the given other_rect. </p>
 <p>At least one rectangle must be valid.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000084">Todo:</a></b></dt><dd>Check if <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qregion.html">QRegion</a> could be used instead. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000097">Todo:</a></b></dt><dd>Check if <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qregion.html">QRegion</a> could be used instead. </dd></dl>
 
 </div>
 </div>

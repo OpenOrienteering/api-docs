@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -95,29 +95,38 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">map_view.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/9ee00e4/src/core/map_view.cpp"><tt>9ee00e4</tt></a> on 8 Jan 2017)</h3><div class="textblock"><code>#include &quot;<a class="el" href="map__view_8h.html">map_view.h</a>&quot;</code><br />
+<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/edb0042/src/core/map_view.cpp"><tt>edb0042</tt></a> on 7 Nov 2017)</h3><div class="textblock"><code>#include &quot;<a class="el" href="map__view_8h.html">map_view.h</a>&quot;</code><br />
+<code>#include &lt;algorithm&gt;</code><br />
+<code>#include &lt;cmath&gt;</code><br />
+<code>#include &lt;iterator&gt;</code><br />
+<code>#include &lt;stdexcept&gt;</code><br />
 <code>#include &lt;QRectF&gt;</code><br />
-<code>#include &quot;<a class="el" href="map_8h.html">map.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="template_8h.html">../templates/template.h</a>&quot;</code><br />
+<code>#include &lt;Qt&gt;</code><br />
+<code>#include &lt;QIODevice&gt;</code><br />
+<code>#include &lt;QLatin1String&gt;</code><br />
+<code>#include &lt;QString&gt;</code><br />
+<code>#include &lt;QStringRef&gt;</code><br />
+<code>#include &lt;QXmlStreamReader&gt;</code><br />
+<code>#include &quot;<a class="el" href="map_8h.html">core/map.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="map__coord_8h.html">core/map_coord.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="template_8h.html">templates/template.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="util_8h.html">util/util.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="xml__stream__util_8h.html">../util/xml_stream_util.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="xml__stream__util_8h.html">util/xml_stream_util.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for map_view.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="map__view_8cpp__incl.png" border="0" usemap="#src_2core_2map__view_8cpp" alt=""/></div>
 <map name="src_2core_2map__view_8cpp" id="src_2core_2map__view_8cpp">
-<area shape="rect" id="node2" href="map__view_8h.html" title="map_view.h" alt="" coords="513,87,605,114"/>
-<area shape="rect" id="node13" href="map_8h.html" title="map.h" alt="" coords="1137,87,1196,114"/>
-<area shape="rect" id="node27" href="template_8h.html" title="../templates/template.h" alt="" coords="209,87,365,114"/>
-<area shape="rect" id="node32" href="util_8h.html" title="util/util.h" alt="" coords="2323,87,2394,114"/>
-<area shape="rect" id="node36" href="xml__stream__util_8h.html" title="../util/xml_stream\l_util.h" alt="" coords="1748,80,1871,121"/>
-<area shape="rect" id="node7" href="map__coord_8h.html" title="map_coord.h" alt="" coords="635,244,733,271"/>
-<area shape="rect" id="node20" href="global_8h.html" title="global.h" alt="" coords="847,169,913,196"/>
-<area shape="rect" id="node21" href="map__grid_8h.html" title="map_grid.h" alt="" coords="1002,169,1089,196"/>
-<area shape="rect" id="node23" href="file__format_8h.html" title="fileformats/file_format.h" alt="" coords="1671,169,1830,196"/>
-<area shape="rect" id="node26" href="map__part_8h.html" title="map_part.h" alt="" coords="1165,169,1251,196"/>
-<area shape="rect" id="node28" href="matrix_8h.html" title="util/matrix.h" alt="" coords="39,169,129,196"/>
-<area shape="rect" id="node31" href="transformation_8h.html" title="util/transformation.h" alt="" coords="154,169,291,196"/>
+<area shape="rect" id="node2" href="map__view_8h.html" title="map_view.h" alt="" coords="2407,155,2499,181"/>
+<area shape="rect" id="node11" href="map__coord_8h.html" title="map_coord.h" alt="" coords="2711,229,2809,256"/>
+<area shape="rect" id="node23" href="map_8h.html" title="core/map.h" alt="" coords="1442,155,1529,181"/>
+<area shape="rect" id="node37" href="template_8h.html" title="templates/template.h" alt="" coords="2665,80,2809,107"/>
+<area shape="rect" id="node42" href="util_8h.html" title="util/util.h" alt="" coords="3223,229,3294,256"/>
+<area shape="rect" id="node47" href="xml__stream__util_8h.html" title="util/xml_stream_util.h" alt="" coords="327,229,473,256"/>
+<area shape="rect" id="node33" href="map__grid_8h.html" title="core/map_grid.h" alt="" coords="1113,229,1228,256"/>
+<area shape="rect" id="node35" href="map__part_8h.html" title="core/map_part.h" alt="" coords="1303,229,1419,256"/>
+<area shape="rect" id="node39" href="matrix_8h.html" title="util/matrix.h" alt="" coords="2761,155,2852,181"/>
+<area shape="rect" id="node41" href="transformation_8h.html" title="util/transformation.h" alt="" coords="2599,155,2737,181"/>
 </map>
 </div>
 </div><table class="memberdecls">

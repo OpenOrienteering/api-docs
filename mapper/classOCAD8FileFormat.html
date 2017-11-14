@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -120,22 +120,30 @@ Collaboration diagram for OCAD8FileFormat:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aa9361e447277a0ef88812278725f8da2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOCAD8FileFormat.html#aa9361e447277a0ef88812278725f8da2">OCAD8FileFormat</a> ()</td></tr>
 <tr class="separator:aa9361e447277a0ef88812278725f8da2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a566b67575a7992f3737f6f0442565752"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOCAD8FileFormat.html#a566b67575a7992f3737f6f0442565752">understands</a> (const unsigned char *buffer, size_t sz) const </td></tr>
-<tr class="memdesc:a566b67575a7992f3737f6f0442565752"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this file format believes it is capable of understanding a file that starts with the given byte sequence.  <a href="#a566b67575a7992f3737f6f0442565752">More...</a><br /></td></tr>
-<tr class="separator:a566b67575a7992f3737f6f0442565752"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adbc2d469e153c0e4c160b9d4ef599723"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classImporter.html">Importer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOCAD8FileFormat.html#adbc2d469e153c0e4c160b9d4ef599723">createImporter</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qiodevice.html">QIODevice</a> *stream, <a class="el" href="classMap.html">Map</a> *map, <a class="el" href="classMapView.html">MapView</a> *view) const </td></tr>
-<tr class="memdesc:adbc2d469e153c0e4c160b9d4ef599723"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an <a class="el" href="classImporter.html" title="Base class for all importers. ">Importer</a> that will read a map file from the given stream into the given map and view.  <a href="#adbc2d469e153c0e4c160b9d4ef599723">More...</a><br /></td></tr>
-<tr class="separator:adbc2d469e153c0e4c160b9d4ef599723"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec7c2fba17489ca3f6aad8c693f68e5b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classExporter.html">Exporter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOCAD8FileFormat.html#aec7c2fba17489ca3f6aad8c693f68e5b">createExporter</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qiodevice.html">QIODevice</a> *stream, <a class="el" href="classMap.html">Map</a> *map, <a class="el" href="classMapView.html">MapView</a> *view) const </td></tr>
-<tr class="memdesc:aec7c2fba17489ca3f6aad8c693f68e5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an <a class="el" href="classExporter.html" title="Base class for all exporters. ">Exporter</a> that will save the given map and view into the given stream.  <a href="#aec7c2fba17489ca3f6aad8c693f68e5b">More...</a><br /></td></tr>
-<tr class="separator:aec7c2fba17489ca3f6aad8c693f68e5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a781ef820595b1beddb8298cc5ffe7a8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOCAD8FileFormat.html#a781ef820595b1beddb8298cc5ffe7a8a">understands</a> (const unsigned char *buffer, std::size_t sz) const override</td></tr>
+<tr class="memdesc:a781ef820595b1beddb8298cc5ffe7a8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this file format believes it is capable of understanding a file that starts with the given byte sequence.  <a href="#a781ef820595b1beddb8298cc5ffe7a8a">More...</a><br /></td></tr>
+<tr class="separator:a781ef820595b1beddb8298cc5ffe7a8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24fc8bb6d5c9271c6df9909015d872d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classImporter.html">Importer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOCAD8FileFormat.html#a24fc8bb6d5c9271c6df9909015d872d3">createImporter</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qiodevice.html">QIODevice</a> *stream, <a class="el" href="classMap.html">Map</a> *map, <a class="el" href="classMapView.html">MapView</a> *view) const override</td></tr>
+<tr class="memdesc:a24fc8bb6d5c9271c6df9909015d872d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an <a class="el" href="classImporter.html" title="Base class for all importers. ">Importer</a> that will read a map file from the given stream into the given map and view.  <a href="#a24fc8bb6d5c9271c6df9909015d872d3">More...</a><br /></td></tr>
+<tr class="separator:a24fc8bb6d5c9271c6df9909015d872d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69313434e3ec5157c06ad9f4c5e695c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classExporter.html">Exporter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOCAD8FileFormat.html#a69313434e3ec5157c06ad9f4c5e695c5">createExporter</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qiodevice.html">QIODevice</a> *stream, <a class="el" href="classMap.html">Map</a> *map, <a class="el" href="classMapView.html">MapView</a> *view) const override</td></tr>
+<tr class="memdesc:a69313434e3ec5157c06ad9f4c5e695c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an <a class="el" href="classExporter.html" title="Base class for all exporters. ">Exporter</a> that will save the given map and view into the given stream.  <a href="#a69313434e3ec5157c06ad9f4c5e695c5">More...</a><br /></td></tr>
+<tr class="separator:a69313434e3ec5157c06ad9f4c5e695c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classFileFormat"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classFileFormat')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classFileFormat.html">FileFormat</a></td></tr>
 <tr class="memitem:a7f5830a6399f4ce0840d04890a86d9f1 inherit pub_methods_classFileFormat"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileFormat.html#a7f5830a6399f4ce0840d04890a86d9f1">FileFormat</a> (<a class="el" href="classFileFormat.html#a027a5f6d0a2fe08b2e2a63dcb1fcc815">FileType</a> file_type, const char *<a class="el" href="classFileFormat.html#a4d9103597a9e038b91eda5fd78a3f284">id</a>, const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;<a class="el" href="classFileFormat.html#a2eb0acd8af95421dc3ed02f37a814bf1">description</a>, const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;file_extension, FormatFeatures features)</td></tr>
 <tr class="memdesc:a7f5830a6399f4ce0840d04890a86d9f1 inherit pub_methods_classFileFormat"><td class="mdescLeft">&#160;</td><td class="mdescRight">A type which handles OR-combinations of format implementation features.  <a href="#a7f5830a6399f4ce0840d04890a86d9f1">More...</a><br /></td></tr>
 <tr class="separator:a7f5830a6399f4ce0840d04890a86d9f1 inherit pub_methods_classFileFormat"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78a39e2a4bfc6ba07033c4f97acfabb1 inherit pub_methods_classFileFormat"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileFormat.html#a78a39e2a4bfc6ba07033c4f97acfabb1">FileFormat</a> (const <a class="el" href="classFileFormat.html">FileFormat</a> &amp;)=delete</td></tr>
+<tr class="separator:a78a39e2a4bfc6ba07033c4f97acfabb1 inherit pub_methods_classFileFormat"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c5448b6a4d20f102e90175501f7bd34 inherit pub_methods_classFileFormat"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileFormat.html#a9c5448b6a4d20f102e90175501f7bd34">FileFormat</a> (<a class="el" href="classFileFormat.html">FileFormat</a> &amp;&amp;)=delete</td></tr>
+<tr class="separator:a9c5448b6a4d20f102e90175501f7bd34 inherit pub_methods_classFileFormat"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33b1c1be690e1e2b4e946ba14f15d841 inherit pub_methods_classFileFormat"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileFormat.html#a33b1c1be690e1e2b4e946ba14f15d841">~FileFormat</a> ()</td></tr>
 <tr class="memdesc:a33b1c1be690e1e2b4e946ba14f15d841 inherit pub_methods_classFileFormat"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys the file format information.  <a href="#a33b1c1be690e1e2b4e946ba14f15d841">More...</a><br /></td></tr>
 <tr class="separator:a33b1c1be690e1e2b4e946ba14f15d841 inherit pub_methods_classFileFormat"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4026e146b2a43622109ed24a7f2c86f5 inherit pub_methods_classFileFormat"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classFileFormat.html">FileFormat</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileFormat.html#a4026e146b2a43622109ed24a7f2c86f5">operator=</a> (const <a class="el" href="classFileFormat.html">FileFormat</a> &amp;)=delete</td></tr>
+<tr class="separator:a4026e146b2a43622109ed24a7f2c86f5 inherit pub_methods_classFileFormat"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8442b9a27bfc7bb5d67d407d1cabfbf inherit pub_methods_classFileFormat"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classFileFormat.html">FileFormat</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileFormat.html#aa8442b9a27bfc7bb5d67d407d1cabfbf">operator=</a> (<a class="el" href="classFileFormat.html">FileFormat</a> &amp;&amp;)=delete</td></tr>
+<tr class="separator:aa8442b9a27bfc7bb5d67d407d1cabfbf inherit pub_methods_classFileFormat"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac63a4f8bcb908a9598025b53b4a2e57c inherit pub_methods_classFileFormat"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileFormat.html#ac63a4f8bcb908a9598025b53b4a2e57c">addExtension</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;file_extension)</td></tr>
 <tr class="memdesc:ac63a4f8bcb908a9598025b53b4a2e57c inherit pub_methods_classFileFormat"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers an alternative file name extension.  <a href="#ac63a4f8bcb908a9598025b53b4a2e57c">More...</a><br /></td></tr>
 <tr class="separator:ac63a4f8bcb908a9598025b53b4a2e57c inherit pub_methods_classFileFormat"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -204,7 +212,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="aec7c2fba17489ca3f6aad8c693f68e5b"></a>
+<a class="anchor" id="a69313434e3ec5157c06ad9f4c5e695c5"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -237,7 +245,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -250,7 +258,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="adbc2d469e153c0e4c160b9d4ef599723"></a>
+<a class="anchor" id="a24fc8bb6d5c9271c6df9909015d872d3"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -283,7 +291,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -296,7 +304,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a566b67575a7992f3737f6f0442565752"></a>
+<a class="anchor" id="a781ef820595b1beddb8298cc5ffe7a8a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -312,7 +320,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_t&#160;</td>
+          <td class="paramtype">std::size_t&#160;</td>
           <td class="paramname"><em>sz</em>&#160;</td>
         </tr>
         <tr>
@@ -323,7 +331,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -331,13 +339,13 @@ Additional Inherited Members</h2></td></tr>
 <p>Returns true if this file format believes it is capable of understanding a file that starts with the given byte sequence. </p>
 <p>"Magic" numbers and version information is commonly placed at the beginning of a file, and this method is used by the application to pre-screen for a suitable <a class="el" href="classImporter.html" title="Base class for all importers. ">Importer</a>. If there is any doubt about whether the file format can successfully process a file, this method should return false. </p>
 
-<p>Reimplemented from <a class="el" href="classFileFormat.html#a9fb01f2fa9e468883ce076002353cba7">FileFormat</a>.</p>
+<p>Reimplemented from <a class="el" href="classFileFormat.html#ac8f7ac266b68ebcf5bf9e80e61623784">FileFormat</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/fileformats/<a class="el" href="ocad8__file__format_8h.html">ocad8_file_format.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/b792da0/src/fileformats/ocad8_file_format.h"><tt>b792da0</tt></a> on 8 Jan 2017)</li>
-<li>src/fileformats/<a class="el" href="ocad8__file__format_8cpp.html">ocad8_file_format.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/5de9b75/src/fileformats/ocad8_file_format.cpp"><tt>5de9b75</tt></a> on 11 May 2017)</li>
+<li>src/fileformats/<a class="el" href="ocad8__file__format_8h.html">ocad8_file_format.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/4d0078b/src/fileformats/ocad8_file_format.h"><tt>4d0078b</tt></a> on 14 Aug 2017)</li>
+<li>src/fileformats/<a class="el" href="ocad8__file__format_8cpp.html">ocad8_file_format.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/c760731/src/fileformats/ocad8_file_format.cpp"><tt>c760731</tt></a> on 11 Nov 2017)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

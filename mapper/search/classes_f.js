@@ -23,7 +23,6 @@ var searchData=
   ['pathpartvector',['PathPartVector',['../classPathPartVector.html',1,'']]],
   ['pathsection',['PathSection',['../structFillTool_1_1PathSection.html',1,'FillTool']]],
   ['percentagedelegate',['PercentageDelegate',['../classPercentageDelegate.html',1,'']]],
-  ['physicalcutoutoperation',['PhysicalCutoutOperation',['../structPhysicalCutoutOperation.html',1,'']]],
   ['piemenu',['PieMenu',['../classPieMenu.html',1,'']]],
   ['pixmapfragment',['PixmapFragment',['http://doc.qt.io/qt-5/qpainter-pixmapfragment.html',1,'QPainter']]],
   ['pointhandles',['PointHandles',['../classPointHandles.html',1,'']]],

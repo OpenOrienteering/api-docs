@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -88,6 +88,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
@@ -114,7 +115,7 @@ Inheritance diagram for Template:</div>
 <area shape="rect" id="node4" href="classTemplateMap.html" title="Template displaying a map file. " alt="" coords="141,155,243,181"/>
 <area shape="rect" id="node6" href="classTemplateTrack.html" title="A template consisting of a set of tracks (polylines) and waypoints. " alt="" coords="267,155,376,181"/>
 <area shape="rect" id="node2" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html" title="QObject" alt="" coords="157,5,227,32"/>
-<area shape="rect" id="node5" href="classOgrTemplate.html" title="Template displaying a file supported by OGR. " alt="" coords="143,229,241,256"/>
+<area shape="rect" id="node5" href="classOgrTemplate.html" title="A Template which displays a file supported by OGR (geospatial vector data). " alt="" coords="143,229,241,256"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -123,16 +124,20 @@ Collaboration diagram for Template:</div>
 <div class="center"><img src="classTemplate__coll__graph.png" border="0" usemap="#Template_coll__map" alt="Collaboration graph"/></div>
 <map name="Template_coll__map" id="Template_coll__map">
 <area shape="rect" id="node2" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html" title="QObject" alt="" coords="5,95,76,121"/>
-<area shape="rect" id="node8" href="classMap.html" title="Central class for an OpenOrienteering map. " alt="" coords="55,171,101,197"/>
-<area shape="rect" id="node3" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpointf.html" title="QPointF" alt="" coords="125,171,196,197"/>
-<area shape="rect" id="node4" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html" title="QString" alt="" coords="257,171,323,197"/>
-<area shape="rect" id="node5" href="classPassPointList.html" title="List of pass points with methods for transformation calculation. " alt="" coords="348,171,451,197"/>
-<area shape="rect" id="node6" title="STL class. " alt="" coords="315,95,483,121"/>
-<area shape="rect" id="node9" href="structTemplateTransform.html" title="Transformation parameters for non&#45;georeferenced templates. " alt="" coords="475,171,609,197"/>
-<area shape="rect" id="node10" href="classMatrix.html" title="Dynamically sized matrix of doubles. " alt="" coords="637,171,695,197"/>
+<area shape="rect" id="node7" href="classMap.html" title="Central class for an OpenOrienteering map. " alt="" coords="55,171,101,197"/>
+<area shape="rect" id="node3" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html" title="QString" alt="" coords="126,171,193,197"/>
+<area shape="rect" id="node4" href="classPassPointList.html" title="List of pass points with methods for transformation calculation. " alt="" coords="217,171,320,197"/>
+<area shape="rect" id="node5" title="STL class. " alt="" coords="185,95,353,121"/>
+<area shape="rect" id="node8" href="structTemplateTransform.html" title="Transformation parameters for non&#45;georeferenced templates. " alt="" coords="344,171,479,197"/>
+<area shape="rect" id="node9" href="classMatrix.html" title="Dynamically sized matrix of doubles. " alt="" coords="506,171,565,197"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate_1_1ScopedOffsetReversal.html">ScopedOffsetReversal</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:acea65417bfe6debf7fc4d51b07f74bdb"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#acea65417bfe6debf7fc4d51b07f74bdb">State</a> { <a class="el" href="classTemplate.html#acea65417bfe6debf7fc4d51b07f74bdbab67e44ac5264db1b8264f10c80cec05f">Loaded</a> = 0, 
@@ -154,8 +159,8 @@ Signals</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a3a25be0aa214cf317463efed91395f09"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a3a25be0aa214cf317463efed91395f09">~Template</a> ()</td></tr>
-<tr class="separator:a3a25be0aa214cf317463efed91395f09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65775385ce686e44847dfd0b87d0c8a7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a65775385ce686e44847dfd0b87d0c8a7">~Template</a> () override</td></tr>
+<tr class="separator:a65775385ce686e44847dfd0b87d0c8a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9126bcb97d1875a56d387e5537c2be56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTemplate.html">Template</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a9126bcb97d1875a56d387e5537c2be56">duplicate</a> () const </td></tr>
 <tr class="memdesc:a9126bcb97d1875a56d387e5537c2be56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a duplicate of the template.  <a href="#a9126bcb97d1875a56d387e5537c2be56">More...</a><br /></td></tr>
 <tr class="separator:a9126bcb97d1875a56d387e5537c2be56"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -186,6 +191,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa9503f8ca856ce3b8c97931c234969c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#aa9503f8ca856ce3b8c97931c234969c2">configureAndLoad</a> (<a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html">QWidget</a> *dialog_parent, <a class="el" href="classMapView.html">MapView</a> *view)</td></tr>
 <tr class="memdesc:aa9503f8ca856ce3b8c97931c234969c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Does everything needed to load a template.  <a href="#aa9503f8ca856ce3b8c97931c234969c2">More...</a><br /></td></tr>
 <tr class="separator:aa9503f8ca856ce3b8c97931c234969c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83404b72c69309aea5c9b0c440f766d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a83404b72c69309aea5c9b0c440f766d1">tryToFindTemplateFile</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> map_directory, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> *out_found_from_map_dir=nullptr)</td></tr>
+<tr class="memdesc:a83404b72c69309aea5c9b0c440f766d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to find the template file non-interactively.  <a href="#a83404b72c69309aea5c9b0c440f766d1">More...</a><br /></td></tr>
+<tr class="separator:a83404b72c69309aea5c9b0c440f766d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afdeec865668c240c69e9ca5478b568bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#afdeec865668c240c69e9ca5478b568bd">tryToFindAndReloadTemplateFile</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> map_directory, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> *out_loaded_from_map_dir=nullptr)</td></tr>
 <tr class="memdesc:afdeec865668c240c69e9ca5478b568bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to find and load the template file non-interactively.  <a href="#afdeec865668c240c69e9ca5478b568bd">More...</a><br /></td></tr>
 <tr class="separator:afdeec865668c240c69e9ca5478b568bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -201,9 +209,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a226a1106cf30fba50b59cb038ea34277"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a226a1106cf30fba50b59cb038ea34277">unloadTemplateFile</a> ()</td></tr>
 <tr class="memdesc:a226a1106cf30fba50b59cb038ea34277"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unloads the template file.  <a href="#a226a1106cf30fba50b59cb038ea34277">More...</a><br /></td></tr>
 <tr class="separator:a226a1106cf30fba50b59cb038ea34277"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0779774f27208981d3d8616cc1f8a289"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a0779774f27208981d3d8616cc1f8a289">drawTemplate</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpainter.html">QPainter</a> *painter, <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> &amp;clip_rect, double <a class="el" href="classTemplate.html#a537c4329149b4335e0e7907dfc36d37d">scale</a>, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> on_screen, float opacity) const =0</td></tr>
-<tr class="memdesc:a0779774f27208981d3d8616cc1f8a289"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the template using the given painter with the given opacity.  <a href="#a0779774f27208981d3d8616cc1f8a289">More...</a><br /></td></tr>
-<tr class="separator:a0779774f27208981d3d8616cc1f8a289"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0c68870e53719c507afe766470af180"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#ac0c68870e53719c507afe766470af180">drawTemplate</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpainter.html">QPainter</a> *painter, const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> &amp;clip_rect, double <a class="el" href="classTemplate.html#a537c4329149b4335e0e7907dfc36d37d">scale</a>, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> on_screen, float opacity) const =0</td></tr>
+<tr class="memdesc:ac0c68870e53719c507afe766470af180"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the template using the given painter with the given opacity.  <a href="#ac0c68870e53719c507afe766470af180">More...</a><br /></td></tr>
+<tr class="separator:ac0c68870e53719c507afe766470af180"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a160d0b42562db5e2a5407a89254086f8"><td class="memItemLeft" align="right" valign="top">virtual <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a160d0b42562db5e2a5407a89254086f8">calculateTemplateBoundingBox</a> () const </td></tr>
 <tr class="memdesc:a160d0b42562db5e2a5407a89254086f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the template's bounding box in map coordinates.  <a href="#a160d0b42562db5e2a5407a89254086f8">More...</a><br /></td></tr>
 <tr class="separator:a160d0b42562db5e2a5407a89254086f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -300,6 +308,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0068f784d16140bc62eaf90c8103aac8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6406d6d82055dbc9f44197ab63b02c00"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a6406d6d82055dbc9f44197ab63b02c00">setTemplatePosition</a> (<a class="el" href="classMapCoord.html">MapCoord</a> coord)</td></tr>
 <tr class="separator:a6406d6d82055dbc9f44197ab63b02c00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5ed2fd65cc2eada061ae76e3726f2bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMapCoord.html">MapCoord</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#ad5ed2fd65cc2eada061ae76e3726f2bb">templatePositionOffset</a> () const </td></tr>
+<tr class="separator:ad5ed2fd65cc2eada061ae76e3726f2bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67f630d49df9c03e704a822d2f88fce1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a67f630d49df9c03e704a822d2f88fce1">setTemplatePositionOffset</a> (<a class="el" href="classMapCoord.html">MapCoord</a> offset)</td></tr>
+<tr class="separator:a67f630d49df9c03e704a822d2f88fce1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56fa248f01e1d678f9f833869b7b050e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a56fa248f01e1d678f9f833869b7b050e">applyTemplatePositionOffset</a> ()</td></tr>
+<tr class="separator:a56fa248f01e1d678f9f833869b7b050e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6520df49cd999b769fb978addf147bee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a6520df49cd999b769fb978addf147bee">resetTemplatePositionOffset</a> ()</td></tr>
+<tr class="separator:a6520df49cd999b769fb978addf147bee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e75de563fdc4e621fdef4e383added7"><td class="memItemLeft" align="right" valign="top">qint64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a6e75de563fdc4e621fdef4e383added7">getTemplateX</a> () const </td></tr>
 <tr class="separator:a6e75de563fdc4e621fdef4e383added7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ca91f1995fbe615edd60e61cf5b8989"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a7ca91f1995fbe615edd60e61cf5b8989">setTemplateX</a> (qint64 x)</td></tr>
@@ -355,6 +371,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:moveToThread inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:startTimer inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#startTimer">startTimer</a> (int interval, Qt::TimerType timerType)</td></tr>
 <tr class="separator:startTimer inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:startTimer-1 inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#startTimer-1">startTimer</a> (std::chrono::milliseconds time, Qt::TimerType timerType)</td></tr>
+<tr class="separator:startTimer-1 inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:killTimer inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#killTimer">killTimer</a> (int id)</td></tr>
 <tr class="separator:killTimer inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:findChild inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#findChild">findChild</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;name, <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qt.html#FindChildOption-enum">Qt::FindChildOptions</a> options) const</td></tr>
@@ -379,9 +397,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:disconnect-2 inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:disconnect-3 inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#disconnect-3">disconnect</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html">QObject</a> *receiver, const char *method) const</td></tr>
 <tr class="separator:disconnect-3 inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:dumpObjectTree inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#dumpObjectTree">dumpObjectTree</a> ()</td></tr>
+<tr class="memitem:dumpObjectTree-1 inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject-obsolete.html#dumpObjectTree-1">dumpObjectTree</a> ()</td></tr>
+<tr class="separator:dumpObjectTree-1 inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:dumpObjectInfo-1 inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject-obsolete.html#dumpObjectInfo-1">dumpObjectInfo</a> ()</td></tr>
+<tr class="separator:dumpObjectInfo-1 inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:dumpObjectTree inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#dumpObjectTree">dumpObjectTree</a> () const</td></tr>
 <tr class="separator:dumpObjectTree inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:dumpObjectInfo inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#dumpObjectInfo">dumpObjectInfo</a> ()</td></tr>
+<tr class="memitem:dumpObjectInfo inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#dumpObjectInfo">dumpObjectInfo</a> () const</td></tr>
 <tr class="separator:dumpObjectInfo inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:setProperty inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#setProperty">setProperty</a> (const char *name, const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qvariant.html">QVariant</a> &amp;value)</td></tr>
 <tr class="separator:setProperty inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -519,9 +541,6 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:ac236a9bc4d5d82565cdc71bef037ecc6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#ac236a9bc4d5d82565cdc71bef037ecc6">is_georeferenced</a></td></tr>
 <tr class="memdesc:ac236a9bc4d5d82565cdc71bef037ecc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is the template in georeferenced mode?  <a href="#ac236a9bc4d5d82565cdc71bef037ecc6">More...</a><br /></td></tr>
 <tr class="separator:ac236a9bc4d5d82565cdc71bef037ecc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca9401879a1452d703452d4b293df5f8"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpointf.html">QPointF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#aca9401879a1452d703452d4b293df5f8">accounted_offset</a></td></tr>
-<tr class="memdesc:aca9401879a1452d703452d4b293df5f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bounds correction offset for map templates. Must be masked out when saving.  <a href="#aca9401879a1452d703452d4b293df5f8">More...</a><br /></td></tr>
-<tr class="separator:aca9401879a1452d703452d4b293df5f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a862a0180d8f8921d2f7c476118a6be14"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structTemplateTransform.html">TemplateTransform</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a862a0180d8f8921d2f7c476118a6be14">transform</a></td></tr>
 <tr class="memdesc:a862a0180d8f8921d2f7c476118a6be14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Currently active transformation. NOTE: after direct changes here call <a class="el" href="classTemplate.html#a69a4cbb53924433fcbefa9a5a7255ead" title="Must be called after direct changes to transform or other_transform. ">updateTransformationMatrices()</a>  <a href="#a862a0180d8f8921d2f7c476118a6be14">More...</a><br /></td></tr>
 <tr class="separator:a862a0180d8f8921d2f7c476118a6be14"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -569,7 +588,7 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>Indicates arguments which must not be nullptr. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000056">Todo:</a></b></dt><dd>Use the Guideline Support Library </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000065">Todo:</a></b></dt><dd>Use the Guideline Support Library </dd></dl>
 
 </div>
 </div>
@@ -637,7 +656,7 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a3a25be0aa214cf317463efed91395f09"></a>
+<a class="anchor" id="a65775385ce686e44847dfd0b87d0c8a7"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -653,7 +672,7 @@ template&lt;typename T &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -681,6 +700,21 @@ template&lt;typename T &gt; </div>
           <td></td>
           <td>)</td>
           <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a56fa248f01e1d678f9f833869b7b050e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Template::applyTemplatePositionOffset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -730,7 +764,7 @@ template&lt;typename T &gt; </div>
 
 <p>Calculates the template's bounding box in map coordinates. </p>
 
-<p>Reimplemented in <a class="el" href="classTemplateTrack.html#a3ed8cc7db64422e4fd11e45376e7bed4">TemplateTrack</a>.</p>
+<p>Reimplemented in <a class="el" href="classTemplateTrack.html#a291a423cb91b81187cbef856f7b21d22">TemplateTrack</a>.</p>
 
 </div>
 </div>
@@ -757,7 +791,7 @@ template&lt;typename T &gt; </div>
 
 <p>Must return if freehand drawing onto the template is possible. </p>
 
-<p>Reimplemented in <a class="el" href="classTemplateImage.html#ae094fe4d3d020187e1ab86a8e7d89ed2">TemplateImage</a>.</p>
+<p>Reimplemented in <a class="el" href="classTemplateImage.html#ad6d3460a2c94f9547ca5240b03ac46c2">TemplateImage</a>.</p>
 
 </div>
 </div>
@@ -868,7 +902,7 @@ template&lt;typename T &gt; </div>
 <p>This only works for templates for which <a class="el" href="classTemplate.html#a54da9eecf58706ecf70b5663fe19a991" title="Must return if freehand drawing onto the template is possible. ">canBeDrawnOnto()</a> returns true.</p>
 <p>coords is an array of points with which the drawn line is defined and must contain at least 2 points.</p>
 <p>If map_bbox is an invalid rect, then the method will calculate it itself.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000058">Todo:</a></b></dt><dd>Rewrite using a range of <a class="el" href="classMapCoordF.html" title="Map coordinates stored as floating point numbers. ">MapCoordF</a>. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000067">Todo:</a></b></dt><dd>Rewrite using a range of <a class="el" href="classMapCoordF.html" title="Map coordinates stored as floating point numbers. ">MapCoordF</a>. </dd></dl>
 
 </div>
 </div>
@@ -919,7 +953,7 @@ template&lt;typename T &gt; </div>
 <p>Hook for drawing on the template. </p>
 <p>Draws the polyline given by the points onto the template. Required if <a class="el" href="classTemplate.html#a54da9eecf58706ecf70b5663fe19a991" title="Must return if freehand drawing onto the template is possible. ">canBeDrawnOnto()</a> returns true. </p>
 
-<p>Reimplemented in <a class="el" href="classTemplateImage.html#a16b33c7c59eedea1603997b9ace6e649">TemplateImage</a>.</p>
+<p>Reimplemented in <a class="el" href="classTemplateImage.html#ac2ef24e173c06219a42993fc19864cdb">TemplateImage</a>.</p>
 
 </div>
 </div>
@@ -948,11 +982,11 @@ template&lt;typename T &gt; </div>
 <p>Triggers an undo or redo action for template freehand drawing. </p>
 <p>This only works for templates for which <a class="el" href="classTemplate.html#a54da9eecf58706ecf70b5663fe19a991" title="Must return if freehand drawing onto the template is possible. ">canBeDrawnOnto()</a> returns true. </p>
 
-<p>Reimplemented in <a class="el" href="classTemplateImage.html#a2365fed1988fefbbab398f0308f7827f">TemplateImage</a>.</p>
+<p>Reimplemented in <a class="el" href="classTemplateImage.html#afad721fd04fb252485e9e3184d5a7f38">TemplateImage</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a0779774f27208981d3d8616cc1f8a289"></a>
+<a class="anchor" id="ac0c68870e53719c507afe766470af180"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -968,7 +1002,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> &amp;&#160;</td>
           <td class="paramname"><em>clip_rect</em>, </td>
         </tr>
         <tr>
@@ -1005,7 +1039,7 @@ template&lt;typename T &gt; </div>
 <p>Draws the template using the given painter with the given opacity. </p>
 <p>The painter transformation is set to use template coordinates. The clip rect is in template coordinates. The scale is the combined view &amp; template scale. It can be used to give a minimum size to elements. </p>
 
-<p>Implemented in <a class="el" href="classTemplateImage.html#a6c149bdc9c967670a7115de14f3bdc80">TemplateImage</a>, <a class="el" href="classTemplateMap.html#a95928c425ffa905d552ade07637aac17">TemplateMap</a>, and <a class="el" href="classTemplateTrack.html#ad37f59eac53ce22a5115d6318b84773e">TemplateTrack</a>.</p>
+<p>Implemented in <a class="el" href="classTemplateImage.html#ad079aa8a184473e0a728d91bf48c0d82">TemplateImage</a>, <a class="el" href="classTemplateMap.html#a8158af9d3b0845e60e4906f1b55e9293">TemplateMap</a>, and <a class="el" href="classTemplateTrack.html#abb69e38172439d965e6baee9f6f75e88">TemplateTrack</a>.</p>
 
 </div>
 </div>
@@ -1023,7 +1057,7 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>Creates a duplicate of the template. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000057">Todo:</a></b></dt><dd>Rewrite as virtual function, using protected copy constructor. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000066">Todo:</a></b></dt><dd>Rewrite as virtual function, using protected copy constructor. </dd></dl>
 
 </div>
 </div>
@@ -1050,9 +1084,9 @@ template&lt;typename T &gt; </div>
 
 <p>Derived classes must create a duplicate and transfer. </p>
 <p>type specific information over to the copy here. This includes the content of the template file if it is loaded.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000059">Todo:</a></b></dt><dd>Rewrite together with <a class="el" href="classTemplate.html#a9126bcb97d1875a56d387e5537c2be56" title="Creates a duplicate of the template. ">duplicate()</a>. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000068">Todo:</a></b></dt><dd>Rewrite together with <a class="el" href="classTemplate.html#a9126bcb97d1875a56d387e5537c2be56" title="Creates a duplicate of the template. ">duplicate()</a>. </dd></dl>
 
-<p>Implemented in <a class="el" href="classTemplateImage.html#a0897b45c1f9d0a28baf00a139634e803">TemplateImage</a>, <a class="el" href="classTemplateTrack.html#af1104d458c3bb54fda99f39f69f58fbe">TemplateTrack</a>, <a class="el" href="classTemplateMap.html#a1cfe0fdafedc8be7aa36b9c6dba97c55">TemplateMap</a>, and <a class="el" href="classOgrTemplate.html#a85aa25074c3d2dcec6e3e88d39c903c2">OgrTemplate</a>.</p>
+<p>Implemented in <a class="el" href="classTemplateImage.html#af40e21c3385a1924cd1e711a689c4cdd">TemplateImage</a>, <a class="el" href="classTemplateTrack.html#a9fd9940d13f045143d4c5167ee8dd89c">TemplateTrack</a>, <a class="el" href="classOgrTemplate.html#a94577d7de3ecb6ca5cb18b9a35c1771b">OgrTemplate</a>, and <a class="el" href="classTemplateMap.html#a1cfe0fdafedc8be7aa36b9c6dba97c55">TemplateMap</a>.</p>
 
 </div>
 </div>
@@ -1248,7 +1282,7 @@ template&lt;typename T &gt; </div>
 <p>Returns the extra extent of the template out of the bounding box. </p>
 <p>While the bounding box is defined in map coordinates, this border is given in pixels. This is useful for elements which stay the same size regardless of the zoom level so that a bounding box in map coords cannot be calculated. </p>
 
-<p>Reimplemented in <a class="el" href="classTemplateTrack.html#a97b397efbdd60b5ef2d95c3e62fe726f">TemplateTrack</a>.</p>
+<p>Reimplemented in <a class="el" href="classTemplateTrack.html#a18b92a1eeb1cf4c8ab3ab84040514abe">TemplateTrack</a>.</p>
 
 </div>
 </div>
@@ -1277,7 +1311,7 @@ template&lt;typename T &gt; </div>
 <p>The default implementation returns a "very big" rectangle.</p>
 <dl class="section note"><dt>Note</dt><dd>For non-georeferenced templates only! </dd></dl>
 
-<p>Reimplemented in <a class="el" href="classTemplateImage.html#a6c55d54fdd10fdf7c1304d176dc51267">TemplateImage</a>, <a class="el" href="classTemplateMap.html#a647c6df99eb5ce9632c0c67a34da211c">TemplateMap</a>, and <a class="el" href="classTemplateTrack.html#a1ed3bed754ef706271241cc72f202975">TemplateTrack</a>.</p>
+<p>Reimplemented in <a class="el" href="classTemplateImage.html#ac330bb0ba9c60a8bab9387bda92b4497">TemplateImage</a>, <a class="el" href="classTemplateMap.html#a647c6df99eb5ce9632c0c67a34da211c">TemplateMap</a>, and <a class="el" href="classTemplateTrack.html#a8d163651ee5d2cefb78cd876f387778e">TemplateTrack</a>.</p>
 
 </div>
 </div>
@@ -1489,7 +1523,7 @@ template&lt;typename T &gt; </div>
 <p>Returns a string which should identify the type of the template uniquely: the class name. </p>
 <p>Very simple RTTI feature. </p>
 
-<p>Implemented in <a class="el" href="classTemplateImage.html#a5774d7f7721a0e6ee54003bab2e9fb69">TemplateImage</a>, <a class="el" href="classTemplateMap.html#a00028b68786e3885c39990adc940a310">TemplateMap</a>, <a class="el" href="classTemplateTrack.html#a67dd691d730b4cb49cd4ca4b2129bc3c">TemplateTrack</a>, and <a class="el" href="classOgrTemplate.html#a1f2342dc73087b581ca5cb48cff430bf">OgrTemplate</a>.</p>
+<p>Implemented in <a class="el" href="classTemplateImage.html#a28efcbdf6e7da06f30321a86c5ba485c">TemplateImage</a>, <a class="el" href="classTemplateTrack.html#a86baccd6810b02399887da0b272da621">TemplateTrack</a>, <a class="el" href="classTemplateMap.html#a00028b68786e3885c39990adc940a310">TemplateMap</a>, and <a class="el" href="classOgrTemplate.html#a1f2342dc73087b581ca5cb48cff430bf">OgrTemplate</a>.</p>
 
 </div>
 </div>
@@ -1648,7 +1682,7 @@ template&lt;typename T &gt; </div>
 <p>Returns true if the template is raster graphics. </p>
 <p>Raster graphics cannot be printed in the foreground in vector mode. </p>
 
-<p>Implemented in <a class="el" href="classTemplateImage.html#a8a8225f1475c845eab20c32d52598c51">TemplateImage</a>, <a class="el" href="classTemplateMap.html#ab76811cbe975560da38b3c6618dfd8b5">TemplateMap</a>, and <a class="el" href="classTemplateTrack.html#acea358283e773001120fc43866ee87be">TemplateTrack</a>.</p>
+<p>Implemented in <a class="el" href="classTemplateImage.html#a717ca4992a1014c151f2fe0247248dba">TemplateImage</a>, <a class="el" href="classTemplateTrack.html#a1e58f6c343581dba25dd3585cd8a87e5">TemplateTrack</a>, and <a class="el" href="classTemplateMap.html#ab76811cbe975560da38b3c6618dfd8b5">TemplateMap</a>.</p>
 
 </div>
 </div>
@@ -1793,7 +1827,7 @@ template&lt;typename T &gt; </div>
 <p>Returns true if successful.</p>
 <p>If configuring is true, a call to <a class="el" href="classTemplate.html#a18d5a16fd0b9d06e2e1422ce97f79b16" title="Does configuration after the actual template is loaded. ">postLoadConfiguration()</a> will follow if this returns true. </p>
 
-<p>Implemented in <a class="el" href="classTemplateImage.html#a4764283edcb10644a74f836466e8d90a">TemplateImage</a>, <a class="el" href="classTemplateMap.html#a6ab034a55e425db74b9b4a78d31c88e0">TemplateMap</a>, <a class="el" href="classTemplateTrack.html#a5292739791d362ba80ce25630b802f69">TemplateTrack</a>, and <a class="el" href="classOgrTemplate.html#a71e56b043e2cb6a10300f0925c9110d2">OgrTemplate</a>.</p>
+<p>Implemented in <a class="el" href="classTemplateImage.html#a5a9a5d81480cb0a089eabadf4efc791e">TemplateImage</a>, <a class="el" href="classOgrTemplate.html#a71e56b043e2cb6a10300f0925c9110d2">OgrTemplate</a>, <a class="el" href="classTemplateTrack.html#a4c83b02f731aa4d6d6360af1d8941e32">TemplateTrack</a>, and <a class="el" href="classTemplateMap.html#a6ab034a55e425db74b9b4a78d31c88e0">TemplateMap</a>.</p>
 
 </div>
 </div>
@@ -1833,7 +1867,7 @@ template&lt;typename T &gt; </div>
 <p>The default implementation does nothing.</p>
 <p>Returns true on success. </p>
 
-<p>Reimplemented in <a class="el" href="classTemplateTrack.html#a50013185a8555bba6e11b5427cb2e9d5">TemplateTrack</a>, and <a class="el" href="classTemplateImage.html#aae3aec417d250dddeebceecdb0fceaf4">TemplateImage</a>.</p>
+<p>Reimplemented in <a class="el" href="classTemplateTrack.html#a05e5d30a76af78fb6ca7275581d65444">TemplateTrack</a>, and <a class="el" href="classTemplateImage.html#a1a8c3711fd696da1ce3b8701f261a244">TemplateImage</a>.</p>
 
 </div>
 </div>
@@ -1863,7 +1897,7 @@ template&lt;typename T &gt; </div>
 <dl class="section note"><dt>Note</dt><dd>The default implementation calls xml.skipCurrentElement(). Implementations must do the same if they do not parse it.</dd></dl>
 <p>Returns true on success. </p>
 
-<p>Reimplemented in <a class="el" href="classTemplateTrack.html#aa3dd8507036dada8bca1741621cc4da0">TemplateTrack</a>, <a class="el" href="classTemplateImage.html#a01826e71e2c714fb88c769109b144d69">TemplateImage</a>, and <a class="el" href="classOgrTemplate.html#ac8d16fbc149b13eacc589b27f2087987">OgrTemplate</a>.</p>
+<p>Reimplemented in <a class="el" href="classTemplateTrack.html#aa7ac5b0df6588f7660a42d6cd4de46b0">TemplateTrack</a>, <a class="el" href="classOgrTemplate.html#ac8d16fbc149b13eacc589b27f2087987">OgrTemplate</a>, and <a class="el" href="classTemplateImage.html#a39cf6e5781dfad2d73a59427bac09111">TemplateImage</a>.</p>
 
 </div>
 </div>
@@ -1952,7 +1986,7 @@ template&lt;typename T &gt; </div>
 <p>If the implementation returns false, loading the template is aborted.</p>
 <p>By setting out_center_in_view, the implementation can decide if the template should be centered in the active view (only if it is not georeferenced.) </p>
 
-<p>Reimplemented in <a class="el" href="classTemplateImage.html#ad5e18d1d07b0ba5a5c15b18f444e81b1">TemplateImage</a>, <a class="el" href="classTemplateMap.html#a28a3cdb1c541f1b7dde46bba0434c2f0">TemplateMap</a>, <a class="el" href="classTemplateTrack.html#a4084f96c0a56cc09e48e10669d8380fc">TemplateTrack</a>, and <a class="el" href="classOgrTemplate.html#a1434a3cb27577acae95da632614dd27f">OgrTemplate</a>.</p>
+<p>Reimplemented in <a class="el" href="classTemplateImage.html#a923061ed0c393791624cdb755651d08d">TemplateImage</a>, <a class="el" href="classOgrTemplate.html#a1434a3cb27577acae95da632614dd27f">OgrTemplate</a>, <a class="el" href="classTemplateTrack.html#a6465aae15695bfdace637a9450deef35">TemplateTrack</a>, and <a class="el" href="classTemplateMap.html#a28a3cdb1c541f1b7dde46bba0434c2f0">TemplateMap</a>.</p>
 
 </div>
 </div>
@@ -1984,6 +2018,21 @@ template&lt;typename T &gt; </div>
 <dl class="section note"><dt>Note</dt><dd>Derived classes should set is_georeferenced either here or in <a class="el" href="classTemplate.html#a18d5a16fd0b9d06e2e1422ce97f79b16" title="Does configuration after the actual template is loaded. ">postLoadConfiguration()</a>. By default templates are loaded as non-georeferenced. </dd></dl>
 
 <p>Reimplemented in <a class="el" href="classOgrTemplate.html#a6f3478f560c06432185bdc7ec3903047">OgrTemplate</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6520df49cd999b769fb978addf147bee"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Template::resetTemplatePositionOffset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -2069,7 +2118,7 @@ template&lt;typename T &gt; </div>
 <p>Saves the template itself, returns true if successful. </p>
 <p>This is called when saving the map if the template's <a class="el" href="classTemplate.html#a33b9cafcd2ba73af393f06ee468b5e1f">hasUnsavedChanges()</a> is true. </p>
 
-<p>Reimplemented in <a class="el" href="classTemplateImage.html#a492b4d3f59382f04a408ac96c6977202">TemplateImage</a>, and <a class="el" href="classTemplateTrack.html#aaf3c0930da2241e8542a3a6e8006efba">TemplateTrack</a>.</p>
+<p>Reimplemented in <a class="el" href="classTemplateImage.html#aa23de0b4ce943e66f2905e40e3551b5e">TemplateImage</a>, and <a class="el" href="classTemplateTrack.html#add6b3a552ecc706e7776d9d5293d27de">TemplateTrack</a>.</p>
 
 </div>
 </div>
@@ -2098,7 +2147,7 @@ template&lt;typename T &gt; </div>
 <p>Hook for saving parameters needed by the actual template type. </p>
 <p>The default implementation does nothing. </p>
 
-<p>Reimplemented in <a class="el" href="classTemplateTrack.html#a97039cd6658300425cd03dd0a53d061d">TemplateTrack</a>, <a class="el" href="classTemplateImage.html#a2c08826fb179e56dae6e0bf0ad621dcf">TemplateImage</a>, and <a class="el" href="classOgrTemplate.html#a07fabd3645075d7c1c96defaff8a06a0">OgrTemplate</a>.</p>
+<p>Reimplemented in <a class="el" href="classTemplateTrack.html#a20a436b2663296bdef633624d749162e">TemplateTrack</a>, <a class="el" href="classOgrTemplate.html#a07fabd3645075d7c1c96defaff8a06a0">OgrTemplate</a>, and <a class="el" href="classTemplateImage.html#af5c2c0cf522bcab2b7a6e948be9c6309">TemplateImage</a>.</p>
 
 </div>
 </div>
@@ -2307,6 +2356,22 @@ template&lt;typename T &gt; </div>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classMapCoord.html">MapCoord</a>&#160;</td>
           <td class="paramname"><em>coord</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a67f630d49df9c03e704a822d2f88fce1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Template::setTemplatePositionOffset </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMapCoord.html">MapCoord</a>&#160;</td>
+          <td class="paramname"><em>offset</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -2621,6 +2686,21 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="ad5ed2fd65cc2eada061ae76e3726f2bb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMapCoord.html">MapCoord</a> Template::templatePositionOffset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a6173ebf6e45c92790f7a2b1f688f0d89"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2719,13 +2799,44 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>Tries to find and load the template file non-interactively. </p>
+<p>Returns true if the template was loaded successful.</p>
+<p>If out_loaded_from_map_dir is given, it is set to true if the template file is found using the template filename in the map's directory.</p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classTemplate.html#a83404b72c69309aea5c9b0c440f766d1" title="Tries to find the template file non-interactively. ">tryToFindTemplateFile</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a83404b72c69309aea5c9b0c440f766d1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> Template::tryToFindTemplateFile </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a>&#160;</td>
+          <td class="paramname"><em>map_directory</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> *&#160;</td>
+          <td class="paramname"><em>out_found_from_map_dir</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Tries to find the template file non-interactively. </p>
 <p>This function searches for the template in the following locations:</p><ul>
 <li>saved relative position to map file, if available and map_directory is not empty</li>
 <li>absolute position of template file</li>
 <li>template filename in map_directory, if map_directory not empty</li>
 </ul>
 <p>Returns true if successful.</p>
-<p>If out_loaded_from_map_dir is given, it is set to true if the template file is successfully loaded using the template filename in the map's directory (3rd alternative). </p>
+<p>If out_found_from_map_dir is given, it is set to true if the template file is found using the template filename in the map's directory (3rd alternative). </p>
 
 </div>
 </div>
@@ -2770,7 +2881,7 @@ template&lt;typename T &gt; </div>
 
 <p>Hook for unloading the template file. </p>
 
-<p>Implemented in <a class="el" href="classTemplateImage.html#aee765300ee36275b3894e2080521ca24">TemplateImage</a>, <a class="el" href="classTemplateMap.html#ad8174623de4a66c8781abc1582c20b2c">TemplateMap</a>, and <a class="el" href="classTemplateTrack.html#aacdafed327e2bb05c2c228562153e251">TemplateTrack</a>.</p>
+<p>Implemented in <a class="el" href="classTemplateImage.html#a4aa80a667fece1b4faf7f092e3dc796a">TemplateImage</a>, <a class="el" href="classTemplateTrack.html#a7c26e65cbd6efc1bb67faf6e85ec39b8">TemplateTrack</a>, and <a class="el" href="classTemplateMap.html#ad8174623de4a66c8781abc1582c20b2c">TemplateMap</a>.</p>
 
 </div>
 </div>
@@ -2800,28 +2911,6 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="aca9401879a1452d703452d4b293df5f8"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpointf.html">QPointF</a> Template::accounted_offset</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Bounds correction offset for map templates. Must be masked out when saving. </p>
-
-</div>
-</div>
 <a class="anchor" id="ae18aee5e63816d208a58f0f7017b5a9e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -3215,8 +3304,8 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/templates/<a class="el" href="template_8h.html">template.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/523acb5/src/templates/template.h"><tt>523acb5</tt></a> on 27 Jan 2017)</li>
-<li>src/templates/<a class="el" href="template_8cpp.html">template.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/10e9a58/src/templates/template.cpp"><tt>10e9a58</tt></a> on 1 Mar 2017)</li>
+<li>src/templates/<a class="el" href="template_8h.html">template.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/84de694/src/templates/template.h"><tt>84de694</tt></a> on 22 Oct 2017)</li>
+<li>src/templates/<a class="el" href="template_8cpp.html">template.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/6b10ba2/src/templates/template.cpp"><tt>6b10ba2</tt></a> on 22 Oct 2017)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

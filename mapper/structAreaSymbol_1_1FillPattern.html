@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -133,45 +133,88 @@ Public Types</h2></td></tr>
  }<tr class="memdesc:ac41affee827dab17aa19a924d76b9c57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Types of fill patterns.  <a href="structAreaSymbol_1_1FillPattern.html#ac41affee827dab17aa19a924d76b9c57">More...</a><br /></td></tr>
 </td></tr>
 <tr class="separator:ac41affee827dab17aa19a924d76b9c57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad63cb1161a8dc15c844884f57da37716"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAreaSymbol_1_1FillPattern.html#ad63cb1161a8dc15c844884f57da37716">Option</a> { <br />
+&#160;&#160;<a class="el" href="structAreaSymbol_1_1FillPattern.html#ad63cb1161a8dc15c844884f57da37716adcce068095eea22f30a70bdad19cea41">Default</a> = 0x00, 
+<a class="el" href="structAreaSymbol_1_1FillPattern.html#ad63cb1161a8dc15c844884f57da37716a6f34d73204b9f5e9a93d0841d713823d">NoClippingIfCompletelyInside</a> = 0x01, 
+<a class="el" href="structAreaSymbol_1_1FillPattern.html#ad63cb1161a8dc15c844884f57da37716a979426c63bec1e08ca83bb60435070cd">NoClippingIfCenterInside</a> = 0x02, 
+<a class="el" href="structAreaSymbol_1_1FillPattern.html#ad63cb1161a8dc15c844884f57da37716a060cd96a5ea1f7e5215075b0bcd1e271">NoClippingIfPartiallyInside</a> = 0x03, 
+<br />
+&#160;&#160;<a class="el" href="structAreaSymbol_1_1FillPattern.html#ad63cb1161a8dc15c844884f57da37716a68028b43ac80cea380ac6a3b4ab4eca8">AlternativeToClipping</a> = 0x03, 
+<a class="el" href="structAreaSymbol_1_1FillPattern.html#ad63cb1161a8dc15c844884f57da37716acfb89f283a31d7966dde2bf55fafac8f">Rotatable</a> = 0x10
+<br />
+ }<tr class="memdesc:ad63cb1161a8dc15c844884f57da37716"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flags for pattern properties.  <a href="structAreaSymbol_1_1FillPattern.html#ad63cb1161a8dc15c844884f57da37716">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:ad63cb1161a8dc15c844884f57da37716"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa3dd730c30a1db088e73f66f349ea334"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAreaSymbol_1_1FillPattern.html#aa3dd730c30a1db088e73f66f349ea334">FillPattern</a> ()</td></tr>
-<tr class="memdesc:aa3dd730c30a1db088e73f66f349ea334"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a default fill pattern.  <a href="#aa3dd730c30a1db088e73f66f349ea334">More...</a><br /></td></tr>
-<tr class="separator:aa3dd730c30a1db088e73f66f349ea334"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30256c8fbd35a31efe57913cee298a3d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAreaSymbol_1_1FillPattern.html#a30256c8fbd35a31efe57913cee298a3d">FillPattern</a> () noexcept</td></tr>
+<tr class="memdesc:a30256c8fbd35a31efe57913cee298a3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a default fill pattern.  <a href="#a30256c8fbd35a31efe57913cee298a3d">More...</a><br /></td></tr>
+<tr class="separator:a30256c8fbd35a31efe57913cee298a3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7952132b81bde02352472f783332c84e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAreaSymbol_1_1FillPattern.html#a7952132b81bde02352472f783332c84e">load</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qiodevice.html">QIODevice</a> *file, int version, <a class="el" href="classMap.html">Map</a> *map)</td></tr>
 <tr class="memdesc:a7952132b81bde02352472f783332c84e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the pattern in the old "native" format.  <a href="#a7952132b81bde02352472f783332c84e">More...</a><br /></td></tr>
 <tr class="separator:a7952132b81bde02352472f783332c84e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a552a25bfebd09c2271969859f4077e4f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAreaSymbol_1_1FillPattern.html#a552a25bfebd09c2271969859f4077e4f">save</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qxmlstreamwriter.html">QXmlStreamWriter</a> &amp;file, const <a class="el" href="classMap.html">Map</a> &amp;map) const </td></tr>
 <tr class="memdesc:a552a25bfebd09c2271969859f4077e4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the pattern in xml format.  <a href="#a552a25bfebd09c2271969859f4077e4f">More...</a><br /></td></tr>
 <tr class="separator:a552a25bfebd09c2271969859f4077e4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2de5ca2b1933a908e5bcccc5029f563b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAreaSymbol_1_1FillPattern.html#a2de5ca2b1933a908e5bcccc5029f563b">load</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qxmlstreamreader.html">QXmlStreamReader</a> &amp;xml, const <a class="el" href="classMap.html">Map</a> &amp;map, <a class="el" href="map__part_8h.html#a399a8a7116cffc8d49caccfc501704f2">SymbolDictionary</a> &amp;symbol_dict)</td></tr>
+<tr class="memitem:a2de5ca2b1933a908e5bcccc5029f563b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAreaSymbol_1_1FillPattern.html#a2de5ca2b1933a908e5bcccc5029f563b">load</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qxmlstreamreader.html">QXmlStreamReader</a> &amp;xml, const <a class="el" href="classMap.html">Map</a> &amp;map, <a class="el" href="map__part_8h.html#af7d420ad52539d37facbc179de888f97">SymbolDictionary</a> &amp;symbol_dict)</td></tr>
 <tr class="memdesc:a2de5ca2b1933a908e5bcccc5029f563b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the pattern in xml format.  <a href="#a2de5ca2b1933a908e5bcccc5029f563b">More...</a><br /></td></tr>
 <tr class="separator:a2de5ca2b1933a908e5bcccc5029f563b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acea968c0070b5ce2689170817f5b750a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAreaSymbol_1_1FillPattern.html#acea968c0070b5ce2689170817f5b750a">equals</a> (const <a class="el" href="structAreaSymbol_1_1FillPattern.html">FillPattern</a> &amp;other, Qt::CaseSensitivity case_sensitivity) const </td></tr>
 <tr class="memdesc:acea968c0070b5ce2689170817f5b750a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the pattern settings are equal to the other.  <a href="#acea968c0070b5ce2689170817f5b750a">More...</a><br /></td></tr>
 <tr class="separator:acea968c0070b5ce2689170817f5b750a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09c0e4acd7a925305567e0d957684d31"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAreaSymbol_1_1FillPattern.html#a09c0e4acd7a925305567e0d957684d31">createRenderables</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> extent, float delta_rotation, const <a class="el" href="classMapCoord.html">MapCoord</a> &amp;pattern_origin, <a class="el" href="classObjectRenderables.html">ObjectRenderables</a> &amp;output) const </td></tr>
-<tr class="memdesc:a09c0e4acd7a925305567e0d957684d31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates renderables for this pattern in the area given by extent.  <a href="#a09c0e4acd7a925305567e0d957684d31">More...</a><br /></td></tr>
-<tr class="separator:a09c0e4acd7a925305567e0d957684d31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5504eb70c47a3cf3784972edb3348f3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAreaSymbol_1_1FillPattern.html#a5504eb70c47a3cf3784972edb3348f3b">createLine</a> (<a class="el" href="classMapCoordF.html">MapCoordF</a> first, <a class="el" href="classMapCoordF.html">MapCoordF</a> second, float delta_offset, <a class="el" href="classLineSymbol.html">LineSymbol</a> *line, float rotation, <a class="el" href="classObjectRenderables.html">ObjectRenderables</a> &amp;output) const </td></tr>
-<tr class="memdesc:a5504eb70c47a3cf3784972edb3348f3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates one line of renderables, called by <a class="el" href="structAreaSymbol_1_1FillPattern.html#a09c0e4acd7a925305567e0d957684d31" title="Creates renderables for this pattern in the area given by extent. ">createRenderables()</a>.  <a href="#a5504eb70c47a3cf3784972edb3348f3b">More...</a><br /></td></tr>
-<tr class="separator:a5504eb70c47a3cf3784972edb3348f3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23590bd49ea3882371c4ca146ba56c52"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAreaSymbol_1_1FillPattern.html#a23590bd49ea3882371c4ca146ba56c52">rotatable</a> () const </td></tr>
+<tr class="memdesc:a23590bd49ea3882371c4ca146ba56c52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the pattern is rotatable per object.  <a href="#a23590bd49ea3882371c4ca146ba56c52">More...</a><br /></td></tr>
+<tr class="separator:a23590bd49ea3882371c4ca146ba56c52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91c456a97b75654cb347d4d308d3577f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAreaSymbol_1_1FillPattern.html#a91c456a97b75654cb347d4d308d3577f">setRotatable</a> (<a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> value)</td></tr>
+<tr class="memdesc:a91c456a97b75654cb347d4d308d3577f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Controls whether the pattern is rotatable per object.  <a href="#a91c456a97b75654cb347d4d308d3577f">More...</a><br /></td></tr>
+<tr class="separator:a91c456a97b75654cb347d4d308d3577f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab30a8ed11b7848f7b2733de01fbcd358"><td class="memItemLeft" align="right" valign="top">Options&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAreaSymbol_1_1FillPattern.html#ab30a8ed11b7848f7b2733de01fbcd358">clipping</a> () const </td></tr>
+<tr class="memdesc:ab30a8ed11b7848f7b2733de01fbcd358"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the flags which control drawing at boundary.  <a href="#ab30a8ed11b7848f7b2733de01fbcd358">More...</a><br /></td></tr>
+<tr class="separator:ab30a8ed11b7848f7b2733de01fbcd358"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecb20ac5d54e139ea2ef7ba9f3037810"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAreaSymbol_1_1FillPattern.html#aecb20ac5d54e139ea2ef7ba9f3037810">setClipping</a> (Options <a class="el" href="structAreaSymbol_1_1FillPattern.html#ab30a8ed11b7848f7b2733de01fbcd358">clipping</a>)</td></tr>
+<tr class="memdesc:aecb20ac5d54e139ea2ef7ba9f3037810"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the flags which control drawing at boundary.  <a href="#aecb20ac5d54e139ea2ef7ba9f3037810">More...</a><br /></td></tr>
+<tr class="separator:aecb20ac5d54e139ea2ef7ba9f3037810"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8749b915965b8b3a8688b26156a870f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAreaSymbol_1_1FillPattern.html#a8749b915965b8b3a8688b26156a870f4">colorDeleted</a> (const <a class="el" href="classMapColor.html">MapColor</a> *<a class="el" href="classAreaSymbol.html#adf089556e6b665677ab8213da4a56c9c">color</a>)</td></tr>
+<tr class="memdesc:a8749b915965b8b3a8688b26156a870f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the pattern's references to the deleted color.  <a href="#a8749b915965b8b3a8688b26156a870f4">More...</a><br /></td></tr>
+<tr class="separator:a8749b915965b8b3a8688b26156a870f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaae5147e20e1a2f7af7e40c8bd68f759"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAreaSymbol_1_1FillPattern.html#aaae5147e20e1a2f7af7e40c8bd68f759">containsColor</a> (const <a class="el" href="classMapColor.html">MapColor</a> *<a class="el" href="classAreaSymbol.html#adf089556e6b665677ab8213da4a56c9c">color</a>) const </td></tr>
+<tr class="memdesc:aaae5147e20e1a2f7af7e40c8bd68f759"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests if the pattern contains the given color.  <a href="#aaae5147e20e1a2f7af7e40c8bd68f759">More...</a><br /></td></tr>
+<tr class="separator:aaae5147e20e1a2f7af7e40c8bd68f759"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a8ac7dbf72f6f04cdc56492df322db2"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classMapColor.html">MapColor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAreaSymbol_1_1FillPattern.html#a9a8ac7dbf72f6f04cdc56492df322db2">guessDominantColor</a> () const </td></tr>
+<tr class="memdesc:a9a8ac7dbf72f6f04cdc56492df322db2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the patterns primary color.  <a href="#a9a8ac7dbf72f6f04cdc56492df322db2">More...</a><br /></td></tr>
+<tr class="separator:a9a8ac7dbf72f6f04cdc56492df322db2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14cff5c1bce7e3ca3e3b687b4af8ad51"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAreaSymbol_1_1FillPattern.html#a14cff5c1bce7e3ca3e3b687b4af8ad51">createRenderables</a> (const <a class="el" href="classAreaRenderable.html">AreaRenderable</a> &amp;outline, float delta_rotation, const <a class="el" href="classMapCoord.html">MapCoord</a> &amp;pattern_origin, <a class="el" href="classObjectRenderables.html">ObjectRenderables</a> &amp;output) const </td></tr>
+<tr class="memdesc:a14cff5c1bce7e3ca3e3b687b4af8ad51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates renderables for this pattern to fill the area surrounded by the outline.  <a href="#a14cff5c1bce7e3ca3e3b687b4af8ad51">More...</a><br /></td></tr>
+<tr class="separator:a14cff5c1bce7e3ca3e3b687b4af8ad51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c6b85eb78f934cb6b9f9df8608db72e"><td class="memTemplParams" colspan="2">template&lt;int type&gt; </td></tr>
+<tr class="memitem:a9c6b85eb78f934cb6b9f9df8608db72e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structAreaSymbol_1_1FillPattern.html#a9c6b85eb78f934cb6b9f9df8608db72e">createRenderables</a> (const <a class="el" href="classAreaRenderable.html">AreaRenderable</a> &amp;outline, float delta_rotation, const <a class="el" href="classMapCoord.html">MapCoord</a> &amp;pattern_origin, const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> &amp;point_extent, <a class="el" href="classLineSymbol.html">LineSymbol</a> *line, qreal rotation, <a class="el" href="classObjectRenderables.html">ObjectRenderables</a> &amp;output) const </td></tr>
+<tr class="memdesc:a9c6b85eb78f934cb6b9f9df8608db72e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Does the heavy-lifting in loops over lines.  <a href="#a9c6b85eb78f934cb6b9f9df8608db72e">More...</a><br /></td></tr>
+<tr class="separator:a9c6b85eb78f934cb6b9f9df8608db72e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a653737754f240f18f28c77b2b0ef07e8"><td class="memTemplParams" colspan="2">template&lt;int type&gt; </td></tr>
+<tr class="memitem:a653737754f240f18f28c77b2b0ef07e8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structAreaSymbol_1_1FillPattern.html#a653737754f240f18f28c77b2b0ef07e8">createLine</a> (<a class="el" href="classMapCoordF.html">MapCoordF</a> first, <a class="el" href="classMapCoordF.html">MapCoordF</a> second, qreal delta_offset, <a class="el" href="classLineSymbol.html">LineSymbol</a> *line, float rotation, const <a class="el" href="classAreaRenderable.html">AreaRenderable</a> &amp;outline, <a class="el" href="classObjectRenderables.html">ObjectRenderables</a> &amp;output) const </td></tr>
+<tr class="memdesc:a653737754f240f18f28c77b2b0ef07e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates one line of renderables, called by <a class="el" href="structAreaSymbol_1_1FillPattern.html#a14cff5c1bce7e3ca3e3b687b4af8ad51" title="Creates renderables for this pattern to fill the area surrounded by the outline. ">createRenderables()</a>.  <a href="#a653737754f240f18f28c77b2b0ef07e8">More...</a><br /></td></tr>
+<tr class="separator:a653737754f240f18f28c77b2b0ef07e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22d0e58820697cc48e0b641c0d2ec118"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAreaSymbol_1_1FillPattern.html#a22d0e58820697cc48e0b641c0d2ec118">createPointPatternLine</a> (<a class="el" href="classMapCoordF.html">MapCoordF</a> first, <a class="el" href="classMapCoordF.html">MapCoordF</a> second, qreal delta_offset, float rotation, const <a class="el" href="classAreaRenderable.html">AreaRenderable</a> &amp;outline, <a class="el" href="classObjectRenderables.html">ObjectRenderables</a> &amp;output) const </td></tr>
+<tr class="memdesc:a22d0e58820697cc48e0b641c0d2ec118"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a single line of renderables for a PointPattern.  <a href="#a22d0e58820697cc48e0b641c0d2ec118">More...</a><br /></td></tr>
+<tr class="separator:a22d0e58820697cc48e0b641c0d2ec118"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e33f693e8d6f30f142813c4386dce67"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAreaSymbol_1_1FillPattern.html#a7e33f693e8d6f30f142813c4386dce67">scale</a> (double factor)</td></tr>
 <tr class="memdesc:a7e33f693e8d6f30f142813c4386dce67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spatially scales the pattern settings by the given factor.  <a href="#a7e33f693e8d6f30f142813c4386dce67">More...</a><br /></td></tr>
 <tr class="separator:a7e33f693e8d6f30f142813c4386dce67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85b0c2f225a619804d1e8b770eefe4e0"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAreaSymbol_1_1FillPattern.html#a85b0c2f225a619804d1e8b770eefe4e0">dimensionForIcon</a> () const </td></tr>
+<tr class="separator:a85b0c2f225a619804d1e8b770eefe4e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a1ae75bf74bf2284a0d1cd4aa044e7f92"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structAreaSymbol_1_1FillPattern.html#ac41affee827dab17aa19a924d76b9c57">Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAreaSymbol_1_1FillPattern.html#a1ae75bf74bf2284a0d1cd4aa044e7f92">type</a></td></tr>
 <tr class="memdesc:a1ae75bf74bf2284a0d1cd4aa044e7f92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of the pattern.  <a href="#a1ae75bf74bf2284a0d1cd4aa044e7f92">More...</a><br /></td></tr>
 <tr class="separator:a1ae75bf74bf2284a0d1cd4aa044e7f92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1984ad6703daf26c06329af70cbb7abf"><td class="memItemLeft" align="right" valign="top">Options&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAreaSymbol_1_1FillPattern.html#a1984ad6703daf26c06329af70cbb7abf">flags</a></td></tr>
+<tr class="memdesc:a1984ad6703daf26c06329af70cbb7abf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Basic properties of the pattern.  <a href="#a1984ad6703daf26c06329af70cbb7abf">More...</a><br /></td></tr>
+<tr class="separator:a1984ad6703daf26c06329af70cbb7abf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73ff67be9ad82b9ce5c39a052987040d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAreaSymbol_1_1FillPattern.html#a73ff67be9ad82b9ce5c39a052987040d">angle</a></td></tr>
 <tr class="memdesc:a73ff67be9ad82b9ce5c39a052987040d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotation angle in radians.  <a href="#a73ff67be9ad82b9ce5c39a052987040d">More...</a><br /></td></tr>
 <tr class="separator:a73ff67be9ad82b9ce5c39a052987040d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4df2af65ae0e0b3520c29619b8d6d7d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAreaSymbol_1_1FillPattern.html#a4df2af65ae0e0b3520c29619b8d6d7d5">rotatable</a></td></tr>
-<tr class="memdesc:a4df2af65ae0e0b3520c29619b8d6d7d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if the pattern is rotatable per-object.  <a href="#a4df2af65ae0e0b3520c29619b8d6d7d5">More...</a><br /></td></tr>
-<tr class="separator:a4df2af65ae0e0b3520c29619b8d6d7d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8922cd36c965355fcdc486fbdf6945b2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAreaSymbol_1_1FillPattern.html#a8922cd36c965355fcdc486fbdf6945b2">line_spacing</a></td></tr>
 <tr class="memdesc:a8922cd36c965355fcdc486fbdf6945b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Distance between parallel lines, as usual in 0.001mm.  <a href="#a8922cd36c965355fcdc486fbdf6945b2">More...</a><br /></td></tr>
 <tr class="separator:a8922cd36c965355fcdc486fbdf6945b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -200,6 +243,36 @@ Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Describes a fill pattern. </p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a class="anchor" id="ad63cb1161a8dc15c844884f57da37716"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="structAreaSymbol_1_1FillPattern.html#ad63cb1161a8dc15c844884f57da37716">AreaSymbol::FillPattern::Option</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Flags for pattern properties. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="ad63cb1161a8dc15c844884f57da37716adcce068095eea22f30a70bdad19cea41"></a>Default&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ad63cb1161a8dc15c844884f57da37716a6f34d73204b9f5e9a93d0841d713823d"></a>NoClippingIfCompletelyInside&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ad63cb1161a8dc15c844884f57da37716a979426c63bec1e08ca83bb60435070cd"></a>NoClippingIfCenterInside&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ad63cb1161a8dc15c844884f57da37716a060cd96a5ea1f7e5215075b0bcd1e271"></a>NoClippingIfPartiallyInside&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ad63cb1161a8dc15c844884f57da37716a68028b43ac80cea380ac6a3b4ab4eca8"></a>AlternativeToClipping&#160;</td><td class="fielddoc">
+<p>Bitmask for NoClipping* options. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ad63cb1161a8dc15c844884f57da37716acfb89f283a31d7966dde2bf55fafac8f"></a>Rotatable&#160;</td><td class="fielddoc">
+<p>Pattern is rotatable per-object. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 <a class="anchor" id="ac41affee827dab17aa19a924d76b9c57"></a>
 <div class="memitem">
 <div class="memproto">
@@ -223,9 +296,12 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="aa3dd730c30a1db088e73f66f349ea334"></a>
+<a class="anchor" id="a30256c8fbd35a31efe57913cee298a3d"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">AreaSymbol::FillPattern::FillPattern </td>
@@ -234,6 +310,11 @@ Public Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Creates a default fill pattern. </p>
@@ -241,9 +322,72 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a5504eb70c47a3cf3784972edb3348f3b"></a>
+<a class="anchor" id="ab30a8ed11b7848f7b2733de01fbcd358"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">AreaSymbol::FillPattern::Options AreaSymbol::FillPattern::clipping </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the flags which control drawing at boundary. </p>
+
+</div>
+</div>
+<a class="anchor" id="a8749b915965b8b3a8688b26156a870f4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AreaSymbol::FillPattern::colorDeleted </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMapColor.html">MapColor</a> *&#160;</td>
+          <td class="paramname"><em>color</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Removes the pattern's references to the deleted color. </p>
+
+</div>
+</div>
+<a class="anchor" id="aaae5147e20e1a2f7af7e40c8bd68f759"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> AreaSymbol::FillPattern::containsColor </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMapColor.html">MapColor</a> *&#160;</td>
+          <td class="paramname"><em>color</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Tests if the pattern contains the given color. </p>
+
+</div>
+</div>
+<a class="anchor" id="a653737754f240f18f28c77b2b0ef07e8"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int type&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void AreaSymbol::FillPattern::createLine </td>
@@ -260,7 +404,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float&#160;</td>
+          <td class="paramtype">qreal&#160;</td>
           <td class="paramname"><em>delta_offset</em>, </td>
         </tr>
         <tr>
@@ -278,6 +422,12 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="classAreaRenderable.html">AreaRenderable</a> &amp;&#160;</td>
+          <td class="paramname"><em>outline</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype"><a class="el" href="classObjectRenderables.html">ObjectRenderables</a> &amp;&#160;</td>
           <td class="paramname"><em>output</em>&#160;</td>
         </tr>
@@ -289,19 +439,71 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Creates one line of renderables, called by <a class="el" href="structAreaSymbol_1_1FillPattern.html#a09c0e4acd7a925305567e0d957684d31" title="Creates renderables for this pattern in the area given by extent. ">createRenderables()</a>. </p>
+<p>Creates one line of renderables, called by <a class="el" href="structAreaSymbol_1_1FillPattern.html#a14cff5c1bce7e3ca3e3b687b4af8ad51" title="Creates renderables for this pattern to fill the area surrounded by the outline. ">createRenderables()</a>. </p>
 
 </div>
 </div>
-<a class="anchor" id="a09c0e4acd7a925305567e0d957684d31"></a>
+<a class="anchor" id="a22d0e58820697cc48e0b641c0d2ec118"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AreaSymbol::FillPattern::createPointPatternLine </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMapCoordF.html">MapCoordF</a>&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMapCoordF.html">MapCoordF</a>&#160;</td>
+          <td class="paramname"><em>second</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">qreal&#160;</td>
+          <td class="paramname"><em>delta_offset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>rotation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classAreaRenderable.html">AreaRenderable</a> &amp;&#160;</td>
+          <td class="paramname"><em>outline</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classObjectRenderables.html">ObjectRenderables</a> &amp;&#160;</td>
+          <td class="paramname"><em>output</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates a single line of renderables for a PointPattern. </p>
+
+</div>
+</div>
+<a class="anchor" id="a14cff5c1bce7e3ca3e3b687b4af8ad51"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void AreaSymbol::FillPattern::createRenderables </td>
           <td>(</td>
-          <td class="paramtype"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a>&#160;</td>
-          <td class="paramname"><em>extent</em>, </td>
+          <td class="paramtype">const <a class="el" href="classAreaRenderable.html">AreaRenderable</a> &amp;&#160;</td>
+          <td class="paramname"><em>outline</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -329,16 +531,91 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Creates renderables for this pattern in the area given by extent. </p>
+<p>Creates renderables for this pattern to fill the area surrounded by the outline. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">extent</td><td>Rectangular area to create renderables for. </td></tr>
+    <tr><td class="paramname">outline</td><td>A renderable giving the extent and outline. </td></tr>
     <tr><td class="paramname">delta_rotation</td><td>Rotation offest which is added to the pattern angle. </td></tr>
     <tr><td class="paramname">pattern_origin</td><td>Origin point for line / point placement. </td></tr>
     <tr><td class="paramname">output</td><td>Created renderables will be inserted here. </td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a class="anchor" id="a9c6b85eb78f934cb6b9f9df8608db72e"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void AreaSymbol::FillPattern::createRenderables </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classAreaRenderable.html">AreaRenderable</a> &amp;&#160;</td>
+          <td class="paramname"><em>outline</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>delta_rotation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classMapCoord.html">MapCoord</a> &amp;&#160;</td>
+          <td class="paramname"><em>pattern_origin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> &amp;&#160;</td>
+          <td class="paramname"><em>point_extent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classLineSymbol.html">LineSymbol</a> *&#160;</td>
+          <td class="paramname"><em>line</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">qreal&#160;</td>
+          <td class="paramname"><em>rotation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classObjectRenderables.html">ObjectRenderables</a> &amp;&#160;</td>
+          <td class="paramname"><em>output</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Does the heavy-lifting in loops over lines. </p>
+
+</div>
+</div>
+<a class="anchor" id="a85b0c2f225a619804d1e8b770eefe4e0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal AreaSymbol::FillPattern::dimensionForIcon </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -368,6 +645,23 @@ Public Attributes</h2></td></tr>
 
 <p>Checks if the pattern settings are equal to the other. </p>
 <p>TODO: should the transient name really be compared?! </p>
+
+</div>
+</div>
+<a class="anchor" id="a9a8ac7dbf72f6f04cdc56492df322db2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classMapColor.html">MapColor</a> * AreaSymbol::FillPattern::guessDominantColor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the patterns primary color. </p>
 
 </div>
 </div>
@@ -424,7 +718,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="map__part_8h.html#a399a8a7116cffc8d49caccfc501704f2">SymbolDictionary</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="map__part_8h.html#af7d420ad52539d37facbc179de888f97">SymbolDictionary</a> &amp;&#160;</td>
           <td class="paramname"><em>symbol_dict</em>&#160;</td>
         </tr>
         <tr>
@@ -436,6 +730,31 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Loads the pattern in xml format. </p>
+
+</div>
+</div>
+<a class="anchor" id="a23590bd49ea3882371c4ca146ba56c52"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> AreaSymbol::FillPattern::rotatable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if the pattern is rotatable per object. </p>
 
 </div>
 </div>
@@ -485,6 +804,42 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="aecb20ac5d54e139ea2ef7ba9f3037810"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AreaSymbol::FillPattern::setClipping </td>
+          <td>(</td>
+          <td class="paramtype">Options&#160;</td>
+          <td class="paramname"><em>clipping</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the flags which control drawing at boundary. </p>
+
+</div>
+</div>
+<a class="anchor" id="a91c456a97b75654cb347d4d308d3577f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AreaSymbol::FillPattern::setRotatable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Controls whether the pattern is rotatable per object. </p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a class="anchor" id="a73ff67be9ad82b9ce5c39a052987040d"></a>
 <div class="memitem">
@@ -497,6 +852,21 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Rotation angle in radians. </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000022">Todo:</a></b></dt><dd>Switch to qreal when legacy native file format is dropped. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a1984ad6703daf26c06329af70cbb7abf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Options AreaSymbol::FillPattern::flags</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Basic properties of the pattern. </p>
 
 </div>
 </div>
@@ -612,20 +982,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4df2af65ae0e0b3520c29619b8d6d7d5"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> AreaSymbol::FillPattern::rotatable</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>True if the pattern is rotatable per-object. </p>
-
-</div>
-</div>
 <a class="anchor" id="a1ae75bf74bf2284a0d1cd4aa044e7f92"></a>
 <div class="memitem">
 <div class="memproto">
@@ -641,8 +997,8 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
-<li>src/core/symbols/<a class="el" href="area__symbol_8h.html">area_symbol.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/58b8f36/src/core/symbols/area_symbol.h"><tt>58b8f36</tt></a> on 11 Mar 2017)</li>
-<li>src/core/symbols/<a class="el" href="area__symbol_8cpp.html">area_symbol.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/58b8f36/src/core/symbols/area_symbol.cpp"><tt>58b8f36</tt></a> on 11 Mar 2017)</li>
+<li>src/core/symbols/<a class="el" href="area__symbol_8h.html">area_symbol.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/3ba38ee/src/core/symbols/area_symbol.h"><tt>3ba38ee</tt></a> on 7 Nov 2017)</li>
+<li>src/core/symbols/<a class="el" href="area__symbol_8cpp.html">area_symbol.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/3ba38ee/src/core/symbols/area_symbol.cpp"><tt>3ba38ee</tt></a> on 7 Nov 2017)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

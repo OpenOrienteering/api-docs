@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -93,48 +93,52 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">draw_line_and_area_tool.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/9ee00e4/src/tools/draw_line_and_area_tool.cpp"><tt>9ee00e4</tt></a> on 8 Jan 2017)</h3><div class="textblock"><code>#include &quot;<a class="el" href="draw__line__and__area__tool_8h.html">draw_line_and_area_tool.h</a>&quot;</code><br />
+<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/340981e/src/tools/draw_line_and_area_tool.cpp"><tt>340981e</tt></a> on 5 Nov 2017)</h3><div class="textblock"><code>#include &quot;<a class="el" href="draw__line__and__area__tool_8h.html">draw_line_and_area_tool.h</a>&quot;</code><br />
+<code>#include &lt;algorithm&gt;</code><br />
+<code>#include &lt;cstddef&gt;</code><br />
+<code>#include &lt;iterator&gt;</code><br />
+<code>#include &lt;QtGlobal&gt;</code><br />
 <code>#include &lt;QPainter&gt;</code><br />
+<code>#include &lt;QPoint&gt;</code><br />
 <code>#include &quot;<a class="el" href="map_8h.html">core/map.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="map__editor_8h.html">gui/map/map_editor.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="object__undo_8h.html">undo/object_undo.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="map__widget_8h.html">gui/map/map_widget.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="map__coord_8h.html">core/map_coord.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="map__part_8h.html">core/map_part.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="map__view_8h.html">core/map_view.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="object_8h.html">core/objects/object.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="renderable_8h.html">core/renderables/renderable.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="symbol_8h.html">core/symbols/symbol.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="combined__symbol_8h.html">core/symbols/combined_symbol.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="line__symbol_8h.html">core/symbols/line_symbol.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="point__symbol_8h.html">core/symbols/point_symbol.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="symbol_8h.html">core/symbols/symbol.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="map__editor_8h.html">gui/map/map_editor.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="map__widget_8h.html">gui/map/map_widget.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="object__undo_8h.html">undo/object_undo.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="util_8h.html">util/util.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for draw_line_and_area_tool.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="draw__line__and__area__tool_8cpp__incl.png" border="0" usemap="#src_2tools_2draw__line__and__area__tool_8cpp" alt=""/></div>
 <map name="src_2tools_2draw__line__and__area__tool_8cpp" id="src_2tools_2draw__line__and__area__tool_8cpp">
-<area shape="rect" id="node2" href="draw__line__and__area__tool_8h.html" title="draw_line_and_area\l_tool.h" alt="" coords="600,95,737,136"/>
-<area shape="rect" id="node9" href="map_8h.html" title="core/map.h" alt="" coords="612,259,699,285"/>
-<area shape="rect" id="node20" href="map__editor_8h.html" title="gui/map/map_editor.h" alt="" coords="386,184,533,211"/>
-<area shape="rect" id="node25" href="object__undo_8h.html" title="undo/object_undo.h" alt="" coords="1413,102,1548,129"/>
-<area shape="rect" id="node27" href="object_8h.html" title="core/objects/object.h" alt="" coords="1515,184,1657,211"/>
-<area shape="rect" id="node32" href="renderable_8h.html" title="core/renderables/renderable.h" alt="" coords="2192,259,2385,285"/>
-<area shape="rect" id="node36" href="symbol_8h.html" title="core/symbols/symbol.h" alt="" coords="1126,259,1283,285"/>
-<area shape="rect" id="node40" href="map__widget_8h.html" title="gui/map/map_widget.h" alt="" coords="2243,184,2396,211"/>
-<area shape="rect" id="node46" href="combined__symbol_8h.html" title="core/symbols/combined\l_symbol.h" alt="" coords="813,95,973,136"/>
-<area shape="rect" id="node47" href="line__symbol_8h.html" title="core/symbols/line_symbol.h" alt="" coords="997,102,1181,129"/>
-<area shape="rect" id="node48" href="point__symbol_8h.html" title="core/symbols/point\l_symbol.h" alt="" coords="1205,95,1337,136"/>
-<area shape="rect" id="node49" href="util_8h.html" title="util/util.h" alt="" coords="2831,184,2901,211"/>
-<area shape="rect" id="node3" href="tool_8h.html" title="tool.h" alt="" coords="641,184,696,211"/>
-<area shape="rect" id="node5" href="map__coord_8h.html" title="core/map_coord.h" alt="" coords="1533,408,1660,435"/>
-<area shape="rect" id="node16" href="global_8h.html" title="global.h" alt="" coords="337,333,403,360"/>
-<area shape="rect" id="node17" href="map__grid_8h.html" title="map_grid.h" alt="" coords="428,333,515,360"/>
-<area shape="rect" id="node18" href="file__format_8h.html" title="fileformats/file_format.h" alt="" coords="959,333,1117,360"/>
-<area shape="rect" id="node19" href="map__part_8h.html" title="map_part.h" alt="" coords="225,333,312,360"/>
-<area shape="rect" id="node23" href="main__window__controller_8h.html" title="gui/main_window_controller.h" alt="" coords="908,259,1101,285"/>
-<area shape="rect" id="node39" href="undo_8h.html" title="undo.h" alt="" coords="889,184,950,211"/>
-<area shape="rect" id="node30" href="path__coord_8h.html" title="core/path_coord.h" alt="" coords="1837,333,1964,360"/>
-<area shape="rect" id="node31" href="virtual__path_8h.html" title="core/virtual_path.h" alt="" coords="1936,259,2065,285"/>
-<area shape="rect" id="node34" href="map__color_8h.html" title="core/map_color.h" alt="" coords="2473,333,2595,360"/>
-<area shape="rect" id="node45" href="map__view_8h.html" title="core/map_view.h" alt="" coords="1739,259,1860,285"/>
+<area shape="rect" id="node2" href="draw__line__and__area__tool_8h.html" title="draw_line_and_area\l_tool.h" alt="" coords="2582,244,2719,285"/>
+<area shape="rect" id="node13" href="map__coord_8h.html" title="core/map_coord.h" alt="" coords="3417,423,3543,449"/>
+<area shape="rect" id="node22" href="map_8h.html" title="core/map.h" alt="" coords="1186,341,1273,367"/>
+<area shape="rect" id="node32" href="map__part_8h.html" title="core/map_part.h" alt="" coords="497,423,613,449"/>
+<area shape="rect" id="node34" href="map__view_8h.html" title="core/map_view.h" alt="" coords="3158,341,3279,367"/>
+<area shape="rect" id="node35" href="object_8h.html" title="core/objects/object.h" alt="" coords="2341,169,2483,196"/>
+<area shape="rect" id="node39" href="renderable_8h.html" title="core/renderables/renderable.h" alt="" coords="1603,341,1797,367"/>
+<area shape="rect" id="node42" href="symbol_8h.html" title="core/symbols/symbol.h" alt="" coords="3669,423,3827,449"/>
+<area shape="rect" id="node44" href="combined__symbol_8h.html" title="core/symbols/combined\l_symbol.h" alt="" coords="4288,333,4448,375"/>
+<area shape="rect" id="node45" href="line__symbol_8h.html" title="core/symbols/line_symbol.h" alt="" coords="3771,341,3955,367"/>
+<area shape="rect" id="node46" href="point__symbol_8h.html" title="core/symbols/point\l_symbol.h" alt="" coords="4131,333,4263,375"/>
+<area shape="rect" id="node47" href="map__editor_8h.html" title="gui/map/map_editor.h" alt="" coords="2583,341,2729,367"/>
+<area shape="rect" id="node48" href="map__widget_8h.html" title="gui/map/map_widget.h" alt="" coords="3797,251,3950,278"/>
+<area shape="rect" id="node49" href="object__undo_8h.html" title="undo/object_undo.h" alt="" coords="2175,95,2310,121"/>
+<area shape="rect" id="node50" href="util_8h.html" title="util/util.h" alt="" coords="4358,423,4429,449"/>
+<area shape="rect" id="node7" href="tool_8h.html" title="tools/tool.h" alt="" coords="3355,341,3442,367"/>
+<area shape="rect" id="node31" href="map__grid_8h.html" title="core/map_grid.h" alt="" coords="853,423,968,449"/>
+<area shape="rect" id="node37" href="path__coord_8h.html" title="core/path_coord.h" alt="" coords="3007,341,3134,367"/>
+<area shape="rect" id="node38" href="virtual__path_8h.html" title="core/virtual_path.h" alt="" coords="2289,251,2418,278"/>
+<area shape="rect" id="node41" href="map__color_8h.html" title="core/map_color.h" alt="" coords="1915,423,2037,449"/>
 </map>
 </div>
 </div></div><!-- contents -->

@@ -1,6 +1,7 @@
 var searchData=
 [
   ['magneticnorth',['MagneticNorth',['../classMapGrid.html#ab71b075d95a66dcb36020826a97c3911a5e758193558d19dd69bee46f7bdccb4c',1,'MapGrid']]],
+  ['manualassignment',['ManualAssignment',['../structSymbolRule.html#a63ce42d1f244de152de472abd64352daa5b1a358825e62d25095c4f35a7d12949',1,'SymbolRule']]],
   ['map',['Map',['../namespaceOcd.html#adc33baf6bf2e7e9fae7e5b6672b4cce1a29f41350fcad8dcff42d0f8ebb4b288c',1,'Ocd']]],
   ['map_5fcoords',['MAP_COORDS',['../classMapWidget.html#a158226eb705ef66b6817974c0f3f8718a4b4c41f72c3faee7302b56a0dda4d0f1',1,'MapWidget']]],
   ['mapdisplay_5fantialiasing',['MapDisplay_Antialiasing',['../classSettings.html#adc10a2a81016a34f8220eff0657d7f3aa6bd8330dfe4361348b4efd832544d033',1,'Settings']]],

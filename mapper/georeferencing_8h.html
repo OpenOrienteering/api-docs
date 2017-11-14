@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -97,20 +97,21 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">georeferencing.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/5351f68/src/core/georeferencing.h"><tt>5351f68</tt></a> on 8 Jan 2017)</h3><div class="textblock"><code>#include &lt;QPointF&gt;</code><br />
+<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/1c630bf/src/core/georeferencing.h"><tt>1c630bf</tt></a> on 22 Oct 2017)</h3><div class="textblock"><code>#include &lt;cmath&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;QObject&gt;</code><br />
+<code>#include &lt;QPointF&gt;</code><br />
 <code>#include &lt;QString&gt;</code><br />
 <code>#include &lt;QTransform&gt;</code><br />
-<code>#include &quot;<a class="el" href="latlon_8h.html">latlon.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="map__coord_8h.html">map_coord.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="file__format_8h.html">../fileformats/file_format.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="latlon_8h.html">core/latlon.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="map__coord_8h.html">core/map_coord.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for georeferencing.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="georeferencing_8h__incl.png" border="0" usemap="#src_2core_2georeferencing_8h" alt=""/></div>
 <map name="src_2core_2georeferencing_8h" id="src_2core_2georeferencing_8h">
-<area shape="rect" id="node5" href="latlon_8h.html" title="latlon.h" alt="" coords="8,87,72,114"/>
-<area shape="rect" id="node7" href="map__coord_8h.html" title="map_coord.h" alt="" coords="353,87,450,114"/>
-<area shape="rect" id="node12" href="file__format_8h.html" title="../fileformats/file\l_format.h" alt="" coords="559,80,675,121"/>
+<area shape="rect" id="node8" href="latlon_8h.html" title="core/latlon.h" alt="" coords="711,80,804,107"/>
+<area shape="rect" id="node10" href="map__coord_8h.html" title="core/map_coord.h" alt="" coords="295,80,422,107"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -120,41 +121,38 @@ This graph shows which files directly or indirectly include this file:</div>
 <map name="src_2core_2georeferencing_8hdep" id="src_2core_2georeferencing_8hdep">
 <area shape="rect" id="node2" href="crs__template__implementation_8cpp.html" title="src/core/crs_template\l_implementation.cpp" alt="" coords="5,80,153,121"/>
 <area shape="rect" id="node3" href="georeferencing_8cpp.html" title="src/core/georeferencing.cpp" alt="" coords="177,87,360,114"/>
-<area shape="rect" id="node4" href="latlon_8cpp.html" title="src/core/latlon.cpp" alt="" coords="384,87,513,114"/>
-<area shape="rect" id="node5" href="map_8cpp.html" title="src/core/map.cpp" alt="" coords="538,87,661,114"/>
-<area shape="rect" id="node6" href="map__grid_8cpp.html" title="src/core/map_grid.cpp" alt="" coords="685,87,836,114"/>
-<area shape="rect" id="node7" href="map__printer_8cpp.html" title="src/core/map_printer.cpp" alt="" coords="860,87,1027,114"/>
-<area shape="rect" id="node8" href="native__file__format_8cpp.html" title="src/fileformats/native\l_file_format.cpp" alt="" coords="1051,80,1195,121"/>
-<area shape="rect" id="node9" href="ocad8__file__format_8cpp.html" title="src/fileformats/ocad8\l_file_format.cpp" alt="" coords="1219,80,1363,121"/>
-<area shape="rect" id="node10" href="ocd__file__import_8cpp.html" title="src/fileformats/ocd\l_file_import.cpp" alt="" coords="1387,80,1518,121"/>
-<area shape="rect" id="node11" href="xml__file__format_8cpp.html" title="src/fileformats/xml\l_file_format.cpp" alt="" coords="1542,80,1673,121"/>
-<area shape="rect" id="node12" href="ogr__file__format_8cpp.html" title="src/gdal/ogr_file_format.cpp" alt="" coords="1697,87,1880,114"/>
-<area shape="rect" id="node13" href="ogr__template_8h.html" title="src/gdal/ogr_template.h" alt="" coords="1904,87,2063,114"/>
-<area shape="rect" id="node16" href="configure__grid__dialog_8cpp.html" title="src/gui/configure_grid\l_dialog.cpp" alt="" coords="2325,80,2471,121"/>
-<area shape="rect" id="node17" href="georeferencing__dialog_8cpp.html" title="src/gui/georeferencing\l_dialog.cpp" alt="" coords="2496,80,2647,121"/>
-<area shape="rect" id="node18" href="map__dialog__rotate_8cpp.html" title="src/gui/map/map_dialog\l_rotate.cpp" alt="" coords="2671,80,2831,121"/>
-<area shape="rect" id="node19" href="map__dialog__scale_8cpp.html" title="src/gui/map/map_dialog\l_scale.cpp" alt="" coords="2855,80,3015,121"/>
-<area shape="rect" id="node20" href="map__editor_8cpp.html" title="src/gui/map/map_editor.cpp" alt="" coords="1972,266,2155,293"/>
-<area shape="rect" id="node21" href="map__widget_8cpp.html" title="src/gui/map/map_widget.cpp" alt="" coords="3039,87,3229,114"/>
-<area shape="rect" id="node22" href="select__crs__dialog_8cpp.html" title="src/gui/select_crs\l_dialog.cpp" alt="" coords="3253,80,3378,121"/>
-<area shape="rect" id="node23" href="crs__param__widgets_8cpp.html" title="src/gui/widgets/crs\l_param_widgets.cpp" alt="" coords="3403,80,3545,121"/>
-<area shape="rect" id="node24" href="crs__selector_8cpp.html" title="src/gui/widgets/crs\l_selector.cpp" alt="" coords="3569,80,3701,121"/>
-<area shape="rect" id="node25" href="template__list__widget_8cpp.html" title="src/gui/widgets/template\l_list_widget.cpp" alt="" coords="3725,80,3889,121"/>
-<area shape="rect" id="node26" href="gps__display_8cpp.html" title="src/sensors/gps_display.cpp" alt="" coords="3913,87,4101,114"/>
-<area shape="rect" id="node27" href="gps__track_8h.html" title="src/sensors/gps_track.h" alt="" coords="2138,87,2301,114"/>
-<area shape="rect" id="node32" href="template__image_8cpp.html" title="src/templates/template\l_image.cpp" alt="" coords="4126,80,4281,121"/>
-<area shape="rect" id="node33" href="template__map_8cpp.html" title="src/templates/template\l_map.cpp" alt="" coords="4305,80,4459,121"/>
-<area shape="rect" id="node34" href="file__format__t_8cpp.html" title="test/file_format_t.cpp" alt="" coords="4484,87,4629,114"/>
-<area shape="rect" id="node35" href="georeferencing__t_8h.html" title="test/georeferencing_t.h" alt="" coords="4654,87,4809,114"/>
-<area shape="rect" id="node37" href="template__t_8cpp.html" title="test/template_t.cpp" alt="" coords="4833,87,4968,114"/>
-<area shape="rect" id="node38" href="tools__t_8cpp.html" title="test/tools_t.cpp" alt="" coords="4993,87,5105,114"/>
-<area shape="rect" id="node14" href="ogr__template_8cpp.html" title="src/gdal/ogr_template.cpp" alt="" coords="1773,177,1945,203"/>
-<area shape="rect" id="node15" href="template_8cpp.html" title="src/templates/template.cpp" alt="" coords="1768,266,1948,293"/>
-<area shape="rect" id="node28" href="gps__track_8cpp.html" title="src/sensors/gps_track.cpp" alt="" coords="2534,266,2710,293"/>
-<area shape="rect" id="node29" href="template__track_8h.html" title="src/templates/template\l_track.h" alt="" coords="2161,169,2315,211"/>
-<area shape="rect" id="node30" href="gps__track__recorder_8cpp.html" title="src/sensors/gps_track\l_recorder.cpp" alt="" coords="2359,259,2509,300"/>
-<area shape="rect" id="node31" href="template__track_8cpp.html" title="src/templates/template\l_track.cpp" alt="" coords="2179,259,2334,300"/>
-<area shape="rect" id="node36" href="georeferencing__t_8cpp.html" title="test/georeferencing\l_t.cpp" alt="" coords="4665,169,4798,211"/>
+<area shape="rect" id="node4" href="map_8cpp.html" title="src/core/map.cpp" alt="" coords="385,87,507,114"/>
+<area shape="rect" id="node5" href="map__grid_8cpp.html" title="src/core/map_grid.cpp" alt="" coords="532,87,683,114"/>
+<area shape="rect" id="node6" href="map__printer_8cpp.html" title="src/core/map_printer.cpp" alt="" coords="707,87,873,114"/>
+<area shape="rect" id="node7" href="native__file__format_8cpp.html" title="src/fileformats/native\l_file_format.cpp" alt="" coords="898,80,1042,121"/>
+<area shape="rect" id="node8" href="ocad8__file__format_8cpp.html" title="src/fileformats/ocad8\l_file_format.cpp" alt="" coords="1066,80,1210,121"/>
+<area shape="rect" id="node9" href="ocd__file__import_8cpp.html" title="src/fileformats/ocd\l_file_import.cpp" alt="" coords="1234,80,1365,121"/>
+<area shape="rect" id="node10" href="xml__file__format_8cpp.html" title="src/fileformats/xml\l_file_format.cpp" alt="" coords="1389,80,1519,121"/>
+<area shape="rect" id="node11" href="ogr__file__format_8cpp.html" title="src/gdal/ogr_file_format.cpp" alt="" coords="1544,87,1727,114"/>
+<area shape="rect" id="node12" href="ogr__template_8cpp.html" title="src/gdal/ogr_template.cpp" alt="" coords="1520,266,1692,293"/>
+<area shape="rect" id="node13" href="configure__grid__dialog_8cpp.html" title="src/gui/configure_grid\l_dialog.cpp" alt="" coords="2141,80,2287,121"/>
+<area shape="rect" id="node14" href="georeferencing__dialog_8cpp.html" title="src/gui/georeferencing\l_dialog.cpp" alt="" coords="2312,80,2463,121"/>
+<area shape="rect" id="node15" href="map__dialog__rotate_8cpp.html" title="src/gui/map/map_dialog\l_rotate.cpp" alt="" coords="2487,80,2647,121"/>
+<area shape="rect" id="node16" href="map__dialog__scale_8cpp.html" title="src/gui/map/map_dialog\l_scale.cpp" alt="" coords="2671,80,2831,121"/>
+<area shape="rect" id="node17" href="map__editor_8cpp.html" title="src/gui/map/map_editor.cpp" alt="" coords="2296,266,2479,293"/>
+<area shape="rect" id="node18" href="map__widget_8cpp.html" title="src/gui/map/map_widget.cpp" alt="" coords="2855,87,3045,114"/>
+<area shape="rect" id="node19" href="select__crs__dialog_8cpp.html" title="src/gui/select_crs\l_dialog.cpp" alt="" coords="3069,80,3194,121"/>
+<area shape="rect" id="node20" href="crs__param__widgets_8cpp.html" title="src/gui/widgets/crs\l_param_widgets.cpp" alt="" coords="3219,80,3361,121"/>
+<area shape="rect" id="node21" href="crs__selector_8cpp.html" title="src/gui/widgets/crs\l_selector.cpp" alt="" coords="3385,80,3517,121"/>
+<area shape="rect" id="node22" href="template__list__widget_8cpp.html" title="src/gui/widgets/template\l_list_widget.cpp" alt="" coords="3541,80,3705,121"/>
+<area shape="rect" id="node23" href="gps__display_8cpp.html" title="src/sensors/gps_display.cpp" alt="" coords="3729,87,3917,114"/>
+<area shape="rect" id="node24" href="gps__track_8h.html" title="src/sensors/gps_track.h" alt="" coords="1853,87,2015,114"/>
+<area shape="rect" id="node25" href="gps__track_8cpp.html" title="src/sensors/gps_track.cpp" alt="" coords="1717,266,1893,293"/>
+<area shape="rect" id="node29" href="template__track_8cpp.html" title="src/templates/template\l_track.cpp" alt="" coords="2503,259,2658,300"/>
+<area shape="rect" id="node30" href="template__image_8cpp.html" title="src/templates/template\l_image.cpp" alt="" coords="3942,80,4097,121"/>
+<area shape="rect" id="node31" href="template__map_8cpp.html" title="src/templates/template\l_map.cpp" alt="" coords="4121,80,4275,121"/>
+<area shape="rect" id="node32" href="file__format__t_8cpp.html" title="test/file_format_t.cpp" alt="" coords="4300,87,4445,114"/>
+<area shape="rect" id="node33" href="georeferencing__t_8h.html" title="test/georeferencing_t.h" alt="" coords="4470,87,4625,114"/>
+<area shape="rect" id="node35" href="template__t_8cpp.html" title="test/template_t.cpp" alt="" coords="4649,87,4784,114"/>
+<area shape="rect" id="node26" href="template__track_8h.html" title="src/templates/template\l_track.h" alt="" coords="1903,169,2058,211"/>
+<area shape="rect" id="node27" href="gps__track__recorder_8cpp.html" title="src/sensors/gps_track\l_recorder.cpp" alt="" coords="1917,259,2068,300"/>
+<area shape="rect" id="node28" href="template_8cpp.html" title="src/templates/template.cpp" alt="" coords="2092,266,2272,293"/>
+<area shape="rect" id="node34" href="georeferencing__t_8cpp.html" title="test/georeferencing\l_t.cpp" alt="" coords="4481,169,4614,211"/>
 </map>
 </div>
 </div><table class="memberdecls">

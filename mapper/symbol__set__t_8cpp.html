@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -95,13 +95,42 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">symbol_set_t.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/afe9252/test/symbol_set_t.cpp"><tt>afe9252</tt></a> on 24 May 2017)</h3><div class="textblock"><code>#include &quot;<a class="el" href="symbol__set__t_8h.html">symbol_set_t.h</a>&quot;</code><br />
+<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/214afa6/test/symbol_set_t.cpp"><tt>214afa6</tt></a> on 12 Nov 2017)</h3><div class="textblock"><code>#include &quot;<a class="el" href="symbol__set__t_8h.html">symbol_set_t.h</a>&quot;</code><br />
+<code>#include &lt;algorithm&gt;</code><br />
+<code>#include &lt;iterator&gt;</code><br />
+<code>#include &lt;memory&gt;</code><br />
+<code>#include &lt;type_traits&gt;</code><br />
+<code>#include &lt;QtGlobal&gt;</code><br />
+<code>#include &lt;QtTest&gt;</code><br />
+<code>#include &lt;QBuffer&gt;</code><br />
+<code>#include &lt;QByteArray&gt;</code><br />
+<code>#include &lt;QColor&gt;</code><br />
+<code>#include &lt;QCoreApplication&gt;</code><br />
+<code>#include &lt;QFile&gt;</code><br />
+<code>#include &lt;QFileDevice&gt;</code><br />
+<code>#include &lt;QFileInfo&gt;</code><br />
+<code>#include &lt;QFlags&gt;</code><br />
+<code>#include &lt;QIODevice&gt;</code><br />
+<code>#include &lt;QLatin1Char&gt;</code><br />
+<code>#include &lt;QLatin1String&gt;</code><br />
+<code>#include &lt;QPagedPaintDevice&gt;</code><br />
+<code>#include &lt;QPrinter&gt;</code><br />
+<code>#include &lt;QRectF&gt;</code><br />
+<code>#include &lt;QStringList&gt;</code><br />
+<code>#include &lt;QStringRef&gt;</code><br />
+<code>#include &lt;QXmlStreamAttributes&gt;</code><br />
+<code>#include &lt;QXmlStreamReader&gt;</code><br />
+<code>#include &lt;QXmlStreamWriter&gt;</code><br />
+<code>#include &quot;test_config.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="global_8h.html">global.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="settings_8h.html">settings.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="map_8h.html">core/map.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="map__color_8h.html">core/map_color.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="map__coord_8h.html">core/map_coord.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="map__printer_8h.html">core/map_printer.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="map__view_8h.html">core/map_view.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="area__symbol_8h.html">core/symbols/area_symbol.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="symbol_8h.html">core/symbols/symbol.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="xml__file__format__p_8h.html">fileformats/xml_file_format_p.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="template_8h.html">templates/template.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="undo__manager_8h.html">undo/undo_manager.h</a>&quot;</code><br />
@@ -110,26 +139,19 @@ Include dependency graph for symbol_set_t.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="symbol__set__t_8cpp__incl.png" border="0" usemap="#test_2symbol__set__t_8cpp" alt=""/></div>
 <map name="test_2symbol__set__t_8cpp" id="test_2symbol__set__t_8cpp">
-<area shape="rect" id="node2" href="symbol__set__t_8h.html" title="symbol_set_t.h" alt="" coords="615,80,726,107"/>
-<area shape="rect" id="node4" href="settings_8h.html" title="settings.h" alt="" coords="1294,244,1373,271"/>
-<area shape="rect" id="node8" href="map_8h.html" title="core/map.h" alt="" coords="802,162,889,189"/>
-<area shape="rect" id="node27" href="map__color_8h.html" title="core/map_color.h" alt="" coords="93,244,216,271"/>
-<area shape="rect" id="node30" href="map__printer_8h.html" title="core/map_printer.h" alt="" coords="1024,244,1155,271"/>
-<area shape="rect" id="node35" href="map__view_8h.html" title="core/map_view.h" alt="" coords="2129,244,2250,271"/>
-<area shape="rect" id="node37" href="area__symbol_8h.html" title="core/symbols/area_symbol.h" alt="" coords="1513,80,1703,107"/>
-<area shape="rect" id="node41" href="xml__file__format__p_8h.html" title="fileformats/xml_file\l_format_p.h" alt="" coords="1681,155,1813,196"/>
-<area shape="rect" id="node45" href="template_8h.html" title="templates/template.h" alt="" coords="2269,162,2413,189"/>
-<area shape="rect" id="node48" href="undo__manager_8h.html" title="undo/undo_manager.h" alt="" coords="1335,80,1486,107"/>
-<area shape="rect" id="node15" href="global_8h.html" title="global.h" alt="" coords="579,244,645,271"/>
-<area shape="rect" id="node16" href="map__coord_8h.html" title="map_coord.h" alt="" coords="2287,319,2385,345"/>
-<area shape="rect" id="node21" href="map__grid_8h.html" title="map_grid.h" alt="" coords="241,244,327,271"/>
-<area shape="rect" id="node23" href="file__format_8h.html" title="fileformats/file_format.h" alt="" coords="1659,319,1818,345"/>
-<area shape="rect" id="node26" href="map__part_8h.html" title="map_part.h" alt="" coords="670,244,757,271"/>
-<area shape="rect" id="node38" href="symbol_8h.html" title="symbol.h" alt="" coords="1709,244,1784,271"/>
-<area shape="rect" id="node42" href="file__import__export_8h.html" title="file_import_export.h" alt="" coords="1448,244,1584,271"/>
-<area shape="rect" id="node46" href="matrix_8h.html" title="util/matrix.h" alt="" coords="2539,244,2629,271"/>
-<area shape="rect" id="node47" href="transformation_8h.html" title="util/transformation.h" alt="" coords="2326,244,2463,271"/>
-<area shape="rect" id="node50" href="undo_8h.html" title="undo.h" alt="" coords="1455,162,1516,189"/>
+<area shape="rect" id="node2" href="symbol__set__t_8h.html" title="symbol_set_t.h" alt="" coords="114,87,224,114"/>
+<area shape="rect" id="node33" href="global_8h.html" title="global.h" alt="" coords="4400,87,4466,114"/>
+<area shape="rect" id="node34" href="settings_8h.html" title="settings.h" alt="" coords="878,87,956,114"/>
+<area shape="rect" id="node37" href="map_8h.html" title="core/map.h" alt="" coords="1958,87,2044,114"/>
+<area shape="rect" id="node42" href="map__coord_8h.html" title="core/map_coord.h" alt="" coords="1684,169,1811,196"/>
+<area shape="rect" id="node43" href="map__color_8h.html" title="core/map_color.h" alt="" coords="949,169,1072,196"/>
+<area shape="rect" id="node44" href="map__printer_8h.html" title="core/map_printer.h" alt="" coords="548,87,678,114"/>
+<area shape="rect" id="node45" href="map__view_8h.html" title="core/map_view.h" alt="" coords="1586,87,1707,114"/>
+<area shape="rect" id="node46" href="area__symbol_8h.html" title="core/symbols/area_symbol.h" alt="" coords="1266,87,1456,114"/>
+<area shape="rect" id="node47" href="symbol_8h.html" title="symbol.h" alt="" coords="1886,169,1961,196"/>
+<area shape="rect" id="node48" href="xml__file__format__p_8h.html" title="fileformats/xml_file\l_format_p.h" alt="" coords="2222,80,2354,121"/>
+<area shape="rect" id="node49" href="template_8h.html" title="templates/template.h" alt="" coords="321,87,465,114"/>
+<area shape="rect" id="node50" href="undo__manager_8h.html" title="undo/undo_manager.h" alt="" coords="703,87,854,114"/>
 </map>
 </div>
 </div><table class="memberdecls">

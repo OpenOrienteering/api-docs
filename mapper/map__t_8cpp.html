@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -93,33 +93,36 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">map_t.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/9632945/test/map_t.cpp"><tt>9632945</tt></a> on 24 May 2017)</h3><div class="textblock"><code>#include &quot;<a class="el" href="map__t_8h.html">map_t.h</a>&quot;</code><br />
+<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/e589fc4/test/map_t.cpp"><tt>e589fc4</tt></a> on 12 Nov 2017)</h3><div class="textblock"><code>#include &quot;<a class="el" href="map__t_8h.html">map_t.h</a>&quot;</code><br />
+<code>#include &lt;QtTest&gt;</code><br />
+<code>#include &lt;QBuffer&gt;</code><br />
 <code>#include &lt;QMessageBox&gt;</code><br />
+<code>#include &lt;QTextStream&gt;</code><br />
+<code>#include &quot;test_config.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="global_8h.html">global.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="map_8h.html">core/map.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="map__color_8h.html">core/map_color.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="map__printer_8h.html">core/map_printer.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="map__view_8h.html">core/map_view.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="symbol__rule__set_8h.html">core/objects/symbol_rule_set.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="symbol_8h.html">core/symbols/symbol.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for map_t.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="map__t_8cpp__incl.png" border="0" usemap="#test_2map__t_8cpp" alt=""/></div>
 <map name="test_2map__t_8cpp" id="test_2map__t_8cpp">
-<area shape="rect" id="node2" href="map__t_8h.html" title="map_t.h" alt="" coords="858,80,927,107"/>
-<area shape="rect" id="node24" href="map__color_8h.html" title="core/map_color.h" alt="" coords="1335,304,1458,331"/>
-<area shape="rect" id="node33" href="map_8h.html" title="core/map.h" alt="" coords="1992,229,2079,256"/>
-<area shape="rect" id="node41" href="map__printer_8h.html" title="core/map_printer.h" alt="" coords="2791,229,2922,256"/>
-<area shape="rect" id="node45" href="map__view_8h.html" title="core/map_view.h" alt="" coords="2412,229,2533,256"/>
-<area shape="rect" id="node4" href="object_8h.html" title="core/objects/object.h" alt="" coords="821,155,964,181"/>
-<area shape="rect" id="node9" href="map__coord_8h.html" title="core/map_coord.h" alt="" coords="589,379,716,405"/>
-<area shape="rect" id="node14" href="path__coord_8h.html" title="core/path_coord.h" alt="" coords="792,304,919,331"/>
-<area shape="rect" id="node15" href="virtual__path_8h.html" title="core/virtual_path.h" alt="" coords="661,229,791,256"/>
-<area shape="rect" id="node17" href="file__format_8h.html" title="fileformats/file_format.h" alt="" coords="5,304,164,331"/>
-<area shape="rect" id="node20" href="renderable_8h.html" title="core/renderables/renderable.h" alt="" coords="1201,229,1395,256"/>
-<area shape="rect" id="node29" href="symbol_8h.html" title="core/symbols/symbol.h" alt="" coords="314,229,471,256"/>
-<area shape="rect" id="node16" href="virtual__coord__vector_8h.html" title="virtual_coord_vector.h" alt="" coords="464,304,615,331"/>
-<area shape="rect" id="node38" href="global_8h.html" title="global.h" alt="" coords="2221,304,2287,331"/>
-<area shape="rect" id="node39" href="map__grid_8h.html" title="map_grid.h" alt="" coords="1752,304,1839,331"/>
-<area shape="rect" id="node40" href="map__part_8h.html" title="map_part.h" alt="" coords="2413,304,2500,331"/>
+<area shape="rect" id="node2" href="map__t_8h.html" title="map_t.h" alt="" coords="134,87,203,114"/>
+<area shape="rect" id="node9" href="global_8h.html" title="global.h" alt="" coords="2381,87,2447,114"/>
+<area shape="rect" id="node10" href="map_8h.html" title="core/map.h" alt="" coords="1611,87,1697,114"/>
+<area shape="rect" id="node36" href="map__color_8h.html" title="core/map_color.h" alt="" coords="2507,177,2630,203"/>
+<area shape="rect" id="node39" href="map__printer_8h.html" title="core/map_printer.h" alt="" coords="230,177,361,203"/>
+<area shape="rect" id="node45" href="map__view_8h.html" title="core/map_view.h" alt="" coords="607,87,728,114"/>
+<area shape="rect" id="node46" href="symbol__rule__set_8h.html" title="core/objects/symbol\l_rule_set.h" alt="" coords="1157,80,1295,121"/>
+<area shape="rect" id="node48" href="symbol_8h.html" title="core/symbols/symbol.h" alt="" coords="2654,177,2811,203"/>
+<area shape="rect" id="node27" href="map__coord_8h.html" title="core/map_coord.h" alt="" coords="855,177,981,203"/>
+<area shape="rect" id="node32" href="map__grid_8h.html" title="core/map_grid.h" alt="" coords="2886,177,3001,203"/>
+<area shape="rect" id="node34" href="map__part_8h.html" title="core/map_part.h" alt="" coords="1687,177,1803,203"/>
+<area shape="rect" id="node47" href="object__query_8h.html" title="core/objects/object\l_query.h" alt="" coords="1057,169,1189,211"/>
 </map>
 </div>
 </div></div><!-- contents -->

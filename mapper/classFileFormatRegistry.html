@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -102,23 +102,27 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a8e17145fb06109e50fe000f51d2d1cf5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileFormatRegistry.html#a8e17145fb06109e50fe000f51d2d1cf5">FileFormatRegistry</a> ()</td></tr>
-<tr class="memdesc:a8e17145fb06109e50fe000f51d2d1cf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an empty file format registry.  <a href="#a8e17145fb06109e50fe000f51d2d1cf5">More...</a><br /></td></tr>
-<tr class="separator:a8e17145fb06109e50fe000f51d2d1cf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b5eca1b7fbdc4aa66bee824d816ddce"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileFormatRegistry.html#a2b5eca1b7fbdc4aa66bee824d816ddce">FileFormatRegistry</a> () noexcept</td></tr>
+<tr class="memdesc:a2b5eca1b7fbdc4aa66bee824d816ddce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an empty file format registry.  <a href="#a2b5eca1b7fbdc4aa66bee824d816ddce">More...</a><br /></td></tr>
+<tr class="separator:a2b5eca1b7fbdc4aa66bee824d816ddce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d85cff5eb274943a708d3d120c080f5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileFormatRegistry.html#a4d85cff5eb274943a708d3d120c080f5">FileFormatRegistry</a> (const <a class="el" href="classFileFormatRegistry.html">FileFormatRegistry</a> &amp;)=delete</td></tr>
+<tr class="separator:a4d85cff5eb274943a708d3d120c080f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24c440e5ce72d61221bb5e3625eb98c1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileFormatRegistry.html#a24c440e5ce72d61221bb5e3625eb98c1">~FileFormatRegistry</a> ()</td></tr>
 <tr class="memdesc:a24c440e5ce72d61221bb5e3625eb98c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a file format registry.  <a href="#a24c440e5ce72d61221bb5e3625eb98c1">More...</a><br /></td></tr>
 <tr class="separator:a24c440e5ce72d61221bb5e3625eb98c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59318bdc776d438b7e06cb2c4b2450f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classFileFormatRegistry.html">FileFormatRegistry</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileFormatRegistry.html#a59318bdc776d438b7e06cb2c4b2450f1">operator=</a> (const <a class="el" href="classFileFormatRegistry.html">FileFormatRegistry</a> &amp;)=delete</td></tr>
+<tr class="separator:a59318bdc776d438b7e06cb2c4b2450f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8256358eefcf0bd6a99d58da5a538ad2"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="classFileFormat.html">FileFormat</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileFormatRegistry.html#a8256358eefcf0bd6a99d58da5a538ad2">formats</a> () const </td></tr>
 <tr class="memdesc:a8256358eefcf0bd6a99d58da5a538ad2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an immutable list of the available file formats.  <a href="#a8256358eefcf0bd6a99d58da5a538ad2">More...</a><br /></td></tr>
 <tr class="separator:a8256358eefcf0bd6a99d58da5a538ad2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeedbb01687d6f3cced009a237e19fcb4"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classFileFormat.html">FileFormat</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileFormatRegistry.html#aeedbb01687d6f3cced009a237e19fcb4">findFormat</a> (const char *id) const </td></tr>
-<tr class="memdesc:aeedbb01687d6f3cced009a237e19fcb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds a file format with the given internal ID, or returns NULL if no format is found.  <a href="#aeedbb01687d6f3cced009a237e19fcb4">More...</a><br /></td></tr>
+<tr class="memdesc:aeedbb01687d6f3cced009a237e19fcb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds a file format with the given internal ID, or returns nullptr if no format is found.  <a href="#aeedbb01687d6f3cced009a237e19fcb4">More...</a><br /></td></tr>
 <tr class="separator:aeedbb01687d6f3cced009a237e19fcb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6e89d8da6174db41f64976944ddd053"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classFileFormat.html">FileFormat</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileFormatRegistry.html#ae6e89d8da6174db41f64976944ddd053">findFormatByFilter</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;filter) const </td></tr>
-<tr class="memdesc:ae6e89d8da6174db41f64976944ddd053"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds a file format which implements the given filter, or returns NULL if no format is found.  <a href="#ae6e89d8da6174db41f64976944ddd053">More...</a><br /></td></tr>
+<tr class="memdesc:ae6e89d8da6174db41f64976944ddd053"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds a file format which implements the given filter, or returns nullptr if no format is found.  <a href="#ae6e89d8da6174db41f64976944ddd053">More...</a><br /></td></tr>
 <tr class="separator:ae6e89d8da6174db41f64976944ddd053"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47f130532eaffd6f4df036c38b322731"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classFileFormat.html">FileFormat</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileFormatRegistry.html#a47f130532eaffd6f4df036c38b322731">findFormatForFilename</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;filename) const </td></tr>
-<tr class="memdesc:a47f130532eaffd6f4df036c38b322731"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds a file format whose file extension matches the fie extension of the given path, or returns NULL if no matching format is found.  <a href="#a47f130532eaffd6f4df036c38b322731">More...</a><br /></td></tr>
+<tr class="memdesc:a47f130532eaffd6f4df036c38b322731"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds a file format whose file extension matches the file extension of the given path, or returns nullptr if no matching format is found.  <a href="#a47f130532eaffd6f4df036c38b322731">More...</a><br /></td></tr>
 <tr class="separator:a47f130532eaffd6f4df036c38b322731"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a104d94423ad2be3c912a9e0888fb9436"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileFormatRegistry.html#a104d94423ad2be3c912a9e0888fb9436">defaultFormat</a> () const </td></tr>
 <tr class="memdesc:a104d94423ad2be3c912a9e0888fb9436"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the ID of default file format for this registry.  <a href="#a104d94423ad2be3c912a9e0888fb9436">More...</a><br /></td></tr>
@@ -133,7 +137,7 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Provides a registry for file formats, and takes ownership of the supported format objects. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a8e17145fb06109e50fe000f51d2d1cf5"></a>
+<a class="anchor" id="a2b5eca1b7fbdc4aa66bee824d816ddce"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -149,12 +153,36 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Creates an empty file format registry. </p>
+
+</div>
+</div>
+<a class="anchor" id="a4d85cff5eb274943a708d3d120c080f5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FileFormatRegistry::FileFormatRegistry </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classFileFormatRegistry.html">FileFormatRegistry</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -216,7 +244,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Finds a file format with the given internal ID, or returns NULL if no format is found. </p>
+<p>Finds a file format with the given internal ID, or returns nullptr if no format is found. </p>
 
 </div>
 </div>
@@ -234,7 +262,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Finds a file format which implements the given filter, or returns NULL if no format is found. </p>
+<p>Finds a file format which implements the given filter, or returns nullptr if no format is found. </p>
+<p>Only the file format's filter string before the closing ')' is taken into account for matching, i.e. the given parameter 'filter' may contain additional extensions following the original ones. </p>
 
 </div>
 </div>
@@ -252,7 +281,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Finds a file format whose file extension matches the fie extension of the given path, or returns NULL if no matching format is found. </p>
+<p>Finds a file format whose file extension matches the file extension of the given path, or returns nullptr if no matching format is found. </p>
 
 </div>
 </div>
@@ -278,6 +307,30 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns an immutable list of the available file formats. </p>
+
+</div>
+</div>
+<a class="anchor" id="a59318bdc776d438b7e06cb2c4b2450f1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classFileFormatRegistry.html">FileFormatRegistry</a>&amp; FileFormatRegistry::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classFileFormatRegistry.html">FileFormatRegistry</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -320,8 +373,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/fileformats/<a class="el" href="file__format__registry_8h.html">file_format_registry.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/b792da0/src/fileformats/file_format_registry.h"><tt>b792da0</tt></a> on 8 Jan 2017)</li>
-<li>src/fileformats/<a class="el" href="file__format__registry_8cpp.html">file_format_registry.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/b7c2de8/src/fileformats/file_format_registry.cpp"><tt>b7c2de8</tt></a> on 8 Jan 2017)</li>
+<li>src/fileformats/<a class="el" href="file__format__registry_8h.html">file_format_registry.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/d61c610/src/fileformats/file_format_registry.h"><tt>d61c610</tt></a> on 12 Sep 2017)</li>
+<li>src/fileformats/<a class="el" href="file__format__registry_8cpp.html">file_format_registry.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/d61c610/src/fileformats/file_format_registry.cpp"><tt>d61c610</tt></a> on 12 Sep 2017)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -146,8 +146,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>name_edit
 : <a class="el" href="classSymbolPropertiesWidget.html#a635b12b4415ecc55173fc0641f9b8d01">SymbolPropertiesWidget</a>
 </li>
+<li>name_edit_button
+: <a class="el" href="classColorDialog.html#ae89bbdc5305bb9aed9aa98e3a47e6387">ColorDialog</a>
+</li>
 <li>nameChanged()
-: <a class="el" href="classSymbolPropertiesWidget.html#a4f7e9616ac13a824dfc4040894a0e631">SymbolPropertiesWidget</a>
+: <a class="el" href="classSymbolPropertiesWidget.html#ab35a9ca316798298127b0ccaec9d6956">SymbolPropertiesWidget</a>
 </li>
 <li>nameId
 : <a class="el" href="structQTtfNameRecord.html#a345ea20f91037f57106ca7e06c798915">QTtfNameRecord</a>
@@ -172,6 +175,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>nativeY()
 : <a class="el" href="classMapCoord.html#ad9acd4f568392e05a3c27de5e7382ea1">MapCoord</a>
 </li>
+<li>new_symbol
+: <a class="el" href="structObjectOp_1_1ChangeSymbol.html#a013595004e73bbc925a8ba09d024c1aa">ObjectOp::ChangeSymbol</a>
+</li>
 <li>newAreaSymbol()
 : <a class="el" href="classSymbolRenderWidget.html#ab7e400998467cbd1e202cf065754b5ec">SymbolRenderWidget</a>
 </li>
@@ -179,7 +185,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classTemplateAdjustWidget.html#a9150c72498494275591e4fdfc64c458b">TemplateAdjustWidget</a>
 </li>
 <li>newColor()
-: <a class="el" href="classColorWidget.html#a110c57c1eeae5a9051bf0fe1f5b0f436">ColorWidget</a>
+: <a class="el" href="classColorListWidget.html#a2de767375ebd2b515fe6d9038de00c17">ColorListWidget</a>
 </li>
 <li>newCombinedSymbol()
 : <a class="el" href="classSymbolRenderWidget.html#ae2a2ec769ebb98d7282eb8555f0fd030">SymbolRenderWidget</a>
@@ -192,21 +198,18 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classSymbolRenderWidget.html#ab6fc7479dd8249dc3626936d08d54974">SymbolRenderWidget</a>
 </li>
 <li>NewMapDialog()
-: <a class="el" href="classNewMapDialog.html#aa853b43a84d29d555bcb973479dc59a5">NewMapDialog</a>
+: <a class="el" href="classNewMapDialog.html#a9f48ab6e4518bf217c244b8fc0ae01aa">NewMapDialog</a>
 </li>
 <li>newPage()
 : <a class="el" href="classAdvancedPdfEngine.html#afce24877f29b4f95892db62d48e2e104">AdvancedPdfEngine</a>
 , <a class="el" href="classAdvancedPdfEnginePrivate.html#a361d3def647e4859cf53d4cc63cc4710">AdvancedPdfEnginePrivate</a>
-, <a class="el" href="classAdvancedPdfPrintEngine.html#a8c0ceca6eb43a1816e72cf42e06f11a7">AdvancedPdfPrintEngine</a>
+, <a class="el" href="classAdvancedPdfPrintEngine.html#acd272c477e821ec8ca61fa6a2087084d">AdvancedPdfPrintEngine</a>
 </li>
 <li>newPointSymbol()
 : <a class="el" href="classSymbolRenderWidget.html#aaf1d7302e91362aed45a57b8019546df">SymbolRenderWidget</a>
 </li>
 <li>newPosition()
 : <a class="el" href="classGPSTrackRecorder.html#a10c2bcb68e312ed2eb7e7a45b738f93e">GPSTrackRecorder</a>
-</li>
-<li>newScaleFactor()
-: <a class="el" href="classMapEditorTool.html#a04dfe2f0f1dfd8b619ad85ccb1291be5">MapEditorTool</a>
 </li>
 <li>newSymbol()
 : <a class="el" href="classSymbolRenderWidget.html#a599a8e8f036905cb7c4e4165a919ad06">SymbolRenderWidget</a>
@@ -218,7 +221,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classSymbolRenderWidget.html#af12833430f3234eb5f3914944db55ea2">SymbolRenderWidget</a>
 </li>
 <li>newToolButton()
-: <a class="el" href="classColorWidget.html#a3d781a27a42065edb370a16fb55e9b59">ColorWidget</a>
+: <a class="el" href="classColorListWidget.html#a6a56088a1b3ea4004c5bf7628e31a7d4">ColorListWidget</a>
 , <a class="el" href="classTagSelectWidget.html#acd8830ff6b993d087a76cd23be5bec13">TagSelectWidget</a>
 , <a class="el" href="classTagsWidget.html#a59e14b2498b4899f173328afcdd9de8e">TagsWidget</a>
 , <a class="el" href="classTemplateListWidget.html#a83d278e87cc1da73bf9eeadd11feb6d8">TemplateListWidget</a>
@@ -247,14 +250,23 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>no_more_effect_on_click
 : <a class="el" href="classDrawRectangleTool.html#a720d5d51a610c310936c162d5f5a852d">DrawRectangleTool</a>
 </li>
+<li>NoAssignment
+: <a class="el" href="structSymbolRule.html#a63ce42d1f244de152de472abd64352daaf63d93436a19388ec3120806a918b4dc">SymbolRule</a>
+</li>
 <li>NoButton
 : <a class="el" href="classTouchCursor.html#a3f0fc3f7d6eda54376d69d71935c742fa0a8ba9fbbe495f6475f8d31f7dcbae65">TouchCursor</a>
 </li>
 <li>NoChange
 : <a class="el" href="classMapView.html#a0fb5b578c907df9a052fc64a2ce01810a8aa8a05dd147bad7baf570ce49732149">MapView</a>
 </li>
-<li>NoCondition()
-: <a class="el" href="structObjectOp_1_1NoCondition.html#a4e1ca51befc7236c9d106af2d6d9b326">ObjectOp::NoCondition</a>
+<li>NoClippingIfCenterInside
+: <a class="el" href="structAreaSymbol_1_1FillPattern.html#ad63cb1161a8dc15c844884f57da37716a979426c63bec1e08ca83bb60435070cd">AreaSymbol::FillPattern</a>
+</li>
+<li>NoClippingIfCompletelyInside
+: <a class="el" href="structAreaSymbol_1_1FillPattern.html#ad63cb1161a8dc15c844884f57da37716a6f34d73204b9f5e9a93d0841d713823d">AreaSymbol::FillPattern</a>
+</li>
+<li>NoClippingIfPartiallyInside
+: <a class="el" href="structAreaSymbol_1_1FillPattern.html#ad63cb1161a8dc15c844884f57da37716a060cd96a5ea1f7e5215075b0bcd1e271">AreaSymbol::FillPattern</a>
 </li>
 <li>noEmbed
 : <a class="el" href="classQFontSubset.html#ab35e88d12bb72a5f47a62624c90300f1">QFontSubset</a>
@@ -270,9 +282,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>NoNeighbors
 : <a class="el" href="classSegmentedButtonLayout.html#a8ba019aece1c70c21a1bd5b1cdf1ed56aad6afa3c83e117e0c7325417976e6e5f">SegmentedButtonLayout</a>
-</li>
-<li>NoOp()
-: <a class="el" href="structObjectOp_1_1NoOp.html#adff11d449573e6a2b2e1dc3e0e008910">ObjectOp::NoOp</a>
 </li>
 <li>NoOptions
 : <a class="el" href="classRenderConfig.html#a27c5d055cb58879e93027eaed5844ec7a8663d7a5c29d9edb713d002bfcee6711">RenderConfig</a>
@@ -359,15 +368,15 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>number_components
 : <a class="el" href="classSymbol.html#a72012a603b902852472475f065cb0ca4">Symbol</a>
 </li>
-<li>number_edit
-: <a class="el" href="classSymbolPropertiesWidget.html#ab585d84e45eb25d3dfacf293bcca0939">SymbolPropertiesWidget</a>
+<li>number_editors
+: <a class="el" href="classSymbolPropertiesWidget.html#ac99522e378be1479dc04ad27b1344e1b">SymbolPropertiesWidget</a>
 </li>
 <li>number_from_bottom
 : <a class="el" href="structOcdFileImport_1_1RectangleInfo.html#a615f197d13e9695c6b19cd0d7f76283b">OcdFileImport::RectangleInfo</a>
 </li>
 <li>numberChanged()
 : <a class="el" href="classCombinedSymbolSettings.html#a2ba0b1f0985abcc3de9cb09b45c909f3">CombinedSymbolSettings</a>
-, <a class="el" href="classSymbolPropertiesWidget.html#a19ca46e3ed65409cf862e8c3dfb478c6">SymbolPropertiesWidget</a>
+, <a class="el" href="classSymbolPropertiesWidget.html#a66f515b18c8b6045d107ed66736bc3ab">SymbolPropertiesWidget</a>
 </li>
 <li>numberEquals()
 : <a class="el" href="classSymbol.html#a1253b95da655a79b79272ee70d72b7bb">Symbol</a>

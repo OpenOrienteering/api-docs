@@ -4,6 +4,7 @@ var searchData=
   ['tabchangesfocus',['tabChangesFocus',['http://doc.qt.io/qt-5/qplaintextedit.html#tabChangesFocus-prop',1,'QPlainTextEdit::tabChangesFocus()'],['http://doc.qt.io/qt-5/qtextedit.html#tabChangesFocus-prop',1,'QTextEdit::tabChangesFocus()']]],
   ['tabfocusbehavior',['tabFocusBehavior',['http://doc.qt.io/qt-5/qstylehints.html#tabFocusBehavior-prop',1,'QStyleHints']]],
   ['tabkeynavigation',['tabKeyNavigation',['http://doc.qt.io/qt-5/qabstractitemview.html#tabKeyNavigation-prop',1,'QAbstractItemView']]],
+  ['tablettracking',['tabletTracking',['http://doc.qt.io/qt-5/qwidget.html#tabletTracking-prop',1,'QWidget']]],
   ['tabposition',['tabPosition',['http://doc.qt.io/qt-5/qmdiarea.html#tabPosition-prop',1,'QMdiArea::tabPosition()'],['http://doc.qt.io/qt-5/qtabwidget.html#tabPosition-prop',1,'QTabWidget::tabPosition()']]],
   ['tabsclosable',['tabsClosable',['http://doc.qt.io/qt-5/qmdiarea.html#tabsClosable-prop',1,'QMdiArea::tabsClosable()'],['http://doc.qt.io/qt-5/qtabbar.html#tabsClosable-prop',1,'QTabBar::tabsClosable()'],['http://doc.qt.io/qt-5/qtabwidget.html#tabsClosable-prop',1,'QTabWidget::tabsClosable()']]],
   ['tabshape',['tabShape',['http://doc.qt.io/qt-5/qmainwindow.html#tabShape-prop',1,'QMainWindow::tabShape()'],['http://doc.qt.io/qt-5/qmdiarea.html#tabShape-prop',1,'QMdiArea::tabShape()'],['http://doc.qt.io/qt-5/qtabwidget.html#tabShape-prop',1,'QTabWidget::tabShape()']]],

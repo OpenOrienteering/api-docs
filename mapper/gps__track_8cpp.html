@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -95,31 +95,30 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">gps_track.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/bb99f80/src/sensors/gps_track.cpp"><tt>bb99f80</tt></a> on 13 Jan 2017)</h3><div class="textblock"><code>#include &quot;<a class="el" href="gps__track_8h.html">gps_track.h</a>&quot;</code><br />
+<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/553b457/src/sensors/gps_track.cpp"><tt>553b457</tt></a> on 1 Oct 2017)</h3><div class="textblock"><code>#include &quot;<a class="el" href="gps__track_8h.html">gps_track.h</a>&quot;</code><br />
 <code>#include &lt;QApplication&gt;</code><br />
 <code>#include &lt;QFile&gt;</code><br />
 <code>#include &lt;QHash&gt;</code><br />
-<code>#include &lt;QInputDialog&gt;</code><br />
 <code>#include &lt;QMessageBox&gt;</code><br />
 <code>#include &lt;QXmlStreamReader&gt;</code><br />
 <code>#include &lt;QXmlStreamWriter&gt;</code><br />
-<code>#include &quot;<a class="el" href="dxfparser_8h.html">util/dxfparser.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="georeferencing_8h.html">core/georeferencing.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="template__track_8h.html">templates/template_track.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="dxfparser_8h.html">util/dxfparser.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for gps_track.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="gps__track_8cpp__incl.png" border="0" usemap="#src_2sensors_2gps__track_8cpp" alt=""/></div>
 <map name="src_2sensors_2gps__track_8cpp" id="src_2sensors_2gps__track_8cpp">
-<area shape="rect" id="node2" href="gps__track_8h.html" title="gps_track.h" alt="" coords="861,169,952,196"/>
-<area shape="rect" id="node25" href="dxfparser_8h.html" title="util/dxfparser.h" alt="" coords="183,87,291,114"/>
-<area shape="rect" id="node31" href="template__track_8h.html" title="templates/template\l_track.h" alt="" coords="1354,80,1488,121"/>
-<area shape="rect" id="node7" href="georeferencing_8h.html" title="core/georeferencing.h" alt="" coords="833,244,980,271"/>
-<area shape="rect" id="node10" href="latlon_8h.html" title="latlon.h" alt="" coords="874,326,938,353"/>
-<area shape="rect" id="node12" href="map__coord_8h.html" title="map_coord.h" alt="" coords="1048,326,1146,353"/>
-<area shape="rect" id="node16" href="file__format_8h.html" title="../fileformats/file\l_format.h" alt="" coords="734,319,850,360"/>
-<area shape="rect" id="node32" href="template_8h.html" title="template.h" alt="" coords="1380,169,1462,196"/>
-<area shape="rect" id="node34" href="matrix_8h.html" title="util/matrix.h" alt="" coords="1480,244,1570,271"/>
-<area shape="rect" id="node37" href="transformation_8h.html" title="util/transformation.h" alt="" coords="1224,244,1362,271"/>
+<area shape="rect" id="node2" href="gps__track_8h.html" title="gps_track.h" alt="" coords="223,169,314,196"/>
+<area shape="rect" id="node7" href="georeferencing_8h.html" title="core/georeferencing.h" alt="" coords="309,244,455,271"/>
+<area shape="rect" id="node24" href="template__track_8h.html" title="templates/template\l_track.h" alt="" coords="1039,80,1173,121"/>
+<area shape="rect" id="node31" href="dxfparser_8h.html" title="util/dxfparser.h" alt="" coords="1663,87,1771,114"/>
+<area shape="rect" id="node12" href="latlon_8h.html" title="core/latlon.h" alt="" coords="26,319,119,345"/>
+<area shape="rect" id="node14" href="map__coord_8h.html" title="core/map_coord.h" alt="" coords="835,319,961,345"/>
+<area shape="rect" id="node26" href="template_8h.html" title="templates/template.h" alt="" coords="951,169,1095,196"/>
+<area shape="rect" id="node28" href="matrix_8h.html" title="util/matrix.h" alt="" coords="1242,244,1333,271"/>
+<area shape="rect" id="node30" href="transformation_8h.html" title="util/transformation.h" alt="" coords="1029,244,1167,271"/>
 </map>
 </div>
 </div><table class="memberdecls">

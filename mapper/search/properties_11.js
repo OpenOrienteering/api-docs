@@ -18,6 +18,7 @@ var searchData=
   ['selectionrectvisible',['selectionRectVisible',['http://doc.qt.io/qt-5/qlistview.html#selectionRectVisible-prop',1,'QListView']]],
   ['senderobject',['senderObject',['http://doc.qt.io/qt-5/qsignaltransition.html#senderObject-prop',1,'QSignalTransition']]],
   ['separatorscollapsible',['separatorsCollapsible',['http://doc.qt.io/qt-5/qmenu.html#separatorsCollapsible-prop',1,'QMenu']]],
+  ['serialnumber',['serialNumber',['http://doc.qt.io/qt-5/qscreen.html#serialNumber-prop',1,'QScreen']]],
   ['setfocusontouchrelease',['setFocusOnTouchRelease',['http://doc.qt.io/qt-5/qstylehints.html#setFocusOnTouchRelease-prop',1,'QStyleHints']]],
   ['shape',['shape',['http://doc.qt.io/qt-5/qtabbar.html#shape-prop',1,'QTabBar']]],
   ['shortcut',['shortcut',['http://doc.qt.io/qt-5/qaction.html#shortcut-prop',1,'QAction::shortcut()'],['http://doc.qt.io/qt-5/qabstractbutton.html#shortcut-prop',1,'QAbstractButton::shortcut()']]],

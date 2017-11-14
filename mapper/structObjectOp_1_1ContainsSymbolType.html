@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -93,6 +93,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structObjectOp_1_1ContainsSymbolType-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ObjectOp::ContainsSymbolType Struct Reference</div>  </div>
@@ -106,40 +107,18 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a32fa8903c06831469e3b696fcd668e08"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structObjectOp_1_1ContainsSymbolType.html#a32fa8903c06831469e3b696fcd668e08">ContainsSymbolType</a> (<a class="el" href="classSymbol.html#a19c9a49235af753af17553af18c588ca">Symbol::Type</a> type)</td></tr>
-<tr class="separator:a32fa8903c06831469e3b696fcd668e08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2327d07bdb942ea02e75f7f97d2b40c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structObjectOp_1_1ContainsSymbolType.html#a2327d07bdb942ea02e75f7f97d2b40c9">operator()</a> (<a class="el" href="classObject.html">Object</a> *object) const </td></tr>
-<tr class="separator:a2327d07bdb942ea02e75f7f97d2b40c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c68878edd8f7e5385268ceb93bcdefd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structObjectOp_1_1ContainsSymbolType.html#a3c68878edd8f7e5385268ceb93bcdefd">operator()</a> (const <a class="el" href="classObject.html">Object</a> *object) const noexcept</td></tr>
+<tr class="separator:a3c68878edd8f7e5385268ceb93bcdefd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a0ed51bd9d2d38944b8d932d1c06f8213"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSymbol.html#a19c9a49235af753af17553af18c588ca">Symbol::Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structObjectOp_1_1ContainsSymbolType.html#a0ed51bd9d2d38944b8d932d1c06f8213">type</a></td></tr>
+<tr class="separator:a0ed51bd9d2d38944b8d932d1c06f8213"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Returns true for objects where the symbol type contains the given type. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a32fa8903c06831469e3b696fcd668e08"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ObjectOp::ContainsSymbolType::ContainsSymbolType </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classSymbol.html#a19c9a49235af753af17553af18c588ca">Symbol::Type</a>&#160;</td>
-          <td class="paramname"><em>type</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a2327d07bdb942ea02e75f7f97d2b40c9"></a>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a3c68878edd8f7e5385268ceb93bcdefd"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -149,22 +128,35 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> ObjectOp::ContainsSymbolType::operator() </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classObject.html">Object</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="classObject.html">Object</a> *&#160;</td>
           <td class="paramname"><em>object</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a0ed51bd9d2d38944b8d932d1c06f8213"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classSymbol.html#a19c9a49235af753af17553af18c588ca">Symbol::Type</a> ObjectOp::ContainsSymbolType::type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>src/core/objects/<a class="el" href="object__operations_8h.html">object_operations.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/b7c2de8/src/core/objects/object_operations.h"><tt>b7c2de8</tt></a> on 8 Jan 2017)</li>
+<li>src/core/objects/<a class="el" href="object__operations_8h.html">object_operations.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/9bb9f25/src/core/objects/object_operations.h"><tt>9bb9f25</tt></a> on 23 Jul 2017)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -114,9 +114,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae49f259ac6b655447d32d20e9d33eecd"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classPathObject.html">PathObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFollowPathToolHelper.html#ae49f259ac6b655447d32d20e9d33eecd">updateFollowing</a> (const <a class="el" href="classPathCoord.html">PathCoord</a> &amp;end_coord)</td></tr>
 <tr class="memdesc:ae49f259ac6b655447d32d20e9d33eecd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the process and returns the followed part of the path.  <a href="#ae49f259ac6b655447d32d20e9d33eecd">More...</a><br /></td></tr>
 <tr class="separator:ae49f259ac6b655447d32d20e9d33eecd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acafc8808e79bd6d97f5d9cb16ffd0d13"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFollowPathToolHelper.html#acafc8808e79bd6d97f5d9cb16ffd0d13">getPartIndex</a> () const </td></tr>
-<tr class="memdesc:acafc8808e79bd6d97f5d9cb16ffd0d13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the index of the path part which is being followed.  <a href="#acafc8808e79bd6d97f5d9cb16ffd0d13">More...</a><br /></td></tr>
-<tr class="separator:acafc8808e79bd6d97f5d9cb16ffd0d13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8224fd24f1a5c5907957863fe25a2b51"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classPathObject.html">PathObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFollowPathToolHelper.html#a8224fd24f1a5c5907957863fe25a2b51">followed_object</a> () const </td></tr>
+<tr class="memdesc:a8224fd24f1a5c5907957863fe25a2b51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the object which is being followed.  <a href="#a8224fd24f1a5c5907957863fe25a2b51">More...</a><br /></td></tr>
+<tr class="separator:a8224fd24f1a5c5907957863fe25a2b51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2a8bea57b772d2092899e1d0f0208b7"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFollowPathToolHelper.html#ad2a8bea57b772d2092899e1d0f0208b7">partIndex</a> () const </td></tr>
+<tr class="memdesc:ad2a8bea57b772d2092899e1d0f0208b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the index of the path part which is being followed.  <a href="#ad2a8bea57b772d2092899e1d0f0208b7">More...</a><br /></td></tr>
+<tr class="separator:ad2a8bea57b772d2092899e1d0f0208b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Helper class to 'follow' (i.e. </p>
@@ -141,7 +144,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="acafc8808e79bd6d97f5d9cb16ffd0d13"></a>
+<a class="anchor" id="a8224fd24f1a5c5907957863fe25a2b51"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -149,7 +152,32 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::size_t FollowPathToolHelper::getPartIndex </td>
+          <td class="memname">const <a class="el" href="classPathObject.html">PathObject</a>* FollowPathToolHelper::followed_object </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the object which is being followed. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad2a8bea57b772d2092899e1d0f0208b7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t FollowPathToolHelper::partIndex </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -243,8 +271,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/tools/<a class="el" href="tool__helpers_8h.html">tool_helpers.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/5034328/src/tools/tool_helpers.h"><tt>5034328</tt></a> on 8 Jan 2017)</li>
-<li>src/tools/<a class="el" href="tool__helpers_8cpp.html">tool_helpers.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/9ee00e4/src/tools/tool_helpers.cpp"><tt>9ee00e4</tt></a> on 8 Jan 2017)</li>
+<li>src/tools/<a class="el" href="tool__helpers_8h.html">tool_helpers.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/340981e/src/tools/tool_helpers.h"><tt>340981e</tt></a> on 5 Nov 2017)</li>
+<li>src/tools/<a class="el" href="tool__helpers_8cpp.html">tool_helpers.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/e662f37/src/tools/tool_helpers.cpp"><tt>e662f37</tt></a> on 7 Nov 2017)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

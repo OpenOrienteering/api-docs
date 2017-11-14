@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -95,12 +95,19 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">gdal_manager.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/edab3a8/src/gdal/gdal_manager.cpp"><tt>edab3a8</tt></a> on 3 May 2017)</h3><div class="textblock"><code>#include &quot;<a class="el" href="gdal__manager_8h.html">gdal_manager.h</a>&quot;</code><br />
-<code>#include &lt;ogr_api.h&gt;</code><br />
+<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/f7cd23c/src/gdal/gdal_manager.cpp"><tt>f7cd23c</tt></a> on 8 Nov 2017)</h3><div class="textblock"><code>#include &quot;<a class="el" href="gdal__manager_8h.html">gdal_manager.h</a>&quot;</code><br />
 <code>#include &lt;cpl_conv.h&gt;</code><br />
+<code>#include &lt;gdal.h&gt;</code><br />
+<code>#include &lt;ogr_api.h&gt;</code><br />
+<code>#include &lt;QtGlobal&gt;</code><br />
 <code>#include &lt;QByteArray&gt;</code><br />
+<code>#include &lt;QDir&gt;</code><br />
 <code>#include &lt;QFileInfo&gt;</code><br />
+<code>#include &lt;QLatin1String&gt;</code><br />
 <code>#include &lt;QSettings&gt;</code><br />
+<code>#include &lt;QString&gt;</code><br />
+<code>#include &lt;QStringList&gt;</code><br />
+<code>#include &lt;QVariant&gt;</code><br />
 <code>#include &quot;<a class="el" href="backports_8h.html">util/backports.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for gdal_manager.cpp:</div>
@@ -108,9 +115,9 @@ Include dependency graph for gdal_manager.cpp:</div>
 <div class="center"><img src="gdal__manager_8cpp__incl.png" border="0" usemap="#src_2gdal_2gdal__manager_8cpp" alt=""/></div>
 <map name="src_2gdal_2gdal__manager_8cpp" id="src_2gdal_2gdal__manager_8cpp">
 <area shape="rect" id="node2" href="gdal__manager_8h.html" title="gdal_manager.h" alt="" coords="5,80,120,107"/>
-<area shape="rect" id="node9" href="backports_8h.html" title="util/backports.h" alt="" coords="670,80,781,107"/>
-<area shape="rect" id="node11" href="qasconst_8h.html" title="qasconst.h" alt="" coords="682,155,769,181"/>
-<area shape="rect" id="node13" href="qoverload_8h.html" title="qoverload.h" alt="" coords="793,155,882,181"/>
+<area shape="rect" id="node16" href="backports_8h.html" title="util/backports.h" alt="" coords="1302,80,1413,107"/>
+<area shape="rect" id="node17" href="qasconst_8h.html" title="qasconst.h" alt="" coords="1258,155,1345,181"/>
+<area shape="rect" id="node19" href="qoverload_8h.html" title="qoverload.h" alt="" coords="1369,155,1458,181"/>
 </map>
 </div>
 </div><table class="memberdecls">

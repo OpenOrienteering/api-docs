@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -95,16 +95,20 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">main_window.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/b792da0/src/gui/main_window.h"><tt>b792da0</tt></a> on 8 Jan 2017)</h3><div class="textblock"><code>#include &lt;QMainWindow&gt;</code><br />
-<code>#include &quot;<a class="el" href="autosave_8h.html">../core/autosave.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="file__format_8h.html">../fileformats/file_format.h</a>&quot;</code><br />
+<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/c9e89e9/src/gui/main_window.h"><tt>c9e89e9</tt></a> on 26 Jul 2017)</h3><div class="textblock"><code>#include &lt;Qt&gt;</code><br />
+<code>#include &lt;QMainWindow&gt;</code><br />
+<code>#include &lt;QObject&gt;</code><br />
+<code>#include &lt;QString&gt;</code><br />
+<code>#include &lt;QStringList&gt;</code><br />
+<code>#include &quot;<a class="el" href="autosave_8h.html">core/autosave.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="file__format_8h.html">fileformats/file_format.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for main_window.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="main__window_8h__incl.png" border="0" usemap="#src_2gui_2main__window_8h" alt=""/></div>
 <map name="src_2gui_2main__window_8h" id="src_2gui_2main__window_8h">
-<area shape="rect" id="node3" href="autosave_8h.html" title="../core/autosave.h" alt="" coords="137,87,263,114"/>
-<area shape="rect" id="node5" href="file__format_8h.html" title="../fileformats/file\l_format.h" alt="" coords="323,80,439,121"/>
+<area shape="rect" id="node7" href="autosave_8h.html" title="core/autosave.h" alt="" coords="789,80,903,107"/>
+<area shape="rect" id="node9" href="file__format_8h.html" title="fileformats/file_format.h" alt="" coords="445,80,604,107"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -113,29 +117,27 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="center"><img src="main__window_8h__dep__incl.png" border="0" usemap="#src_2gui_2main__window_8hdep" alt=""/></div>
 <map name="src_2gui_2main__window_8hdep" id="src_2gui_2main__window_8hdep">
 <area shape="rect" id="node2" href="autosave__dialog_8cpp.html" title="src/gui/autosave_dialog.cpp" alt="" coords="5,87,189,114"/>
-<area shape="rect" id="node3" href="color__dock__widget_8cpp.html" title="src/gui/color_dock\l_widget.cpp" alt="" coords="213,80,341,121"/>
-<area shape="rect" id="node4" href="georeferencing__dialog_8cpp.html" title="src/gui/georeferencing\l_dialog.cpp" alt="" coords="366,80,517,121"/>
-<area shape="rect" id="node5" href="home__screen__controller_8cpp.html" title="src/gui/home_screen\l_controller.cpp" alt="" coords="541,80,683,121"/>
-<area shape="rect" id="node6" href="main__window_8cpp.html" title="src/gui/main_window.cpp" alt="" coords="707,87,877,114"/>
-<area shape="rect" id="node7" href="map__editor_8cpp.html" title="src/gui/map/map_editor.cpp" alt="" coords="901,87,1083,114"/>
-<area shape="rect" id="node8" href="print__widget_8cpp.html" title="src/gui/print_widget.cpp" alt="" coords="1108,87,1268,114"/>
-<area shape="rect" id="node9" href="settings__dialog_8cpp.html" title="src/gui/settings_dialog.cpp" alt="" coords="1293,87,1470,114"/>
-<area shape="rect" id="node10" href="replace__symbol__set__dialog_8cpp.html" title="src/gui/symbols/replace\l_symbol_set_dialog.cpp" alt="" coords="1495,80,1657,121"/>
-<area shape="rect" id="node11" href="symbol__setting__dialog_8cpp.html" title="src/gui/symbols/symbol\l_setting_dialog.cpp" alt="" coords="1681,80,1841,121"/>
-<area shape="rect" id="node12" href="general__settings__page_8cpp.html" title="src/gui/widgets/general\l_settings_page.cpp" alt="" coords="1866,80,2022,121"/>
-<area shape="rect" id="node13" href="home__screen__widget_8cpp.html" title="src/gui/widgets/home\l_screen_widget.cpp" alt="" coords="2047,80,2193,121"/>
-<area shape="rect" id="node14" href="tag__select__widget_8cpp.html" title="src/gui/widgets/tag\l_select_widget.cpp" alt="" coords="2218,80,2353,121"/>
-<area shape="rect" id="node15" href="tags__widget_8cpp.html" title="src/gui/widgets/tags\l_widget.cpp" alt="" coords="2377,80,2516,121"/>
-<area shape="rect" id="node16" href="template__list__widget_8cpp.html" title="src/gui/widgets/template\l_list_widget.cpp" alt="" coords="2541,80,2705,121"/>
-<area shape="rect" id="node17" href="main_8cpp.html" title="src/main.cpp" alt="" coords="2729,87,2826,114"/>
-<area shape="rect" id="node18" href="template__adjust_8cpp.html" title="src/templates/template\l_adjust.cpp" alt="" coords="2851,80,3005,121"/>
-<area shape="rect" id="node19" href="template__position__dock__widget_8cpp.html" title="src/templates/template\l_position_dock_widget.cpp" alt="" coords="3029,80,3208,121"/>
-<area shape="rect" id="node20" href="edit__line__tool_8cpp.html" title="src/tools/edit_line\l_tool.cpp" alt="" coords="3233,80,3357,121"/>
-<area shape="rect" id="node21" href="edit__point__tool_8cpp.html" title="src/tools/edit_point\l_tool.cpp" alt="" coords="3381,80,3513,121"/>
-<area shape="rect" id="node22" href="text__object__editor__helper_8cpp.html" title="src/tools/text_object\l_editor_helper.cpp" alt="" coords="3537,80,3677,121"/>
-<area shape="rect" id="node23" href="tool_8cpp.html" title="src/tools/tool.cpp" alt="" coords="3701,87,3824,114"/>
-<area shape="rect" id="node24" href="tool__base_8cpp.html" title="src/tools/tool_base.cpp" alt="" coords="3848,87,4005,114"/>
-<area shape="rect" id="node25" href="tools__t_8cpp.html" title="test/tools_t.cpp" alt="" coords="4029,87,4141,114"/>
+<area shape="rect" id="node3" href="georeferencing__dialog_8cpp.html" title="src/gui/georeferencing\l_dialog.cpp" alt="" coords="214,80,365,121"/>
+<area shape="rect" id="node4" href="home__screen__controller_8cpp.html" title="src/gui/home_screen\l_controller.cpp" alt="" coords="389,80,531,121"/>
+<area shape="rect" id="node5" href="main__window_8cpp.html" title="src/gui/main_window.cpp" alt="" coords="555,87,725,114"/>
+<area shape="rect" id="node6" href="map__editor_8cpp.html" title="src/gui/map/map_editor.cpp" alt="" coords="749,87,931,114"/>
+<area shape="rect" id="node7" href="map__find__feature_8cpp.html" title="src/gui/map/map_find\l_feature.cpp" alt="" coords="956,80,1103,121"/>
+<area shape="rect" id="node8" href="print__widget_8cpp.html" title="src/gui/print_widget.cpp" alt="" coords="1127,87,1287,114"/>
+<area shape="rect" id="node9" href="settings__dialog_8cpp.html" title="src/gui/settings_dialog.cpp" alt="" coords="1311,87,1489,114"/>
+<area shape="rect" id="node10" href="replace__symbol__set__dialog_8cpp.html" title="src/gui/symbols/replace\l_symbol_set_dialog.cpp" alt="" coords="1513,80,1676,121"/>
+<area shape="rect" id="node11" href="symbol__setting__dialog_8cpp.html" title="src/gui/symbols/symbol\l_setting_dialog.cpp" alt="" coords="1700,80,1860,121"/>
+<area shape="rect" id="node12" href="color__list__widget_8cpp.html" title="src/gui/widgets/color\l_list_widget.cpp" alt="" coords="1885,80,2027,121"/>
+<area shape="rect" id="node13" href="general__settings__page_8cpp.html" title="src/gui/widgets/general\l_settings_page.cpp" alt="" coords="2051,80,2207,121"/>
+<area shape="rect" id="node14" href="home__screen__widget_8cpp.html" title="src/gui/widgets/home\l_screen_widget.cpp" alt="" coords="2232,80,2379,121"/>
+<area shape="rect" id="node15" href="tag__select__widget_8cpp.html" title="src/gui/widgets/tag\l_select_widget.cpp" alt="" coords="2403,80,2538,121"/>
+<area shape="rect" id="node16" href="tags__widget_8cpp.html" title="src/gui/widgets/tags\l_widget.cpp" alt="" coords="2563,80,2701,121"/>
+<area shape="rect" id="node17" href="template__list__widget_8cpp.html" title="src/gui/widgets/template\l_list_widget.cpp" alt="" coords="2726,80,2890,121"/>
+<area shape="rect" id="node18" href="main_8cpp.html" title="src/main.cpp" alt="" coords="2914,87,3011,114"/>
+<area shape="rect" id="node19" href="template__adjust_8cpp.html" title="src/templates/template\l_adjust.cpp" alt="" coords="3036,80,3191,121"/>
+<area shape="rect" id="node20" href="template__position__dock__widget_8cpp.html" title="src/templates/template\l_position_dock_widget.cpp" alt="" coords="3215,80,3393,121"/>
+<area shape="rect" id="node21" href="text__object__editor__helper_8cpp.html" title="src/tools/text_object\l_editor_helper.cpp" alt="" coords="3418,80,3558,121"/>
+<area shape="rect" id="node22" href="tool_8cpp.html" title="src/tools/tool.cpp" alt="" coords="3583,87,3705,114"/>
+<area shape="rect" id="node23" href="tools__t_8cpp.html" title="test/tools_t.cpp" alt="" coords="3729,87,3841,114"/>
 </map>
 </div>
 </div><table class="memberdecls">

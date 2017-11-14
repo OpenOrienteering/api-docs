@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -90,20 +90,25 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a>  </div>
   <div class="headertitle">
 <div class="title">line_symbol.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/d30d295/src/core/symbols/line_symbol.h"><tt>d30d295</tt></a> on 14 Jan 2017)</h3><div class="textblock"><code>#include &quot;<a class="el" href="symbol_8h.html">symbol.h</a>&quot;</code><br />
+<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/3ba38ee/src/core/symbols/line_symbol.h"><tt>3ba38ee</tt></a> on 7 Nov 2017)</h3><div class="textblock"><code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;Qt&gt;</code><br />
+<code>#include &lt;QtGlobal&gt;</code><br />
+<code>#include &lt;QString&gt;</code><br />
+<code>#include &quot;<a class="el" href="map__coord_8h.html">core/map_coord.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="symbol_8h.html">core/symbols/symbol.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for line_symbol.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="line__symbol_8h__incl.png" border="0" usemap="#src_2core_2symbols_2line__symbol_8h" alt=""/></div>
 <map name="src_2core_2symbols_2line__symbol_8h" id="src_2core_2symbols_2line__symbol_8h">
-<area shape="rect" id="node2" href="symbol_8h.html" title="symbol.h" alt="" coords="175,95,250,121"/>
-<area shape="rect" id="node6" href="map__coord_8h.html" title="core/map_coord.h" alt="" coords="265,169,392,196"/>
-<area shape="rect" id="node12" href="file__format_8h.html" title="fileformats/file_format.h" alt="" coords="457,169,616,196"/>
+<area shape="rect" id="node6" href="map__coord_8h.html" title="core/map_coord.h" alt="" coords="685,95,812,121"/>
+<area shape="rect" id="node12" href="symbol_8h.html" title="core/symbols/symbol.h" alt="" coords="294,95,451,121"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -124,20 +129,19 @@ This graph shows which files directly or indirectly include this file:</div>
 <area shape="rect" id="node13" href="ocd__file__import_8cpp.html" title="src/fileformats/ocd\l_file_import.cpp" alt="" coords="1751,184,1881,225"/>
 <area shape="rect" id="node14" href="xml__file__format_8cpp.html" title="src/fileformats/xml\l_file_format.cpp" alt="" coords="1853,95,1984,136"/>
 <area shape="rect" id="node15" href="ogr__file__format_8cpp.html" title="src/gdal/ogr_file_format.cpp" alt="" coords="2009,102,2191,129"/>
-<area shape="rect" id="node16" href="line__symbol__settings_8h.html" title="src/gui/symbols/line\l_symbol_settings.h" alt="" coords="2216,95,2355,136"/>
-<area shape="rect" id="node18" href="point__symbol__editor__widget_8cpp.html" title="src/gui/symbols/point\l_symbol_editor_widget.cpp" alt="" coords="2379,95,2559,136"/>
-<area shape="rect" id="node19" href="symbol__setting__dialog_8cpp.html" title="src/gui/symbols/symbol\l_setting_dialog.cpp" alt="" coords="2584,95,2744,136"/>
-<area shape="rect" id="node20" href="measure__widget_8cpp.html" title="src/gui/widgets/measure\l_widget.cpp" alt="" coords="2769,95,2933,136"/>
-<area shape="rect" id="node21" href="symbol__render__widget_8cpp.html" title="src/gui/widgets/symbol\l_render_widget.cpp" alt="" coords="2957,95,3113,136"/>
-<area shape="rect" id="node22" href="template__track_8cpp.html" title="src/templates/template\l_track.cpp" alt="" coords="3137,95,3292,136"/>
-<area shape="rect" id="node23" href="draw__line__and__area__tool_8cpp.html" title="src/tools/draw_line\l_and_area_tool.cpp" alt="" coords="3317,95,3451,136"/>
-<area shape="rect" id="node24" href="draw__path__tool_8cpp.html" title="src/tools/draw_path\l_tool.cpp" alt="" coords="3476,95,3612,136"/>
-<area shape="rect" id="node25" href="edit__line__tool_8cpp.html" title="src/tools/edit_line\l_tool.cpp" alt="" coords="3635,95,3759,136"/>
-<area shape="rect" id="node26" href="edit__point__tool_8cpp.html" title="src/tools/edit_point\l_tool.cpp" alt="" coords="3783,95,3915,136"/>
-<area shape="rect" id="node27" href="path__object__t_8cpp.html" title="test/path_object_t.cpp" alt="" coords="3939,102,4090,129"/>
-<area shape="rect" id="node28" href="tools__t_8cpp.html" title="test/tools_t.cpp" alt="" coords="4115,102,4227,129"/>
+<area shape="rect" id="node16" href="line__symbol__settings_8cpp.html" title="src/gui/symbols/line\l_symbol_settings.cpp" alt="" coords="2216,95,2365,136"/>
+<area shape="rect" id="node17" href="point__symbol__editor__widget_8cpp.html" title="src/gui/symbols/point\l_symbol_editor_widget.cpp" alt="" coords="2390,95,2570,136"/>
+<area shape="rect" id="node18" href="replace__symbol__set__dialog_8cpp.html" title="src/gui/symbols/replace\l_symbol_set_dialog.cpp" alt="" coords="2595,95,2757,136"/>
+<area shape="rect" id="node19" href="symbol__setting__dialog_8cpp.html" title="src/gui/symbols/symbol\l_setting_dialog.cpp" alt="" coords="2781,95,2941,136"/>
+<area shape="rect" id="node20" href="measure__widget_8cpp.html" title="src/gui/widgets/measure\l_widget.cpp" alt="" coords="2966,95,3130,136"/>
+<area shape="rect" id="node21" href="symbol__render__widget_8cpp.html" title="src/gui/widgets/symbol\l_render_widget.cpp" alt="" coords="3154,95,3310,136"/>
+<area shape="rect" id="node22" href="template__track_8cpp.html" title="src/templates/template\l_track.cpp" alt="" coords="3335,95,3489,136"/>
+<area shape="rect" id="node23" href="draw__line__and__area__tool_8cpp.html" title="src/tools/draw_line\l_and_area_tool.cpp" alt="" coords="3514,95,3649,136"/>
+<area shape="rect" id="node24" href="draw__path__tool_8cpp.html" title="src/tools/draw_path\l_tool.cpp" alt="" coords="3673,95,3809,136"/>
+<area shape="rect" id="node25" href="edit__point__tool_8cpp.html" title="src/tools/edit_point\l_tool.cpp" alt="" coords="3834,95,3966,136"/>
+<area shape="rect" id="node26" href="path__object__t_8cpp.html" title="test/path_object_t.cpp" alt="" coords="3990,102,4141,129"/>
+<area shape="rect" id="node27" href="tools__t_8cpp.html" title="test/tools_t.cpp" alt="" coords="4165,102,4277,129"/>
 <area shape="rect" id="node12" href="ocd__file__format_8cpp.html" title="src/fileformats/ocd\l_file_format.cpp" alt="" coords="1596,184,1727,225"/>
-<area shape="rect" id="node17" href="line__symbol__settings_8cpp.html" title="src/gui/symbols/line\l_symbol_settings.cpp" alt="" coords="2211,184,2360,225"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -149,7 +153,39 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLineSymbol.html">LineSymbol</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classSymbol.html" title="Abstract base class for map symbols. ">Symbol</a> for PathObjects which displays a line along the path.  <a href="classLineSymbol.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a89c026956510dbe13ac89f5b44c0b200"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="line__symbol_8h.html#a89c026956510dbe13ac89f5b44c0b200">MapCoordVector</a> = std::vector&lt; <a class="el" href="classMapCoord.html">MapCoord</a> &gt;</td></tr>
+<tr class="separator:a89c026956510dbe13ac89f5b44c0b200"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47f516089ce4f71c98d49d34ae581815"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="line__symbol_8h.html#a47f516089ce4f71c98d49d34ae581815">MapCoordVectorF</a> = std::vector&lt; <a class="el" href="classMapCoordF.html">MapCoordF</a> &gt;</td></tr>
+<tr class="separator:a47f516089ce4f71c98d49d34ae581815"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a class="anchor" id="a89c026956510dbe13ac89f5b44c0b200"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="map__coord_8h.html#af1641b855a79e4b54a4a3b789056521c">MapCoordVector</a> =  std::vector&lt;<a class="el" href="classMapCoord.html">MapCoord</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a47f516089ce4f71c98d49d34ae581815"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="map__coord_8h.html#a2304a71cff9b25b3e0a1dd22f54daa0e">MapCoordVectorF</a> =  std::vector&lt;<a class="el" href="classMapCoordF.html">MapCoordF</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

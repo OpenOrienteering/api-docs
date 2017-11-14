@@ -14,5 +14,6 @@ var searchData=
   ['linetextsymbolv11',['LineTextSymbolV11',['../structOcd_1_1LineTextSymbolV11.html',1,'Ocd']]],
   ['linetextsymbolv8',['LineTextSymbolV8',['../structOcd_1_1LineTextSymbolV8.html',1,'Ocd']]],
   ['linetextsymbolv9',['LineTextSymbolV9',['../structOcd_1_1LineTextSymbolV9.html',1,'Ocd']]],
-  ['localetest',['LocaleTest',['../classLocaleTest.html',1,'']]]
+  ['localetest',['LocaleTest',['../classLocaleTest.html',1,'']]],
+  ['logicaloperands',['LogicalOperands',['../structObjectQuery_1_1LogicalOperands.html',1,'ObjectQuery']]]
 ];

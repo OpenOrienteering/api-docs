@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -105,9 +105,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4e14474c11461493e9fe2ae2f4c560cb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXmlElementReader.html#a4e14474c11461493e9fe2ae2f4c560cb">XmlElementReader</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qxmlstreamreader.html">QXmlStreamReader</a> &amp;xml)</td></tr>
 <tr class="memdesc:a4e14474c11461493e9fe2ae2f4c560cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a new element reader on the given XML reader.  <a href="#a4e14474c11461493e9fe2ae2f4c560cb">More...</a><br /></td></tr>
 <tr class="separator:a4e14474c11461493e9fe2ae2f4c560cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19f184f8471a207700fda8724d985740"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXmlElementReader.html#a19f184f8471a207700fda8724d985740">XmlElementReader</a> (const <a class="el" href="classXmlElementReader.html">XmlElementReader</a> &amp;)=delete</td></tr>
+<tr class="separator:a19f184f8471a207700fda8724d985740"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9f44d4db59acaa538995e421aa77f71"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXmlElementReader.html#ac9f44d4db59acaa538995e421aa77f71">XmlElementReader</a> (<a class="el" href="classXmlElementReader.html">XmlElementReader</a> &amp;&amp;)=delete</td></tr>
+<tr class="separator:ac9f44d4db59acaa538995e421aa77f71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1829700a58979e68adc367fb0fce584"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXmlElementReader.html#aa1829700a58979e68adc367fb0fce584">~XmlElementReader</a> ()</td></tr>
 <tr class="memdesc:aa1829700a58979e68adc367fb0fce584"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#aa1829700a58979e68adc367fb0fce584">More...</a><br /></td></tr>
 <tr class="separator:aa1829700a58979e68adc367fb0fce584"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96068434042f7bf9fd03f84f57c0d51c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classXmlElementReader.html">XmlElementReader</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXmlElementReader.html#a96068434042f7bf9fd03f84f57c0d51c">operator=</a> (const <a class="el" href="classXmlElementReader.html">XmlElementReader</a> &amp;)=delete</td></tr>
+<tr class="separator:a96068434042f7bf9fd03f84f57c0d51c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bafd813af52899b7c1618ea13f88049"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classXmlElementReader.html">XmlElementReader</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXmlElementReader.html#a7bafd813af52899b7c1618ea13f88049">operator=</a> (<a class="el" href="classXmlElementReader.html">XmlElementReader</a> &amp;&amp;)=delete</td></tr>
+<tr class="separator:a7bafd813af52899b7c1618ea13f88049"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0dfc63c55788d0a1d5ca5cb46b595f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXmlElementReader.html#ab0dfc63c55788d0a1d5ca5cb46b595f1">hasAttribute</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qlatin1string.html">QLatin1String</a> &amp;qualifiedName) const </td></tr>
 <tr class="memdesc:ab0dfc63c55788d0a1d5ca5cb46b595f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests whether the element has an attribute with the given name.  <a href="#ab0dfc63c55788d0a1d5ca5cb46b595f1">More...</a><br /></td></tr>
 <tr class="separator:ab0dfc63c55788d0a1d5ca5cb46b595f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -187,6 +195,54 @@ Public Member Functions</h2></td></tr>
 
 <p>Constructs a new element reader on the given XML reader. </p>
 <p>It assumes to be on a QXmlStreamReader::StartElement. </p>
+
+</div>
+</div>
+<a class="anchor" id="a19f184f8471a207700fda8724d985740"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">XmlElementReader::XmlElementReader </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classXmlElementReader.html">XmlElementReader</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac9f44d4db59acaa538995e421aa77f71"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">XmlElementReader::XmlElementReader </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classXmlElementReader.html">XmlElementReader</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -532,6 +588,54 @@ template&lt;&gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a96068434042f7bf9fd03f84f57c0d51c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classXmlElementReader.html">XmlElementReader</a>&amp; XmlElementReader::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classXmlElementReader.html">XmlElementReader</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7bafd813af52899b7c1618ea13f88049"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classXmlElementReader.html">XmlElementReader</a>&amp; XmlElementReader::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classXmlElementReader.html">XmlElementReader</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a4b088441615a9214a42b0249ef8a4692"></a>
 <div class="memitem">
 <div class="memproto">
@@ -632,8 +736,8 @@ template&lt;&gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/util/<a class="el" href="xml__stream__util_8h.html">xml_stream_util.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/b36352d/src/util/xml_stream_util.h"><tt>b36352d</tt></a> on 8 May 2017)</li>
-<li>src/util/<a class="el" href="xml__stream__util_8cpp.html">xml_stream_util.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/b36352d/src/util/xml_stream_util.cpp"><tt>b36352d</tt></a> on 8 May 2017)</li>
+<li>src/util/<a class="el" href="xml__stream__util_8h.html">xml_stream_util.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/4f233a2/src/util/xml_stream_util.h"><tt>4f233a2</tt></a> on 14 Aug 2017)</li>
+<li>src/util/<a class="el" href="xml__stream__util_8cpp.html">xml_stream_util.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/c9e89e9/src/util/xml_stream_util.cpp"><tt>c9e89e9</tt></a> on 26 Jul 2017)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

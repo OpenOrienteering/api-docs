@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -100,10 +100,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <tr><td class="entry"><a class="el" href="classRenderable.html#ab9f2502939568a6210f72a4924c7f96b">getExtent</a>() const </td><td class="entry"><a class="el" href="classRenderable.html">Renderable</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classDotRenderable.html#a4f93e04c9c25b13b36e1f7ce0d34e483">getPainterConfig</a>(const QPainterPath *clip_path=nullptr) const override</td><td class="entry"><a class="el" href="classDotRenderable.html">DotRenderable</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="classRenderable.html#a40bc7c8d5a46282a5ba75fa986d94090">intersects</a>(const QRectF &amp;rect) const </td><td class="entry"><a class="el" href="classRenderable.html">Renderable</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classRenderable.html#af8fa3616aaf6ba3e1767010b334e8b27">operator=</a>(const Renderable &amp;)=default</td><td class="entry"><a class="el" href="classRenderable.html">Renderable</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classDotRenderable.html#af12d5a19504246d7fe747cc8c59f0a37">render</a>(QPainter &amp;painter, const RenderConfig &amp;config) const override</td><td class="entry"><a class="el" href="classDotRenderable.html">DotRenderable</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classRenderable.html#a9b3f78d4fbb33348b1b55dd78bbf3d0a">Renderable</a>(const MapColor *color)</td><td class="entry"><a class="el" href="classRenderable.html">Renderable</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">explicit</span><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classRenderable.html#a81124c30184676b917fd8d461cfaa70e">Renderable</a>(const Renderable &amp;)=default</td><td class="entry"><a class="el" href="classRenderable.html">Renderable</a></td><td class="entry"><span class="mlabel">explicit</span><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classRenderable.html#a5cae54028319c7b2f5fd5c3727665345">operator=</a>(const Renderable &amp;)=delete</td><td class="entry"><a class="el" href="classRenderable.html">Renderable</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classRenderable.html#ac1032c7b97f25dbabd2bdcd4441bae89">operator=</a>(Renderable &amp;&amp;)=delete</td><td class="entry"><a class="el" href="classRenderable.html">Renderable</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classDotRenderable.html#af12d5a19504246d7fe747cc8c59f0a37">render</a>(QPainter &amp;painter, const RenderConfig &amp;config) const override</td><td class="entry"><a class="el" href="classDotRenderable.html">DotRenderable</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classRenderable.html#a9b3f78d4fbb33348b1b55dd78bbf3d0a">Renderable</a>(const MapColor *color)</td><td class="entry"><a class="el" href="classRenderable.html">Renderable</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">explicit</span><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classRenderable.html#a0edb29cb0816769c1abd0eebf6566a90">Renderable</a>(const Renderable &amp;)=delete</td><td class="entry"><a class="el" href="classRenderable.html">Renderable</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classRenderable.html#acd094c29e9e3a450457039b4362fbee1">Renderable</a>(Renderable &amp;&amp;)=delete</td><td class="entry"><a class="el" href="classRenderable.html">Renderable</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classRenderable.html#adcffa4f6fc140095255378ea4eea448d">~Renderable</a>()</td><td class="entry"><a class="el" href="classRenderable.html">Renderable</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 <!-- start footer part -->

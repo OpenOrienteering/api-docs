@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -96,41 +96,50 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">ocd_file_import.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/b7c2de8/src/fileformats/ocd_file_import.h"><tt>b7c2de8</tt></a> on 8 Jan 2017)</h3><div class="textblock"><code>#include &quot;<a class="el" href="file__import__export_8h.html">file_import_export.h</a>&quot;</code><br />
-<code>#include &lt;cmath&gt;</code><br />
+<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/4d0078b/src/fileformats/ocd_file_import.h"><tt>4d0078b</tt></a> on 14 Aug 2017)</h3><div class="textblock"><code>#include &lt;cstddef&gt;</code><br />
+<code>#include &lt;initializer_list&gt;</code><br />
+<code>#include &lt;limits&gt;</code><br />
+<code>#include &lt;QtGlobal&gt;</code><br />
+<code>#include &lt;QtMath&gt;</code><br />
+<code>#include &lt;QByteArray&gt;</code><br />
+<code>#include &lt;QCoreApplication&gt;</code><br />
+<code>#include &lt;QHash&gt;</code><br />
 <code>#include &lt;QLocale&gt;</code><br />
+<code>#include &lt;QObject&gt;</code><br />
+<code>#include &lt;QScopedPointer&gt;</code><br />
+<code>#include &lt;QString&gt;</code><br />
 <code>#include &lt;QTextCodec&gt;</code><br />
-<code>#include &quot;<a class="el" href="ocd__types_8h.html">ocd_types.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="ocd__types__v8_8h.html">ocd_types_v8.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="map__coord_8h.html">core/map_coord.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="object_8h.html">core/objects/object.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="text__object_8h.html">core/objects/text_object.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="symbol_8h.html">core/symbols/symbol.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="area__symbol_8h.html">core/symbols/area_symbol.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="line__symbol_8h.html">core/symbols/line_symbol.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="point__symbol_8h.html">core/symbols/point_symbol.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="text__symbol_8h.html">core/symbols/text_symbol.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="file__import__export_8h.html">fileformats/file_import_export.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="ocd__types_8h.html">fileformats/ocd_types.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="ocd__types__v8_8h.html">fileformats/ocd_types_v8.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for ocd_file_import.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="ocd__file__import_8h__incl.png" border="0" usemap="#src_2fileformats_2ocd__file__import_8h" alt=""/></div>
 <map name="src_2fileformats_2ocd__file__import_8h" id="src_2fileformats_2ocd__file__import_8h">
-<area shape="rect" id="node2" href="file__import__export_8h.html" title="file_import_export.h" alt="" coords="186,259,322,285"/>
-<area shape="rect" id="node14" href="ocd__types_8h.html" title="ocd_types.h" alt="" coords="2301,184,2394,211"/>
-<area shape="rect" id="node18" href="ocd__types__v8_8h.html" title="ocd_types_v8.h" alt="" coords="2235,102,2350,129"/>
-<area shape="rect" id="node19" href="object_8h.html" title="core/objects/object.h" alt="" coords="1161,184,1304,211"/>
-<area shape="rect" id="node37" href="symbol_8h.html" title="core/symbols/symbol.h" alt="" coords="441,259,598,285"/>
-<area shape="rect" id="node40" href="text__object_8h.html" title="core/objects/text_object.h" alt="" coords="1772,102,1944,129"/>
-<area shape="rect" id="node43" href="area__symbol_8h.html" title="core/symbols/area_symbol.h" alt="" coords="489,184,678,211"/>
-<area shape="rect" id="node44" href="line__symbol_8h.html" title="core/symbols/line_symbol.h" alt="" coords="702,184,886,211"/>
-<area shape="rect" id="node45" href="point__symbol_8h.html" title="core/symbols/point\l_symbol.h" alt="" coords="855,95,987,136"/>
-<area shape="rect" id="node46" href="text__symbol_8h.html" title="core/symbols/text_symbol.h" alt="" coords="1011,102,1198,129"/>
-<area shape="rect" id="node7" href="file__format_8h.html" title="file_format.h" alt="" coords="249,333,344,360"/>
-<area shape="rect" id="node22" href="map__coord_8h.html" title="core/map_coord.h" alt="" coords="859,408,985,435"/>
-<area shape="rect" id="node25" href="path__coord_8h.html" title="core/path_coord.h" alt="" coords="1073,333,1200,360"/>
-<area shape="rect" id="node26" href="virtual__path_8h.html" title="core/virtual_path.h" alt="" coords="1040,259,1169,285"/>
-<area shape="rect" id="node28" href="renderable_8h.html" title="core/renderables/renderable.h" alt="" coords="1443,259,1636,285"/>
-<area shape="rect" id="node27" href="virtual__coord__vector_8h.html" title="virtual_coord_vector.h" alt="" coords="847,333,997,360"/>
-<area shape="rect" id="node32" href="map__color_8h.html" title="core/map_color.h" alt="" coords="1783,333,1906,360"/>
+<area shape="rect" id="node15" href="map__coord_8h.html" title="core/map_coord.h" alt="" coords="306,415,432,442"/>
+<area shape="rect" id="node21" href="object_8h.html" title="core/objects/object.h" alt="" coords="1138,169,1280,196"/>
+<area shape="rect" id="node38" href="text__object_8h.html" title="core/objects/text_object.h" alt="" coords="1403,95,1575,121"/>
+<area shape="rect" id="node41" href="area__symbol_8h.html" title="core/symbols/area_symbol.h" alt="" coords="2154,326,2344,353"/>
+<area shape="rect" id="node42" href="line__symbol_8h.html" title="core/symbols/line_symbol.h" alt="" coords="1946,326,2130,353"/>
+<area shape="rect" id="node43" href="point__symbol_8h.html" title="core/symbols/point\l_symbol.h" alt="" coords="2423,319,2555,360"/>
+<area shape="rect" id="node44" href="text__symbol_8h.html" title="core/symbols/text_symbol.h" alt="" coords="2896,326,3082,353"/>
+<area shape="rect" id="node46" href="file__import__export_8h.html" title="fileformats/file_import\l_export.h" alt="" coords="2329,408,2476,449"/>
+<area shape="rect" id="node48" href="ocd__types_8h.html" title="fileformats/ocd_types.h" alt="" coords="3262,169,3420,196"/>
+<area shape="rect" id="node50" href="ocd__types__v8_8h.html" title="fileformats/ocd_types_v8.h" alt="" coords="3273,95,3452,121"/>
+<area shape="rect" id="node24" href="path__coord_8h.html" title="core/path_coord.h" alt="" coords="708,326,835,353"/>
+<area shape="rect" id="node25" href="virtual__path_8h.html" title="core/virtual_path.h" alt="" coords="803,244,932,271"/>
+<area shape="rect" id="node29" href="renderable_8h.html" title="core/renderables/renderable.h" alt="" coords="1106,326,1299,353"/>
+<area shape="rect" id="node35" href="symbol_8h.html" title="core/symbols/symbol.h" alt="" coords="2500,415,2657,442"/>
+<area shape="rect" id="node28" href="virtual__coord__vector_8h.html" title="core/virtual_coord\l_vector.h" alt="" coords="558,319,684,360"/>
+<area shape="rect" id="node33" href="map__color_8h.html" title="core/map_color.h" alt="" coords="1777,415,1900,442"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">

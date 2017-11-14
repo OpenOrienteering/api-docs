@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -99,7 +99,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">libocad.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/d4548b5/src/libocad/libocad.h"><tt>d4548b5</tt></a> on 25 Jan 2014)</h3><div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
+<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/c9e89e9/src/libocad/libocad.h"><tt>c9e89e9</tt></a> on 26 Jul 2017)</h3><div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="types_8h.html">types.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="array_8h.html">array.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="geometry_8h.html">geometry.h</a>&quot;</code><br />
@@ -375,10 +375,10 @@ Functions</h2></td></tr>
 <tr class="memdesc:a6d8c9e91d8f27cc64859333b819bcedf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an OCADColor to an RGB triplet in the provided array of floats.  <a href="#a6d8c9e91d8f27cc64859333b819bcedf">More...</a><br /></td></tr>
 <tr class="separator:a6d8c9e91d8f27cc64859333b819bcedf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bb547bafb3b31958478c178ac4371f1"><td class="memItemLeft" align="right" valign="top">OCADSymbolIndex *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="libocad_8h.html#a6bb547bafb3b31958478c178ac4371f1">ocad_symidx_first</a> (<a class="el" href="libocad_8h.html#a89e544f18c7e4831e7506b7f259f69a1">OCADFile</a> *pfile)</td></tr>
-<tr class="memdesc:a6bb547bafb3b31958478c178ac4371f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the first symbol index block, or NULL if the file isn't valid.  <a href="#a6bb547bafb3b31958478c178ac4371f1">More...</a><br /></td></tr>
+<tr class="memdesc:a6bb547bafb3b31958478c178ac4371f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the first symbol index block, or nullptr if the file isn't valid.  <a href="#a6bb547bafb3b31958478c178ac4371f1">More...</a><br /></td></tr>
 <tr class="separator:a6bb547bafb3b31958478c178ac4371f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a429c1462414e5bdb7a2d0d40fed6b66b"><td class="memItemLeft" align="right" valign="top">OCADSymbolIndex *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="libocad_8h.html#a429c1462414e5bdb7a2d0d40fed6b66b">ocad_symidx_next</a> (<a class="el" href="libocad_8h.html#a89e544f18c7e4831e7506b7f259f69a1">OCADFile</a> *pfile, OCADSymbolIndex *current)</td></tr>
-<tr class="memdesc:a429c1462414e5bdb7a2d0d40fed6b66b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the next symbol index block after the given one, or NULL if there is none.  <a href="#a429c1462414e5bdb7a2d0d40fed6b66b">More...</a><br /></td></tr>
+<tr class="memdesc:a429c1462414e5bdb7a2d0d40fed6b66b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the next symbol index block after the given one, or nullptr if there is none.  <a href="#a429c1462414e5bdb7a2d0d40fed6b66b">More...</a><br /></td></tr>
 <tr class="separator:a429c1462414e5bdb7a2d0d40fed6b66b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5939152777c57c69132b0e0ba6217b2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="libocad_8h.html#ab5939152777c57c69132b0e0ba6217b2">ocad_symbol_count</a> (<a class="el" href="libocad_8h.html#a89e544f18c7e4831e7506b7f259f69a1">OCADFile</a> *pfile)</td></tr>
 <tr class="memdesc:ab5939152777c57c69132b0e0ba6217b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of symbols defined in the file, or -1 if the file is invalid.  <a href="#ab5939152777c57c69132b0e0ba6217b2">More...</a><br /></td></tr>
@@ -387,10 +387,10 @@ Functions</h2></td></tr>
 <tr class="memdesc:a7e0b27d964949b9aa322a47a0405d592"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new symbol with the given size in bytes to the file and returns a pointer to the new symbol.  <a href="#a7e0b27d964949b9aa322a47a0405d592">More...</a><br /></td></tr>
 <tr class="separator:a7e0b27d964949b9aa322a47a0405d592"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afde035a8c0c10ad5bee5b8c86c43a778"><td class="memItemLeft" align="right" valign="top">OCADSymbol *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="libocad_8h.html#afde035a8c0c10ad5bee5b8c86c43a778">ocad_symbol_at</a> (<a class="el" href="libocad_8h.html#a89e544f18c7e4831e7506b7f259f69a1">OCADFile</a> *pfile, OCADSymbolIndex *current, int index)</td></tr>
-<tr class="memdesc:afde035a8c0c10ad5bee5b8c86c43a778"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the symbol in the specified location within the index block, or NULL if there is no such symbol.  <a href="#afde035a8c0c10ad5bee5b8c86c43a778">More...</a><br /></td></tr>
+<tr class="memdesc:afde035a8c0c10ad5bee5b8c86c43a778"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the symbol in the specified location within the index block, or nullptr if there is no such symbol.  <a href="#afde035a8c0c10ad5bee5b8c86c43a778">More...</a><br /></td></tr>
 <tr class="separator:afde035a8c0c10ad5bee5b8c86c43a778"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abafdb14ebfcfb9dc9f9512a780c37d28"><td class="memItemLeft" align="right" valign="top">OCADSymbol *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="libocad_8h.html#abafdb14ebfcfb9dc9f9512a780c37d28">ocad_symbol</a> (<a class="el" href="libocad_8h.html#a89e544f18c7e4831e7506b7f259f69a1">OCADFile</a> *pfile, <a class="el" href="types_8h.html#a4b75766831a3a01bce382968825c719c">word</a> number)</td></tr>
-<tr class="memdesc:abafdb14ebfcfb9dc9f9512a780c37d28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the symbol with a particular number, or NULL if no such symbol exists.  <a href="#abafdb14ebfcfb9dc9f9512a780c37d28">More...</a><br /></td></tr>
+<tr class="memdesc:abafdb14ebfcfb9dc9f9512a780c37d28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the symbol with a particular number, or nullptr if no such symbol exists.  <a href="#abafdb14ebfcfb9dc9f9512a780c37d28">More...</a><br /></td></tr>
 <tr class="separator:abafdb14ebfcfb9dc9f9512a780c37d28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c24f261688143fcaa9ddb5c100a20cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="libocad_8h.html#a4c24f261688143fcaa9ddb5c100a20cb">ocad_symbol_uses_color</a> (const OCADSymbol *symbol, <a class="el" href="types_8h.html#aa980e2c02ba2305e0f489d5650655425">s16</a> number)</td></tr>
 <tr class="memdesc:a4c24f261688143fcaa9ddb5c100a20cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns TRUE if the symbol uses the given color number, FALSE otherwise.  <a href="#a4c24f261688143fcaa9ddb5c100a20cb">More...</a><br /></td></tr>
@@ -405,13 +405,13 @@ Functions</h2></td></tr>
 <tr class="memdesc:a5a8d1a2e31e35cd3cc263eb94651fd9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns TRUE if any of the sequence of symbol elements at the given location use the specified color.  <a href="#a5a8d1a2e31e35cd3cc263eb94651fd9b">More...</a><br /></td></tr>
 <tr class="separator:a5a8d1a2e31e35cd3cc263eb94651fd9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40c110ae0ba061e1ef47d6de75363ee4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="libocad_8h.html#a6062350ecd6038efcbbb8446f09bc105">OCADObjectIndex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="libocad_8h.html#a40c110ae0ba061e1ef47d6de75363ee4">ocad_objidx_first</a> (<a class="el" href="libocad_8h.html#a89e544f18c7e4831e7506b7f259f69a1">OCADFile</a> *pfile)</td></tr>
-<tr class="memdesc:a40c110ae0ba061e1ef47d6de75363ee4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the first object index block, or NULL if the file isn't valid.  <a href="#a40c110ae0ba061e1ef47d6de75363ee4">More...</a><br /></td></tr>
+<tr class="memdesc:a40c110ae0ba061e1ef47d6de75363ee4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the first object index block, or nullptr if the file isn't valid.  <a href="#a40c110ae0ba061e1ef47d6de75363ee4">More...</a><br /></td></tr>
 <tr class="separator:a40c110ae0ba061e1ef47d6de75363ee4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad0dd513dbecb4a182739716162fd3e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="libocad_8h.html#a6062350ecd6038efcbbb8446f09bc105">OCADObjectIndex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="libocad_8h.html#aad0dd513dbecb4a182739716162fd3e0">ocad_objidx_next</a> (<a class="el" href="libocad_8h.html#a89e544f18c7e4831e7506b7f259f69a1">OCADFile</a> *pfile, <a class="el" href="libocad_8h.html#a6062350ecd6038efcbbb8446f09bc105">OCADObjectIndex</a> *current)</td></tr>
-<tr class="memdesc:aad0dd513dbecb4a182739716162fd3e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the next object index block after the given one, or NULL if there is none.  <a href="#aad0dd513dbecb4a182739716162fd3e0">More...</a><br /></td></tr>
+<tr class="memdesc:aad0dd513dbecb4a182739716162fd3e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the next object index block after the given one, or nullptr if there is none.  <a href="#aad0dd513dbecb4a182739716162fd3e0">More...</a><br /></td></tr>
 <tr class="separator:aad0dd513dbecb4a182739716162fd3e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad47f3ec4e01487ce9506b57e40d13985"><td class="memItemLeft" align="right" valign="top">OCADObjectEntry *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="libocad_8h.html#ad47f3ec4e01487ce9506b57e40d13985">ocad_object_entry_at</a> (<a class="el" href="libocad_8h.html#a89e544f18c7e4831e7506b7f259f69a1">OCADFile</a> *pfile, <a class="el" href="libocad_8h.html#a6062350ecd6038efcbbb8446f09bc105">OCADObjectIndex</a> *current, int index)</td></tr>
-<tr class="memdesc:ad47f3ec4e01487ce9506b57e40d13985"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the given object index entry, or NULL if the file isn't valid.  <a href="#ad47f3ec4e01487ce9506b57e40d13985">More...</a><br /></td></tr>
+<tr class="memdesc:ad47f3ec4e01487ce9506b57e40d13985"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the given object index entry, or nullptr if the file isn't valid.  <a href="#ad47f3ec4e01487ce9506b57e40d13985">More...</a><br /></td></tr>
 <tr class="separator:ad47f3ec4e01487ce9506b57e40d13985"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac27f83329b0c4a860af1887f3f6353d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="libocad_8h.html#ac27f83329b0c4a860af1887f3f6353d8">ocad_object_entry_refresh</a> (<a class="el" href="libocad_8h.html#a89e544f18c7e4831e7506b7f259f69a1">OCADFile</a> *pfile, OCADObjectEntry *entry, OCADObject *object)</td></tr>
 <tr class="memdesc:ac27f83329b0c4a860af1887f3f6353d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recalculates the bounding rectangle and updates the size and symbol fields in an object index entry.  <a href="#ac27f83329b0c4a860af1887f3f6353d8">More...</a><br /></td></tr>
@@ -426,7 +426,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:aa5780795453f6dca86c9200245630722"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterates over all object entries in the file.  <a href="#aa5780795453f6dca86c9200245630722">More...</a><br /></td></tr>
 <tr class="separator:aa5780795453f6dca86c9200245630722"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77bb6ecf765f4a02ac7bde6bf08baba6"><td class="memItemLeft" align="right" valign="top">OCADObject *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="libocad_8h.html#a77bb6ecf765f4a02ac7bde6bf08baba6">ocad_object_at</a> (<a class="el" href="libocad_8h.html#a89e544f18c7e4831e7506b7f259f69a1">OCADFile</a> *pfile, <a class="el" href="libocad_8h.html#a6062350ecd6038efcbbb8446f09bc105">OCADObjectIndex</a> *current, int index)</td></tr>
-<tr class="memdesc:a77bb6ecf765f4a02ac7bde6bf08baba6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the object in the specified location within the index block, or NULL if there is no such object.  <a href="#a77bb6ecf765f4a02ac7bde6bf08baba6">More...</a><br /></td></tr>
+<tr class="memdesc:a77bb6ecf765f4a02ac7bde6bf08baba6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the object in the specified location within the index block, or nullptr if there is no such object.  <a href="#a77bb6ecf765f4a02ac7bde6bf08baba6">More...</a><br /></td></tr>
 <tr class="separator:a77bb6ecf765f4a02ac7bde6bf08baba6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbbfc18ec7d20ed688cc0cd48fbf6bdc"><td class="memItemLeft" align="right" valign="top">OCADObject *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="libocad_8h.html#acbbfc18ec7d20ed688cc0cd48fbf6bdc">ocad_object</a> (<a class="el" href="libocad_8h.html#a89e544f18c7e4831e7506b7f259f69a1">OCADFile</a> *pfile, OCADObjectEntry *entry)</td></tr>
 <tr class="memdesc:acbbfc18ec7d20ed688cc0cd48fbf6bdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to an object, given a valid pointer to its index entry.  <a href="#acbbfc18ec7d20ed688cc0cd48fbf6bdc">More...</a><br /></td></tr>
@@ -447,13 +447,13 @@ Functions</h2></td></tr>
 <tr class="memdesc:a78aefc413e83f12e4579be5c7f867711"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new object to the file.  <a href="#a78aefc413e83f12e4579be5c7f867711">More...</a><br /></td></tr>
 <tr class="separator:a78aefc413e83f12e4579be5c7f867711"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3c57ec5cf432a9119ef70cac31d8b06"><td class="memItemLeft" align="right" valign="top">OCADStringIndex *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="libocad_8h.html#aa3c57ec5cf432a9119ef70cac31d8b06">ocad_string_index_first</a> (<a class="el" href="libocad_8h.html#a89e544f18c7e4831e7506b7f259f69a1">OCADFile</a> *pfile)</td></tr>
-<tr class="memdesc:aa3c57ec5cf432a9119ef70cac31d8b06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the first string index block, or NULL if the file isn't valid.  <a href="#aa3c57ec5cf432a9119ef70cac31d8b06">More...</a><br /></td></tr>
+<tr class="memdesc:aa3c57ec5cf432a9119ef70cac31d8b06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the first string index block, or nullptr if the file isn't valid.  <a href="#aa3c57ec5cf432a9119ef70cac31d8b06">More...</a><br /></td></tr>
 <tr class="separator:aa3c57ec5cf432a9119ef70cac31d8b06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a296272a6eced800714fd0b0418213c2a"><td class="memItemLeft" align="right" valign="top">OCADStringIndex *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="libocad_8h.html#a296272a6eced800714fd0b0418213c2a">ocad_string_index_next</a> (<a class="el" href="libocad_8h.html#a89e544f18c7e4831e7506b7f259f69a1">OCADFile</a> *pfile, OCADStringIndex *current)</td></tr>
-<tr class="memdesc:a296272a6eced800714fd0b0418213c2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the next string index block after the given one, or NULL if there is none.  <a href="#a296272a6eced800714fd0b0418213c2a">More...</a><br /></td></tr>
+<tr class="memdesc:a296272a6eced800714fd0b0418213c2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the next string index block after the given one, or nullptr if there is none.  <a href="#a296272a6eced800714fd0b0418213c2a">More...</a><br /></td></tr>
 <tr class="separator:a296272a6eced800714fd0b0418213c2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65faeaee6143e16aca1086a7beacc12d"><td class="memItemLeft" align="right" valign="top">OCADStringEntry *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="libocad_8h.html#a65faeaee6143e16aca1086a7beacc12d">ocad_string_entry_at</a> (<a class="el" href="libocad_8h.html#a89e544f18c7e4831e7506b7f259f69a1">OCADFile</a> *pfile, OCADStringIndex *current, int index)</td></tr>
-<tr class="memdesc:a65faeaee6143e16aca1086a7beacc12d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the given string index entry, or NULL if the file isn't valid.  <a href="#a65faeaee6143e16aca1086a7beacc12d">More...</a><br /></td></tr>
+<tr class="memdesc:a65faeaee6143e16aca1086a7beacc12d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the given string index entry, or nullptr if the file isn't valid.  <a href="#a65faeaee6143e16aca1086a7beacc12d">More...</a><br /></td></tr>
 <tr class="separator:a65faeaee6143e16aca1086a7beacc12d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2af51476e650063b3eb7d18a59edb487"><td class="memItemLeft" align="right" valign="top">OCADStringEntry *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="libocad_8h.html#a2af51476e650063b3eb7d18a59edb487">ocad_string_entry_new</a> (<a class="el" href="libocad_8h.html#a89e544f18c7e4831e7506b7f259f69a1">OCADFile</a> *pfile, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> size)</td></tr>
 <tr class="memdesc:a2af51476e650063b3eb7d18a59edb487"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new string entry large enough to fit the specified number of bytes.  <a href="#a2af51476e650063b3eb7d18a59edb487">More...</a><br /></td></tr>
@@ -465,7 +465,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:ac74545b1ebe627f2e7946c6db28ec77c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterates over all string entries in the file.  <a href="#ac74545b1ebe627f2e7946c6db28ec77c">More...</a><br /></td></tr>
 <tr class="separator:ac74545b1ebe627f2e7946c6db28ec77c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78145f86891ef68e92f1b02d13083b04"><td class="memItemLeft" align="right" valign="top">OCADCString *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="libocad_8h.html#a78145f86891ef68e92f1b02d13083b04">ocad_string_at</a> (<a class="el" href="libocad_8h.html#a89e544f18c7e4831e7506b7f259f69a1">OCADFile</a> *pfile, OCADStringIndex *current, int index)</td></tr>
-<tr class="memdesc:a78145f86891ef68e92f1b02d13083b04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the string in the specified location within the index block, or NULL if there is no such string.  <a href="#a78145f86891ef68e92f1b02d13083b04">More...</a><br /></td></tr>
+<tr class="memdesc:a78145f86891ef68e92f1b02d13083b04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the string in the specified location within the index block, or nullptr if there is no such string.  <a href="#a78145f86891ef68e92f1b02d13083b04">More...</a><br /></td></tr>
 <tr class="separator:a78145f86891ef68e92f1b02d13083b04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8626e3f6c6f81c39a6b9390066ca843"><td class="memItemLeft" align="right" valign="top">OCADCString *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="libocad_8h.html#ae8626e3f6c6f81c39a6b9390066ca843">ocad_string</a> (<a class="el" href="libocad_8h.html#a89e544f18c7e4831e7506b7f259f69a1">OCADFile</a> *pfile, OCADStringEntry *entry)</td></tr>
 <tr class="memdesc:ae8626e3f6c6f81c39a6b9390066ca843"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to a string, given a valid pointer to its index entry.  <a href="#ae8626e3f6c6f81c39a6b9390066ca843">More...</a><br /></td></tr>
@@ -1134,7 +1134,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns a pointer to a color in the color table with the given number. </p>
-<p>If a color with that number is not found, NULL is returned. </p>
+<p>If a color with that number is not found, nullptr is returned. </p>
 
 </div>
 </div>
@@ -1163,7 +1163,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns a pointer to a particular color in the color table. </p>
-<p>If index is less than zero or greater than the maximum color index, then NULL is returned. Otherwise, a valid pointer to a color is returned. Note that the color index defined the order that colors are drawn (from top to bottom), and is independent from the color number that is used by symbol definition. The color number is available from (OCADColor *)-&gt;number. </p>
+<p>If index is less than zero or greater than the maximum color index, then nullptr is returned. Otherwise, a valid pointer to a color is returned. Note that the color index defined the order that colors are drawn (from top to bottom), and is independent from the color number that is used by symbol definition. The color number is available from (OCADColor *)-&gt;number. </p>
 
 </div>
 </div>
@@ -1421,7 +1421,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Opens a file with the given filename. </p>
-<p>The file is loaded into memory and is accessible through the various ocad_file_* methods. The first argument can either be a pointer to a pre-allocated OCADFile object (e.g., on the stack), or NULL to cause the object to be allocated on the heap. In the first case, the preallocated memory is considered to be uninitialized and will be zeroed before opening the file.</p>
+<p>The file is loaded into memory and is accessible through the various ocad_file_* methods. The first argument can either be a pointer to a pre-allocated OCADFile object (e.g., on the stack), or nullptr to cause the object to be allocated on the heap. In the first case, the preallocated memory is considered to be uninitialized and will be zeroed before opening the file.</p>
 <p>This function will verify the magic number and set up the OCAD file version.</p>
 <p>An open OCADFile can be closed with <a class="el" href="libocad_8h.html#ac595fc716c3c92481ac5ee141a619514" title="Closes an open OCADFile. ">ocad_file_close()</a>.</p>
 <p>Returns OCAD_OK on success, or one of the following error codes:</p><ul>
@@ -1606,7 +1606,7 @@ OCAD_MMAP_NOT_SUPPORTED: Memory mapping is not supported with this combination o
 </div><div class="memdoc">
 
 <p>Returns a pointer to an object, given a valid pointer to its index entry. </p>
-<p>Returns NULL if the file isn't valid or the index entry is empty. </p>
+<p>Returns nullptr if the file isn't valid or the index entry is empty. </p>
 
 </div>
 </div>
@@ -1642,7 +1642,7 @@ OCAD_MMAP_NOT_SUPPORTED: Memory mapping is not supported with this combination o
 
 <p>Adds a new object to the file. </p>
 <p>The size field should be set correctly prior to calling this function. This method can be used either to add a new object created by <a class="el" href="libocad_8h.html#a54f2887b6ac98a7c267cf896b55e0ae6" title="Allocates space for a temporary OCAD object, optionally copying it from an existing object...">ocad_object_alloc()</a>, or to duplicate an object by passing a pointer to an object already in the file.</p>
-<p>The provided object is copied into the file and is left unchanged by this call. A pointer to the new object is returned, or NULL if the object could not be added. </p>
+<p>The provided object is copied into the file and is left unchanged by this call. A pointer to the new object is returned, or nullptr if the object could not be added. </p>
 
 </div>
 </div>
@@ -1662,7 +1662,7 @@ OCAD_MMAP_NOT_SUPPORTED: Memory mapping is not supported with this combination o
 
 <p>Allocates space for a temporary OCAD object, optionally copying it from an existing object. </p>
 <p>The allocated space is the size of the largest object supported by the file format (32767 points). This object can then be manipulated with the ocad_object_* functions, and finally saved back into the file with <a class="el" href="libocad_8h.html#a78aefc413e83f12e4579be5c7f867711" title="Adds a new object to the file. ">ocad_object_add()</a> or ocad_object_replace().</p>
-<p>You may pass a NULL parameter to create a new, empty object. </p>
+<p>You may pass a nullptr parameter to create a new, empty object. </p>
 
 </div>
 </div>
@@ -1696,7 +1696,7 @@ OCAD_MMAP_NOT_SUPPORTED: Memory mapping is not supported with this combination o
       </table>
 </div><div class="memdoc">
 
-<p>Returns a pointer to the object in the specified location within the index block, or NULL if there is no such object. </p>
+<p>Returns a pointer to the object in the specified location within the index block, or nullptr if there is no such object. </p>
 
 </div>
 </div>
@@ -1730,8 +1730,8 @@ OCAD_MMAP_NOT_SUPPORTED: Memory mapping is not supported with this combination o
       </table>
 </div><div class="memdoc">
 
-<p>Returns a pointer to the given object index entry, or NULL if the file isn't valid. </p>
-<p>Also returns NULL if the index is out of range, but always returns a valid pointer if the file, index block, and index are valid. </p>
+<p>Returns a pointer to the given object index entry, or nullptr if the file isn't valid. </p>
+<p>Also returns nullptr if the index is out of range, but always returns a valid pointer if the file, index block, and index are valid. </p>
 
 </div>
 </div>
@@ -1794,7 +1794,7 @@ OCAD_MMAP_NOT_SUPPORTED: Memory mapping is not supported with this combination o
 </div><div class="memdoc">
 
 <p>Returns a pointer to the first empty object index entry large enough to fit an object with the given number of points. </p>
-<p>If no suitable object index entry is found, a new entry will be created. This method will only return NULL if the file isn't valid or if there is a memory allocation problem.</p>
+<p>If no suitable object index entry is found, a new entry will be created. This method will only return nullptr if the file isn't valid or if there is a memory allocation problem.</p>
 <p>The returned entry will have its ptr and npts fields set; the caller is responsible for writing the object into the location pointed to by ptr, and setting the symbol, min, and max fields in the index entry. ocad_object_entry_refresh provides an easy way to sync these extra fields with an existing object. </p>
 
 </div>
@@ -1948,8 +1948,8 @@ OCAD_MMAP_NOT_SUPPORTED: Memory mapping is not supported with this combination o
       </table>
 </div><div class="memdoc">
 
-<p>Returns a pointer to the first object index block, or NULL if the file isn't valid. </p>
-<p>Also returns NULL if the file contains no object. </p>
+<p>Returns a pointer to the first object index block, or nullptr if the file isn't valid. </p>
+<p>Also returns nullptr if the file contains no object. </p>
 
 </div>
 </div>
@@ -1977,7 +1977,7 @@ OCAD_MMAP_NOT_SUPPORTED: Memory mapping is not supported with this combination o
       </table>
 </div><div class="memdoc">
 
-<p>Returns a pointer to the next object index block after the given one, or NULL if there is none. </p>
+<p>Returns a pointer to the next object index block after the given one, or nullptr if there is none. </p>
 
 </div>
 </div>
@@ -2044,7 +2044,7 @@ OCAD_MMAP_NOT_SUPPORTED: Memory mapping is not supported with this combination o
 </div><div class="memdoc">
 
 <p>Initializes the given OCADPaintData object and fills it with references to all objects intersecting the specified rectangle. </p>
-<p>The rectangle may be NULL to indicate no spatial filtering.</p>
+<p>The rectangle may be nullptr to indicate no spatial filtering.</p>
 <p>If this call completes successfully, then the OCADPaintData object can be passed to <a class="el" href="libocad_8h.html#a4de5b322c10eb16fdacc8206b542d793" title="Paints the contents of a valid OCADPaintData object, by creating successive calls to the methods defi...">ocad_paint()</a>. The object can be cached and used for later calls to <a class="el" href="libocad_8h.html#a4de5b322c10eb16fdacc8206b542d793" title="Paints the contents of a valid OCADPaintData object, by creating successive calls to the methods defi...">ocad_paint()</a>, if desired. </p>
 
 </div>
@@ -2385,7 +2385,7 @@ OCAD_MMAP_NOT_SUPPORTED: Memory mapping is not supported with this combination o
 </div><div class="memdoc">
 
 <p>Returns a pointer to a particular spot color definition in the separations table. </p>
-<p>If index is less than zero, greater than the maximum color index or greater than 32, then NULL is returned. The index corresponds to the index in the spot color table at OCADColor::spot. </p>
+<p>If index is less than zero, greater than the maximum color index or greater than 32, then nullptr is returned. The index corresponds to the index in the spot color table at OCADColor::spot. </p>
 
 </div>
 </div>
@@ -2539,7 +2539,7 @@ OCAD_MMAP_NOT_SUPPORTED: Memory mapping is not supported with this combination o
 </div><div class="memdoc">
 
 <p>Returns a pointer to a string, given a valid pointer to its index entry. </p>
-<p>Returns NULL if the file isn't valid or the index entry is empty. </p>
+<p>Returns nullptr if the file isn't valid or the index entry is empty. </p>
 
 </div>
 </div>
@@ -2601,7 +2601,7 @@ OCAD_MMAP_NOT_SUPPORTED: Memory mapping is not supported with this combination o
       </table>
 </div><div class="memdoc">
 
-<p>Returns a pointer to the string in the specified location within the index block, or NULL if there is no such string. </p>
+<p>Returns a pointer to the string in the specified location within the index block, or nullptr if there is no such string. </p>
 
 </div>
 </div>
@@ -2635,8 +2635,8 @@ OCAD_MMAP_NOT_SUPPORTED: Memory mapping is not supported with this combination o
       </table>
 </div><div class="memdoc">
 
-<p>Returns a pointer to the given string index entry, or NULL if the file isn't valid. </p>
-<p>Also returns NULL if the index is out of range, but always returns a valid pointer if the file, index block, and index are valid. </p>
+<p>Returns a pointer to the given string index entry, or nullptr if the file isn't valid. </p>
+<p>Also returns nullptr if the index is out of range, but always returns a valid pointer if the file, index block, and index are valid. </p>
 
 </div>
 </div>
@@ -2699,7 +2699,7 @@ OCAD_MMAP_NOT_SUPPORTED: Memory mapping is not supported with this combination o
 </div><div class="memdoc">
 
 <p>Creates a new string entry large enough to fit the specified number of bytes. </p>
-<p>If there is an empty string index entry of sufficient size, it will be used; otherwise, a new entry will be allocated. The entry returned will have its ptr and size fields set; the size field may be larger than the size requested in the parameter. The caller is responsible for copying data into the actual string (retrieved via <a class="el" href="libocad_8h.html#ae8626e3f6c6f81c39a6b9390066ca843" title="Returns a pointer to a string, given a valid pointer to its index entry. ">ocad_string()</a>). If there is not enough memory to create a new entry, NULL is returned. </p>
+<p>If there is an empty string index entry of sufficient size, it will be used; otherwise, a new entry will be allocated. The entry returned will have its ptr and size fields set; the size field may be larger than the size requested in the parameter. The caller is responsible for copying data into the actual string (retrieved via <a class="el" href="libocad_8h.html#ae8626e3f6c6f81c39a6b9390066ca843" title="Returns a pointer to a string, given a valid pointer to its index entry. ">ocad_string()</a>). If there is not enough memory to create a new entry, nullptr is returned. </p>
 
 </div>
 </div>
@@ -2717,8 +2717,8 @@ OCAD_MMAP_NOT_SUPPORTED: Memory mapping is not supported with this combination o
       </table>
 </div><div class="memdoc">
 
-<p>Returns a pointer to the first string index block, or NULL if the file isn't valid. </p>
-<p>Also returns NULL if the file contains no object. </p>
+<p>Returns a pointer to the first string index block, or nullptr if the file isn't valid. </p>
+<p>Also returns nullptr if the file contains no object. </p>
 
 </div>
 </div>
@@ -2746,7 +2746,7 @@ OCAD_MMAP_NOT_SUPPORTED: Memory mapping is not supported with this combination o
       </table>
 </div><div class="memdoc">
 
-<p>Returns a pointer to the next string index block after the given one, or NULL if there is none. </p>
+<p>Returns a pointer to the next string index block after the given one, or nullptr if there is none. </p>
 
 </div>
 </div>
@@ -2803,7 +2803,7 @@ OCAD_MMAP_NOT_SUPPORTED: Memory mapping is not supported with this combination o
       </table>
 </div><div class="memdoc">
 
-<p>Finds the symbol with a particular number, or NULL if no such symbol exists. </p>
+<p>Finds the symbol with a particular number, or nullptr if no such symbol exists. </p>
 
 </div>
 </div>
@@ -2837,7 +2837,7 @@ OCAD_MMAP_NOT_SUPPORTED: Memory mapping is not supported with this combination o
       </table>
 </div><div class="memdoc">
 
-<p>Returns a pointer to the symbol in the specified location within the index block, or NULL if there is no such symbol. </p>
+<p>Returns a pointer to the symbol in the specified location within the index block, or nullptr if there is no such symbol. </p>
 
 </div>
 </div>
@@ -3039,8 +3039,8 @@ OCAD_MMAP_NOT_SUPPORTED: Memory mapping is not supported with this combination o
       </table>
 </div><div class="memdoc">
 
-<p>Returns a pointer to the first symbol index block, or NULL if the file isn't valid. </p>
-<p>Also returns NULL if the file contains no symbols. </p>
+<p>Returns a pointer to the first symbol index block, or nullptr if the file isn't valid. </p>
+<p>Also returns nullptr if the file contains no symbols. </p>
 
 </div>
 </div>
@@ -3068,7 +3068,7 @@ OCAD_MMAP_NOT_SUPPORTED: Memory mapping is not supported with this combination o
       </table>
 </div><div class="memdoc">
 
-<p>Returns a pointer to the next symbol index block after the given one, or NULL if there is none. </p>
+<p>Returns a pointer to the next symbol index block after the given one, or nullptr if there is none. </p>
 
 </div>
 </div>

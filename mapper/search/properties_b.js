@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['manufacturer',['manufacturer',['http://doc.qt.io/qt-5/qscreen.html#manufacturer-prop',1,'QScreen']]],
   ['margin',['margin',['http://doc.qt.io/qt-5/qlayout-obsolete.html#margin-prop',1,'QLayout::margin()'],['http://doc.qt.io/qt-5/qlabel.html#margin-prop',1,'QLabel::margin()']]],
   ['maxcount',['maxCount',['http://doc.qt.io/qt-5/qcombobox.html#maxCount-prop',1,'QComboBox']]],
   ['maximized',['maximized',['http://doc.qt.io/qt-5/qwidget.html#maximized-prop',1,'QWidget']]],
@@ -33,6 +34,7 @@ var searchData=
   ['modal',['modal',['http://doc.qt.io/qt-5/qdialog.html#modal-prop',1,'QDialog::modal()'],['http://doc.qt.io/qt-5/qwidget.html#modal-prop',1,'QWidget::modal()']]],
   ['modality',['modality',['http://doc.qt.io/qt-5/qwindow.html#modality-prop',1,'QWindow']]],
   ['mode',['mode',['http://doc.qt.io/qt-5/qlcdnumber.html#mode-prop',1,'QLCDNumber']]],
+  ['model',['model',['http://doc.qt.io/qt-5/qscreen.html#model-prop',1,'QScreen']]],
   ['modelcolumn',['modelColumn',['http://doc.qt.io/qt-5/qlistview.html#modelColumn-prop',1,'QListView::modelColumn()'],['http://doc.qt.io/qt-5/qcombobox.html#modelColumn-prop',1,'QComboBox::modelColumn()']]],
   ['modelsorting',['modelSorting',['http://doc.qt.io/qt-5/qcompleter.html#modelSorting-prop',1,'QCompleter']]],
   ['modified',['modified',['http://doc.qt.io/qt-5/qtextdocument.html#modified-prop',1,'QTextDocument::modified()'],['http://doc.qt.io/qt-5/qlineedit.html#modified-prop',1,'QLineEdit::modified()'],['http://doc.qt.io/qt-5/qtextbrowser.html#modified-prop',1,'QTextBrowser::modified()']]],

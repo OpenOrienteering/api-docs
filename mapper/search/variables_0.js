@@ -1,11 +1,9 @@
 var searchData=
 [
   ['a',['a',['../structGPSProjectionParameters.html#ae85846c8339754d7f702066090beb5f5',1,'GPSProjectionParameters']]],
-  ['about_5fpage_5furl',['about_page_url',['../about__dialog_8cpp.html#a0db3b6e7c194169552564cb675bd2e04',1,'about_dialog.cpp']]],
-  ['accesstypes',['AccessTypes',['http://doc.qt.io/qt-5/qplatformgraphicsbuffer.html#AccessType-enum',1,'QPlatformGraphicsBuffer']]],
-  ['accounted_5foffset',['accounted_offset',['../classTemplate.html#aca9401879a1452d703452d4b293df5f8',1,'Template']]],
   ['action',['action',['../structActionGridBar_1_1GridItem.html#a508545e40278329eeab6596edfa9a260',1,'ActionGridBar::GridItem']]],
   ['actions_5fchanged',['actions_changed',['../classPieMenu.html#a950db28e4e727c287e25a5173d7cf267',1,'PieMenu']]],
+  ['active',['active',['../classAzimuthInfoHelper.html#a6aa4cafc9fc0d358a0091372dd569d0d',1,'AzimuthInfoHelper']]],
   ['active_5faction',['active_action',['../classPieMenu.html#a950e9591dd40ed2027c9d2486a64572d',1,'PieMenu']]],
   ['active_5fcolor',['active_color',['../classMapEditorTool.html#a4d93e751d5b920448955dce307640a80',1,'MapEditorTool']]],
   ['active_5fmodifiers',['active_modifiers',['../classMapEditorToolBase.html#a3b95a7b3d12671cc41cc4f0f8d5e460e',1,'MapEditorToolBase']]],
@@ -23,10 +21,10 @@ var searchData=
   ['allclipped',['allClipped',['../classAdvancedPdfEnginePrivate.html#a81c84f8972a80e1c5bf8c8ad9311ad3f',1,'AdvancedPdfEnginePrivate']]],
   ['allow_5fclosing_5fpaths',['allow_closing_paths',['../classDrawPathTool.html#a2cefa5188fb31f9cd9cf2169344cfec2',1,'DrawPathTool']]],
   ['alternatenameentrytype',['AlternateNameEntryType',['http://doc.qt.io/qt-5/qssl-obsolete.html#AlternateNameEntryType-typedef',1,'QSsl']]],
-  ['anchor_5fx',['anchor_x',['../classTextRenderable.html#aa2548c218af8171e94bc0f34a7b9c610',1,'TextRenderable']]],
-  ['anchor_5fy',['anchor_y',['../classTextRenderable.html#a7eac458233b8ca9b38ced709e75bcffa',1,'TextRenderable']]],
-  ['angle',['angle',['../structAreaSymbol_1_1FillPattern.html#a73ff67be9ad82b9ce5c39a052987040d',1,'AreaSymbol::FillPattern::angle()'],['../structOcd_1_1ObjectV12.html#af9011f9f3a2d751f4b285610c07dbe46',1,'Ocd::ObjectV12::angle()'],['../structOcd_1_1ObjectV8.html#a592e0dad54f764b18b65ee68468089c9',1,'Ocd::ObjectV8::angle()'],['../structOcd_1_1ObjectV9.html#abeb09990381141f7f066142076e3d7b7',1,'Ocd::ObjectV9::angle()'],['../struct__OCADBackground.html#ae4ea60fc9ef1ef4ef8a5d9a7befac4ea',1,'_OCADBackground::angle()']]],
-  ['angle_5fhelper',['angle_helper',['../classDrawPathTool.html#ae2a65f9b10919a5702d94b7f8e092bfc',1,'DrawPathTool::angle_helper()'],['../classDrawRectangleTool.html#a24eeb4b680632974cb335fd1c101f184',1,'DrawRectangleTool::angle_helper()'],['../classMapEditorToolBase.html#af133409d9a23617694cd2e35118c8a3c',1,'MapEditorToolBase::angle_helper()']]],
+  ['anchor_5fx',['anchor_x',['../classTextRenderable.html#a8cf3e579f75aefea661151d8ca7583d4',1,'TextRenderable']]],
+  ['anchor_5fy',['anchor_y',['../classTextRenderable.html#acd37ce2e808338bf85f7ed0a398f5fb6',1,'TextRenderable']]],
+  ['angle',['angle',['../structObjectOp_1_1Rotate.html#a6b85defee98dfc2e5a16c98299a8706a',1,'ObjectOp::Rotate::angle()'],['../structAreaSymbol_1_1FillPattern.html#a73ff67be9ad82b9ce5c39a052987040d',1,'AreaSymbol::FillPattern::angle()'],['../structOcd_1_1ObjectV12.html#af9011f9f3a2d751f4b285610c07dbe46',1,'Ocd::ObjectV12::angle()'],['../structOcd_1_1ObjectV8.html#a592e0dad54f764b18b65ee68468089c9',1,'Ocd::ObjectV8::angle()'],['../structOcd_1_1ObjectV9.html#abeb09990381141f7f066142076e3d7b7',1,'Ocd::ObjectV9::angle()'],['../struct__OCADBackground.html#ae4ea60fc9ef1ef4ef8a5d9a7befac4ea',1,'_OCADBackground::angle()']]],
+  ['angle_5fhelper',['angle_helper',['../classDrawPathTool.html#a39d61a73095724c5c5d3965268071a56',1,'DrawPathTool::angle_helper()'],['../classDrawRectangleTool.html#a24eeb4b680632974cb335fd1c101f184',1,'DrawRectangleTool::angle_helper()'],['../classMapEditorToolBase.html#a92a010bb5760f4aff1a2afc511f57aec',1,'MapEditorToolBase::angle_helper()']]],
   ['angles',['angles',['../classDrawRectangleTool.html#ad7f01703606dc1d3ed0af26332669101',1,'DrawRectangleTool']]],
   ['annotations',['annotations',['../classAdvancedPdfPage.html#ad204f56e5ab585de22ce2b8120e184fb',1,'AdvancedPdfPage']]],
   ['app_5ftranslator',['app_translator',['../classTranslationUtil.html#a05bbfa5175813618fe4dec9048387370',1,'TranslationUtil']]],
@@ -44,5 +42,8 @@ var searchData=
   ['autoformatting',['AutoFormatting',['http://doc.qt.io/qt-5/qtextedit.html#AutoFormattingFlag-enum',1,'QTextEdit']]],
   ['autosave_5finterval',['autosave_interval',['../classAutosaveTest.html#a5ba4913bd0596d900327e26542488e05',1,'AutosaveTest']]],
   ['available_5fgeoref',['available_georef',['../classTemplateImage.html#a685c723160bf12d778f6061879c5f48e',1,'TemplateImage']]],
-  ['azimuth',['azimuth',['../classCompassDisplay.html#a76744fe9abf7d11b146420170f51f60d',1,'CompassDisplay']]]
+  ['azimuth',['azimuth',['../classCompassDisplay.html#a76744fe9abf7d11b146420170f51f60d',1,'CompassDisplay']]],
+  ['azimuth_5fbutton',['azimuth_button',['../classDrawPathTool.html#a0473c6915390599bcc8da7184d2eaaf6',1,'DrawPathTool']]],
+  ['azimuth_5fhelper',['azimuth_helper',['../classDrawPathTool.html#a7c5feda2846488e76b122869d360f84f',1,'DrawPathTool']]],
+  ['azimuth_5ftemplate',['azimuth_template',['../classAzimuthInfoHelper.html#aa1e4506b9b85fcce298a7ec6128d9fca',1,'AzimuthInfoHelper']]]
 ];

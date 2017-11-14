@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -91,12 +91,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">symbol_render_widget.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/b7c2de8/src/gui/widgets/symbol_render_widget.cpp"><tt>b7c2de8</tt></a> on 8 Jan 2017)</h3><div class="textblock"><code>#include &quot;<a class="el" href="symbol__render__widget_8h.html">symbol_render_widget.h</a>&quot;</code><br />
+<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/3ba38ee/src/gui/widgets/symbol_render_widget.cpp"><tt>3ba38ee</tt></a> on 7 Nov 2017)</h3><div class="textblock"><code>#include &quot;<a class="el" href="symbol__render__widget_8h.html">symbol_render_widget.h</a>&quot;</code><br />
 <code>#include &lt;QApplication&gt;</code><br />
 <code>#include &lt;QBuffer&gt;</code><br />
 <code>#include &lt;QClipboard&gt;</code><br />
@@ -109,46 +110,39 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <code>#include &lt;QPaintEvent&gt;</code><br />
 <code>#include &lt;QResizeEvent&gt;</code><br />
 <code>#include &lt;QScopedValueRollback&gt;</code><br />
-<code>#include &quot;<a class="el" href="map__color_8h.html">core/map_color.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="settings_8h.html">settings.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="map_8h.html">core/map.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="object_8h.html">core/objects/object.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="settings_8h.html">../../settings.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="symbol_8h.html">core/symbols/symbol.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="area__symbol_8h.html">core/symbols/area_symbol.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="combined__symbol_8h.html">core/symbols/combined_symbol.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="line__symbol_8h.html">core/symbols/line_symbol.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="point__symbol_8h.html">core/symbols/point_symbol.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="symbol__setting__dialog_8h.html">gui/symbols/symbol_setting_dialog.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="symbol_8h.html">core/symbols/symbol.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="text__symbol_8h.html">core/symbols/text_symbol.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="overriding__shortcut_8h.html">../../util/overriding_shortcut.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="symbol__tooltip_8h.html">symbol_tooltip.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="symbol__setting__dialog_8h.html">gui/symbols/symbol_setting_dialog.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="symbol__tooltip_8h.html">gui/widgets/symbol_tooltip.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="backports_8h.html">util/backports.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="overriding__shortcut_8h.html">util/overriding_shortcut.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for symbol_render_widget.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="symbol__render__widget_8cpp__incl.png" border="0" usemap="#src_2gui_2widgets_2symbol__render__widget_8cpp" alt=""/></div>
 <map name="src_2gui_2widgets_2symbol__render__widget_8cpp" id="src_2gui_2widgets_2symbol__render__widget_8cpp">
-<area shape="rect" id="node2" href="symbol__render__widget_8h.html" title="symbol_render_widget.h" alt="" coords="152,184,315,211"/>
-<area shape="rect" id="node18" href="map__color_8h.html" title="core/map_color.h" alt="" coords="1496,259,1619,285"/>
-<area shape="rect" id="node25" href="map_8h.html" title="core/map.h" alt="" coords="543,184,630,211"/>
-<area shape="rect" id="node34" href="object_8h.html" title="core/objects/object.h" alt="" coords="1569,102,1711,129"/>
-<area shape="rect" id="node40" href="symbol_8h.html" title="core/symbols/symbol.h" alt="" coords="1119,184,1276,211"/>
-<area shape="rect" id="node41" href="settings_8h.html" title="../../settings.h" alt="" coords="863,184,966,211"/>
-<area shape="rect" id="node43" href="area__symbol_8h.html" title="core/symbols/area_symbol.h" alt="" coords="493,102,683,129"/>
-<area shape="rect" id="node44" href="combined__symbol_8h.html" title="core/symbols/combined\l_symbol.h" alt="" coords="707,95,867,136"/>
-<area shape="rect" id="node45" href="line__symbol_8h.html" title="core/symbols/line_symbol.h" alt="" coords="891,102,1075,129"/>
-<area shape="rect" id="node46" href="point__symbol_8h.html" title="core/symbols/point\l_symbol.h" alt="" coords="1099,95,1231,136"/>
-<area shape="rect" id="node47" href="symbol__setting__dialog_8h.html" title="gui/symbols/symbol\l_setting_dialog.h" alt="" coords="3135,95,3273,136"/>
-<area shape="rect" id="node48" href="text__symbol_8h.html" title="core/symbols/text_symbol.h" alt="" coords="1256,102,1443,129"/>
-<area shape="rect" id="node49" href="overriding__shortcut_8h.html" title="../../util/overriding\l_shortcut.h" alt="" coords="3297,95,3420,136"/>
-<area shape="rect" id="node50" href="symbol__tooltip_8h.html" title="symbol_tooltip.h" alt="" coords="5,184,123,211"/>
-<area shape="rect" id="node29" href="global_8h.html" title="global.h" alt="" coords="589,259,656,285"/>
-<area shape="rect" id="node30" href="map__coord_8h.html" title="map_coord.h" alt="" coords="1846,333,1943,360"/>
-<area shape="rect" id="node31" href="map__grid_8h.html" title="map_grid.h" alt="" coords="731,259,818,285"/>
-<area shape="rect" id="node32" href="file__format_8h.html" title="fileformats/file_format.h" alt="" coords="1086,259,1245,285"/>
-<area shape="rect" id="node33" href="map__part_8h.html" title="map_part.h" alt="" coords="377,259,463,285"/>
-<area shape="rect" id="node37" href="path__coord_8h.html" title="core/path_coord.h" alt="" coords="2091,259,2218,285"/>
-<area shape="rect" id="node38" href="virtual__path_8h.html" title="core/virtual_path.h" alt="" coords="1947,184,2077,211"/>
-<area shape="rect" id="node39" href="renderable_8h.html" title="core/renderables/renderable.h" alt="" coords="1575,184,1769,211"/>
+<area shape="rect" id="node2" href="symbol__render__widget_8h.html" title="symbol_render_widget.h" alt="" coords="5,102,168,129"/>
+<area shape="rect" id="node22" href="settings_8h.html" title="settings.h" alt="" coords="1750,102,1829,129"/>
+<area shape="rect" id="node26" href="map_8h.html" title="core/map.h" alt="" coords="2205,102,2291,129"/>
+<area shape="rect" id="node40" href="object_8h.html" title="core/objects/object.h" alt="" coords="2749,102,2891,129"/>
+<area shape="rect" id="node41" href="symbol_8h.html" title="core/symbols/symbol.h" alt="" coords="3305,184,3463,211"/>
+<area shape="rect" id="node42" href="area__symbol_8h.html" title="core/symbols/area_symbol.h" alt="" coords="2925,102,3115,129"/>
+<area shape="rect" id="node43" href="combined__symbol_8h.html" title="core/symbols/combined\l_symbol.h" alt="" coords="3765,95,3925,136"/>
+<area shape="rect" id="node44" href="line__symbol_8h.html" title="core/symbols/line_symbol.h" alt="" coords="3400,102,3584,129"/>
+<area shape="rect" id="node45" href="point__symbol_8h.html" title="core/symbols/point\l_symbol.h" alt="" coords="3609,95,3741,136"/>
+<area shape="rect" id="node46" href="text__symbol_8h.html" title="core/symbols/text_symbol.h" alt="" coords="3139,102,3325,129"/>
+<area shape="rect" id="node47" href="symbol__setting__dialog_8h.html" title="gui/symbols/symbol\l_setting_dialog.h" alt="" coords="2041,95,2180,136"/>
+<area shape="rect" id="node48" href="symbol__tooltip_8h.html" title="gui/widgets/symbol\l_tooltip.h" alt="" coords="1591,95,1726,136"/>
+<area shape="rect" id="node49" href="backports_8h.html" title="util/backports.h" alt="" coords="3895,184,4006,211"/>
+<area shape="rect" id="node50" href="overriding__shortcut_8h.html" title="util/overriding_shortcut.h" alt="" coords="1853,102,2017,129"/>
+<area shape="rect" id="node39" href="map__coord_8h.html" title="core/map_coord.h" alt="" coords="2655,184,2782,211"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -168,6 +162,15 @@ Classes</h2></td></tr>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceMimeType"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMimeType.html">MimeType</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a548f208985bc9fbe501e6bb2f01cc934"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMimeType.html#a548f208985bc9fbe501e6bb2f01cc934">MimeType::OpenOrienteeringSymbolIndex</a> ()</td></tr>
+<tr class="memdesc:a548f208985bc9fbe501e6bb2f01cc934"><td class="mdescLeft">&#160;</td><td class="mdescRight">The index of a symbol during drag-and-drop.  <a href="namespaceMimeType.html#a548f208985bc9fbe501e6bb2f01cc934">More...</a><br /></td></tr>
+<tr class="separator:a548f208985bc9fbe501e6bb2f01cc934"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe6c37d2f3aea8915c9f7d0f53e6938a"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMimeType.html#afe6c37d2f3aea8915c9f7d0f53e6938a">MimeType::OpenOrienteeringSymbols</a> ()</td></tr>
+<tr class="memdesc:afe6c37d2f3aea8915c9f7d0f53e6938a"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classSymbol.html" title="Abstract base class for map symbols. ">Symbol</a> definitions.  <a href="namespaceMimeType.html#afe6c37d2f3aea8915c9f7d0f53e6938a">More...</a><br /></td></tr>
+<tr class="separator:afe6c37d2f3aea8915c9f7d0f53e6938a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

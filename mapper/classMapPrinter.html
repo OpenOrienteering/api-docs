@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -140,7 +140,7 @@ Public Slots</h2></td></tr>
 <tr class="memdesc:a013a092f6f1ce85dfa9ec1e515898727"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the map area which is to be printed.  <a href="#a013a092f6f1ce85dfa9ec1e515898727">More...</a><br /></td></tr>
 <tr class="separator:a013a092f6f1ce85dfa9ec1e515898727"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5a5170005e33b758c19283a10bbef8b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapPrinter.html#af5a5170005e33b758c19283a10bbef8b">setPaperSize</a> (const int size)</td></tr>
-<tr class="memdesc:af5a5170005e33b758c19283a10bbef8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the QPrinter::PaperSize to be used.  <a href="#af5a5170005e33b758c19283a10bbef8b">More...</a><br /></td></tr>
+<tr class="memdesc:af5a5170005e33b758c19283a10bbef8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the <a class="elRef" doxygen="qtprintsupport.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qprinter.html#PaperSize-typedef">QPrinter::PaperSize</a> to be used.  <a href="#af5a5170005e33b758c19283a10bbef8b">More...</a><br /></td></tr>
 <tr class="separator:af5a5170005e33b758c19283a10bbef8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06efc389b73336bfe42ef6aade6ba408"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapPrinter.html#a06efc389b73336bfe42ef6aade6ba408">setCustomPaperSize</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qsizef.html">QSizeF</a> dimensions)</td></tr>
 <tr class="memdesc:a06efc389b73336bfe42ef6aade6ba408"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a custom paper size with the given dimensions.  <a href="#a06efc389b73336bfe42ef6aade6ba408">More...</a><br /></td></tr>
@@ -193,18 +193,18 @@ Signals</h2></td></tr>
 <tr class="memitem:ad25f06628a2962284a1207ebfb158229"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapPrinter.html#ad25f06628a2962284a1207ebfb158229">optionsChanged</a> (const <a class="el" href="classMapPrinterOptions.html">MapPrinterOptions</a> &amp;<a class="el" href="classMapPrinterConfig.html#a11898f4ea7a2aa71e1a5025261d0d519">options</a>) const </td></tr>
 <tr class="memdesc:ad25f06628a2962284a1207ebfb158229"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates a change in the rendering options.  <a href="#ad25f06628a2962284a1207ebfb158229">More...</a><br /></td></tr>
 <tr class="separator:ad25f06628a2962284a1207ebfb158229"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f5ef309b786e56e650f9a9bc0d4672d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapPrinter.html#a9f5ef309b786e56e650f9a9bc0d4672d">printProgress</a> (int value, <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> status) const </td></tr>
-<tr class="memdesc:a9f5ef309b786e56e650f9a9bc0d4672d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted during <a class="el" href="classMapPrinter.html#aea2ffe909035874f33573d6899d92c1a" title="Prints the map to the given printer. ">printMap()</a> to indicate progress.  <a href="#a9f5ef309b786e56e650f9a9bc0d4672d">More...</a><br /></td></tr>
-<tr class="separator:a9f5ef309b786e56e650f9a9bc0d4672d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed1e70a8d34b3118923d3326d913ce4b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapPrinter.html#aed1e70a8d34b3118923d3326d913ce4b">printProgress</a> (int value, const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;status) const </td></tr>
+<tr class="memdesc:aed1e70a8d34b3118923d3326d913ce4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted during <a class="el" href="classMapPrinter.html#aea2ffe909035874f33573d6899d92c1a" title="Prints the map to the given printer. ">printMap()</a> to indicate progress.  <a href="#aed1e70a8d34b3118923d3326d913ce4b">More...</a><br /></td></tr>
+<tr class="separator:aed1e70a8d34b3118923d3326d913ce4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aadf5b4a6138e210b87e7e685a69473a4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapPrinter.html#aadf5b4a6138e210b87e7e685a69473a4">MapPrinter</a> (<a class="el" href="classMap.html">Map</a> &amp;<a class="el" href="classMapPrinter.html#a626e20cbe2589d7f19d44342529eae6f">map</a>, const <a class="el" href="classMapView.html">MapView</a> *<a class="el" href="classMapPrinter.html#aa4327eecf50fe7ef65825fc4b4744ee8">view</a>, <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html">QObject</a> *<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#parent">parent</a>=nullptr)</td></tr>
 <tr class="memdesc:aadf5b4a6138e210b87e7e685a69473a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a new <a class="el" href="classMapPrinter.html" title="MapPrinter provides an interface to print a map (to a printer or file). ">MapPrinter</a> for the given map and (optional) view.  <a href="#aadf5b4a6138e210b87e7e685a69473a4">More...</a><br /></td></tr>
 <tr class="separator:aadf5b4a6138e210b87e7e685a69473a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9272c67206ea24fc8cf58eabf18a2ff1"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapPrinter.html#a9272c67206ea24fc8cf58eabf18a2ff1">~MapPrinter</a> ()</td></tr>
-<tr class="memdesc:a9272c67206ea24fc8cf58eabf18a2ff1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a9272c67206ea24fc8cf58eabf18a2ff1">More...</a><br /></td></tr>
-<tr class="separator:a9272c67206ea24fc8cf58eabf18a2ff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a20b2866baedc043b1b818f9fff1d60"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapPrinter.html#a1a20b2866baedc043b1b818f9fff1d60">~MapPrinter</a> () override</td></tr>
+<tr class="memdesc:a1a20b2866baedc043b1b818f9fff1d60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a1a20b2866baedc043b1b818f9fff1d60">More...</a><br /></td></tr>
+<tr class="separator:a1a20b2866baedc043b1b818f9fff1d60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad1334184a4cf89630238f504e2c2fa2"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="qtprintsupport.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qprinterinfo.html">QPrinterInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapPrinter.html#aad1334184a4cf89630238f504e2c2fa2">getTarget</a> () const </td></tr>
 <tr class="memdesc:aad1334184a4cf89630238f504e2c2fa2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the configured target printer in terms of <a class="elRef" doxygen="qtprintsupport.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qprinterinfo.html">QPrinterInfo</a>.  <a href="#aad1334184a4cf89630238f504e2c2fa2">More...</a><br /></td></tr>
 <tr class="separator:aad1334184a4cf89630238f504e2c2fa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -285,6 +285,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:moveToThread inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:startTimer inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#startTimer">startTimer</a> (int interval, Qt::TimerType timerType)</td></tr>
 <tr class="separator:startTimer inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:startTimer-1 inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#startTimer-1">startTimer</a> (std::chrono::milliseconds time, Qt::TimerType timerType)</td></tr>
+<tr class="separator:startTimer-1 inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:killTimer inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#killTimer">killTimer</a> (int id)</td></tr>
 <tr class="separator:killTimer inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:findChild inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#findChild">findChild</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;name, <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qt.html#FindChildOption-enum">Qt::FindChildOptions</a> options) const</td></tr>
@@ -309,9 +311,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:disconnect-2 inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:disconnect-3 inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#disconnect-3">disconnect</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html">QObject</a> *receiver, const char *method) const</td></tr>
 <tr class="separator:disconnect-3 inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:dumpObjectTree inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#dumpObjectTree">dumpObjectTree</a> ()</td></tr>
+<tr class="memitem:dumpObjectTree-1 inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject-obsolete.html#dumpObjectTree-1">dumpObjectTree</a> ()</td></tr>
+<tr class="separator:dumpObjectTree-1 inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:dumpObjectInfo-1 inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject-obsolete.html#dumpObjectInfo-1">dumpObjectInfo</a> ()</td></tr>
+<tr class="separator:dumpObjectInfo-1 inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:dumpObjectTree inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#dumpObjectTree">dumpObjectTree</a> () const</td></tr>
 <tr class="separator:dumpObjectTree inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:dumpObjectInfo inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#dumpObjectInfo">dumpObjectInfo</a> ()</td></tr>
+<tr class="memitem:dumpObjectInfo inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#dumpObjectInfo">dumpObjectInfo</a> () const</td></tr>
 <tr class="separator:dumpObjectInfo inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:setProperty inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#setProperty">setProperty</a> (const char *name, const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qvariant.html">QVariant</a> &amp;value)</td></tr>
 <tr class="separator:setProperty inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -500,7 +506,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9272c67206ea24fc8cf58eabf18a2ff1"></a>
+<a class="anchor" id="a1a20b2866baedc043b1b818f9fff1d60"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -516,7 +522,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1116,7 +1122,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9f5ef309b786e56e650f9a9bc0d4672d"></a>
+<a class="anchor" id="aed1e70a8d34b3118923d3326d913ce4b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1132,7 +1138,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a>&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;&#160;</td>
           <td class="paramname"><em>status</em>&#160;</td>
         </tr>
         <tr>
@@ -1397,7 +1403,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Sets the QPrinter::PaperSize to be used. </p>
+<p>Sets the <a class="elRef" doxygen="qtprintsupport.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qprinter.html#PaperSize-typedef">QPrinter::PaperSize</a> to be used. </p>
 
 </div>
 </div>
@@ -1893,8 +1899,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/core/<a class="el" href="map__printer_8h.html">map_printer.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/8c0c83e/src/core/map_printer.h"><tt>8c0c83e</tt></a> on 30 Jun 2016)</li>
-<li>src/core/<a class="el" href="map__printer_8cpp.html">map_printer.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/2381807/src/core/map_printer.cpp"><tt>2381807</tt></a> on 10 May 2017)</li>
+<li>src/core/<a class="el" href="map__printer_8h.html">map_printer.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/4d0078b/src/core/map_printer.h"><tt>4d0078b</tt></a> on 14 Aug 2017)</li>
+<li>src/core/<a class="el" href="map__printer_8cpp.html">map_printer.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/4aa896f/src/core/map_printer.cpp"><tt>4aa896f</tt></a> on 23 Aug 2017)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -90,6 +90,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classPointHandles-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">PointHandles Class Reference</div>  </div>
@@ -124,18 +125,24 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:afae98d06386031bcccfc91d62fb2d460"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPointHandles.html#afae98d06386031bcccfc91d62fb2d460">PointHandles</a> (int scale_factor)</td></tr>
-<tr class="memdesc:afae98d06386031bcccfc91d62fb2d460"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a new point handles utility.  <a href="#afae98d06386031bcccfc91d62fb2d460">More...</a><br /></td></tr>
-<tr class="separator:afae98d06386031bcccfc91d62fb2d460"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca31c2c21057fb4fc6c534e6fa9e36fe"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPointHandles.html#aca31c2c21057fb4fc6c534e6fa9e36fe">scaleFactor</a> () const </td></tr>
-<tr class="memdesc:aca31c2c21057fb4fc6c534e6fa9e36fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">The factor by which all drawing shall be scaled.  <a href="#aca31c2c21057fb4fc6c534e6fa9e36fe">More...</a><br /></td></tr>
-<tr class="separator:aca31c2c21057fb4fc6c534e6fa9e36fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b161979116288f64410bd5e9630471b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPointHandles.html#a6b161979116288f64410bd5e9630471b">PointHandles</a> () noexcept</td></tr>
+<tr class="memdesc:a6b161979116288f64410bd5e9630471b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="#a6b161979116288f64410bd5e9630471b">More...</a><br /></td></tr>
+<tr class="separator:a6b161979116288f64410bd5e9630471b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a593a773ec5ffa75954803fce864bb8e3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPointHandles.html#a593a773ec5ffa75954803fce864bb8e3">PointHandles</a> (unsigned int factor)</td></tr>
+<tr class="memdesc:a593a773ec5ffa75954803fce864bb8e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a point handles utility for the given scale factor.  <a href="#a593a773ec5ffa75954803fce864bb8e3">More...</a><br /></td></tr>
+<tr class="separator:a593a773ec5ffa75954803fce864bb8e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa13bdd40a6a21a127b2e5941898e8d91"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPointHandles.html#aa13bdd40a6a21a127b2e5941898e8d91">scaleFactor</a> () const </td></tr>
+<tr class="memdesc:aa13bdd40a6a21a127b2e5941898e8d91"><td class="mdescLeft">&#160;</td><td class="mdescRight">The factor by which all drawing shall be scaled.  <a href="#aa13bdd40a6a21a127b2e5941898e8d91">More...</a><br /></td></tr>
+<tr class="separator:aa13bdd40a6a21a127b2e5941898e8d91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5cbd31fde9784bafc59c646b9a4f9e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPointHandles.html#ad5cbd31fde9784bafc59c646b9a4f9e3">setScaleFactor</a> (unsigned int factor)</td></tr>
+<tr class="memdesc:ad5cbd31fde9784bafc59c646b9a4f9e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the scale factor.  <a href="#ad5cbd31fde9784bafc59c646b9a4f9e3">More...</a><br /></td></tr>
+<tr class="separator:ad5cbd31fde9784bafc59c646b9a4f9e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb39ce1dfb1e081f35ea7deb68a21260"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPointHandles.html#adb39ce1dfb1e081f35ea7deb68a21260">displayRadius</a> () const </td></tr>
+<tr class="memdesc:adb39ce1dfb1e081f35ea7deb68a21260"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of covered pixels around the center of a point handle.  <a href="#adb39ce1dfb1e081f35ea7deb68a21260">More...</a><br /></td></tr>
+<tr class="separator:adb39ce1dfb1e081f35ea7deb68a21260"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55269dae2b7a264affaf0a2e47f97af4"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qimage.html">QImage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPointHandles.html#a55269dae2b7a264affaf0a2e47f97af4">image</a> () const </td></tr>
 <tr class="memdesc:a55269dae2b7a264affaf0a2e47f97af4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The control point handles image.  <a href="#a55269dae2b7a264affaf0a2e47f97af4">More...</a><br /></td></tr>
 <tr class="separator:a55269dae2b7a264affaf0a2e47f97af4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84abe42bdfa2f0f6ee042bf9b10cb389"><td class="memItemLeft" align="right" valign="top">QRgb&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPointHandles.html#a84abe42bdfa2f0f6ee042bf9b10cb389">stateColor</a> (<a class="el" href="classPointHandles.html#a1885565fde35bb98ee4253f3cabdc2df">PointHandleState</a> state) const </td></tr>
-<tr class="memdesc:a84abe42bdfa2f0f6ee042bf9b10cb389"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the color in which point handles with the given state will be displayed.  <a href="#a84abe42bdfa2f0f6ee042bf9b10cb389">More...</a><br /></td></tr>
-<tr class="separator:a84abe42bdfa2f0f6ee042bf9b10cb389"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a104f2aae2ff9ac84145c5c8ddb7b0c13"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPointHandles.html#a104f2aae2ff9ac84145c5c8ddb7b0c13">draw</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpainter.html">QPainter</a> *painter, <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpointf.html">QPointF</a> position, <a class="el" href="classPointHandles.html#abf73f2afb54fb3b77acb082fa178993e">PointHandleType</a> type, <a class="el" href="classPointHandles.html#a1885565fde35bb98ee4253f3cabdc2df">PointHandleState</a> state) const </td></tr>
 <tr class="memdesc:a104f2aae2ff9ac84145c5c8ddb7b0c13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a single handle.  <a href="#a104f2aae2ff9ac84145c5c8ddb7b0c13">More...</a><br /></td></tr>
 <tr class="separator:a104f2aae2ff9ac84145c5c8ddb7b0c13"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -145,6 +152,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5c986e9a127191770d77ec8992ec4057"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPointHandles.html#a5c986e9a127191770d77ec8992ec4057">drawCurveHandleLine</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpainter.html">QPainter</a> *painter, <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpointf.html">QPointF</a> anchor_point, <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpointf.html">QPointF</a> curve_handle, <a class="el" href="classPointHandles.html#abf73f2afb54fb3b77acb082fa178993e">PointHandleType</a> type, <a class="el" href="classPointHandles.html#a1885565fde35bb98ee4253f3cabdc2df">PointHandleState</a> state) const </td></tr>
 <tr class="memdesc:a5c986e9a127191770d77ec8992ec4057"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a point handle line.  <a href="#a5c986e9a127191770d77ec8992ec4057">More...</a><br /></td></tr>
 <tr class="separator:a5c986e9a127191770d77ec8992ec4057"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:afa04a364c6744b2362911287fb60fd4d"><td class="memItemLeft" align="right" valign="top">static QRgb&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPointHandles.html#afa04a364c6744b2362911287fb60fd4d">stateColor</a> (<a class="el" href="classPointHandles.html#a1885565fde35bb98ee4253f3cabdc2df">PointHandleState</a> state)</td></tr>
+<tr class="memdesc:afa04a364c6744b2362911287fb60fd4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the color in which point handles with the given state will be displayed.  <a href="#afa04a364c6744b2362911287fb60fd4d">More...</a><br /></td></tr>
+<tr class="separator:afa04a364c6744b2362911287fb60fd4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class deals with anchor and control points for objects. </p>
@@ -202,26 +215,76 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="afae98d06386031bcccfc91d62fb2d460"></a>
+<a class="anchor" id="a6b161979116288f64410bd5e9630471b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PointHandles::PointHandles </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Default constructor. </p>
+<p>The resulting object is in a valid stable, but not really useful until calling <a class="el" href="classPointHandles.html#ad5cbd31fde9784bafc59c646b9a4f9e3" title="Sets the scale factor. ">setScaleFactor()</a>. </p>
+
+</div>
+</div>
+<a class="anchor" id="a593a773ec5ffa75954803fce864bb8e3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">PointHandles::PointHandles </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>scale_factor</em></td><td>)</td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>factor</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Constructs a new point handles utility. </p>
-<p>The constructor assures that current settings are used. </p>
+<p>Constructs a point handles utility for the given scale factor. </p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="adb39ce1dfb1e081f35ea7deb68a21260"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int PointHandles::displayRadius </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The number of covered pixels around the center of a point handle. </p>
+
+</div>
+</div>
 <a class="anchor" id="a104f2aae2ff9ac84145c5c8ddb7b0c13"></a>
 <div class="memitem">
 <div class="memproto">
@@ -316,7 +379,7 @@ Public Member Functions</h2></td></tr>
     <tr><td class="paramname">painter</td><td><a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpainter.html">QPainter</a> object with correct transformation set. </td></tr>
     <tr><td class="paramname">widget</td><td><a class="el" href="classMap.html" title="Central class for an OpenOrienteering map. ">Map</a> widget which provides coordinate transformations. </td></tr>
     <tr><td class="paramname">object</td><td><a class="el" href="classObject.html" title="Abstract base class which combines coordinates and a symbol to form an object (in a map...">Object</a> to draw point handles for. </td></tr>
-    <tr><td class="paramname">hover_point</td><td>Index of a point which should be drawn in 'active' state. Pass a negative number to disable. </td></tr>
+    <tr><td class="paramname">hover_point</td><td>Index of a point which should be drawn in 'active' state. Pass out-of-bounds value to disable. </td></tr>
     <tr><td class="paramname">draw_curve_handles</td><td>If false, curve handles for path objects are not drawn. </td></tr>
     <tr><td class="paramname">base_state</td><td>The state in which all points except hover_point should be drawn. </td></tr>
   </table>
@@ -394,11 +457,11 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The control point handles image. </p>
-<p>The control point image matches the current scale factor. </p>
+<p>The image matches the current scale factor. </p>
 
 </div>
 </div>
-<a class="anchor" id="aca31c2c21057fb4fc6c534e6fa9e36fe"></a>
+<a class="anchor" id="aa13bdd40a6a21a127b2e5941898e8d91"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -406,7 +469,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int PointHandles::scaleFactor </td>
+          <td class="memname">unsigned int PointHandles::scaleFactor </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -420,22 +483,49 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The factor by which all drawing shall be scaled. </p>
-<p>The control point handles image matches this factor, too. Currently, this value is either 1, 2, or 4. </p>
+<p>The control point handles image matches this factor, too. Currently, this value is either 0, 1, 2, or 4. (0 represents a default constructed object.) </p>
 
 </div>
 </div>
-<a class="anchor" id="a84abe42bdfa2f0f6ee042bf9b10cb389"></a>
+<a class="anchor" id="ad5cbd31fde9784bafc59c646b9a4f9e3"></a>
 <div class="memitem">
 <div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PointHandles::setScaleFactor </td>
+          <td>(</td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>factor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the scale factor. </p>
+<p>Currently, valid factors are 1, 2, or 4. </p>
+
+</div>
+</div>
+<a class="anchor" id="afa04a364c6744b2362911287fb60fd4d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">QRgb PointHandles::stateColor </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classPointHandles.html#a1885565fde35bb98ee4253f3cabdc2df">PointHandleState</a>&#160;</td>
           <td class="paramname"><em>state</em></td><td>)</td>
-          <td> const</td>
+          <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Returns the color in which point handles with the given state will be displayed. </p>
@@ -443,8 +533,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/gui/<a class="el" href="point__handles_8h.html">point_handles.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/5351f68/src/gui/point_handles.h"><tt>5351f68</tt></a> on 8 Jan 2017)</li>
-<li>src/gui/<a class="el" href="point__handles_8cpp.html">point_handles.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/5351f68/src/gui/point_handles.cpp"><tt>5351f68</tt></a> on 8 Jan 2017)</li>
+<li>src/tools/<a class="el" href="point__handles_8h.html">point_handles.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/e662f37/src/tools/point_handles.h"><tt>e662f37</tt></a> on 7 Nov 2017)</li>
+<li>src/tools/<a class="el" href="point__handles_8cpp.html">point_handles.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/ef3f346/src/tools/point_handles.cpp"><tt>ef3f346</tt></a> on 1 Nov 2017)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

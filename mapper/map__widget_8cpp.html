@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -93,20 +93,38 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">map_widget.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/212ec06/src/gui/map/map_widget.cpp"><tt>212ec06</tt></a> on 3 Jun 2017)</h3><div class="textblock"><code>#include &quot;<a class="el" href="map__widget_8h.html">map_widget.h</a>&quot;</code><br />
+<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/2f7e340/src/gui/map/map_widget.cpp"><tt>2f7e340</tt></a> on 8 Nov 2017)</h3><div class="textblock"><code>#include &quot;<a class="el" href="map__widget_8h.html">map_widget.h</a>&quot;</code><br />
 <code>#include &lt;cmath&gt;</code><br />
+<code>#include &lt;stdexcept&gt;</code><br />
 <code>#include &lt;QApplication&gt;</code><br />
+<code>#include &lt;QColor&gt;</code><br />
+<code>#include &lt;QContextMenuEvent&gt;</code><br />
+<code>#include &lt;QEvent&gt;</code><br />
+<code>#include &lt;QFlags&gt;</code><br />
+<code>#include &lt;QFont&gt;</code><br />
+<code>#include &lt;QGestureEvent&gt;</code><br />
+<code>#include &lt;QKeyEvent&gt;</code><br />
 <code>#include &lt;QLabel&gt;</code><br />
+<code>#include &lt;QLatin1String&gt;</code><br />
+<code>#include &lt;QList&gt;</code><br />
+<code>#include &lt;QLocale&gt;</code><br />
+<code>#include &lt;QMouseEvent&gt;</code><br />
 <code>#include &lt;QPainter&gt;</code><br />
+<code>#include &lt;QPaintEvent&gt;</code><br />
 <code>#include &lt;QPinchGesture&gt;</code><br />
+<code>#include &lt;QPixmap&gt;</code><br />
+<code>#include &lt;QResizeEvent&gt;</code><br />
+<code>#include &lt;QSizePolicy&gt;</code><br />
 <code>#include &lt;QTimer&gt;</code><br />
 <code>#include &lt;QTouchEvent&gt;</code><br />
+<code>#include &lt;QTransform&gt;</code><br />
 <code>#include &lt;QVariant&gt;</code><br />
+<code>#include &lt;QWheelEvent&gt;</code><br />
 <code>#include &quot;<a class="el" href="settings_8h.html">settings.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="georeferencing_8h.html">core/georeferencing.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="latlon_8h.html">core/latlon.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="map_8h.html">core/map.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="map__color_8h.html">core/map_color.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="object_8h.html">core/objects/object.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="renderable_8h.html">core/renderables/renderable.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="touch__cursor_8h.html">gui/touch_cursor.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="map__editor__activity_8h.html">gui/map/map_editor_activity.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="action__grid__bar_8h.html">gui/widgets/action_grid_bar.h</a>&quot;</code><br />
@@ -115,7 +133,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <code>#include &quot;<a class="el" href="gps__display_8h.html">sensors/gps_display.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="gps__temporary__markers_8h.html">sensors/gps_temporary_markers.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="template_8h.html">templates/template.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="edit__tool_8h.html">tools/edit_tool.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="tool_8h.html">tools/tool.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="backports_8h.html">util/backports.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="util_8h.html">util/util.h</a>&quot;</code><br />
@@ -124,31 +141,23 @@ Include dependency graph for map_widget.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="map__widget_8cpp__incl.png" border="0" usemap="#src_2gui_2map_2map__widget_8cpp" alt=""/></div>
 <map name="src_2gui_2map_2map__widget_8cpp" id="src_2gui_2map_2map__widget_8cpp">
-<area shape="rect" id="node2" href="map__widget_8h.html" title="map_widget.h" alt="" coords="1138,87,1241,114"/>
-<area shape="rect" id="node9" href="map_8h.html" title="core/map.h" alt="" coords="1942,177,2029,203"/>
-<area shape="rect" id="node33" href="settings_8h.html" title="settings.h" alt="" coords="1745,87,1823,114"/>
-<area shape="rect" id="node34" href="georeferencing_8h.html" title="core/georeferencing.h" alt="" coords="72,177,219,203"/>
-<area shape="rect" id="node37" href="map__color_8h.html" title="core/map_color.h" alt="" coords="1464,259,1587,285"/>
-<area shape="rect" id="node38" href="object_8h.html" title="core/objects/object.h" alt="" coords="1514,177,1657,203"/>
-<area shape="rect" id="node39" href="touch__cursor_8h.html" title="gui/touch_cursor.h" alt="" coords="322,177,451,203"/>
-<area shape="rect" id="node40" href="map__editor__activity_8h.html" title="gui/map/map_editor\l_activity.h" alt="" coords="1680,169,1816,211"/>
-<area shape="rect" id="node41" href="action__grid__bar_8h.html" title="gui/widgets/action\l_grid_bar.h" alt="" coords="757,80,883,121"/>
-<area shape="rect" id="node42" href="key__button__bar_8h.html" title="gui/widgets/key_button\l_bar.h" alt="" coords="577,80,733,121"/>
-<area shape="rect" id="node43" href="pie__menu_8h.html" title="gui/widgets/pie_menu.h" alt="" coords="291,87,450,114"/>
-<area shape="rect" id="node44" href="gps__display_8h.html" title="sensors/gps_display.h" alt="" coords="1337,177,1489,203"/>
-<area shape="rect" id="node45" href="gps__temporary__markers_8h.html" title="sensors/gps_temporary\l_markers.h" alt="" coords="877,169,1035,211"/>
-<area shape="rect" id="node46" href="template_8h.html" title="templates/template.h" alt="" coords="2555,87,2699,114"/>
-<area shape="rect" id="node47" href="edit__tool_8h.html" title="tools/edit_tool.h" alt="" coords="2723,87,2837,114"/>
-<area shape="rect" id="node48" href="tool_8h.html" title="tool.h" alt="" coords="243,177,298,203"/>
-<area shape="rect" id="node49" href="backports_8h.html" title="util/backports.h" alt="" coords="2862,87,2973,114"/>
-<area shape="rect" id="node50" href="util_8h.html" title="util/util.h" alt="" coords="907,87,978,114"/>
-<area shape="rect" id="node25" href="map__view_8h.html" title="core/map_view.h" alt="" coords="731,177,853,203"/>
-<area shape="rect" id="node18" href="global_8h.html" title="global.h" alt="" coords="1661,259,1728,285"/>
-<area shape="rect" id="node19" href="map__coord_8h.html" title="map_coord.h" alt="" coords="743,259,841,285"/>
-<area shape="rect" id="node22" href="map__grid_8h.html" title="map_grid.h" alt="" coords="1753,259,1839,285"/>
-<area shape="rect" id="node23" href="file__format_8h.html" title="fileformats/file_format.h" alt="" coords="1135,259,1294,285"/>
-<area shape="rect" id="node24" href="map__part_8h.html" title="map_part.h" alt="" coords="1863,259,1950,285"/>
-<area shape="rect" id="node35" href="latlon_8h.html" title="latlon.h" alt="" coords="260,259,324,285"/>
+<area shape="rect" id="node2" href="map__widget_8h.html" title="map_widget.h" alt="" coords="949,87,1052,114"/>
+<area shape="rect" id="node35" href="settings_8h.html" title="settings.h" alt="" coords="1076,87,1155,114"/>
+<area shape="rect" id="node36" href="georeferencing_8h.html" title="core/georeferencing.h" alt="" coords="1610,87,1757,114"/>
+<area shape="rect" id="node37" href="latlon_8h.html" title="core/latlon.h" alt="" coords="1694,169,1787,196"/>
+<area shape="rect" id="node38" href="map_8h.html" title="core/map.h" alt="" coords="244,87,331,114"/>
+<area shape="rect" id="node39" href="renderable_8h.html" title="core/renderables/renderable.h" alt="" coords="27,87,220,114"/>
+<area shape="rect" id="node40" href="touch__cursor_8h.html" title="gui/touch_cursor.h" alt="" coords="4296,87,4425,114"/>
+<area shape="rect" id="node41" href="map__editor__activity_8h.html" title="gui/map/map_editor\l_activity.h" alt="" coords="4449,80,4585,121"/>
+<area shape="rect" id="node42" href="action__grid__bar_8h.html" title="gui/widgets/action\l_grid_bar.h" alt="" coords="4609,80,4736,121"/>
+<area shape="rect" id="node43" href="key__button__bar_8h.html" title="gui/widgets/key_button\l_bar.h" alt="" coords="659,80,815,121"/>
+<area shape="rect" id="node44" href="pie__menu_8h.html" title="gui/widgets/pie_menu.h" alt="" coords="1325,87,1484,114"/>
+<area shape="rect" id="node45" href="gps__display_8h.html" title="sensors/gps_display.h" alt="" coords="4761,87,4913,114"/>
+<area shape="rect" id="node46" href="gps__temporary__markers_8h.html" title="sensors/gps_temporary\l_markers.h" alt="" coords="4937,80,5096,121"/>
+<area shape="rect" id="node47" href="template_8h.html" title="templates/template.h" alt="" coords="490,87,634,114"/>
+<area shape="rect" id="node48" href="tool_8h.html" title="tools/tool.h" alt="" coords="839,87,925,114"/>
+<area shape="rect" id="node49" href="backports_8h.html" title="util/backports.h" alt="" coords="355,87,465,114"/>
+<area shape="rect" id="node50" href="util_8h.html" title="util/util.h" alt="" coords="1231,87,1301,114"/>
 </map>
 </div>
 </div></div><!-- contents -->

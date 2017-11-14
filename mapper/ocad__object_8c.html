@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -114,13 +114,13 @@ Include dependency graph for ocad_object.c:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a40c110ae0ba061e1ef47d6de75363ee4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="libocad_8h.html#a6062350ecd6038efcbbb8446f09bc105">OCADObjectIndex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ocad__object_8c.html#a40c110ae0ba061e1ef47d6de75363ee4">ocad_objidx_first</a> (<a class="el" href="libocad_8h.html#a89e544f18c7e4831e7506b7f259f69a1">OCADFile</a> *pfile)</td></tr>
-<tr class="memdesc:a40c110ae0ba061e1ef47d6de75363ee4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the first object index block, or NULL if the file isn't valid.  <a href="#a40c110ae0ba061e1ef47d6de75363ee4">More...</a><br /></td></tr>
+<tr class="memdesc:a40c110ae0ba061e1ef47d6de75363ee4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the first object index block, or nullptr if the file isn't valid.  <a href="#a40c110ae0ba061e1ef47d6de75363ee4">More...</a><br /></td></tr>
 <tr class="separator:a40c110ae0ba061e1ef47d6de75363ee4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad0dd513dbecb4a182739716162fd3e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="libocad_8h.html#a6062350ecd6038efcbbb8446f09bc105">OCADObjectIndex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ocad__object_8c.html#aad0dd513dbecb4a182739716162fd3e0">ocad_objidx_next</a> (<a class="el" href="libocad_8h.html#a89e544f18c7e4831e7506b7f259f69a1">OCADFile</a> *pfile, <a class="el" href="libocad_8h.html#a6062350ecd6038efcbbb8446f09bc105">OCADObjectIndex</a> *current)</td></tr>
-<tr class="memdesc:aad0dd513dbecb4a182739716162fd3e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the next object index block after the given one, or NULL if there is none.  <a href="#aad0dd513dbecb4a182739716162fd3e0">More...</a><br /></td></tr>
+<tr class="memdesc:aad0dd513dbecb4a182739716162fd3e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the next object index block after the given one, or nullptr if there is none.  <a href="#aad0dd513dbecb4a182739716162fd3e0">More...</a><br /></td></tr>
 <tr class="separator:aad0dd513dbecb4a182739716162fd3e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad47f3ec4e01487ce9506b57e40d13985"><td class="memItemLeft" align="right" valign="top">OCADObjectEntry *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ocad__object_8c.html#ad47f3ec4e01487ce9506b57e40d13985">ocad_object_entry_at</a> (<a class="el" href="libocad_8h.html#a89e544f18c7e4831e7506b7f259f69a1">OCADFile</a> *pfile, <a class="el" href="libocad_8h.html#a6062350ecd6038efcbbb8446f09bc105">OCADObjectIndex</a> *current, int index)</td></tr>
-<tr class="memdesc:ad47f3ec4e01487ce9506b57e40d13985"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the given object index entry, or NULL if the file isn't valid.  <a href="#ad47f3ec4e01487ce9506b57e40d13985">More...</a><br /></td></tr>
+<tr class="memdesc:ad47f3ec4e01487ce9506b57e40d13985"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the given object index entry, or nullptr if the file isn't valid.  <a href="#ad47f3ec4e01487ce9506b57e40d13985">More...</a><br /></td></tr>
 <tr class="separator:ad47f3ec4e01487ce9506b57e40d13985"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62647b6bd8bc6dc28c9b240c0b3bad29"><td class="memItemLeft" align="right" valign="top">OCADObjectEntry *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ocad__object_8c.html#a62647b6bd8bc6dc28c9b240c0b3bad29">ocad_object_entry_new</a> (<a class="el" href="libocad_8h.html#a89e544f18c7e4831e7506b7f259f69a1">OCADFile</a> *pfile, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> npts)</td></tr>
 <tr class="memdesc:a62647b6bd8bc6dc28c9b240c0b3bad29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the first empty object index entry large enough to fit an object with the given number of points.  <a href="#a62647b6bd8bc6dc28c9b240c0b3bad29">More...</a><br /></td></tr>
@@ -135,7 +135,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:aa5780795453f6dca86c9200245630722"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterates over all object entries in the file.  <a href="#aa5780795453f6dca86c9200245630722">More...</a><br /></td></tr>
 <tr class="separator:aa5780795453f6dca86c9200245630722"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77bb6ecf765f4a02ac7bde6bf08baba6"><td class="memItemLeft" align="right" valign="top">OCADObject *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ocad__object_8c.html#a77bb6ecf765f4a02ac7bde6bf08baba6">ocad_object_at</a> (<a class="el" href="libocad_8h.html#a89e544f18c7e4831e7506b7f259f69a1">OCADFile</a> *pfile, <a class="el" href="libocad_8h.html#a6062350ecd6038efcbbb8446f09bc105">OCADObjectIndex</a> *current, int index)</td></tr>
-<tr class="memdesc:a77bb6ecf765f4a02ac7bde6bf08baba6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the object in the specified location within the index block, or NULL if there is no such object.  <a href="#a77bb6ecf765f4a02ac7bde6bf08baba6">More...</a><br /></td></tr>
+<tr class="memdesc:a77bb6ecf765f4a02ac7bde6bf08baba6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the object in the specified location within the index block, or nullptr if there is no such object.  <a href="#a77bb6ecf765f4a02ac7bde6bf08baba6">More...</a><br /></td></tr>
 <tr class="separator:a77bb6ecf765f4a02ac7bde6bf08baba6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbbfc18ec7d20ed688cc0cd48fbf6bdc"><td class="memItemLeft" align="right" valign="top">OCADObject *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ocad__object_8c.html#acbbfc18ec7d20ed688cc0cd48fbf6bdc">ocad_object</a> (<a class="el" href="libocad_8h.html#a89e544f18c7e4831e7506b7f259f69a1">OCADFile</a> *pfile, OCADObjectEntry *entry)</td></tr>
 <tr class="memdesc:acbbfc18ec7d20ed688cc0cd48fbf6bdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to an object, given a valid pointer to its index entry.  <a href="#acbbfc18ec7d20ed688cc0cd48fbf6bdc">More...</a><br /></td></tr>
@@ -182,7 +182,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns a pointer to an object, given a valid pointer to its index entry. </p>
-<p>Returns NULL if the file isn't valid or the index entry is empty. </p>
+<p>Returns nullptr if the file isn't valid or the index entry is empty. </p>
 
 </div>
 </div>
@@ -218,7 +218,7 @@ Functions</h2></td></tr>
 
 <p>Adds a new object to the file. </p>
 <p>The size field should be set correctly prior to calling this function. This method can be used either to add a new object created by <a class="el" href="libocad_8h.html#a54f2887b6ac98a7c267cf896b55e0ae6" title="Allocates space for a temporary OCAD object, optionally copying it from an existing object...">ocad_object_alloc()</a>, or to duplicate an object by passing a pointer to an object already in the file.</p>
-<p>The provided object is copied into the file and is left unchanged by this call. A pointer to the new object is returned, or NULL if the object could not be added. </p>
+<p>The provided object is copied into the file and is left unchanged by this call. A pointer to the new object is returned, or nullptr if the object could not be added. </p>
 
 </div>
 </div>
@@ -238,7 +238,7 @@ Functions</h2></td></tr>
 
 <p>Allocates space for a temporary OCAD object, optionally copying it from an existing object. </p>
 <p>The allocated space is the size of the largest object supported by the file format (32767 points). This object can then be manipulated with the ocad_object_* functions, and finally saved back into the file with <a class="el" href="libocad_8h.html#a78aefc413e83f12e4579be5c7f867711" title="Adds a new object to the file. ">ocad_object_add()</a> or ocad_object_replace().</p>
-<p>You may pass a NULL parameter to create a new, empty object. </p>
+<p>You may pass a nullptr parameter to create a new, empty object. </p>
 
 </div>
 </div>
@@ -272,7 +272,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns a pointer to the object in the specified location within the index block, or NULL if there is no such object. </p>
+<p>Returns a pointer to the object in the specified location within the index block, or nullptr if there is no such object. </p>
 
 </div>
 </div>
@@ -306,8 +306,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns a pointer to the given object index entry, or NULL if the file isn't valid. </p>
-<p>Also returns NULL if the index is out of range, but always returns a valid pointer if the file, index block, and index are valid. </p>
+<p>Returns a pointer to the given object index entry, or nullptr if the file isn't valid. </p>
+<p>Also returns nullptr if the index is out of range, but always returns a valid pointer if the file, index block, and index are valid. </p>
 
 </div>
 </div>
@@ -370,7 +370,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns a pointer to the first empty object index entry large enough to fit an object with the given number of points. </p>
-<p>If no suitable object index entry is found, a new entry will be created. This method will only return NULL if the file isn't valid or if there is a memory allocation problem.</p>
+<p>If no suitable object index entry is found, a new entry will be created. This method will only return nullptr if the file isn't valid or if there is a memory allocation problem.</p>
 <p>The returned entry will have its ptr and npts fields set; the caller is responsible for writing the object into the location pointed to by ptr, and setting the symbol, min, and max fields in the index entry. ocad_object_entry_refresh provides an easy way to sync these extra fields with an existing object. </p>
 
 </div>
@@ -524,8 +524,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns a pointer to the first object index block, or NULL if the file isn't valid. </p>
-<p>Also returns NULL if the file contains no object. </p>
+<p>Returns a pointer to the first object index block, or nullptr if the file isn't valid. </p>
+<p>Also returns nullptr if the file contains no object. </p>
 
 </div>
 </div>
@@ -553,7 +553,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns a pointer to the next object index block after the given one, or NULL if there is none. </p>
+<p>Returns a pointer to the next object index block after the given one, or nullptr if there is none. </p>
 
 </div>
 </div>

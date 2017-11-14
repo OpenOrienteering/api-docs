@@ -9,6 +9,7 @@ var searchData=
   ['pointedcap',['PointedCap',['../classLineSymbol.html#ae80afcf8c1e5f2ba909330cb2c2f9d90a6d8ac809efbb77e5223085881b246270',1,'LineSymbol']]],
   ['pointpattern',['PointPattern',['../structAreaSymbol_1_1FillPattern.html#ac41affee827dab17aa19a924d76b9c57a40497a4f8a57bfb21ddd88be3438ce18',1,'AreaSymbol::FillPattern']]],
   ['portrait',['Portrait',['../classMapPrinterPageFormat.html#ad1e1623017f3f4929fbe483deada1832a0b26e130798285a12cc96c76ba4dd345',1,'MapPrinterPageFormat']]],
+  ['preservesymbolstate',['PreserveSymbolState',['../classSymbolRuleSet.html#a9c065120654c265144fdc8ca83e94ab3ac8d9b02dde1e39dcb279d3aedd06c1be',1,'SymbolRuleSet']]],
   ['print_5ftask',['PRINT_TASK',['../classPrintWidget.html#afa0c2a3ebede4ae45757e9a5f9189148aa551e6a62dadaa1942a73f11cf02e5c7',1,'PrintWidget']]],
   ['projected_5fcoords',['PROJECTED_COORDS',['../classMapWidget.html#a158226eb705ef66b6817974c0f3f8718a0b42993e63323107e3a70e2d58fe91ad',1,'MapWidget']]]
 ];

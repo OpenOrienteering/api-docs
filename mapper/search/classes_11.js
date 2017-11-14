@@ -11,7 +11,6 @@ var searchData=
   ['reopentemplatedialog',['ReopenTemplateDialog',['../classReopenTemplateDialog.html',1,'']]],
   ['replaceobjectsundostep',['ReplaceObjectsUndoStep',['../classReplaceObjectsUndoStep.html',1,'']]],
   ['replacesymbolsetdialog',['ReplaceSymbolSetDialog',['../classReplaceSymbolSetDialog.html',1,'']]],
-  ['replacesymbolsetoperation',['ReplaceSymbolSetOperation',['../structReplaceSymbolSetOperation.html',1,'']]],
   ['rotate',['Rotate',['../structObjectOp_1_1Rotate.html',1,'ObjectOp']]],
   ['rotatemapdialog',['RotateMapDialog',['../classRotateMapDialog.html',1,'']]],
   ['rotatepatterntool',['RotatePatternTool',['../classRotatePatternTool.html',1,'']]],

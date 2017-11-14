@@ -2,7 +2,7 @@ var searchData=
 [
   ['wascanceled',['wasCanceled',['http://doc.qt.io/qt-5/qprogressdialog.html#wasCanceled-prop',1,'QProgressDialog']]],
   ['whatsthis',['whatsThis',['http://doc.qt.io/qt-5/qaction.html#whatsThis-prop',1,'QAction::whatsThis()'],['http://doc.qt.io/qt-5/qshortcut.html#whatsThis-prop',1,'QShortcut::whatsThis()'],['http://doc.qt.io/qt-5/qwidget.html#whatsThis-prop',1,'QWidget::whatsThis()']]],
-  ['wheelscrolllines',['wheelScrollLines',['http://doc.qt.io/qt-5/qapplication.html#wheelScrollLines-prop',1,'QApplication']]],
+  ['wheelscrolllines',['wheelScrollLines',['http://doc.qt.io/qt-5/qstylehints.html#wheelScrollLines-prop',1,'QStyleHints::wheelScrollLines()'],['http://doc.qt.io/qt-5/qapplication.html#wheelScrollLines-prop',1,'QApplication::wheelScrollLines()']]],
   ['widgetresizable',['widgetResizable',['http://doc.qt.io/qt-5/qscrollarea.html#widgetResizable-prop',1,'QScrollArea']]],
   ['width',['width',['http://doc.qt.io/qt-5/qwindow.html#width-prop',1,'QWindow::width()'],['http://doc.qt.io/qt-5/qwidget.html#width-prop',1,'QWidget::width()']]],
   ['windowfilepath',['windowFilePath',['http://doc.qt.io/qt-5/qwidget.html#windowFilePath-prop',1,'QWidget']]],

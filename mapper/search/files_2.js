@@ -9,10 +9,10 @@ var searchData=
   ['color_2ec',['color.c',['../color_8c.html',1,'']]],
   ['color_5fdialog_2ecpp',['color_dialog.cpp',['../color__dialog_8cpp.html',1,'']]],
   ['color_5fdialog_2eh',['color_dialog.h',['../color__dialog_8h.html',1,'']]],
-  ['color_5fdock_5fwidget_2ecpp',['color_dock_widget.cpp',['../color__dock__widget_8cpp.html',1,'']]],
-  ['color_5fdock_5fwidget_2eh',['color_dock_widget.h',['../color__dock__widget_8h.html',1,'']]],
   ['color_5fdropdown_2ecpp',['color_dropdown.cpp',['../color__dropdown_8cpp.html',1,'']]],
   ['color_5fdropdown_2eh',['color_dropdown.h',['../color__dropdown_8h.html',1,'']]],
+  ['color_5flist_5fwidget_2ecpp',['color_list_widget.cpp',['../color__list__widget_8cpp.html',1,'']]],
+  ['color_5flist_5fwidget_2eh',['color_list_widget.h',['../color__list__widget_8h.html',1,'']]],
   ['combined_5fsymbol_2ecpp',['combined_symbol.cpp',['../combined__symbol_8cpp.html',1,'']]],
   ['combined_5fsymbol_2eh',['combined_symbol.h',['../combined__symbol_8h.html',1,'']]],
   ['combined_5fsymbol_5fsettings_2ecpp',['combined_symbol_settings.cpp',['../combined__symbol__settings_8cpp.html',1,'']]],
@@ -37,6 +37,8 @@ var searchData=
   ['cut_5fhole_5ftool_2eh',['cut_hole_tool.h',['../cut__hole__tool_8h.html',1,'']]],
   ['cut_5ftool_2ecpp',['cut_tool.cpp',['../cut__tool_8cpp.html',1,'']]],
   ['cut_5ftool_2eh',['cut_tool.h',['../cut__tool_8h.html',1,'']]],
+  ['cutout_5foperation_2ecpp',['cutout_operation.cpp',['../cutout__operation_8cpp.html',1,'']]],
+  ['cutout_5foperation_2eh',['cutout_operation.h',['../cutout__operation_8h.html',1,'']]],
   ['cutout_5ftool_2ecpp',['cutout_tool.cpp',['../cutout__tool_8cpp.html',1,'']]],
   ['cutout_5ftool_2eh',['cutout_tool.h',['../cutout__tool_8h.html',1,'']]]
 ];

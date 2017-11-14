@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -133,17 +133,29 @@ Collaboration diagram for PointSymbol:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a696add7d8444cec3b540869f68b621e9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPointSymbol.html#a696add7d8444cec3b540869f68b621e9">PointSymbol</a> ()</td></tr>
-<tr class="memdesc:a696add7d8444cec3b540869f68b621e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty point symbol.  <a href="#a696add7d8444cec3b540869f68b621e9">More...</a><br /></td></tr>
-<tr class="separator:a696add7d8444cec3b540869f68b621e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af291ccd900e52f235b3ef56b876ad169"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPointSymbol.html#af291ccd900e52f235b3ef56b876ad169">~PointSymbol</a> ()</td></tr>
-<tr class="separator:af291ccd900e52f235b3ef56b876ad169"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6db6d066984a87dde9881d643e5411b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSymbol.html">Symbol</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPointSymbol.html#ac6db6d066984a87dde9881d643e5411b">duplicate</a> (const <a class="el" href="classMapColorMap.html">MapColorMap</a> *color_map=NULL) const override</td></tr>
-<tr class="separator:ac6db6d066984a87dde9881d643e5411b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63b35473ed2734466d219aab51f5134c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPointSymbol.html#a63b35473ed2734466d219aab51f5134c">PointSymbol</a> () noexcept</td></tr>
+<tr class="memdesc:a63b35473ed2734466d219aab51f5134c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty point symbol.  <a href="#a63b35473ed2734466d219aab51f5134c">More...</a><br /></td></tr>
+<tr class="separator:a63b35473ed2734466d219aab51f5134c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5399465b503688174b36268163df2ef"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPointSymbol.html#af5399465b503688174b36268163df2ef">~PointSymbol</a> () override</td></tr>
+<tr class="separator:af5399465b503688174b36268163df2ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad86d9f0cf5068128e2c1697078cb97d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSymbol.html">Symbol</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPointSymbol.html#ad86d9f0cf5068128e2c1697078cb97d8">duplicate</a> (const <a class="el" href="classMapColorMap.html">MapColorMap</a> *color_map=nullptr) const override</td></tr>
+<tr class="separator:ad86d9f0cf5068128e2c1697078cb97d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8be5d8edb0c4c81f77d37800d57eaea3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPointSymbol.html#a8be5d8edb0c4c81f77d37800d57eaea3">validate</a> () const override</td></tr>
+<tr class="separator:a8be5d8edb0c4c81f77d37800d57eaea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52e7ff910a0a727a0bddb9cbe75e7c04"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPointSymbol.html#a52e7ff910a0a727a0bddb9cbe75e7c04">createRenderables</a> (const <a class="el" href="classObject.html">Object</a> *object, const <a class="el" href="classVirtualCoordVector.html">VirtualCoordVector</a> &amp;coords, <a class="el" href="classObjectRenderables.html">ObjectRenderables</a> &amp;output, RenderableOptions options) const override</td></tr>
 <tr class="separator:a52e7ff910a0a727a0bddb9cbe75e7c04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae15126484d005bfc5970f142c23a1c0d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPointSymbol.html#ae15126484d005bfc5970f142c23a1c0d">createRenderablesScaled</a> (<a class="el" href="classMapCoordF.html">MapCoordF</a> coord, float rotation, <a class="el" href="classObjectRenderables.html">ObjectRenderables</a> &amp;output, float coord_scale=1.0f) const </td></tr>
 <tr class="separator:ae15126484d005bfc5970f142c23a1c0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5413d62e49c55012bcc9561076ba40ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPointSymbol.html#a5413d62e49c55012bcc9561076ba40ba">createRenderablesIfCenterInside</a> (<a class="el" href="classMapCoordF.html">MapCoordF</a> point_coord, qreal rotation, const <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpainterpath.html">QPainterPath</a> *outline, <a class="el" href="classObjectRenderables.html">ObjectRenderables</a> &amp;output) const </td></tr>
+<tr class="separator:a5413d62e49c55012bcc9561076ba40ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8187c1bae66a8d2f0fe936d24b86611d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPointSymbol.html#a8187c1bae66a8d2f0fe936d24b86611d">createPrimitivesIfCompletelyInside</a> (<a class="el" href="classMapCoordF.html">MapCoordF</a> point_coord, const <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpainterpath.html">QPainterPath</a> *outline, <a class="el" href="classObjectRenderables.html">ObjectRenderables</a> &amp;output) const </td></tr>
+<tr class="separator:a8187c1bae66a8d2f0fe936d24b86611d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8adaaf596d8360bc09ec630b6770f64d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPointSymbol.html#a8adaaf596d8360bc09ec630b6770f64d">createRenderablesIfCompletelyInside</a> (<a class="el" href="classMapCoordF.html">MapCoordF</a> point_coord, qreal rotation, const <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpainterpath.html">QPainterPath</a> *outline, <a class="el" href="classObjectRenderables.html">ObjectRenderables</a> &amp;output) const </td></tr>
+<tr class="separator:a8adaaf596d8360bc09ec630b6770f64d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7abaeec0da2bcb871d57de88f4ba9243"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPointSymbol.html#a7abaeec0da2bcb871d57de88f4ba9243">createPrimitivesIfPartiallyInside</a> (<a class="el" href="classMapCoordF.html">MapCoordF</a> point_coord, const <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpainterpath.html">QPainterPath</a> *outline, <a class="el" href="classObjectRenderables.html">ObjectRenderables</a> &amp;output) const </td></tr>
+<tr class="separator:a7abaeec0da2bcb871d57de88f4ba9243"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7e90eb76b66d92cb36dc65d7ad33dcb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPointSymbol.html#ad7e90eb76b66d92cb36dc65d7ad33dcb">createRenderablesIfPartiallyInside</a> (<a class="el" href="classMapCoordF.html">MapCoordF</a> point_coord, qreal rotation, const <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpainterpath.html">QPainterPath</a> *outline, <a class="el" href="classObjectRenderables.html">ObjectRenderables</a> &amp;output) const </td></tr>
+<tr class="separator:ad7e90eb76b66d92cb36dc65d7ad33dcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f7274feef2d93a47fd111e5043a02f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPointSymbol.html#a0f7274feef2d93a47fd111e5043a02f4">colorDeleted</a> (const <a class="el" href="classMapColor.html">MapColor</a> *color) override</td></tr>
 <tr class="memdesc:a0f7274feef2d93a47fd111e5043a02f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by the map in which the symbol is to notify it of a color being deleted (pointer becomes invalid, indices change).  <a href="#a0f7274feef2d93a47fd111e5043a02f4">More...</a><br /></td></tr>
 <tr class="separator:a0f7274feef2d93a47fd111e5043a02f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -156,6 +168,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af5f077d89430075a82ed0b2346c5cf4b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPointSymbol.html#af5f077d89430075a82ed0b2346c5cf4b">scale</a> (double factor) override</td></tr>
 <tr class="memdesc:af5f077d89430075a82ed0b2346c5cf4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scales the whole symbol.  <a href="#af5f077d89430075a82ed0b2346c5cf4b">More...</a><br /></td></tr>
 <tr class="separator:af5f077d89430075a82ed0b2346c5cf4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaf5067789eb0a0162f0f605f0278a4d"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPointSymbol.html#acaf5067789eb0a0162f0f605f0278a4d">dimensionForIcon</a> () const override</td></tr>
+<tr class="memdesc:acaf5067789eb0a0162f0f605f0278a4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the dimension which shall considered when scaling the icon.  <a href="#acaf5067789eb0a0162f0f605f0278a4d">More...</a><br /></td></tr>
+<tr class="separator:acaf5067789eb0a0162f0f605f0278a4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6aa33c42016e72e30623667db1d29d78"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPointSymbol.html#a6aa33c42016e72e30623667db1d29d78">getNumElements</a> () const </td></tr>
 <tr class="memdesc:a6aa33c42016e72e30623667db1d29d78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of contained elements.  <a href="#a6aa33c42016e72e30623667db1d29d78">More...</a><br /></td></tr>
 <tr class="separator:a6aa33c42016e72e30623667db1d29d78"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -207,11 +222,19 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:af2129a0bca8f1c7f3358613973f6b61e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a properties widget for the symbol.  <a href="#af2129a0bca8f1c7f3358613973f6b61e">More...</a><br /></td></tr>
 <tr class="separator:af2129a0bca8f1c7f3358613973f6b61e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classSymbol"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classSymbol')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classSymbol.html">Symbol</a></td></tr>
-<tr class="memitem:a6b3379c89c1920560da9e0cc7c716133 inherit pub_methods_classSymbol"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSymbol.html#a6b3379c89c1920560da9e0cc7c716133">Symbol</a> (<a class="el" href="classSymbol.html#a19c9a49235af753af17553af18c588ca">Type</a> type)</td></tr>
-<tr class="memdesc:a6b3379c89c1920560da9e0cc7c716133 inherit pub_methods_classSymbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty symbol.  <a href="#a6b3379c89c1920560da9e0cc7c716133">More...</a><br /></td></tr>
-<tr class="separator:a6b3379c89c1920560da9e0cc7c716133 inherit pub_methods_classSymbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b111b1d6debcf57a5514fe7cc79f9a9 inherit pub_methods_classSymbol"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSymbol.html#a5b111b1d6debcf57a5514fe7cc79f9a9">Symbol</a> (<a class="el" href="classSymbol.html#a19c9a49235af753af17553af18c588ca">Type</a> type) noexcept</td></tr>
+<tr class="memdesc:a5b111b1d6debcf57a5514fe7cc79f9a9 inherit pub_methods_classSymbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty symbol.  <a href="#a5b111b1d6debcf57a5514fe7cc79f9a9">More...</a><br /></td></tr>
+<tr class="separator:a5b111b1d6debcf57a5514fe7cc79f9a9 inherit pub_methods_classSymbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7471cc9e3fc3426b16c67a20bbdd37a inherit pub_methods_classSymbol"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSymbol.html#aa7471cc9e3fc3426b16c67a20bbdd37a">Symbol</a> (const <a class="el" href="classSymbol.html">Symbol</a> &amp;)=delete</td></tr>
+<tr class="separator:aa7471cc9e3fc3426b16c67a20bbdd37a inherit pub_methods_classSymbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00e50809ae3ac5457964b086c86d44cc inherit pub_methods_classSymbol"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSymbol.html#a00e50809ae3ac5457964b086c86d44cc">Symbol</a> (<a class="el" href="classSymbol.html">Symbol</a> &amp;&amp;)=delete</td></tr>
+<tr class="separator:a00e50809ae3ac5457964b086c86d44cc inherit pub_methods_classSymbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a505360ad4bd2e0bd1e3954eca1b05723 inherit pub_methods_classSymbol"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSymbol.html#a505360ad4bd2e0bd1e3954eca1b05723">~Symbol</a> ()</td></tr>
 <tr class="separator:a505360ad4bd2e0bd1e3954eca1b05723 inherit pub_methods_classSymbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab48152f981a10eb3cc6ee0666f0d228e inherit pub_methods_classSymbol"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSymbol.html">Symbol</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSymbol.html#ab48152f981a10eb3cc6ee0666f0d228e">operator=</a> (const <a class="el" href="classSymbol.html">Symbol</a> &amp;)=delete</td></tr>
+<tr class="separator:ab48152f981a10eb3cc6ee0666f0d228e inherit pub_methods_classSymbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adeeaf6deca01ad2653e1531cf5f4a6a7 inherit pub_methods_classSymbol"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSymbol.html">Symbol</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSymbol.html#adeeaf6deca01ad2653e1531cf5f4a6a7">operator=</a> (<a class="el" href="classSymbol.html">Symbol</a> &amp;&amp;)=delete</td></tr>
+<tr class="separator:adeeaf6deca01ad2653e1531cf5f4a6a7 inherit pub_methods_classSymbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45e354594309c56b4ea66a6c9124e80e inherit pub_methods_classSymbol"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSymbol.html#a45e354594309c56b4ea66a6c9124e80e">equals</a> (const <a class="el" href="classSymbol.html">Symbol</a> *other, Qt::CaseSensitivity case_sensitivity=Qt::CaseSensitive, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> compare_state=false) const </td></tr>
 <tr class="memdesc:a45e354594309c56b4ea66a6c9124e80e inherit pub_methods_classSymbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks for equality to the other symbol.  <a href="#a45e354594309c56b4ea66a6c9124e80e">More...</a><br /></td></tr>
 <tr class="separator:a45e354594309c56b4ea66a6c9124e80e inherit pub_methods_classSymbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -281,18 +304,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8190c39056b2147b58791b47932feb02 inherit pub_methods_classSymbol"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSymbol.html#a8190c39056b2147b58791b47932feb02">containsSymbol</a> (const <a class="el" href="classSymbol.html">Symbol</a> *symbol) const </td></tr>
 <tr class="memdesc:a8190c39056b2147b58791b47932feb02 inherit pub_methods_classSymbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must return if the given symbol is referenced by this symbol.  <a href="#a8190c39056b2147b58791b47932feb02">More...</a><br /></td></tr>
 <tr class="separator:a8190c39056b2147b58791b47932feb02 inherit pub_methods_classSymbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af433c1f250a54c357da670e9c9ed24e8 inherit pub_methods_classSymbol"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qimage.html">QImage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSymbol.html#af433c1f250a54c357da670e9c9ed24e8">getIcon</a> (const <a class="el" href="classMap.html">Map</a> *map, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> update=false) const </td></tr>
-<tr class="memdesc:af433c1f250a54c357da670e9c9ed24e8 inherit pub_methods_classSymbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the symbol's icon, creates it if it was not created yet.  <a href="#af433c1f250a54c357da670e9c9ed24e8">More...</a><br /></td></tr>
-<tr class="separator:af433c1f250a54c357da670e9c9ed24e8 inherit pub_methods_classSymbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b9ea911ce5a7a40b2d384d300d698bc inherit pub_methods_classSymbol"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qimage.html">QImage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSymbol.html#a0b9ea911ce5a7a40b2d384d300d698bc">createIcon</a> (const <a class="el" href="classMap.html">Map</a> *map, int side_length, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> antialiasing, int bottom_right_border=0, qreal best_zoom=2) const </td></tr>
-<tr class="memdesc:a0b9ea911ce5a7a40b2d384d300d698bc inherit pub_methods_classSymbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new image with the given side length and draws the smybol icon onto it.  <a href="#a0b9ea911ce5a7a40b2d384d300d698bc">More...</a><br /></td></tr>
-<tr class="separator:a0b9ea911ce5a7a40b2d384d300d698bc inherit pub_methods_classSymbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a239fd98c2990dcede66f8440f56dd80b inherit pub_methods_classSymbol"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qimage.html">QImage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSymbol.html#a239fd98c2990dcede66f8440f56dd80b">getIcon</a> (const <a class="el" href="classMap.html">Map</a> *map) const </td></tr>
+<tr class="memdesc:a239fd98c2990dcede66f8440f56dd80b inherit pub_methods_classSymbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the symbol's icon.  <a href="#a239fd98c2990dcede66f8440f56dd80b">More...</a><br /></td></tr>
+<tr class="separator:a239fd98c2990dcede66f8440f56dd80b inherit pub_methods_classSymbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cc43459c045f4324d45755a86b5107c inherit pub_methods_classSymbol"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qimage.html">QImage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSymbol.html#a3cc43459c045f4324d45755a86b5107c">createIcon</a> (const <a class="el" href="classMap.html">Map</a> *map, int side_length, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> antialiasing, int bottom_right_border=0, qreal zoom=0) const </td></tr>
+<tr class="memdesc:a3cc43459c045f4324d45755a86b5107c inherit pub_methods_classSymbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a symbol icon with the given side length and zoom.  <a href="#a3cc43459c045f4324d45755a86b5107c">More...</a><br /></td></tr>
+<tr class="separator:a3cc43459c045f4324d45755a86b5107c inherit pub_methods_classSymbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac900e91ed41ed8096d91c876db0e4fbc inherit pub_methods_classSymbol"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSymbol.html#ac900e91ed41ed8096d91c876db0e4fbc">resetIcon</a> ()</td></tr>
-<tr class="memdesc:ac900e91ed41ed8096d91c876db0e4fbc inherit pub_methods_classSymbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the symbol's icon.  <a href="#ac900e91ed41ed8096d91c876db0e4fbc">More...</a><br /></td></tr>
+<tr class="memdesc:ac900e91ed41ed8096d91c876db0e4fbc inherit pub_methods_classSymbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the symbol's cached icon.  <a href="#ac900e91ed41ed8096d91c876db0e4fbc">More...</a><br /></td></tr>
 <tr class="separator:ac900e91ed41ed8096d91c876db0e4fbc inherit pub_methods_classSymbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a847e4ea1ae7ff5e87f2df0fdb9145472 inherit pub_methods_classSymbol"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSymbol.html#a847e4ea1ae7ff5e87f2df0fdb9145472">calculateLargestLineExtent</a> (<a class="el" href="classMap.html">Map</a> *map) const </td></tr>
-<tr class="memdesc:a847e4ea1ae7ff5e87f2df0fdb9145472 inherit pub_methods_classSymbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the largest extent (half width) of all line symbols which may be included in this symbol.  <a href="#a847e4ea1ae7ff5e87f2df0fdb9145472">More...</a><br /></td></tr>
-<tr class="separator:a847e4ea1ae7ff5e87f2df0fdb9145472 inherit pub_methods_classSymbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af05cb827f9b2d1ef6cd7b50edf46675b inherit pub_methods_classSymbol"><td class="memItemLeft" align="right" valign="top">virtual qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSymbol.html#af05cb827f9b2d1ef6cd7b50edf46675b">calculateLargestLineExtent</a> () const </td></tr>
+<tr class="memdesc:af05cb827f9b2d1ef6cd7b50edf46675b inherit pub_methods_classSymbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the largest extent of all primitive lines which are part of the symbol.  <a href="#af05cb827f9b2d1ef6cd7b50edf46675b">More...</a><br /></td></tr>
+<tr class="separator:af05cb827f9b2d1ef6cd7b50edf46675b inherit pub_methods_classSymbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a20d5a8dd41eb2e62e79d9d46c9a7d5 inherit pub_methods_classSymbol"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSymbol.html#a6a20d5a8dd41eb2e62e79d9d46c9a7d5">getName</a> () const </td></tr>
 <tr class="memdesc:a6a20d5a8dd41eb2e62e79d9d46c9a7d5 inherit pub_methods_classSymbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the symbol name.  <a href="#a6a20d5a8dd41eb2e62e79d9d46c9a7d5">More...</a><br /></td></tr>
 <tr class="separator:a6a20d5a8dd41eb2e62e79d9d46c9a7d5 inherit pub_methods_classSymbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -344,7 +367,7 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:ac8630448371bcdee511e0bab5ce382e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPointSymbol.html#ac8630448371bcdee511e0bab5ce382e3">saveImpl</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qxmlstreamwriter.html">QXmlStreamWriter</a> &amp;xml, const <a class="el" href="classMap.html">Map</a> &amp;map) const override</td></tr>
 <tr class="memdesc:ac8630448371bcdee511e0bab5ce382e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must be overridden to save type-specific symbol properties.  <a href="#ac8630448371bcdee511e0bab5ce382e3">More...</a><br /></td></tr>
 <tr class="separator:ac8630448371bcdee511e0bab5ce382e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3e9bfc247328c0aed102b907ae33dcc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPointSymbol.html#ab3e9bfc247328c0aed102b907ae33dcc">loadImpl</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qxmlstreamreader.html">QXmlStreamReader</a> &amp;xml, const <a class="el" href="classMap.html">Map</a> &amp;map, <a class="el" href="map__part_8h.html#a399a8a7116cffc8d49caccfc501704f2">SymbolDictionary</a> &amp;symbol_dict) override</td></tr>
+<tr class="memitem:ab3e9bfc247328c0aed102b907ae33dcc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPointSymbol.html#ab3e9bfc247328c0aed102b907ae33dcc">loadImpl</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qxmlstreamreader.html">QXmlStreamReader</a> &amp;xml, const <a class="el" href="classMap.html">Map</a> &amp;map, <a class="el" href="map__part_8h.html#af7d420ad52539d37facbc179de888f97">SymbolDictionary</a> &amp;symbol_dict) override</td></tr>
 <tr class="memdesc:ab3e9bfc247328c0aed102b907ae33dcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must be overridden to load type-specific symbol properties.  <a href="#ab3e9bfc247328c0aed102b907ae33dcc">More...</a><br /></td></tr>
 <tr class="separator:ab3e9bfc247328c0aed102b907ae33dcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab740b29d5a8588e2fa0353c174394005"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPointSymbol.html#ab740b29d5a8588e2fa0353c174394005">equalsImpl</a> (const <a class="el" href="classSymbol.html">Symbol</a> *other, Qt::CaseSensitivity case_sensitivity) const override</td></tr>
@@ -406,7 +429,7 @@ Additional Inherited Members</h2></td></tr>
 </td></tr>
 <tr class="separator:a5b652bed078d8a64b4af93f8e98aa88b inherit pub_types_classSymbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_methods_classSymbol"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classSymbol')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classSymbol.html">Symbol</a></td></tr>
-<tr class="memitem:a44c7961c16d59b0884f90a2a2ee7b79e inherit pub_static_methods_classSymbol"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classSymbol.html">Symbol</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSymbol.html#a44c7961c16d59b0884f90a2a2ee7b79e">load</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qxmlstreamreader.html">QXmlStreamReader</a> &amp;xml, const <a class="el" href="classMap.html">Map</a> &amp;map, <a class="el" href="map__part_8h.html#a399a8a7116cffc8d49caccfc501704f2">SymbolDictionary</a> &amp;symbol_dict)</td></tr>
+<tr class="memitem:a44c7961c16d59b0884f90a2a2ee7b79e inherit pub_static_methods_classSymbol"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classSymbol.html">Symbol</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSymbol.html#a44c7961c16d59b0884f90a2a2ee7b79e">load</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qxmlstreamreader.html">QXmlStreamReader</a> &amp;xml, const <a class="el" href="classMap.html">Map</a> &amp;map, <a class="el" href="map__part_8h.html#af7d420ad52539d37facbc179de888f97">SymbolDictionary</a> &amp;symbol_dict)</td></tr>
 <tr class="memdesc:a44c7961c16d59b0884f90a2a2ee7b79e inherit pub_static_methods_classSymbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load the symbol in xml format.  <a href="#a44c7961c16d59b0884f90a2a2ee7b79e">More...</a><br /></td></tr>
 <tr class="separator:a44c7961c16d59b0884f90a2a2ee7b79e inherit pub_static_methods_classSymbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea60a04a9ed2f041f95efc776ea1eb68 inherit pub_static_methods_classSymbol"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classSymbol.html">Symbol</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSymbol.html#aea60a04a9ed2f041f95efc776ea1eb68">getSymbolForType</a> (<a class="el" href="classSymbol.html#a19c9a49235af753af17553af18c588ca">Type</a> type)</td></tr>
@@ -437,9 +460,12 @@ Additional Inherited Members</h2></td></tr>
 <p>Apart from its own settings which are presented to the user as "[Midpoint
 symbol]" in the point symbol editor, this class can contain a list of elements together with a symbol for each element. All elements and the <a class="el" href="classPointObject.html" title="Object type which can only be used for point symbols, and is also the only object which can be used w...">PointObject</a>'s own settings make up the appearance of the point symbol. The reason the own settings are left in is just efficiency, as for some symbols like crop land, a really huge number of point objects may be generated. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a696add7d8444cec3b540869f68b621e9"></a>
+<a class="anchor" id="a63b35473ed2734466d219aab51f5134c"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">PointSymbol::PointSymbol </td>
@@ -448,13 +474,18 @@ symbol]" in the point symbol editor, this class can contain a list of elements t
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Constructs an empty point symbol. </p>
 
 </div>
 </div>
-<a class="anchor" id="af291ccd900e52f235b3ef56b876ad169"></a>
+<a class="anchor" id="af5399465b503688174b36268163df2ef"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -470,7 +501,7 @@ symbol]" in the point symbol editor, this class can contain a list of elements t
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -568,6 +599,70 @@ symbol]" in the point symbol editor, this class can contain a list of elements t
 
 </div>
 </div>
+<a class="anchor" id="a8187c1bae66a8d2f0fe936d24b86611d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PointSymbol::createPrimitivesIfCompletelyInside </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMapCoordF.html">MapCoordF</a>&#160;</td>
+          <td class="paramname"><em>point_coord</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpainterpath.html">QPainterPath</a> *&#160;</td>
+          <td class="paramname"><em>outline</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classObjectRenderables.html">ObjectRenderables</a> &amp;&#160;</td>
+          <td class="paramname"><em>output</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7abaeec0da2bcb871d57de88f4ba9243"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PointSymbol::createPrimitivesIfPartiallyInside </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMapCoordF.html">MapCoordF</a>&#160;</td>
+          <td class="paramname"><em>point_coord</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpainterpath.html">QPainterPath</a> *&#160;</td>
+          <td class="paramname"><em>outline</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classObjectRenderables.html">ObjectRenderables</a> &amp;&#160;</td>
+          <td class="paramname"><em>output</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="af2129a0bca8f1c7f3358613973f6b61e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -642,6 +737,120 @@ symbol]" in the point symbol editor, this class can contain a list of elements t
 
 </div>
 </div>
+<a class="anchor" id="a5413d62e49c55012bcc9561076ba40ba"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PointSymbol::createRenderablesIfCenterInside </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMapCoordF.html">MapCoordF</a>&#160;</td>
+          <td class="paramname"><em>point_coord</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">qreal&#160;</td>
+          <td class="paramname"><em>rotation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpainterpath.html">QPainterPath</a> *&#160;</td>
+          <td class="paramname"><em>outline</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classObjectRenderables.html">ObjectRenderables</a> &amp;&#160;</td>
+          <td class="paramname"><em>output</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8adaaf596d8360bc09ec630b6770f64d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PointSymbol::createRenderablesIfCompletelyInside </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMapCoordF.html">MapCoordF</a>&#160;</td>
+          <td class="paramname"><em>point_coord</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">qreal&#160;</td>
+          <td class="paramname"><em>rotation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpainterpath.html">QPainterPath</a> *&#160;</td>
+          <td class="paramname"><em>outline</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classObjectRenderables.html">ObjectRenderables</a> &amp;&#160;</td>
+          <td class="paramname"><em>output</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad7e90eb76b66d92cb36dc65d7ad33dcb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PointSymbol::createRenderablesIfPartiallyInside </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMapCoordF.html">MapCoordF</a>&#160;</td>
+          <td class="paramname"><em>point_coord</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">qreal&#160;</td>
+          <td class="paramname"><em>rotation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpainterpath.html">QPainterPath</a> *&#160;</td>
+          <td class="paramname"><em>outline</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classObjectRenderables.html">ObjectRenderables</a> &amp;&#160;</td>
+          <td class="paramname"><em>output</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="ae15126484d005bfc5970f142c23a1c0d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -698,7 +907,34 @@ symbol]" in the point symbol editor, this class can contain a list of elements t
 
 </div>
 </div>
-<a class="anchor" id="ac6db6d066984a87dde9881d643e5411b"></a>
+<a class="anchor" id="acaf5067789eb0a0162f0f605f0278a4d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal PointSymbol::dimensionForIcon </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the dimension which shall considered when scaling the icon. </p>
+
+<p>Reimplemented from <a class="el" href="classSymbol.html#a91e352bcfda45b8b5b1d65192e2adc69">Symbol</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad86d9f0cf5068128e2c1697078cb97d8"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -709,7 +945,7 @@ symbol]" in the point symbol editor, this class can contain a list of elements t
           <td class="memname"><a class="el" href="classSymbol.html">Symbol</a> * PointSymbol::duplicate </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMapColorMap.html">MapColorMap</a> *&#160;</td>
-          <td class="paramname"><em>color_map</em> = <code>NULL</code></td><td>)</td>
+          <td class="paramname"><em>color_map</em> = <code>nullptr</code></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -1095,7 +1331,7 @@ symbol]" in the point symbol editor, this class can contain a list of elements t
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="map__part_8h.html#a399a8a7116cffc8d49caccfc501704f2">SymbolDictionary</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="map__part_8h.html#af7d420ad52539d37facbc179de888f97">SymbolDictionary</a> &amp;&#160;</td>
           <td class="paramname"><em>symbol_dict</em>&#160;</td>
         </tr>
         <tr>
@@ -1302,6 +1538,31 @@ symbol]" in the point symbol editor, this class can contain a list of elements t
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8be5d8edb0c4c81f77d37800d57eaea3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> PointSymbol::validate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classSymbol.html#ad07504e6e8cde3c85aa37a6a00731721">Symbol</a>.</p>
 
 </div>
 </div>
@@ -1528,9 +1789,9 @@ symbol]" in the point symbol editor, this class can contain a list of elements t
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/core/symbols/<a class="el" href="point__symbol_8h.html">point_symbol.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/d30d295/src/core/symbols/point_symbol.h"><tt>d30d295</tt></a> on 14 Jan 2017)</li>
-<li>src/core/symbols/<a class="el" href="point__symbol_8cpp.html">point_symbol.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/d30d295/src/core/symbols/point_symbol.cpp"><tt>d30d295</tt></a> on 14 Jan 2017)</li>
-<li>src/gui/symbols/<a class="el" href="point__symbol__settings_8cpp.html">point_symbol_settings.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/d30d295/src/gui/symbols/point_symbol_settings.cpp"><tt>d30d295</tt></a> on 14 Jan 2017)</li>
+<li>src/core/symbols/<a class="el" href="point__symbol_8h.html">point_symbol.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/3ba38ee/src/core/symbols/point_symbol.h"><tt>3ba38ee</tt></a> on 7 Nov 2017)</li>
+<li>src/core/symbols/<a class="el" href="point__symbol_8cpp.html">point_symbol.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/3ba38ee/src/core/symbols/point_symbol.cpp"><tt>3ba38ee</tt></a> on 7 Nov 2017)</li>
+<li>src/gui/symbols/<a class="el" href="point__symbol__settings_8cpp.html">point_symbol_settings.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/0cf9d35/src/gui/symbols/point_symbol_settings.cpp"><tt>0cf9d35</tt></a> on 14 Aug 2017)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

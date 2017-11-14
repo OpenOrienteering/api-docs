@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -93,50 +93,38 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">tag_select_widget.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/9ee00e4/src/gui/widgets/tag_select_widget.cpp"><tt>9ee00e4</tt></a> on 8 Jan 2017)</h3><div class="textblock"><code>#include &quot;<a class="el" href="tag__select__widget_8h.html">tag_select_widget.h</a>&quot;</code><br />
+<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/c9e89e9/src/gui/widgets/tag_select_widget.cpp"><tt>c9e89e9</tt></a> on 26 Jul 2017)</h3><div class="textblock"><code>#include &quot;<a class="el" href="tag__select__widget_8h.html">tag_select_widget.h</a>&quot;</code><br />
 <code>#include &lt;QComboBox&gt;</code><br />
 <code>#include &lt;QGuiApplication&gt;</code><br />
 <code>#include &lt;QHeaderView&gt;</code><br />
 <code>#include &lt;QLabel&gt;</code><br />
-<code>#include &lt;QMessageBox&gt;</code><br />
 <code>#include &lt;QShowEvent&gt;</code><br />
 <code>#include &lt;QTableWidget&gt;</code><br />
 <code>#include &lt;QToolButton&gt;</code><br />
-<code>#include &quot;<a class="el" href="segmented__button__layout_8h.html">segmented_button_layout.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="main__window_8h.html">../main_window.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="map_8h.html">core/map.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="map__editor_8h.html">gui/map/map_editor.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="map__part_8h.html">core/map_part.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="object_8h.html">core/objects/object.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="object__query_8h.html">core/objects/object_query.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="tool_8h.html">tools/tool.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="main__window_8h.html">gui/main_window.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="map__editor_8h.html">gui/map/map_editor.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="segmented__button__layout_8h.html">gui/widgets/segmented_button_layout.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="util_8h.html">util/util.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for tag_select_widget.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="tag__select__widget_8cpp__incl.png" border="0" usemap="#src_2gui_2widgets_2tag__select__widget_8cpp" alt=""/></div>
 <map name="src_2gui_2widgets_2tag__select__widget_8cpp" id="src_2gui_2widgets_2tag__select__widget_8cpp">
-<area shape="rect" id="node2" href="tag__select__widget_8h.html" title="tag_select_widget.h" alt="" coords="1455,169,1594,196"/>
-<area shape="rect" id="node12" href="segmented__button__layout_8h.html" title="segmented_button_layout.h" alt="" coords="1022,95,1205,121"/>
-<area shape="rect" id="node14" href="main__window_8h.html" title="../main_window.h" alt="" coords="1788,95,1912,121"/>
-<area shape="rect" id="node19" href="map_8h.html" title="core/map.h" alt="" coords="824,169,910,196"/>
-<area shape="rect" id="node31" href="map__part_8h.html" title="map_part.h" alt="" coords="493,251,580,278"/>
-<area shape="rect" id="node32" href="map__editor_8h.html" title="gui/map/map_editor.h" alt="" coords="1280,95,1427,121"/>
-<area shape="rect" id="node37" href="object_8h.html" title="core/objects/object.h" alt="" coords="2434,95,2577,121"/>
-<area shape="rect" id="node44" href="object__query_8h.html" title="core/objects/object\l_query.h" alt="" coords="3230,244,3362,285"/>
-<area shape="rect" id="node47" href="tool_8h.html" title="tools/tool.h" alt="" coords="3005,95,3092,121"/>
-<area shape="rect" id="node50" href="util_8h.html" title="util/util.h" alt="" coords="2756,95,2826,121"/>
-<area shape="rect" id="node16" href="autosave_8h.html" title="../core/autosave.h" alt="" coords="1716,169,1842,196"/>
-<area shape="rect" id="node18" href="file__format_8h.html" title="../fileformats/file\l_format.h" alt="" coords="2049,244,2165,285"/>
-<area shape="rect" id="node27" href="global_8h.html" title="global.h" alt="" coords="763,251,830,278"/>
-<area shape="rect" id="node28" href="map__coord_8h.html" title="map_coord.h" alt="" coords="2825,333,2922,360"/>
-<area shape="rect" id="node30" href="map__grid_8h.html" title="map_grid.h" alt="" coords="1006,251,1093,278"/>
-<area shape="rect" id="node36" href="main__window__controller_8h.html" title="gui/main_window_controller.h" alt="" coords="1237,169,1430,196"/>
-<area shape="rect" id="node40" href="path__coord_8h.html" title="core/path_coord.h" alt="" coords="2622,251,2749,278"/>
-<area shape="rect" id="node41" href="virtual__path_8h.html" title="core/virtual_path.h" alt="" coords="2729,169,2858,196"/>
-<area shape="rect" id="node42" href="renderable_8h.html" title="core/renderables/renderable.h" alt="" coords="2409,169,2602,196"/>
-<area shape="rect" id="node43" href="symbol_8h.html" title="core/symbols/symbol.h" alt="" coords="2150,169,2307,196"/>
-<area shape="rect" id="node49" href="point__handles_8h.html" title="gui/point_handles.h" alt="" coords="3020,251,3154,278"/>
+<area shape="rect" id="node2" href="tag__select__widget_8h.html" title="tag_select_widget.h" alt="" coords="3442,191,3580,218"/>
+<area shape="rect" id="node13" href="map_8h.html" title="core/map.h" alt="" coords="906,102,993,129"/>
+<area shape="rect" id="node34" href="object__query_8h.html" title="core/objects/object\l_query.h" alt="" coords="2089,95,2221,136"/>
+<area shape="rect" id="node37" href="main__window_8h.html" title="gui/main_window.h" alt="" coords="2335,102,2468,129"/>
+<area shape="rect" id="node43" href="map__editor_8h.html" title="gui/map/map_editor.h" alt="" coords="2738,102,2884,129"/>
+<area shape="rect" id="node47" href="segmented__button__layout_8h.html" title="gui/widgets/segmented\l_button_layout.h" alt="" coords="3605,184,3761,225"/>
+<area shape="rect" id="node49" href="util_8h.html" title="util/util.h" alt="" coords="1382,191,1453,218"/>
+<area shape="rect" id="node29" href="map__coord_8h.html" title="core/map_coord.h" alt="" coords="1232,191,1358,218"/>
+<area shape="rect" id="node32" href="map__grid_8h.html" title="core/map_grid.h" alt="" coords="892,191,1007,218"/>
+<area shape="rect" id="node33" href="map__part_8h.html" title="core/map_part.h" alt="" coords="317,191,433,218"/>
+<area shape="rect" id="node41" href="autosave_8h.html" title="core/autosave.h" alt="" coords="2730,191,2844,218"/>
+<area shape="rect" id="node42" href="file__format_8h.html" title="fileformats/file_format.h" alt="" coords="1694,191,1853,218"/>
+<area shape="rect" id="node46" href="main__window__controller_8h.html" title="gui/main_window_controller.h" alt="" coords="2869,191,3062,218"/>
 </map>
 </div>
 </div></div><!-- contents -->

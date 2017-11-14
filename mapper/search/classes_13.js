@@ -1,6 +1,7 @@
 var searchData=
 [
   ['tab',['Tab',['http://doc.qt.io/qt-5/qtextoption-tab.html',1,'QTextOption']]],
+  ['tagoperands',['TagOperands',['../structObjectQuery_1_1TagOperands.html',1,'ObjectQuery']]],
   ['tagselectwidget',['TagSelectWidget',['../classTagSelectWidget.html',1,'']]],
   ['tagswidget',['TagsWidget',['../classTagsWidget.html',1,'']]],
   ['takerowresult',['TakeRowResult',['http://doc.qt.io/qt-5/qformlayout-takerowresult.html',1,'QFormLayout']]],
@@ -49,6 +50,8 @@ var searchData=
   ['track',['Track',['../classTrack.html',1,'']]],
   ['trackpoint',['TrackPoint',['../structTrackPoint.html',1,'']]],
   ['transformtest',['TransformTest',['../classTransformTest.html',1,'']]],
+  ['translation',['Translation',['../structSymbolSetTool_1_1TranslationEntry_1_1Translation.html',1,'SymbolSetTool::TranslationEntry']]],
+  ['translationentry',['TranslationEntry',['../structSymbolSetTool_1_1TranslationEntry.html',1,'SymbolSetTool']]],
   ['translationutil',['TranslationUtil',['../classTranslationUtil.html',1,'']]],
   ['tst_5fqglobal',['tst_QGlobal',['../classtst__QGlobal.html',1,'']]],
   ['ttf_5fpoint',['TTF_POINT',['../structTTF__POINT.html',1,'']]]

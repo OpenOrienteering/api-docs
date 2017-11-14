@@ -1,6 +1,8 @@
 var searchData=
 [
   ['file_2ec',['file.c',['../file_8c.html',1,'']]],
+  ['file_5fdialog_2ecpp',['file_dialog.cpp',['../file__dialog_8cpp.html',1,'']]],
+  ['file_5fdialog_2eh',['file_dialog.h',['../file__dialog_8h.html',1,'']]],
   ['file_5fformat_2ecpp',['file_format.cpp',['../file__format_8cpp.html',1,'']]],
   ['file_5fformat_2eh',['file_format.h',['../file__format_8h.html',1,'']]],
   ['file_5fformat_5fregistry_2ecpp',['file_format_registry.cpp',['../file__format__registry_8cpp.html',1,'']]],

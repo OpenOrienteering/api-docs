@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -90,15 +90,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
+<a href="#nested-classes">Classes</a>  </div>
   <div class="headertitle">
 <div class="title">scoped_signals_blocker.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/03189d7/src/util/scoped_signals_blocker.h"><tt>03189d7</tt></a> on 3 Nov 2015)</h3><div class="textblock"><code>#include &lt;utility&gt;</code><br />
-<code>#include &lt;QObject&gt;</code><br />
-<code>#include &lt;QVarLengthArray&gt;</code><br />
+<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/c9e89e9/src/util/scoped_signals_blocker.h"><tt>c9e89e9</tt></a> on 26 Jul 2017)</h3><div class="textblock"><code>#include &lt;QVarLengthArray&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for scoped_signals_blocker.h:</div>
 <div class="dyncontent">
@@ -111,47 +108,19 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="scoped__signals__blocker_8h__dep__incl.png" border="0" usemap="#src_2util_2scoped__signals__blocker_8hdep" alt=""/></div>
 <map name="src_2util_2scoped__signals__blocker_8hdep" id="src_2util_2scoped__signals__blocker_8hdep">
-<area shape="rect" id="node2" href="crs__template__implementation_8cpp.html" title="src/core/crs_template\l_implementation.cpp" alt="" coords="5,95,153,136"/>
-<area shape="rect" id="node3" href="georeferencing_8cpp.html" title="src/core/georeferencing.cpp" alt="" coords="177,102,360,129"/>
-<area shape="rect" id="node4" href="gdal__settings__page_8cpp.html" title="src/gdal/gdal_settings\l_page.cpp" alt="" coords="385,95,534,136"/>
-<area shape="rect" id="node5" href="georeferencing__dialog_8cpp.html" title="src/gui/georeferencing\l_dialog.cpp" alt="" coords="559,95,709,136"/>
-<area shape="rect" id="node6" href="map__editor_8cpp.html" title="src/gui/map/map_editor.cpp" alt="" coords="733,102,916,129"/>
-<area shape="rect" id="node7" href="print__widget_8cpp.html" title="src/gui/print_widget.cpp" alt="" coords="941,102,1101,129"/>
-<area shape="rect" id="node8" href="text__symbol__settings_8cpp.html" title="src/gui/symbols/text\l_symbol_settings.cpp" alt="" coords="1125,95,1274,136"/>
-<area shape="rect" id="node9" href="crs__selector_8cpp.html" title="src/gui/widgets/crs\l_selector.cpp" alt="" coords="1299,95,1431,136"/>
-<area shape="rect" id="node10" href="general__settings__page_8cpp.html" title="src/gui/widgets/general\l_settings_page.cpp" alt="" coords="1455,95,1611,136"/>
-<area shape="rect" id="node11" href="template__list__widget_8cpp.html" title="src/gui/widgets/template\l_list_widget.cpp" alt="" coords="1635,95,1799,136"/>
-<area shape="rect" id="node12" href="scoped__signals__blocker_8cpp.html" title="src/util/scoped_signals\l_blocker.cpp" alt="" coords="1823,95,1978,136"/>
+<area shape="rect" id="node2" href="georeferencing__dialog_8cpp.html" title="src/gui/georeferencing\l_dialog.cpp" alt="" coords="5,95,156,136"/>
+<area shape="rect" id="node3" href="print__widget_8cpp.html" title="src/gui/print_widget.cpp" alt="" coords="181,102,341,129"/>
+<area shape="rect" id="node4" href="area__symbol__settings_8cpp.html" title="src/gui/symbols/area\l_symbol_settings.cpp" alt="" coords="365,95,514,136"/>
+<area shape="rect" id="node5" href="scoped__signals__blocker_8cpp.html" title="src/util/scoped_signals\l_blocker.cpp" alt="" coords="538,95,693,136"/>
 </map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScopedSignalsBlocker.html">ScopedSignalsBlocker</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A safe and scoped wrapper around <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#blockSignals">QObject::blockSignals()</a>.  <a href="classScopedSignalsBlocker.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScopedMultiSignalsBlocker.html">ScopedMultiSignalsBlocker</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A safe and scoped wrapper around <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#blockSignals">QObject::blockSignals()</a> of multiple objects.  <a href="classScopedMultiSignalsBlocker.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:abdfeba82466ddeb04b8f31b13d0ec37a"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classScopedSignalsBlocker.html">ScopedSignalsBlocker</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scoped__signals__blocker_8h.html#abdfeba82466ddeb04b8f31b13d0ec37a">QSignalBlocker</a></td></tr>
-<tr class="separator:abdfeba82466ddeb04b8f31b13d0ec37a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a class="anchor" id="abdfeba82466ddeb04b8f31b13d0ec37a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef <a class="el" href="classScopedSignalsBlocker.html">ScopedSignalsBlocker</a> <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qsignalblocker.html">QSignalBlocker</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

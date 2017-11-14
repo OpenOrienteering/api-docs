@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -107,9 +107,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a47f714ae8163e4d1c97372a44ab50e30"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapPart.html#a47f714ae8163e4d1c97372a44ab50e30">MapPart</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;name, <a class="el" href="classMap.html">Map</a> *map)</td></tr>
 <tr class="memdesc:a47f714ae8163e4d1c97372a44ab50e30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new map part with the given name for a map.  <a href="#a47f714ae8163e4d1c97372a44ab50e30">More...</a><br /></td></tr>
 <tr class="separator:a47f714ae8163e4d1c97372a44ab50e30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a190c2dd8b230b98dc76e6f0c4559ede4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapPart.html#a190c2dd8b230b98dc76e6f0c4559ede4">MapPart</a> (const <a class="el" href="classMapPart.html">MapPart</a> &amp;)=delete</td></tr>
+<tr class="separator:a190c2dd8b230b98dc76e6f0c4559ede4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a345c2e35c1570faab266e24e1f29ddb5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapPart.html#a345c2e35c1570faab266e24e1f29ddb5">~MapPart</a> ()</td></tr>
 <tr class="memdesc:a345c2e35c1570faab266e24e1f29ddb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys the map part.  <a href="#a345c2e35c1570faab266e24e1f29ddb5">More...</a><br /></td></tr>
 <tr class="separator:a345c2e35c1570faab266e24e1f29ddb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09d0dd67eca872f21606f6426d49544f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMapPart.html">MapPart</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapPart.html#a09d0dd67eca872f21606f6426d49544f">operator=</a> (const <a class="el" href="classMapPart.html">MapPart</a> &amp;)=delete</td></tr>
+<tr class="separator:a09d0dd67eca872f21606f6426d49544f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7fe51210567680b027e34b46b168416e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapPart.html#a7fe51210567680b027e34b46b168416e">load</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qiodevice.html">QIODevice</a> *file, int version, <a class="el" href="classMap.html">Map</a> *map)</td></tr>
 <tr class="memdesc:a7fe51210567680b027e34b46b168416e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the map part in the old "native" format from the given file.  <a href="#a7fe51210567680b027e34b46b168416e">More...</a><br /></td></tr>
 <tr class="separator:a7fe51210567680b027e34b46b168416e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -149,38 +153,37 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:affb9c237bcc3e502ff624e2d1d8130e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapPart.html#affb9c237bcc3e502ff624e2d1d8130e8">deleteObject</a> (<a class="el" href="classObject.html">Object</a> *object, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> remove_only)</td></tr>
 <tr class="memdesc:affb9c237bcc3e502ff624e2d1d8130e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deleted the object from the given index.  <a href="#affb9c237bcc3e502ff624e2d1d8130e8">More...</a><br /></td></tr>
 <tr class="separator:affb9c237bcc3e502ff624e2d1d8130e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f0de961684069bc9d94e25a1157c887"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapPart.html#a5f0de961684069bc9d94e25a1157c887">importPart</a> (const <a class="el" href="classMapPart.html">MapPart</a> *other, <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qhash.html">QHash</a>&lt; const <a class="el" href="classSymbol.html">Symbol</a> *, <a class="el" href="classSymbol.html">Symbol</a> * &gt; &amp;symbol_map, const <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qtransform.html">QTransform</a> &amp;transform, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> select_new_objects)</td></tr>
-<tr class="memdesc:a5f0de961684069bc9d94e25a1157c887"><td class="mdescLeft">&#160;</td><td class="mdescRight">Imports the contents another part into this part.  <a href="#a5f0de961684069bc9d94e25a1157c887">More...</a><br /></td></tr>
-<tr class="separator:a5f0de961684069bc9d94e25a1157c887"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af26b1ae6267ea923c8218fa00488e3ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapPart.html#af26b1ae6267ea923c8218fa00488e3ea">findObjectsAt</a> (<a class="el" href="classMapCoordF.html">MapCoordF</a> coord, float tolerance, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> treat_areas_as_paths, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> extended_selection, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> include_hidden_objects, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> include_protected_objects, <a class="el" href="map__part_8h.html#a13ca1d6f950a575e0025e7547506dfc4">SelectionInfoVector</a> &amp;out) const </td></tr>
+<tr class="memitem:aa3bbffcc3f26dcdf56f16db042575bc4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapPart.html#aa3bbffcc3f26dcdf56f16db042575bc4">importPart</a> (const <a class="el" href="classMapPart.html">MapPart</a> *other, const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qhash.html">QHash</a>&lt; const <a class="el" href="classSymbol.html">Symbol</a> *, <a class="el" href="classSymbol.html">Symbol</a> * &gt; &amp;symbol_map, const <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qtransform.html">QTransform</a> &amp;transform, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> select_new_objects)</td></tr>
+<tr class="memdesc:aa3bbffcc3f26dcdf56f16db042575bc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Imports the contents another part into this part.  <a href="#aa3bbffcc3f26dcdf56f16db042575bc4">More...</a><br /></td></tr>
+<tr class="separator:aa3bbffcc3f26dcdf56f16db042575bc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af26b1ae6267ea923c8218fa00488e3ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapPart.html#af26b1ae6267ea923c8218fa00488e3ea">findObjectsAt</a> (<a class="el" href="classMapCoordF.html">MapCoordF</a> coord, float tolerance, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> treat_areas_as_paths, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> extended_selection, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> include_hidden_objects, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> include_protected_objects, <a class="el" href="map__part_8h.html#af3ee0f90d96f211e569c356798307880">SelectionInfoVector</a> &amp;out) const </td></tr>
 <tr class="separator:af26b1ae6267ea923c8218fa00488e3ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7a60c5b30f17e8bdf821884873a6639"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapPart.html#aa7a60c5b30f17e8bdf821884873a6639">findObjectsAtBox</a> (<a class="el" href="classMapCoordF.html">MapCoordF</a> corner1, <a class="el" href="classMapCoordF.html">MapCoordF</a> corner2, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> include_hidden_objects, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> include_protected_objects, std::vector&lt; <a class="el" href="classObject.html">Object</a> * &gt; &amp;out) const </td></tr>
 <tr class="separator:aa7a60c5b30f17e8bdf821884873a6639"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade505d25d791f7d13b616a5082496e33"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapPart.html#ade505d25d791f7d13b616a5082496e33">countObjectsInRect</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> map_coord_rect, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> include_hidden_objects) const </td></tr>
-<tr class="separator:ade505d25d791f7d13b616a5082496e33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6481eb1240d88d6dedf0cf00f772c03"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapPart.html#ac6481eb1240d88d6dedf0cf00f772c03">countObjectsInRect</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> &amp;map_coord_rect, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> include_hidden_objects) const </td></tr>
+<tr class="separator:ac6481eb1240d88d6dedf0cf00f772c03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4d38a7d75cb8339b4af8250a9355e80"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapPart.html#ae4d38a7d75cb8339b4af8250a9355e80">calculateExtent</a> (<a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> include_helper_symbols) const </td></tr>
 <tr class="memdesc:ae4d38a7d75cb8339b4af8250a9355e80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates and returns the bounding box of all objects in this map part.  <a href="#ae4d38a7d75cb8339b4af8250a9355e80">More...</a><br /></td></tr>
 <tr class="separator:ae4d38a7d75cb8339b4af8250a9355e80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b7dfe7c2f0ff78f53076922707d8c11"><td class="memTemplParams" colspan="2">template&lt;typename Condition &gt; </td></tr>
-<tr class="memitem:a0b7dfe7c2f0ff78f53076922707d8c11"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMapPart.html#a0b7dfe7c2f0ff78f53076922707d8c11">existsObject</a> (const Condition &amp;condition) const </td></tr>
-<tr class="memdesc:a0b7dfe7c2f0ff78f53076922707d8c11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies a condition on all objects (until the first match is found).  <a href="#a0b7dfe7c2f0ff78f53076922707d8c11">More...</a><br /></td></tr>
-<tr class="separator:a0b7dfe7c2f0ff78f53076922707d8c11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5064a2337fa41208a4ef8a7d471a561d"><td class="memTemplParams" colspan="2">template&lt;typename Operation , typename Condition &gt; </td></tr>
-<tr class="memitem:a5064a2337fa41208a4ef8a7d471a561d"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMapPart.html#a5064a2337fa41208a4ef8a7d471a561d">applyOnMatchingObjects</a> (const Operation &amp;operation, const Condition &amp;condition)</td></tr>
-<tr class="memdesc:a5064a2337fa41208a4ef8a7d471a561d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies an operation on all objects.  <a class="el" href="classMap.html#a4b6ae55127897945024058b01a3cb897" title="Applies an operation on all objects. ">Map::applyOnAllObjects()</a>  <a href="#a5064a2337fa41208a4ef8a7d471a561d">More...</a><br /></td></tr>
-<tr class="separator:a5064a2337fa41208a4ef8a7d471a561d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2294d06312ce5488d40036cb265a47c3"><td class="memTemplParams" colspan="2">template&lt;typename Operation &gt; </td></tr>
-<tr class="memitem:a2294d06312ce5488d40036cb265a47c3"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMapPart.html#a2294d06312ce5488d40036cb265a47c3">applyOnAllObjects</a> (const Operation &amp;operation)</td></tr>
-<tr class="memdesc:a2294d06312ce5488d40036cb265a47c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies an operation on all objects.  <a class="el" href="classMap.html#a4b6ae55127897945024058b01a3cb897" title="Applies an operation on all objects. ">Map::applyOnAllObjects()</a>  <a href="#a2294d06312ce5488d40036cb265a47c3">More...</a><br /></td></tr>
-<tr class="separator:a2294d06312ce5488d40036cb265a47c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a662716ffb98309c7d92eb4ec80f78273"><td class="memTemplParams" colspan="2">template&lt;typename Operation &gt; </td></tr>
-<tr class="memitem:a662716ffb98309c7d92eb4ec80f78273"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMapPart.html#a662716ffb98309c7d92eb4ec80f78273">applyOnAllObjects</a> (Operation &amp;operation)</td></tr>
-<tr class="memdesc:a662716ffb98309c7d92eb4ec80f78273"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies an operation on all objects.  <a class="el" href="classMap.html#a4b6ae55127897945024058b01a3cb897" title="Applies an operation on all objects. ">Map::applyOnAllObjects()</a>  <a href="#a662716ffb98309c7d92eb4ec80f78273">More...</a><br /></td></tr>
-<tr class="separator:a662716ffb98309c7d92eb4ec80f78273"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a177475737bf6e3ab2c6391024f1d3a71"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapPart.html#a177475737bf6e3ab2c6391024f1d3a71">existsObject</a> (const <a class="el" href="test_2CMakeLists_8txt.html#af0d4c1053f3a03b78ac45b66cdc77dc7">std::function</a>&lt; <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>(const <a class="el" href="classObject.html">Object</a> *)&gt; &amp;condition) const </td></tr>
+<tr class="memdesc:a177475737bf6e3ab2c6391024f1d3a71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies a condition on all objects (until the first match is found).  <a href="#a177475737bf6e3ab2c6391024f1d3a71">More...</a><br /></td></tr>
+<tr class="separator:a177475737bf6e3ab2c6391024f1d3a71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a179242da26fd047b6fb6bf823c9dbb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapPart.html#a7a179242da26fd047b6fb6bf823c9dbb">applyOnMatchingObjects</a> (const <a class="el" href="test_2CMakeLists_8txt.html#af0d4c1053f3a03b78ac45b66cdc77dc7">std::function</a>&lt; void(<a class="el" href="classObject.html">Object</a> *)&gt; &amp;operation, const <a class="el" href="test_2CMakeLists_8txt.html#af0d4c1053f3a03b78ac45b66cdc77dc7">std::function</a>&lt; <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>(const <a class="el" href="classObject.html">Object</a> *)&gt; &amp;condition)</td></tr>
+<tr class="memdesc:a7a179242da26fd047b6fb6bf823c9dbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies an operation on all objects which match a particular condition.  <a href="#a7a179242da26fd047b6fb6bf823c9dbb">More...</a><br /></td></tr>
+<tr class="separator:a7a179242da26fd047b6fb6bf823c9dbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7dcf222b1423c711f86fb041e51f104"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapPart.html#af7dcf222b1423c711f86fb041e51f104">applyOnMatchingObjects</a> (const <a class="el" href="test_2CMakeLists_8txt.html#af0d4c1053f3a03b78ac45b66cdc77dc7">std::function</a>&lt; void(<a class="el" href="classObject.html">Object</a> *, <a class="el" href="classMapPart.html">MapPart</a> *, int)&gt; &amp;operation, const <a class="el" href="test_2CMakeLists_8txt.html#af0d4c1053f3a03b78ac45b66cdc77dc7">std::function</a>&lt; <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>(const <a class="el" href="classObject.html">Object</a> *)&gt; &amp;condition)</td></tr>
+<tr class="memdesc:af7dcf222b1423c711f86fb041e51f104"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies an operation on all objects which match a particular condition.  <a href="#af7dcf222b1423c711f86fb041e51f104">More...</a><br /></td></tr>
+<tr class="separator:af7dcf222b1423c711f86fb041e51f104"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ec312d0263780d69e2c3c1e874f6b0f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapPart.html#a9ec312d0263780d69e2c3c1e874f6b0f">applyOnAllObjects</a> (const <a class="el" href="test_2CMakeLists_8txt.html#af0d4c1053f3a03b78ac45b66cdc77dc7">std::function</a>&lt; void(<a class="el" href="classObject.html">Object</a> *)&gt; &amp;operation)</td></tr>
+<tr class="memdesc:a9ec312d0263780d69e2c3c1e874f6b0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies an operation on all objects.  <a href="#a9ec312d0263780d69e2c3c1e874f6b0f">More...</a><br /></td></tr>
+<tr class="separator:a9ec312d0263780d69e2c3c1e874f6b0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1dc547634e8a77f75b7087b56b263e02"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapPart.html#a1dc547634e8a77f75b7087b56b263e02">applyOnAllObjects</a> (const <a class="el" href="test_2CMakeLists_8txt.html#af0d4c1053f3a03b78ac45b66cdc77dc7">std::function</a>&lt; void(<a class="el" href="classObject.html">Object</a> *, <a class="el" href="classMapPart.html">MapPart</a> *, int)&gt; &amp;operation)</td></tr>
+<tr class="memdesc:a1dc547634e8a77f75b7087b56b263e02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies an operation on all objects.  <a href="#a1dc547634e8a77f75b7087b56b263e02">More...</a><br /></td></tr>
+<tr class="separator:a1dc547634e8a77f75b7087b56b263e02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a192b7de6d8874861d690c2804b4c7b9d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classMapPart.html">MapPart</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapPart.html#a192b7de6d8874861d690c2804b4c7b9d">load</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qxmlstreamreader.html">QXmlStreamReader</a> &amp;xml, <a class="el" href="classMap.html">Map</a> &amp;map, <a class="el" href="map__part_8h.html#a399a8a7116cffc8d49caccfc501704f2">SymbolDictionary</a> &amp;symbol_dict)</td></tr>
+<tr class="memitem:a192b7de6d8874861d690c2804b4c7b9d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classMapPart.html">MapPart</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapPart.html#a192b7de6d8874861d690c2804b4c7b9d">load</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qxmlstreamreader.html">QXmlStreamReader</a> &amp;xml, <a class="el" href="classMap.html">Map</a> &amp;map, <a class="el" href="map__part_8h.html#af7d420ad52539d37facbc179de888f97">SymbolDictionary</a> &amp;symbol_dict)</td></tr>
 <tr class="memdesc:a192b7de6d8874861d690c2804b4c7b9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the map part in xml format from the given stream.  <a href="#a192b7de6d8874861d690c2804b4c7b9d">More...</a><br /></td></tr>
 <tr class="separator:a192b7de6d8874861d690c2804b4c7b9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -220,6 +223,30 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Creates a new map part with the given name for a map. </p>
+
+</div>
+</div>
+<a class="anchor" id="a190c2dd8b230b98dc76e6f0c4559ede4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MapPart::MapPart </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMapPart.html">MapPart</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -287,62 +314,56 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a2294d06312ce5488d40036cb265a47c3"></a>
+<a class="anchor" id="a9ec312d0263780d69e2c3c1e874f6b0f"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename Operation &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> MapPart::applyOnAllObjects </td>
+          <td class="memname">void MapPart::applyOnAllObjects </td>
           <td>(</td>
-          <td class="paramtype">const Operation &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="test_2CMakeLists_8txt.html#af0d4c1053f3a03b78ac45b66cdc77dc7">std::function</a>&lt; void(<a class="el" href="classObject.html">Object</a> *)&gt; &amp;&#160;</td>
           <td class="paramname"><em>operation</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Applies an operation on all objects.  <a class="el" href="classMap.html#a4b6ae55127897945024058b01a3cb897" title="Applies an operation on all objects. ">Map::applyOnAllObjects()</a> </p>
+<p>Applies an operation on all objects. </p>
 
 </div>
 </div>
-<a class="anchor" id="a662716ffb98309c7d92eb4ec80f78273"></a>
+<a class="anchor" id="a1dc547634e8a77f75b7087b56b263e02"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename Operation &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> MapPart::applyOnAllObjects </td>
+          <td class="memname">void MapPart::applyOnAllObjects </td>
           <td>(</td>
-          <td class="paramtype">Operation &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="test_2CMakeLists_8txt.html#af0d4c1053f3a03b78ac45b66cdc77dc7">std::function</a>&lt; void(<a class="el" href="classObject.html">Object</a> *, <a class="el" href="classMapPart.html">MapPart</a> *, int)&gt; &amp;&#160;</td>
           <td class="paramname"><em>operation</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Applies an operation on all objects.  <a class="el" href="classMap.html#a4b6ae55127897945024058b01a3cb897" title="Applies an operation on all objects. ">Map::applyOnAllObjects()</a> </p>
+<p>Applies an operation on all objects. </p>
 
 </div>
 </div>
-<a class="anchor" id="a5064a2337fa41208a4ef8a7d471a561d"></a>
+<a class="anchor" id="a7a179242da26fd047b6fb6bf823c9dbb"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename Operation , typename Condition &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> MapPart::applyOnMatchingObjects </td>
+          <td class="memname">void MapPart::applyOnMatchingObjects </td>
           <td>(</td>
-          <td class="paramtype">const Operation &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="test_2CMakeLists_8txt.html#af0d4c1053f3a03b78ac45b66cdc77dc7">std::function</a>&lt; void(<a class="el" href="classObject.html">Object</a> *)&gt; &amp;&#160;</td>
           <td class="paramname"><em>operation</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Condition &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="test_2CMakeLists_8txt.html#af0d4c1053f3a03b78ac45b66cdc77dc7">std::function</a>&lt; <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>(const <a class="el" href="classObject.html">Object</a> *)&gt; &amp;&#160;</td>
           <td class="paramname"><em>condition</em>&#160;</td>
         </tr>
         <tr>
@@ -353,7 +374,35 @@ template&lt;typename Operation , typename Condition &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Applies an operation on all objects.  <a class="el" href="classMap.html#a4b6ae55127897945024058b01a3cb897" title="Applies an operation on all objects. ">Map::applyOnAllObjects()</a> </p>
+<p>Applies an operation on all objects which match a particular condition. </p>
+
+</div>
+</div>
+<a class="anchor" id="af7dcf222b1423c711f86fb041e51f104"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MapPart::applyOnMatchingObjects </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="test_2CMakeLists_8txt.html#af0d4c1053f3a03b78ac45b66cdc77dc7">std::function</a>&lt; void(<a class="el" href="classObject.html">Object</a> *, <a class="el" href="classMapPart.html">MapPart</a> *, int)&gt; &amp;&#160;</td>
+          <td class="paramname"><em>operation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="test_2CMakeLists_8txt.html#af0d4c1053f3a03b78ac45b66cdc77dc7">std::function</a>&lt; <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>(const <a class="el" href="classObject.html">Object</a> *)&gt; &amp;&#160;</td>
+          <td class="paramname"><em>condition</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Applies an operation on all objects which match a particular condition. </p>
 
 </div>
 </div>
@@ -375,14 +424,14 @@ template&lt;typename Operation , typename Condition &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="ade505d25d791f7d13b616a5082496e33"></a>
+<a class="anchor" id="ac6481eb1240d88d6dedf0cf00f772c03"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">int MapPart::countObjectsInRect </td>
           <td>(</td>
-          <td class="paramtype"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a>&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> &amp;&#160;</td>
           <td class="paramname"><em>map_coord_rect</em>, </td>
         </tr>
         <tr>
@@ -398,7 +447,7 @@ template&lt;typename Operation , typename Condition &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="classMap.html#af8d3ab0a95cc437b98d83611e4f02e72" title="Counts the objects whose bounding boxes intersect the given rect. ">Map::countObjectsInRect()</a>. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classMap.html#aa25f50c0fbbcbfa7b147f9e58d5e6a84" title="Counts the objects whose bounding boxes intersect the given rect. ">Map::countObjectsInRect()</a>. </dd></dl>
 
 </div>
 </div>
@@ -462,16 +511,14 @@ template&lt;typename Operation , typename Condition &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a0b7dfe7c2f0ff78f53076922707d8c11"></a>
+<a class="anchor" id="a177475737bf6e3ab2c6391024f1d3a71"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename Condition &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> MapPart::existsObject </td>
           <td>(</td>
-          <td class="paramtype">const Condition &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="test_2CMakeLists_8txt.html#af0d4c1053f3a03b78ac45b66cdc77dc7">std::function</a>&lt; <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>(const <a class="el" href="classObject.html">Object</a> *)&gt; &amp;&#160;</td>
           <td class="paramname"><em>condition</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -545,7 +592,7 @@ template&lt;typename Condition &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="map__part_8h.html#a13ca1d6f950a575e0025e7547506dfc4">SelectionInfoVector</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="map__part_8h.html#af3ee0f90d96f211e569c356798307880">SelectionInfoVector</a> &amp;&#160;</td>
           <td class="paramname"><em>out</em>&#160;</td>
         </tr>
         <tr>
@@ -706,7 +753,7 @@ template&lt;typename Condition &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a5f0de961684069bc9d94e25a1157c887"></a>
+<a class="anchor" id="aa3bbffcc3f26dcdf56f16db042575bc4"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -719,7 +766,7 @@ template&lt;typename Condition &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qhash.html">QHash</a>&lt; const <a class="el" href="classSymbol.html">Symbol</a> *, <a class="el" href="classSymbol.html">Symbol</a> * &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qhash.html">QHash</a>&lt; const <a class="el" href="classSymbol.html">Symbol</a> *, <a class="el" href="classSymbol.html">Symbol</a> * &gt; &amp;&#160;</td>
           <td class="paramname"><em>symbol_map</em>, </td>
         </tr>
         <tr>
@@ -803,7 +850,7 @@ template&lt;typename Condition &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="map__part_8h.html#a399a8a7116cffc8d49caccfc501704f2">SymbolDictionary</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="map__part_8h.html#af7d420ad52539d37facbc179de888f97">SymbolDictionary</a> &amp;&#160;</td>
           <td class="paramname"><em>symbol_dict</em>&#160;</td>
         </tr>
         <tr>
@@ -821,6 +868,30 @@ template&lt;typename Condition &gt; </div>
 
 <p>Loads the map part in xml format from the given stream. </p>
 <p>Needs a dictionary to map symbol ids to symbol pointers. </p>
+
+</div>
+</div>
+<a class="anchor" id="a09d0dd67eca872f21606f6426d49544f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMapPart.html">MapPart</a>&amp; MapPart::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMapPart.html">MapPart</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -917,8 +988,8 @@ template&lt;typename Condition &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/core/<a class="el" href="map__part_8h.html">map_part.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/ed0b88d/src/core/map_part.h"><tt>ed0b88d</tt></a> on 30 Jan 2017)</li>
-<li>src/core/<a class="el" href="map__part_8cpp.html">map_part.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/b36352d/src/core/map_part.cpp"><tt>b36352d</tt></a> on 8 May 2017)</li>
+<li>src/core/<a class="el" href="map__part_8h.html">map_part.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/a65f143/src/core/map_part.h"><tt>a65f143</tt></a> on 14 Aug 2017)</li>
+<li>src/core/<a class="el" href="map__part_8cpp.html">map_part.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/4d60676/src/core/map_part.cpp"><tt>4d60676</tt></a> on 14 Aug 2017)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

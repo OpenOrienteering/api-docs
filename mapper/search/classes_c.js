@@ -15,6 +15,7 @@ var searchData=
   ['mapeditortool',['MapEditorTool',['../classMapEditorTool.html',1,'']]],
   ['mapeditortoolaction',['MapEditorToolAction',['../classMapEditorToolAction.html',1,'']]],
   ['mapeditortoolbase',['MapEditorToolBase',['../classMapEditorToolBase.html',1,'']]],
+  ['mapfindfeature',['MapFindFeature',['../classMapFindFeature.html',1,'']]],
   ['mapgrid',['MapGrid',['../classMapGrid.html',1,'']]],
   ['mappart',['MapPart',['../classMapPart.html',1,'']]],
   ['mappartundostep',['MapPartUndoStep',['../classMapPartUndoStep.html',1,'']]],

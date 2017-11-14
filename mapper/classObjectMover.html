@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -99,7 +99,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <p>Implements the logic to move sets of objects and / or object points for edit tools.  
  <a href="classObjectMover.html#details">More...</a></p>
 
-<p><code>#include &lt;edit_tool.h&gt;</code></p>
+<p><code>#include &lt;object_mover.h&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -121,11 +121,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8433ad6e7c07638fb82ca27829dc2158"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectMover.html#a8433ad6e7c07638fb82ca27829dc2158">addTextHandle</a> (<a class="el" href="classTextObject.html">TextObject</a> *text, int handle)</td></tr>
 <tr class="memdesc:a8433ad6e7c07638fb82ca27829dc2158"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a text handle to the set of elements to move.  <a href="#a8433ad6e7c07638fb82ca27829dc2158">More...</a><br /></td></tr>
 <tr class="separator:a8433ad6e7c07638fb82ca27829dc2158"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c822f5ac83fda47f3d71842cca505de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectMover.html#a0c822f5ac83fda47f3d71842cca505de">move</a> (const <a class="el" href="classMapCoordF.html">MapCoordF</a> &amp;cursor_pos, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> move_opposite_handles, qint32 *out_dx=NULL, qint32 *out_dy=NULL)</td></tr>
-<tr class="memdesc:a0c822f5ac83fda47f3d71842cca505de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves the elements.  <a href="#a0c822f5ac83fda47f3d71842cca505de">More...</a><br /></td></tr>
-<tr class="separator:a0c822f5ac83fda47f3d71842cca505de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac546f3958d7296e2446b56eee40366de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectMover.html#ac546f3958d7296e2446b56eee40366de">move</a> (const <a class="el" href="classMapCoordF.html">MapCoordF</a> &amp;cursor_pos, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> move_opposite_handles, qint32 *out_dx=nullptr, qint32 *out_dy=nullptr)</td></tr>
+<tr class="memdesc:ac546f3958d7296e2446b56eee40366de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves the elements.  <a href="#ac546f3958d7296e2446b56eee40366de">More...</a><br /></td></tr>
+<tr class="separator:ac546f3958d7296e2446b56eee40366de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e13656e41a2be2aabf26de1e2db637d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectMover.html#a5e13656e41a2be2aabf26de1e2db637d">move</a> (qint32 dx, qint32 dy, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> move_opposite_handles)</td></tr>
-<tr class="memdesc:a5e13656e41a2be2aabf26de1e2db637d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of <a class="el" href="classObjectMover.html#a0c822f5ac83fda47f3d71842cca505de" title="Moves the elements. ">move()</a> taking delta values.  <a href="#a5e13656e41a2be2aabf26de1e2db637d">More...</a><br /></td></tr>
+<tr class="memdesc:a5e13656e41a2be2aabf26de1e2db637d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of <a class="el" href="classObjectMover.html#ac546f3958d7296e2446b56eee40366de" title="Moves the elements. ">move()</a> taking delta values.  <a href="#a5e13656e41a2be2aabf26de1e2db637d">More...</a><br /></td></tr>
 <tr class="separator:a5e13656e41a2be2aabf26de1e2db637d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -262,7 +262,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a0c822f5ac83fda47f3d71842cca505de"></a>
+<a class="anchor" id="ac546f3958d7296e2446b56eee40366de"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -282,13 +282,13 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">qint32 *&#160;</td>
-          <td class="paramname"><em>out_dx</em> = <code>NULL</code>, </td>
+          <td class="paramname"><em>out_dx</em> = <code>nullptr</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">qint32 *&#160;</td>
-          <td class="paramname"><em>out_dy</em> = <code>NULL</code>&#160;</td>
+          <td class="paramname"><em>out_dy</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -340,7 +340,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Overload of <a class="el" href="classObjectMover.html#a0c822f5ac83fda47f3d71842cca505de" title="Moves the elements. ">move()</a> taking delta values. </p>
+<p>Overload of <a class="el" href="classObjectMover.html#ac546f3958d7296e2446b56eee40366de" title="Moves the elements. ">move()</a> taking delta values. </p>
 
 </div>
 </div>
@@ -363,8 +363,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/tools/<a class="el" href="edit__tool_8h.html">edit_tool.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/7e0bf02/src/tools/edit_tool.h"><tt>7e0bf02</tt></a> on 3 Jun 2017)</li>
-<li>src/tools/<a class="el" href="edit__tool_8cpp.html">edit_tool.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/7e0bf02/src/tools/edit_tool.cpp"><tt>7e0bf02</tt></a> on 3 Jun 2017)</li>
+<li>src/core/objects/<a class="el" href="object__mover_8h.html">object_mover.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/2b9af7d/src/core/objects/object_mover.h"><tt>2b9af7d</tt></a> on 29 Sep 2017)</li>
+<li>src/core/objects/<a class="el" href="object__mover_8cpp.html">object_mover.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/d344a59/src/core/objects/object_mover.cpp"><tt>d344a59</tt></a> on 29 Sep 2017)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

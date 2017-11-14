@@ -3,7 +3,6 @@ var searchData=
   ['undomanager',['UndoManager',['../classUndoManager.html',1,'']]],
   ['undomanagertest',['UndoManagerTest',['../classUndoManagerTest.html',1,'']]],
   ['undostep',['UndoStep',['../classUndoStep.html',1,'']]],
-  ['update',['Update',['../structObjectOp_1_1Update.html',1,'ObjectOp']]],
   ['utf16pascalstring',['Utf16PascalString',['../structOcd_1_1Utf16PascalString.html',1,'Ocd']]],
   ['utf16pascalstring_3c_2064_20_3e',['Utf16PascalString&lt; 64 &gt;',['../structOcd_1_1Utf16PascalString.html',1,'Ocd']]],
   ['utf8encoding',['Utf8Encoding',['../structOcd_1_1Utf8Encoding.html',1,'Ocd']]],

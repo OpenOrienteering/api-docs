@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -91,18 +91,20 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">test/CMakeLists.txt File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/e999226/test/CMakeLists.txt"><tt>e999226</tt></a> on 2 May 2017)</h3><table class="memberdecls">
+<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/e589fc4/test/CMakeLists.txt"><tt>e589fc4</tt></a> on 12 Nov 2017)</h3><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a2e453ecb9e1cc58f94dbfadd486c4d30"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="test_2CMakeLists_8txt.html#a2e453ecb9e1cc58f94dbfadd486c4d30">find_package</a> (Qt5Network REQUIRED) find_package(Qt5PrintSupport REQUIRED) find_package(Qt5Test REQUIRED) find_package(Qt5Widgets REQUIRED) <a class="el" href="test_2CMakeLists_8txt.html#a1eec43a0a0fee0daacd23d74054626a3">set</a>(CMAKE_AUTOMOC ON) <a class="el" href="test_2CMakeLists_8txt.html#ab0c0ccf045b48da904e61f386dc1266f">if</a>(Mapper_DEVELOPMENT_BUILD) include(EnableSanitize) enable_sanitize(address undefined NO_RECOVER) endif() add_definitions(-DQT_NO_CAST_FROM_ASCII-DQT_NO_CAST_TO_ASCII-DQT_USE_QSTRINGBUILDER) function(add_test_helper testname autorun) unset(TEST_ $</td></tr>
-<tr class="separator:a2e453ecb9e1cc58f94dbfadd486c4d30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e17710aae03f0ee181311b912ec444e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="test_2CMakeLists_8txt.html#a2e17710aae03f0ee181311b912ec444e">find_package</a> (Qt5Network REQUIRED) find_package(Qt5Positioning) find_package(Qt5PrintSupport REQUIRED) find_package(Qt5Sensors) find_package(Qt5Test REQUIRED) find_package(Qt5Widgets REQUIRED) <a class="el" href="test_2CMakeLists_8txt.html#a1eec43a0a0fee0daacd23d74054626a3">set</a>(CMAKE_AUTOMOC ON) <a class="el" href="test_2CMakeLists_8txt.html#ab0c0ccf045b48da904e61f386dc1266f">if</a>(Mapper_DEVELOPMENT_BUILD) include(EnableSanitize) enable_sanitize(address undefined NO_RECOVER) endif() add_definitions(-DQT_NO_CAST_FROM_ASCII-DQT_NO_CAST_TO_ASCII-DQT_USE_QSTRINGBUILDER) configure_file(test_config.h.in $</td></tr>
+<tr class="separator:a2e17710aae03f0ee181311b912ec444e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0d4c1053f3a03b78ac45b66cdc77dc7"><td class="memItemLeft" align="right" valign="top">test_config h ONLY&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="test_2CMakeLists_8txt.html#af0d4c1053f3a03b78ac45b66cdc77dc7">function</a> (add_test_helper testname autorun) unset(TEST_ $</td></tr>
+<tr class="separator:af0d4c1053f3a03b78ac45b66cdc77dc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1eec43a0a0fee0daacd23d74054626a3"><td class="memItemLeft" align="right" valign="top">_SRCS&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="test_2CMakeLists_8txt.html#a1eec43a0a0fee0daacd23d74054626a3">set</a> (manual_test 0) foreach(arg $</td></tr>
 <tr class="separator:a1eec43a0a0fee0daacd23d74054626a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0c0ccf045b48da904e61f386dc1266f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="test_2CMakeLists_8txt.html#ab0c0ccf045b48da904e61f386dc1266f">if</a> (&quot;${arg}&quot;STREQUAL&quot;MANUAL&quot;) set(manual_test 1) else() list(APPEND TEST_ $</td></tr>
 <tr class="separator:ab0c0ccf045b48da904e61f386dc1266f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a2e453ecb9e1cc58f94dbfadd486c4d30"></a>
+<a class="anchor" id="a2e17710aae03f0ee181311b912ec444e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -111,6 +113,22 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">Qt5Network&#160;</td>
           <td class="paramname"><em>REQUIRED</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af0d4c1053f3a03b78ac45b66cdc77dc7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">test_config h ONLY function </td>
+          <td>(</td>
+          <td class="paramtype">add_test_helper testname&#160;</td>
+          <td class="paramname"><em>autorun</em></td><td>)</td>
           <td></td>
         </tr>
       </table>

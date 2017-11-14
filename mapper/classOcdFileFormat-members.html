@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -105,6 +105,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <tr class="even"><td class="entry"><a class="el" href="classFileFormat.html#aa3318ca21c2f3945489e3cd539102bf0a3054e6d19dad3fc516c135c10c556073">ExportSupported</a> enum value</td><td class="entry"><a class="el" href="classFileFormat.html">FileFormat</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classFileFormat.html#a8ed3b71a0678ac0413b6d3c9883340c1">fileExtensions</a>() const </td><td class="entry"><a class="el" href="classFileFormat.html">FileFormat</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classFileFormat.html#a7f5830a6399f4ce0840d04890a86d9f1">FileFormat</a>(FileType file_type, const char *id, const QString &amp;description, const QString &amp;file_extension, FormatFeatures features)</td><td class="entry"><a class="el" href="classFileFormat.html">FileFormat</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classFileFormat.html#a78a39e2a4bfc6ba07033c4f97acfabb1">FileFormat</a>(const FileFormat &amp;)=delete</td><td class="entry"><a class="el" href="classFileFormat.html">FileFormat</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classFileFormat.html#a9c5448b6a4d20f102e90175501f7bd34">FileFormat</a>(FileFormat &amp;&amp;)=delete</td><td class="entry"><a class="el" href="classFileFormat.html">FileFormat</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classFileFormat.html#a027a5f6d0a2fe08b2e2a63dcb1fcc815">FileType</a> enum name</td><td class="entry"><a class="el" href="classFileFormat.html">FileFormat</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classFileFormat.html#af8453dbd40aa2912c69990b07e1c4587">fileType</a>() const </td><td class="entry"><a class="el" href="classFileFormat.html">FileFormat</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="classFileFormat.html#a73695c6f5b4a2b1852a21075712097a7">filter</a>() const </td><td class="entry"><a class="el" href="classFileFormat.html">FileFormat</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
@@ -115,10 +117,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <tr class="even"><td class="entry"><a class="el" href="classFileFormat.html#a027a5f6d0a2fe08b2e2a63dcb1fcc815a2437c1d66109a5bec67f0d539cc2ffbd">MapFile</a> enum value</td><td class="entry"><a class="el" href="classFileFormat.html">FileFormat</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classOcdFileFormat.html#a91c7b04edbd25307f459aee87d2f1b35">OcdFileFormat</a>()</td><td class="entry"><a class="el" href="classOcdFileFormat.html">OcdFileFormat</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classFileFormat.html#a027a5f6d0a2fe08b2e2a63dcb1fcc815a1e123bc0223e9e9640b38fa95a6a03b8">OgrFile</a> enum value</td><td class="entry"><a class="el" href="classFileFormat.html">FileFormat</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classFileFormat.html#a4026e146b2a43622109ed24a7f2c86f5">operator=</a>(const FileFormat &amp;)=delete</td><td class="entry"><a class="el" href="classFileFormat.html">FileFormat</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classFileFormat.html#aa8442b9a27bfc7bb5d67d407d1cabfbf">operator=</a>(FileFormat &amp;&amp;)=delete</td><td class="entry"><a class="el" href="classFileFormat.html">FileFormat</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classFileFormat.html#a8ef523fa90c5c19a7a16614cede88e62">primaryExtension</a>() const </td><td class="entry"><a class="el" href="classFileFormat.html">FileFormat</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classFileFormat.html#a05a400c8a4a232f15db1fc8bf4c5005f">supportsExport</a>() const </td><td class="entry"><a class="el" href="classFileFormat.html">FileFormat</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="classFileFormat.html#adaa79055a4d9c22c39065aef4e2a5d80">supportsImport</a>() const </td><td class="entry"><a class="el" href="classFileFormat.html">FileFormat</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classOcdFileFormat.html#ad925576fa9abe7de322b84fd44bb06a6">understands</a>(const unsigned char *buffer, size_t sz) const override</td><td class="entry"><a class="el" href="classOcdFileFormat.html">OcdFileFormat</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classOcdFileFormat.html#afe6853b8636a49c5360f3f9170e9c7da">understands</a>(const unsigned char *buffer, std::size_t sz) const override</td><td class="entry"><a class="el" href="classOcdFileFormat.html">OcdFileFormat</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="classFileFormat.html#a33b1c1be690e1e2b4e946ba14f15d841">~FileFormat</a>()</td><td class="entry"><a class="el" href="classFileFormat.html">FileFormat</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 <!-- start footer part -->

@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -121,8 +121,8 @@ Collaboration diagram for MapEditorActivity:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a9edd853513fa2f047463d6313039e7aa"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorActivity.html#a9edd853513fa2f047463d6313039e7aa">~MapEditorActivity</a> ()</td></tr>
-<tr class="separator:a9edd853513fa2f047463d6313039e7aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fa2cc6c3900a311913398729ca23693"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorActivity.html#a9fa2cc6c3900a311913398729ca23693">~MapEditorActivity</a> () override</td></tr>
+<tr class="separator:a9fa2cc6c3900a311913398729ca23693"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad021b76abccc35773d0396a4d6879dfa"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapEditorActivity.html#ad021b76abccc35773d0396a4d6879dfa">init</a> ()</td></tr>
 <tr class="memdesc:ad021b76abccc35773d0396a4d6879dfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">All initializations apart from setting variables like the activity object should be done here instead of in the constructor, as at the time <a class="el" href="classMapEditorActivity.html#ad021b76abccc35773d0396a4d6879dfa" title="All initializations apart from setting variables like the activity object should be done here instead...">init()</a> is called, the old activity was properly destroyed (including reseting the activity drawing).  <a href="#ad021b76abccc35773d0396a4d6879dfa">More...</a><br /></td></tr>
 <tr class="separator:ad021b76abccc35773d0396a4d6879dfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -164,6 +164,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:moveToThread inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:startTimer inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#startTimer">startTimer</a> (int interval, Qt::TimerType timerType)</td></tr>
 <tr class="separator:startTimer inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:startTimer-1 inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#startTimer-1">startTimer</a> (std::chrono::milliseconds time, Qt::TimerType timerType)</td></tr>
+<tr class="separator:startTimer-1 inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:killTimer inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#killTimer">killTimer</a> (int id)</td></tr>
 <tr class="separator:killTimer inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:findChild inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#findChild">findChild</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;name, <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qt.html#FindChildOption-enum">Qt::FindChildOptions</a> options) const</td></tr>
@@ -188,9 +190,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:disconnect-2 inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:disconnect-3 inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#disconnect-3">disconnect</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html">QObject</a> *receiver, const char *method) const</td></tr>
 <tr class="separator:disconnect-3 inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:dumpObjectTree inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#dumpObjectTree">dumpObjectTree</a> ()</td></tr>
+<tr class="memitem:dumpObjectTree-1 inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject-obsolete.html#dumpObjectTree-1">dumpObjectTree</a> ()</td></tr>
+<tr class="separator:dumpObjectTree-1 inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:dumpObjectInfo-1 inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject-obsolete.html#dumpObjectInfo-1">dumpObjectInfo</a> ()</td></tr>
+<tr class="separator:dumpObjectInfo-1 inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:dumpObjectTree inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#dumpObjectTree">dumpObjectTree</a> () const</td></tr>
 <tr class="separator:dumpObjectTree inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:dumpObjectInfo inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#dumpObjectInfo">dumpObjectInfo</a> ()</td></tr>
+<tr class="memitem:dumpObjectInfo inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#dumpObjectInfo">dumpObjectInfo</a> () const</td></tr>
 <tr class="separator:dumpObjectInfo inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:setProperty inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#setProperty">setProperty</a> (const char *name, const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qvariant.html">QVariant</a> &amp;value)</td></tr>
 <tr class="separator:setProperty inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -267,7 +273,7 @@ Additional Inherited Members</h2></td></tr>
 <p>template position adjustment. Only one activity can be active at a time.</p>
 <p>This is for example used to close the template adjustment window when selecting an edit tool. It can also be used to paint activity-specific graphics onto the map. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a9edd853513fa2f047463d6313039e7aa"></a>
+<a class="anchor" id="a9fa2cc6c3900a311913398729ca23693"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -283,7 +289,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -326,7 +332,7 @@ Additional Inherited Members</h2></td></tr>
 <p>All dynamic drawings must be drawn here using the given painter. </p>
 <p>Drawing is only possible in the area specified by calling map-&gt;setActivityBoundingBox(). </p>
 
-<p>Reimplemented in <a class="el" href="classPointSymbolEditorActivity.html#a6584f469ce73ae7ca668cdc97fababcb">PointSymbolEditorActivity</a>, and <a class="el" href="classTemplateAdjustActivity.html#ac0441297a0bf6f83984cd82785c77d4b">TemplateAdjustActivity</a>.</p>
+<p>Reimplemented in <a class="el" href="classPointSymbolEditorActivity.html#a4b43294a8289a7e92b350f8de5170b7b">PointSymbolEditorActivity</a>, and <a class="el" href="classTemplateAdjustActivity.html#afa20bf0080766b79cfd0caaa1dfa417f">TemplateAdjustActivity</a>.</p>
 
 </div>
 </div>
@@ -379,7 +385,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>All initializations apart from setting variables like the activity object should be done here instead of in the constructor, as at the time <a class="el" href="classMapEditorActivity.html#ad021b76abccc35773d0396a4d6879dfa" title="All initializations apart from setting variables like the activity object should be done here instead...">init()</a> is called, the old activity was properly destroyed (including reseting the activity drawing). </p>
 
-<p>Reimplemented in <a class="el" href="classPointSymbolEditorActivity.html#a3abe495c00be3915391bc6da1aa72f54">PointSymbolEditorActivity</a>, and <a class="el" href="classTemplateAdjustActivity.html#a22a500d5d19faae5d6a3191c463ac11d">TemplateAdjustActivity</a>.</p>
+<p>Reimplemented in <a class="el" href="classPointSymbolEditorActivity.html#a9954a6d7e373fffb9a24bac9bf2eac6f">PointSymbolEditorActivity</a>, and <a class="el" href="classTemplateAdjustActivity.html#aff9720cbae17c967a6152f2cb3477437">TemplateAdjustActivity</a>.</p>
 
 </div>
 </div>
@@ -431,8 +437,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/gui/map/<a class="el" href="map__editor__activity_8h.html">map_editor_activity.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/5351f68/src/gui/map/map_editor_activity.h"><tt>5351f68</tt></a> on 8 Jan 2017)</li>
-<li>src/gui/map/<a class="el" href="map__editor__activity_8cpp.html">map_editor_activity.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/5351f68/src/gui/map/map_editor_activity.cpp"><tt>5351f68</tt></a> on 8 Jan 2017)</li>
+<li>src/gui/map/<a class="el" href="map__editor__activity_8h.html">map_editor_activity.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/4d0078b/src/gui/map/map_editor_activity.h"><tt>4d0078b</tt></a> on 14 Aug 2017)</li>
+<li>src/gui/map/<a class="el" href="map__editor__activity_8cpp.html">map_editor_activity.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/c9e89e9/src/gui/map/map_editor_activity.cpp"><tt>c9e89e9</tt></a> on 26 Jul 2017)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

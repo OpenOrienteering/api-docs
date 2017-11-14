@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -93,42 +93,34 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">fill_tool.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/4d041c2/src/tools/fill_tool.cpp"><tt>4d041c2</tt></a> on 8 Jan 2017)</h3><div class="textblock"><code>#include &quot;<a class="el" href="fill__tool_8h.html">fill_tool.h</a>&quot;</code><br />
-<code>#include &lt;limits&gt;</code><br />
+<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/86317e9/src/tools/fill_tool.cpp"><tt>86317e9</tt></a> on 19 Aug 2017)</h3><div class="textblock"><code>#include &quot;<a class="el" href="fill__tool_8h.html">fill_tool.h</a>&quot;</code><br />
 <code>#include &lt;QMessageBox&gt;</code><br />
-<code>#include &lt;QLabel&gt;</code><br />
 <code>#include &lt;QPainter&gt;</code><br />
+<code>#include &quot;<a class="el" href="map_8h.html">core/map.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="object_8h.html">core/objects/object.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="map__editor_8h.html">gui/map/map_editor.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="map__widget_8h.html">gui/map/map_widget.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="object_8h.html">core/objects/object.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="tool__helpers_8h.html">tool_helpers.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="object__undo_8h.html">undo/object_undo.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for fill_tool.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="fill__tool_8cpp__incl.png" border="0" usemap="#src_2tools_2fill__tool_8cpp" alt=""/></div>
 <map name="src_2tools_2fill__tool_8cpp" id="src_2tools_2fill__tool_8cpp">
-<area shape="rect" id="node2" href="fill__tool_8h.html" title="fill_tool.h" alt="" coords="1308,80,1383,107"/>
-<area shape="rect" id="node19" href="map__editor_8h.html" title="gui/map/map_editor.h" alt="" coords="315,155,461,181"/>
-<area shape="rect" id="node33" href="map__widget_8h.html" title="gui/map/map_widget.h" alt="" coords="874,155,1027,181"/>
-<area shape="rect" id="node42" href="object_8h.html" title="core/objects/object.h" alt="" coords="2150,155,2293,181"/>
-<area shape="rect" id="node48" href="tool__helpers_8h.html" title="tool_helpers.h" alt="" coords="1369,229,1471,256"/>
-<area shape="rect" id="node49" href="object__undo_8h.html" title="undo/object_undo.h" alt="" coords="1910,80,2045,107"/>
-<area shape="rect" id="node3" href="tool__base_8h.html" title="tool_base.h" alt="" coords="1150,229,1239,256"/>
-<area shape="rect" id="node11" href="tool_8h.html" title="tool.h" alt="" coords="1306,304,1361,331"/>
-<area shape="rect" id="node12" href="map__coord_8h.html" title="core/map_coord.h" alt="" coords="2073,379,2199,405"/>
-<area shape="rect" id="node22" href="main__window__controller_8h.html" title="gui/main_window_controller.h" alt="" coords="223,229,417,256"/>
-<area shape="rect" id="node24" href="map_8h.html" title="core/map.h" alt="" coords="545,229,631,256"/>
-<area shape="rect" id="node29" href="global_8h.html" title="global.h" alt="" coords="655,304,721,331"/>
-<area shape="rect" id="node30" href="map__grid_8h.html" title="map_grid.h" alt="" coords="543,304,630,331"/>
-<area shape="rect" id="node31" href="file__format_8h.html" title="fileformats/file_format.h" alt="" coords="1882,304,2041,331"/>
-<area shape="rect" id="node32" href="map__part_8h.html" title="map_part.h" alt="" coords="330,304,417,331"/>
-<area shape="rect" id="node39" href="map__view_8h.html" title="core/map_view.h" alt="" coords="1519,229,1641,256"/>
-<area shape="rect" id="node43" href="path__coord_8h.html" title="core/path_coord.h" alt="" coords="2293,304,2419,331"/>
-<area shape="rect" id="node44" href="virtual__path_8h.html" title="core/virtual_path.h" alt="" coords="2291,229,2421,256"/>
-<area shape="rect" id="node45" href="renderable_8h.html" title="core/renderables/renderable.h" alt="" coords="2497,229,2690,256"/>
-<area shape="rect" id="node47" href="symbol_8h.html" title="core/symbols/symbol.h" alt="" coords="1899,229,2056,256"/>
-<area shape="rect" id="node50" href="undo_8h.html" title="undo.h" alt="" coords="1704,155,1765,181"/>
+<area shape="rect" id="node2" href="fill__tool_8h.html" title="fill_tool.h" alt="" coords="2535,80,2609,107"/>
+<area shape="rect" id="node20" href="object_8h.html" title="core/objects/object.h" alt="" coords="1002,229,1145,256"/>
+<area shape="rect" id="node33" href="map_8h.html" title="core/map.h" alt="" coords="1883,229,1970,256"/>
+<area shape="rect" id="node39" href="map__editor_8h.html" title="gui/map/map_editor.h" alt="" coords="3100,229,3247,256"/>
+<area shape="rect" id="node43" href="map__widget_8h.html" title="gui/map/map_widget.h" alt="" coords="3473,304,3626,331"/>
+<area shape="rect" id="node50" href="object__undo_8h.html" title="undo/object_undo.h" alt="" coords="1461,155,1595,181"/>
+<area shape="rect" id="node7" href="tool__base_8h.html" title="tool_base.h" alt="" coords="2629,155,2718,181"/>
+<area shape="rect" id="node16" href="map__coord_8h.html" title="core/map_coord.h" alt="" coords="1678,453,1805,480"/>
+<area shape="rect" id="node24" href="path__coord_8h.html" title="core/path_coord.h" alt="" coords="347,379,474,405"/>
+<area shape="rect" id="node25" href="virtual__path_8h.html" title="core/virtual_path.h" alt="" coords="805,304,934,331"/>
+<area shape="rect" id="node26" href="renderable_8h.html" title="core/renderables/renderable.h" alt="" coords="587,304,781,331"/>
+<area shape="rect" id="node29" href="symbol_8h.html" title="core/symbols/symbol.h" alt="" coords="1657,304,1815,331"/>
+<area shape="rect" id="node37" href="map__grid_8h.html" title="core/map_grid.h" alt="" coords="1988,304,2103,331"/>
+<area shape="rect" id="node38" href="map__part_8h.html" title="core/map_part.h" alt="" coords="1365,304,1481,331"/>
+<area shape="rect" id="node42" href="main__window__controller_8h.html" title="gui/main_window_controller.h" alt="" coords="3114,304,3307,331"/>
 </map>
 </div>
 </div></div><!-- contents -->

@@ -16,6 +16,8 @@ var searchData=
   ['allsymbols',['AllSymbols',['../classSymbol.html#a19c9a49235af753af17553af18c588caadaa62a5823b459393140f4d1aa07ed14',1,'Symbol']]],
   ['alltemplateshidden',['AllTemplatesHidden',['../classMapView.html#a042cb075e1917bd3b5ece328152e032ba48be2daecd57171266aa58e1aec9b286',1,'MapView']]],
   ['alltypes',['AllTypes',['../classSnappingToolHelper.html#a5d6b1bf297e911a9e0eb2669b196f5e1a93b78a71aa6e541741e9e8934167e3b0',1,'SnappingToolHelper']]],
+  ['alternativetoclipping',['AlternativeToClipping',['../structAreaSymbol_1_1FillPattern.html#ad63cb1161a8dc15c844884f57da37716a68028b43ac80cea380ac6a3b4ab4eca8',1,'AreaSymbol::FillPattern']]],
   ['arc',['ARC',['../dxfparser_8h.html#a39f6e5f83740a0914d53219949ecc69ea13b9aed632d3e4c89287d515c88d9e69',1,'dxfparser.h']]],
-  ['area',['Area',['../classSymbol.html#a19c9a49235af753af17553af18c588caa8bda1e7653768ba5f12371e718b2c6a7',1,'Symbol']]]
+  ['area',['Area',['../classSymbol.html#a19c9a49235af753af17553af18c588caa8bda1e7653768ba5f12371e718b2c6a7',1,'Symbol']]],
+  ['automaticassignment',['AutomaticAssignment',['../structSymbolRule.html#a63ce42d1f244de152de472abd64352daa5add764c3afdbde54830cd79312b5619',1,'SymbolRule']]]
 ];

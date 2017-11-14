@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -116,11 +116,11 @@ Collaboration diagram for ObjectTagsUndoStep:</div>
 <div class="dyncontent">
 <div class="center"><img src="classObjectTagsUndoStep__coll__graph.png" border="0" usemap="#ObjectTagsUndoStep_coll__map" alt="Collaboration graph"/></div>
 <map name="ObjectTagsUndoStep_coll__map" id="ObjectTagsUndoStep_coll__map">
-<area shape="rect" id="node2" href="classObjectModifyingUndoStep.html" title="Base class for undo steps which modify objects of a single map part. " alt="" coords="58,267,233,294"/>
+<area shape="rect" id="node2" href="classObjectModifyingUndoStep.html" title="Base class for undo steps which modify objects of a single map part. " alt="" coords="66,267,241,294"/>
 <area shape="rect" id="node3" href="classUndoStep.html" title="Abstract base class for map editing undo steps. " alt="" coords="5,171,85,197"/>
 <area shape="rect" id="node4" href="classMap.html" title="Central class for an OpenOrienteering map. " alt="" coords="22,81,69,108"/>
 <area shape="rect" id="node5" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html" title="QObject" alt="" coords="10,5,81,32"/>
-<area shape="rect" id="node8" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qhash.html" title="QHash" alt="" coords="298,171,361,197"/>
+<area shape="rect" id="node8" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qhash.html" title="QHash\&lt; Key, T \&gt;" alt="" coords="274,171,401,197"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -128,14 +128,14 @@ Collaboration diagram for ObjectTagsUndoStep:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a0256d2fa35bafb3f467755ec376b303d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectTagsUndoStep.html#a0256d2fa35bafb3f467755ec376b303d">ObjectTagsUndoStep</a> (<a class="el" href="classMap.html">Map</a> *<a class="el" href="classUndoStep.html#a90e582e3e0cbcd0334d7a9f9c11aead9">map</a>)</td></tr>
 <tr class="separator:a0256d2fa35bafb3f467755ec376b303d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac0f5f00b426d339d19bbfed2a356122"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectTagsUndoStep.html#aac0f5f00b426d339d19bbfed2a356122">~ObjectTagsUndoStep</a> ()</td></tr>
-<tr class="separator:aac0f5f00b426d339d19bbfed2a356122"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c4838974c8b01b1833490eb10656231"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectTagsUndoStep.html#a5c4838974c8b01b1833490eb10656231">addObject</a> (int index)</td></tr>
-<tr class="memdesc:a5c4838974c8b01b1833490eb10656231"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an object (by index) to this step.  <a href="#a5c4838974c8b01b1833490eb10656231">More...</a><br /></td></tr>
-<tr class="separator:a5c4838974c8b01b1833490eb10656231"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a157397728f7c048e1968013f11fff778"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classUndoStep.html">UndoStep</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectTagsUndoStep.html#a157397728f7c048e1968013f11fff778">undo</a> ()</td></tr>
-<tr class="memdesc:a157397728f7c048e1968013f11fff778"><td class="mdescLeft">&#160;</td><td class="mdescRight">Undoes the action and returns a new <a class="el" href="classUndoStep.html" title="Abstract base class for map editing undo steps. ">UndoStep</a>.  <a href="#a157397728f7c048e1968013f11fff778">More...</a><br /></td></tr>
-<tr class="separator:a157397728f7c048e1968013f11fff778"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aade9c7a4ba538c59ad911d4d80379e40"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectTagsUndoStep.html#aade9c7a4ba538c59ad911d4d80379e40">~ObjectTagsUndoStep</a> () override</td></tr>
+<tr class="separator:aade9c7a4ba538c59ad911d4d80379e40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af04a8703c42d48179be325a1f03821ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectTagsUndoStep.html#af04a8703c42d48179be325a1f03821ba">addObject</a> (int index) override</td></tr>
+<tr class="memdesc:af04a8703c42d48179be325a1f03821ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an object (by index) to this step.  <a href="#af04a8703c42d48179be325a1f03821ba">More...</a><br /></td></tr>
+<tr class="separator:af04a8703c42d48179be325a1f03821ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f6647ab8c0b59554d85162f90cb2ffe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classUndoStep.html">UndoStep</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectTagsUndoStep.html#a5f6647ab8c0b59554d85162f90cb2ffe">undo</a> () override</td></tr>
+<tr class="memdesc:a5f6647ab8c0b59554d85162f90cb2ffe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Undoes the action and returns a new <a class="el" href="classUndoStep.html" title="Abstract base class for map editing undo steps. ">UndoStep</a>.  <a href="#a5f6647ab8c0b59554d85162f90cb2ffe">More...</a><br /></td></tr>
+<tr class="separator:a5f6647ab8c0b59554d85162f90cb2ffe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classObjectModifyingUndoStep"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classObjectModifyingUndoStep')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classObjectModifyingUndoStep.html">ObjectModifyingUndoStep</a></td></tr>
 <tr class="memitem:a8718abf794b73968fbb6da07f35faf97 inherit pub_methods_classObjectModifyingUndoStep"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectModifyingUndoStep.html#a8718abf794b73968fbb6da07f35faf97">ObjectModifyingUndoStep</a> (<a class="el" href="classUndoStep.html#a18600ea1e7741e158962ed6923c7bd66">Type</a> <a class="el" href="classUndoStep.html#a0187b3687a63c29fd72443784545ab7b">type</a>, <a class="el" href="classMap.html">Map</a> *<a class="el" href="classUndoStep.html#a90e582e3e0cbcd0334d7a9f9c11aead9">map</a>)</td></tr>
 <tr class="memdesc:a8718abf794b73968fbb6da07f35faf97 inherit pub_methods_classObjectModifyingUndoStep"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an <a class="el" href="classObjectModifyingUndoStep.html" title="Base class for undo steps which modify objects of a single map part. ">ObjectModifyingUndoStep</a> for the given map and its current part.  <a href="#a8718abf794b73968fbb6da07f35faf97">More...</a><br /></td></tr>
@@ -143,9 +143,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad9962c35d46e981a21ea44bf51d6257d inherit pub_methods_classObjectModifyingUndoStep"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectModifyingUndoStep.html#ad9962c35d46e981a21ea44bf51d6257d">ObjectModifyingUndoStep</a> (<a class="el" href="classUndoStep.html#a18600ea1e7741e158962ed6923c7bd66">Type</a> <a class="el" href="classUndoStep.html#a0187b3687a63c29fd72443784545ab7b">type</a>, <a class="el" href="classMap.html">Map</a> *<a class="el" href="classUndoStep.html#a90e582e3e0cbcd0334d7a9f9c11aead9">map</a>, int part_index)</td></tr>
 <tr class="memdesc:ad9962c35d46e981a21ea44bf51d6257d inherit pub_methods_classObjectModifyingUndoStep"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an <a class="el" href="classObjectModifyingUndoStep.html" title="Base class for undo steps which modify objects of a single map part. ">ObjectModifyingUndoStep</a> for the given map and part.  <a href="#ad9962c35d46e981a21ea44bf51d6257d">More...</a><br /></td></tr>
 <tr class="separator:ad9962c35d46e981a21ea44bf51d6257d inherit pub_methods_classObjectModifyingUndoStep"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92cf930cdf5f5133ade7205c89b7c204 inherit pub_methods_classObjectModifyingUndoStep"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectModifyingUndoStep.html#a92cf930cdf5f5133ade7205c89b7c204">~ObjectModifyingUndoStep</a> ()</td></tr>
-<tr class="memdesc:a92cf930cdf5f5133ade7205c89b7c204 inherit pub_methods_classObjectModifyingUndoStep"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a92cf930cdf5f5133ade7205c89b7c204">More...</a><br /></td></tr>
-<tr class="separator:a92cf930cdf5f5133ade7205c89b7c204 inherit pub_methods_classObjectModifyingUndoStep"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af86b359e330f00499bc4412689ba6b7c inherit pub_methods_classObjectModifyingUndoStep"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectModifyingUndoStep.html#af86b359e330f00499bc4412689ba6b7c">~ObjectModifyingUndoStep</a> () override</td></tr>
+<tr class="memdesc:af86b359e330f00499bc4412689ba6b7c inherit pub_methods_classObjectModifyingUndoStep"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#af86b359e330f00499bc4412689ba6b7c">More...</a><br /></td></tr>
+<tr class="separator:af86b359e330f00499bc4412689ba6b7c inherit pub_methods_classObjectModifyingUndoStep"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d0a7f92cf974e67ecb5540da9aaf24e inherit pub_methods_classObjectModifyingUndoStep"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectModifyingUndoStep.html#a1d0a7f92cf974e67ecb5540da9aaf24e">getPartIndex</a> () const </td></tr>
 <tr class="memdesc:a1d0a7f92cf974e67ecb5540da9aaf24e inherit pub_methods_classObjectModifyingUndoStep"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the index of the map part modified by this undo step.  <a href="#a1d0a7f92cf974e67ecb5540da9aaf24e">More...</a><br /></td></tr>
 <tr class="separator:a1d0a7f92cf974e67ecb5540da9aaf24e inherit pub_methods_classObjectModifyingUndoStep"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -155,22 +155,30 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6afe805541e711ffbde5bdc9c1da05a1 inherit pub_methods_classObjectModifyingUndoStep"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectModifyingUndoStep.html#a6afe805541e711ffbde5bdc9c1da05a1">isEmpty</a> () const </td></tr>
 <tr class="memdesc:a6afe805541e711ffbde5bdc9c1da05a1 inherit pub_methods_classObjectModifyingUndoStep"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if no objects are modified by this undo step.  <a href="#a6afe805541e711ffbde5bdc9c1da05a1">More...</a><br /></td></tr>
 <tr class="separator:a6afe805541e711ffbde5bdc9c1da05a1 inherit pub_methods_classObjectModifyingUndoStep"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4f52ba16fdf28d1a1a36f10cf1b9823 inherit pub_methods_classObjectModifyingUndoStep"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectModifyingUndoStep.html#ad4f52ba16fdf28d1a1a36f10cf1b9823">getModifiedParts</a> (<a class="el" href="classUndoStep.html#aa66305c2db3e0afc7b6cb8bf2e743573">PartSet</a> &amp;out) const </td></tr>
-<tr class="memdesc:ad4f52ba16fdf28d1a1a36f10cf1b9823 inherit pub_methods_classObjectModifyingUndoStep"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds the the step's modified part to the container provided by out.  <a href="#ad4f52ba16fdf28d1a1a36f10cf1b9823">More...</a><br /></td></tr>
-<tr class="separator:ad4f52ba16fdf28d1a1a36f10cf1b9823 inherit pub_methods_classObjectModifyingUndoStep"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9401a23fb639fb62454ff08f11d1d9e2 inherit pub_methods_classObjectModifyingUndoStep"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectModifyingUndoStep.html#a9401a23fb639fb62454ff08f11d1d9e2">getModifiedObjects</a> (int part_index, <a class="el" href="classUndoStep.html#a2e136766f5069335853b2967394845d0">ObjectSet</a> &amp;out) const </td></tr>
-<tr class="memdesc:a9401a23fb639fb62454ff08f11d1d9e2 inherit pub_methods_classObjectModifyingUndoStep"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds the list of the step's modified objects to the container provided by out.  <a href="#a9401a23fb639fb62454ff08f11d1d9e2">More...</a><br /></td></tr>
-<tr class="separator:a9401a23fb639fb62454ff08f11d1d9e2 inherit pub_methods_classObjectModifyingUndoStep"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acbca997ff3f5799bc735596195b8ee08 inherit pub_methods_classObjectModifyingUndoStep"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectModifyingUndoStep.html#acbca997ff3f5799bc735596195b8ee08">load</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qiodevice.html">QIODevice</a> *file, int version)</td></tr>
-<tr class="memdesc:acbca997ff3f5799bc735596195b8ee08 inherit pub_methods_classObjectModifyingUndoStep"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the undo step from the file in the old "native" format.  <a href="#acbca997ff3f5799bc735596195b8ee08">More...</a><br /></td></tr>
-<tr class="separator:acbca997ff3f5799bc735596195b8ee08 inherit pub_methods_classObjectModifyingUndoStep"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37ccf22956a2e37f126339ead6f9f675 inherit pub_methods_classObjectModifyingUndoStep"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectModifyingUndoStep.html#a37ccf22956a2e37f126339ead6f9f675">getModifiedParts</a> (<a class="el" href="classUndoStep.html#aa66305c2db3e0afc7b6cb8bf2e743573">PartSet</a> &amp;out) const override</td></tr>
+<tr class="memdesc:a37ccf22956a2e37f126339ead6f9f675 inherit pub_methods_classObjectModifyingUndoStep"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds the the step's modified part to the container provided by out.  <a href="#a37ccf22956a2e37f126339ead6f9f675">More...</a><br /></td></tr>
+<tr class="separator:a37ccf22956a2e37f126339ead6f9f675 inherit pub_methods_classObjectModifyingUndoStep"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b28167b650f4b4c42391a9b09fcd2fa inherit pub_methods_classObjectModifyingUndoStep"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectModifyingUndoStep.html#a7b28167b650f4b4c42391a9b09fcd2fa">getModifiedObjects</a> (int part_index, <a class="el" href="classUndoStep.html#a2e136766f5069335853b2967394845d0">ObjectSet</a> &amp;out) const override</td></tr>
+<tr class="memdesc:a7b28167b650f4b4c42391a9b09fcd2fa inherit pub_methods_classObjectModifyingUndoStep"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds the list of the step's modified objects to the container provided by out.  <a href="#a7b28167b650f4b4c42391a9b09fcd2fa">More...</a><br /></td></tr>
+<tr class="separator:a7b28167b650f4b4c42391a9b09fcd2fa inherit pub_methods_classObjectModifyingUndoStep"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4362c96753e7aa28ad27bf7dabfdad5b inherit pub_methods_classObjectModifyingUndoStep"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectModifyingUndoStep.html#a4362c96753e7aa28ad27bf7dabfdad5b">load</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qiodevice.html">QIODevice</a> *file, int version) override</td></tr>
+<tr class="memdesc:a4362c96753e7aa28ad27bf7dabfdad5b inherit pub_methods_classObjectModifyingUndoStep"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the undo step from the file in the old "native" format.  <a href="#a4362c96753e7aa28ad27bf7dabfdad5b">More...</a><br /></td></tr>
+<tr class="separator:a4362c96753e7aa28ad27bf7dabfdad5b inherit pub_methods_classObjectModifyingUndoStep"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classUndoStep"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classUndoStep')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classUndoStep.html">UndoStep</a></td></tr>
 <tr class="memitem:a04d2c1b55b5c82ddf9b263845dde81b2 inherit pub_methods_classUndoStep"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUndoStep.html#a04d2c1b55b5c82ddf9b263845dde81b2">UndoStep</a> (<a class="el" href="classUndoStep.html#a18600ea1e7741e158962ed6923c7bd66">Type</a> <a class="el" href="classUndoStep.html#a0187b3687a63c29fd72443784545ab7b">type</a>, <a class="el" href="classMap.html">Map</a> *<a class="el" href="classUndoStep.html#a90e582e3e0cbcd0334d7a9f9c11aead9">map</a>)</td></tr>
 <tr class="memdesc:a04d2c1b55b5c82ddf9b263845dde81b2 inherit pub_methods_classUndoStep"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an undo step having the given type.  <a href="#a04d2c1b55b5c82ddf9b263845dde81b2">More...</a><br /></td></tr>
 <tr class="separator:a04d2c1b55b5c82ddf9b263845dde81b2 inherit pub_methods_classUndoStep"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23f85dd821a2d1907d62b13741426e11 inherit pub_methods_classUndoStep"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUndoStep.html#a23f85dd821a2d1907d62b13741426e11">UndoStep</a> (const <a class="el" href="classUndoStep.html">UndoStep</a> &amp;)=delete</td></tr>
+<tr class="separator:a23f85dd821a2d1907d62b13741426e11 inherit pub_methods_classUndoStep"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35e81cf03a001826838fb60e5430b780 inherit pub_methods_classUndoStep"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUndoStep.html#a35e81cf03a001826838fb60e5430b780">UndoStep</a> (<a class="el" href="classUndoStep.html">UndoStep</a> &amp;&amp;)=delete</td></tr>
+<tr class="separator:a35e81cf03a001826838fb60e5430b780 inherit pub_methods_classUndoStep"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ccf6f00589b5bcff49a38e3bdb32e65 inherit pub_methods_classUndoStep"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUndoStep.html#a0ccf6f00589b5bcff49a38e3bdb32e65">~UndoStep</a> ()</td></tr>
 <tr class="memdesc:a0ccf6f00589b5bcff49a38e3bdb32e65 inherit pub_methods_classUndoStep"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a0ccf6f00589b5bcff49a38e3bdb32e65">More...</a><br /></td></tr>
 <tr class="separator:a0ccf6f00589b5bcff49a38e3bdb32e65 inherit pub_methods_classUndoStep"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44437f275b4804b5f9ad9c3b7c4639ef inherit pub_methods_classUndoStep"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classUndoStep.html">UndoStep</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUndoStep.html#a44437f275b4804b5f9ad9c3b7c4639ef">operator=</a> (const <a class="el" href="classUndoStep.html">UndoStep</a> &amp;)=delete</td></tr>
+<tr class="separator:a44437f275b4804b5f9ad9c3b7c4639ef inherit pub_methods_classUndoStep"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd65351f68cd7bb63242124411944622 inherit pub_methods_classUndoStep"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classUndoStep.html">UndoStep</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUndoStep.html#afd65351f68cd7bb63242124411944622">operator=</a> (<a class="el" href="classUndoStep.html">UndoStep</a> &amp;&amp;)=delete</td></tr>
+<tr class="separator:afd65351f68cd7bb63242124411944622 inherit pub_methods_classUndoStep"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c7b908f576ca5f9ff524a0141f87c92 inherit pub_methods_classUndoStep"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classUndoStep.html#a18600ea1e7741e158962ed6923c7bd66">Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUndoStep.html#a2c7b908f576ca5f9ff524a0141f87c92">getType</a> () const </td></tr>
 <tr class="memdesc:a2c7b908f576ca5f9ff524a0141f87c92 inherit pub_methods_classUndoStep"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the type of the undo step.  <a href="#a2c7b908f576ca5f9ff524a0141f87c92">More...</a><br /></td></tr>
 <tr class="separator:a2c7b908f576ca5f9ff524a0141f87c92 inherit pub_methods_classUndoStep"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -192,12 +200,12 @@ Protected Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:aceec01161c45ee5cb959493460378bf6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectTagsUndoStep.html#aceec01161c45ee5cb959493460378bf6">saveImpl</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qxmlstreamwriter.html">QXmlStreamWriter</a> &amp;xml) const </td></tr>
-<tr class="memdesc:aceec01161c45ee5cb959493460378bf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves undo properties to the the xml stream.  <a href="#aceec01161c45ee5cb959493460378bf6">More...</a><br /></td></tr>
-<tr class="separator:aceec01161c45ee5cb959493460378bf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea0b5a3a151bef4253bfbf0bba4d487a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectTagsUndoStep.html#aea0b5a3a151bef4253bfbf0bba4d487a">loadImpl</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qxmlstreamreader.html">QXmlStreamReader</a> &amp;xml, <a class="el" href="map__part_8h.html#a399a8a7116cffc8d49caccfc501704f2">SymbolDictionary</a> &amp;symbol_dict)</td></tr>
-<tr class="memdesc:aea0b5a3a151bef4253bfbf0bba4d487a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads undo properties from the the xml stream.  <a href="#aea0b5a3a151bef4253bfbf0bba4d487a">More...</a><br /></td></tr>
-<tr class="separator:aea0b5a3a151bef4253bfbf0bba4d487a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0af1865f60b8dd35f5043c74b0f67150"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectTagsUndoStep.html#a0af1865f60b8dd35f5043c74b0f67150">saveImpl</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qxmlstreamwriter.html">QXmlStreamWriter</a> &amp;xml) const override</td></tr>
+<tr class="memdesc:a0af1865f60b8dd35f5043c74b0f67150"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves undo properties to the the xml stream.  <a href="#a0af1865f60b8dd35f5043c74b0f67150">More...</a><br /></td></tr>
+<tr class="separator:a0af1865f60b8dd35f5043c74b0f67150"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d1bb75118e4a5ac5b5c6a9148cd322a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectTagsUndoStep.html#a6d1bb75118e4a5ac5b5c6a9148cd322a">loadImpl</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qxmlstreamreader.html">QXmlStreamReader</a> &amp;xml, <a class="el" href="map__part_8h.html#af7d420ad52539d37facbc179de888f97">SymbolDictionary</a> &amp;symbol_dict) override</td></tr>
+<tr class="memdesc:a6d1bb75118e4a5ac5b5c6a9148cd322a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads undo properties from the the xml stream.  <a href="#a6d1bb75118e4a5ac5b5c6a9148cd322a">More...</a><br /></td></tr>
+<tr class="separator:a6d1bb75118e4a5ac5b5c6a9148cd322a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -246,13 +254,13 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a736dd762b25b580fcf9de60bbbd835da inherit pub_static_methods_classUndoStep"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classUndoStep.html">UndoStep</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUndoStep.html#a736dd762b25b580fcf9de60bbbd835da">getUndoStepForType</a> (<a class="el" href="classUndoStep.html#a18600ea1e7741e158962ed6923c7bd66">Type</a> <a class="el" href="classUndoStep.html#a0187b3687a63c29fd72443784545ab7b">type</a>, <a class="el" href="classMap.html">Map</a> *<a class="el" href="classUndoStep.html#a90e582e3e0cbcd0334d7a9f9c11aead9">map</a>)</td></tr>
 <tr class="memdesc:a736dd762b25b580fcf9de60bbbd835da inherit pub_static_methods_classUndoStep"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an undo step of the given type.  <a href="#a736dd762b25b580fcf9de60bbbd835da">More...</a><br /></td></tr>
 <tr class="separator:a736dd762b25b580fcf9de60bbbd835da inherit pub_static_methods_classUndoStep"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0fa63df70f74ea9d161e6ac69dfa6ef inherit pub_static_methods_classUndoStep"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classUndoStep.html">UndoStep</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUndoStep.html#af0fa63df70f74ea9d161e6ac69dfa6ef">load</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qxmlstreamreader.html">QXmlStreamReader</a> &amp;xml, <a class="el" href="classMap.html">Map</a> *<a class="el" href="classUndoStep.html#a90e582e3e0cbcd0334d7a9f9c11aead9">map</a>, <a class="el" href="map__part_8h.html#a399a8a7116cffc8d49caccfc501704f2">SymbolDictionary</a> &amp;symbol_dict)</td></tr>
+<tr class="memitem:af0fa63df70f74ea9d161e6ac69dfa6ef inherit pub_static_methods_classUndoStep"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classUndoStep.html">UndoStep</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUndoStep.html#af0fa63df70f74ea9d161e6ac69dfa6ef">load</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qxmlstreamreader.html">QXmlStreamReader</a> &amp;xml, <a class="el" href="classMap.html">Map</a> *<a class="el" href="classUndoStep.html#a90e582e3e0cbcd0334d7a9f9c11aead9">map</a>, <a class="el" href="map__part_8h.html#af7d420ad52539d37facbc179de888f97">SymbolDictionary</a> &amp;symbol_dict)</td></tr>
 <tr class="memdesc:af0fa63df70f74ea9d161e6ac69dfa6ef inherit pub_static_methods_classUndoStep"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the undo step from the stream in xml format.  <a href="#af0fa63df70f74ea9d161e6ac69dfa6ef">More...</a><br /></td></tr>
 <tr class="separator:af0fa63df70f74ea9d161e6ac69dfa6ef inherit pub_static_methods_classUndoStep"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Undo step which modifies object tags. </p>
-<p>Note: For reduced file size, this implementation copies, not calls, <a class="el" href="classObjectModifyingUndoStep.html#a9bb45466769ec909e65576991bba7901" title="Saves undo properties to the the xml stream. ">ObjectModifyingUndoStep::saveImpl()</a>/ObjectModifyingUndoStep::loadImpl(). </p>
+<p>Note: For reduced file size, this implementation copies, not calls, <a class="el" href="classObjectModifyingUndoStep.html#a359235e5d2bf459644a21d956a04fbb1" title="Saves undo properties to the the xml stream. ">ObjectModifyingUndoStep::saveImpl()</a>/ObjectModifyingUndoStep::loadImpl(). </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a4ecab90715ac63798f350eb4ea6418d0"></a>
 <div class="memitem">
@@ -291,7 +299,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aac0f5f00b426d339d19bbfed2a356122"></a>
+<a class="anchor" id="aade9c7a4ba538c59ad911d4d80379e40"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -307,7 +315,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -315,7 +323,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a5c4838974c8b01b1833490eb10656231"></a>
+<a class="anchor" id="af04a8703c42d48179be325a1f03821ba"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -332,7 +340,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -344,7 +352,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aea0b5a3a151bef4253bfbf0bba4d487a"></a>
+<a class="anchor" id="a6d1bb75118e4a5ac5b5c6a9148cd322a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -360,7 +368,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="map__part_8h.html#a399a8a7116cffc8d49caccfc501704f2">SymbolDictionary</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="map__part_8h.html#af7d420ad52539d37facbc179de888f97">SymbolDictionary</a> &amp;&#160;</td>
           <td class="paramname"><em>symbol_dict</em>&#160;</td>
         </tr>
         <tr>
@@ -371,7 +379,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -379,11 +387,11 @@ Additional Inherited Members</h2></td></tr>
 <p>Loads undo properties from the the xml stream. </p>
 <p>Implementations in derived classes shall first check the element's name for one of their own elements, and otherwise call the parent class' implementation. </p>
 
-<p>Reimplemented from <a class="el" href="classObjectModifyingUndoStep.html#a84e442a2fc8a20398a95d9e419297012">ObjectModifyingUndoStep</a>.</p>
+<p>Reimplemented from <a class="el" href="classObjectModifyingUndoStep.html#a1b81c0fc04bdf5e792ac3176d1860b9b">ObjectModifyingUndoStep</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aceec01161c45ee5cb959493460378bf6"></a>
+<a class="anchor" id="a0af1865f60b8dd35f5043c74b0f67150"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -400,7 +408,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -408,11 +416,11 @@ Additional Inherited Members</h2></td></tr>
 <p>Saves undo properties to the the xml stream. </p>
 <p>Implementations in derived classes shall first call the parent class' implementation, and then start a new element for additional properties. </p>
 
-<p>Reimplemented from <a class="el" href="classObjectModifyingUndoStep.html#a9bb45466769ec909e65576991bba7901">ObjectModifyingUndoStep</a>.</p>
+<p>Reimplemented from <a class="el" href="classObjectModifyingUndoStep.html#a359235e5d2bf459644a21d956a04fbb1">ObjectModifyingUndoStep</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a157397728f7c048e1968013f11fff778"></a>
+<a class="anchor" id="a5f6647ab8c0b59554d85162f90cb2ffe"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -428,7 +436,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -462,8 +470,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/undo/<a class="el" href="object__undo_8h.html">object_undo.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/4d041c2/src/undo/object_undo.h"><tt>4d041c2</tt></a> on 8 Jan 2017)</li>
-<li>src/undo/<a class="el" href="object__undo_8cpp.html">object_undo.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/4d041c2/src/undo/object_undo.cpp"><tt>4d041c2</tt></a> on 8 Jan 2017)</li>
+<li>src/undo/<a class="el" href="object__undo_8h.html">object_undo.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/4d0078b/src/undo/object_undo.h"><tt>4d0078b</tt></a> on 14 Aug 2017)</li>
+<li>src/undo/<a class="el" href="object__undo_8cpp.html">object_undo.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/86317e9/src/undo/object_undo.cpp"><tt>86317e9</tt></a> on 19 Aug 2017)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

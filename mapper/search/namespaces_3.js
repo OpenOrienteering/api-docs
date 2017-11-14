@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['mapperresource',['MapperResource',['../namespaceMapperResource.html',1,'']]],
-  ['mimetype',['MimeType',['../namespaceMimeType.html',1,'']]]
+  ['literal',['literal',['../namespaceliteral.html',1,'']]]
 ];

@@ -25,5 +25,6 @@ var searchData=
   ['autosaveprivate',['AutosavePrivate',['../classAutosavePrivate.html',1,'']]],
   ['autosavetest',['AutosaveTest',['../classAutosaveTest.html',1,'']]],
   ['autosavetestdocument',['AutosaveTestDocument',['../classAutosaveTestDocument.html',1,'']]],
-  ['availablesizesargument',['AvailableSizesArgument',['http://doc.qt.io/qt-5/qiconengine-availablesizesargument.html',1,'QIconEngine']]]
+  ['availablesizesargument',['AvailableSizesArgument',['http://doc.qt.io/qt-5/qiconengine-availablesizesargument.html',1,'QIconEngine']]],
+  ['azimuthinfohelper',['AzimuthInfoHelper',['../classAzimuthInfoHelper.html',1,'']]]
 ];

@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -150,9 +150,9 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="signals"></a>
 Signals</h2></td></tr>
-<tr class="memitem:a5fd77a7d951f39a8adda956d99ba16a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a5fd77a7d951f39a8adda956d99ba16a4">hasUnsavedChanges</a> (<a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> is_clean)</td></tr>
-<tr class="memdesc:a5fd77a7d951f39a8adda956d99ba16a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when a the map enters or leaves the state which is saved on map.  <a href="#a5fd77a7d951f39a8adda956d99ba16a4">More...</a><br /></td></tr>
-<tr class="separator:a5fd77a7d951f39a8adda956d99ba16a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfa36df4c065d50b42cedcb3f8af3811"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#adfa36df4c065d50b42cedcb3f8af3811">hasUnsavedChanged</a> (<a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> is_clean)</td></tr>
+<tr class="memdesc:adfa36df4c065d50b42cedcb3f8af3811"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when a the map enters or leaves the state which is saved on map.  <a href="#adfa36df4c065d50b42cedcb3f8af3811">More...</a><br /></td></tr>
+<tr class="separator:adfa36df4c065d50b42cedcb3f8af3811"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2bce7cd4af3e8be22fcd48b090604579"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a2bce7cd4af3e8be22fcd48b090604579">colorAdded</a> (int pos, const <a class="el" href="classMapColor.html">MapColor</a> *color)</td></tr>
 <tr class="memdesc:a2bce7cd4af3e8be22fcd48b090604579"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when a color is added to the map, gives the color's index and pointer.  <a href="#a2bce7cd4af3e8be22fcd48b090604579">More...</a><br /></td></tr>
 <tr class="separator:a2bce7cd4af3e8be22fcd48b090604579"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -177,12 +177,15 @@ Signals</h2></td></tr>
 <tr class="memitem:a9ec9d900e47e861100b42ea049a84839"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a9ec9d900e47e861100b42ea049a84839">symbolDeleted</a> (int pos, const <a class="el" href="classSymbol.html">Symbol</a> *old_symbol)</td></tr>
 <tr class="memdesc:a9ec9d900e47e861100b42ea049a84839"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when a symbol in the map is deleted.  <a href="#a9ec9d900e47e861100b42ea049a84839">More...</a><br /></td></tr>
 <tr class="separator:a9ec9d900e47e861100b42ea049a84839"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf434a675099baf1bcbb0d33986cefec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#abf434a675099baf1bcbb0d33986cefec">templateAdded</a> (int pos, const <a class="el" href="classTemplate.html">Template</a> *temp)</td></tr>
-<tr class="memdesc:abf434a675099baf1bcbb0d33986cefec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when a template is added to the map, gives the template's index and pointer.  <a href="#abf434a675099baf1bcbb0d33986cefec">More...</a><br /></td></tr>
-<tr class="separator:abf434a675099baf1bcbb0d33986cefec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac99a6bc8779241ab0b229a4fc146fab7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#ac99a6bc8779241ab0b229a4fc146fab7">templateChanged</a> (int pos, const <a class="el" href="classTemplate.html">Template</a> *temp)</td></tr>
-<tr class="memdesc:ac99a6bc8779241ab0b229a4fc146fab7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when a template in the map is changed, gives the template's index and pointer.  <a href="#ac99a6bc8779241ab0b229a4fc146fab7">More...</a><br /></td></tr>
-<tr class="separator:ac99a6bc8779241ab0b229a4fc146fab7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a760cc2c00866ce7ab58e4f82baf0c6a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a760cc2c00866ce7ab58e4f82baf0c6a1">symbolIconZoomChanged</a> ()</td></tr>
+<tr class="memdesc:a760cc2c00866ce7ab58e4f82baf0c6a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when the symbol icon zoom changes.  <a href="#a760cc2c00866ce7ab58e4f82baf0c6a1">More...</a><br /></td></tr>
+<tr class="separator:a760cc2c00866ce7ab58e4f82baf0c6a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3adb2ff35066090a8c2b60553c872fa6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a3adb2ff35066090a8c2b60553c872fa6">templateAdded</a> (int pos, <a class="el" href="classTemplate.html">Template</a> *temp)</td></tr>
+<tr class="memdesc:a3adb2ff35066090a8c2b60553c872fa6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when a template is added to the map, gives the template's index and pointer.  <a href="#a3adb2ff35066090a8c2b60553c872fa6">More...</a><br /></td></tr>
+<tr class="separator:a3adb2ff35066090a8c2b60553c872fa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa39f8c2a3b805eba9cce16d79038b582"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#aa39f8c2a3b805eba9cce16d79038b582">templateChanged</a> (int pos, <a class="el" href="classTemplate.html">Template</a> *temp)</td></tr>
+<tr class="memdesc:aa39f8c2a3b805eba9cce16d79038b582"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when a template in the map is changed, gives the template's index and pointer.  <a href="#aa39f8c2a3b805eba9cce16d79038b582">More...</a><br /></td></tr>
+<tr class="separator:aa39f8c2a3b805eba9cce16d79038b582"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3053699f84c03cc6b9c6b13e65cfdca0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a3053699f84c03cc6b9c6b13e65cfdca0">templateDeleted</a> (int pos, const <a class="el" href="classTemplate.html">Template</a> *old_temp)</td></tr>
 <tr class="memdesc:a3053699f84c03cc6b9c6b13e65cfdca0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when a template in the map is deleted, gives the template's index and pointer.  <a href="#a3053699f84c03cc6b9c6b13e65cfdca0">More...</a><br /></td></tr>
 <tr class="separator:a3053699f84c03cc6b9c6b13e65cfdca0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -216,9 +219,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0f5ad0fd4563497b4214038cbca8b582"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a0f5ad0fd4563497b4214038cbca8b582">Map</a> ()</td></tr>
 <tr class="memdesc:a0f5ad0fd4563497b4214038cbca8b582"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new, empty map.  <a href="#a0f5ad0fd4563497b4214038cbca8b582">More...</a><br /></td></tr>
 <tr class="separator:a0f5ad0fd4563497b4214038cbca8b582"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa403fbe09394ccf39747588f5168e3b2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#aa403fbe09394ccf39747588f5168e3b2">~Map</a> ()</td></tr>
-<tr class="memdesc:aa403fbe09394ccf39747588f5168e3b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys the map.  <a href="#aa403fbe09394ccf39747588f5168e3b2">More...</a><br /></td></tr>
-<tr class="separator:aa403fbe09394ccf39747588f5168e3b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf6b1852fdeb12f71b0e0677211c3d89"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#adf6b1852fdeb12f71b0e0677211c3d89">~Map</a> () override</td></tr>
+<tr class="memdesc:adf6b1852fdeb12f71b0e0677211c3d89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys the map.  <a href="#adf6b1852fdeb12f71b0e0677211c3d89">More...</a><br /></td></tr>
+<tr class="separator:adf6b1852fdeb12f71b0e0677211c3d89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5b2b05098fb3c9e750f95fb76b72e32"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#aa5b2b05098fb3c9e750f95fb76b72e32">clear</a> ()</td></tr>
 <tr class="memdesc:aa5b2b05098fb3c9e750f95fb76b72e32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes all map data.  <a href="#aa5b2b05098fb3c9e750f95fb76b72e32">More...</a><br /></td></tr>
 <tr class="separator:aa5b2b05098fb3c9e750f95fb76b72e32"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -240,6 +243,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab7f6c6ca7a51d02f8bca937d420a7cd5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#ab7f6c6ca7a51d02f8bca937d420a7cd5">importMap</a> (const <a class="el" href="classMap.html">Map</a> *other, ImportMode mode, <a class="elRef" doxygen="qtwidgets.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qwidget.html">QWidget</a> *dialog_parent=nullptr, std::vector&lt; <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> &gt; *filter=nullptr, int symbol_insert_pos=-1, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> merge_duplicate_symbols=true, <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qhash.html">QHash</a>&lt; const <a class="el" href="classSymbol.html">Symbol</a> *, <a class="el" href="classSymbol.html">Symbol</a> * &gt; *out_symbol_map=nullptr)</td></tr>
 <tr class="memdesc:ab7f6c6ca7a51d02f8bca937d420a7cd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Imports the other map into this map with the following strategy:  <a href="#ab7f6c6ca7a51d02f8bca937d420a7cd5">More...</a><br /></td></tr>
 <tr class="separator:ab7f6c6ca7a51d02f8bca937d420a7cd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c1d2bbda355f196312400b264a78dd7"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qhash.html">QHash</a>&lt; const <a class="el" href="classSymbol.html">Symbol</a> *, <a class="el" href="classSymbol.html">Symbol</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a9c1d2bbda355f196312400b264a78dd7">importMap</a> (const <a class="el" href="classMap.html">Map</a> &amp;imported_map, ImportMode mode, std::vector&lt; <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> &gt; *filter=nullptr, int symbol_insert_pos=-1, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> merge_duplicate_symbols=true, const <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qtransform.html">QTransform</a> &amp;transform={})</td></tr>
+<tr class="memdesc:a9c1d2bbda355f196312400b264a78dd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Imports another map into this map with the following strategy:  <a href="#a9c1d2bbda355f196312400b264a78dd7">More...</a><br /></td></tr>
+<tr class="separator:a9c1d2bbda355f196312400b264a78dd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66f6cd3bbd872fe45ca7369e01038d79"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a66f6cd3bbd872fe45ca7369e01038d79">exportToIODevice</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qiodevice.html">QIODevice</a> *stream)</td></tr>
 <tr class="memdesc:a66f6cd3bbd872fe45ca7369e01038d79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes the map directly into the given IO device in a known format.  <a href="#a66f6cd3bbd872fe45ca7369e01038d79">More...</a><br /></td></tr>
 <tr class="separator:a66f6cd3bbd872fe45ca7369e01038d79"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -255,12 +261,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1d491d72ef412fdbabe231e2ccf0bd1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a1d491d72ef412fdbabe231e2ccf0bd1e">drawColorSeparation</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpainter.html">QPainter</a> *painter, const <a class="el" href="classRenderConfig.html">RenderConfig</a> &amp;config, const <a class="el" href="classMapColor.html">MapColor</a> *spot_color, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> use_color=false)</td></tr>
 <tr class="memdesc:a1d491d72ef412fdbabe231e2ccf0bd1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the separation for a particular spot color for the part of the map which is visible in the given bounding box.  <a href="#a1d491d72ef412fdbabe231e2ccf0bd1e">More...</a><br /></td></tr>
 <tr class="separator:a1d491d72ef412fdbabe231e2ccf0bd1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06ede36bd4b5c37d9b7afd08ca7a6f6c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a06ede36bd4b5c37d9b7afd08ca7a6f6c">drawGrid</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpainter.html">QPainter</a> *painter, <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> bounding_box, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> on_screen)</td></tr>
-<tr class="memdesc:a06ede36bd4b5c37d9b7afd08ca7a6f6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the map grid.  <a href="#a06ede36bd4b5c37d9b7afd08ca7a6f6c">More...</a><br /></td></tr>
-<tr class="separator:a06ede36bd4b5c37d9b7afd08ca7a6f6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6dd63d12ac2a9eb1d0f25c6da350f00d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a6dd63d12ac2a9eb1d0f25c6da350f00d">drawTemplates</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpainter.html">QPainter</a> *painter, <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> bounding_box, int first_template, int last_template, const <a class="el" href="classMapView.html">MapView</a> *view, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> on_screen) const </td></tr>
-<tr class="memdesc:a6dd63d12ac2a9eb1d0f25c6da350f00d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the templates with indices first_template until last_template which are visible in the given bouding box.  <a href="#a6dd63d12ac2a9eb1d0f25c6da350f00d">More...</a><br /></td></tr>
-<tr class="separator:a6dd63d12ac2a9eb1d0f25c6da350f00d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a560c22b524f8fa295e52b3b4b578a3c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a560c22b524f8fa295e52b3b4b578a3c0">drawGrid</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpainter.html">QPainter</a> *painter, const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> &amp;bounding_box, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> on_screen)</td></tr>
+<tr class="memdesc:a560c22b524f8fa295e52b3b4b578a3c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the map grid.  <a href="#a560c22b524f8fa295e52b3b4b578a3c0">More...</a><br /></td></tr>
+<tr class="separator:a560c22b524f8fa295e52b3b4b578a3c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f10a362950c85d38c5e5dc62c163463"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a4f10a362950c85d38c5e5dc62c163463">drawTemplates</a> (<a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpainter.html">QPainter</a> *painter, const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> &amp;bounding_box, int first_template, int last_template, const <a class="el" href="classMapView.html">MapView</a> *view, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> on_screen) const </td></tr>
+<tr class="memdesc:a4f10a362950c85d38c5e5dc62c163463"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the templates with indices first_template until last_template which are visible in the given bouding box.  <a href="#a4f10a362950c85d38c5e5dc62c163463">More...</a><br /></td></tr>
+<tr class="separator:a4f10a362950c85d38c5e5dc62c163463"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03510d8deb344039253642e267cb3612"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a03510d8deb344039253642e267cb3612">updateObjects</a> ()</td></tr>
 <tr class="memdesc:a03510d8deb344039253642e267cb3612"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the renderables and extent of all objects which have changed.  <a href="#a03510d8deb344039253642e267cb3612">More...</a><br /></td></tr>
 <tr class="separator:a03510d8deb344039253642e267cb3612"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -279,21 +285,27 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8a243c22d9394c4314ce42dff586007e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a8a243c22d9394c4314ce42dff586007e">ensureVisibilityOfSelectedObjects</a> (<a class="el" href="classMap.html#a29734bb88ef665cc099338fbb6e6fca9">SelectionVisibility</a> visibility)</td></tr>
 <tr class="memdesc:a8a243c22d9394c4314ce42dff586007e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes sure that the selected object(s) are visible in all map widgets by moving the views in the widgets to the selected objects.  <a href="#a8a243c22d9394c4314ce42dff586007e">More...</a><br /></td></tr>
 <tr class="separator:a8a243c22d9394c4314ce42dff586007e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73750e34eadf93e9af33a209d9cb419c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a73750e34eadf93e9af33a209d9cb419c">setDrawingBoundingBox</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> map_coords_rect, int pixel_border, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> do_update=true)</td></tr>
-<tr class="memdesc:a73750e34eadf93e9af33a209d9cb419c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the rect (given in map coordinates) as "dirty rect" for every map widget showing this map, enlarged by the given pixel border.  <a href="#a73750e34eadf93e9af33a209d9cb419c">More...</a><br /></td></tr>
-<tr class="separator:a73750e34eadf93e9af33a209d9cb419c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3407356693085f1655ec3cf610f0efc7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a3407356693085f1655ec3cf610f0efc7">setDrawingBoundingBox</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> &amp;map_coords_rect, int pixel_border, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> do_update=true)</td></tr>
+<tr class="memdesc:a3407356693085f1655ec3cf610f0efc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the rect (given in map coordinates) as "dirty rect" for every map widget showing this map, enlarged by the given pixel border.  <a href="#a3407356693085f1655ec3cf610f0efc7">More...</a><br /></td></tr>
+<tr class="separator:a3407356693085f1655ec3cf610f0efc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed65dacfc5728e63f1c03a69b91e1125"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#aed65dacfc5728e63f1c03a69b91e1125">clearDrawingBoundingBox</a> ()</td></tr>
 <tr class="memdesc:aed65dacfc5728e63f1c03a69b91e1125"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the drawing bounding box and triggers a repaint.  <a href="#aed65dacfc5728e63f1c03a69b91e1125">More...</a><br /></td></tr>
 <tr class="separator:aed65dacfc5728e63f1c03a69b91e1125"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfd78471ce641af8e8f276acae2066fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#adfd78471ce641af8e8f276acae2066fc">setActivityBoundingBox</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> map_coords_rect, int pixel_border, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> do_update=true)</td></tr>
-<tr class="memdesc:adfd78471ce641af8e8f276acae2066fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is the analogon to <a class="el" href="classMap.html#a73750e34eadf93e9af33a209d9cb419c" title="Sets the rect (given in map coordinates) as &quot;dirty rect&quot; for every map widget showing this map...">setDrawingBoundingBox()</a> for activities.  <a href="#adfd78471ce641af8e8f276acae2066fc">More...</a><br /></td></tr>
-<tr class="separator:adfd78471ce641af8e8f276acae2066fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac52fb1c215633016209cfbbad647ecfd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#ac52fb1c215633016209cfbbad647ecfd">setActivityBoundingBox</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> &amp;map_coords_rect, int pixel_border, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> do_update=true)</td></tr>
+<tr class="memdesc:ac52fb1c215633016209cfbbad647ecfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is the analogon to <a class="el" href="classMap.html#a3407356693085f1655ec3cf610f0efc7" title="Sets the rect (given in map coordinates) as &quot;dirty rect&quot; for every map widget showing this map...">setDrawingBoundingBox()</a> for activities.  <a href="#ac52fb1c215633016209cfbbad647ecfd">More...</a><br /></td></tr>
+<tr class="separator:ac52fb1c215633016209cfbbad647ecfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf5e91f72a1fc86d1c24a8f66db0a9b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#aaf5e91f72a1fc86d1c24a8f66db0a9b5">clearActivityBoundingBox</a> ()</td></tr>
 <tr class="memdesc:aaf5e91f72a1fc86d1c24a8f66db0a9b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is the analogon to <a class="el" href="classMap.html#aed65dacfc5728e63f1c03a69b91e1125" title="Removes the drawing bounding box and triggers a repaint. ">clearDrawingBoundingBox()</a> for activities.  <a href="#aaf5e91f72a1fc86d1c24a8f66db0a9b5">More...</a><br /></td></tr>
 <tr class="separator:aaf5e91f72a1fc86d1c24a8f66db0a9b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13f7a9a34fe320e2a2799afc30fbbaf2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a13f7a9a34fe320e2a2799afc30fbbaf2">updateDrawing</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> map_coords_rect, int pixel_border)</td></tr>
-<tr class="memdesc:a13f7a9a34fe320e2a2799afc30fbbaf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates all dynamic drawings at the given positions, i.e.  <a href="#a13f7a9a34fe320e2a2799afc30fbbaf2">More...</a><br /></td></tr>
-<tr class="separator:a13f7a9a34fe320e2a2799afc30fbbaf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa2ca1740328ae6f052dce538ded2ed6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#afa2ca1740328ae6f052dce538ded2ed6">updateDrawing</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> &amp;map_coords_rect, int pixel_border)</td></tr>
+<tr class="memdesc:afa2ca1740328ae6f052dce538ded2ed6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates all dynamic drawings at the given positions, i.e.  <a href="#afa2ca1740328ae6f052dce538ded2ed6">More...</a><br /></td></tr>
+<tr class="separator:afa2ca1740328ae6f052dce538ded2ed6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af90f1e59045bc244317b71000cb6aa9c"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#af90f1e59045bc244317b71000cb6aa9c">translate</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;symbol_text) const </td></tr>
+<tr class="memdesc:af90f1e59045bc244317b71000cb6aa9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a translated symbol text (name or description), or the original text.  <a href="#af90f1e59045bc244317b71000cb6aa9c">More...</a><br /></td></tr>
+<tr class="separator:af90f1e59045bc244317b71000cb6aa9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68bdbbdb5e1b7cee9da057e78c38f510"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a68bdbbdb5e1b7cee9da057e78c38f510">raw_translation</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;symbol_text) const </td></tr>
+<tr class="memdesc:a68bdbbdb5e1b7cee9da057e78c38f510"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a translated symbol text (name or description), or an empty string.  <a href="#a68bdbbdb5e1b7cee9da057e78c38f510">More...</a><br /></td></tr>
+<tr class="separator:a68bdbbdb5e1b7cee9da057e78c38f510"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a715149a5f0cf01faa5cdd0e9d10f0379"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a715149a5f0cf01faa5cdd0e9d10f0379">getNumColors</a> () const </td></tr>
 <tr class="memdesc:a715149a5f0cf01faa5cdd0e9d10f0379"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of map colors defined in this map.  <a href="#a715149a5f0cf01faa5cdd0e9d10f0379">More...</a><br /></td></tr>
 <tr class="separator:a715149a5f0cf01faa5cdd0e9d10f0379"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -333,6 +345,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af520e1f6808a8e4c3a589aae3f6eea17"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#af520e1f6808a8e4c3a589aae3f6eea17">hasSpotColors</a> () const </td></tr>
 <tr class="memdesc:af520e1f6808a8e4c3a589aae3f6eea17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the map contains spot colors.  <a href="#af520e1f6808a8e4c3a589aae3f6eea17">More...</a><br /></td></tr>
 <tr class="separator:af520e1f6808a8e4c3a589aae3f6eea17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84b747f4c64bac6b528db65f9dbde128"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a84b747f4c64bac6b528db65f9dbde128">symbolSetId</a> () const </td></tr>
+<tr class="memdesc:a84b747f4c64bac6b528db65f9dbde128"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the symbol set ID.  <a href="#a84b747f4c64bac6b528db65f9dbde128">More...</a><br /></td></tr>
+<tr class="separator:a84b747f4c64bac6b528db65f9dbde128"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5490c57efc6ac11e69ca9cb7eba6c950"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a5490c57efc6ac11e69ca9cb7eba6c950">setSymbolSetId</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;id)</td></tr>
+<tr class="memdesc:a5490c57efc6ac11e69ca9cb7eba6c950"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the symbol set ID.  <a href="#a5490c57efc6ac11e69ca9cb7eba6c950">More...</a><br /></td></tr>
+<tr class="separator:a5490c57efc6ac11e69ca9cb7eba6c950"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec679d395a4e11a2ebbf02ccb667a08e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#aec679d395a4e11a2ebbf02ccb667a08e">getNumSymbols</a> () const </td></tr>
 <tr class="memdesc:aec679d395a4e11a2ebbf02ccb667a08e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of symbols in this map.  <a href="#aec679d395a4e11a2ebbf02ccb667a08e">More...</a><br /></td></tr>
 <tr class="separator:aec679d395a4e11a2ebbf02ccb667a08e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -376,6 +394,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aefc3f347e47727b72765be3dd962049c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#aefc3f347e47727b72765be3dd962049c">determineSymbolUseClosure</a> (std::vector&lt; <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> &gt; &amp;symbol_bitfield) const </td></tr>
 <tr class="memdesc:aefc3f347e47727b72765be3dd962049c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds to the given symbol bitfield all other symbols which are needed to display the symbols indicated by the bitfield because of symbol dependencies.  <a href="#aefc3f347e47727b72765be3dd962049c">More...</a><br /></td></tr>
 <tr class="separator:aefc3f347e47727b72765be3dd962049c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76fe6b306b8f6929011126e070ca17b1"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a76fe6b306b8f6929011126e070ca17b1">symbolIconZoom</a> () const </td></tr>
+<tr class="memdesc:a76fe6b306b8f6929011126e070ca17b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the scale factor to be used for default symbol icons.  <a href="#a76fe6b306b8f6929011126e070ca17b1">More...</a><br /></td></tr>
+<tr class="separator:a76fe6b306b8f6929011126e070ca17b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e48060d396d3874abac05edf61f22cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a6e48060d396d3874abac05edf61f22cc">updateSymbolIconZoom</a> ()</td></tr>
+<tr class="memdesc:a6e48060d396d3874abac05edf61f22cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the symbol icon zoom from the current set of symbols.  <a href="#a6e48060d396d3874abac05edf61f22cc">More...</a><br /></td></tr>
+<tr class="separator:a6e48060d396d3874abac05edf61f22cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4744b6c30449f7945cacd30b06ad4c44"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a4744b6c30449f7945cacd30b06ad4c44">getNumTemplates</a> () const </td></tr>
 <tr class="memdesc:a4744b6c30449f7945cacd30b06ad4c44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of templates in this map.  <a href="#a4744b6c30449f7945cacd30b06ad4c44">More...</a><br /></td></tr>
 <tr class="separator:a4744b6c30449f7945cacd30b06ad4c44"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -403,9 +427,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a19000a1006cb48ea648b292ab3f1e822"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a19000a1006cb48ea648b292ab3f1e822">deleteTemplate</a> (int pos)</td></tr>
 <tr class="memdesc:a19000a1006cb48ea648b292ab3f1e822"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the template with the given position from the template list and deletes it.  <a href="#a19000a1006cb48ea648b292ab3f1e822">More...</a><br /></td></tr>
 <tr class="separator:a19000a1006cb48ea648b292ab3f1e822"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a567e6dbc23645d70e81af4f9058a2d0a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a567e6dbc23645d70e81af4f9058a2d0a">setTemplateAreaDirty</a> (<a class="el" href="classTemplate.html">Template</a> *temp, <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> area, int pixel_border)</td></tr>
-<tr class="memdesc:a567e6dbc23645d70e81af4f9058a2d0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks the area defined by the given <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> (in map coordinates) and pixel border as "dirty", i.e.  <a href="#a567e6dbc23645d70e81af4f9058a2d0a">More...</a><br /></td></tr>
-<tr class="separator:a567e6dbc23645d70e81af4f9058a2d0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a640367885d68944609f44e4562534146"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a640367885d68944609f44e4562534146">setTemplateAreaDirty</a> (<a class="el" href="classTemplate.html">Template</a> *temp, const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> &amp;area, int pixel_border)</td></tr>
+<tr class="memdesc:a640367885d68944609f44e4562534146"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks the area defined by the given <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> (in map coordinates) and pixel border as "dirty", i.e.  <a href="#a640367885d68944609f44e4562534146">More...</a><br /></td></tr>
+<tr class="separator:a640367885d68944609f44e4562534146"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f97c16f2b9e2e84bc77973b8c73cd59"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a4f97c16f2b9e2e84bc77973b8c73cd59">setTemplateAreaDirty</a> (int i)</td></tr>
 <tr class="memdesc:a4f97c16f2b9e2e84bc77973b8c73cd59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks the whole area of the i-th template as "to be repainted".  <a href="#a4f97c16f2b9e2e84bc77973b8c73cd59">More...</a><br /></td></tr>
 <tr class="separator:a4f97c16f2b9e2e84bc77973b8c73cd59"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -416,7 +440,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aacc2cc7b1cbd87658168a7025006c011"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks the template settings as "dirty", i.e.  <a href="#aacc2cc7b1cbd87658168a7025006c011">More...</a><br /></td></tr>
 <tr class="separator:aacc2cc7b1cbd87658168a7025006c011"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa92bb7b7f2030f7a646bba35f9a5682a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#aa92bb7b7f2030f7a646bba35f9a5682a">emitTemplateChanged</a> (<a class="el" href="classTemplate.html">Template</a> *temp)</td></tr>
-<tr class="memdesc:aa92bb7b7f2030f7a646bba35f9a5682a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emits <a class="el" href="classMap.html#ac99a6bc8779241ab0b229a4fc146fab7" title="Emitted when a template in the map is changed, gives the template&#39;s index and pointer. ">templateChanged()</a> for the given template.  <a href="#aa92bb7b7f2030f7a646bba35f9a5682a">More...</a><br /></td></tr>
+<tr class="memdesc:aa92bb7b7f2030f7a646bba35f9a5682a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emits <a class="el" href="classMap.html#aa39f8c2a3b805eba9cce16d79038b582" title="Emitted when a template in the map is changed, gives the template&#39;s index and pointer. ">templateChanged()</a> for the given template.  <a href="#aa92bb7b7f2030f7a646bba35f9a5682a">More...</a><br /></td></tr>
 <tr class="separator:aa92bb7b7f2030f7a646bba35f9a5682a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5d368ef6ecd04862195e6e2347a3ae3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#ae5d368ef6ecd04862195e6e2347a3ae3">getNumClosedTemplates</a> () const </td></tr>
 <tr class="memdesc:ae5d368ef6ecd04862195e6e2347a3ae3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of manually closed templates for which the settings are still stored.  <a href="#ae5d368ef6ecd04862195e6e2347a3ae3">More...</a><br /></td></tr>
@@ -493,33 +517,36 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aac392ef6e7f08c421db71de6c4a57389"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#aac392ef6e7f08c421db71de6c4a57389">setObjectsDirty</a> ()</td></tr>
 <tr class="memdesc:aac392ef6e7f08c421db71de6c4a57389"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks the objects as "dirty", i.e.  <a href="#aac392ef6e7f08c421db71de6c4a57389">More...</a><br /></td></tr>
 <tr class="separator:aac392ef6e7f08c421db71de6c4a57389"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabfa569600e18e9053420bea1404da9c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#aabfa569600e18e9053420bea1404da9c">setObjectAreaDirty</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> map_coords_rect)</td></tr>
-<tr class="memdesc:aabfa569600e18e9053420bea1404da9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks the area given by map_coords_rect as "dirty" in all map widgets, i.e.  <a href="#aabfa569600e18e9053420bea1404da9c">More...</a><br /></td></tr>
-<tr class="separator:aabfa569600e18e9053420bea1404da9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a620fe18ca937589167a2b5dcf72ebb5d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a620fe18ca937589167a2b5dcf72ebb5d">findObjectsAt</a> (<a class="el" href="classMapCoordF.html">MapCoordF</a> coord, float tolerance, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> treat_areas_as_paths, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> extended_selection, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> include_hidden_objects, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> include_protected_objects, <a class="el" href="map__part_8h.html#a13ca1d6f950a575e0025e7547506dfc4">SelectionInfoVector</a> &amp;out) const </td></tr>
+<tr class="memitem:afd0f568d183e6abb2e07a75a40952523"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#afd0f568d183e6abb2e07a75a40952523">setObjectAreaDirty</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> &amp;map_coords_rect)</td></tr>
+<tr class="memdesc:afd0f568d183e6abb2e07a75a40952523"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks the area given by map_coords_rect as "dirty" in all map widgets, i.e.  <a href="#afd0f568d183e6abb2e07a75a40952523">More...</a><br /></td></tr>
+<tr class="separator:afd0f568d183e6abb2e07a75a40952523"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a620fe18ca937589167a2b5dcf72ebb5d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a620fe18ca937589167a2b5dcf72ebb5d">findObjectsAt</a> (<a class="el" href="classMapCoordF.html">MapCoordF</a> coord, float tolerance, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> treat_areas_as_paths, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> extended_selection, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> include_hidden_objects, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> include_protected_objects, <a class="el" href="map__part_8h.html#af3ee0f90d96f211e569c356798307880">SelectionInfoVector</a> &amp;out) const </td></tr>
 <tr class="memdesc:a620fe18ca937589167a2b5dcf72ebb5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds and returns all objects at the given position in the current part.  <a href="#a620fe18ca937589167a2b5dcf72ebb5d">More...</a><br /></td></tr>
 <tr class="separator:a620fe18ca937589167a2b5dcf72ebb5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69ab6da9fc8c420fd49d1cfcce25b6d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a69ab6da9fc8c420fd49d1cfcce25b6d3">findAllObjectsAt</a> (<a class="el" href="classMapCoordF.html">MapCoordF</a> coord, float tolerance, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> treat_areas_as_paths, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> extended_selection, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> include_hidden_objects, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> include_protected_objects, <a class="el" href="map__part_8h.html#a13ca1d6f950a575e0025e7547506dfc4">SelectionInfoVector</a> &amp;out) const </td></tr>
+<tr class="memitem:a69ab6da9fc8c420fd49d1cfcce25b6d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a69ab6da9fc8c420fd49d1cfcce25b6d3">findAllObjectsAt</a> (<a class="el" href="classMapCoordF.html">MapCoordF</a> coord, float tolerance, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> treat_areas_as_paths, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> extended_selection, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> include_hidden_objects, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> include_protected_objects, <a class="el" href="map__part_8h.html#af3ee0f90d96f211e569c356798307880">SelectionInfoVector</a> &amp;out) const </td></tr>
 <tr class="memdesc:a69ab6da9fc8c420fd49d1cfcce25b6d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds and returns all objects at the given position in all parts.  <a href="#a69ab6da9fc8c420fd49d1cfcce25b6d3">More...</a><br /></td></tr>
 <tr class="separator:a69ab6da9fc8c420fd49d1cfcce25b6d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f6b57666eee84da72049b03d940ef1b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a4f6b57666eee84da72049b03d940ef1b">findObjectsAtBox</a> (<a class="el" href="classMapCoordF.html">MapCoordF</a> corner1, <a class="el" href="classMapCoordF.html">MapCoordF</a> corner2, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> include_hidden_objects, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> include_protected_objects, std::vector&lt; <a class="el" href="classObject.html">Object</a> * &gt; &amp;out) const </td></tr>
 <tr class="memdesc:a4f6b57666eee84da72049b03d940ef1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds and returns all objects intersecting the given box in the current part.  <a href="#a4f6b57666eee84da72049b03d940ef1b">More...</a><br /></td></tr>
 <tr class="separator:a4f6b57666eee84da72049b03d940ef1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8d3ab0a95cc437b98d83611e4f02e72"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#af8d3ab0a95cc437b98d83611e4f02e72">countObjectsInRect</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> map_coord_rect, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> include_hidden_objects)</td></tr>
-<tr class="memdesc:af8d3ab0a95cc437b98d83611e4f02e72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Counts the objects whose bounding boxes intersect the given rect.  <a href="#af8d3ab0a95cc437b98d83611e4f02e72">More...</a><br /></td></tr>
-<tr class="separator:af8d3ab0a95cc437b98d83611e4f02e72"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3baae5365b5b650556cc90350b60f5b9"><td class="memTemplParams" colspan="2">template&lt;typename Condition &gt; </td></tr>
-<tr class="memitem:a3baae5365b5b650556cc90350b60f5b9"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMap.html#a3baae5365b5b650556cc90350b60f5b9">existsObject</a> (const Condition &amp;condition) const </td></tr>
-<tr class="memdesc:a3baae5365b5b650556cc90350b60f5b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies a condition on all objects (until the first match is found).  <a href="#a3baae5365b5b650556cc90350b60f5b9">More...</a><br /></td></tr>
-<tr class="separator:a3baae5365b5b650556cc90350b60f5b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99dc64366e455971b1c00c43668fd717"><td class="memTemplParams" colspan="2">template&lt;typename Operation , typename Condition &gt; </td></tr>
-<tr class="memitem:a99dc64366e455971b1c00c43668fd717"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMap.html#a99dc64366e455971b1c00c43668fd717">applyOnMatchingObjects</a> (const Operation &amp;operation, const Condition &amp;condition)</td></tr>
-<tr class="memdesc:a99dc64366e455971b1c00c43668fd717"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies an operation on all objects which match a particular condition.  <a href="#a99dc64366e455971b1c00c43668fd717">More...</a><br /></td></tr>
-<tr class="separator:a99dc64366e455971b1c00c43668fd717"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b6ae55127897945024058b01a3cb897"><td class="memTemplParams" colspan="2">template&lt;typename Operation &gt; </td></tr>
-<tr class="memitem:a4b6ae55127897945024058b01a3cb897"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMap.html#a4b6ae55127897945024058b01a3cb897">applyOnAllObjects</a> (const Operation &amp;operation)</td></tr>
-<tr class="memdesc:a4b6ae55127897945024058b01a3cb897"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies an operation on all objects.  <a href="#a4b6ae55127897945024058b01a3cb897">More...</a><br /></td></tr>
-<tr class="separator:a4b6ae55127897945024058b01a3cb897"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa25f50c0fbbcbfa7b147f9e58d5e6a84"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#aa25f50c0fbbcbfa7b147f9e58d5e6a84">countObjectsInRect</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> &amp;map_coord_rect, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> include_hidden_objects)</td></tr>
+<tr class="memdesc:aa25f50c0fbbcbfa7b147f9e58d5e6a84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Counts the objects whose bounding boxes intersect the given rect.  <a href="#aa25f50c0fbbcbfa7b147f9e58d5e6a84">More...</a><br /></td></tr>
+<tr class="separator:aa25f50c0fbbcbfa7b147f9e58d5e6a84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bd1795a5815844d6551b743c4f91683"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a3bd1795a5815844d6551b743c4f91683">existsObject</a> (const <a class="el" href="test_2CMakeLists_8txt.html#af0d4c1053f3a03b78ac45b66cdc77dc7">std::function</a>&lt; <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>(const <a class="el" href="classObject.html">Object</a> *)&gt; &amp;condition) const </td></tr>
+<tr class="memdesc:a3bd1795a5815844d6551b743c4f91683"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies a condition on all objects until the first match is found.  <a href="#a3bd1795a5815844d6551b743c4f91683">More...</a><br /></td></tr>
+<tr class="separator:a3bd1795a5815844d6551b743c4f91683"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaaf5384fe66681c4712c2c9331b371d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#aaaf5384fe66681c4712c2c9331b371d1">applyOnMatchingObjects</a> (const <a class="el" href="test_2CMakeLists_8txt.html#af0d4c1053f3a03b78ac45b66cdc77dc7">std::function</a>&lt; void(<a class="el" href="classObject.html">Object</a> *)&gt; &amp;operation, const <a class="el" href="test_2CMakeLists_8txt.html#af0d4c1053f3a03b78ac45b66cdc77dc7">std::function</a>&lt; <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>(const <a class="el" href="classObject.html">Object</a> *)&gt; &amp;condition)</td></tr>
+<tr class="memdesc:aaaf5384fe66681c4712c2c9331b371d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies an operation on all objects which match a particular condition.  <a href="#aaaf5384fe66681c4712c2c9331b371d1">More...</a><br /></td></tr>
+<tr class="separator:aaaf5384fe66681c4712c2c9331b371d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5edec2d07aa4dd3aeccade5c34b5cc21"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a5edec2d07aa4dd3aeccade5c34b5cc21">applyOnMatchingObjects</a> (const <a class="el" href="test_2CMakeLists_8txt.html#af0d4c1053f3a03b78ac45b66cdc77dc7">std::function</a>&lt; void(<a class="el" href="classObject.html">Object</a> *, <a class="el" href="classMapPart.html">MapPart</a> *, int)&gt; &amp;operation, const <a class="el" href="test_2CMakeLists_8txt.html#af0d4c1053f3a03b78ac45b66cdc77dc7">std::function</a>&lt; <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>(const <a class="el" href="classObject.html">Object</a> *)&gt; &amp;condition)</td></tr>
+<tr class="memdesc:a5edec2d07aa4dd3aeccade5c34b5cc21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies an operation on all objects which match a particular condition.  <a href="#a5edec2d07aa4dd3aeccade5c34b5cc21">More...</a><br /></td></tr>
+<tr class="separator:a5edec2d07aa4dd3aeccade5c34b5cc21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad78d7b39c7d776bb9a9a53af5c1a4134"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#ad78d7b39c7d776bb9a9a53af5c1a4134">applyOnAllObjects</a> (const <a class="el" href="test_2CMakeLists_8txt.html#af0d4c1053f3a03b78ac45b66cdc77dc7">std::function</a>&lt; void(<a class="el" href="classObject.html">Object</a> *)&gt; &amp;operation)</td></tr>
+<tr class="memdesc:ad78d7b39c7d776bb9a9a53af5c1a4134"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies an operation on all objects.  <a href="#ad78d7b39c7d776bb9a9a53af5c1a4134">More...</a><br /></td></tr>
+<tr class="separator:ad78d7b39c7d776bb9a9a53af5c1a4134"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af460d5cf175d4333048b9baa5120c0bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#af460d5cf175d4333048b9baa5120c0bb">applyOnAllObjects</a> (const <a class="el" href="test_2CMakeLists_8txt.html#af0d4c1053f3a03b78ac45b66cdc77dc7">std::function</a>&lt; void(<a class="el" href="classObject.html">Object</a> *, <a class="el" href="classMapPart.html">MapPart</a> *, int)&gt; &amp;operation)</td></tr>
+<tr class="memdesc:af460d5cf175d4333048b9baa5120c0bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies an operation on all objects.  <a href="#af460d5cf175d4333048b9baa5120c0bb">More...</a><br /></td></tr>
+<tr class="separator:af460d5cf175d4333048b9baa5120c0bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18c40c9ac99fe896750777a3dc50adba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a18c40c9ac99fe896750777a3dc50adba">scaleAllObjects</a> (double factor, const <a class="el" href="classMapCoord.html">MapCoord</a> &amp;scaling_center)</td></tr>
 <tr class="memdesc:a18c40c9ac99fe896750777a3dc50adba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scales all objects by the given factor.  <a href="#a18c40c9ac99fe896750777a3dc50adba">More...</a><br /></td></tr>
 <tr class="separator:a18c40c9ac99fe896750777a3dc50adba"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -675,11 +702,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0593659103c54210113d5f90b17de7ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a0593659103c54210113d5f90b17de7ab">setImageTemplateDefaults</a> (<a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> use_meters_per_pixel, double meters_per_pixel, double dpi, double scale)</td></tr>
 <tr class="memdesc:a0593659103c54210113d5f90b17de7ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets default parameters for loading of image templates.  <a href="#a0593659103c54210113d5f90b17de7ab">More...</a><br /></td></tr>
 <tr class="separator:a0593659103c54210113d5f90b17de7ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1cb182a01641deeced92ee133f309582"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a1cb182a01641deeced92ee133f309582">hasUnsavedChanged</a> () const </td></tr>
-<tr class="memdesc:a1cb182a01641deeced92ee133f309582"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether there are unsaved changes in the map.  <a href="#a1cb182a01641deeced92ee133f309582">More...</a><br /></td></tr>
-<tr class="separator:a1cb182a01641deeced92ee133f309582"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbe8a601962562c3f3775ff21ceac061"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#abbe8a601962562c3f3775ff21ceac061">hasUnsavedChanges</a> () const </td></tr>
+<tr class="memdesc:abbe8a601962562c3f3775ff21ceac061"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether there are unsaved changes in the map.  <a href="#abbe8a601962562c3f3775ff21ceac061">More...</a><br /></td></tr>
+<tr class="separator:abbe8a601962562c3f3775ff21ceac061"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bb0f6de0584cd3372cffdb81aaf6535"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a9bb0f6de0584cd3372cffdb81aaf6535">setHasUnsavedChanges</a> (<a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> has_unsaved_changes)</td></tr>
-<tr class="memdesc:a9bb0f6de0584cd3372cffdb81aaf6535"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do not use this in usual cases, see <a class="el" href="classMap.html#a1cb182a01641deeced92ee133f309582" title="Returns whether there are unsaved changes in the map. ">hasUnsavedChanged()</a>.  <a href="#a9bb0f6de0584cd3372cffdb81aaf6535">More...</a><br /></td></tr>
+<tr class="memdesc:a9bb0f6de0584cd3372cffdb81aaf6535"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do not use this in usual cases, see <a class="el" href="classMap.html#adfa36df4c065d50b42cedcb3f8af3811" title="Emitted when a the map enters or leaves the state which is saved on map. ">hasUnsavedChanged()</a>.  <a href="#a9bb0f6de0584cd3372cffdb81aaf6535">More...</a><br /></td></tr>
 <tr class="separator:a9bb0f6de0584cd3372cffdb81aaf6535"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae28d627ffc5275155d5fcdbf71089dbb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#ae28d627ffc5275155d5fcdbf71089dbb">areColorsDirty</a> () const </td></tr>
 <tr class="memdesc:ae28d627ffc5275155d5fcdbf71089dbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns if there are unsaved changes to the colors.  <a href="#ae28d627ffc5275155d5fcdbf71089dbb">More...</a><br /></td></tr>
@@ -728,6 +755,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:moveToThread inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:startTimer inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#startTimer">startTimer</a> (int interval, Qt::TimerType timerType)</td></tr>
 <tr class="separator:startTimer inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:startTimer-1 inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#startTimer-1">startTimer</a> (std::chrono::milliseconds time, Qt::TimerType timerType)</td></tr>
+<tr class="separator:startTimer-1 inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:killTimer inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#killTimer">killTimer</a> (int id)</td></tr>
 <tr class="separator:killTimer inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:findChild inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#findChild">findChild</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;name, <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qt.html#FindChildOption-enum">Qt::FindChildOptions</a> options) const</td></tr>
@@ -752,9 +781,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:disconnect-2 inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:disconnect-3 inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#disconnect-3">disconnect</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html">QObject</a> *receiver, const char *method) const</td></tr>
 <tr class="separator:disconnect-3 inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:dumpObjectTree inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#dumpObjectTree">dumpObjectTree</a> ()</td></tr>
+<tr class="memitem:dumpObjectTree-1 inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject-obsolete.html#dumpObjectTree-1">dumpObjectTree</a> ()</td></tr>
+<tr class="separator:dumpObjectTree-1 inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:dumpObjectInfo-1 inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject-obsolete.html#dumpObjectInfo-1">dumpObjectInfo</a> ()</td></tr>
+<tr class="separator:dumpObjectInfo-1 inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:dumpObjectTree inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#dumpObjectTree">dumpObjectTree</a> () const</td></tr>
 <tr class="separator:dumpObjectTree inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:dumpObjectInfo inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#dumpObjectInfo">dumpObjectInfo</a> ()</td></tr>
+<tr class="memitem:dumpObjectInfo inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#dumpObjectInfo">dumpObjectInfo</a> () const</td></tr>
 <tr class="separator:dumpObjectInfo inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:setProperty inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qobject.html#setProperty">setProperty</a> (const char *name, const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qvariant.html">QVariant</a> &amp;value)</td></tr>
 <tr class="separator:setProperty inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -975,9 +1008,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa403fbe09394ccf39747588f5168e3b2"></a>
+<a class="anchor" id="adf6b1852fdeb12f71b0e0677211c3d89"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">Map::~Map </td>
@@ -986,6 +1022,11 @@ Additional Inherited Members</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Destroys the map. </p>
@@ -1191,16 +1232,14 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4b6ae55127897945024058b01a3cb897"></a>
+<a class="anchor" id="ad78d7b39c7d776bb9a9a53af5c1a4134"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename Operation &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> Map::applyOnAllObjects </td>
+          <td class="memname">void Map::applyOnAllObjects </td>
           <td>(</td>
-          <td class="paramtype">const Operation &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="test_2CMakeLists_8txt.html#af0d4c1053f3a03b78ac45b66cdc77dc7">std::function</a>&lt; void(<a class="el" href="classObject.html">Object</a> *)&gt; &amp;&#160;</td>
           <td class="paramname"><em>operation</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1208,26 +1247,41 @@ template&lt;typename Operation &gt; </div>
 </div><div class="memdoc">
 
 <p>Applies an operation on all objects. </p>
-<dl class="section return"><dt>Returns</dt><dd>False if the operation fails for any object, true otherwise. </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a99dc64366e455971b1c00c43668fd717"></a>
+<a class="anchor" id="af460d5cf175d4333048b9baa5120c0bb"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename Operation , typename Condition &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> Map::applyOnMatchingObjects </td>
+          <td class="memname">void Map::applyOnAllObjects </td>
           <td>(</td>
-          <td class="paramtype">const Operation &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="test_2CMakeLists_8txt.html#af0d4c1053f3a03b78ac45b66cdc77dc7">std::function</a>&lt; void(<a class="el" href="classObject.html">Object</a> *, <a class="el" href="classMapPart.html">MapPart</a> *, int)&gt; &amp;&#160;</td>
+          <td class="paramname"><em>operation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Applies an operation on all objects. </p>
+
+</div>
+</div>
+<a class="anchor" id="aaaf5384fe66681c4712c2c9331b371d1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Map::applyOnMatchingObjects </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="test_2CMakeLists_8txt.html#af0d4c1053f3a03b78ac45b66cdc77dc7">std::function</a>&lt; void(<a class="el" href="classObject.html">Object</a> *)&gt; &amp;&#160;</td>
           <td class="paramname"><em>operation</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Condition &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="test_2CMakeLists_8txt.html#af0d4c1053f3a03b78ac45b66cdc77dc7">std::function</a>&lt; <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>(const <a class="el" href="classObject.html">Object</a> *)&gt; &amp;&#160;</td>
           <td class="paramname"><em>condition</em>&#160;</td>
         </tr>
         <tr>
@@ -1239,7 +1293,34 @@ template&lt;typename Operation , typename Condition &gt; </div>
 </div><div class="memdoc">
 
 <p>Applies an operation on all objects which match a particular condition. </p>
-<dl class="section return"><dt>Returns</dt><dd>False if the operation fails for any matching object, true otherwise. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a5edec2d07aa4dd3aeccade5c34b5cc21"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Map::applyOnMatchingObjects </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="test_2CMakeLists_8txt.html#af0d4c1053f3a03b78ac45b66cdc77dc7">std::function</a>&lt; void(<a class="el" href="classObject.html">Object</a> *, <a class="el" href="classMapPart.html">MapPart</a> *, int)&gt; &amp;&#160;</td>
+          <td class="paramname"><em>operation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="test_2CMakeLists_8txt.html#af0d4c1053f3a03b78ac45b66cdc77dc7">std::function</a>&lt; <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>(const <a class="el" href="classObject.html">Object</a> *)&gt; &amp;&#160;</td>
+          <td class="paramname"><em>condition</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Applies an operation on all objects which match a particular condition. </p>
 
 </div>
 </div>
@@ -1506,6 +1587,7 @@ template&lt;typename Operation , typename Condition &gt; </div>
 </div><div class="memdoc">
 
 <p>Deletes all map data. </p>
+<p>The resulting map must not be modified before another <a class="el" href="classMap.html#ae3a387c6842c05596b004e2735b8cbf5" title="Initializes an empty map. ">init()</a>. </p>
 
 </div>
 </div>
@@ -1738,14 +1820,14 @@ template&lt;typename Operation , typename Condition &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="af8d3ab0a95cc437b98d83611e4f02e72"></a>
+<a class="anchor" id="aa25f50c0fbbcbfa7b147f9e58d5e6a84"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">int Map::countObjectsInRect </td>
           <td>(</td>
-          <td class="paramtype"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a>&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> &amp;&#160;</td>
           <td class="paramname"><em>map_coord_rect</em>, </td>
         </tr>
         <tr>
@@ -2128,7 +2210,7 @@ template&lt;typename Operation , typename Condition &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a06ede36bd4b5c37d9b7afd08ca7a6f6c"></a>
+<a class="anchor" id="a560c22b524f8fa295e52b3b4b578a3c0"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2141,7 +2223,7 @@ template&lt;typename Operation , typename Condition &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a>&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> &amp;&#160;</td>
           <td class="paramname"><em>bounding_box</em>, </td>
         </tr>
         <tr>
@@ -2261,7 +2343,7 @@ template&lt;typename Operation , typename Condition &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a6dd63d12ac2a9eb1d0f25c6da350f00d"></a>
+<a class="anchor" id="a4f10a362950c85d38c5e5dc62c163463"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2274,7 +2356,7 @@ template&lt;typename Operation , typename Condition &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a>&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> &amp;&#160;</td>
           <td class="paramname"><em>bounding_box</em>, </td>
         </tr>
         <tr>
@@ -2375,7 +2457,7 @@ template&lt;typename Operation , typename Condition &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Emits <a class="el" href="classMap.html#ac99a6bc8779241ab0b229a4fc146fab7" title="Emitted when a template in the map is changed, gives the template&#39;s index and pointer. ">templateChanged()</a> for the given template. </p>
+<p>Emits <a class="el" href="classMap.html#aa39f8c2a3b805eba9cce16d79038b582" title="Emitted when a template in the map is changed, gives the template&#39;s index and pointer. ">templateChanged()</a> for the given template. </p>
 
 </div>
 </div>
@@ -2397,23 +2479,21 @@ template&lt;typename Operation , typename Condition &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a3baae5365b5b650556cc90350b60f5b9"></a>
+<a class="anchor" id="a3bd1795a5815844d6551b743c4f91683"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename Condition &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> Map::existsObject </td>
           <td>(</td>
-          <td class="paramtype">const Condition &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="test_2CMakeLists_8txt.html#af0d4c1053f3a03b78ac45b66cdc77dc7">std::function</a>&lt; <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>(const <a class="el" href="classObject.html">Object</a> *)&gt; &amp;&#160;</td>
           <td class="paramname"><em>condition</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Applies a condition on all objects (until the first match is found). </p>
+<p>Applies a condition on all objects until the first match is found. </p>
 <dl class="section return"><dt>Returns</dt><dd>True if there is an object matching the condition, false otherwise. </dd></dl>
 
 </div>
@@ -2470,7 +2550,6 @@ template&lt;typename Condition &gt; </div>
 <p>Exports the map to the given file and format. </p>
 <p>If a <a class="el" href="classMapView.html" title="Stores view position, zoom, rotation and grid / template visibilities to define a view onto a map...">MapView</a> is given, is state will be saved. If a <a class="el" href="classFileFormat.html" title="Describes a file format understood by this application. ">FileFormat</a> is given, it will be used, otherwise the file format is determined from the filename.</p>
 <p>If the map was modified, it will still be considered modified after successful export. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000001">Todo:</a></b></dt><dd>: Switch to the latter when translated. </dd></dl>
 
 </div>
 </div>
@@ -2536,7 +2615,7 @@ template&lt;typename Condition &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="map__part_8h.html#a13ca1d6f950a575e0025e7547506dfc4">SelectionInfoVector</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="map__part_8h.html#af3ee0f90d96f211e569c356798307880">SelectionInfoVector</a> &amp;&#160;</td>
           <td class="paramname"><em>out</em>&#160;</td>
         </tr>
         <tr>
@@ -2614,7 +2693,7 @@ template&lt;typename Condition &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="map__part_8h.html#a13ca1d6f950a575e0025e7547506dfc4">SelectionInfoVector</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="map__part_8h.html#af3ee0f90d96f211e569c356798307880">SelectionInfoVector</a> &amp;&#160;</td>
           <td class="paramname"><em>out</em>&#160;</td>
         </tr>
         <tr>
@@ -3763,7 +3842,7 @@ template&lt;typename Condition &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a1cb182a01641deeced92ee133f309582"></a>
+<a class="anchor" id="adfa36df4c065d50b42cedcb3f8af3811"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3771,33 +3850,7 @@ template&lt;typename Condition &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> Map::hasUnsavedChanged </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns whether there are unsaved changes in the map. </p>
-<p>To toggle this state, never use <a class="el" href="classMap.html#a9bb0f6de0584cd3372cffdb81aaf6535" title="Do not use this in usual cases, see hasUnsavedChanged(). ">setHasUnsavedChanges()</a> directly unless you know what you are doing, instead use <a class="el" href="classMap.html#a1f97661b1f53b8e51fd3e3ee1c7cf6b3" title="Marks somthing unspecific in the map as &quot;dirty&quot;, i.e. ">setOtherDirty()</a> or set one of the more specific 'dirty' flags. This is because a call to <a class="el" href="classMap.html#a9bb0f6de0584cd3372cffdb81aaf6535" title="Do not use this in usual cases, see hasUnsavedChanged(). ">setHasUnsavedChanges()</a> alone followed by a map change and an undo would result in no changed flag. </p>
-
-</div>
-</div>
-<a class="anchor" id="a5fd77a7d951f39a8adda956d99ba16a4"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Map::hasUnsavedChanges </td>
+          <td class="memname">void Map::hasUnsavedChanged </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td>
           <td class="paramname"><em>is_clean</em></td><td>)</td>
@@ -3812,6 +3865,32 @@ template&lt;typename Condition &gt; </div>
 </div><div class="memdoc">
 
 <p>Emitted when a the map enters or leaves the state which is saved on map. </p>
+
+</div>
+</div>
+<a class="anchor" id="abbe8a601962562c3f3775ff21ceac061"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> Map::hasUnsavedChanges </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns whether there are unsaved changes in the map. </p>
+<p>To toggle this state, never use <a class="el" href="classMap.html#a9bb0f6de0584cd3372cffdb81aaf6535" title="Do not use this in usual cases, see hasUnsavedChanged(). ">setHasUnsavedChanges()</a> directly unless you know what you are doing, instead use <a class="el" href="classMap.html#a1f97661b1f53b8e51fd3e3ee1c7cf6b3" title="Marks somthing unspecific in the map as &quot;dirty&quot;, i.e. ">setOtherDirty()</a> or set one of the more specific 'dirty' flags. This is because a call to <a class="el" href="classMap.html#a9bb0f6de0584cd3372cffdb81aaf6535" title="Do not use this in usual cases, see hasUnsavedChanged(). ">setHasUnsavedChanges()</a> alone followed by a map change and an undo would result in no changed flag. </p>
 
 </div>
 </div>
@@ -3895,10 +3974,67 @@ template&lt;typename Condition &gt; </div>
 <li>if the other map does neither contain objects nor symbols, import all colors</li>
 </ul>
 <p>WARNING: this method potentially changes the 'other' map if the scales differ (by rescaling to fit this map's scale)! </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000002">Todo:</a></b></dt><dd>No need to clone iff the other map is discarded after import. </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000003">Todo:</a></b></dt><dd>Test and review import of georeferenced and non-georeferenced maps, in all combinations. </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000004">Todo:</a></b></dt><dd>Handle rotation of patterns and text, cf. <a class="el" href="classObject.html#a94695248015cc5ea02b88575f752cf66" title="Apply a transformation to all coordinates. ">Object::transform</a>. </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000005">Todo:</a></b></dt><dd>proper error message </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000001">Todo:</a></b></dt><dd>No need to clone iff the other map is discarded after import. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000002">Todo:</a></b></dt><dd>Test and review import of georeferenced and non-georeferenced maps, in all combinations. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000003">Todo:</a></b></dt><dd>Handle rotation of patterns and text, cf. <a class="el" href="classObject.html#a94695248015cc5ea02b88575f752cf66" title="Apply a transformation to all coordinates. ">Object::transform</a>. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000004">Todo:</a></b></dt><dd>proper error message </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a9c1d2bbda355f196312400b264a78dd7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qhash.html">QHash</a>&lt; const <a class="el" href="classSymbol.html">Symbol</a> *, <a class="el" href="classSymbol.html">Symbol</a> * &gt; Map::importMap </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMap.html">Map</a> &amp;&#160;</td>
+          <td class="paramname"><em>imported_map</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ImportMode&#160;</td>
+          <td class="paramname"><em>mode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> &gt; *&#160;</td>
+          <td class="paramname"><em>filter</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>symbol_insert_pos</em> = <code>-1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td>
+          <td class="paramname"><em>merge_duplicate_symbols</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qtransform.html">QTransform</a> &amp;&#160;</td>
+          <td class="paramname"><em>transform</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Imports another map into this map with the following strategy: </p>
+<ul>
+<li>If the other map contains objects, import all objects with the minimum amount of colors and symbols needed to display them.</li>
+<li>If the other map does not contain objects, import all symbols with the minimum amount of colors needed to display them.</li>
+<li>If the other map does neither contain objects nor symbols, import all colors. The transform is applied to all imported objects. </li>
+</ul>
 
 </div>
 </div>
@@ -4392,6 +4528,24 @@ template&lt;typename Condition &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a68bdbbdb5e1b7cee9da057e78c38f510"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> Map::raw_translation </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;&#160;</td>
+          <td class="paramname"><em>symbol_text</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a translated symbol text (name or description), or an empty string. </p>
+
+</div>
+</div>
 <a class="anchor" id="a0e3f4f959853d1182e3ae507b7b5ee95"></a>
 <div class="memitem">
 <div class="memproto">
@@ -4719,6 +4873,7 @@ template&lt;typename Condition &gt; </div>
 </div><div class="memdoc">
 
 <p>Deletes all map data, and reinitializes the empty map. </p>
+<p>This method combines a call to <a class="el" href="classMap.html#aa5b2b05098fb3c9e750f95fb76b72e32" title="Deletes all map data. ">clear()</a> followed by <a class="el" href="classMap.html#ae3a387c6842c05596b004e2735b8cbf5" title="Initializes an empty map. ">init()</a>. </p>
 
 </div>
 </div>
@@ -4998,14 +5153,14 @@ template&lt;typename Condition &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="adfd78471ce641af8e8f276acae2066fc"></a>
+<a class="anchor" id="ac52fb1c215633016209cfbbad647ecfd"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void Map::setActivityBoundingBox </td>
           <td>(</td>
-          <td class="paramtype"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a>&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> &amp;&#160;</td>
           <td class="paramname"><em>map_coords_rect</em>, </td>
         </tr>
         <tr>
@@ -5028,8 +5183,8 @@ template&lt;typename Condition &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>This is the analogon to <a class="el" href="classMap.html#a73750e34eadf93e9af33a209d9cb419c" title="Sets the rect (given in map coordinates) as &quot;dirty rect&quot; for every map widget showing this map...">setDrawingBoundingBox()</a> for activities. </p>
-<p>See <a class="el" href="classMap.html#a73750e34eadf93e9af33a209d9cb419c" title="Sets the rect (given in map coordinates) as &quot;dirty rect&quot; for every map widget showing this map...">setDrawingBoundingBox()</a>. </p>
+<p>This is the analogon to <a class="el" href="classMap.html#a3407356693085f1655ec3cf610f0efc7" title="Sets the rect (given in map coordinates) as &quot;dirty rect&quot; for every map widget showing this map...">setDrawingBoundingBox()</a> for activities. </p>
+<p>See <a class="el" href="classMap.html#a3407356693085f1655ec3cf610f0efc7" title="Sets the rect (given in map coordinates) as &quot;dirty rect&quot; for every map widget showing this map...">setDrawingBoundingBox()</a>. </p>
 
 </div>
 </div>
@@ -5112,7 +5267,7 @@ template&lt;typename Condition &gt; </div>
 </div><div class="memdoc">
 
 <p>Marks the colors as "dirty", i.e. </p>
-<p>as having unsaved changes. Emits hasUnsavedChanges(true) if the map did not have unsaved changed before. </p>
+<p>as having unsaved changes. Emits hasUnsavedChanged(true) if the map did not have unsaved changed before. </p>
 
 </div>
 </div>
@@ -5161,14 +5316,14 @@ template&lt;typename Condition &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a73750e34eadf93e9af33a209d9cb419c"></a>
+<a class="anchor" id="a3407356693085f1655ec3cf610f0efc7"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void Map::setDrawingBoundingBox </td>
           <td>(</td>
-          <td class="paramtype"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a>&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> &amp;&#160;</td>
           <td class="paramname"><em>map_coords_rect</em>, </td>
         </tr>
         <tr>
@@ -5280,7 +5435,7 @@ template&lt;typename Condition &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Do not use this in usual cases, see <a class="el" href="classMap.html#a1cb182a01641deeced92ee133f309582" title="Returns whether there are unsaved changes in the map. ">hasUnsavedChanged()</a>. </p>
+<p>Do not use this in usual cases, see <a class="el" href="classMap.html#adfa36df4c065d50b42cedcb3f8af3811" title="Emitted when a the map enters or leaves the state which is saved on map. ">hasUnsavedChanged()</a>. </p>
 
 </div>
 </div>
@@ -5344,14 +5499,14 @@ template&lt;typename Condition &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="aabfa569600e18e9053420bea1404da9c"></a>
+<a class="anchor" id="afd0f568d183e6abb2e07a75a40952523"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void Map::setObjectAreaDirty </td>
           <td>(</td>
-          <td class="paramtype"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a>&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> &amp;&#160;</td>
           <td class="paramname"><em>map_coords_rect</em></td><td>)</td>
           <td></td>
         </tr>
@@ -5377,7 +5532,7 @@ template&lt;typename Condition &gt; </div>
 </div><div class="memdoc">
 
 <p>Marks the objects as "dirty", i.e. </p>
-<p>as having unsaved changes. Emits hasUnsavedChanges(true) if the map did not have unsaved changed before. </p>
+<p>as having unsaved changes. Emits hasUnsavedChanged(true) if the map did not have unsaved changed before. </p>
 
 </div>
 </div>
@@ -5395,7 +5550,7 @@ template&lt;typename Condition &gt; </div>
 </div><div class="memdoc">
 
 <p>Marks somthing unspecific in the map as "dirty", i.e. </p>
-<p>as having unsaved changes. Emits hasUnsavedChanges(true) if the map did not have unsaved changed before.</p>
+<p>as having unsaved changes. Emits hasUnsavedChanged(true) if the map did not have unsaved changed before.</p>
 <p>Use <a class="el" href="classMap.html#a2d3754ece19a16574631da9ff635b642" title="Marks the colors as &quot;dirty&quot;, i.e. ">setColorsDirty()</a>, <a class="el" href="classMap.html#a88c13af2aa892a12addb995b59533a93" title="Marks the symbols as &quot;dirty&quot;, i.e. ">setSymbolsDirty()</a>, <a class="el" href="classMap.html#aacc2cc7b1cbd87658168a7025006c011" title="Marks the template settings as &quot;dirty&quot;, i.e. ">setTemplatesDirty()</a> or <a class="el" href="classMap.html#aac392ef6e7f08c421db71de6c4a57389" title="Marks the objects as &quot;dirty&quot;, i.e. ">setObjectsDirty()</a> if you know more specificly what has changed. </p>
 
 </div>
@@ -5479,7 +5634,25 @@ template&lt;typename Condition &gt; </div>
 </div><div class="memdoc">
 
 <p>Marks the symbols as "dirty", i.e. </p>
-<p>as having unsaved changes. Emits hasUnsavedChanges(true) if the map did not have unsaved changed before. </p>
+<p>as having unsaved changes. Emits hasUnsavedChanged(true) if the map did not have unsaved changed before. </p>
+
+</div>
+</div>
+<a class="anchor" id="a5490c57efc6ac11e69ca9cb7eba6c950"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Map::setSymbolSetId </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the symbol set ID. </p>
 
 </div>
 </div>
@@ -5508,11 +5681,11 @@ template&lt;typename Condition &gt; </div>
 </div><div class="memdoc">
 
 <p>Replaces the template at the given index with another. </p>
-<p>Emits <a class="el" href="classMap.html#ac99a6bc8779241ab0b229a4fc146fab7" title="Emitted when a template in the map is changed, gives the template&#39;s index and pointer. ">templateChanged()</a>. </p>
+<p>Emits <a class="el" href="classMap.html#aa39f8c2a3b805eba9cce16d79038b582" title="Emitted when a template in the map is changed, gives the template&#39;s index and pointer. ">templateChanged()</a>. </p>
 
 </div>
 </div>
-<a class="anchor" id="a567e6dbc23645d70e81af4f9058a2d0a"></a>
+<a class="anchor" id="a640367885d68944609f44e4562534146"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -5525,7 +5698,7 @@ template&lt;typename Condition &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a>&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> &amp;&#160;</td>
           <td class="paramname"><em>area</em>, </td>
         </tr>
         <tr>
@@ -5544,7 +5717,7 @@ template&lt;typename Condition &gt; </div>
 
 <p>Marks the area defined by the given <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> (in map coordinates) and pixel border as "dirty", i.e. </p>
 <p>as needing a repaint, for the given template in all map widgets.</p>
-<p>For an explanation of the area and pixel border, see <a class="el" href="classMap.html#a73750e34eadf93e9af33a209d9cb419c" title="Sets the rect (given in map coordinates) as &quot;dirty rect&quot; for every map widget showing this map...">setDrawingBoundingBox()</a>.</p>
+<p>For an explanation of the area and pixel border, see <a class="el" href="classMap.html#a3407356693085f1655ec3cf610f0efc7" title="Sets the rect (given in map coordinates) as &quot;dirty rect&quot; for every map widget showing this map...">setDrawingBoundingBox()</a>.</p>
 <p>Warning: does nothing if the template is not visible in a widget! So make sure to call this and showing/hiding a template in the correct order! </p>
 
 </div>
@@ -5564,7 +5737,7 @@ template&lt;typename Condition &gt; </div>
 </div><div class="memdoc">
 
 <p>Marks the whole area of the i-th template as "to be repainted". </p>
-<p>See <a class="el" href="classMap.html#a567e6dbc23645d70e81af4f9058a2d0a" title="Marks the area defined by the given QRectF (in map coordinates) and pixel border as &quot;dirty&quot;...">setTemplateAreaDirty()</a>. Does nothing for i == -1. </p>
+<p>See <a class="el" href="classMap.html#a640367885d68944609f44e4562534146" title="Marks the area defined by the given QRectF (in map coordinates) and pixel border as &quot;dirty&quot;...">setTemplateAreaDirty()</a>. Does nothing for i == -1. </p>
 
 </div>
 </div>
@@ -5582,7 +5755,7 @@ template&lt;typename Condition &gt; </div>
 </div><div class="memdoc">
 
 <p>Marks the template settings as "dirty", i.e. </p>
-<p>as having unsaved changes. Emits hasUnsavedChanges(true) if the map did not have unsaved changed before. </p>
+<p>as having unsaved changes. Emits hasUnsavedChanged(true) if the map did not have unsaved changed before. </p>
 
 </div>
 </div>
@@ -5772,7 +5945,74 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="abf434a675099baf1bcbb0d33986cefec"></a>
+<a class="anchor" id="a76fe6b306b8f6929011126e070ca17b1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal Map::symbolIconZoom </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the scale factor to be used for default symbol icons. </p>
+
+</div>
+</div>
+<a class="anchor" id="a760cc2c00866ce7ab58e4f82baf0c6a1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Map::symbolIconZoomChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Emitted when the symbol icon zoom changes. </p>
+
+</div>
+</div>
+<a class="anchor" id="a84b747f4c64bac6b528db65f9dbde128"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> Map::symbolSetId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the symbol set ID. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3adb2ff35066090a8c2b60553c872fa6"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -5788,7 +6028,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classTemplate.html">Template</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="classTemplate.html">Template</a> *&#160;</td>
           <td class="paramname"><em>temp</em>&#160;</td>
         </tr>
         <tr>
@@ -5808,7 +6048,7 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="ac99a6bc8779241ab0b229a4fc146fab7"></a>
+<a class="anchor" id="aa39f8c2a3b805eba9cce16d79038b582"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -5824,7 +6064,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classTemplate.html">Template</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="classTemplate.html">Template</a> *&#160;</td>
           <td class="paramname"><em>temp</em>&#160;</td>
         </tr>
         <tr>
@@ -5912,6 +6152,24 @@ template&lt;typename T &gt; </div>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a class="anchor" id="af90f1e59045bc244317b71000cb6aa9c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> Map::translate </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;&#160;</td>
+          <td class="paramname"><em>symbol_text</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a translated symbol text (name or description), or the original text. </p>
 
 </div>
 </div>
@@ -6042,14 +6300,14 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a13f7a9a34fe320e2a2799afc30fbbaf2"></a>
+<a class="anchor" id="afa2ca1740328ae6f052dce538ded2ed6"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void Map::updateDrawing </td>
           <td>(</td>
-          <td class="paramtype"><a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a>&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> &amp;&#160;</td>
           <td class="paramname"><em>map_coords_rect</em>, </td>
         </tr>
         <tr>
@@ -6068,7 +6326,7 @@ template&lt;typename T &gt; </div>
 
 <p>Updates all dynamic drawings at the given positions, i.e. </p>
 <p>tool &amp; activity drawings.</p>
-<p>See <a class="el" href="classMap.html#a73750e34eadf93e9af33a209d9cb419c" title="Sets the rect (given in map coordinates) as &quot;dirty rect&quot; for every map widget showing this map...">setDrawingBoundingBox()</a> and <a class="el" href="classMap.html#adfd78471ce641af8e8f276acae2066fc" title="This is the analogon to setDrawingBoundingBox() for activities. ">setActivityBoundingBox()</a>. </p>
+<p>See <a class="el" href="classMap.html#a3407356693085f1655ec3cf610f0efc7" title="Sets the rect (given in map coordinates) as &quot;dirty rect&quot; for every map widget showing this map...">setDrawingBoundingBox()</a> and <a class="el" href="classMap.html#ac52fb1c215633016209cfbbad647ecfd" title="This is the analogon to setDrawingBoundingBox() for activities. ">setActivityBoundingBox()</a>. </p>
 
 </div>
 </div>
@@ -6105,6 +6363,25 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>Updates the icons of all symbols with the given color. </p>
+
+</div>
+</div>
+<a class="anchor" id="a6e48060d396d3874abac05edf61f22cc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Map::updateSymbolIconZoom </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Updates the symbol icon zoom from the current set of symbols. </p>
+<p>If there are not enough suitable symbols for a good guess, the zoom is to 2.0.</p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000005">Todo:</a></b></dt><dd>At the moment, only line symbol are considered, but point and text symbols should be included, too. </dd></dl>
 
 </div>
 </div>
@@ -6289,8 +6566,8 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/core/<a class="el" href="map_8h.html">map.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/56a6bd2/src/core/map.h"><tt>56a6bd2</tt></a> on 30 Jan 2017)</li>
-<li>src/core/<a class="el" href="map_8cpp.html">map.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/2d095e0/src/core/map.cpp"><tt>2d095e0</tt></a> on 23 May 2017)</li>
+<li>src/core/<a class="el" href="map_8h.html">map.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/7fb44da/src/core/map.h"><tt>7fb44da</tt></a> on 10 Nov 2017)</li>
+<li>src/core/<a class="el" href="map_8cpp.html">map.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/7fb44da/src/core/map.cpp"><tt>7fb44da</tt></a> on 10 Nov 2017)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

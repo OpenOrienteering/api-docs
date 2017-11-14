@@ -2,7 +2,9 @@ var searchData=
 [
   ['dashhandle',['DashHandle',['../classPointHandles.html#abf73f2afb54fb3b77acb082fa178993eaa6563a9a37768cf9ec1bacb69665743d',1,'PointHandles']]],
   ['dashpoint',['DashPoint',['../classMapCoord.html#a45b3e0f985966f062b81c3f0fe7c1d39ab43a7a4fa4eefb5e4a870c995609e2c4',1,'MapCoord']]],
+  ['default',['Default',['../structAreaSymbol_1_1FillPattern.html#ad63cb1161a8dc15c844884f57da37716adcce068095eea22f30a70bdad19cea41',1,'AreaSymbol::FillPattern']]],
   ['defaultcolormode',['DefaultColorMode',['../classMapPrinterOptions.html#acaabed47bbe8f40262a9b6be7e06d3cdaf8643274904d6a326a7b2081bc88db4a',1,'MapPrinterOptions']]],
+  ['definedassignment',['DefinedAssignment',['../structSymbolRule.html#a63ce42d1f244de152de472abd64352daa05b28e1e72e3cbf4471ac4efed082049',1,'SymbolRule']]],
   ['deletebezierpoint_5fkeephandles',['DeleteBezierPoint_KeepHandles',['../classSettings.html#af9ff99993ef351b9ab23f0e8b2060c30a8f0e7d8da96df5d89cf814c9e84491af',1,'Settings']]],
   ['deletebezierpoint_5fresethandles',['DeleteBezierPoint_ResetHandles',['../classSettings.html#af9ff99993ef351b9ab23f0e8b2060c30a605fa282b37fd326d8337093d237a3b3',1,'Settings']]],
   ['deletebezierpoint_5fretainexistingshape',['DeleteBezierPoint_RetainExistingShape',['../classSettings.html#af9ff99993ef351b9ab23f0e8b2060c30a770873f41ba378917da427f1cce2f111',1,'Settings']]],

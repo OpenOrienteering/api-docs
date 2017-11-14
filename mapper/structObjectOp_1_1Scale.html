@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -93,6 +93,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structObjectOp_1_1Scale-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ObjectOp::Scale Struct Reference</div>  </div>
@@ -103,18 +104,32 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
  <a href="structObjectOp_1_1Scale.html#details">More...</a></p>
 
 <p><code>#include &lt;object_operations.h&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for ObjectOp::Scale:</div>
+<div class="dyncontent">
+<div class="center"><img src="structObjectOp_1_1Scale__coll__graph.png" border="0" usemap="#ObjectOp_1_1Scale_coll__map" alt="Collaboration graph"/></div>
+<map name="ObjectOp_1_1Scale_coll__map" id="ObjectOp_1_1Scale_coll__map">
+<area shape="rect" id="node2" href="classMapCoordF.html" title="Map coordinates stored as floating point numbers. " alt="" coords="19,81,110,108"/>
+<area shape="rect" id="node3" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpointf.html" title="QPointF" alt="" coords="29,5,100,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aaa07af47fe8adb72c38550d72e4b5f70"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structObjectOp_1_1Scale.html#aaa07af47fe8adb72c38550d72e4b5f70">Scale</a> (double factor, const <a class="el" href="classMapCoord.html">MapCoord</a> &amp;scaling_center)</td></tr>
-<tr class="separator:aaa07af47fe8adb72c38550d72e4b5f70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a975b673bc1b73a94c724453085540b56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structObjectOp_1_1Scale.html#a975b673bc1b73a94c724453085540b56">operator()</a> (<a class="el" href="classObject.html">Object</a> *object, <a class="el" href="classMapPart.html">MapPart</a> *part, int object_index) const </td></tr>
-<tr class="separator:a975b673bc1b73a94c724453085540b56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6165b444e11fc6a7d6cc6731b852096"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structObjectOp_1_1Scale.html#aa6165b444e11fc6a7d6cc6731b852096">operator()</a> (<a class="el" href="classObject.html">Object</a> *object) const </td></tr>
+<tr class="separator:aa6165b444e11fc6a7d6cc6731b852096"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a196112194ce401e4ef67f31100aaa479"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structObjectOp_1_1Scale.html#a196112194ce401e4ef67f31100aaa479">factor</a></td></tr>
+<tr class="separator:a196112194ce401e4ef67f31100aaa479"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b4148f73fe71735ededcc712ca1b34b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMapCoordF.html">MapCoordF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structObjectOp_1_1Scale.html#a6b4148f73fe71735ededcc712ca1b34b">center</a></td></tr>
+<tr class="separator:a6b4148f73fe71735ededcc712ca1b34b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Scales objects by the given factor. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="aaa07af47fe8adb72c38550d72e4b5f70"></a>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="aa6165b444e11fc6a7d6cc6731b852096"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -122,21 +137,11 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">ObjectOp::Scale::Scale </td>
+          <td class="memname">void ObjectOp::Scale::operator() </td>
           <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>factor</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classMapCoord.html">MapCoord</a> &amp;&#160;</td>
-          <td class="paramname"><em>scaling_center</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="paramtype"><a class="el" href="classObject.html">Object</a> *&#160;</td>
+          <td class="paramname"><em>object</em></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -148,49 +153,33 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a975b673bc1b73a94c724453085540b56"></a>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a6b4148f73fe71735ededcc712ca1b34b"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> ObjectOp::Scale::operator() </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classObject.html">Object</a> *&#160;</td>
-          <td class="paramname"><em>object</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classMapPart.html">MapPart</a> *&#160;</td>
-          <td class="paramname"><em>part</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>object_index</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
+          <td class="memname"><a class="el" href="classMapCoordF.html">MapCoordF</a> ObjectOp::Scale::center</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a196112194ce401e4ef67f31100aaa479"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double ObjectOp::Scale::factor</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>src/core/objects/<a class="el" href="object__operations_8h.html">object_operations.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/b7c2de8/src/core/objects/object_operations.h"><tt>b7c2de8</tt></a> on 8 Jan 2017)</li>
+<li>src/core/objects/<a class="el" href="object__operations_8h.html">object_operations.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/9bb9f25/src/core/objects/object_operations.h"><tt>9bb9f25</tt></a> on 23 Jul 2017)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

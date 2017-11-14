@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -111,10 +111,10 @@ Include dependency graph for ocad_symbol.c:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a6bb547bafb3b31958478c178ac4371f1"><td class="memItemLeft" align="right" valign="top">OCADSymbolIndex *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ocad__symbol_8c.html#a6bb547bafb3b31958478c178ac4371f1">ocad_symidx_first</a> (<a class="el" href="libocad_8h.html#a89e544f18c7e4831e7506b7f259f69a1">OCADFile</a> *pfile)</td></tr>
-<tr class="memdesc:a6bb547bafb3b31958478c178ac4371f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the first symbol index block, or NULL if the file isn't valid.  <a href="#a6bb547bafb3b31958478c178ac4371f1">More...</a><br /></td></tr>
+<tr class="memdesc:a6bb547bafb3b31958478c178ac4371f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the first symbol index block, or nullptr if the file isn't valid.  <a href="#a6bb547bafb3b31958478c178ac4371f1">More...</a><br /></td></tr>
 <tr class="separator:a6bb547bafb3b31958478c178ac4371f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a429c1462414e5bdb7a2d0d40fed6b66b"><td class="memItemLeft" align="right" valign="top">OCADSymbolIndex *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ocad__symbol_8c.html#a429c1462414e5bdb7a2d0d40fed6b66b">ocad_symidx_next</a> (<a class="el" href="libocad_8h.html#a89e544f18c7e4831e7506b7f259f69a1">OCADFile</a> *pfile, OCADSymbolIndex *current)</td></tr>
-<tr class="memdesc:a429c1462414e5bdb7a2d0d40fed6b66b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the next symbol index block after the given one, or NULL if there is none.  <a href="#a429c1462414e5bdb7a2d0d40fed6b66b">More...</a><br /></td></tr>
+<tr class="memdesc:a429c1462414e5bdb7a2d0d40fed6b66b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the next symbol index block after the given one, or nullptr if there is none.  <a href="#a429c1462414e5bdb7a2d0d40fed6b66b">More...</a><br /></td></tr>
 <tr class="separator:a429c1462414e5bdb7a2d0d40fed6b66b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5939152777c57c69132b0e0ba6217b2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ocad__symbol_8c.html#ab5939152777c57c69132b0e0ba6217b2">ocad_symbol_count</a> (<a class="el" href="libocad_8h.html#a89e544f18c7e4831e7506b7f259f69a1">OCADFile</a> *pfile)</td></tr>
 <tr class="memdesc:ab5939152777c57c69132b0e0ba6217b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of symbols defined in the file, or -1 if the file is invalid.  <a href="#ab5939152777c57c69132b0e0ba6217b2">More...</a><br /></td></tr>
@@ -123,10 +123,10 @@ Functions</h2></td></tr>
 <tr class="memdesc:a7e0b27d964949b9aa322a47a0405d592"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new symbol with the given size in bytes to the file and returns a pointer to the new symbol.  <a href="#a7e0b27d964949b9aa322a47a0405d592">More...</a><br /></td></tr>
 <tr class="separator:a7e0b27d964949b9aa322a47a0405d592"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afde035a8c0c10ad5bee5b8c86c43a778"><td class="memItemLeft" align="right" valign="top">OCADSymbol *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ocad__symbol_8c.html#afde035a8c0c10ad5bee5b8c86c43a778">ocad_symbol_at</a> (<a class="el" href="libocad_8h.html#a89e544f18c7e4831e7506b7f259f69a1">OCADFile</a> *pfile, OCADSymbolIndex *current, int index)</td></tr>
-<tr class="memdesc:afde035a8c0c10ad5bee5b8c86c43a778"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the symbol in the specified location within the index block, or NULL if there is no such symbol.  <a href="#afde035a8c0c10ad5bee5b8c86c43a778">More...</a><br /></td></tr>
+<tr class="memdesc:afde035a8c0c10ad5bee5b8c86c43a778"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the symbol in the specified location within the index block, or nullptr if there is no such symbol.  <a href="#afde035a8c0c10ad5bee5b8c86c43a778">More...</a><br /></td></tr>
 <tr class="separator:afde035a8c0c10ad5bee5b8c86c43a778"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abafdb14ebfcfb9dc9f9512a780c37d28"><td class="memItemLeft" align="right" valign="top">OCADSymbol *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ocad__symbol_8c.html#abafdb14ebfcfb9dc9f9512a780c37d28">ocad_symbol</a> (<a class="el" href="libocad_8h.html#a89e544f18c7e4831e7506b7f259f69a1">OCADFile</a> *pfile, <a class="el" href="types_8h.html#a4b75766831a3a01bce382968825c719c">word</a> number)</td></tr>
-<tr class="memdesc:abafdb14ebfcfb9dc9f9512a780c37d28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the symbol with a particular number, or NULL if no such symbol exists.  <a href="#abafdb14ebfcfb9dc9f9512a780c37d28">More...</a><br /></td></tr>
+<tr class="memdesc:abafdb14ebfcfb9dc9f9512a780c37d28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the symbol with a particular number, or nullptr if no such symbol exists.  <a href="#abafdb14ebfcfb9dc9f9512a780c37d28">More...</a><br /></td></tr>
 <tr class="separator:abafdb14ebfcfb9dc9f9512a780c37d28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a588b5a0f72c4a915be2644661f1c277d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ocad__symbol_8c.html#a588b5a0f72c4a915be2644661f1c277d">ocad_symbol_iterate</a> (<a class="el" href="libocad_8h.html#a89e544f18c7e4831e7506b7f259f69a1">OCADFile</a> *pfile, <a class="el" href="libocad_8h.html#aa09906b6a246919f676ea14e38186aba">OCADSymbolCallback</a> callback, void *param)</td></tr>
 <tr class="memdesc:a588b5a0f72c4a915be2644661f1c277d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterates over all symbols in the file.  <a href="#a588b5a0f72c4a915be2644661f1c277d">More...</a><br /></td></tr>
@@ -166,7 +166,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Finds the symbol with a particular number, or NULL if no such symbol exists. </p>
+<p>Finds the symbol with a particular number, or nullptr if no such symbol exists. </p>
 
 </div>
 </div>
@@ -200,7 +200,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns a pointer to the symbol in the specified location within the index block, or NULL if there is no such symbol. </p>
+<p>Returns a pointer to the symbol in the specified location within the index block, or nullptr if there is no such symbol. </p>
 
 </div>
 </div>
@@ -402,8 +402,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns a pointer to the first symbol index block, or NULL if the file isn't valid. </p>
-<p>Also returns NULL if the file contains no symbols. </p>
+<p>Returns a pointer to the first symbol index block, or nullptr if the file isn't valid. </p>
+<p>Also returns nullptr if the file contains no symbols. </p>
 
 </div>
 </div>
@@ -431,7 +431,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns a pointer to the next symbol index block after the given one, or NULL if there is none. </p>
+<p>Returns a pointer to the next symbol index block after the given one, or nullptr if there is none. </p>
 
 </div>
 </div>

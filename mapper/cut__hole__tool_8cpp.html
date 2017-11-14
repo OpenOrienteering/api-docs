@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="openorienteering.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mapper
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">API documentation</div>
   </td>
@@ -93,52 +93,39 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">cut_hole_tool.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/02f6801/src/tools/cut_hole_tool.cpp"><tt>02f6801</tt></a> on 24 Feb 2017)</h3><div class="textblock"><code>#include &quot;<a class="el" href="cut__hole__tool_8h.html">cut_hole_tool.h</a>&quot;</code><br />
-<code>#include &lt;QApplication&gt;</code><br />
+<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/2f16606/src/tools/cut_hole_tool.cpp"><tt>2f16606</tt></a> on 14 Aug 2017)</h3><div class="textblock"><code>#include &quot;<a class="el" href="cut__hole__tool_8h.html">cut_hole_tool.h</a>&quot;</code><br />
 <code>#include &lt;QMouseEvent&gt;</code><br />
-<code>#include &lt;QMessageBox&gt;</code><br />
 <code>#include &quot;<a class="el" href="map_8h.html">core/map.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="boolean__tool_8h.html">core/objects/boolean_tool.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="object_8h.html">core/objects/object.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="symbol_8h.html">core/symbols/symbol.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="combined__symbol_8h.html">core/symbols/combined_symbol.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="modifier__key_8h.html">gui/modifier_key.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="map__widget_8h.html">gui/map/map_widget.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="draw__circle__tool_8h.html">tools/draw_circle_tool.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="draw__path__tool_8h.html">tools/draw_path_tool.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="draw__rectangle__tool_8h.html">tools/draw_rectangle_tool.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="object__undo_8h.html">undo/object_undo.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="util_8h.html">util/util.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for cut_hole_tool.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="cut__hole__tool_8cpp__incl.png" border="0" usemap="#src_2tools_2cut__hole__tool_8cpp" alt=""/></div>
 <map name="src_2tools_2cut__hole__tool_8cpp" id="src_2tools_2cut__hole__tool_8cpp">
-<area shape="rect" id="node2" href="cut__hole__tool_8h.html" title="cut_hole_tool.h" alt="" coords="2158,191,2269,218"/>
-<area shape="rect" id="node10" href="map_8h.html" title="core/map.h" alt="" coords="1858,191,1945,218"/>
-<area shape="rect" id="node22" href="boolean__tool_8h.html" title="core/objects/boolean\l_tool.h" alt="" coords="234,95,377,136"/>
-<area shape="rect" id="node24" href="object_8h.html" title="core/objects/object.h" alt="" coords="361,191,503,218"/>
-<area shape="rect" id="node31" href="symbol_8h.html" title="core/symbols/symbol.h" alt="" coords="949,273,1107,300"/>
-<area shape="rect" id="node34" href="combined__symbol_8h.html" title="core/symbols/combined\l_symbol.h" alt="" coords="995,95,1155,136"/>
-<area shape="rect" id="node35" href="modifier__key_8h.html" title="gui/modifier_key.h" alt="" coords="1919,102,2047,129"/>
-<area shape="rect" id="node37" href="map__widget_8h.html" title="gui/map/map_widget.h" alt="" coords="1483,102,1637,129"/>
-<area shape="rect" id="node44" href="draw__circle__tool_8h.html" title="tools/draw_circle_tool.h" alt="" coords="2195,102,2354,129"/>
-<area shape="rect" id="node46" href="draw__path__tool_8h.html" title="tools/draw_path_tool.h" alt="" coords="2545,102,2698,129"/>
-<area shape="rect" id="node47" href="draw__rectangle__tool_8h.html" title="tools/draw_rectangle\l_tool.h" alt="" coords="2378,95,2521,136"/>
-<area shape="rect" id="node48" href="object__undo_8h.html" title="undo/object_undo.h" alt="" coords="835,102,970,129"/>
-<area shape="rect" id="node50" href="util_8h.html" title="util/util.h" alt="" coords="1178,102,1249,129"/>
-<area shape="rect" id="node3" href="tool_8h.html" title="tool.h" alt="" coords="2214,273,2269,300"/>
-<area shape="rect" id="node5" href="map__coord_8h.html" title="core/map_coord.h" alt="" coords="666,423,793,449"/>
-<area shape="rect" id="node18" href="global_8h.html" title="global.h" alt="" coords="1859,273,1925,300"/>
-<area shape="rect" id="node19" href="map__grid_8h.html" title="map_grid.h" alt="" coords="1950,273,2037,300"/>
-<area shape="rect" id="node20" href="file__format_8h.html" title="fileformats/file_format.h" alt="" coords="983,348,1142,375"/>
-<area shape="rect" id="node21" href="map__part_8h.html" title="map_part.h" alt="" coords="1747,273,1834,300"/>
-<area shape="rect" id="node27" href="path__coord_8h.html" title="core/path_coord.h" alt="" coords="147,348,274,375"/>
-<area shape="rect" id="node28" href="virtual__path_8h.html" title="core/virtual_path.h" alt="" coords="145,273,274,300"/>
-<area shape="rect" id="node29" href="renderable_8h.html" title="core/renderables/renderable.h" alt="" coords="630,273,823,300"/>
-<area shape="rect" id="node43" href="map__view_8h.html" title="core/map_view.h" alt="" coords="1279,191,1401,218"/>
-<area shape="rect" id="node45" href="draw__line__and__area__tool_8h.html" title="draw_line_and_area\l_tool.h" alt="" coords="2345,184,2482,225"/>
-<area shape="rect" id="node49" href="undo_8h.html" title="undo.h" alt="" coords="884,191,945,218"/>
+<area shape="rect" id="node2" href="cut__hole__tool_8h.html" title="cut_hole_tool.h" alt="" coords="3045,266,3156,293"/>
+<area shape="rect" id="node20" href="map_8h.html" title="core/map.h" alt="" coords="1543,266,1629,293"/>
+<area shape="rect" id="node34" href="boolean__tool_8h.html" title="core/objects/boolean\l_tool.h" alt="" coords="5,348,148,389"/>
+<area shape="rect" id="node36" href="object_8h.html" title="core/objects/object.h" alt="" coords="2087,177,2229,203"/>
+<area shape="rect" id="node43" href="symbol_8h.html" title="core/symbols/symbol.h" alt="" coords="1674,355,1831,382"/>
+<area shape="rect" id="node45" href="draw__circle__tool_8h.html" title="tools/draw_circle_tool.h" alt="" coords="3300,177,3459,203"/>
+<area shape="rect" id="node47" href="draw__path__tool_8h.html" title="tools/draw_path_tool.h" alt="" coords="3737,177,3891,203"/>
+<area shape="rect" id="node48" href="draw__rectangle__tool_8h.html" title="tools/draw_rectangle\l_tool.h" alt="" coords="3039,169,3181,211"/>
+<area shape="rect" id="node49" href="object__undo_8h.html" title="undo/object_undo.h" alt="" coords="1155,95,1289,121"/>
+<area shape="rect" id="node5" href="tool_8h.html" title="tool.h" alt="" coords="3544,355,3599,382"/>
+<area shape="rect" id="node15" href="map__coord_8h.html" title="core/map_coord.h" alt="" coords="2817,437,2944,464"/>
+<area shape="rect" id="node31" href="map__grid_8h.html" title="core/map_grid.h" alt="" coords="1906,355,2021,382"/>
+<area shape="rect" id="node32" href="map__part_8h.html" title="core/map_part.h" alt="" coords="693,355,809,382"/>
+<area shape="rect" id="node38" href="path__coord_8h.html" title="core/path_coord.h" alt="" coords="2691,355,2817,382"/>
+<area shape="rect" id="node39" href="virtual__path_8h.html" title="core/virtual_path.h" alt="" coords="2488,266,2617,293"/>
+<area shape="rect" id="node41" href="renderable_8h.html" title="core/renderables/renderable.h" alt="" coords="1355,355,1548,382"/>
+<area shape="rect" id="node46" href="draw__line__and__area__tool_8h.html" title="tools/draw_line_and\l_area_tool.h" alt="" coords="3232,259,3369,300"/>
+<area shape="rect" id="node50" href="undo_8h.html" title="undo/undo.h" alt="" coords="545,266,638,293"/>
 </map>
 </div>
 </div></div><!-- contents -->
