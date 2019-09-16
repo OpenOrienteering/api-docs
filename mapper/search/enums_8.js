@@ -1,5 +1,8 @@
 var searchData=
 [
-  ['importmodeflag',['ImportModeFlag',['../classMap.html#a1c41a34ff35cb199b343edb0702e24c4',1,'Map']]],
-  ['interactionregion',['InteractionRegion',['../classPrintTool.html#a73d94b3e59890446779a6028175e2bab',1,'PrintTool']]]
+  ['hatchmode',['HatchMode',['../namespaceOcd.html#aee891ec748eba4c7e7f1edb6d8986fae',1,'Ocd']]],
+  ['hint',['Hint',['../classOpenOrienteering_1_1StorageLocation.html#a956cd0adcbd8ba569e30cae43d6f3fb7',1,'OpenOrienteering::StorageLocation']]],
+  ['holetype',['HoleType',['../classOpenOrienteering_1_1CutHoleTool.html#aa532ca32747c50a6977a398d49d082dd',1,'OpenOrienteering::CutHoleTool']]],
+  ['horizontalalignment',['HorizontalAlignment',['../classOpenOrienteering_1_1TextObject.html#a8b7f6fe17a01eaa09dbe92443afdbb7b',1,'OpenOrienteering::TextObject']]],
+  ['hoverflag',['HoverFlag',['../classOpenOrienteering_1_1EditTool.html#a26f49fbb03f352ac311fb77be0aa419f',1,'OpenOrienteering::EditTool']]]
 ];

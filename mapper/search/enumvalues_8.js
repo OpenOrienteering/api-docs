@@ -1,10 +1,9 @@
 var searchData=
 [
-  ['ignorevisibilty',['IgnoreVisibilty',['../classMap.html#a29734bb88ef665cc099338fbb6e6fca9acd03156b3944b78c0b206a574063984d',1,'Map']]],
-  ['importallsymbols',['ImportAllSymbols',['../classSymbolRuleSet.html#a9c065120654c265144fdc8ca83e94ab3abe64ee094f58f1838d2503cf841a4183',1,'SymbolRuleSet']]],
-  ['importsupported',['ImportSupported',['../classFileFormat.html#aa3318ca21c2f3945489e3cd539102bf0a2ce6fdeb63088a2b10f7ca0e39e46010',1,'FileFormat']]],
-  ['inside',['Inside',['../classPrintTool.html#a73d94b3e59890446779a6028175e2babaf2d5f4bb6828fc13907b3eb033db34a2',1,'PrintTool']]],
-  ['intersection',['Intersection',['../classBooleanTool.html#a34e3df14f673a50f265ff8108ebc72f0adc63e779df3cfb84da59026eba7d6024',1,'BooleanTool']]],
-  ['invalid',['Invalid',['../classTemplate.html#acea65417bfe6debf7fc4d51b07f74bdbaa8a2e4db5af8d902d1f3d581d8bfb718',1,'Template']]],
-  ['invalidundosteptype',['InvalidUndoStepType',['../classUndoStep.html#a18600ea1e7741e158962ed6923c7bd66a3a2a214ae85e5e73111029ddcdb69400',1,'UndoStep']]]
+  ['ignorevisibilty',['IgnoreVisibilty',['../classOpenOrienteering_1_1Map.html#ab71ed70f729c61fcd5e26f55e85466a8a1b7cffaa6d4637e287dce48852b21bf2',1,'OpenOrienteering::Map']]],
+  ['importallsymbols',['ImportAllSymbols',['../classOpenOrienteering_1_1SymbolRuleSet.html#ad319df016eaf5723413c049d5670545cafe8d3368c8cd8a2af0a1f3de86d97421',1,'OpenOrienteering::SymbolRuleSet']]],
+  ['inside',['Inside',['../classOpenOrienteering_1_1PrintTool.html#a83bd8d093b662f5c0b3b42096f44c3a0a5cf9f57f6976b6ed1666a3e4fd5eb416',1,'OpenOrienteering::PrintTool']]],
+  ['intersection',['Intersection',['../classOpenOrienteering_1_1BooleanTool.html#add75a5d1a863dbc9ada56bd4fdf137ddaee56cd92dfdf0ae1d926a2528672d74e',1,'OpenOrienteering::BooleanTool']]],
+  ['invalid',['Invalid',['../classOpenOrienteering_1_1Template.html#a7f5690129920b5aa6be022855251973ea0b7c2cbc846b0c40ebde72ce89d9f71d',1,'OpenOrienteering::Template']]],
+  ['invalidundosteptype',['InvalidUndoStepType',['../classOpenOrienteering_1_1UndoStep.html#af6a051c365d0ca711ab13b2a59f174eaa55d3bcb22dd04768b6155867f40cc070',1,'OpenOrienteering::UndoStep']]]
 ];

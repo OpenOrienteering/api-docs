@@ -1,12 +1,13 @@
 var searchData=
 [
-  ['landscape',['Landscape',['../classMapPrinterPageFormat.html#ad1e1623017f3f4929fbe483deada1832a3849eba5d282b3e6434180c1e3a07f56',1,'MapPrinterPageFormat']]],
-  ['leftborder',['LeftBorder',['../classPrintTool.html#a73d94b3e59890446779a6028175e2baba418b5003a937ae585c83613dccf99403',1,'PrintTool']]],
-  ['leftbutton',['LeftButton',['../classTouchCursor.html#a3f0fc3f7d6eda54376d69d71935c742fae61d018067eb52f74ca70d3bc60d8812',1,'TouchCursor']]],
-  ['leftneighbor',['LeftNeighbor',['../classSegmentedButtonLayout.html#a8ba019aece1c70c21a1bd5b1cdf1ed56a3a94c2a216e68d51387d6132edf003e1',1,'SegmentedButtonLayout']]],
-  ['line',['Line',['../classSymbol.html#a19c9a49235af753af17553af18c588caad7bd0da33e30474614913788767fb673',1,'Symbol::Line()'],['../dxfparser_8h.html#a39f6e5f83740a0914d53219949ecc69eab023460c84f774a219d46ccf4665994c',1,'LINE():&#160;dxfparser.h']]],
-  ['lineframing',['LineFraming',['../classTextSymbol.html#ace881588f97792038762ab249df67016a7310b7450fbc84571e6fbc866c4ec676',1,'TextSymbol']]],
-  ['linepattern',['LinePattern',['../structAreaSymbol_1_1FillPattern.html#ac41affee827dab17aa19a924d76b9c57a2878d6002ceabfbc1fdaf79f90bece7a',1,'AreaSymbol::FillPattern']]],
-  ['loaded',['Loaded',['../classTemplate.html#acea65417bfe6debf7fc4d51b07f74bdbab67e44ac5264db1b8264f10c80cec05f',1,'Template']]],
-  ['local',['Local',['../classGeoreferencing.html#a4193d9259924a5805a8b67c55b3a1f46a5556a61396777e9e170b06e64fceb918',1,'Georeferencing::Local()'],['../classSelectCRSDialog.html#a0de7f0d7759b30754b0183edeabf00c3a27f6a280f5288fce0558ebe8a7ae3ff3',1,'SelectCRSDialog::Local()']]]
+  ['landscape',['Landscape',['../classOpenOrienteering_1_1MapPrinterPageFormat.html#a808e5457dfa57d1a65f63a334ec09cc8a161d3b0ec71cb321adeb8444a1ea0417',1,'OpenOrienteering::MapPrinterPageFormat']]],
+  ['leftborder',['LeftBorder',['../classOpenOrienteering_1_1PrintTool.html#a83bd8d093b662f5c0b3b42096f44c3a0aaddaf652429cb0fc2c638bf456207de9',1,'OpenOrienteering::PrintTool']]],
+  ['leftbutton',['LeftButton',['../classOpenOrienteering_1_1TouchCursor.html#a79424113fd84d4820c85fad52cef9b2ba9f18e876d524b0503f40bb21d9761ced',1,'OpenOrienteering::TouchCursor']]],
+  ['leftneighbor',['LeftNeighbor',['../classOpenOrienteering_1_1SegmentedButtonLayout.html#a0f868bee0818827d0a959bb65c3d7f09a0fdee9c3de07033b55a90c88e8209bc9',1,'OpenOrienteering::SegmentedButtonLayout']]],
+  ['line',['Line',['../classOpenOrienteering_1_1Symbol.html#afe51280125452ebdf81b0e9d020650a3aed7ca6843c4527c607728f94f8ac15d9',1,'OpenOrienteering::Symbol']]],
+  ['lineframing',['LineFraming',['../classOpenOrienteering_1_1TextSymbol.html#ae53012fc33e05d055c028a4e64aee335aec2547d80f44bc1caa60ec93f965a951',1,'OpenOrienteering::TextSymbol']]],
+  ['linepattern',['LinePattern',['../structOpenOrienteering_1_1AreaSymbol_1_1FillPattern.html#a76bd02b38cf0bc23f46d27067022ce98a855d14982f876fc2dbda4c674c31675d',1,'OpenOrienteering::AreaSymbol::FillPattern']]],
+  ['loaded',['Loaded',['../classOpenOrienteering_1_1Template.html#a7f5690129920b5aa6be022855251973eac94783331313e0a4cd2169500af5db05',1,'OpenOrienteering::Template']]],
+  ['local',['Local',['../classOpenOrienteering_1_1Georeferencing.html#ab3370c119d2f285731c6ac4dcd16eeb7af9690e346c71fda644c3419373d12898',1,'OpenOrienteering::Georeferencing::Local()'],['../classOpenOrienteering_1_1SelectCRSDialog.html#ad9f0fa39003e7748c4d0f75f3e68bb1ca3170d058b6b4e6ad3fffaee1578ef87e',1,'OpenOrienteering::SelectCRSDialog::Local()']]],
+  ['locationaccess',['LocationAccess',['../namespaceAppPermissions.html#af6a291a3111d700980e4667a052676d4a051e3b78371b74f2986d971f847bd95f',1,'AppPermissions']]]
 ];

@@ -1,19 +1,20 @@
 var searchData=
 [
-  ['language',['Language',['../structTranslationUtil_1_1Language.html',1,'TranslationUtil']]],
-  ['latlon',['LatLon',['../classLatLon.html',1,'']]],
-  ['legacymapcoord',['LegacyMapCoord',['../structLegacyMapCoord.html',1,'']]],
-  ['linerenderable',['LineRenderable',['../classLineRenderable.html',1,'']]],
-  ['linesymbol',['LineSymbol',['../classLineSymbol.html',1,'']]],
-  ['linesymbolborder',['LineSymbolBorder',['../structLineSymbolBorder.html',1,'']]],
+  ['language',['Language',['../structOpenOrienteering_1_1TranslationUtil_1_1Language.html',1,'OpenOrienteering::TranslationUtil']]],
+  ['latlon',['LatLon',['../classOpenOrienteering_1_1LatLon.html',1,'OpenOrienteering']]],
+  ['lessbycolor',['lessByColor',['../structOpenOrienteering_1_1Symbol_1_1lessByColor.html',1,'OpenOrienteering::Symbol']]],
+  ['linerenderable',['LineRenderable',['../classOpenOrienteering_1_1LineRenderable.html',1,'OpenOrienteering']]],
+  ['linesymbol',['LineSymbol',['../classOpenOrienteering_1_1LineSymbol.html',1,'OpenOrienteering']]],
+  ['linesymbolborder',['LineSymbolBorder',['../structOpenOrienteering_1_1LineSymbolBorder.html',1,'OpenOrienteering']]],
   ['linesymbolcommonv8',['LineSymbolCommonV8',['../structOcd_1_1LineSymbolCommonV8.html',1,'Ocd']]],
-  ['linesymbolsettings',['LineSymbolSettings',['../classLineSymbolSettings.html',1,'']]],
+  ['linesymbolsettings',['LineSymbolSettings',['../classOpenOrienteering_1_1LineSymbolSettings.html',1,'OpenOrienteering']]],
   ['linesymbolv11',['LineSymbolV11',['../structOcd_1_1LineSymbolV11.html',1,'Ocd']]],
   ['linesymbolv8',['LineSymbolV8',['../structOcd_1_1LineSymbolV8.html',1,'Ocd']]],
   ['linesymbolv9',['LineSymbolV9',['../structOcd_1_1LineSymbolV9.html',1,'Ocd']]],
+  ['linetextsymbol',['LineTextSymbol',['../classOpenOrienteering_1_1LineTextSymbol.html',1,'OpenOrienteering']]],
   ['linetextsymbolv11',['LineTextSymbolV11',['../structOcd_1_1LineTextSymbolV11.html',1,'Ocd']]],
   ['linetextsymbolv8',['LineTextSymbolV8',['../structOcd_1_1LineTextSymbolV8.html',1,'Ocd']]],
   ['linetextsymbolv9',['LineTextSymbolV9',['../structOcd_1_1LineTextSymbolV9.html',1,'Ocd']]],
   ['localetest',['LocaleTest',['../classLocaleTest.html',1,'']]],
-  ['logicaloperands',['LogicalOperands',['../structObjectQuery_1_1LogicalOperands.html',1,'ObjectQuery']]]
+  ['logicaloperands',['LogicalOperands',['../structOpenOrienteering_1_1ObjectQuery_1_1LogicalOperands.html',1,'OpenOrienteering::ObjectQuery']]]
 ];

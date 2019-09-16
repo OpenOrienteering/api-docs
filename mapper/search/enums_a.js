@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['linestyleflag',['LineStyleFlag',['../structOcd_1_1LineSymbolCommonV8.html#a168c058084a037ab57b1992f32cba61f',1,'Ocd::LineSymbolCommonV8']]]
+  ['joinstyle',['JoinStyle',['../classOpenOrienteering_1_1LineSymbol.html#ad38fb9937c0f514e0c210010ce135c30',1,'OpenOrienteering::LineSymbol']]]
 ];

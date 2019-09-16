@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['name',['name',['http://doc.qt.io/qt-5/qscreen.html#name-prop',1,'QScreen::name()'],['http://doc.qt.io/qt-5/qdnslookup.html#name-prop',1,'QDnsLookup::name()']]],
+  ['name',['name',['http://doc.qt.io/qt-5/qmimetype.html#name-prop',1,'QMimeType::name()'],['http://doc.qt.io/qt-5/qscreen.html#name-prop',1,'QScreen::name()'],['http://doc.qt.io/qt-5/qdnslookup.html#name-prop',1,'QDnsLookup::name()']]],
   ['namefilterdetailsvisible',['nameFilterDetailsVisible',['http://doc.qt.io/qt-5/qfiledialog-obsolete.html#nameFilterDetailsVisible-prop',1,'QFileDialog']]],
   ['namefilterdisables',['nameFilterDisables',['http://doc.qt.io/qt-5/qfilesystemmodel.html#nameFilterDisables-prop',1,'QFileSystemModel']]],
   ['nameserver',['nameserver',['http://doc.qt.io/qt-5/qdnslookup.html#nameserver-prop',1,'QDnsLookup']]],

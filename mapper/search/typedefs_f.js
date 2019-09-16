@@ -5,13 +5,13 @@ var searchData=
   ['s64',['s64',['../types_8h.html#a350c6fc928e3bdc6c6486268ac8fb269',1,'types.h']]],
   ['s8',['s8',['../types_8h.html#a9e382f207c65ca13ab4ae98363aeda80',1,'types.h']]],
   ['segmenttype',['SegmentType',['../libocad_8h.html#a7f275ab74979acc8c575a02b0e4beaaf',1,'libocad.h']]],
-  ['selectioninfovector',['SelectionInfoVector',['../map__part_8h.html#af3ee0f90d96f211e569c356798307880',1,'SelectionInfoVector():&#160;map_part.h'],['../object__mover_8h.html#af3ee0f90d96f211e569c356798307880',1,'SelectionInfoVector():&#160;object_mover.h'],['../edit__tool_8h.html#af3ee0f90d96f211e569c356798307880',1,'SelectionInfoVector():&#160;edit_tool.h'],['../object__selector_8h.html#af3ee0f90d96f211e569c356798307880',1,'SelectionInfoVector():&#160;object_selector.h']]],
-  ['size_5ftype',['size_type',['../classPathCoord.html#a5554572ac253dde9e2235c30ca987f30',1,'PathCoord::size_type()'],['../classVirtualFlagsVector.html#a386990af1094f0b376b156365f32896b',1,'VirtualFlagsVector::size_type()'],['../classVirtualCoordVector.html#acc0e1a1955361a886938a2e9898728fd',1,'VirtualCoordVector::size_type()'],['../classVirtualPath.html#a22451c4d95314263a1418658c25b8222',1,'VirtualPath::size_type()']]],
-  ['spotcolorcomponents',['SpotColorComponents',['../map__color_8h.html#a7f171aa09e38f09474c82c696983746c',1,'map_color.h']]],
-  ['steplist',['StepList',['../classUndoManager.html#a7497f9033e9975708f2a4438327febe8',1,'UndoManager']]],
+  ['selectioninfovector',['SelectionInfoVector',['../namespaceOpenOrienteering.html#a504e5226a2d13a2526bae8a8fdb69032',1,'OpenOrienteering']]],
+  ['size_5ftype',['size_type',['../classOpenOrienteering_1_1PathCoord.html#ad5a3cbe31de66a6598092d1bfbee1591',1,'OpenOrienteering::PathCoord::size_type()'],['../classOpenOrienteering_1_1VirtualFlagsVector.html#a28afcc8176d5a808fa9887257fb854a4',1,'OpenOrienteering::VirtualFlagsVector::size_type()'],['../classOpenOrienteering_1_1VirtualCoordVector.html#af2f7de7c92b285b5ca3e773fd1be811f',1,'OpenOrienteering::VirtualCoordVector::size_type()'],['../classOpenOrienteering_1_1VirtualPath.html#ad722c0f7dc8749e2132b438dc89bc96a',1,'OpenOrienteering::VirtualPath::size_type()']]],
+  ['spotcolorcomponents',['SpotColorComponents',['../namespaceOpenOrienteering.html#a0542a57db65153d21490a39752d78407',1,'OpenOrienteering']]],
+  ['steplist',['StepList',['../classOpenOrienteering_1_1UndoManager.html#a2d04b7f4df94ae913994cee8359d1efb',1,'OpenOrienteering::UndoManager']]],
   ['str',['str',['../libocad_8h.html#abf41691f50dd33bc178b7c1829b7d048',1,'libocad.h']]],
-  ['stringindex',['StringIndex',['../classOcdFile.html#a13b0a52f065caf5d53e53a12dcf9ec8c',1,'OcdFile']]],
-  ['symboldictionary',['SymbolDictionary',['../map__part_8h.html#af7d420ad52539d37facbc179de888f97',1,'SymbolDictionary():&#160;map_part.h'],['../symbol_8h.html#a399a8a7116cffc8d49caccfc501704f2',1,'SymbolDictionary():&#160;symbol.h']]],
-  ['symbolindex',['SymbolIndex',['../classOcdFile.html#a40db4fe538f5c0fb0c8b0cec6d5af861',1,'OcdFile']]],
-  ['symbolsetmap',['SymbolSetMap',['../classNewMapDialog.html#af06a3e9924ed79028be1a09f88742869',1,'NewMapDialog']]]
+  ['stringindex',['StringIndex',['../classOcdFile.html#a2e273e453b538d78a4366cfc78c8bd91',1,'OcdFile']]],
+  ['symboldictionary',['SymbolDictionary',['../namespaceOpenOrienteering.html#ac971c0cccaac4dfd791edee4ec2ff610',1,'OpenOrienteering']]],
+  ['symbolindex',['SymbolIndex',['../classOcdFile.html#a0f2e539e7a4f8f9407a713124ba6b828',1,'OcdFile']]],
+  ['symbolsetmap',['SymbolSetMap',['../classOpenOrienteering_1_1NewMapDialog.html#a241a0676b6337aeac399736d9c2932f8',1,'OpenOrienteering::NewMapDialog']]]
 ];

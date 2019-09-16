@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['hoverflag',['HoverFlag',['../classCutTool.html#a3273203151b352b3b661a84060dde4b3',1,'CutTool']]],
-  ['hoverstate',['HoverState',['../classCutTool.html#a6b02450a3ae5be4124502a1a583e1df9',1,'CutTool']]]
+  ['hoverflag',['HoverFlag',['../classOpenOrienteering_1_1CutTool.html#a790fa2d77a7594a53fa3ce4f7330206d',1,'OpenOrienteering::CutTool']]],
+  ['hoverstate',['HoverState',['../classOpenOrienteering_1_1CutTool.html#a8252ba28b7bc62572151ebc3aeaa494e',1,'OpenOrienteering::CutTool']]]
 ];

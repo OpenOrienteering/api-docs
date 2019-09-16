@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['zoomoption',['ZoomOption',['../classMapWidget.html#ae2425b564406676bce9c644ea531cb36',1,'MapWidget']]]
+  ['yflags',['YFlags',['../structOcd_1_1OcdPoint32.html#aaa859d5707ff6ab1310b977776c7490b',1,'Ocd::OcdPoint32']]]
 ];

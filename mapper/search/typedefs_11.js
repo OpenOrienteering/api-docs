@@ -4,10 +4,12 @@ var searchData=
   ['u32',['u32',['../types_8h.html#afaa62991928fb9fb18ff0db62a040aba',1,'types.h']]],
   ['u64',['u64',['../types_8h.html#a3f7e2bcbb0b4c338f3c4f6c937cd4234',1,'types.h']]],
   ['u8',['u8',['../types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca',1,'types.h']]],
-  ['unique_5fdatasource',['unique_datasource',['../namespaceogr.html#a048219ef7f96160594f08cfba6236669',1,'ogr']]],
-  ['unique_5ffeature',['unique_feature',['../namespaceogr.html#ad71f373f41ac6ad26f75f405f6973f48',1,'ogr']]],
-  ['unique_5fgeometry',['unique_geometry',['../namespaceogr.html#a215d94180ea1f41fc2335f587a5b4ffb',1,'ogr']]],
-  ['unique_5fsrs',['unique_srs',['../namespaceogr.html#acc6c5d4b54478b2615e44b82dd59b5eb',1,'ogr']]],
-  ['unique_5fstylemanager',['unique_stylemanager',['../namespaceogr.html#a548952538f8a30c9b4f9ef5e8c60e892',1,'ogr']]],
-  ['unique_5ftransformation',['unique_transformation',['../namespaceogr.html#aac4009fcdca753bb3faefddca4a4d0ac',1,'ogr']]]
+  ['unique_5fdatasource',['unique_datasource',['../namespaceOpenOrienteering_1_1ogr.html#a5a63150a77991071a137df72298a24bc',1,'OpenOrienteering::ogr']]],
+  ['unique_5ffeature',['unique_feature',['../namespaceOpenOrienteering_1_1ogr.html#af5c751ddfc797f2eb420c19fdf81fd06',1,'OpenOrienteering::ogr']]],
+  ['unique_5ffielddefn',['unique_fielddefn',['../namespaceOpenOrienteering_1_1ogr.html#a8972000ec97730649163775a6baf8e5a',1,'OpenOrienteering::ogr']]],
+  ['unique_5fgeometry',['unique_geometry',['../namespaceOpenOrienteering_1_1ogr.html#ab9a397284c0a675fcf6fd3b2888e41ee',1,'OpenOrienteering::ogr']]],
+  ['unique_5fsrs',['unique_srs',['../namespaceOpenOrienteering_1_1ogr.html#ac531d7744d87f49b4debec83a02a107a',1,'OpenOrienteering::ogr']]],
+  ['unique_5fstylemanager',['unique_stylemanager',['../namespaceOpenOrienteering_1_1ogr.html#a9f127c2fc86aea92db9eeb7605b86fa2',1,'OpenOrienteering::ogr']]],
+  ['unique_5fstyletable',['unique_styletable',['../namespaceOpenOrienteering_1_1ogr.html#aae7b098e703353b64ebd9d46586e2d89',1,'OpenOrienteering::ogr']]],
+  ['unique_5ftransformation',['unique_transformation',['../namespaceOpenOrienteering_1_1ogr.html#a4160dcf55604042ff4a505739e3f1b36',1,'OpenOrienteering::ogr']]]
 ];

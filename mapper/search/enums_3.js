@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['capstyle',['CapStyle',['../classLineSymbol.html#ae80afcf8c1e5f2ba909330cb2c2f9d90',1,'LineSymbol']]],
-  ['changeflag',['ChangeFlag',['../classMapView.html#a0fb5b578c907df9a052fc64a2ce01810',1,'MapView']]],
-  ['colormethod',['ColorMethod',['../classMapColor.html#ac92533ad09b4288f68960bd80653e62c',1,'MapColor']]],
-  ['colormode',['ColorMode',['../classMapPrinterOptions.html#acaabed47bbe8f40262a9b6be7e06d3cd',1,'MapPrinterOptions']]],
-  ['controlid',['ControlID',['../classTouchCursor.html#a3f0fc3f7d6eda54376d69d71935c742f',1,'TouchCursor']]],
-  ['coordstype',['CoordsType',['../classMapWidget.html#a158226eb705ef66b6817974c0f3f8718',1,'MapWidget']]]
+  ['capstyle',['CapStyle',['../classOpenOrienteering_1_1LineSymbol.html#a66b8e294e88d5016ef8cb55e611b0167',1,'OpenOrienteering::LineSymbol']]],
+  ['changeflag',['ChangeFlag',['../classOpenOrienteering_1_1MapView.html#a42581c86bb27f9cae00be608675f3903',1,'OpenOrienteering::MapView']]],
+  ['colormethod',['ColorMethod',['../classOpenOrienteering_1_1MapColor.html#af35a68188f7820d4e85fcb91e33c106f',1,'OpenOrienteering::MapColor']]],
+  ['colormode',['ColorMode',['../classOpenOrienteering_1_1MapPrinterOptions.html#a857ed8f53252af0cf6c65cf4ac9a5db8',1,'OpenOrienteering::MapPrinterOptions']]],
+  ['controlid',['ControlID',['../classOpenOrienteering_1_1TouchCursor.html#a79424113fd84d4820c85fad52cef9b2b',1,'OpenOrienteering::TouchCursor']]],
+  ['coordstype',['CoordsType',['../classOpenOrienteering_1_1MapWidget.html#aff59a642f757210e904d964a8bf2914d',1,'OpenOrienteering::MapWidget']]]
 ];

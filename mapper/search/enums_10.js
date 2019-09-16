@@ -1,8 +1,14 @@
 var searchData=
 [
-  ['taskflag',['TaskFlag',['../classPrintWidget.html#afa0c2a3ebede4ae45757e9a5f9189148',1,'PrintWidget']]],
-  ['textalignment',['TextAlignment',['../namespaceOcd.html#a63ae12c58d9320a03095bf5edfbf8b8a',1,'Ocd']]],
-  ['tokentype',['TokenType',['../classObjectQueryParser.html#ac864a62a23bcc1fc8bbfdb7f4421836f',1,'ObjectQueryParser']]],
-  ['type',['Type',['../classObject.html#ad8dadb365053c182931671a424199e36',1,'Object::Type()'],['../structAreaSymbol_1_1FillPattern.html#ac41affee827dab17aa19a924d76b9c57',1,'AreaSymbol::FillPattern::Type()'],['../classSymbol.html#a19c9a49235af753af17553af18c588ca',1,'Symbol::Type()'],['../classMapEditorTool.html#a6ee2f78342333dc7cf189b2f4ed5d3c8',1,'MapEditorTool::Type()'],['../classUndoStep.html#a18600ea1e7741e158962ed6923c7bd66',1,'UndoStep::Type()']]],
-  ['type_5fe',['type_e',['../dxfparser_8h.html#a39f6e5f83740a0914d53219949ecc69e',1,'dxfparser.h']]]
+  ['segment',['Segment',['../classOpenOrienteering_1_1SegmentedButtonLayout.html#a0f868bee0818827d0a959bb65c3d7f09',1,'OpenOrienteering::SegmentedButtonLayout']]],
+  ['selectionvisibility',['SelectionVisibility',['../classOpenOrienteering_1_1Map.html#ab71ed70f729c61fcd5e26f55e85466a8',1,'OpenOrienteering::Map']]],
+  ['settingsenum',['SettingsEnum',['../classOpenOrienteering_1_1Settings.html#a04efb9f24a926234d8e375295a0c5012',1,'OpenOrienteering::Settings']]],
+  ['snapobjects',['SnapObjects',['../classOpenOrienteering_1_1SnappingToolHelper.html#af9cf30f50da4f62e8d5bfce17808356b',1,'OpenOrienteering::SnappingToolHelper']]],
+  ['specialcrs',['SpecialCRS',['../select__crs__dialog_8cpp.html#af174513a37fa035e481524c62bcaa239',1,'OpenOrienteering::@158']]],
+  ['specialpriorities',['SpecialPriorities',['../classOpenOrienteering_1_1MapColor.html#a28b5499bd4bdc9ed49f1a66d5a77ef40',1,'OpenOrienteering::MapColor']]],
+  ['state',['State',['../classOpenOrienteering_1_1Georeferencing.html#ab3370c119d2f285731c6ac4dcd16eeb7',1,'OpenOrienteering::Georeferencing::State()'],['../classOpenOrienteering_1_1Template.html#a7f5690129920b5aa6be022855251973e',1,'OpenOrienteering::Template::State()']]],
+  ['structuremode',['StructureMode',['../namespaceOcd.html#a50cfa2355b1f78da8df69232d4789f83',1,'Ocd']]],
+  ['symbolflags',['SymbolFlags',['../namespaceOcd.html#a9a50f472c1fce01c07de97b9c5a9eaa7',1,'Ocd']]],
+  ['symbolstatus',['SymbolStatus',['../namespaceOcd.html#a9318347ca6ab2c9a303bdc8ec4b9e209',1,'Ocd']]],
+  ['symboltype',['SymbolType',['../namespaceOcd.html#a7dbc197b4144eeb80e62005839315a47',1,'Ocd']]]
 ];

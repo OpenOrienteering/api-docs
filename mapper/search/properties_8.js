@@ -1,8 +1,9 @@
 var searchData=
 [
-  ['icon',['icon',['http://doc.qt.io/qt-5/qmessagebox.html#icon-prop',1,'QMessageBox::icon()'],['http://doc.qt.io/qt-5/qaction.html#icon-prop',1,'QAction::icon()'],['http://doc.qt.io/qt-5/qsystemtrayicon.html#icon-prop',1,'QSystemTrayIcon::icon()'],['http://doc.qt.io/qt-5/qabstractbutton.html#icon-prop',1,'QAbstractButton::icon()'],['http://doc.qt.io/qt-5/qmenu.html#icon-prop',1,'QMenu::icon()']]],
+  ['icon',['icon',['http://doc.qt.io/qt-5/qabstractbutton.html#icon-prop',1,'QAbstractButton::icon()'],['http://doc.qt.io/qt-5/qaction.html#icon-prop',1,'QAction::icon()'],['http://doc.qt.io/qt-5/qmenu.html#icon-prop',1,'QMenu::icon()'],['http://doc.qt.io/qt-5/qmessagebox.html#icon-prop',1,'QMessageBox::icon()'],['http://doc.qt.io/qt-5/qsystemtrayicon.html#icon-prop',1,'QSystemTrayIcon::icon()']]],
+  ['iconname',['iconName',['http://doc.qt.io/qt-5/qmimetype.html#iconName-prop',1,'QMimeType']]],
   ['iconpixmap',['iconPixmap',['http://doc.qt.io/qt-5/qmessagebox.html#iconPixmap-prop',1,'QMessageBox']]],
-  ['iconsize',['iconSize',['http://doc.qt.io/qt-5/qabstractitemview.html#iconSize-prop',1,'QAbstractItemView::iconSize()'],['http://doc.qt.io/qt-5/qabstractbutton.html#iconSize-prop',1,'QAbstractButton::iconSize()'],['http://doc.qt.io/qt-5/qcombobox.html#iconSize-prop',1,'QComboBox::iconSize()'],['http://doc.qt.io/qt-5/qmainwindow.html#iconSize-prop',1,'QMainWindow::iconSize()'],['http://doc.qt.io/qt-5/qtabbar.html#iconSize-prop',1,'QTabBar::iconSize()'],['http://doc.qt.io/qt-5/qtabwidget.html#iconSize-prop',1,'QTabWidget::iconSize()'],['http://doc.qt.io/qt-5/qtoolbar.html#iconSize-prop',1,'QToolBar::iconSize()']]],
+  ['iconsize',['iconSize',['http://doc.qt.io/qt-5/qtabwidget.html#iconSize-prop',1,'QTabWidget::iconSize()'],['http://doc.qt.io/qt-5/qtabbar.html#iconSize-prop',1,'QTabBar::iconSize()'],['http://doc.qt.io/qt-5/qabstractbutton.html#iconSize-prop',1,'QAbstractButton::iconSize()'],['http://doc.qt.io/qt-5/qabstractitemview.html#iconSize-prop',1,'QAbstractItemView::iconSize()'],['http://doc.qt.io/qt-5/qcombobox.html#iconSize-prop',1,'QComboBox::iconSize()'],['http://doc.qt.io/qt-5/qmainwindow.html#iconSize-prop',1,'QMainWindow::iconSize()'],['http://doc.qt.io/qt-5/qtoolbar.html#iconSize-prop',1,'QToolBar::iconSize()']]],
   ['icontext',['iconText',['http://doc.qt.io/qt-5/qaction.html#iconText-prop',1,'QAction']]],
   ['iconvisibleinmenu',['iconVisibleInMenu',['http://doc.qt.io/qt-5/qaction.html#iconVisibleInMenu-prop',1,'QAction']]],
   ['indent',['indent',['http://doc.qt.io/qt-5/qlabel.html#indent-prop',1,'QLabel']]],
@@ -25,8 +26,10 @@ var searchData=
   ['invertedappearance',['invertedAppearance',['http://doc.qt.io/qt-5/qabstractslider.html#invertedAppearance-prop',1,'QAbstractSlider::invertedAppearance()'],['http://doc.qt.io/qt-5/qprogressbar.html#invertedAppearance-prop',1,'QProgressBar::invertedAppearance()']]],
   ['invertedcontrols',['invertedControls',['http://doc.qt.io/qt-5/qabstractslider.html#invertedControls-prop',1,'QAbstractSlider']]],
   ['isactivewindow',['isActiveWindow',['http://doc.qt.io/qt-5/qwidget.html#isActiveWindow-prop',1,'QWidget']]],
+  ['isdefault',['isDefault',['http://doc.qt.io/qt-5/qmimetype.html#isDefault-prop',1,'QMimeType']]],
   ['issortlocaleaware',['isSortLocaleAware',['http://doc.qt.io/qt-5/qsortfilterproxymodel.html#isSortLocaleAware-prop',1,'QSortFilterProxyModel']]],
   ['iswrapping',['isWrapping',['http://doc.qt.io/qt-5/qlistview.html#isWrapping-prop',1,'QListView']]],
+  ['itemalignment',['itemAlignment',['http://doc.qt.io/qt-5/qlistview.html#itemAlignment-prop',1,'QListView']]],
   ['itemindexmethod',['itemIndexMethod',['http://doc.qt.io/qt-5/qgraphicsscene.html#itemIndexMethod-prop',1,'QGraphicsScene']]],
   ['itemsexpandable',['itemsExpandable',['http://doc.qt.io/qt-5/qtreeview.html#itemsExpandable-prop',1,'QTreeView']]]
 ];

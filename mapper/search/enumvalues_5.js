@@ -1,5 +1,10 @@
 var searchData=
 [
+  ['fileexport',['FileExport',['../classOpenOrienteering_1_1FileFormat.html#a64bc44e6a0dab73ac83e4b21956cbe35a7f044d209afb43161a3056fda15427d9',1,'OpenOrienteering::FileFormat']]],
+  ['fileimport',['FileImport',['../classOpenOrienteering_1_1FileFormat.html#a64bc44e6a0dab73ac83e4b21956cbe35a75c3e3a3b8233b28733cf1c81ad47758',1,'OpenOrienteering::FileFormat']]],
+  ['fileopen',['FileOpen',['../classOpenOrienteering_1_1FileFormat.html#a64bc44e6a0dab73ac83e4b21956cbe35a499c424202e02d3bc117e7ab53836f64',1,'OpenOrienteering::FileFormat']]],
+  ['filesave',['FileSave',['../classOpenOrienteering_1_1FileFormat.html#a64bc44e6a0dab73ac83e4b21956cbe35a8b9138ff8b36c7911dfb600fc3c0b53d',1,'OpenOrienteering::FileFormat']]],
+  ['filesaveas',['FileSaveAs',['../classOpenOrienteering_1_1FileFormat.html#a64bc44e6a0dab73ac83e4b21956cbe35ab5040e8a50d0498f5c648bd4dc13373a',1,'OpenOrienteering::FileFormat']]],
   ['fillandstrokepath',['FillAndStrokePath',['../namespaceAdvancedPdf.html#a89d536db20ebf479f5680227d5807924a0a37b034f248f8622c3a78609d4b06f0',1,'AdvancedPdf']]],
   ['fillpath',['FillPath',['../namespaceAdvancedPdf.html#a89d536db20ebf479f5680227d5807924aefe0a8037b43dbd8a829e118c7211dc7',1,'AdvancedPdf']]],
   ['flagcorner',['FlagCorner',['../structOcd_1_1OcdPoint32.html#aaa859d5707ff6ab1310b977776c7490ba618b7489d17cfe771d09c52ec487d95d',1,'Ocd::OcdPoint32']]],
@@ -9,11 +14,16 @@ var searchData=
   ['flaghole',['FlagHole',['../structOcd_1_1OcdPoint32.html#aaa859d5707ff6ab1310b977776c7490bafaa17d29bbe200f28c9505b8c96777e0',1,'Ocd::OcdPoint32']]],
   ['flagleft',['FlagLeft',['../structOcd_1_1OcdPoint32.html#aa2b12311253ff22dd5e2999a5def20c3a332a179735a5919f7657d89975e98ebf',1,'Ocd::OcdPoint32']]],
   ['flagright',['FlagRight',['../structOcd_1_1OcdPoint32.html#aaa859d5707ff6ab1310b977776c7490ba08a4bbf373c80f0e4cde092148967d84',1,'Ocd::OcdPoint32']]],
-  ['flatcap',['FlatCap',['../classLineSymbol.html#ae80afcf8c1e5f2ba909330cb2c2f9d90ad4a65cfc8a4264a3797cb96a7b73e8b6',1,'LineSymbol']]],
-  ['forceminsize',['ForceMinSize',['../classRenderConfig.html#a27c5d055cb58879e93027eaed5844ec7ada3d9e713c2e59aa9165011d00df152b',1,'RenderConfig']]],
+  ['flatcap',['FlatCap',['../classOpenOrienteering_1_1LineSymbol.html#a66b8e294e88d5016ef8cb55e611b0167a0e053d4be922655b4c55d5096ea90979',1,'OpenOrienteering::LineSymbol']]],
+  ['flatmiterstyle',['FlatMiterStyle',['../structOcd_1_1PointSymbolElementV8.html#aa4ad71697582e11900f50d9c4516d994a85238e98ad4ea2c6d7ec6497e1adc68b',1,'Ocd::PointSymbolElementV8']]],
+  ['forceminsize',['ForceMinSize',['../classOpenOrienteering_1_1RenderConfig.html#abec1b1cf5365335ff5978b51f886b8c4a973c1b32e432efc62508d945cfa0d980',1,'OpenOrienteering::RenderConfig']]],
+  ['foundbyabspath',['FoundByAbsPath',['../classOpenOrienteering_1_1Template.html#a0233a5d73a31ca09f4e42b92b2d37b5eafffcb4a21cb899677f0ab6ac6853fed0',1,'OpenOrienteering::Template']]],
+  ['foundbyrelpath',['FoundByRelPath',['../classOpenOrienteering_1_1Template.html#a0233a5d73a31ca09f4e42b92b2d37b5ea8cea4f8fad0921dea6f5989f2457313f',1,'OpenOrienteering::Template']]],
+  ['foundinmapdir',['FoundInMapDir',['../classOpenOrienteering_1_1Template.html#a0233a5d73a31ca09f4e42b92b2d37b5ea99d7c0a35f7ba22348a6532c6e455f40',1,'OpenOrienteering::Template']]],
   ['framingline',['FramingLine',['../namespaceOcd.html#ab13230604271171800589b3f2d45ce43a51b223ac686e880fee88d7e1f466cd92',1,'Ocd']]],
   ['framingnone',['FramingNone',['../namespaceOcd.html#ab13230604271171800589b3f2d45ce43ad3026b29ffa73727e88b29b6e1d08869',1,'Ocd']]],
   ['framingrectangle',['FramingRectangle',['../namespaceOcd.html#ab13230604271171800589b3f2d45ce43aceb9f0737f3fe96be28a439c98f24b35',1,'Ocd']]],
   ['framingshadow',['FramingShadow',['../namespaceOcd.html#ab13230604271171800589b3f2d45ce43a73713618b7da60ddddcfa2bb1c82cec8',1,'Ocd']]],
-  ['fullvisibility',['FullVisibility',['../classMap.html#a29734bb88ef665cc099338fbb6e6fca9a7352b94a3e478ae506a700fe67acc70c',1,'Map']]]
+  ['fullvisibility',['FullVisibility',['../classOpenOrienteering_1_1Map.html#ab71ed70f729c61fcd5e26f55e85466a8aa53a0206efb7b3abb4bd87da33682c99',1,'OpenOrienteering::Map']]],
+  ['fullysupported',['FullySupported',['../classOpenOrienteering_1_1FileFormat.html#aa9149ec3502325a962fb638caa2be787a620dc14514db7b22d102b3708408500a',1,'OpenOrienteering::FileFormat']]]
 ];

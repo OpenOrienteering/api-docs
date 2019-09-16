@@ -1,18 +1,20 @@
 var searchData=
 [
-  ['realmeters',['RealMeters',['../structUtil_1_1RealMeters.html',1,'Util']]],
-  ['recordingtranslator',['RecordingTranslator',['../classRecordingTranslator.html',1,'']]],
-  ['rectangleinfo',['RectangleInfo',['../structOcdFileImport_1_1RectangleInfo.html',1,'OcdFileImport']]],
+  ['rastergeoreferencing',['RasterGeoreferencing',['../structOpenOrienteering_1_1GdalTemplate_1_1RasterGeoreferencing.html',1,'OpenOrienteering::GdalTemplate']]],
+  ['realmeters',['RealMeters',['../structOpenOrienteering_1_1Util_1_1RealMeters.html',1,'OpenOrienteering::Util']]],
+  ['recordingtranslator',['RecordingTranslator',['../classOpenOrienteering_1_1RecordingTranslator.html',1,'OpenOrienteering']]],
+  ['rectangleinfo',['RectangleInfo',['../structOpenOrienteering_1_1OcdFileImport_1_1RectangleInfo.html',1,'OpenOrienteering::OcdFileImport']]],
   ['rectanglesymbolv11',['RectangleSymbolV11',['../structOcd_1_1RectangleSymbolV11.html',1,'Ocd']]],
   ['rectanglesymbolv8',['RectangleSymbolV8',['../structOcd_1_1RectangleSymbolV8.html',1,'Ocd']]],
   ['rectanglesymbolv9',['RectangleSymbolV9',['../structOcd_1_1RectangleSymbolV9.html',1,'Ocd']]],
-  ['renderable',['Renderable',['../classRenderable.html',1,'']]],
-  ['renderconfig',['RenderConfig',['../classRenderConfig.html',1,'']]],
-  ['reopentemplatedialog',['ReopenTemplateDialog',['../classReopenTemplateDialog.html',1,'']]],
-  ['replaceobjectsundostep',['ReplaceObjectsUndoStep',['../classReplaceObjectsUndoStep.html',1,'']]],
-  ['replacesymbolsetdialog',['ReplaceSymbolSetDialog',['../classReplaceSymbolSetDialog.html',1,'']]],
-  ['rotate',['Rotate',['../structObjectOp_1_1Rotate.html',1,'ObjectOp']]],
-  ['rotatemapdialog',['RotateMapDialog',['../classRotateMapDialog.html',1,'']]],
-  ['rotatepatterntool',['RotatePatternTool',['../classRotatePatternTool.html',1,'']]],
-  ['rotatetool',['RotateTool',['../classRotateTool.html',1,'']]]
+  ['renderable',['Renderable',['../classOpenOrienteering_1_1Renderable.html',1,'OpenOrienteering']]],
+  ['renderconfig',['RenderConfig',['../classOpenOrienteering_1_1RenderConfig.html',1,'OpenOrienteering']]],
+  ['reopentemplatedialog',['ReopenTemplateDialog',['../classOpenOrienteering_1_1ReopenTemplateDialog.html',1,'OpenOrienteering']]],
+  ['replaceobjectsundostep',['ReplaceObjectsUndoStep',['../classOpenOrienteering_1_1ReplaceObjectsUndoStep.html',1,'OpenOrienteering']]],
+  ['replacesymbolsetdialog',['ReplaceSymbolSetDialog',['../classOpenOrienteering_1_1ReplaceSymbolSetDialog.html',1,'OpenOrienteering']]],
+  ['rotate',['Rotate',['../structOpenOrienteering_1_1ObjectOp_1_1Rotate.html',1,'OpenOrienteering::ObjectOp']]],
+  ['rotatemapdialog',['RotateMapDialog',['../classOpenOrienteering_1_1RotateMapDialog.html',1,'OpenOrienteering']]],
+  ['rotatepatterntool',['RotatePatternTool',['../classOpenOrienteering_1_1RotatePatternTool.html',1,'OpenOrienteering']]],
+  ['rotatetool',['RotateTool',['../classOpenOrienteering_1_1RotateTool.html',1,'OpenOrienteering']]],
+  ['rotationaldegrees',['RotationalDegrees',['../structOpenOrienteering_1_1Util_1_1RotationalDegrees.html',1,'OpenOrienteering::Util']]]
 ];

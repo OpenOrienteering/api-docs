@@ -18,5 +18,6 @@ var searchData=
   ['ocad_5frect_5fsymbol',['OCAD_RECT_SYMBOL',['../libocad_8h.html#a0e9bfb227eca46db6a849c4402c4c2f8',1,'libocad.h']]],
   ['ocad_5ftext_5fsymbol',['OCAD_TEXT_SYMBOL',['../libocad_8h.html#a9de9e14872574d6885197d8948941d1a',1,'libocad.h']]],
   ['ocadexportoptions_5fcommon',['OCADExportOptions_COMMON',['../libocad_8h.html#ac604ce6683c1a4c9f3e9850c5c06d3b8',1,'libocad.h']]],
-  ['ocadsymbol_5fcommon',['OCADSymbol_COMMON',['../libocad_8h.html#a522a09b63846798e591d8005b9b27b3c',1,'libocad.h']]]
+  ['ocadsymbol_5fcommon',['OCADSymbol_COMMON',['../libocad_8h.html#a522a09b63846798e591d8005b9b27b3c',1,'libocad.h']]],
+  ['ocd_5fexplicit_5finstantiation',['OCD_EXPLICIT_INSTANTIATION',['../ocd__types_8h.html#a19b93b29a139040a0ccefe69e61ad920',1,'ocd_types.h']]]
 ];

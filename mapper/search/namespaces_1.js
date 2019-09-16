@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['clipperlib',['ClipperLib',['../namespaceClipperLib.html',1,'']]],
-  ['crstemplates',['CRSTemplates',['../namespaceCRSTemplates.html',1,'']]]
+  ['clipperlib',['ClipperLib',['../namespaceClipperLib.html',1,'']]]
 ];

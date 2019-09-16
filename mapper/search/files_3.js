@@ -19,7 +19,5 @@ var searchData=
   ['draw_5ftext_5ftool_2ecpp',['draw_text_tool.cpp',['../draw__text__tool_8cpp.html',1,'']]],
   ['draw_5ftext_5ftool_2eh',['draw_text_tool.h',['../draw__text__tool_8h.html',1,'']]],
   ['duplicate_5fequals_5ft_2ecpp',['duplicate_equals_t.cpp',['../duplicate__equals__t_8cpp.html',1,'']]],
-  ['duplicate_5fequals_5ft_2eh',['duplicate_equals_t.h',['../duplicate__equals__t_8h.html',1,'']]],
-  ['dxfparser_2ecpp',['dxfparser.cpp',['../dxfparser_8cpp.html',1,'']]],
-  ['dxfparser_2eh',['dxfparser.h',['../dxfparser_8h.html',1,'']]]
+  ['duplicate_5fequals_5ft_2eh',['duplicate_equals_t.h',['../duplicate__equals__t_8h.html',1,'']]]
 ];

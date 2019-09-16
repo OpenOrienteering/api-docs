@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['platformprinterproperties',['PlatformPrinterProperties',['../namespacePlatformPrinterProperties.html',1,'']]]
+  ['renderconfig',['RenderConfig',['../namespaceRenderConfig.html',1,'']]]
 ];

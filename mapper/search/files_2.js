@@ -1,10 +1,5 @@
 var searchData=
 [
-  ['cmakelists_2etxt',['CMakeLists.txt',['../src_2CMakeLists_8txt.html',1,'']]],
-  ['cmakelists_2etxt',['CMakeLists.txt',['../src_2libocad_2CMakeLists_8txt.html',1,'']]],
-  ['cmakelists_2etxt',['CMakeLists.txt',['../src_2printsupport_2CMakeLists_8txt.html',1,'']]],
-  ['cmakelists_2etxt',['CMakeLists.txt',['../src_2gdal_2CMakeLists_8txt.html',1,'']]],
-  ['cmakelists_2etxt',['CMakeLists.txt',['../test_2CMakeLists_8txt.html',1,'']]],
   ['code_5foverview_2eh',['code_overview.h',['../code__overview_8h.html',1,'']]],
   ['color_2ec',['color.c',['../color_8c.html',1,'']]],
   ['color_5fdialog_2ecpp',['color_dialog.cpp',['../color__dialog_8cpp.html',1,'']]],

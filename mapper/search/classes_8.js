@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['hassymbol',['HasSymbol',['../structObjectOp_1_1HasSymbol.html',1,'ObjectOp']]],
-  ['hassymboltype',['HasSymbolType',['../structObjectOp_1_1HasSymbolType.html',1,'ObjectOp']]],
-  ['hiddensymboldecorator',['HiddenSymbolDecorator',['../classHiddenSymbolDecorator.html',1,'']]],
-  ['homescreencontroller',['HomeScreenController',['../classHomeScreenController.html',1,'']]],
-  ['homescreenwidgetdesktop',['HomeScreenWidgetDesktop',['../classHomeScreenWidgetDesktop.html',1,'']]],
-  ['homescreenwidgetmobile',['HomeScreenWidgetMobile',['../classHomeScreenWidgetMobile.html',1,'']]]
+  ['hassymbol',['HasSymbol',['../structOpenOrienteering_1_1ObjectOp_1_1HasSymbol.html',1,'OpenOrienteering::ObjectOp']]],
+  ['hassymboltype',['HasSymbolType',['../structOpenOrienteering_1_1ObjectOp_1_1HasSymbolType.html',1,'OpenOrienteering::ObjectOp']]],
+  ['hiddensymboldecorator',['HiddenSymbolDecorator',['../classOpenOrienteering_1_1HiddenSymbolDecorator.html',1,'OpenOrienteering']]],
+  ['homescreencontroller',['HomeScreenController',['../classOpenOrienteering_1_1HomeScreenController.html',1,'OpenOrienteering']]],
+  ['homescreenwidgetdesktop',['HomeScreenWidgetDesktop',['../classOpenOrienteering_1_1HomeScreenWidgetDesktop.html',1,'OpenOrienteering']]],
+  ['homescreenwidgetmobile',['HomeScreenWidgetMobile',['../classOpenOrienteering_1_1HomeScreenWidgetMobile.html',1,'OpenOrienteering']]]
 ];
