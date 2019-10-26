@@ -65,11 +65,25 @@ $(function() {
 <div class="title"><a class="el" href="namespaceOpenOrienteering.html">OpenOrienteering</a> Mapper XML File Format Documentation </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><dl class="section date"><dt>Date</dt><dd>2018-03-10 </dd></dl>
+<div class="textblock"><dl class="section date"><dt>Date</dt><dd>2019-10-26 </dd></dl>
 <dl class="section author"><dt>Author</dt><dd>Kai Pastor</dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000048">Todo:</a></b></dt><dd>Review and update.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000045">Todo:</a></b></dt><dd>Review and update.</dd></dl>
 <h1><a class="anchor" id="changes"></a>
 Changes</h1>
+<h2><a class="anchor" id="version-10"></a>
+(Planned for) Version 10 (Mapper 1.0)</h2>
+<ul>
+<li>For writing, drop compatibility with Mapper versions before 0.9.</li>
+<li>Use the streaming variant when writing <code>barrier</code> elements.</li>
+<li>Stop writing text object box sizes to the coordinates stream.</li>
+</ul>
+<h2><a class="anchor" id="version-9"></a>
+Version 9 (Mapper 0.9)</h2>
+<ul>
+<li>2019-10-01 Added reading of a streaming variant of the <code>barrier</code> element. After <code>&lt;barrier ... action="skip"/&gt;</code>, skip the element immediately following this barrier.</li>
+<li>2019-10-01 Added reading and writing of an explicit <code>size</code> element for text object box size, in native (0.001 mm) coordinates.</li>
+<li>2019-10-02 Added a text symbol <code>rotatable</code> property. This must be exported as <code>true</code> now when the text symbol is rotatable, but default to <code>true</code> when reading previous versions of the format.</li>
+</ul>
 <h2><a class="anchor" id="version-8"></a>
 Version 8</h2>
 <ul>

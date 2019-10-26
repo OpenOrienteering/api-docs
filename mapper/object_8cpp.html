@@ -71,10 +71,24 @@ $(function() {
 <div class="title">object.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/31b26a6/src/core/objects/object.cpp"><tt>31b26a6</tt></a> on 9 Sep 2018)</h3><div class="textblock"><code>#include &quot;<a class="el" href="object_8h.html">object.h</a>&quot;</code><br />
+<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/c0c3bc8/src/core/objects/object.cpp"><tt>c0c3bc8</tt></a> on 7 Oct 2019)</h3><div class="textblock"><code>#include &quot;<a class="el" href="object_8h.html">object.h</a>&quot;</code><br />
+<code>#include &lt;algorithm&gt;</code><br />
 <code>#include &lt;cmath&gt;</code><br />
+<code>#include &lt;cstddef&gt;</code><br />
+<code>#include &lt;iterator&gt;</code><br />
+<code>#include &lt;memory&gt;</code><br />
+<code>#include &lt;stdexcept&gt;</code><br />
+<code>#include &lt;type_traits&gt;</code><br />
+<code>#include &lt;Qt&gt;</code><br />
 <code>#include &lt;QtMath&gt;</code><br />
 <code>#include &lt;QtNumeric&gt;</code><br />
+<code>#include &lt;QFlags&gt;</code><br />
+<code>#include &lt;QLatin1String&gt;</code><br />
+<code>#include &lt;QPoint&gt;</code><br />
+<code>#include &lt;QPointF&gt;</code><br />
+<code>#include &lt;QScopedPointer&gt;</code><br />
+<code>#include &lt;QStringRef&gt;</code><br />
+<code>#include &lt;QTransform&gt;</code><br />
 <code>#include &lt;QXmlStreamReader&gt;</code><br />
 <code>#include &lt;QXmlStreamWriter&gt;</code><br />
 <code>#include &lt;private/qbezier_p.h&gt;</code><br />
@@ -86,6 +100,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="point__symbol_8h.html">core/symbols/point_symbol.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="symbol_8h.html">core/symbols/symbol.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="text__symbol_8h.html">core/symbols/text_symbol.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="virtual__coord__vector_8h.html">core/virtual_coord_vector.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="file__format_8h.html">fileformats/file_format.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="file__import__export_8h.html">fileformats/file_import_export.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="util_8h.html">util/util.h</a>&quot;</code><br />
@@ -95,25 +110,23 @@ Include dependency graph for object.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="object_8cpp__incl.png" border="0" usemap="#src_2core_2objects_2object_8cpp" alt=""/></div>
 <map name="src_2core_2objects_2object_8cpp" id="src_2core_2objects_2object_8cpp">
-<area shape="rect" id="node2" href="object_8h.html" title="object.h" alt="" coords="3092,155,3160,181"/>
-<area shape="rect" id="node17" href="renderable_8h.html" title="core/renderables/renderable.h" alt="" coords="2823,311,3016,338"/>
-<area shape="rect" id="node24" href="symbol_8h.html" title="core/symbols/symbol.h" alt="" coords="699,401,857,427"/>
-<area shape="rect" id="node31" href="settings_8h.html" title="settings.h" alt="" coords="172,401,251,427"/>
-<area shape="rect" id="node34" href="map_8h.html" title="core/map.h" alt="" coords="1883,311,1969,338"/>
-<area shape="rect" id="node42" href="text__object_8h.html" title="core/objects/text_object.h" alt="" coords="3355,80,3527,107"/>
-<area shape="rect" id="node44" href="line__symbol_8h.html" title="core/symbols/line_symbol.h" alt="" coords="963,311,1147,338"/>
-<area shape="rect" id="node45" href="point__symbol_8h.html" title="core/symbols/point\l_symbol.h" alt="" coords="495,304,627,345"/>
-<area shape="rect" id="node46" href="text__symbol_8h.html" title="core/symbols/text_symbol.h" alt="" coords="702,311,889,338"/>
-<area shape="rect" id="node47" href="file__format_8h.html" title="fileformats/file_format.h" alt="" coords="3439,401,3597,427"/>
-<area shape="rect" id="node48" href="file__import__export_8h.html" title="fileformats/file_import\l_export.h" alt="" coords="377,393,523,435"/>
-<area shape="rect" id="node49" href="util_8h.html" title="util/util.h" alt="" coords="4855,401,4925,427"/>
-<area shape="rect" id="node50" href="xml__stream__util_8h.html" title="util/xml_stream_util.h" alt="" coords="4230,311,4377,338"/>
-<area shape="rect" id="node10" href="map__coord_8h.html" title="core/map_coord.h" alt="" coords="3977,401,4104,427"/>
-<area shape="rect" id="node14" href="path__coord_8h.html" title="core/path_coord.h" alt="" coords="3340,311,3467,338"/>
-<area shape="rect" id="node15" href="virtual__path_8h.html" title="core/virtual_path.h" alt="" coords="3236,229,3365,256"/>
-<area shape="rect" id="node21" href="map__color_8h.html" title="core/map_color.h" alt="" coords="2763,401,2886,427"/>
-<area shape="rect" id="node40" href="map__grid_8h.html" title="core/map_grid.h" alt="" coords="1609,401,1723,427"/>
-<area shape="rect" id="node41" href="map__part_8h.html" title="core/map_part.h" alt="" coords="2065,401,2181,427"/>
+<area shape="rect" id="node2" href="object_8h.html" title="object.h" alt="" coords="1691,155,1759,181"/>
+<area shape="rect" id="node18" href="virtual__coord__vector_8h.html" title="core/virtual_coord\l_vector.h" alt="" coords="1815,319,1940,360"/>
+<area shape="rect" id="node19" href="renderable_8h.html" title="core/renderables/renderable.h" alt="" coords="1215,326,1409,353"/>
+<area shape="rect" id="node21" href="symbol_8h.html" title="core/symbols/symbol.h" alt="" coords="596,326,753,353"/>
+<area shape="rect" id="node37" href="settings_8h.html" title="settings.h" alt="" coords="2929,326,3007,353"/>
+<area shape="rect" id="node40" href="map_8h.html" title="core/map.h" alt="" coords="2471,326,2558,353"/>
+<area shape="rect" id="node43" href="text__object_8h.html" title="core/objects/text_object.h" alt="" coords="2170,80,2342,107"/>
+<area shape="rect" id="node44" href="line__symbol_8h.html" title="core/symbols/line_symbol.h" alt="" coords="636,237,820,263"/>
+<area shape="rect" id="node45" href="point__symbol_8h.html" title="core/symbols/point\l_symbol.h" alt="" coords="479,229,611,271"/>
+<area shape="rect" id="node46" href="text__symbol_8h.html" title="core/symbols/text_symbol.h" alt="" coords="217,237,404,263"/>
+<area shape="rect" id="node47" href="file__format_8h.html" title="fileformats/file_format.h" alt="" coords="930,326,1089,353"/>
+<area shape="rect" id="node48" href="file__import__export_8h.html" title="fileformats/file_import\l_export.h" alt="" coords="3032,319,3179,360"/>
+<area shape="rect" id="node49" href="util_8h.html" title="util/util.h" alt="" coords="3454,326,3525,353"/>
+<area shape="rect" id="node50" href="xml__stream__util_8h.html" title="util/xml_stream_util.h" alt="" coords="3200,80,3347,107"/>
+<area shape="rect" id="node10" href="map__coord_8h.html" title="core/map_coord.h" alt="" coords="1803,408,1930,435"/>
+<area shape="rect" id="node15" href="path__coord_8h.html" title="core/path_coord.h" alt="" coords="1663,326,1790,353"/>
+<area shape="rect" id="node16" href="virtual__path_8h.html" title="core/virtual_path.h" alt="" coords="1713,237,1842,263"/>
 </map>
 </div>
 </div><table class="memberdecls">

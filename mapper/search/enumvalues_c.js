@@ -1,6 +1,7 @@
 var searchData=
 [
   ['needswgs84',['NeedsWgs84',['../classOpenOrienteering_1_1OgrFileExport.html#a4211026890835af1621b91e38d3a3ec9a602cb5daf427329d18568ee77580303c',1,'OpenOrienteering::OgrFileExport']]],
+  ['never',['Never',['../classOpenOrienteering_1_1ObjectMover.html#a6d52b8cff6f474ff3fe4e6a30fc7af32a04420fe90091aac6c6403b7e9c93888d',1,'OpenOrienteering::ObjectMover']]],
   ['noassignment',['NoAssignment',['../structOpenOrienteering_1_1SymbolRule.html#a42890f00222c629400ffb3232021703ba27807cbad332028353f0e621bc472721',1,'OpenOrienteering::SymbolRule']]],
   ['nobutton',['NoButton',['../classOpenOrienteering_1_1TouchCursor.html#a79424113fd84d4820c85fad52cef9b2bab00ee6f09a6a95665e6b510ffd6a7c66',1,'OpenOrienteering::TouchCursor']]],
   ['nochange',['NoChange',['../classOpenOrienteering_1_1MapView.html#a42581c86bb27f9cae00be608675f3903a4376cefd817b6b9730d930b802dbbee7',1,'OpenOrienteering::MapView']]],

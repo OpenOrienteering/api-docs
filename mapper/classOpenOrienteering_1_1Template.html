@@ -105,7 +105,7 @@ Collaboration diagram for OpenOrienteering::Template:</div>
 <area shape="rect" id="node3" href="classOpenOrienteering_1_1Map.html" title="Central class for an OpenOrienteering map. " alt="" coords="395,59,551,85"/>
 <area shape="rect" id="node4" href="classOpenOrienteering_1_1Matrix.html" title="Dynamically sized matrix of doubles. " alt="" coords="389,125,556,152"/>
 <area shape="rect" id="node5" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qstring.html" title="QString" alt="" coords="439,229,506,256"/>
-<area shape="rect" id="node6" href="structOpenOrienteering_1_1TemplateTransform.html" title="Transformation parameters for non&#45;georeferenced templates. " alt="" coords="380,282,565,323"/>
+<area shape="rect" id="node6" href="structOpenOrienteering_1_1TemplateTransform.html" title="Transformation parameters for non&#45;georeferenced templates, transforming template coordinates to map c..." alt="" coords="380,282,565,323"/>
 <area shape="rect" id="node7" href="classOpenOrienteering_1_1PassPointList.html" title="List of pass points with methods for transformation calculation. " alt="" coords="367,348,579,375"/>
 <area shape="rect" id="node8" title="STL class. " alt="" coords="149,348,317,375"/>
 </map>
@@ -206,7 +206,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a40a674ca21ee32b4da01c75c3017683e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1Template.html#a40a674ca21ee32b4da01c75c3017683e">canBeDrawnOnto</a> () const</td></tr>
 <tr class="memdesc:a40a674ca21ee32b4da01c75c3017683e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must return if freehand drawing onto the template is possible.  <a href="#a40a674ca21ee32b4da01c75c3017683e">More...</a><br /></td></tr>
 <tr class="separator:a40a674ca21ee32b4da01c75c3017683e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3a1bbfb671206ad7212a4636e1c659b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1Template.html#ad3a1bbfb671206ad7212a4636e1c659b">drawOntoTemplate</a> (<a class="el" href="classOpenOrienteering_1_1Template.html#a6a81c37cf58381d3a78618680327d259">not_null</a>&lt; <a class="el" href="classOpenOrienteering_1_1MapCoordF.html">MapCoordF</a> *&gt; coords, int num_coords, <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qcolor.html">QColor</a> color, float width, <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> map_bbox)</td></tr>
+<tr class="memitem:ad3a1bbfb671206ad7212a4636e1c659b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1Template.html#ad3a1bbfb671206ad7212a4636e1c659b">drawOntoTemplate</a> (<a class="el" href="classOpenOrienteering_1_1Template.html#a6a81c37cf58381d3a78618680327d259">not_null</a>&lt; <a class="el" href="classOpenOrienteering_1_1MapCoordF.html">MapCoordF</a> *&gt; coords, int num_coords, <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qcolor.html">QColor</a> <a class="el" href="xml__file__format_8cpp.html#acd76e326a7811ae01eb825cdb4a8692e">color</a>, float width, <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> map_bbox)</td></tr>
 <tr class="memdesc:ad3a1bbfb671206ad7212a4636e1c659b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws onto the template.  <a href="#ad3a1bbfb671206ad7212a4636e1c659b">More...</a><br /></td></tr>
 <tr class="separator:ad3a1bbfb671206ad7212a4636e1c659b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59c5c2d1cafc13eb8ca62a21552e033c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1Template.html#a59c5c2d1cafc13eb8ca62a21552e033c">drawOntoTemplateUndo</a> (<a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> redo)</td></tr>
@@ -321,6 +321,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9a7d4a81134491bc9ab0d22f58bd9704"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91686e7b0592061aac9474ec8fc15300"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1Template.html#a91686e7b0592061aac9474ec8fc15300">setTemplateScaleY</a> (double scale_y)</td></tr>
 <tr class="separator:a91686e7b0592061aac9474ec8fc15300"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade098480bd358e729102fe43058411a3"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1Template.html#ade098480bd358e729102fe43058411a3">getTemplateShear</a> () const</td></tr>
+<tr class="separator:ade098480bd358e729102fe43058411a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac64d1e743b0f3b980623bff88b8912f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1Template.html#ac64d1e743b0f3b980623bff88b8912f3">setTemplateShear</a> (double shear)</td></tr>
+<tr class="separator:ac64d1e743b0f3b980623bff88b8912f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af843cdf09ada07505a5e1471bb3afd7a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1Template.html#af843cdf09ada07505a5e1471bb3afd7a">getTemplateRotation</a> () const</td></tr>
 <tr class="separator:af843cdf09ada07505a5e1471bb3afd7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a770824988b7f515fc1ab4964dc81206e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1Template.html#a770824988b7f515fc1ab4964dc81206e">setTemplateRotation</a> (double rotation)</td></tr>
@@ -536,7 +540,7 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a547e782ec560685c679e3e9e2b83e12a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1Template.html#a547e782ec560685c679e3e9e2b83e12a">unloadTemplateFileImpl</a> ()=0</td></tr>
 <tr class="memdesc:a547e782ec560685c679e3e9e2b83e12a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hook for unloading the template file.  <a href="#a547e782ec560685c679e3e9e2b83e12a">More...</a><br /></td></tr>
 <tr class="separator:a547e782ec560685c679e3e9e2b83e12a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4d41d8b22bae63138feb2f779019d04"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1Template.html#ac4d41d8b22bae63138feb2f779019d04">drawOntoTemplateImpl</a> (<a class="el" href="classOpenOrienteering_1_1MapCoordF.html">MapCoordF</a> *coords, int num_coords, <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qcolor.html">QColor</a> color, float width)</td></tr>
+<tr class="memitem:ac4d41d8b22bae63138feb2f779019d04"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1Template.html#ac4d41d8b22bae63138feb2f779019d04">drawOntoTemplateImpl</a> (<a class="el" href="classOpenOrienteering_1_1MapCoordF.html">MapCoordF</a> *coords, int num_coords, <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qcolor.html">QColor</a> <a class="el" href="xml__file__format_8cpp.html#acd76e326a7811ae01eb825cdb4a8692e">color</a>, float width)</td></tr>
 <tr class="memdesc:ac4d41d8b22bae63138feb2f779019d04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hook for drawing on the template.  <a href="#ac4d41d8b22bae63138feb2f779019d04">More...</a><br /></td></tr>
 <tr class="separator:ac4d41d8b22bae63138feb2f779019d04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c482322ac572a29c57f2cea8f6a225d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1Template.html#a1c482322ac572a29c57f2cea8f6a225d">updateTransformationMatrices</a> ()</td></tr>
@@ -1650,6 +1654,31 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="ade098480bd358e729102fe43058411a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade098480bd358e729102fe43058411a3">&#9670;&nbsp;</a></span>getTemplateShear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double OpenOrienteering::Template::getTemplateShear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9bd6ded62de20b417a793d7fbba78a9c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9bd6ded62de20b417a793d7fbba78a9c">&#9670;&nbsp;</a></span>getTemplateState()</h2>
 
@@ -2687,6 +2716,32 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="ac64d1e743b0f3b980623bff88b8912f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac64d1e743b0f3b980623bff88b8912f3">&#9670;&nbsp;</a></span>setTemplateShear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OpenOrienteering::Template::setTemplateShear </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>shear</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a8ee23ac75368f2a595675a30935edcc3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8ee23ac75368f2a595675a30935edcc3">&#9670;&nbsp;</a></span>setTemplateState()</h2>
 
@@ -3617,8 +3672,8 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/templates/<a class="el" href="template_8h.html">template.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/5221492/src/templates/template.h"><tt>5221492</tt></a> on 19 Aug 2019)</li>
-<li>src/templates/<a class="el" href="template_8cpp.html">template.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/5221492/src/templates/template.cpp"><tt>5221492</tt></a> on 19 Aug 2019)</li>
+<li>src/templates/<a class="el" href="template_8h.html">template.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/3a54835/src/templates/template.h"><tt>3a54835</tt></a> on 8 Oct 2019)</li>
+<li>src/templates/<a class="el" href="template_8cpp.html">template.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/3a54835/src/templates/template.cpp"><tt>3a54835</tt></a> on 8 Oct 2019)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

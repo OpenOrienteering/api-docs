@@ -447,12 +447,9 @@ Public Slots</h2></td></tr>
 <tr class="memitem:ac97d35c0eef469a4c66b446462e044a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1MapEditorController.html#ac97d35c0eef469a4c66b446462e044a9">setViewOptionsEnabled</a> (<a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> enabled=true)</td></tr>
 <tr class="memdesc:ac97d35c0eef469a4c66b446462e044a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the enabled state of actions which change how the map is rendered, such as with grid, with templates, with overprinting simulation.  <a href="#ac97d35c0eef469a4c66b446462e044a9">More...</a><br /></td></tr>
 <tr class="separator:ac97d35c0eef469a4c66b446462e044a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07891882141d8a9b7c4ad70706f2fcdc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1MapEditorController.html#a07891882141d8a9b7c4ad70706f2fcdc">saveWindowState</a> ()</td></tr>
-<tr class="memdesc:a07891882141d8a9b7c4ad70706f2fcdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save the current toolbar and dock widget positions.  <a href="#a07891882141d8a9b7c4ad70706f2fcdc">More...</a><br /></td></tr>
-<tr class="separator:a07891882141d8a9b7c4ad70706f2fcdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2bc1bc84bc0557b25e3065852eb597b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1MapEditorController.html#ad2bc1bc84bc0557b25e3065852eb597b">restoreWindowState</a> ()</td></tr>
-<tr class="memdesc:ad2bc1bc84bc0557b25e3065852eb597b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restore previously saved toolbar and dock widget positions.  <a href="#ad2bc1bc84bc0557b25e3065852eb597b">More...</a><br /></td></tr>
-<tr class="separator:ad2bc1bc84bc0557b25e3065852eb597b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c0b33bc2ef67a8f2cc50b26585447eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1MapEditorController.html#a7c0b33bc2ef67a8f2cc50b26585447eb">setWindowStateChanged</a> ()</td></tr>
+<tr class="memdesc:a7c0b33bc2ef67a8f2cc50b26585447eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates a change of the current toolbar and dock widget positions, and schedules saving.  <a href="#a7c0b33bc2ef67a8f2cc50b26585447eb">More...</a><br /></td></tr>
+<tr class="separator:a7c0b33bc2ef67a8f2cc50b26585447eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="signals"></a>
 Signals</h2></td></tr>
@@ -873,7 +870,7 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000063">Todo:</a></b></dt><dd><p class="startdd">Review/remove mode hack. </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000061">Todo:</a></b></dt><dd><p class="startdd">Review/remove mode hack. </p>
 <p class="enddd">Document and fix ownership of map and map_view. Double deletes waiting... </p>
 </dd></dl>
 
@@ -1447,7 +1444,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Connects close endpoints of selected lines. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000059">Todo:</a></b></dt><dd>get rid of force if possible </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000056">Todo:</a></b></dt><dd>Fix <a class="el" href="classOpenOrienteering_1_1MapEditorController.html#a47fc732a5e433d330d93962274cda725" title="Connects close endpoints of selected lines. ">connectPathsClicked()</a> </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000057">Todo:</a></b></dt><dd>get rid of force if possible </dd></dl>
 
 </div>
 </div>
@@ -2379,7 +2377,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Lets the user export the map as geospatial vector data. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000057">Todo:</a></b></dt><dd>Error message? </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000054">Todo:</a></b></dt><dd>Error message? </dd></dl>
 
 </div>
 </div>
@@ -2828,7 +2826,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Shows the import file selector and imports the selected file, if any. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000060">Todo:</a></b></dt><dd>Reword message (not a map file here). Requires new translations </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000058">Todo:</a></b></dt><dd>Reword message (not a map file here). Requires new translations </dd></dl>
 
 </div>
 </div>
@@ -2905,7 +2903,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Imports another map into this map. </p>
 <p>This method changes the given 'other' map if the maps' scales differ. This is an optimization for the use cases where temporary maps are created just for this kind of import.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classOpenOrienteering_1_1Map.html#a9702ce0619877f08f6c61fc222a05fe4" title="Imports another map into this map. ">Map::importMap</a> </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000062">Todo:</a></b></dt><dd>Move message to this context. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000060">Todo:</a></b></dt><dd>Move message to this context. </dd></dl>
 
 </div>
 </div>
@@ -2936,7 +2934,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Imports a map file into the loaded map. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000061">Todo:</a></b></dt><dd>error message </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000059">Todo:</a></b></dt><dd>error message </dd></dl>
 
 </div>
 </div>
@@ -3824,33 +3822,6 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ad2bc1bc84bc0557b25e3065852eb597b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad2bc1bc84bc0557b25e3065852eb597b">&#9670;&nbsp;</a></span>restoreWindowState</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void OpenOrienteering::MapEditorController::restoreWindowState </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Restore previously saved toolbar and dock widget positions. </p>
-
-</div>
-</div>
 <a id="a8395ce6109c6fa825feb2b0acbac0288"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8395ce6109c6fa825feb2b0acbac0288">&#9670;&nbsp;</a></span>rotateClicked</h2>
 
@@ -3969,33 +3940,6 @@ Additional Inherited Members</h2></td></tr>
 <p>Override from <a class="el" href="classOpenOrienteering_1_1MainWindowController.html" title="A MainWindowController provides the specific content and behaviours for a main window, for example map drawing or course setting functions. ">MainWindowController</a>. </p>
 
 <p>Reimplemented from <a class="el" href="classOpenOrienteering_1_1MainWindowController.html#a9b2fd6661f50c7b914af0aad5844bdb7">OpenOrienteering::MainWindowController</a>.</p>
-
-</div>
-</div>
-<a id="a07891882141d8a9b7c4ad70706f2fcdc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07891882141d8a9b7c4ad70706f2fcdc">&#9670;&nbsp;</a></span>saveWindowState</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void OpenOrienteering::MapEditorController::saveWindowState </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Save the current toolbar and dock widget positions. </p>
 
 </div>
 </div>
@@ -4372,6 +4316,33 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Sets the enabled state of actions which change how the map is rendered, such as with grid, with templates, with overprinting simulation. </p>
+
+</div>
+</div>
+<a id="a7c0b33bc2ef67a8f2cc50b26585447eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c0b33bc2ef67a8f2cc50b26585447eb">&#9670;&nbsp;</a></span>setWindowStateChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OpenOrienteering::MapEditorController::setWindowStateChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Indicates a change of the current toolbar and dock widget positions, and schedules saving. </p>
 
 </div>
 </div>
@@ -5164,8 +5135,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/gui/map/<a class="el" href="map__editor_8h.html">map_editor.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/a601aa2/src/gui/map/map_editor.h"><tt>a601aa2</tt></a> on 15 Sep 2019)</li>
-<li>src/gui/map/<a class="el" href="map__editor_8cpp.html">map_editor.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/a601aa2/src/gui/map/map_editor.cpp"><tt>a601aa2</tt></a> on 15 Sep 2019)</li>
+<li>src/gui/map/<a class="el" href="map__editor_8h.html">map_editor.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/8b5d027/src/gui/map/map_editor.h"><tt>8b5d027</tt></a> on 21 Oct 2019)</li>
+<li>src/gui/map/<a class="el" href="map__editor_8cpp.html">map_editor.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/8ae551f/src/gui/map/map_editor.cpp"><tt>8ae551f</tt></a> on 21 Oct 2019)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

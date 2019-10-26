@@ -158,6 +158,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a54446fa01b8d00f0acc1e2f7bc26817e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceOpenOrienteering_1_1Util.html#a54446fa01b8d00f0acc1e2f7bc26817e">gridOperation</a> (const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qrectf.html">QRectF</a> &amp;extent, double horz_spacing, double vert_spacing, double horz_offset, double vert_offset, double rotation, std::function&lt; void(const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpointf.html">QPointF</a> &amp;, const <a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpointf.html">QPointF</a> &amp;)&gt; &amp;process_line)</td></tr>
 <tr class="memdesc:a54446fa01b8d00f0acc1e2f7bc26817e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a grid of lines inside the given box.  <a href="#a54446fa01b8d00f0acc1e2f7bc26817e">More...</a><br /></td></tr>
 <tr class="separator:a54446fa01b8d00f0acc1e2f7bc26817e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb8632e6c408f7a28102f0424a8a01db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceOpenOrienteering_1_1Util.html#acb8632e6c408f7a28102f0424a8a01db">pointsFormCorner</a> (const <a class="el" href="classOpenOrienteering_1_1MapCoord.html">MapCoord</a> &amp;point1, const <a class="el" href="classOpenOrienteering_1_1MapCoord.html">MapCoord</a> &amp;anchor_point, const <a class="el" href="classOpenOrienteering_1_1MapCoord.html">MapCoord</a> &amp;point2, qreal quantum_size)</td></tr>
+<tr class="memdesc:acb8632e6c408f7a28102f0424a8a01db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests whether three points form what we would call a corner.  <a href="#acb8632e6c408f7a28102f0424a8a01db">More...</a><br /></td></tr>
+<tr class="separator:acb8632e6c408f7a28102f0424a8a01db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A collection of GUI utility functions. </p>
@@ -511,6 +514,59 @@ Functions</h2></td></tr>
 
 <p>Remove any HTML markup from the input text. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qtextdocument.html#toPlainText">QTextDocument::toPlainText</a> </dd></dl>
+
+</div>
+</div>
+<a id="acb8632e6c408f7a28102f0424a8a01db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb8632e6c408f7a28102f0424a8a01db">&#9670;&nbsp;</a></span>pointsFormCorner()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> OpenOrienteering::Util::pointsFormCorner </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classOpenOrienteering_1_1MapCoord.html">MapCoord</a> &amp;&#160;</td>
+          <td class="paramname"><em>point1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classOpenOrienteering_1_1MapCoord.html">MapCoord</a> &amp;&#160;</td>
+          <td class="paramname"><em>anchor_point</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classOpenOrienteering_1_1MapCoord.html">MapCoord</a> &amp;&#160;</td>
+          <td class="paramname"><em>point2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">qreal&#160;</td>
+          <td class="paramname"><em>quantum_size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Tests whether three points form what we would call a corner. </p>
+<p>The function returns true when point2 lies at least quantum_size from continuation of line from point1 to anchor_point. quantum_size parameter is essential for use of this function in GUI code as for various zoom levels point1 position get quantized with varying step size.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">point1</td><td>First point on a line. </td></tr>
+    <tr><td class="paramname">anchor_point</td><td>Point that is being tested as corner candidate. </td></tr>
+    <tr><td class="paramname">point2</td><td>Final point on potentially bent line. </td></tr>
+    <tr><td class="paramname">quantum_size</td><td>How far can point2 lie from the line defined by point1&ndash;anchor to be considered unaligned with the two other points. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if point2 is further than quantum_size from the line defined by point1&ndash;anchor_point or point2 is on the same side of anchor_point as point1. </dd></dl>
 
 </div>
 </div>

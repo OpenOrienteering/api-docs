@@ -776,7 +776,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template consisting of a set of tracks (polylines) and waypoints.  <a href="classOpenOrienteering_1_1TemplateTrack.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOpenOrienteering_1_1TemplateTransform.html">TemplateTransform</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transformation parameters for non-georeferenced templates.  <a href="structOpenOrienteering_1_1TemplateTransform.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transformation parameters for non-georeferenced templates, transforming template coordinates to map coordinates.  <a href="structOpenOrienteering_1_1TemplateTransform.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1TemplateVisibility.html">TemplateVisibility</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains the visibility information for a template (or the map).  <a href="classOpenOrienteering_1_1TemplateVisibility.html#details">More...</a><br /></td></tr>
@@ -866,9 +866,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1XMLFileImporter.html">XMLFileImporter</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classOpenOrienteering_1_1Map.html" title="Central class for an OpenOrienteering map. ">Map</a> importer for the xml based map format.  <a href="classOpenOrienteering_1_1XMLFileImporter.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOpenOrienteering_1_1XMLFileImporterColorBacklogItem.html">XMLFileImporterColorBacklogItem</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper for delayed actions.  <a href="structOpenOrienteering_1_1XMLFileImporterColorBacklogItem.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1XmlRecoveryHelper.html">XmlRecoveryHelper</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class provides recovery from invalid characters in an XML stream.  <a href="classOpenOrienteering_1_1XmlRecoveryHelper.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -894,8 +891,6 @@ Typedefs</h2></td></tr>
 <tr class="separator:ab100192c57a65ecea7247a78dedba625"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75d77ed56753804ca84df3ee9b7e858a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceOpenOrienteering.html#a75d77ed56753804ca84df3ee9b7e858a">length_type</a> = <a class="el" href="classOpenOrienteering_1_1PathCoord.html#a8ca4af895e695eaf160aa3cecc0d6d7c">PathCoord::length_type</a></td></tr>
 <tr class="separator:a75d77ed56753804ca84df3ee9b7e858a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af39feb7bc1fceca49ac1e6e9e88922bb"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="structOpenOrienteering_1_1XMLFileImporterColorBacklogItem.html">XMLFileImporterColorBacklogItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceOpenOrienteering.html#af39feb7bc1fceca49ac1e6e9e88922bb">XMLFileImporterColorBacklog</a></td></tr>
-<tr class="separator:af39feb7bc1fceca49ac1e6e9e88922bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -1330,20 +1325,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="af39feb7bc1fceca49ac1e6e9e88922bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af39feb7bc1fceca49ac1e6e9e88922bb">&#9670;&nbsp;</a></span>XMLFileImporterColorBacklog</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef std::vector&lt;<a class="el" href="structOpenOrienteering_1_1XMLFileImporterColorBacklogItem.html">XMLFileImporterColorBacklogItem</a>&gt; <a class="el" href="namespaceOpenOrienteering.html#af39feb7bc1fceca49ac1e6e9e88922bb">OpenOrienteering::XMLFileImporterColorBacklog</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ad95f19447ef1744afc3c56e476624da4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad95f19447ef1744afc3c56e476624da4">&#9670;&nbsp;</a></span>AreaSymbol::FillPattern::createLine< AreaSymbol::FillPattern::LinePattern >()</h2>
@@ -1639,7 +1620,7 @@ template&lt;class T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000058">Todo:</a></b></dt><dd>Review use of container API </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000055">Todo:</a></b></dt><dd>Review use of container API </dd></dl>
 
 </div>
 </div>
@@ -2635,38 +2616,8 @@ template&lt;&gt; </div>
 
 </div>
 </div>
-<a id="a22f306d4e50e8421e0c04678a6bdb5d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22f306d4e50e8421e0c04678a6bdb5d1">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[14/17]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> OpenOrienteering::operator!= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classOpenOrienteering_1_1MapCoord.html">MapCoord</a> &amp;&#160;</td>
-          <td class="paramname"><em>lhs</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classOpenOrienteering_1_1MapCoord.html">MapCoord</a> &amp;&#160;</td>
-          <td class="paramname"><em>rhs</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Compare <a class="el" href="classOpenOrienteering_1_1MapCoord.html" title="Coordinates of a point in a map, with optional flags. ">MapCoord</a> for inequality. </p>
-
-</div>
-</div>
 <a id="a4c19ee30202c0f4c5ed653e13ab8fb38"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c19ee30202c0f4c5ed653e13ab8fb38">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[15/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c19ee30202c0f4c5ed653e13ab8fb38">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[14/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2700,6 +2651,36 @@ template&lt;&gt; </div>
 </div><div class="memdoc">
 
 <p>Returns true iff the <a class="el" href="classOpenOrienteering_1_1MapColor.html" title="The MapColor class provides colors which may be used by symbols (and objects). ">MapColor</a> differ in at least one components. </p>
+
+</div>
+</div>
+<a id="a22f306d4e50e8421e0c04678a6bdb5d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22f306d4e50e8421e0c04678a6bdb5d1">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[15/17]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> OpenOrienteering::operator!= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classOpenOrienteering_1_1MapCoord.html">MapCoord</a> &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classOpenOrienteering_1_1MapCoord.html">MapCoord</a> &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compare <a class="el" href="classOpenOrienteering_1_1MapCoord.html" title="Coordinates of a point in a map, with optional flags. ">MapCoord</a> for inequality. </p>
 
 </div>
 </div>
@@ -3689,8 +3670,38 @@ template&lt;&gt; </div>
 
 </div>
 </div>
+<a id="a80ad315ca1fa186aa4805d95aa60cee6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80ad315ca1fa186aa4805d95aa60cee6">&#9670;&nbsp;</a></span>operator==() <span class="overload">[10/22]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> OpenOrienteering::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classOpenOrienteering_1_1MapPrinterPageFormat.html">MapPrinterPageFormat</a> &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classOpenOrienteering_1_1MapPrinterPageFormat.html">MapPrinterPageFormat</a> &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true iff the <a class="el" href="classOpenOrienteering_1_1MapPrinterPageFormat.html" title="The MapPrinterPageFormat is a complete description of page properties. ">MapPrinterPageFormat</a> values are equal. </p>
+
+</div>
+</div>
 <a id="a37954da7a0dd65ac1a1c31749ba1d841"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a37954da7a0dd65ac1a1c31749ba1d841">&#9670;&nbsp;</a></span>operator==() <span class="overload">[10/22]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a37954da7a0dd65ac1a1c31749ba1d841">&#9670;&nbsp;</a></span>operator==() <span class="overload">[11/22]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3722,36 +3733,6 @@ template&lt;&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a80ad315ca1fa186aa4805d95aa60cee6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80ad315ca1fa186aa4805d95aa60cee6">&#9670;&nbsp;</a></span>operator==() <span class="overload">[11/22]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> OpenOrienteering::operator== </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classOpenOrienteering_1_1MapPrinterPageFormat.html">MapPrinterPageFormat</a> &amp;&#160;</td>
-          <td class="paramname"><em>lhs</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classOpenOrienteering_1_1MapPrinterPageFormat.html">MapPrinterPageFormat</a> &amp;&#160;</td>
-          <td class="paramname"><em>rhs</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Returns true iff the <a class="el" href="classOpenOrienteering_1_1MapPrinterPageFormat.html" title="The MapPrinterPageFormat is a complete description of page properties. ">MapPrinterPageFormat</a> values are equal. </p>
 
 </div>
 </div>
@@ -3915,38 +3896,8 @@ template&lt;&gt; </div>
 
 </div>
 </div>
-<a id="a371b32b6676b1f2517d81df66ba44844"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a371b32b6676b1f2517d81df66ba44844">&#9670;&nbsp;</a></span>operator==() <span class="overload">[17/22]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> OpenOrienteering::operator== </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classOpenOrienteering_1_1MapCoord.html">MapCoord</a> &amp;&#160;</td>
-          <td class="paramname"><em>lhs</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classOpenOrienteering_1_1MapCoord.html">MapCoord</a> &amp;&#160;</td>
-          <td class="paramname"><em>rhs</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Compare <a class="el" href="classOpenOrienteering_1_1MapCoord.html" title="Coordinates of a point in a map, with optional flags. ">MapCoord</a> for equality. </p>
-
-</div>
-</div>
 <a id="a49af3c9921e0c799063fd86fa1aaff29"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49af3c9921e0c799063fd86fa1aaff29">&#9670;&nbsp;</a></span>operator==() <span class="overload">[18/22]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a49af3c9921e0c799063fd86fa1aaff29">&#9670;&nbsp;</a></span>operator==() <span class="overload">[17/22]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3980,6 +3931,36 @@ template&lt;&gt; </div>
 </div><div class="memdoc">
 
 <p>Returns true if both <a class="el" href="classOpenOrienteering_1_1MapColor.html" title="The MapColor class provides colors which may be used by symbols (and objects). ">MapColor</a> are equal in all components. </p>
+
+</div>
+</div>
+<a id="a371b32b6676b1f2517d81df66ba44844"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a371b32b6676b1f2517d81df66ba44844">&#9670;&nbsp;</a></span>operator==() <span class="overload">[18/22]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> OpenOrienteering::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classOpenOrienteering_1_1MapCoord.html">MapCoord</a> &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classOpenOrienteering_1_1MapCoord.html">MapCoord</a> &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compare <a class="el" href="classOpenOrienteering_1_1MapCoord.html" title="Coordinates of a point in a map, with optional flags. ">MapCoord</a> for equality. </p>
 
 </div>
 </div>
@@ -4719,7 +4700,7 @@ template&lt;&gt; </div>
 
 <p>Enlarges the rect to include the given other_rect. </p>
 <p>At least one rectangle must be valid.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000131">Todo:</a></b></dt><dd>Check if <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qregion.html">QRegion</a> could be used instead. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000130">Todo:</a></b></dt><dd>Check if <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qregion.html">QRegion</a> could be used instead. </dd></dl>
 
 </div>
 </div>

@@ -75,16 +75,16 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Transformation parameters for non-georeferenced templates.  
+<p>Transformation parameters for non-georeferenced templates, transforming template coordinates to map coordinates.  
  <a href="structOpenOrienteering_1_1TemplateTransform.html#details">More...</a></p>
 
 <p><code>#include &lt;template.h&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a09cca15d6f3f6577a8a7a42127686849"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOpenOrienteering_1_1TemplateTransform.html#a09cca15d6f3f6577a8a7a42127686849">TemplateTransform</a> (qint32 x, qint32 y, double rotation, double scale_x, double scale_y) noexcept</td></tr>
-<tr class="memdesc:a09cca15d6f3f6577a8a7a42127686849"><td class="mdescLeft">&#160;</td><td class="mdescRight">Explicit implementation of aggregate initialization.  <a href="#a09cca15d6f3f6577a8a7a42127686849">More...</a><br /></td></tr>
-<tr class="separator:a09cca15d6f3f6577a8a7a42127686849"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5629723acf1ddec5e388dee541c7c728"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOpenOrienteering_1_1TemplateTransform.html#a5629723acf1ddec5e388dee541c7c728">TemplateTransform</a> (qint32 x, qint32 y, double rotation, double scale_x, double scale_y, double shear=0.0) noexcept</td></tr>
+<tr class="memdesc:a5629723acf1ddec5e388dee541c7c728"><td class="mdescLeft">&#160;</td><td class="mdescRight">Explicit implementation of aggregate initialization.  <a href="#a5629723acf1ddec5e388dee541c7c728">More...</a><br /></td></tr>
+<tr class="separator:a5629723acf1ddec5e388dee541c7c728"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d5b306b3f9934ead82b3d93d58092cb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOpenOrienteering_1_1TemplateTransform.html#a7d5b306b3f9934ead82b3d93d58092cb">TemplateTransform</a> () noexcept=default</td></tr>
 <tr class="memdesc:a7d5b306b3f9934ead82b3d93d58092cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Explicitly defaulted default constructor.  <a href="#a7d5b306b3f9934ead82b3d93d58092cb">More...</a><br /></td></tr>
 <tr class="separator:a7d5b306b3f9934ead82b3d93d58092cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -107,27 +107,31 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:a84f72e0cf6bf0214f5654e81919f67ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">x position in 1/1000 mm  <a href="#a84f72e0cf6bf0214f5654e81919f67ec">More...</a><br /></td></tr>
 <tr class="separator:a84f72e0cf6bf0214f5654e81919f67ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad31250a695f002cf353910a070cfc88"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOpenOrienteering_1_1TemplateTransform.html#aad31250a695f002cf353910a070cfc88">template_rotation</a> = 0.0</td></tr>
-<tr class="memdesc:aad31250a695f002cf353910a070cfc88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotation in radians.  <a href="#aad31250a695f002cf353910a070cfc88">More...</a><br /></td></tr>
+<tr class="memdesc:aad31250a695f002cf353910a070cfc88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotation in radians, a positive rotation is counter-clockwise.  <a href="#aad31250a695f002cf353910a070cfc88">More...</a><br /></td></tr>
 <tr class="separator:aad31250a695f002cf353910a070cfc88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28093e5cfa47dbb51c056229cc82ec74"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOpenOrienteering_1_1TemplateTransform.html#a28093e5cfa47dbb51c056229cc82ec74">template_scale_x</a> = 1.0</td></tr>
-<tr class="memdesc:a28093e5cfa47dbb51c056229cc82ec74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scaling in x direction (relative to 1 mm on map)  <a href="#a28093e5cfa47dbb51c056229cc82ec74">More...</a><br /></td></tr>
+<tr class="memdesc:a28093e5cfa47dbb51c056229cc82ec74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scaling in x direction, smaller than 1 shrinks.  <a href="#a28093e5cfa47dbb51c056229cc82ec74">More...</a><br /></td></tr>
 <tr class="separator:a28093e5cfa47dbb51c056229cc82ec74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51b4088ad84713a1b8cec383c5d14bca"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOpenOrienteering_1_1TemplateTransform.html#a51b4088ad84713a1b8cec383c5d14bca">template_scale_y</a> = 1.0</td></tr>
-<tr class="memdesc:a51b4088ad84713a1b8cec383c5d14bca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scaling in y direction (relative to 1 mm on map)  <a href="#a51b4088ad84713a1b8cec383c5d14bca">More...</a><br /></td></tr>
+<tr class="memdesc:a51b4088ad84713a1b8cec383c5d14bca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scaling in y direction, smaller than 1 shrinks.  <a href="#a51b4088ad84713a1b8cec383c5d14bca">More...</a><br /></td></tr>
 <tr class="separator:a51b4088ad84713a1b8cec383c5d14bca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac195d0e52bfd36a57d42de0a447709c4"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOpenOrienteering_1_1TemplateTransform.html#ac195d0e52bfd36a57d42de0a447709c4">template_shear</a> = 0.0</td></tr>
+<tr class="memdesc:ac195d0e52bfd36a57d42de0a447709c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adjustment to scaling if anisotropy is askew.  <a href="#ac195d0e52bfd36a57d42de0a447709c4">More...</a><br /></td></tr>
+<tr class="separator:ac195d0e52bfd36a57d42de0a447709c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Transformation parameters for non-georeferenced templates. </p>
-<p>The parameters are to applied in the order</p><ol type="1">
+<div class="textblock"><p>Transformation parameters for non-georeferenced templates, transforming template coordinates to map coordinates. </p>
+<p>The parameters are applied to painter in the order</p><ol type="1">
 <li>translate</li>
 <li>rotate</li>
 <li>scale.</li>
 </ol>
 <p>So this order is also chosen for the member variables, and thus used in list initialization.</p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="classOpenOrienteering_1_1Template.html#ae2cbf7d0a2ec89687128dd77b2727740" title="Changes the painter&#39;s transformation so it can be used to draw in template coordinates. ">Template::applyTemplateTransform()</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classOpenOrienteering_1_1Template.html#ae2cbf7d0a2ec89687128dd77b2727740" title="Changes the painter&#39;s transformation so it can be used to draw in template coordinates. ">Template::applyTemplateTransform()</a></dd></dl>
+<p>Coordinate transformations use the opposite order for the same effect. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a09cca15d6f3f6577a8a7a42127686849"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a09cca15d6f3f6577a8a7a42127686849">&#9670;&nbsp;</a></span>TemplateTransform() <span class="overload">[1/2]</span></h2>
+<a id="a5629723acf1ddec5e388dee541c7c728"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5629723acf1ddec5e388dee541c7c728">&#9670;&nbsp;</a></span>TemplateTransform() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -163,7 +167,13 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>scale_y</em>&#160;</td>
+          <td class="paramname"><em>scale_y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>shear</em> = <code>0.0</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -297,7 +307,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Rotation in radians. </p>
+<p>Rotation in radians, a positive rotation is counter-clockwise. </p>
 
 </div>
 </div>
@@ -313,7 +323,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Scaling in x direction (relative to 1 mm on map) </p>
+<p>Scaling in x direction, smaller than 1 shrinks. </p>
 
 </div>
 </div>
@@ -329,7 +339,23 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Scaling in y direction (relative to 1 mm on map) </p>
+<p>Scaling in y direction, smaller than 1 shrinks. </p>
+
+</div>
+</div>
+<a id="ac195d0e52bfd36a57d42de0a447709c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac195d0e52bfd36a57d42de0a447709c4">&#9670;&nbsp;</a></span>template_shear</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double OpenOrienteering::TemplateTransform::template_shear = 0.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adjustment to scaling if anisotropy is askew. </p>
 
 </div>
 </div>
@@ -366,8 +392,8 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
-<li>src/templates/<a class="el" href="template_8h.html">template.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/5221492/src/templates/template.h"><tt>5221492</tt></a> on 19 Aug 2019)</li>
-<li>src/templates/<a class="el" href="template_8cpp.html">template.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/5221492/src/templates/template.cpp"><tt>5221492</tt></a> on 19 Aug 2019)</li>
+<li>src/templates/<a class="el" href="template_8h.html">template.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/3a54835/src/templates/template.h"><tt>3a54835</tt></a> on 8 Oct 2019)</li>
+<li>src/templates/<a class="el" href="template_8cpp.html">template.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/3a54835/src/templates/template.cpp"><tt>3a54835</tt></a> on 8 Oct 2019)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -12,7 +12,7 @@ var searchData=
   ['paintenginefeatures',['PaintEngineFeatures',['http://doc.qt.io/qt-5/qpaintengine.html#PaintEngineFeature-enum',1,'QPaintEngine']]],
   ['paintenginetype',['PaintEngineType',['../classAdvancedPdfEngine.html#a74926ce0d1d0499e1607e4d2341b9144',1,'AdvancedPdfEngine']]],
   ['paper_5fdimensions',['paper_dimensions',['../classOpenOrienteering_1_1MapPrinterPageFormat.html#ab38b1a03a01b67c17df7efc736039e90',1,'OpenOrienteering::MapPrinterPageFormat']]],
-  ['papersize',['paperSize',['../classAdvancedPdfEnginePrivate.html#a9d7092eceac7dbeb3007ccbeace7ee15',1,'AdvancedPdfEnginePrivate::paperSize()'],['http://doc.qt.io/qt-5/qprinter.html#PaperSize-typedef',1,'QPrinter::PaperSize()']]],
+  ['papersize',['PaperSize',['http://doc.qt.io/qt-5/qprinter.html#PaperSize-typedef',1,'QPrinter']]],
   ['para_5fspacing',['para_spacing',['../structOcd_1_1SpecialTextAttributesV8.html#a3c455a9570eb14a5258ff479b19378fa',1,'Ocd::SpecialTextAttributesV8']]],
   ['paragraph_5fend',['paragraph_end',['../structOpenOrienteering_1_1TextObjectLineInfo.html#a258b51462c622d83b12cf7d7cd1591e5',1,'OpenOrienteering::TextObjectLineInfo']]],
   ['paragraph_5fspacing',['paragraph_spacing',['../classOpenOrienteering_1_1TextSymbol.html#a3d0bc77dece224a0d30a7ff110959c62',1,'OpenOrienteering::TextSymbol']]],

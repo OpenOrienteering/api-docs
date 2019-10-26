@@ -71,7 +71,7 @@ $(function() {
 <div class="title">rotate_pattern_tool.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/6fd4304/src/tools/rotate_pattern_tool.cpp"><tt>6fd4304</tt></a> on 5 Jan 2018)</h3><div class="textblock"><code>#include &quot;<a class="el" href="rotate__pattern__tool_8h.html">rotate_pattern_tool.h</a>&quot;</code><br />
+<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/5390008/src/tools/rotate_pattern_tool.cpp"><tt>5390008</tt></a> on 3 Oct 2019)</h3><div class="textblock"><code>#include &quot;<a class="el" href="rotate__pattern__tool_8h.html">rotate_pattern_tool.h</a>&quot;</code><br />
 <code>#include &lt;cmath&gt;</code><br />
 <code>#include &lt;memory&gt;</code><br />
 <code>#include &lt;Qt&gt;</code><br />
@@ -90,7 +90,6 @@ $(function() {
 <code>#include &quot;<a class="el" href="map__widget_8h.html">gui/map/map_widget.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="object_8h.html">core/objects/object.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="symbol_8h.html">core/symbols/symbol.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="point__symbol_8h.html">core/symbols/point_symbol.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="modifier__key_8h.html">gui/modifier_key.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="tool_8h.html">tools/tool.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="tool__helpers_8h.html">tools/tool_helpers.h</a>&quot;</code><br />
@@ -100,20 +99,19 @@ Include dependency graph for rotate_pattern_tool.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="rotate__pattern__tool_8cpp__incl.png" border="0" usemap="#src_2tools_2rotate__pattern__tool_8cpp" alt=""/></div>
 <map name="src_2tools_2rotate__pattern__tool_8cpp" id="src_2tools_2rotate__pattern__tool_8cpp">
-<area shape="rect" id="node2" href="rotate__pattern__tool_8h.html" title="rotate_pattern_tool.h" alt="" coords="3379,95,3520,121"/>
-<area shape="rect" id="node15" href="map__coord_8h.html" title="core/map_coord.h" alt="" coords="3186,333,3313,360"/>
-<area shape="rect" id="node20" href="object_8h.html" title="core/objects/object.h" alt="" coords="2295,251,2438,278"/>
-<area shape="rect" id="node23" href="symbol_8h.html" title="core/symbols/symbol.h" alt="" coords="1504,333,1661,360"/>
-<area shape="rect" id="node27" href="tool_8h.html" title="tools/tool.h" alt="" coords="3595,251,3682,278"/>
-<area shape="rect" id="node35" href="map_8h.html" title="core/map.h" alt="" coords="1309,251,1395,278"/>
-<area shape="rect" id="node43" href="map__widget_8h.html" title="gui/map/map_widget.h" alt="" coords="2954,251,3107,278"/>
-<area shape="rect" id="node47" href="point__symbol_8h.html" title="core/symbols/point\l_symbol.h" alt="" coords="1579,244,1711,285"/>
-<area shape="rect" id="node48" href="modifier__key_8h.html" title="gui/modifier_key.h" alt="" coords="4039,333,4167,360"/>
-<area shape="rect" id="node49" href="tool__helpers_8h.html" title="tools/tool_helpers.h" alt="" coords="1935,251,2070,278"/>
-<area shape="rect" id="node50" href="util_8h.html" title="util/util.h" alt="" coords="4394,333,4465,360"/>
-<area shape="rect" id="node5" href="tool__base_8h.html" title="tools/tool_base.h" alt="" coords="3389,169,3510,196"/>
-<area shape="rect" id="node41" href="map__grid_8h.html" title="core/map_grid.h" alt="" coords="195,333,309,360"/>
-<area shape="rect" id="node42" href="map__part_8h.html" title="core/map_part.h" alt="" coords="1147,333,1263,360"/>
+<area shape="rect" id="node2" href="rotate__pattern__tool_8h.html" title="rotate_pattern_tool.h" alt="" coords="3335,95,3476,121"/>
+<area shape="rect" id="node14" href="map__coord_8h.html" title="core/map_coord.h" alt="" coords="2601,319,2727,345"/>
+<area shape="rect" id="node21" href="object_8h.html" title="core/objects/object.h" alt="" coords="2273,244,2415,271"/>
+<area shape="rect" id="node24" href="symbol_8h.html" title="core/symbols/symbol.h" alt="" coords="1997,319,2155,345"/>
+<area shape="rect" id="node28" href="tool_8h.html" title="tools/tool.h" alt="" coords="3474,244,3561,271"/>
+<area shape="rect" id="node36" href="map_8h.html" title="core/map.h" alt="" coords="1306,244,1393,271"/>
+<area shape="rect" id="node45" href="map__widget_8h.html" title="gui/map/map_widget.h" alt="" coords="2587,244,2741,271"/>
+<area shape="rect" id="node48" href="modifier__key_8h.html" title="gui/modifier_key.h" alt="" coords="4000,319,4128,345"/>
+<area shape="rect" id="node49" href="tool__helpers_8h.html" title="tools/tool_helpers.h" alt="" coords="1927,244,2062,271"/>
+<area shape="rect" id="node50" href="util_8h.html" title="util/util.h" alt="" coords="2803,319,2874,345"/>
+<area shape="rect" id="node5" href="tool__base_8h.html" title="tools/tool_base.h" alt="" coords="3226,169,3347,196"/>
+<area shape="rect" id="node43" href="map__grid_8h.html" title="core/map_grid.h" alt="" coords="651,319,765,345"/>
+<area shape="rect" id="node44" href="map__part_8h.html" title="core/map_part.h" alt="" coords="1195,319,1311,345"/>
 </map>
 </div>
 </div><table class="memberdecls">

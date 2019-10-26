@@ -129,9 +129,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab81e895673f5bf6507ea80c78015d8f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOpenOrienteering_1_1AreaSymbol_1_1FillPattern.html#ab81e895673f5bf6507ea80c78015d8f7">save</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qxmlstreamwriter.html">QXmlStreamWriter</a> &amp;file, const <a class="el" href="classOpenOrienteering_1_1Map.html">Map</a> &amp;map) const</td></tr>
 <tr class="memdesc:ab81e895673f5bf6507ea80c78015d8f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the pattern in xml format.  <a href="#ab81e895673f5bf6507ea80c78015d8f7">More...</a><br /></td></tr>
 <tr class="separator:ab81e895673f5bf6507ea80c78015d8f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ed375a0dd6c11de7c758a7a6a77890f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOpenOrienteering_1_1AreaSymbol_1_1FillPattern.html#a9ed375a0dd6c11de7c758a7a6a77890f">load</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qxmlstreamreader.html">QXmlStreamReader</a> &amp;xml, const <a class="el" href="classOpenOrienteering_1_1Map.html">Map</a> &amp;map, <a class="el" href="namespaceOpenOrienteering.html#ac971c0cccaac4dfd791edee4ec2ff610">SymbolDictionary</a> &amp;symbol_dict)</td></tr>
-<tr class="memdesc:a9ed375a0dd6c11de7c758a7a6a77890f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the pattern in xml format.  <a href="#a9ed375a0dd6c11de7c758a7a6a77890f">More...</a><br /></td></tr>
-<tr class="separator:a9ed375a0dd6c11de7c758a7a6a77890f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e4b1312f410c36f3246aa0a509af575"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOpenOrienteering_1_1AreaSymbol_1_1FillPattern.html#a3e4b1312f410c36f3246aa0a509af575">load</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qxmlstreamreader.html">QXmlStreamReader</a> &amp;xml, const <a class="el" href="classOpenOrienteering_1_1Map.html">Map</a> &amp;map, <a class="el" href="namespaceOpenOrienteering.html#ac971c0cccaac4dfd791edee4ec2ff610">SymbolDictionary</a> &amp;symbol_dict, int version)</td></tr>
+<tr class="memdesc:a3e4b1312f410c36f3246aa0a509af575"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the pattern in xml format.  <a href="#a3e4b1312f410c36f3246aa0a509af575">More...</a><br /></td></tr>
+<tr class="separator:a3e4b1312f410c36f3246aa0a509af575"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2376e469661433e133e1c842c19cf4e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOpenOrienteering_1_1AreaSymbol_1_1FillPattern.html#a2376e469661433e133e1c842c19cf4e4">equals</a> (const <a class="el" href="structOpenOrienteering_1_1AreaSymbol_1_1FillPattern.html">FillPattern</a> &amp;other, Qt::CaseSensitivity case_sensitivity) const</td></tr>
 <tr class="memdesc:a2376e469661433e133e1c842c19cf4e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the pattern settings are equal to the other.  <a href="#a2376e469661433e133e1c842c19cf4e4">More...</a><br /></td></tr>
 <tr class="separator:a2376e469661433e133e1c842c19cf4e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -655,8 +655,8 @@ template&lt;int T&gt; </div>
 
 </div>
 </div>
-<a id="a9ed375a0dd6c11de7c758a7a6a77890f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ed375a0dd6c11de7c758a7a6a77890f">&#9670;&nbsp;</a></span>load()</h2>
+<a id="a3e4b1312f410c36f3246aa0a509af575"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e4b1312f410c36f3246aa0a509af575">&#9670;&nbsp;</a></span>load()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -677,7 +677,13 @@ template&lt;int T&gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="namespaceOpenOrienteering.html#ac971c0cccaac4dfd791edee4ec2ff610">SymbolDictionary</a> &amp;&#160;</td>
-          <td class="paramname"><em>symbol_dict</em>&#160;</td>
+          <td class="paramname"><em>symbol_dict</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>version</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -822,7 +828,7 @@ template&lt;int T&gt; </div>
 </div><div class="memdoc">
 
 <p>Rotation angle in radians. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>Switch to qreal when legacy native file format is dropped. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000025">Todo:</a></b></dt><dd>Switch to qreal when legacy native file format is dropped. </dd></dl>
 
 </div>
 </div>
@@ -987,8 +993,8 @@ template&lt;int T&gt; </div>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
-<li>src/core/symbols/<a class="el" href="area__symbol_8h.html">area_symbol.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/9169056/src/core/symbols/area_symbol.h"><tt>9169056</tt></a> on 6 Feb 2019)</li>
-<li>src/core/symbols/<a class="el" href="area__symbol_8cpp.html">area_symbol.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/95cbc3e/src/core/symbols/area_symbol.cpp"><tt>95cbc3e</tt></a> on 2 Feb 2018)</li>
+<li>src/core/symbols/<a class="el" href="area__symbol_8h.html">area_symbol.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/6261473/src/core/symbols/area_symbol.h"><tt>6261473</tt></a> on 3 Oct 2019)</li>
+<li>src/core/symbols/<a class="el" href="area__symbol_8cpp.html">area_symbol.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/6261473/src/core/symbols/area_symbol.cpp"><tt>6261473</tt></a> on 3 Oct 2019)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

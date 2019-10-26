@@ -165,6 +165,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9bb8f6fffc212fb51df824408ce0f3f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1Object.html#a9bb8f6fffc212fb51df824408ce0f3f8">save</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qxmlstreamwriter.html">QXmlStreamWriter</a> &amp;xml) const</td></tr>
 <tr class="memdesc:a9bb8f6fffc212fb51df824408ce0f3f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the object in xml format to the given stream.  <a href="#a9bb8f6fffc212fb51df824408ce0f3f8">More...</a><br /></td></tr>
 <tr class="separator:a9bb8f6fffc212fb51df824408ce0f3f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1d1adfb22b09a1669fbeb159cf42068"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1Object.html#ad1d1adfb22b09a1669fbeb159cf42068">getRotation</a> () const</td></tr>
+<tr class="memdesc:ad1d1adfb22b09a1669fbeb159cf42068"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the rotation for this object (in radians).  <a href="#ad1d1adfb22b09a1669fbeb159cf42068">More...</a><br /></td></tr>
+<tr class="separator:ad1d1adfb22b09a1669fbeb159cf42068"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb2a6aeb67dc11cd5b372d56762479fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1Object.html#adb2a6aeb67dc11cd5b372d56762479fe">setRotation</a> (qreal new_rotation)</td></tr>
+<tr class="memdesc:adb2a6aeb67dc11cd5b372d56762479fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the object's rotation (in radians).  <a href="#adb2a6aeb67dc11cd5b372d56762479fe">More...</a><br /></td></tr>
+<tr class="separator:adb2a6aeb67dc11cd5b372d56762479fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a002d237ca7512e02c1122408597ca1c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1Object.html#a002d237ca7512e02c1122408597ca1c5">update</a> () const</td></tr>
 <tr class="memdesc:a002d237ca7512e02c1122408597ca1c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the output_dirty flag is set, regenerates output and extent, and updates the object's map (if set).  <a href="#a002d237ca7512e02c1122408597ca1c5">More...</a><br /></td></tr>
 <tr class="separator:a002d237ca7512e02c1122408597ca1c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -273,11 +279,11 @@ Protected Member Functions</h2></td></tr>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:abe699a6d3129219a210e189cdc693767"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classOpenOrienteering_1_1Object.html#aaf8c0dd228d755427c80bae59faafb9e">Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1Object.html#abe699a6d3129219a210e189cdc693767">type</a></td></tr>
 <tr class="separator:abe699a6d3129219a210e189cdc693767"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21a642e02ccb1422dbef19cea0bbaa25"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classOpenOrienteering_1_1Symbol.html">Symbol</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1Object.html#a21a642e02ccb1422dbef19cea0bbaa25">symbol</a></td></tr>
+<tr class="memitem:a21a642e02ccb1422dbef19cea0bbaa25"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classOpenOrienteering_1_1Symbol.html">Symbol</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1Object.html#a21a642e02ccb1422dbef19cea0bbaa25">symbol</a> = nullptr</td></tr>
 <tr class="separator:a21a642e02ccb1422dbef19cea0bbaa25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0d1e7ed723915276d20d41dd1350a26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceOpenOrienteering.html#ac8aea12f3a2b91e0084ffccffd9fe417">MapCoordVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1Object.html#af0d1e7ed723915276d20d41dd1350a26">coords</a></td></tr>
 <tr class="separator:af0d1e7ed723915276d20d41dd1350a26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4422a0d18f8dcc251f61b28d8b01391"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classOpenOrienteering_1_1Map.html">Map</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1Object.html#ae4422a0d18f8dcc251f61b28d8b01391">map</a></td></tr>
+<tr class="memitem:ae4422a0d18f8dcc251f61b28d8b01391"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classOpenOrienteering_1_1Map.html">Map</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1Object.html#ae4422a0d18f8dcc251f61b28d8b01391">map</a> = nullptr</td></tr>
 <tr class="separator:ae4422a0d18f8dcc251f61b28d8b01391"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6ae21d337c6e62f1a8f2e556a06c43c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classOpenOrienteering_1_1Object.html#a2b0f91f61b765fd31d1f35968525a01a">Tags</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1Object.html#ab6ae21d337c6e62f1a8f2e556a06c43c">object_tags</a></td></tr>
 <tr class="separator:ab6ae21d337c6e62f1a8f2e556a06c43c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -476,7 +482,7 @@ Friends</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -742,7 +748,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Checks for equality with another object. </p>
-<p>If compare_symbol is set, also the symbols are compared for having the same properties. </p>
+<p>If compare_symbol is set, also the symbols are compared for having the same properties. Note that the map property is not compared. </p>
 
 </div>
 </div>
@@ -882,6 +888,34 @@ Friends</h2></td></tr>
 
 <p>Returns the raw MapCoordVector of the object. </p>
 <p>It's layout and interpretation depends on the object type. </p>
+
+</div>
+</div>
+<a id="ad1d1adfb22b09a1669fbeb159cf42068"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1d1adfb22b09a1669fbeb159cf42068">&#9670;&nbsp;</a></span>getRotation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal OpenOrienteering::Object::getRotation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the rotation for this object (in radians). </p>
+<p>The interpretation of this value depends the object's symbol. </p>
 
 </div>
 </div>
@@ -1295,7 +1329,6 @@ Friends</h2></td></tr>
 
 <p>Rotates the whole object around the center (0, 0). </p>
 <p>The angle must be given in radians. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000017">Todo:</a></b></dt><dd>range-for loop </dd></dl>
 
 </div>
 </div>
@@ -1327,7 +1360,6 @@ Friends</h2></td></tr>
 
 <p>Rotates the whole object around the center point. </p>
 <p>The angle must be given in radians. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000016">Todo:</a></b></dt><dd>range-for loop </dd></dl>
 
 </div>
 </div>
@@ -1348,7 +1380,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Saves the object in xml format to the given stream. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000014">Todo:</a></b></dt><dd>Save box size separately </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000014">Todo:</a></b></dt><dd>From Mapper 1.0, save just the single anchor coordinate. </dd></dl>
 
 </div>
 </div>
@@ -1493,6 +1525,27 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Sets the object output's dirty state. </p>
+
+</div>
+</div>
+<a id="adb2a6aeb67dc11cd5b372d56762479fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb2a6aeb67dc11cd5b372d56762479fe">&#9670;&nbsp;</a></span>setRotation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OpenOrienteering::Object::setRotation </td>
+          <td>(</td>
+          <td class="paramtype">qreal&#160;</td>
+          <td class="paramname"><em>new_rotation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the object's rotation (in radians). </p>
+<p>The interpretation of this value depends the object's symbol. It may have no effect at all. The value must not be NaN. </p>
 
 </div>
 </div>
@@ -1648,7 +1701,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Apply a transformation to all coordinates. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000020">Todo:</a></b></dt><dd>Handle rotation of patterns or text (?) </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000018">Todo:</a></b></dt><dd>Handle rotation of patterns or text (?) </dd></dl>
 
 <p>Implemented in <a class="el" href="classOpenOrienteering_1_1PointObject.html#ad6ad6366a839880ca4bf2b263f07dfff">OpenOrienteering::PointObject</a>, <a class="el" href="classOpenOrienteering_1_1PathObject.html#ac36ef33374f6de516813b88a800422c5">OpenOrienteering::PathObject</a>, and <a class="el" href="classOpenOrienteering_1_1TextObject.html#ae82be446f98160c555fc27080bc50b2d">OpenOrienteering::TextObject</a>.</p>
 
@@ -1828,7 +1881,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classOpenOrienteering_1_1Map.html">Map</a>* OpenOrienteering::Object::map</td>
+          <td class="memname"><a class="el" href="classOpenOrienteering_1_1Map.html">Map</a>* OpenOrienteering::Object::map = nullptr</td>
         </tr>
       </table>
   </td>
@@ -1872,7 +1925,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classOpenOrienteering_1_1Symbol.html">Symbol</a>* OpenOrienteering::Object::symbol</td>
+          <td class="memname">const <a class="el" href="classOpenOrienteering_1_1Symbol.html">Symbol</a>* OpenOrienteering::Object::symbol = nullptr</td>
         </tr>
       </table>
   </td>
@@ -1907,8 +1960,8 @@ Friends</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/core/objects/<a class="el" href="object_8h.html">object.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/9169056/src/core/objects/object.h"><tt>9169056</tt></a> on 6 Feb 2019)</li>
-<li>src/core/objects/<a class="el" href="object_8cpp.html">object.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/31b26a6/src/core/objects/object.cpp"><tt>31b26a6</tt></a> on 9 Sep 2018)</li>
+<li>src/core/objects/<a class="el" href="object_8h.html">object.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/c0c3bc8/src/core/objects/object.h"><tt>c0c3bc8</tt></a> on 7 Oct 2019)</li>
+<li>src/core/objects/<a class="el" href="object_8cpp.html">object.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/c0c3bc8/src/core/objects/object.cpp"><tt>c0c3bc8</tt></a> on 7 Oct 2019)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

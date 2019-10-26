@@ -1,7 +1,6 @@
 var searchData=
 [
   ['label',['label',['../structOpenOrienteering_1_1CombinedSymbolSettings_1_1Widgets.html#a04254b31ab764185d075598cb9d4e79b',1,'OpenOrienteering::CombinedSymbolSettings::Widgets']]],
-  ['landscape',['landscape',['../classAdvancedPdfEnginePrivate.html#a505b8d199725c2ea3d4ca291fadc43f2',1,'AdvancedPdfEnginePrivate']]],
   ['language',['language',['../classOpenOrienteering_1_1TranslationUtil.html#a4661435367bdffc9a62a484ee8b50b41',1,'OpenOrienteering::TranslationUtil::language()'],['../structSymbolSetTool_1_1TranslationEntry_1_1Translation.html#a4f5542e4e48597611bfb1c1a85c6f7a3',1,'SymbolSetTool::TranslationEntry::Translation::language()']]],
   ['language_5fcombo',['language_combo',['../classOpenOrienteering_1_1ColorDialog.html#a9fb607544f5450f23241a5225ab69a61',1,'OpenOrienteering::ColorDialog::language_combo()'],['../classOpenOrienteering_1_1SymbolPropertiesWidget.html#a9a323582326908193aaadc5f5b19345e',1,'OpenOrienteering::SymbolPropertiesWidget::language_combo()']]],
   ['last_5findex',['last_index',['../classOpenOrienteering_1_1VirtualPath.html#a9b88fdc75c1442873e0cf3f820913957',1,'OpenOrienteering::VirtualPath']]],
@@ -13,7 +12,6 @@ var searchData=
   ['layout_5ffont_5fv11_5fonly',['layout_font_V11_ONLY',['../structOcd_1_1ObjectIndexEntryV9.html#a8617a5bccc819096fdeee3373c69e5ef',1,'Ocd::ObjectIndexEntryV9']]],
   ['layoutflags',['LayoutFlags',['http://doc.qt.io/qt-5/qrawfont.html#LayoutFlag-enum',1,'QRawFont']]],
   ['left_5fmouse_5fdown',['left_mouse_down',['../classOpenOrienteering_1_1DrawPathTool.html#aa52b120c081170b90bf007377e5924fd',1,'OpenOrienteering::DrawPathTool']]],
-  ['leftmargin',['leftMargin',['../classAdvancedPdfEnginePrivate.html#a6fed3c68e0fffcc98aea860e69d7956e',1,'AdvancedPdfEnginePrivate']]],
   ['length',['length',['../structOpenOrienteering_1_1PathObject_1_1Intersection.html#aa7285cf45e0472a92d5e52bc8aab8e61',1,'OpenOrienteering::PathObject::Intersection::length()'],['../structOcd_1_1PascalString.html#aef89cb2a45de8a7e498f513bcc090207',1,'Ocd::PascalString::length()'],['../structOcd_1_1Utf8PascalString.html#a1267d86f3a87e6f07852effbd7872468',1,'Ocd::Utf8PascalString::length()']]],
   ['line_5f0_5foffset',['line_0_offset',['../classOpenOrienteering_1_1AzimuthInfoHelper.html#ae9598cb22f9eceab326a0ceda36df336',1,'OpenOrienteering::AzimuthInfoHelper']]],
   ['line_5f1_5foffset',['line_1_offset',['../classOpenOrienteering_1_1AzimuthInfoHelper.html#a37071d451eba412daa319d94fdf096f6',1,'OpenOrienteering::AzimuthInfoHelper']]],

@@ -1,7 +1,7 @@
 var searchData=
 [
   ['paintermode',['PainterMode',['../classOpenOrienteering_1_1PainterConfig.html#aa290e083a3bcf334ad1f282c793b2925',1,'OpenOrienteering::PainterConfig']]],
-  ['pathflags',['PathFlags',['../namespaceAdvancedPdf.html#a89d536db20ebf479f5680227d5807924',1,'AdvancedPdf::PathFlags()'],['../namespaceAdvancedPdf.html#a89d536db20ebf479f5680227d5807924',1,'AdvancedPdf::PathFlags()'],['../namespaceAdvancedPdf.html#a89d536db20ebf479f5680227d5807924',1,'AdvancedPdf::PathFlags()'],['../namespaceAdvancedPdf.html#a89d536db20ebf479f5680227d5807924',1,'AdvancedPdf::PathFlags()']]],
+  ['pathflags',['PathFlags',['../namespaceAdvancedPdf.html#a89d536db20ebf479f5680227d5807924',1,'AdvancedPdf::PathFlags()'],['../namespaceAdvancedPdf.html#a89d536db20ebf479f5680227d5807924',1,'AdvancedPdf::PathFlags()']]],
   ['pdfversion',['PdfVersion',['../classAdvancedPdfEngine.html#aff9af296f17fa1783c093f0426f5bbad',1,'AdvancedPdfEngine']]],
   ['permissionresult',['PermissionResult',['../namespaceAppPermissions.html#ab6b8eab775c6d10d7a528450c34d85a2',1,'AppPermissions']]],
   ['pointhandlestate',['PointHandleState',['../classOpenOrienteering_1_1PointHandles.html#afe52dfec188b454955c0682bd4b27cd1',1,'OpenOrienteering::PointHandles']]],

@@ -67,6 +67,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classOpenOrienteering_1_1ObjectMover-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -79,6 +80,13 @@ $(function() {
 
 <p><code>#include &lt;object_mover.h&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a6d52b8cff6f474ff3fe4e6a30fc7af32"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1ObjectMover.html#a6d52b8cff6f474ff3fe4e6a30fc7af32">HandleOpMode</a> { <a class="el" href="classOpenOrienteering_1_1ObjectMover.html#a6d52b8cff6f474ff3fe4e6a30fc7af32a04420fe90091aac6c6403b7e9c93888d">Never</a>, 
+<a class="el" href="classOpenOrienteering_1_1ObjectMover.html#a6d52b8cff6f474ff3fe4e6a30fc7af32ad2db61a853d2a723611743f9e71a72ea">Click</a>
+ }</td></tr>
+<tr class="separator:a6d52b8cff6f474ff3fe4e6a30fc7af32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a70f958d17dffba959cea53d839db3bc7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1ObjectMover.html#a70f958d17dffba959cea53d839db3bc7">ObjectMover</a> (<a class="el" href="classOpenOrienteering_1_1Map.html">Map</a> *map, const <a class="el" href="classOpenOrienteering_1_1MapCoordF.html">MapCoordF</a> &amp;start_pos)</td></tr>
@@ -87,6 +95,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a69b3a97d017c7786dbb475ea8834a9e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1ObjectMover.html#a69b3a97d017c7786dbb475ea8834a9e7">setStartPos</a> (const <a class="el" href="classOpenOrienteering_1_1MapCoordF.html">MapCoordF</a> &amp;start_pos)</td></tr>
 <tr class="memdesc:a69b3a97d017c7786dbb475ea8834a9e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the start position.  <a href="#a69b3a97d017c7786dbb475ea8834a9e7">More...</a><br /></td></tr>
 <tr class="separator:a69b3a97d017c7786dbb475ea8834a9e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4baabb0f369492b45f708df94846e9c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1ObjectMover.html#a4baabb0f369492b45f708df94846e9c4">setCornerTolerance</a> (qreal corner_tolerance)</td></tr>
+<tr class="memdesc:a4baabb0f369492b45f708df94846e9c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets corner point tolerance.  <a href="#a4baabb0f369492b45f708df94846e9c4">More...</a><br /></td></tr>
+<tr class="separator:a4baabb0f369492b45f708df94846e9c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad70d6a143f6b18d119897be737a2ea60"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1ObjectMover.html#ad70d6a143f6b18d119897be737a2ea60">addObject</a> (<a class="el" href="classOpenOrienteering_1_1Object.html">Object</a> *<a class="el" href="fill__tool_8cpp.html#a7afbd819134bef626290e4ece88013be">object</a>)</td></tr>
 <tr class="memdesc:ad70d6a143f6b18d119897be737a2ea60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an object to the set of elements to move.  <a href="#ad70d6a143f6b18d119897be737a2ea60">More...</a><br /></td></tr>
 <tr class="separator:ad70d6a143f6b18d119897be737a2ea60"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -99,16 +110,37 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a651f683213696dd6b3613ac79602829c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1ObjectMover.html#a651f683213696dd6b3613ac79602829c">addTextHandle</a> (<a class="el" href="classOpenOrienteering_1_1TextObject.html">TextObject</a> *<a class="el" href="text__alignment__widget_8cpp.html#a16343090e80c4472521560f30113d96c">text</a>, MapCoordVector::size_type handle)</td></tr>
 <tr class="memdesc:a651f683213696dd6b3613ac79602829c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a text handle to the set of elements to move.  <a href="#a651f683213696dd6b3613ac79602829c">More...</a><br /></td></tr>
 <tr class="separator:a651f683213696dd6b3613ac79602829c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6bdc02e0fa354814e8ac1a47417dc1bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1ObjectMover.html#a6bdc02e0fa354814e8ac1a47417dc1bd">move</a> (const <a class="el" href="classOpenOrienteering_1_1MapCoordF.html">MapCoordF</a> &amp;cursor_pos, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> move_opposite_handles, qint32 *out_dx=nullptr, qint32 *out_dy=nullptr)</td></tr>
-<tr class="memdesc:a6bdc02e0fa354814e8ac1a47417dc1bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves the elements.  <a href="#a6bdc02e0fa354814e8ac1a47417dc1bd">More...</a><br /></td></tr>
-<tr class="separator:a6bdc02e0fa354814e8ac1a47417dc1bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9edf89b00529b0e6a15e45657c54b6be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1ObjectMover.html#a9edf89b00529b0e6a15e45657c54b6be">move</a> (qint32 dx, qint32 dy, <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> move_opposite_handles)</td></tr>
-<tr class="memdesc:a9edf89b00529b0e6a15e45657c54b6be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of <a class="el" href="classOpenOrienteering_1_1ObjectMover.html#a6bdc02e0fa354814e8ac1a47417dc1bd" title="Moves the elements. ">move()</a> taking delta values.  <a href="#a9edf89b00529b0e6a15e45657c54b6be">More...</a><br /></td></tr>
-<tr class="separator:a9edf89b00529b0e6a15e45657c54b6be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f1bf508859d858a0e6b694d2cfe1334"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1ObjectMover.html#a3f1bf508859d858a0e6b694d2cfe1334">move</a> (const <a class="el" href="classOpenOrienteering_1_1MapCoordF.html">MapCoordF</a> &amp;cursor_pos, <a class="el" href="classOpenOrienteering_1_1ObjectMover.html#a6d52b8cff6f474ff3fe4e6a30fc7af32">HandleOpMode</a> move_opposite_handles, qint32 *out_dx=nullptr, qint32 *out_dy=nullptr)</td></tr>
+<tr class="memdesc:a3f1bf508859d858a0e6b694d2cfe1334"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves the elements.  <a href="#a3f1bf508859d858a0e6b694d2cfe1334">More...</a><br /></td></tr>
+<tr class="separator:a3f1bf508859d858a0e6b694d2cfe1334"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af94476d233754b93188322c5c0112a43"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1ObjectMover.html#af94476d233754b93188322c5c0112a43">move</a> (qint32 dx, qint32 dy, <a class="el" href="classOpenOrienteering_1_1ObjectMover.html#a6d52b8cff6f474ff3fe4e6a30fc7af32">HandleOpMode</a> move_opposite_handles)</td></tr>
+<tr class="memdesc:af94476d233754b93188322c5c0112a43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of <a class="el" href="classOpenOrienteering_1_1ObjectMover.html#a3f1bf508859d858a0e6b694d2cfe1334" title="Moves the elements. ">move()</a> taking delta values.  <a href="#af94476d233754b93188322c5c0112a43">More...</a><br /></td></tr>
+<tr class="separator:af94476d233754b93188322c5c0112a43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Implements the logic to move sets of objects and / or object points for edit tools. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a6d52b8cff6f474ff3fe4e6a30fc7af32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d52b8cff6f474ff3fe4e6a30fc7af32">&#9670;&nbsp;</a></span>HandleOpMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classOpenOrienteering_1_1ObjectMover.html#a6d52b8cff6f474ff3fe4e6a30fc7af32">OpenOrienteering::ObjectMover::HandleOpMode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a6d52b8cff6f474ff3fe4e6a30fc7af32a04420fe90091aac6c6403b7e9c93888d"></a>Never&#160;</td><td class="fielddoc"><p>Never move opposite curve handles. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a6d52b8cff6f474ff3fe4e6a30fc7af32ad2db61a853d2a723611743f9e71a72ea"></a>Click&#160;</td><td class="fielddoc"><p>Move opposite handles once they get aligned in line, move them together from that point on. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a70f958d17dffba959cea53d839db3bc7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a70f958d17dffba959cea53d839db3bc7">&#9670;&nbsp;</a></span>ObjectMover()</h2>
 
@@ -250,8 +282,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a6bdc02e0fa354814e8ac1a47417dc1bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6bdc02e0fa354814e8ac1a47417dc1bd">&#9670;&nbsp;</a></span>move() <span class="overload">[1/2]</span></h2>
+<a id="a3f1bf508859d858a0e6b694d2cfe1334"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f1bf508859d858a0e6b694d2cfe1334">&#9670;&nbsp;</a></span>move() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -265,7 +297,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classOpenOrienteering_1_1ObjectMover.html#a6d52b8cff6f474ff3fe4e6a30fc7af32">HandleOpMode</a>&#160;</td>
           <td class="paramname"><em>move_opposite_handles</em>, </td>
         </tr>
         <tr>
@@ -291,7 +323,7 @@ Public Member Functions</h2></td></tr>
 <p>Moves the elements. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">move_opposite_handles</td><td>If false, opposite handles are reset to their original position. </td></tr>
+    <tr><td class="paramname">move_opposite_handles</td><td>Opposite curve handles either operate in "click in" mode or move independently. </td></tr>
     <tr><td class="paramname">out_dx</td><td>returns the move along the x coordinate in map units </td></tr>
     <tr><td class="paramname">out_dy</td><td>returns the move along the y coordinate in map units </td></tr>
   </table>
@@ -300,8 +332,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a9edf89b00529b0e6a15e45657c54b6be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9edf89b00529b0e6a15e45657c54b6be">&#9670;&nbsp;</a></span>move() <span class="overload">[2/2]</span></h2>
+<a id="af94476d233754b93188322c5c0112a43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af94476d233754b93188322c5c0112a43">&#9670;&nbsp;</a></span>move() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -321,7 +353,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classOpenOrienteering_1_1ObjectMover.html#a6d52b8cff6f474ff3fe4e6a30fc7af32">HandleOpMode</a>&#160;</td>
           <td class="paramname"><em>move_opposite_handles</em>&#160;</td>
         </tr>
         <tr>
@@ -332,7 +364,34 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Overload of <a class="el" href="classOpenOrienteering_1_1ObjectMover.html#a6bdc02e0fa354814e8ac1a47417dc1bd" title="Moves the elements. ">move()</a> taking delta values. </p>
+<p>Overload of <a class="el" href="classOpenOrienteering_1_1ObjectMover.html#a3f1bf508859d858a0e6b694d2cfe1334" title="Moves the elements. ">move()</a> taking delta values. </p>
+
+</div>
+</div>
+<a id="a4baabb0f369492b45f708df94846e9c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4baabb0f369492b45f708df94846e9c4">&#9670;&nbsp;</a></span>setCornerTolerance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OpenOrienteering::ObjectMover::setCornerTolerance </td>
+          <td>(</td>
+          <td class="paramtype">qreal&#160;</td>
+          <td class="paramname"><em>corner_tolerance</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets corner point tolerance. </p>
+<p>A curve anchor point is considered a corner point during editing when the moving curve handle is more than corner_tolerance away from the direction line set by the opposite handle.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">corner_tolerance</td><td>Maximum difference in vector directions in millimeters. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -357,8 +416,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/core/objects/<a class="el" href="object__mover_8h.html">object_mover.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/41ec83f/src/core/objects/object_mover.h"><tt>41ec83f</tt></a> on 9 Mar 2018)</li>
-<li>src/core/objects/<a class="el" href="object__mover_8cpp.html">object_mover.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/1003fee/src/core/objects/object_mover.cpp"><tt>1003fee</tt></a> on 9 Sep 2018)</li>
+<li>src/core/objects/<a class="el" href="object__mover_8h.html">object_mover.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/fdac3db/src/core/objects/object_mover.h"><tt>fdac3db</tt></a> on 11 Oct 2019)</li>
+<li>src/core/objects/<a class="el" href="object__mover_8cpp.html">object_mover.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/fdac3db/src/core/objects/object_mover.cpp"><tt>fdac3db</tt></a> on 11 Oct 2019)</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

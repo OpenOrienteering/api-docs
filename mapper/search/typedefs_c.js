@@ -22,6 +22,6 @@ var searchData=
   ['ocadstringentrycallback',['OCADStringEntryCallback',['../libocad_8h.html#ad521debe04bd707e5a158414abdf9724',1,'libocad.h']]],
   ['ocadsymbolcallback',['OCADSymbolCallback',['../libocad_8h.html#aa09906b6a246919f676ea14e38186aba',1,'libocad.h']]],
   ['ocadsymbolelementcallback',['OCADSymbolElementCallback',['../libocad_8h.html#ad5058fbf58ac762a359fe72cc08a14ca',1,'libocad.h']]],
-  ['offset',['Offset',['../qt-5_812_84_2qfontsubset_8cpp.html#ad3776d6f2799f988848a50fbd98e5720',1,'Offset():&#160;qfontsubset.cpp'],['../qt-5_82_81_2qfontsubset_8cpp.html#ad3776d6f2799f988848a50fbd98e5720',1,'Offset():&#160;qfontsubset.cpp'],['../qt-5_85_81_2qfontsubset_8cpp.html#ad3776d6f2799f988848a50fbd98e5720',1,'Offset():&#160;qfontsubset.cpp'],['../qt-5_86_83_2qfontsubset_8cpp.html#ad3776d6f2799f988848a50fbd98e5720',1,'Offset():&#160;qfontsubset.cpp']]],
+  ['offset',['Offset',['../qt-5_812_84_2qfontsubset_8cpp.html#ad3776d6f2799f988848a50fbd98e5720',1,'Offset():&#160;qfontsubset.cpp'],['../qt-5_85_81_2qfontsubset_8cpp.html#ad3776d6f2799f988848a50fbd98e5720',1,'Offset():&#160;qfontsubset.cpp']]],
   ['outputlist',['OutputList',['../classOpenOrienteering_1_1CRSTemplates_1_1IntRangeParameter.html#af2708a8cac59f36e8de1ae69c310137d',1,'OpenOrienteering::CRSTemplates::IntRangeParameter']]]
 ];

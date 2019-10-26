@@ -25,7 +25,6 @@ var searchData=
   ['border_5ftop_5fv9',['border_top_V9',['../structOcd_1_1FramingAttributesV8.html#a8f79f257b6dedb06aa57c0c99c7c3182',1,'Ocd::FramingAttributesV8']]],
   ['bottom_5fleft',['bottom_left',['../structOcd_1_1PrintSetupV8.html#a30916d0aeeb94d4ce6f7c36fbe25840b',1,'Ocd::PrintSetupV8::bottom_left()'],['../structOcd_1_1ExportSetupV8.html#a9ce4c9fec5a3eaf04003af1317475940',1,'Ocd::ExportSetupV8::bottom_left()']]],
   ['bottom_5fleft_5fbound',['bottom_left_bound',['../structOcd_1_1ObjectIndexEntryV8.html#a7221823c2de1a9e1a5c1d4f2a0bdba5d',1,'Ocd::ObjectIndexEntryV8::bottom_left_bound()'],['../structOcd_1_1ObjectIndexEntryV9.html#a071731b95f85e4c979d93d8c1b0dd7bc',1,'Ocd::ObjectIndexEntryV9::bottom_left_bound()']]],
-  ['bottommargin',['bottomMargin',['../classAdvancedPdfEnginePrivate.html#a3ef93e20141c298a17bd3dc4046fdbe2',1,'AdvancedPdfEnginePrivate']]],
   ['boundaryreasons',['BoundaryReasons',['http://doc.qt.io/qt-5/qtextboundaryfinder.html#BoundaryReason-enum',1,'QTextBoundaryFinder']]],
   ['bounding_5fbox',['bounding_box',['../classOpenOrienteering_1_1RenderConfig.html#aff096bf4c712d3cbf6abf07895269563',1,'OpenOrienteering::RenderConfig']]],
   ['box_5fselection',['box_selection',['../classOpenOrienteering_1_1EditPointTool.html#ae2878319cee26c2dad1933c564a86a59',1,'OpenOrienteering::EditPointTool']]],

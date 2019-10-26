@@ -71,7 +71,7 @@ $(function() {
 <div class="title">main_window.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/935d409/src/gui/main_window.cpp"><tt>935d409</tt></a> on 25 Aug 2019)</h3><div class="textblock"><code>#include &quot;<a class="el" href="main__window_8h.html">main_window.h</a>&quot;</code><br />
+<h3 class="version">(<a href="https://github.com/OpenOrienteering/mapper/blob/7341d2e/src/gui/main_window.cpp"><tt>7341d2e</tt></a> on 8 Oct 2019)</h3><div class="textblock"><code>#include &quot;<a class="el" href="main__window_8h.html">main_window.h</a>&quot;</code><br />
 <code>#include &lt;QApplication&gt;</code><br />
 <code>#include &lt;QCloseEvent&gt;</code><br />
 <code>#include &lt;QDesktopServices&gt;</code><br />
@@ -80,6 +80,7 @@ $(function() {
 <code>#include &lt;QLabel&gt;</code><br />
 <code>#include &lt;QMessageBox&gt;</code><br />
 <code>#include &lt;QMenuBar&gt;</code><br />
+<code>#include &lt;QScopedValueRollback&gt;</code><br />
 <code>#include &lt;QSettings&gt;</code><br />
 <code>#include &lt;QStackedWidget&gt;</code><br />
 <code>#include &lt;QStatusBar&gt;</code><br />
@@ -111,29 +112,29 @@ Include dependency graph for main_window.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="main__window_8cpp__incl.png" border="0" usemap="#src_2gui_2main__window_8cpp" alt=""/></div>
 <map name="src_2gui_2main__window_8cpp" id="src_2gui_2main__window_8cpp">
-<area shape="rect" id="node2" href="main__window_8h.html" title="main_window.h" alt="" coords="312,87,424,114"/>
-<area shape="rect" id="node10" href="file__format_8h.html" title="fileformats/file_format.h" alt="" coords="289,177,447,203"/>
-<area shape="rect" id="node25" href="mapper__config_8h.html" title="mapper_config.h" alt="" coords="3741,87,3859,114"/>
-<area shape="rect" id="node26" href="settings_8h.html" title="settings.h" alt="" coords="1402,177,1481,203"/>
-<area shape="rect" id="node29" href="map_8h.html" title="core/map.h" alt="" coords="1862,177,1949,203"/>
-<area shape="rect" id="node34" href="map__view_8h.html" title="core/map_view.h" alt="" coords="2902,177,3023,203"/>
-<area shape="rect" id="node35" href="symbol_8h.html" title="core/symbols/symbol.h" alt="" coords="675,177,832,203"/>
-<area shape="rect" id="node36" href="file__format__registry_8h.html" title="fileformats/file_format\l_registry.h" alt="" coords="945,80,1093,121"/>
-<area shape="rect" id="node37" href="file__import__export_8h.html" title="fileformats/file_import\l_export.h" alt="" coords="907,169,1053,211"/>
-<area shape="rect" id="node38" href="about__dialog_8h.html" title="gui/about_dialog.h" alt="" coords="2113,177,2239,203"/>
-<area shape="rect" id="node39" href="autosave__dialog_8h.html" title="gui/autosave_dialog.h" alt="" coords="1230,177,1378,203"/>
-<area shape="rect" id="node40" href="file__dialog_8h.html" title="gui/file_dialog.h" alt="" coords="1761,87,1873,114"/>
-<area shape="rect" id="node41" href="home__screen__controller_8h.html" title="gui/home_screen_controller.h" alt="" coords="3048,177,3240,203"/>
-<area shape="rect" id="node42" href="settings__dialog_8h.html" title="gui/settings_dialog.h" alt="" coords="2736,177,2877,203"/>
-<area shape="rect" id="node43" href="util__gui_8h.html" title="gui/util_gui.h" alt="" coords="1557,177,1651,203"/>
-<area shape="rect" id="node44" href="map__editor_8h.html" title="gui/map/map_editor.h" alt="" coords="1485,87,1632,114"/>
-<area shape="rect" id="node45" href="new__map__dialog_8h.html" title="gui/map/new_map_dialog.h" alt="" coords="2531,177,2711,203"/>
-<area shape="rect" id="node46" href="toast_8h.html" title="gui/widgets/toast.h" alt="" coords="3315,177,3447,203"/>
-<area shape="rect" id="node47" href="undo__manager_8h.html" title="undo/undo_manager.h" alt="" coords="1117,87,1267,114"/>
-<area shape="rect" id="node48" href="util_8h.html" title="util/util.h" alt="" coords="3471,177,3542,203"/>
-<area shape="rect" id="node49" href="backports_8h.html" title="util/backports.h" alt="" coords="1675,177,1786,203"/>
-<area shape="rect" id="node50" href="mapper__service__proxy_8h.html" title="util/mapper_service\l_proxy.h" alt="" coords="3883,80,4018,121"/>
-<area shape="rect" id="node9" href="autosave_8h.html" title="core/autosave.h" alt="" coords="1973,177,2088,203"/>
+<area shape="rect" id="node2" href="main__window_8h.html" title="main_window.h" alt="" coords="5,87,117,114"/>
+<area shape="rect" id="node10" href="file__format_8h.html" title="fileformats/file_format.h" alt="" coords="562,177,721,203"/>
+<area shape="rect" id="node26" href="mapper__config_8h.html" title="mapper_config.h" alt="" coords="1935,87,2054,114"/>
+<area shape="rect" id="node27" href="settings_8h.html" title="settings.h" alt="" coords="3078,177,3157,203"/>
+<area shape="rect" id="node30" href="map_8h.html" title="core/map.h" alt="" coords="3445,177,3531,203"/>
+<area shape="rect" id="node34" href="map__view_8h.html" title="core/map_view.h" alt="" coords="3299,177,3421,203"/>
+<area shape="rect" id="node35" href="symbol_8h.html" title="core/symbols/symbol.h" alt="" coords="2200,177,2357,203"/>
+<area shape="rect" id="node36" href="file__format__registry_8h.html" title="fileformats/file_format\l_registry.h" alt="" coords="666,80,814,121"/>
+<area shape="rect" id="node37" href="file__import__export_8h.html" title="fileformats/file_import\l_export.h" alt="" coords="2907,169,3053,211"/>
+<area shape="rect" id="node38" href="about__dialog_8h.html" title="gui/about_dialog.h" alt="" coords="1782,177,1909,203"/>
+<area shape="rect" id="node39" href="autosave__dialog_8h.html" title="gui/autosave_dialog.h" alt="" coords="999,177,1147,203"/>
+<area shape="rect" id="node40" href="file__dialog_8h.html" title="gui/file_dialog.h" alt="" coords="2129,87,2241,114"/>
+<area shape="rect" id="node41" href="home__screen__controller_8h.html" title="gui/home_screen_controller.h" alt="" coords="2589,177,2781,203"/>
+<area shape="rect" id="node42" href="settings__dialog_8h.html" title="gui/settings_dialog.h" alt="" coords="1933,177,2075,203"/>
+<area shape="rect" id="node43" href="util__gui_8h.html" title="gui/util_gui.h" alt="" coords="3181,177,3275,203"/>
+<area shape="rect" id="node44" href="map__editor_8h.html" title="gui/map/map_editor.h" alt="" coords="2796,87,2943,114"/>
+<area shape="rect" id="node45" href="new__map__dialog_8h.html" title="gui/map/new_map_dialog.h" alt="" coords="1578,177,1758,203"/>
+<area shape="rect" id="node46" href="toast_8h.html" title="gui/widgets/toast.h" alt="" coords="2382,177,2514,203"/>
+<area shape="rect" id="node47" href="undo__manager_8h.html" title="undo/undo_manager.h" alt="" coords="2469,87,2619,114"/>
+<area shape="rect" id="node48" href="util_8h.html" title="util/util.h" alt="" coords="3690,177,3761,203"/>
+<area shape="rect" id="node49" href="backports_8h.html" title="util/backports.h" alt="" coords="3555,177,3666,203"/>
+<area shape="rect" id="node50" href="mapper__service__proxy_8h.html" title="util/mapper_service\l_proxy.h" alt="" coords="3322,80,3457,121"/>
+<area shape="rect" id="node9" href="autosave_8h.html" title="core/autosave.h" alt="" coords="1388,177,1503,203"/>
 </map>
 </div>
 </div><table class="memberdecls">

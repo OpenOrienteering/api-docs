@@ -5,6 +5,7 @@ var searchData=
   ['centerofdashgroup',['CenterOfDashGroup',['../classOpenOrienteering_1_1LineSymbol.html#ab5a04a4ea50a31ef1b1b17cc067c3de7ab76b35866a74a62c975f6d0ca7e69796',1,'OpenOrienteering::LineSymbol']]],
   ['centerofgap',['CenterOfGap',['../classOpenOrienteering_1_1LineSymbol.html#ab5a04a4ea50a31ef1b1b17cc067c3de7aecf8f469848723af0f4ba548e4325eb2',1,'OpenOrienteering::LineSymbol']]],
   ['circle',['Circle',['../classOpenOrienteering_1_1CutHoleTool.html#aa532ca32747c50a6977a398d49d082dda481d1d47dbc48486d275166feb39766a',1,'OpenOrienteering::CutHoleTool']]],
+  ['click',['Click',['../classOpenOrienteering_1_1ObjectMover.html#a6d52b8cff6f474ff3fe4e6a30fc7af32ad2db61a853d2a723611743f9e71a72ea',1,'OpenOrienteering::ObjectMover']]],
   ['clippath',['ClipPath',['../namespaceAdvancedPdf.html#a89d536db20ebf479f5680227d5807924a43c4527b89ea418d1021c2768f016a58',1,'AdvancedPdf']]],
   ['closepath',['ClosePath',['../libocad_8h.html#a1fb54a218a6decbab97714c09830ceb1a6b5fc6331a527382e273a61e618053e0',1,'libocad.h']]],
   ['closepoint',['ClosePoint',['../classOpenOrienteering_1_1MapCoord.html#a2d36a7dda6f4b491dd23678436b0aa4fa19cf032ff707257ff075b3c0d8033d81',1,'OpenOrienteering::MapCoord']]],

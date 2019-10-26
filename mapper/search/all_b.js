@@ -55,7 +55,7 @@ var searchData=
   ['keyvalues',['KeyValues',['http://doc.qt.io/qt-5/qvariantanimation.html#KeyValues-typedef',1,'QVariantAnimation::KeyValues()'],['http://doc.qt.io/qt-5/qvariantanimation.html#keyValues',1,'QVariantAnimation::keyValues() const const']]],
   ['kill',['kill',['http://doc.qt.io/qt-5/qprocess.html#kill',1,'QProcess']]],
   ['killtimer',['killTimer',['http://doc.qt.io/qt-5/qobject.html#killTimer',1,'QObject']]],
-  ['knockout',['Knockout',['../classOpenOrienteering_1_1MapColor.html#af35a68188f7820d4e85fcb91e33c106fa00a0747846e2b4a5321807da6defdc03',1,'OpenOrienteering::MapColor::Knockout()'],['../structOpenOrienteering_1_1XMLFileImporterColorBacklogItem.html#a9496652b559f1f08ace0322a468f0eae',1,'OpenOrienteering::XMLFileImporterColorBacklogItem::knockout()']]],
+  ['knockout',['Knockout',['../classOpenOrienteering_1_1MapColor.html#af35a68188f7820d4e85fcb91e33c106fa00a0747846e2b4a5321807da6defdc03',1,'OpenOrienteering::MapColor::Knockout()'],['../xml__file__format_8cpp.html#a65aa50f22af45db8aa8c7c79890f9980',1,'knockout():&#160;xml_file_format.cpp']]],
   ['knockout_5foption',['knockout_option',['../classOpenOrienteering_1_1ColorDialog.html#a9b1476ea1656a5805718d30661047e92',1,'OpenOrienteering::ColorDialog']]],
   ['knockoutchanged',['knockoutChanged',['../classOpenOrienteering_1_1ColorDialog.html#ab77ceb6ecdd6ab1d1cb26c354a295b8e',1,'OpenOrienteering::ColorDialog']]],
   ['knownlocations',['knownLocations',['../classOpenOrienteering_1_1StorageLocation.html#a6b910787a47fc54df2be2e7092f43873',1,'OpenOrienteering::StorageLocation']]]

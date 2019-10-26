@@ -10,6 +10,7 @@ var searchData=
   ['spotcolorcomponents',['SpotColorComponents',['../namespaceOpenOrienteering.html#a0542a57db65153d21490a39752d78407',1,'OpenOrienteering']]],
   ['steplist',['StepList',['../classOpenOrienteering_1_1UndoManager.html#a2d04b7f4df94ae913994cee8359d1efb',1,'OpenOrienteering::UndoManager']]],
   ['str',['str',['../libocad_8h.html#abf41691f50dd33bc178b7c1829b7d048',1,'libocad.h']]],
+  ['stringbuffer',['StringBuffer',['../classOpenOrienteering_1_1MapCoord.html#a8870341bd6640be1100b0eb56baa93df',1,'OpenOrienteering::MapCoord']]],
   ['stringindex',['StringIndex',['../classOcdFile.html#a2e273e453b538d78a4366cfc78c8bd91',1,'OcdFile']]],
   ['symboldictionary',['SymbolDictionary',['../namespaceOpenOrienteering.html#ac971c0cccaac4dfd791edee4ec2ff610',1,'OpenOrienteering']]],
   ['symbolindex',['SymbolIndex',['../classOcdFile.html#a0f2e539e7a4f8f9407a713124ba6b828',1,'OcdFile']]],

@@ -139,10 +139,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a20cc98b400091430a391bd40de88a816"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aedf13e803b894f6ce84a5f7cbe46ad8c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1PointSymbol.html#aedf13e803b894f6ce84a5f7cbe46ad8c">createRenderablesIfPartiallyInside</a> (const <a class="el" href="classOpenOrienteering_1_1MapCoordF.html">MapCoordF</a> &amp;point_coord, qreal rotation, const <a class="elRef" doxygen="qtgui.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qpainterpath.html">QPainterPath</a> *outline, <a class="el" href="classOpenOrienteering_1_1ObjectRenderables.html">ObjectRenderables</a> &amp;output) const</td></tr>
 <tr class="separator:aedf13e803b894f6ce84a5f7cbe46ad8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c8c40e1413a982a891f9cea2ce67dc0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1PointSymbol.html#a7c8c40e1413a982a891f9cea2ce67dc0">colorDeletedEvent</a> (const <a class="el" href="classOpenOrienteering_1_1MapColor.html">MapColor</a> *color) override</td></tr>
+<tr class="memitem:a7c8c40e1413a982a891f9cea2ce67dc0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1PointSymbol.html#a7c8c40e1413a982a891f9cea2ce67dc0">colorDeletedEvent</a> (const <a class="el" href="classOpenOrienteering_1_1MapColor.html">MapColor</a> *<a class="el" href="xml__file__format_8cpp.html#acd76e326a7811ae01eb825cdb4a8692e">color</a>) override</td></tr>
 <tr class="memdesc:a7c8c40e1413a982a891f9cea2ce67dc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a color is removed from the map.  <a href="#a7c8c40e1413a982a891f9cea2ce67dc0">More...</a><br /></td></tr>
 <tr class="separator:a7c8c40e1413a982a891f9cea2ce67dc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acaab3e6647ee09bc766b02f53d63d4fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1PointSymbol.html#acaab3e6647ee09bc766b02f53d63d4fd">containsColor</a> (const <a class="el" href="classOpenOrienteering_1_1MapColor.html">MapColor</a> *color) const override</td></tr>
+<tr class="memitem:acaab3e6647ee09bc766b02f53d63d4fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1PointSymbol.html#acaab3e6647ee09bc766b02f53d63d4fd">containsColor</a> (const <a class="el" href="classOpenOrienteering_1_1MapColor.html">MapColor</a> *<a class="el" href="xml__file__format_8cpp.html#acd76e326a7811ae01eb825cdb4a8692e">color</a>) const override</td></tr>
 <tr class="memdesc:acaab3e6647ee09bc766b02f53d63d4fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns if the given color is used by this symbol.  <a href="#acaab3e6647ee09bc766b02f53d63d4fd">More...</a><br /></td></tr>
 <tr class="separator:acaab3e6647ee09bc766b02f53d63d4fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5babaeded1147159355ca1549df4a27d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classOpenOrienteering_1_1MapColor.html">MapColor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1PointSymbol.html#a5babaeded1147159355ca1549df4a27d">guessDominantColor</a> () const override</td></tr>
@@ -184,17 +184,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a06286ff674e0fcd5f76034cecd8893cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1PointSymbol.html#a06286ff674e0fcd5f76034cecd8893cf">isSymmetrical</a> () const</td></tr>
 <tr class="memdesc:a06286ff674e0fcd5f76034cecd8893cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the contained elements are rotationally symmetrical around the origin (this means, only point elements at (0,0) are allowed).  <a href="#a06286ff674e0fcd5f76034cecd8893cf">More...</a><br /></td></tr>
 <tr class="separator:a06286ff674e0fcd5f76034cecd8893cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3112d723bb81b22b26863576626f44b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1PointSymbol.html#a3112d723bb81b22b26863576626f44b8">isRotatable</a> () const</td></tr>
-<tr class="separator:a3112d723bb81b22b26863576626f44b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82f088f94c9cce152203bb975babc6ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1PointSymbol.html#a82f088f94c9cce152203bb975babc6ca">setRotatable</a> (<a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> enable)</td></tr>
-<tr class="separator:a82f088f94c9cce152203bb975babc6ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71dfdca45ae2ba883196e77f46df2362"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1PointSymbol.html#a71dfdca45ae2ba883196e77f46df2362">getInnerRadius</a> () const</td></tr>
 <tr class="separator:a71dfdca45ae2ba883196e77f46df2362"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7052126b01766a7e3a7c8bd31b585db0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1PointSymbol.html#a7052126b01766a7e3a7c8bd31b585db0">setInnerRadius</a> (int <a class="el" href="ocd__georef__fields_8cpp.html#a8556878012feffc9e0beb86cd78f424d">value</a>)</td></tr>
 <tr class="separator:a7052126b01766a7e3a7c8bd31b585db0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e7eae4be34a8be5c4bb494c6d521f83"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classOpenOrienteering_1_1MapColor.html">MapColor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1PointSymbol.html#a7e7eae4be34a8be5c4bb494c6d521f83">getInnerColor</a> () const</td></tr>
 <tr class="separator:a7e7eae4be34a8be5c4bb494c6d521f83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af75d0dd5d24690b066dcf26664842673"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1PointSymbol.html#af75d0dd5d24690b066dcf26664842673">setInnerColor</a> (const <a class="el" href="classOpenOrienteering_1_1MapColor.html">MapColor</a> *color)</td></tr>
+<tr class="memitem:af75d0dd5d24690b066dcf26664842673"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1PointSymbol.html#af75d0dd5d24690b066dcf26664842673">setInnerColor</a> (const <a class="el" href="classOpenOrienteering_1_1MapColor.html">MapColor</a> *<a class="el" href="xml__file__format_8cpp.html#acd76e326a7811ae01eb825cdb4a8692e">color</a>)</td></tr>
 <tr class="separator:af75d0dd5d24690b066dcf26664842673"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a261ee413f1bfad80a133cb1449a789"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1PointSymbol.html#a7a261ee413f1bfad80a133cb1449a789">getOuterWidth</a> () const</td></tr>
 <tr class="separator:a7a261ee413f1bfad80a133cb1449a789"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -202,7 +198,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af755cb29be5de3ef0a0110913cabe501"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0433498ef21b23825613018dce77ae3d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classOpenOrienteering_1_1MapColor.html">MapColor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1PointSymbol.html#a0433498ef21b23825613018dce77ae3d">getOuterColor</a> () const</td></tr>
 <tr class="separator:a0433498ef21b23825613018dce77ae3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48dc4648f52bb3eef1af224a9a4ebdab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1PointSymbol.html#a48dc4648f52bb3eef1af224a9a4ebdab">setOuterColor</a> (const <a class="el" href="classOpenOrienteering_1_1MapColor.html">MapColor</a> *color)</td></tr>
+<tr class="memitem:a48dc4648f52bb3eef1af224a9a4ebdab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1PointSymbol.html#a48dc4648f52bb3eef1af224a9a4ebdab">setOuterColor</a> (const <a class="el" href="classOpenOrienteering_1_1MapColor.html">MapColor</a> *<a class="el" href="xml__file__format_8cpp.html#acd76e326a7811ae01eb825cdb4a8692e">color</a>)</td></tr>
 <tr class="separator:a48dc4648f52bb3eef1af224a9a4ebdab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64f063b8d20da725deabaef6122d469d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classOpenOrienteering_1_1SymbolPropertiesWidget.html">SymbolPropertiesWidget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1PointSymbol.html#a64f063b8d20da725deabaef6122d469d">createPropertiesWidget</a> (<a class="el" href="classOpenOrienteering_1_1SymbolSettingDialog.html">SymbolSettingDialog</a> *dialog) override</td></tr>
 <tr class="memdesc:a64f063b8d20da725deabaef6122d469d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a properties widget for the symbol.  <a href="#a64f063b8d20da725deabaef6122d469d">More...</a><br /></td></tr>
@@ -279,7 +275,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0f0fd0567abdf57221d0e045d598af9d inherit pub_methods_classOpenOrienteering_1_1Symbol"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1Symbol.html#a0f0fd0567abdf57221d0e045d598af9d">createRenderables</a> (const <a class="el" href="classOpenOrienteering_1_1PathObject.html">PathObject</a> *<a class="el" href="fill__tool_8cpp.html#a7afbd819134bef626290e4ece88013be">object</a>, const <a class="el" href="classOpenOrienteering_1_1PathPartVector.html">PathPartVector</a> &amp;path_parts, <a class="el" href="classOpenOrienteering_1_1ObjectRenderables.html">ObjectRenderables</a> &amp;output, Symbol::RenderableOptions options) const</td></tr>
 <tr class="memdesc:a0f0fd0567abdf57221d0e045d598af9d inherit pub_methods_classOpenOrienteering_1_1Symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates renderables for a path object.  <a href="classOpenOrienteering_1_1Symbol.html#a0f0fd0567abdf57221d0e045d598af9d">More...</a><br /></td></tr>
 <tr class="separator:a0f0fd0567abdf57221d0e045d598af9d inherit pub_methods_classOpenOrienteering_1_1Symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3bd3cac536b8ced8d7dc6fb6c848a7ef inherit pub_methods_classOpenOrienteering_1_1Symbol"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1Symbol.html#a3bd3cac536b8ced8d7dc6fb6c848a7ef">createBaselineRenderables</a> (const <a class="el" href="classOpenOrienteering_1_1PathObject.html">PathObject</a> *<a class="el" href="fill__tool_8cpp.html#a7afbd819134bef626290e4ece88013be">object</a>, const <a class="el" href="classOpenOrienteering_1_1PathPartVector.html">PathPartVector</a> &amp;path_parts, <a class="el" href="classOpenOrienteering_1_1ObjectRenderables.html">ObjectRenderables</a> &amp;output, const <a class="el" href="classOpenOrienteering_1_1MapColor.html">MapColor</a> *color) const</td></tr>
+<tr class="memitem:a3bd3cac536b8ced8d7dc6fb6c848a7ef inherit pub_methods_classOpenOrienteering_1_1Symbol"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1Symbol.html#a3bd3cac536b8ced8d7dc6fb6c848a7ef">createBaselineRenderables</a> (const <a class="el" href="classOpenOrienteering_1_1PathObject.html">PathObject</a> *<a class="el" href="fill__tool_8cpp.html#a7afbd819134bef626290e4ece88013be">object</a>, const <a class="el" href="classOpenOrienteering_1_1PathPartVector.html">PathPartVector</a> &amp;path_parts, <a class="el" href="classOpenOrienteering_1_1ObjectRenderables.html">ObjectRenderables</a> &amp;output, const <a class="el" href="classOpenOrienteering_1_1MapColor.html">MapColor</a> *<a class="el" href="xml__file__format_8cpp.html#acd76e326a7811ae01eb825cdb4a8692e">color</a>) const</td></tr>
 <tr class="memdesc:a3bd3cac536b8ced8d7dc6fb6c848a7ef inherit pub_methods_classOpenOrienteering_1_1Symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates baseline renderables for a path object.  <a href="classOpenOrienteering_1_1Symbol.html#a3bd3cac536b8ced8d7dc6fb6c848a7ef">More...</a><br /></td></tr>
 <tr class="separator:a3bd3cac536b8ced8d7dc6fb6c848a7ef inherit pub_methods_classOpenOrienteering_1_1Symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac618ae9d1fc88c9762258ff5ef4a1407 inherit pub_methods_classOpenOrienteering_1_1Symbol"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1Symbol.html#ac618ae9d1fc88c9762258ff5ef4a1407">symbolChangedEvent</a> (const <a class="el" href="classOpenOrienteering_1_1Symbol.html">Symbol</a> *old_symbol, const <a class="el" href="classOpenOrienteering_1_1Symbol.html">Symbol</a> *new_symbol)</td></tr>
@@ -348,6 +344,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a87af5eefa7d6976a6245b39211e1560e inherit pub_methods_classOpenOrienteering_1_1Symbol"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1Symbol.html#a87af5eefa7d6976a6245b39211e1560e">setProtected</a> (<a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> <a class="el" href="ocd__georef__fields_8cpp.html#a8556878012feffc9e0beb86cd78f424d">value</a>)</td></tr>
 <tr class="memdesc:a87af5eefa7d6976a6245b39211e1560e inherit pub_methods_classOpenOrienteering_1_1Symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the protected state of this symbol.  <a href="classOpenOrienteering_1_1Symbol.html#a87af5eefa7d6976a6245b39211e1560e">More...</a><br /></td></tr>
 <tr class="separator:a87af5eefa7d6976a6245b39211e1560e inherit pub_methods_classOpenOrienteering_1_1Symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a166b3370a820f13915339c927a8bee1d inherit pub_methods_classOpenOrienteering_1_1Symbol"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1Symbol.html#a166b3370a820f13915339c927a8bee1d">isRotatable</a> () const</td></tr>
+<tr class="memdesc:a166b3370a820f13915339c927a8bee1d inherit pub_methods_classOpenOrienteering_1_1Symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns if objects with this symbol can be rotated in arbitrary directions.  <a href="classOpenOrienteering_1_1Symbol.html#a166b3370a820f13915339c927a8bee1d">More...</a><br /></td></tr>
+<tr class="separator:a166b3370a820f13915339c927a8bee1d inherit pub_methods_classOpenOrienteering_1_1Symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -358,15 +357,18 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a39c995b5eff549106a8632639c11443f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1PointSymbol.html#a39c995b5eff549106a8632639c11443f">saveImpl</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qxmlstreamwriter.html">QXmlStreamWriter</a> &amp;xml, const <a class="el" href="classOpenOrienteering_1_1Map.html">Map</a> &amp;map) const override</td></tr>
 <tr class="memdesc:a39c995b5eff549106a8632639c11443f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must be overridden to save type-specific symbol properties.  <a href="#a39c995b5eff549106a8632639c11443f">More...</a><br /></td></tr>
 <tr class="separator:a39c995b5eff549106a8632639c11443f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c81f3f24e7fce8bb0712018d65b4ae7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1PointSymbol.html#a6c81f3f24e7fce8bb0712018d65b4ae7">loadImpl</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qxmlstreamreader.html">QXmlStreamReader</a> &amp;xml, const <a class="el" href="classOpenOrienteering_1_1Map.html">Map</a> &amp;map, <a class="el" href="namespaceOpenOrienteering.html#ac971c0cccaac4dfd791edee4ec2ff610">SymbolDictionary</a> &amp;symbol_dict) override</td></tr>
-<tr class="memdesc:a6c81f3f24e7fce8bb0712018d65b4ae7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must be overridden to load type-specific symbol properties.  <a href="#a6c81f3f24e7fce8bb0712018d65b4ae7">More...</a><br /></td></tr>
-<tr class="separator:a6c81f3f24e7fce8bb0712018d65b4ae7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3315d2a3ebb7dde5de80bc546a2b96fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1PointSymbol.html#a3315d2a3ebb7dde5de80bc546a2b96fc">loadImpl</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qxmlstreamreader.html">QXmlStreamReader</a> &amp;xml, const <a class="el" href="classOpenOrienteering_1_1Map.html">Map</a> &amp;map, <a class="el" href="namespaceOpenOrienteering.html#ac971c0cccaac4dfd791edee4ec2ff610">SymbolDictionary</a> &amp;symbol_dict, int version) override</td></tr>
+<tr class="memdesc:a3315d2a3ebb7dde5de80bc546a2b96fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must be overridden to load type-specific symbol properties.  <a href="#a3315d2a3ebb7dde5de80bc546a2b96fc">More...</a><br /></td></tr>
+<tr class="separator:a3315d2a3ebb7dde5de80bc546a2b96fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cc0bcea418bdaf14efb5472b5c2238e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1PointSymbol.html#a6cc0bcea418bdaf14efb5472b5c2238e">equalsImpl</a> (const <a class="el" href="classOpenOrienteering_1_1Symbol.html">Symbol</a> *other, Qt::CaseSensitivity case_sensitivity) const override</td></tr>
 <tr class="memdesc:a6cc0bcea418bdaf14efb5472b5c2238e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must be overridden to compare specific attributes.  <a href="#a6cc0bcea418bdaf14efb5472b5c2238e">More...</a><br /></td></tr>
 <tr class="separator:a6cc0bcea418bdaf14efb5472b5c2238e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classOpenOrienteering_1_1Symbol"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classOpenOrienteering_1_1Symbol')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classOpenOrienteering_1_1Symbol.html">OpenOrienteering::Symbol</a></td></tr>
 <tr class="memitem:a4cb05e1fbe8edd7d4b142fec5e43570e inherit pro_methods_classOpenOrienteering_1_1Symbol"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1Symbol.html#a4cb05e1fbe8edd7d4b142fec5e43570e">Symbol</a> (const <a class="el" href="classOpenOrienteering_1_1Symbol.html">Symbol</a> &amp;proto)</td></tr>
 <tr class="separator:a4cb05e1fbe8edd7d4b142fec5e43570e inherit pro_methods_classOpenOrienteering_1_1Symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d0e8db8d43e99cb5965d2112568d45a inherit pro_methods_classOpenOrienteering_1_1Symbol"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1Symbol.html#a9d0e8db8d43e99cb5965d2112568d45a">setRotatable</a> (<a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> <a class="el" href="ocd__georef__fields_8cpp.html#a8556878012feffc9e0beb86cd78f424d">value</a>)</td></tr>
+<tr class="memdesc:a9d0e8db8d43e99cb5965d2112568d45a inherit pro_methods_classOpenOrienteering_1_1Symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the rotatability state of the symbol.  <a href="classOpenOrienteering_1_1Symbol.html#a9d0e8db8d43e99cb5965d2112568d45a">More...</a><br /></td></tr>
+<tr class="separator:a9d0e8db8d43e99cb5965d2112568d45a inherit pro_methods_classOpenOrienteering_1_1Symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -380,8 +382,6 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a54403a83280f16aa1d69ab32e9894e2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a446ca22e93ee13c6e60c7c1f7e2fc144"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1PointSymbol.html#a446ca22e93ee13c6e60c7c1f7e2fc144">outer_width</a></td></tr>
 <tr class="separator:a446ca22e93ee13c6e60c7c1f7e2fc144"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a251ec36a4f096c9393f08e3696022812"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1PointSymbol.html#a251ec36a4f096c9393f08e3696022812">rotatable</a></td></tr>
-<tr class="separator:a251ec36a4f096c9393f08e3696022812"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -421,9 +421,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ad7855821b29b362f0b911315e1afd7c3 inherit pub_static_methods_classOpenOrienteering_1_1Symbol"><td class="memTemplItemLeft" align="right" valign="top">static std::unique_ptr&lt; S &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1Symbol.html#ad7855821b29b362f0b911315e1afd7c3">duplicate</a> (const S &amp;s)</td></tr>
 <tr class="memdesc:ad7855821b29b362f0b911315e1afd7c3 inherit pub_static_methods_classOpenOrienteering_1_1Symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Duplicates a symbol.  <a href="classOpenOrienteering_1_1Symbol.html#ad7855821b29b362f0b911315e1afd7c3">More...</a><br /></td></tr>
 <tr class="separator:ad7855821b29b362f0b911315e1afd7c3 inherit pub_static_methods_classOpenOrienteering_1_1Symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3eb405ed0e99a25a39fb6e8b7b6ad4fc inherit pub_static_methods_classOpenOrienteering_1_1Symbol"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="classOpenOrienteering_1_1Symbol.html">Symbol</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1Symbol.html#a3eb405ed0e99a25a39fb6e8b7b6ad4fc">load</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qxmlstreamreader.html">QXmlStreamReader</a> &amp;xml, const <a class="el" href="classOpenOrienteering_1_1Map.html">Map</a> &amp;map, <a class="el" href="namespaceOpenOrienteering.html#ac971c0cccaac4dfd791edee4ec2ff610">SymbolDictionary</a> &amp;symbol_dict)</td></tr>
-<tr class="memdesc:a3eb405ed0e99a25a39fb6e8b7b6ad4fc inherit pub_static_methods_classOpenOrienteering_1_1Symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load the symbol in xml format.  <a href="classOpenOrienteering_1_1Symbol.html#a3eb405ed0e99a25a39fb6e8b7b6ad4fc">More...</a><br /></td></tr>
-<tr class="separator:a3eb405ed0e99a25a39fb6e8b7b6ad4fc inherit pub_static_methods_classOpenOrienteering_1_1Symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2af3ff0fd106bffb4270109218ee75fc inherit pub_static_methods_classOpenOrienteering_1_1Symbol"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="classOpenOrienteering_1_1Symbol.html">Symbol</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1Symbol.html#a2af3ff0fd106bffb4270109218ee75fc">load</a> (<a class="elRef" doxygen="qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qxmlstreamreader.html">QXmlStreamReader</a> &amp;xml, const <a class="el" href="classOpenOrienteering_1_1Map.html">Map</a> &amp;map, <a class="el" href="namespaceOpenOrienteering.html#ac971c0cccaac4dfd791edee4ec2ff610">SymbolDictionary</a> &amp;symbol_dict, int version)</td></tr>
+<tr class="memdesc:a2af3ff0fd106bffb4270109218ee75fc inherit pub_static_methods_classOpenOrienteering_1_1Symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load the symbol in xml format.  <a href="classOpenOrienteering_1_1Symbol.html#a2af3ff0fd106bffb4270109218ee75fc">More...</a><br /></td></tr>
+<tr class="separator:a2af3ff0fd106bffb4270109218ee75fc inherit pub_static_methods_classOpenOrienteering_1_1Symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f09fa156a40e70d504542f36b098aa0 inherit pub_static_methods_classOpenOrienteering_1_1Symbol"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="classOpenOrienteering_1_1Symbol.html">Symbol</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenOrienteering_1_1Symbol.html#a0f09fa156a40e70d504542f36b098aa0">makeSymbolForType</a> (<a class="el" href="classOpenOrienteering_1_1Symbol.html#afe51280125452ebdf81b0e9d020650a3">Type</a> type)</td></tr>
 <tr class="memdesc:a0f09fa156a40e70d504542f36b098aa0 inherit pub_static_methods_classOpenOrienteering_1_1Symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a newly created symbol of the given type.  <a href="classOpenOrienteering_1_1Symbol.html#a0f09fa156a40e70d504542f36b098aa0">More...</a><br /></td></tr>
 <tr class="separator:a0f09fa156a40e70d504542f36b098aa0 inherit pub_static_methods_classOpenOrienteering_1_1Symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1296,31 +1296,6 @@ symbol]" in the point symbol editor, this class can contain a list of elements t
 
 </div>
 </div>
-<a id="a3112d723bb81b22b26863576626f44b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3112d723bb81b22b26863576626f44b8">&#9670;&nbsp;</a></span>isRotatable()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> OpenOrienteering::PointSymbol::isRotatable </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a06286ff674e0fcd5f76034cecd8893cf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a06286ff674e0fcd5f76034cecd8893cf">&#9670;&nbsp;</a></span>isSymmetrical()</h2>
 
@@ -1340,8 +1315,8 @@ symbol]" in the point symbol editor, this class can contain a list of elements t
 
 </div>
 </div>
-<a id="a6c81f3f24e7fce8bb0712018d65b4ae7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6c81f3f24e7fce8bb0712018d65b4ae7">&#9670;&nbsp;</a></span>loadImpl()</h2>
+<a id="a3315d2a3ebb7dde5de80bc546a2b96fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3315d2a3ebb7dde5de80bc546a2b96fc">&#9670;&nbsp;</a></span>loadImpl()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1365,7 +1340,13 @@ symbol]" in the point symbol editor, this class can contain a list of elements t
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="namespaceOpenOrienteering.html#ac971c0cccaac4dfd791edee4ec2ff610">SymbolDictionary</a> &amp;&#160;</td>
-          <td class="paramname"><em>symbol_dict</em>&#160;</td>
+          <td class="paramname"><em>symbol_dict</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>version</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1384,7 +1365,7 @@ symbol]" in the point symbol editor, this class can contain a list of elements t
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classOpenOrienteering_1_1PointSymbol.html#a39c995b5eff549106a8632639c11443f" title="Must be overridden to save type-specific symbol properties. ">saveImpl()</a></dd></dl>
 <p>Returns false if the current xml tag does not belong to the symbol and should be skipped, true if the element has been read completely. </p>
 
-<p>Implements <a class="el" href="classOpenOrienteering_1_1Symbol.html#a164547348a6e13a9b03967085f4277ed">OpenOrienteering::Symbol</a>.</p>
+<p>Implements <a class="el" href="classOpenOrienteering_1_1Symbol.html#a645374a956574fd50f43a54be41f3d12">OpenOrienteering::Symbol</a>.</p>
 
 </div>
 </div>
@@ -1581,32 +1562,6 @@ symbol]" in the point symbol editor, this class can contain a list of elements t
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a82f088f94c9cce152203bb975babc6ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a82f088f94c9cce152203bb975babc6ca">&#9670;&nbsp;</a></span>setRotatable()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void OpenOrienteering::PointSymbol::setRotatable </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>&#160;</td>
-          <td class="paramname"><em>enable</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1846,31 +1801,9 @@ symbol]" in the point symbol editor, this class can contain a list of elements t
 
 </div>
 </div>
-<a id="a251ec36a4f096c9393f08e3696022812"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a251ec36a4f096c9393f08e3696022812">&#9670;&nbsp;</a></span>rotatable</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a> OpenOrienteering::PointSymbol::rotatable</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/core/symbols/<a class="el" href="point__symbol_8h.html">point_symbol.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/e864e54/src/core/symbols/point_symbol.h"><tt>e864e54</tt></a> on 26 Aug 2018)</li>
-<li>src/core/symbols/<a class="el" href="point__symbol_8cpp.html">point_symbol.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/e864e54/src/core/symbols/point_symbol.cpp"><tt>e864e54</tt></a> on 26 Aug 2018)</li>
+<li>src/core/symbols/<a class="el" href="point__symbol_8h.html">point_symbol.h</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/01dae3e/src/core/symbols/point_symbol.h"><tt>01dae3e</tt></a> on 3 Oct 2019)</li>
+<li>src/core/symbols/<a class="el" href="point__symbol_8cpp.html">point_symbol.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/c0c3bc8/src/core/symbols/point_symbol.cpp"><tt>c0c3bc8</tt></a> on 7 Oct 2019)</li>
 <li>src/gui/symbols/<a class="el" href="point__symbol__settings_8cpp.html">point_symbol_settings.cpp</a> (<a href="https://github.com/OpenOrienteering/mapper/blob/6fd4304/src/gui/symbols/point_symbol_settings.cpp"><tt>6fd4304</tt></a> on 5 Jan 2018)</li>
 </ul>
 </div><!-- contents -->

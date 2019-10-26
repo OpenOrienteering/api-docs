@@ -20,7 +20,7 @@ var searchData=
   ['hdop',['hDOP',['../structOpenOrienteering_1_1TrackPoint.html#adeaa6b28fd87457524d6bb453fc5d945',1,'OpenOrienteering::TrackPoint']]],
   ['head',['head',['../structqttf__font__tables.html#a1055578eb75d727752ae9296b9d8a153',1,'qttf_font_tables']]],
   ['header',['header',['../struct__OCADFile.html#ac00bfaa62f6fb332714b510b0f27ea49',1,'_OCADFile']]],
-  ['height',['height',['../structOcd_1_1ObjectV12.html#a4ce5f3347da2df469703bda55540a240',1,'Ocd::ObjectV12::height()'],['../structAdvancedPdf_1_1PaperSize.html#a6a4ad069e5bd8850a345b5613464041e',1,'AdvancedPdf::PaperSize::height()']]],
+  ['height',['height',['../structOcd_1_1ObjectV12.html#a4ce5f3347da2df469703bda55540a240',1,'Ocd::ObjectV12']]],
   ['height_5fv10_5fonly',['height_V10_ONLY',['../structOcd_1_1ObjectV9.html#a0c9ec3560cb39108cdbbec81270e8588',1,'Ocd::ObjectV9']]],
   ['height_5fv11',['height_V11',['../structOcd_1_1ObjectV9.html#af9e633fac00014401bb5b7dccc6c55e2',1,'Ocd::ObjectV9']]],
   ['help_5flabel',['help_label',['../classOpenOrienteering_1_1DrawPointGPSTool.html#a1fce2a01534bb2d0bd5f5edacb25bf79',1,'OpenOrienteering::DrawPointGPSTool']]],

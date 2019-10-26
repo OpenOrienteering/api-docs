@@ -3,22 +3,22 @@ warning: source android/src is not a readable file or directory... skipping.
 error: Tag file `qtxml.tags' does not exist or is not a file. Skipping it...
 src/sensors/powershell_position_plugin.h:44: warning: Found ';' while parsing initializer list! (doxygen could be confused by a macro call without semicolon)
 src/core/renderables/renderable.h:80: warning: Internal inconsistency: scope for class RenderConfig::Options not found!
-src/core/map_coord.cpp:242: warning: no uniquely matching class member found for 
+src/core/map_coord.cpp:243: warning: no uniquely matching class member found for 
   MapCoord OpenOrienteering::MapCoord::load(qreal x, qreal y, Flags flags)
 Possible candidates:
-  static MapCoord OpenOrienteering::MapCoord::load(QXmlStreamReader &xml)' at line 413 of file src/core/map_coord.h
-  static MapCoord OpenOrienteering::MapCoord::load(qreal x, qreal y, MapCoord::Flags flags)' at line 421 of file src/core/map_coord.h
-  static MapCoord OpenOrienteering::MapCoord::load(qreal x, qreal y, int flags)=delete' at line 423 of file src/core/map_coord.h
-  static MapCoord OpenOrienteering::MapCoord::load(const QPointF &p, MapCoord::Flags flags)' at line 431 of file src/core/map_coord.h
-  static MapCoord OpenOrienteering::MapCoord::load(const QPointF &p, int flags)=delete' at line 433 of file src/core/map_coord.h
+  static MapCoord OpenOrienteering::MapCoord::load(QXmlStreamReader &xml)' at line 448 of file src/core/map_coord.h
+  static MapCoord OpenOrienteering::MapCoord::load(qreal x, qreal y, MapCoord::Flags flags)' at line 456 of file src/core/map_coord.h
+  static MapCoord OpenOrienteering::MapCoord::load(qreal x, qreal y, int flags)=delete' at line 458 of file src/core/map_coord.h
+  static MapCoord OpenOrienteering::MapCoord::load(const QPointF &p, MapCoord::Flags flags)' at line 466 of file src/core/map_coord.h
+  static MapCoord OpenOrienteering::MapCoord::load(const QPointF &p, int flags)=delete' at line 468 of file src/core/map_coord.h
 
-src/core/symbols/line_symbol.cpp:238: warning: no uniquely matching class member found for 
+src/core/symbols/line_symbol.cpp:239: warning: no uniquely matching class member found for 
   void OpenOrienteering::LineSymbol::createRenderables(const OpenOrienteering::Object *, const OpenOrienteering::VirtualCoordVector &coords, OpenOrienteering::ObjectRenderables &output, RenderableOptions) const
 Possible candidates:
   void OpenOrienteering::LineSymbol::createRenderables(const Object *object, const VirtualCoordVector &coords, ObjectRenderables &output, Symbol::RenderableOptions options) const override' at line 134 of file src/core/symbols/line_symbol.h
   void OpenOrienteering::LineSymbol::createRenderables(const PathObject *object, const PathPartVector &path_parts, ObjectRenderables &output, Symbol::RenderableOptions options) const override' at line 140 of file src/core/symbols/line_symbol.h
 
-src/core/symbols/line_symbol.cpp:252: warning: no uniquely matching class member found for 
+src/core/symbols/line_symbol.cpp:253: warning: no uniquely matching class member found for 
   void OpenOrienteering::LineSymbol::createRenderables(const OpenOrienteering::PathObject *object, const OpenOrienteering::PathPartVector &path_parts, OpenOrienteering::ObjectRenderables &output, RenderableOptions options) const
 Possible candidates:
   void OpenOrienteering::LineSymbol::createRenderables(const Object *object, const VirtualCoordVector &coords, ObjectRenderables &output, Symbol::RenderableOptions options) const override' at line 134 of file src/core/symbols/line_symbol.h
@@ -57,8 +57,8 @@ warning: Include graph for 'print_widget.cpp' not generated, too many nodes. Con
 warning: Include graph for 'point_symbol_editor_widget.cpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
 warning: Include graph for 'replace_symbol_set_dialog.cpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
 warning: Include graph for 'template_list_widget.cpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
-todo:85: warning: Found unknown command `\symbol'
-todo:85: warning: Found unknown command `\object'
+todo:84: warning: Found unknown command `\symbol'
+todo:84: warning: Found unknown command `\object'
 src/gui/widgets/action_grid_bar.h:76: warning: The following parameters of OpenOrienteering::ActionGridBar::ActionGridBar(Direction direction, int height_items, QWidget *parent=nullptr) are not documented:
   parameter 'parent'
 src/gui/autosave_dialog.h:60: warning: The following parameters of OpenOrienteering::AutosaveDialog::AutosaveDialog(const QString &original_path, const QString &autosave_path, const QString &actual_path, MainWindow *parent=nullptr, Qt::WindowFlags f=0) are not documented:
@@ -79,7 +79,7 @@ src/tools/edit_tool.h:145: warning: The following parameters of OpenOrienteering
   parameter 'color'
 src/gui/main_window_controller.h:94: warning: The following parameters of OpenOrienteering::MainWindowController::loadFrom(const QString &path, const FileFormat &format, QWidget *dialog_parent=nullptr) are not documented:
   parameter 'format'
-src/core/objects/object_mover.h:73: warning: The following parameters of OpenOrienteering::ObjectMover::move(const MapCoordF &cursor_pos, bool move_opposite_handles, qint32 *out_dx=nullptr, qint32 *out_dy=nullptr) are not documented:
+src/core/objects/object_mover.h:89: warning: The following parameters of OpenOrienteering::ObjectMover::move(const MapCoordF &cursor_pos, HandleOpMode move_opposite_handles, qint32 *out_dx=nullptr, qint32 *out_dy=nullptr) are not documented:
   parameter 'cursor_pos'
 src/tools/object_selector.h:54: warning: The following parameters of OpenOrienteering::ObjectSelector::selectAt(const MapCoordF &position, double tolerance, bool toggle) are not documented:
   parameter 'position'
@@ -92,10 +92,12 @@ src/fileformats/ocd_file_format.h:83: warning: @copybrief or @copydoc target 'Fi
 src/fileformats/ocd_file_format.h:83: warning: @copydetails or @copydoc target 'FileFormat::createExporter()' not found
 src/fileformats/ocd_file_format.h:80: warning: @copybrief or @copydoc target 'FileFormat::createImporter()' not found
 src/fileformats/ocd_file_format.h:80: warning: @copydetails or @copydoc target 'FileFormat::createImporter()' not found
-src/fileformats/ocd_file_import.cpp:1733: warning: Found unknown command `\symbol'
-src/fileformats/ocd_file_import.cpp:1733: warning: Found unknown command `\object'
+src/fileformats/ocd_file_import.cpp:1734: warning: Found unknown command `\symbol'
+src/fileformats/ocd_file_import.cpp:1734: warning: Found unknown command `\object'
 src/gui/symbols/point_symbol_editor_widget.h:71: warning: The following parameters of OpenOrienteering::PointSymbolEditorWidget::PointSymbolEditorWidget(MapEditorController *controller, PointSymbol *symbol, qreal offset_y=0, bool permanent_preview=false, QWidget *parent=0) are not documented:
   parameter 'parent'
+src/core/symbols/symbol.h:221: warning: The following parameters of OpenOrienteering::Symbol::load(QXmlStreamReader &xml, const Map &map, SymbolDictionary &symbol_dict, int version) are not documented:
+  parameter 'version'
 src/gui/symbols/symbol_properties_widget.h:56: warning: The following parameters of OpenOrienteering::SymbolPropertiesWidget::SymbolPropertiesWidget(Symbol *symbol, SymbolSettingDialog *dialog) are not documented:
   parameter 'dialog'
 src/util/item_delegates.h:229: warning: Found unknown command `\override'

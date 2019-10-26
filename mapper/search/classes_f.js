@@ -6,7 +6,6 @@ var searchData=
   ['paintontemplateselectdialog',['PaintOnTemplateSelectDialog',['../classOpenOrienteering_1_1PaintOnTemplateSelectDialog.html',1,'OpenOrienteering']]],
   ['paintontemplatetool',['PaintOnTemplateTool',['../classOpenOrienteering_1_1PaintOnTemplateTool.html',1,'OpenOrienteering']]],
   ['pantool',['PanTool',['../classOpenOrienteering_1_1PanTool.html',1,'OpenOrienteering']]],
-  ['papersize',['PaperSize',['../structAdvancedPdf_1_1PaperSize.html',1,'AdvancedPdf']]],
   ['parameterstring',['ParameterString',['../structOcd_1_1ParameterString.html',1,'Ocd']]],
   ['parameterstringindexentry',['ParameterStringIndexEntry',['../structOcd_1_1ParameterStringIndexEntry.html',1,'Ocd']]],
   ['pascalstring',['PascalString',['../structOcd_1_1PascalString.html',1,'Ocd']]],

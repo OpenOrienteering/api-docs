@@ -4,6 +4,5 @@ var searchData=
   ['x_5fsum',['x_sum',['../classOpenOrienteering_1_1DrawPointGPSTool.html#a452b16988cf1d905e9d877b559cb5444',1,'OpenOrienteering::DrawPointGPSTool']]],
   ['xmax',['xMax',['../structqttf__head__table.html#ad2447029b326376348fe4a051ea53dd2',1,'qttf_head_table::xMax()'],['../structQTtfGlyph.html#adb16e6165c99e683cf3e35ab88f74d28',1,'QTtfGlyph::xMax()']]],
   ['xmaxextent',['xMaxExtent',['../structqttf__hhea__table.html#aeed99e07eb7dc0740a392efbe36b4180',1,'qttf_hhea_table']]],
-  ['xmin',['xMin',['../structqttf__head__table.html#acc32e5ad3b27b72bb2bd59a923b4d68c',1,'qttf_head_table::xMin()'],['../structQTtfGlyph.html#a492556109940f6537322d7179fb3a7de',1,'QTtfGlyph::xMin()']]],
-  ['xml',['xml',['../classOpenOrienteering_1_1XMLFileImporter.html#a692c80ae866c439963efd9ef004bb9c4',1,'OpenOrienteering::XMLFileImporter']]]
+  ['xmin',['xMin',['../structqttf__head__table.html#acc32e5ad3b27b72bb2bd59a923b4d68c',1,'qttf_head_table::xMin()'],['../structQTtfGlyph.html#a492556109940f6537322d7179fb3a7de',1,'QTtfGlyph::xMin()']]]
 ];

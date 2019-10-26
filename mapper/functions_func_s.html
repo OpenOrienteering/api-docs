@@ -141,9 +141,6 @@ $(function() {
 <li>saveUndo()
 : <a class="el" href="classOpenOrienteering_1_1UndoManager.html#a872a083c481948002cc131fc40910d71">OpenOrienteering::UndoManager</a>
 </li>
-<li>saveWindowState()
-: <a class="el" href="classOpenOrienteering_1_1MapEditorController.html#a07891882141d8a9b7c4ad70706f2fcdc">OpenOrienteering::MapEditorController</a>
-</li>
 <li>scale()
 : <a class="el" href="structOpenOrienteering_1_1AreaSymbol_1_1FillPattern.html#aa57885397fd1ec2ef60c12ccc25798f1">OpenOrienteering::AreaSymbol::FillPattern</a>
 , <a class="el" href="classOpenOrienteering_1_1AreaSymbol.html#a0f1f9bf9aac9e90d76eedfccfda1da28">OpenOrienteering::AreaSymbol</a>
@@ -433,6 +430,9 @@ $(function() {
 </li>
 <li>setCoordsDisplay()
 : <a class="el" href="classOpenOrienteering_1_1MapWidget.html#a3bf80680b3c8e6de44c0708b4fe245ff">OpenOrienteering::MapWidget</a>
+</li>
+<li>setCornerTolerance()
+: <a class="el" href="classOpenOrienteering_1_1ObjectMover.html#a4baabb0f369492b45f708df94846e9c4">OpenOrienteering::ObjectMover</a>
 </li>
 <li>setCurrentCRS()
 : <a class="el" href="classOpenOrienteering_1_1CRSSelector.html#ab7d133a36e795d2d1c2b524107f58930">OpenOrienteering::CRSSelector</a>
@@ -832,9 +832,6 @@ $(function() {
 : <a class="el" href="classOpenOrienteering_1_1MapView.html#a62f44b355e193a789e8e673b73227ecd">OpenOrienteering::MapView</a>
 , <a class="el" href="classOpenOrienteering_1_1MapWidget.html#ac2b9ec6b77ae0cf000159b2275ac3a16">OpenOrienteering::MapWidget</a>
 </li>
-<li>setPaperSize()
-: <a class="el" href="classAdvancedPdfEnginePrivate.html#a9580b2b69587f2235f43830f8107fcc0">AdvancedPdfEnginePrivate</a>
-</li>
 <li>setParameterValue()
 : <a class="el" href="classOpenOrienteering_1_1GdalManager_1_1GdalManagerPrivate.html#a6d9f6710b159fd0d1c9307b5d16b6829">OpenOrienteering::GdalManager::GdalManagerPrivate</a>
 , <a class="el" href="classOpenOrienteering_1_1GdalManager.html#a66bc1abf7fc1e19c94a2d89c6cd96dbf">OpenOrienteering::GdalManager</a>
@@ -928,15 +925,14 @@ $(function() {
 </li>
 <li>setRotatable()
 : <a class="el" href="structOpenOrienteering_1_1AreaSymbol_1_1FillPattern.html#abe956a84dd8758d34eb41531b5030a42">OpenOrienteering::AreaSymbol::FillPattern</a>
-, <a class="el" href="classOpenOrienteering_1_1PointSymbol.html#a82f088f94c9cce152203bb975babc6ca">OpenOrienteering::PointSymbol</a>
+, <a class="el" href="classOpenOrienteering_1_1Symbol.html#a9d0e8db8d43e99cb5965d2112568d45a">OpenOrienteering::Symbol</a>
 </li>
 <li>setRotateAroundGeorefRefPoint()
 : <a class="el" href="classOpenOrienteering_1_1RotateMapDialog.html#a6d2ba9024762e39c6bc3c2581f7f7a0d">OpenOrienteering::RotateMapDialog</a>
 </li>
 <li>setRotation()
 : <a class="el" href="classOpenOrienteering_1_1MapView.html#a44750f1c736f6a3a26d814fb1e379508">OpenOrienteering::MapView</a>
-, <a class="el" href="classOpenOrienteering_1_1PointObject.html#ae7a6c4c48873b30caa155bbd3f5c06c3">OpenOrienteering::PointObject</a>
-, <a class="el" href="classOpenOrienteering_1_1TextObject.html#a079e6af17403dbdff2321e4711d28740">OpenOrienteering::TextObject</a>
+, <a class="el" href="classOpenOrienteering_1_1Object.html#adb2a6aeb67dc11cd5b372d56762479fe">OpenOrienteering::Object</a>
 </li>
 <li>setRotationDegrees()
 : <a class="el" href="classOpenOrienteering_1_1RotateMapDialog.html#a8f01bb0dfea3a89fe2c51c9f2238894d">OpenOrienteering::RotateMapDialog</a>
@@ -1063,7 +1059,7 @@ $(function() {
 , <a class="el" href="classOpenOrienteering_1_1PaintOnTemplateTool.html#a9b237681ceb6d54f428a3578bcd47b70">OpenOrienteering::PaintOnTemplateTool</a>
 </li>
 <li>setTemplateAreaDirty()
-: <a class="el" href="classOpenOrienteering_1_1Map.html#ad54d895e1cda1794d04f05d40bb452ac">OpenOrienteering::Map</a>
+: <a class="el" href="classOpenOrienteering_1_1Map.html#af4440357345e98ec2de3a6eaa8a90ff8">OpenOrienteering::Map</a>
 , <a class="el" href="classOpenOrienteering_1_1Template.html#aab4460b1e08453d4673f0679bc433634">OpenOrienteering::Template</a>
 </li>
 <li>setTemplateFileInfo()
@@ -1101,6 +1097,9 @@ $(function() {
 </li>
 <li>setTemplatesDirty()
 : <a class="el" href="classOpenOrienteering_1_1Map.html#a982595d838ecfb62b0b062f412186d7b">OpenOrienteering::Map</a>
+</li>
+<li>setTemplateShear()
+: <a class="el" href="classOpenOrienteering_1_1Template.html#ac64d1e743b0f3b980623bff88b8912f3">OpenOrienteering::Template</a>
 </li>
 <li>setTemplateState()
 : <a class="el" href="classOpenOrienteering_1_1Template.html#a8ee23ac75368f2a595675a30935edcc3">OpenOrienteering::Template</a>
@@ -1267,6 +1266,9 @@ $(function() {
 : <a class="el" href="classOpenOrienteering_1_1GPSDisplay.html#ac2a2f6fbfc8dcd7060aa73786f1226ee">OpenOrienteering::GPSDisplay</a>
 , <a class="el" href="classOpenOrienteering_1_1PointSymbolEditorWidget.html#a66c20a711f58d49303c6fc29c83dd8b6">OpenOrienteering::PointSymbolEditorWidget</a>
 </li>
+<li>setWindowStateChanged()
+: <a class="el" href="classOpenOrienteering_1_1MapEditorController.html#a7c0b33bc2ef67a8f2cc50b26585447eb">OpenOrienteering::MapEditorController</a>
+</li>
 <li>setX()
 : <a class="el" href="classOpenOrienteering_1_1MapCoord.html#afe0508596a71b2c191d3cab24d88aa98">OpenOrienteering::MapCoord</a>
 </li>
@@ -1409,13 +1411,13 @@ $(function() {
 : <a class="el" href="classOpenOrienteering_1_1MapEditorController.html#a23030e6b7ecad81999a78d9e789fede9">OpenOrienteering::MapEditorController</a>
 </li>
 <li>simulateClick()
-: <a class="el" href="structTestMapEditor.html#a93c5b3d4ae234606722e37ba64bbae4f">TestMapEditor</a>
+: <a class="el" href="structTestMapEditor.html#a5afb675ce530782924e11f3ababca08f">TestMapEditor</a>
 </li>
 <li>simulateDrag()
-: <a class="el" href="structTestMapEditor.html#a06ac04521dd85be92d2e98dc5f10364c">TestMapEditor</a>
+: <a class="el" href="structTestMapEditor.html#a195a298d9c6198b9cad9f4afce09aa0f">TestMapEditor</a>
 </li>
 <li>singleSelectedSymbol()
-: <a class="el" href="classOpenOrienteering_1_1SymbolRenderWidget.html#a9943c82761fb3ecefbfca7e40d454d7b">OpenOrienteering::SymbolRenderWidget</a>
+: <a class="el" href="classOpenOrienteering_1_1SymbolRenderWidget.html#a03956822686c4b8a6f71b54ba7ccac37">OpenOrienteering::SymbolRenderWidget</a>
 </li>
 <li>size()
 : <a class="el" href="classOpenOrienteering_1_1MapColorMap.html#afbd5ec27793be0457e7aa51f45dc1998">OpenOrienteering::MapColorMap</a>
@@ -1557,7 +1559,7 @@ $(function() {
 </li>
 <li>startEditing()
 : <a class="el" href="classOpenOrienteering_1_1DrawTextTool.html#a87add70b7a2e2a284bb342ed32c3167c">OpenOrienteering::DrawTextTool</a>
-, <a class="el" href="classOpenOrienteering_1_1MapEditorToolBase.html#a084ea4baa87bec27de7d7cbad709a1ab">OpenOrienteering::MapEditorToolBase</a>
+, <a class="el" href="classOpenOrienteering_1_1MapEditorToolBase.html#a59f3758f73005356dc150e8d03127090">OpenOrienteering::MapEditorToolBase</a>
 </li>
 <li>startEditingSetup()
 : <a class="el" href="classOpenOrienteering_1_1EditPointTool.html#a06fc1a335b7fbd7b050432e8658d3dce">OpenOrienteering::EditPointTool</a>
@@ -1638,10 +1640,10 @@ $(function() {
 : <a class="el" href="classOpenOrienteering_1_1Compass.html#ae882c86db6d5f49b455646b6fa403364">OpenOrienteering::Compass</a>
 </li>
 <li>StorageLocation()
-: <a class="el" href="classOpenOrienteering_1_1StorageLocation.html#a2392891466aa1e90616bd0dabb75f188">OpenOrienteering::StorageLocation</a>
+: <a class="el" href="classOpenOrienteering_1_1StorageLocation.html#a76756e47496d0b21ed863425a67abd69">OpenOrienteering::StorageLocation</a>
 </li>
 <li>stream()
-: <a class="el" href="classAdvancedPdf_1_1ByteStream.html#ab7a137f4072001cd4a7747e50a5e7b20">AdvancedPdf::ByteStream</a>
+: <a class="el" href="classAdvancedPdf_1_1ByteStream.html#a0c38c51e1fa902427ebd21810103fa39">AdvancedPdf::ByteStream</a>
 </li>
 <li>streamImage()
 : <a class="el" href="classAdvancedPdfPage.html#a9e5ae173fa04b5009e241054ce77de3c">AdvancedPdfPage</a>
@@ -1728,7 +1730,7 @@ $(function() {
 : <a class="el" href="classOpenOrienteering_1_1SwitchDashesUndoStep.html#aca30035ca5ea0d920b813b99e806db8b">OpenOrienteering::SwitchDashesUndoStep</a>
 </li>
 <li>SwitchPartUndoStep()
-: <a class="el" href="classOpenOrienteering_1_1SwitchPartUndoStep.html#ad6844f4b21c975dfe1047127548a90fe">OpenOrienteering::SwitchPartUndoStep</a>
+: <a class="el" href="classOpenOrienteering_1_1SwitchPartUndoStep.html#a7e316c59a53b97bac8976f7088c8e7a3">OpenOrienteering::SwitchPartUndoStep</a>
 </li>
 <li>switchPatternEdits()
 : <a class="el" href="classOpenOrienteering_1_1AreaSymbolSettings.html#a55b843d3994ec8da7c665bc83551a021">OpenOrienteering::AreaSymbolSettings</a>
@@ -1792,7 +1794,7 @@ $(function() {
 : <a class="el" href="classOpenOrienteering_1_1Map.html#adfbe7944a54204e3bdc3296e91c17cd2">OpenOrienteering::Map</a>
 </li>
 <li>SymbolIconDecorator()
-: <a class="el" href="classOpenOrienteering_1_1SymbolIconDecorator.html#a236c751c67adbe7f53abd6a89e2b268a">OpenOrienteering::SymbolIconDecorator</a>
+: <a class="el" href="classOpenOrienteering_1_1SymbolIconDecorator.html#a3939291e1eeec5fbe041f9929a2e19d8">OpenOrienteering::SymbolIconDecorator</a>
 </li>
 <li>symbolIconZoom()
 : <a class="el" href="classOpenOrienteering_1_1Map.html#ad0f7e7d0c5ff72a79b53a4483ce432e4">OpenOrienteering::Map</a>
